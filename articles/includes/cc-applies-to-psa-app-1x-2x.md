@@ -1,0 +1,1 @@
+<span data-ttu-id="accdd-101">Geldt voor versies 2.x en 1.x van de Project Service-app</span><span class="sxs-lookup"><span data-stu-id="accdd-101">Applies to Project Service app versions 2.x and 1.x</span></span>

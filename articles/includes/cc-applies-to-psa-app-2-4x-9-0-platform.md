@@ -1,0 +1,1 @@
+<span data-ttu-id="be350-101">Geldt voor Project Service-app versie 2.4.4.30 of eerder op Dynamics 365 (online) versie 9.x</span><span class="sxs-lookup"><span data-stu-id="be350-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>
