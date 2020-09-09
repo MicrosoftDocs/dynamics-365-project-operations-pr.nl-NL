@@ -1,0 +1,440 @@
+- name: Dynamics 365 Project Operations (modus 2)
+  items:
+    - name: Startpagina Dynamics 365 Project Operations (modus 2)
+      href: project-operations-mode-2-home-page.md
+    - name: Toepasselijke scenario's
+      href: applicable-scenarios.md
+    - name: Nieuwe functies
+      href: whats-new-mode-2-project-operations.md
+    - name: Uw omgeving instellen
+      href: set-up-environment-mode-2.md
+    - name: Voorbeeldgegevens
+      href: sample-data-mode-2.md
+    - name: Verkoopproces
+      items:
+        - name: Overzicht van verkoopproces
+          href: ../project-operations/sales/sales-overview.md
+        - name: Belangrijkste verschillen
+          href: ../project-operations/sales/key-differences.md
+        - name: Instelling
+          items:
+            - name: Producten
+              href: ../project-operations/sales/sales-products.md
+            - name: Eenheden en eenhedengroepen
+              href: ../project-operations/sales/sales-units-unit-groups.md
+            - name: Valuta
+              href: ../project-operations/sales/sales-currency.md
+        - name: Leads beheren
+          href: ../project-operations/sales/managing-leads.md
+        - name: Verkoopkansen beheren
+          items:
+            - name: Header verkoopkans
+              href: ../project-operations/sales/opportunity-header.md
+            - name: Productgebaseerde regels
+              href: ../project-operations/sales/product-based-lines.md
+            - name: Projectgebaseerde regels
+              href: ../project-operations/sales/project-based-lines.md
+            - name: Prijsopgaven en verkoopkansen koppelen
+              href: ../project-operations/sales/link-quotes-opportunities.md
+            - name: Een verkoopkans afsluiten
+              href: ../project-operations/sales/close-opportunity.md
+        - name: Prijsopgaven beheren
+          items:
+            - name: Belangrijke concepten
+              href: ../project-operations/sales/quotes-key-concepts.md
+            - name: 'Waarden in prijsopgaven, klantbudgetten en niet-overschrijdingslimieten beheren'
+              href: ../project-operations/sales/quote-values-budget-limits.md
+            - name: Meerdere klanten in een prijsopgave beheren
+              href: ../project-operations/sales/manage-multiple-customers-quote.md
+            - name: Productgebaseerde prijsopgaveregels
+              items:
+                - name: Kostprijsberekening van productgebaseerde prijsopgaveregels
+                  href: ../project-operations/sales/costing-product-based-quote-lines.md
+                - name: Complexe eenheden voor productgebaseerde prijsopgaveregels beheren
+                  href: ../project-operations/sales/managing-complex-units-product-based-quote-lines.md
+            - name: Projectgebaseerde prijsopgaveregels
+              items:
+                - name: Projectprijslijsten beheren
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: Meerdere klanten op een prijsopgaveregel beheren
+                  href: ../project-operations/sales/manage-multiple-customers-quote-line.md
+                - name: Projecten en taken toewijzen aan een prijsopgaveregel
+                  href: ../project-operations/sales/mapping-projects-tasks-quote-line.md
+                - name: Schattingen maken op een prijsopgaveregel
+                  href: ../project-operations/sales/create-estimate-quote-line.md
+                - name: Schattingen importeren vanuit een project naar een prijsopgaveregel
+                  href: ../project-operations/sales/import-estimate-project-quote-line.md
+                - name: 'Waarden in prijsopgaven, klantbudgetten en niet-overschrijdingslimieten beheren'
+                  href: ../project-operations/sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: Factuurschema's voor een prijsopgaveregel
+                  href: ../project-operations/sales/invoice-schedule-quote-line.md
+            - name: Winnen met een prijsopgave
+              href: ../project-operations/sales/win-quote.md
+            - name: Verliezen met een prijsopgave
+              href: ../project-operations/sales/lose-quote.md
+        - name: Contracten beheren
+          items:
+            - name: Belangrijke concepten
+              href: ../project-operations/sales/contracts-key-concepts.md
+            - name: 'Contractwaarden, klantbudgetten en niet-overschrijdingslimieten beheren'
+              href: ../project-operations/sales/contract-quote-values-budgets-limits.md
+            - name: Meerdere klanten in een contract beheren
+              href: ../project-operations/sales/manage-multiple-customers-contract.md
+            - name: Productgebaseerde contractregels
+              items:
+                - name: Kostprijsberekening van productgebaseerde contractregels
+                  href: ../project-operations/sales/cost-product-based-contract-lines.md
+                - name: Complexe eenheden voor productgebaseerde contractregels beheren
+                  href: ../project-operations/sales/manage-complex-units-product-based-contract-lines.md
+            - name: Projectgebaseerde contractregels
+              items:
+                - name: Projectprijslijsten beheren
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: Meerdere klanten op een contractregel beheren
+                  href: ../project-operations/sales/manage-multiple-customers-contract-line.md
+                - name: Projecten en taken toewijzen aan een contractregel
+                  href: ../project-operations/sales/mapping-projects-tasks-contract-line.md
+                - name: Schattingen creëren vanuit een project op een contractregel
+                  href: ../project-operations/sales/create-estimate-project-contract-line.md
+                - name: Schattingen importeren vanuit een project naar een contractregel
+                  href: ../project-operations/sales/import-estimate-project-contract-line.md
+                - name: 'Contractwaarden, klantbudgetten en niet-overschrijdingslimieten beheren op een contractregel'
+                  href: ../project-operations/sales/manage-contract-values-project-based.md
+                - name: Factuurschema's voor een prijsopgaveregel
+                  href: ../project-operations/sales/invoice-schedules-quote-line.md
+            - name: Een contract bevestigen
+              href: ../project-operations/sales/confirm-contract.md
+            - name: Een contract sluiten als het werk is voltooid
+              href: ../project-operations/sales/close-contract-work-completed.md
+            - name: Een contract sluiten als geannuleerd
+              href: ../project-operations/sales/close-contract-canceled.md
+    - name: Prijzen en kosten berekenen
+      items:
+        - name: Productprijslijsten
+          href: ../project-operations/pricing-costing/product-price-lists.md
+        - name: Projectprijslijsten
+          items:
+            - name: Prijslijst voor kosten
+              items:
+                - name: Kostenprijslijsten instellen
+                  href: ../project-operations/pricing-costing/cost-price-list-setup.md
+                - name: Standaardwaarden van prijslijst
+                  href: ../project-operations/pricing-costing/cost-price-list-default.md
+                - name: Standaardwaarden overschrijven
+                  href: ../project-operations/pricing-costing/cost-override-default.md
+            - name: Prijslijstinstelling voor verkoop
+              items:
+                - name: Verkoopprijslijst instellen
+                  href: ../project-operations/pricing-costing/sales-price-list-setup.md
+                - name: Standaardwaarden van verkoopprijslijst
+                  href: ../project-operations/pricing-costing/sales-price-list-default.md
+                - name: Standaardwaarden overschrijven
+                  href: ../project-operations/pricing-costing/sales-override-default.md
+        - name: Prijsdimensies
+          items:
+            - name: Overzicht van prijsdimensies
+              href: ../project-operations/pricing-costing/pricing-dimension-overview.md
+            - name: Een bestaand veld in Project Operations gebruiken als een prijsdimensie
+              href: ../project-operations/pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Aangepaste velden als prijsdimensie
+              items:
+                - name: Aangepaste velden en entiteiten maken als prijsdimensies
+                  href: ../project-operations/pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
+                  href: ../project-operations/pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Aangepaste velden instellen als prijsdimensies
+                  href: ../project-operations/pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Een prijsdimensie uitschakelen
+              href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
+    - name: Projectbeheer
+      items:
+        - name: Overzicht van projectbeheer
+          href: ../project-operations/project-management/project-management-overview.md
+        - name: Projectfasen
+          href: ../project-operations/project-management/project-stages.md
+        - name: Navigeren door de gebruikersinterface
+          href: ../project-operations/project-management/navigate-ui.md
+        - name: De projectstatus
+          href: ../project-operations/project-management/understand-project-status.md
+        - name: Projectkalenders definiëren
+          href: ../project-operations/project-management/define-project-calendars.md
+        - name: Een project maken
+          items:
+            - name: Eerste schattingen maken
+              href: ../project-operations/project-management/create-initial-estimates.md
+            - name: De projectkalender instellen
+              href: ../project-operations/project-management/set-project-calendar.md
+            - name: De valuta voor het project instellen
+              href: ../project-operations/project-management/set-project-currency.md
+            - name: Een klant definiëren
+              href: ../project-operations/project-management/set-customer.md
+            - name: Een groep toevoegen
+              href: ../project-operations/project-management/add-group.md
+        - name: Een project bijwerken
+          href: ../project-operations/project-management/update-project.md
+        - name: Een project kopiëren
+          href: ../project-operations/project-management/copy-project.md
+        - name: Een structuur voor werkspecificatie plannen
+          items:
+            - name: Een structuur voor werkspecificatie maken
+              items:
+                - name: Taken maken
+                  href: ../project-operations/project-management/wbs-create-tasks.md
+                - name: 'Taken knippen, kopiëren en plakken'
+                  href: ../project-operations/project-management/cut-copy-paste-tasks.md
+                - name: Taken ongedaan maken en opnieuw uitvoeren
+                  href: ../project-operations/project-management/undo-redo-tasks-wbs.md
+                - name: Hiërarchie van een structuur voor werkspecificatie
+                  href: ../project-operations/project-management/work-breakdown-structure-hierarchy.md
+                - name: Bulktaakupdates
+                  href: ../project-operations/project-management/bulk-task-updates.md
+                - name: Taakdetails bewerken
+                  href: ../project-operations/project-management/edit-task-details.md
+            - name: Toewijzingen maken
+              items:
+                - name: Bestaande resources toevoegen
+                  href: ../project-operations/project-management/add-existing-resources.md
+                - name: Algemene resources toevoegen
+                  href: ../project-operations/project-management/add-generic-resources.md
+                - name: 'Inzicht in de impact van toewijzingen op de taakinspanning, duur en einddatum'
+                  href: ../project-operations/project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Contouren van een toewijzing weergeven
+                  href: ../project-operations/project-management/view-assignment-contours.md
+            - name: Navigeren in de taakbeheerervaring
+              items:
+                - name: Kolommen beheren
+                  href: ../project-operations/project-management/column-management.md
+                - name: Weergaven
+                  href: ../project-operations/project-management/task-management-views.md
+                - name: Buckets
+                  href: ../project-operations/project-management/task management-buckets.md
+        - name: Ramingsprojecten
+          items:
+            - name: Overzicht van ramingsprojecten
+              href: ../project-operations/project-management/estimate-projects-overview.md
+            - name: Resource-schattingen
+              items:
+                - name: Projectschattingen vernieuwen om wijzigingen in het projectplan weer te geven
+                  href: ../project-operations/project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Prijzen en kostentarieven voor projectschattingen vernieuwen
+                  href: ../project-operations/project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Standaardwaarden voor resourcekostprijs en kostenvaluta
+                  href: ../project-operations/project-management/resource-default-cost-price-cost-currency.md
+                - name: Standaardwaarden voor factureringstarief en verkoopvaluta
+                  href: ../project-operations/project-management/resource-default-bill-rate-sales-currency.md
+            - name: Onkostenramingen maken
+              items:
+                - name: Standaardwaarden voor de kostprijs voor onkosten en kostenvaluta
+                  href: ../project-operations/project-management/expense-default-cost-price-cost-currency.md
+                - name: Standaardwaarden voor het factureringstarief voor onkosten en verkoopvaluta
+                  href: ../project-operations/project-management/expense-default-bill-rate-sales-currency.md
+        - name: Prijsopgaven en contracten opstellen
+          items:
+            - name: Structuur voor werkspecificatie importeren in prijsopgaven
+              href: ../project-operations/project-management/import-wbs-structure-quotes.md
+            - name: Structuur voor werkspecificatie importeren in contracten
+              href: ../project-operations/project-management/import-wbs-structure-contracts.md
+        - name: Projecten bijhouden
+          items:
+            - name: Startpagina voor het bijhouden van projecten
+              href: ../project-operations/project-management/cost-vs-effort-overview.md
+            - name: Kolomdefinities
+              items:
+                - name: Inspanning
+                  href: ../project-operations/project-management/effort.md
+                - name: Kosten
+                  href: ../project-operations/project-management/cost.md
+                - name: Verkoop
+                  href: ../project-operations/project-management/sales.md
+            - name: Schatting bij voltooiing bijwerken
+              href: ../project-operations/project-management/update-completed-estimate.md
+        - name: Projectteamleden
+          items:
+            - name: Overzicht van projectteamleden
+              href: ../project-operations/project-management/project-team-members-overview.md
+            - name: Teamleden onderhouden
+              items:
+                - name: Teamleden toevoegen
+                  href: ../project-operations/project-management/add-team-members.md
+                - name: Projectteamleden bijwerken
+                  href: ../project-operations/project-management/update-project-team-members.md
+                - name: Teamleden verwijderen
+                  href: ../project-operations/project-management/delete-team-members.md
+                - name: Boekingen onderhouden
+                  href: ../project-operations/project-management/maintain-bookings.md
+                - name: Projectfiatteurs
+                  href: ../project-operations/project-management/project-approvers.md
+        - name: Verkoop
+          items:
+            - name: Overzicht van tabblad Verkoop
+              href: ../project-operations/project-management/sales-tab-overview.md
+        - name: Samenwerking
+          items:
+            - name: Groepen
+              href: ../project-operations/project-management/groups.md
+        - name: Veerlgestelde vragen over projectplanning
+          href: ../project-operations/project-management/project-planning-faq.md
+    - name: Resourcebeheer
+      items:
+        - name: Overzicht van resourcebeheer
+          href: ../project-operations/resource-management/resource-management-overview.md
+        - name: Belangrijke concepten
+          href: ../project-operations/resource-management/resource-management-key-concepts.md
+        - name: Boekingen versus toewijzingen
+          href: ../project-operations/resource-management/booking-vs-assignment.md
+        - name: Resourcebeheermodi
+          items:
+            - name: Overzicht van resourcebeheermodi
+              href: ../project-operations/resource-management/resource-management-mode-overview.md
+            - name: Hybride
+              href: ../project-operations/resource-management/resource-management-mode-hybrid.md
+            - name: Centraal
+              href: ../project-operations/resource-management/resource-management-mode-central.md
+        - name: Gecentraliseerd boeken
+          items:
+            - name: Overzicht van gecentraliseerd boeken
+              href: ../project-operations/resource-management/centralized-booking-overview.md
+            - name: Algemene teamleden toevoegen aan taken
+              href: ../project-operations/resource-management/add-generic-team-members-tasks.md
+            - name: Resourcevereisten definiëren
+              href: ../project-operations/resource-management/define-resource-requirements.md
+            - name: Vereistecontouren definiëren
+              href: ../project-operations/resource-management/define-resource-requirement-contours.md
+            - name: Resourcevereisten bijwerken
+              href: ../project-operations/resource-management/update-resource-requirements.md
+            - name: Resourcevereisten indienen
+              href: ../project-operations/resource-management/submit-resource-requirements.md
+            - name: Resourceaanvragen
+              items:
+                - name: Overzicht van resourceaanvragen
+                  href: ../project-operations/resource-management/resource-requests-overview.md
+                - name: Velden en acties beoordelen
+                  href: ../project-operations/resource-management/review-fields-actions.md
+                - name: Resources zoeken
+                  href: ../project-operations/resource-management/find-resources.md
+                - name: Voorgestelde resources beoordelen
+                  href: ../project-operations/resource-management/review-proposed-resources.md
+        - name: Gedecentraliseerde boeking van resources
+          items:
+            - name: Overzicht van gedecentraliseerde boeking van resources
+              href: ../project-operations/resource-management/decentralized-resource-booking-overview.md
+            - name: Opties voor direct boeken
+              href: ../project-operations/resource-management/options-book-directly.md
+            - name: Voldoen aan algemene resourcevereisten
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Beheer van resources
+          items:
+            - name: Resources maken
+              href: ../project-operations/resource-management/create-resources.md
+            - name: Vaardigheden en deskundigheden definiëren
+              href: ../project-operations/resource-management/define-skills-proficiencies.md
+            - name: Rollen definiëren
+              href: ../project-operations/resource-management/define-roles.md
+            - name: Resourcekalenders definiëren
+              href: ../project-operations/resource-management/define-resource-calendars.md
+            - name: Resources koppelen aan organisatie-eenheden
+              href: ../project-operations/resource-management/associate-resources-organizational-units.md
+            - name: Resources koppelen aan bedrijven
+              href: ../project-operations/resource-management/associate-resources-companies.md
+        - name: Toewijzingsmethoden voor boekingen
+          href: ../project-operations/resource-management/booking-allocation-methods.md
+        - name: Boekingsstatussen
+          href: resource-management/booking-status.md
+        - name: Vaardigheids- en deskundigheidsmodellen
+          href: ../project-operations/resource-management/skills-proficiency-models.md
+        - name: Afstemming van resources
+          items:
+            - name: Overzicht van de afstemming van resources
+              href: ../project-operations/resource-management/resource-reconciliation-overview.md
+            - name: Belangrijke concepten
+              href: ../project-operations/resource-management/resource-reconciliation-key-concepts.md
+            - name: Navigatie
+              href: ../project-operations/resource-management/resource-reconciliation-navigation.md
+            - name: Boekingen uitbreiden
+              href: ../project-operations/resource-management/extend-bookings.md
+            - name: Meerdere tijdzones beheren
+              href: ../project-operations/resource-management/manage-multiple-time-zones.md
+        - name: Bestede uren van resource
+          items:
+            - name: Overzicht van bestede uren van resource
+              href: ../project-operations/resource-management/resource-utilization-overview.md
+            - name: 'Zoeken, instellingen en navigatie'
+              href: ../project-operations/resource-management/search-settings-navigation.md
+        - name: Planbord
+          items:
+            - name: Navigatie en belangrijke instellingen
+              href: ../project-operations/resource-management/navigation-key-settings-urs.md
+            - name: Persoonlijke aanpassingen
+              href: ../project-operations/resource-management/personalization-urs.md
+            - name: Zoeken
+              href: ../project-operations/resource-management/search-urs.md
+            - name: Boekingsacties
+              href: ../project-operations/resource-management/booking-actions-urs.md
+            - name: Boeking
+              items:
+                - name: Boeken voor een project
+                  href: ../project-operations/resource-management/book-project.md
+                - name: Open vereisten boeken
+                  href: ../project-operations/resource-management/book-open-requirements.md
+                - name: Resources vervangen
+                  href: ../project-operations/resource-management/substitute-resources.md
+                - name: Bestaande boekingen bewerken
+                  href: ../project-operations/resource-management/edit-existing-bookings.md
+        - name: Veelgestelde vragen over resourcebeheer
+          href: ../project-operations/resource-management/resource-management-faq.md
+    - name: Tijd
+      items:
+        - name: Overzicht van tijdinvoer
+          href: ../project-operations/time/time-entry-overview.md
+        - name: Tijdsvermeldingen maken
+          items:
+            - name: 'Boekingen, toewijzingen en agenda-items importeren'
+              href: ../project-operations/time/import-bookings-assignments-calendar-entries.md
+            - name: Gedrag van gebruikersinterface
+              href: ../project-operations/time/ui-behavior.md
+        - name: Tijdsvermeldingen verzenden
+          href: ../project-operations/time/submit-time-entries.md
+        - name: Tijdsvermeldingen intrekken
+          items:
+            - name: Voor goedkeuring
+              href: ../project-operations/time/recall-time-entries-before-approval.md
+            - name: Na goedkeuring
+              href: ../project-operations/time/recall-time-entries-after-approval.md
+        - name: Tijdsvermeldingen goedkeuren
+          href: ../project-operations/time/approvals.md
+        - name: Opmerkingen van de ontwikkelaar
+          items:
+            - name: Tijdsvermeldingen verlengen
+              href: ../project-operations/time/extending-time-entries.md
+            - name: Het wekelijkse tijdsvermeldingsraster aanpassen
+              href: ../project-operations/time/customize-weekly-time-entry-grid.md
+            - name: Beveiligingsoverwegingen
+              href: ../project-operations/time/security-considerations.md
+    - name: Onkosten
+      items:
+        - name: Startpagina voor onkosten
+          href: ../project-operations/expense/expense-overview.md
+        - name: Onkostenpost
+          href: expense-entry.md
+    - name: Goedkeuringen
+      items:
+        - name: Overzicht
+          href: ../project-operarations/approvals/approvals-overview.md
+        - name: Tijdsvermeldingen goedkeuren
+          href: approvals/approving-time-entries.md
+        - name: Onkostenposten goedkeuren
+          href: approve-expense-entries.md
+    - name: Pro-formafacturering
+      items:
+        - name: Factuurschema's maken
+          href: ../project-operarations/proforma-invoicing/create-invoice-schedules.md
+        - name: Handmatig een pro-formafactuur maken
+          href: ../project-operarations/proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Een pro-formafactuur beheren
+          href: ../project-operarations/proforma-invoicing/manage-proforma-invoice.md
+        - name: Een pro-formafactuur bevestigen
+          href: ../project-operarations/proforma-invoicing/confirm-proforma-invoice.md
+        - name: Corrigerende facturen
+          href: ../project-operarations/proforma-invoicing/corrective-invoices.md
+        - name: Een taak voor het automatisch maken van facturen configureren
+          href: ../project-operarations/proforma-invoicing/configure-automated-invoice-creation.md

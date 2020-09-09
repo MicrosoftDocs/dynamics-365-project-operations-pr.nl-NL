@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> De functionaliteit die in dit artikel wordt vermeld, is slechts beschikbaar voor bepaalde gebruikers als onderdeel van een preview-versie. De inhoud en functionaliteit zijn aan verandering onderhevig. Zie [Veelgestelde vragen over One Version-service-updates](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version) voor meer informatie over preview-versies.

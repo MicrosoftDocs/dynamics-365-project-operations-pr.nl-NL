@@ -1,0 +1,1 @@
+Deze functie wordt ondersteund in Dynamics CRM Online 2016 Update 1. Wilt u ook over deze mogelijkheid beschikken? [Vind uw Dynamics 365-beheerder of -ondersteuningsmedewerker](../basics/find-administrator-support.md)
