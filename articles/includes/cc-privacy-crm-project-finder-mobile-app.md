@@ -1,0 +1,25 @@
+---
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069455"
+---
+<span data-ttu-id="4362c-101">Door de mobiele app Project Finder in te schakelen, biedt u gebruikers in de organisatie zicht op projectwerk en stelt u hen in staat zich aan te melden voor werk.</span><span class="sxs-lookup"><span data-stu-id="4362c-101">By enabling the Project Finder mobile app, you provide users in the organization with visibility into project work and the ability to sign up for work.</span></span> <span data-ttu-id="4362c-102">Gebruikers kunnen ook werken met de app Project Finder om hun vaardigheden te bekijken en bij te werken.</span><span class="sxs-lookup"><span data-stu-id="4362c-102">Users can also work with the Project Finder app to view and update their skills.</span></span> <span data-ttu-id="4362c-103">De mobiele app Project Finder wordt ingeschakeld via de parameterinstellingen voor Projectservice, door de waarde van de kenmerken Resourcevereisten zichtbaar voor resources en Resourcevereisten zichtbaar voor resources in te stellen op Ja.</span><span class="sxs-lookup"><span data-stu-id="4362c-103">The Project Finder mobile app is enabled via the Project Service Parameters Setting, by setting the value of the Resource requirements visible to resources and Allow skill update by resource attributes to Yes.</span></span> <span data-ttu-id="4362c-104">Deze functionaliteit wordt uitgeschakeld als u de waarde van deze kenmerken in Nee wijzigt.</span><span class="sxs-lookup"><span data-stu-id="4362c-104">Changing the value of these attributes to No disables this functionality.</span></span>  
+  
+ <span data-ttu-id="4362c-105">Bij gebruik van deze functie moet u rekening houden met de volgende punten:</span><span class="sxs-lookup"><span data-stu-id="4362c-105">When using this feature, be sure to consider the following key points:</span></span>  
+  
+-   <span data-ttu-id="4362c-106">Resourcevereisten zichtbaar voor resources.</span><span class="sxs-lookup"><span data-stu-id="4362c-106">Resource requirements visible to resources.</span></span> <span data-ttu-id="4362c-107">Als dit kenmerk op Ja wordt ingesteld, kunnen gebruikers projectwerk bekijken. Hierbij wordt de volgende informatie weergegeven over een project:</span><span class="sxs-lookup"><span data-stu-id="4362c-107">Setting this attribute to Yes provides users with visibility into project work exposes the following information about a project:</span></span>  
+  
+    -   <span data-ttu-id="4362c-108">Projectnaam</span><span class="sxs-lookup"><span data-stu-id="4362c-108">Project name</span></span>  
+  
+    -   <span data-ttu-id="4362c-109">Rolnaam</span><span class="sxs-lookup"><span data-stu-id="4362c-109">Role name</span></span>  
+  
+    -   <span data-ttu-id="4362c-110">Klantnaam</span><span class="sxs-lookup"><span data-stu-id="4362c-110">Customer name</span></span>  
+  
+    -   <span data-ttu-id="4362c-111">Klantadres</span><span class="sxs-lookup"><span data-stu-id="4362c-111">Customer address</span></span>  
+  
+    -   <span data-ttu-id="4362c-112">Werkduur</span><span class="sxs-lookup"><span data-stu-id="4362c-112">Work duration</span></span>  
+  
+-   <span data-ttu-id="4362c-113">Vaardigheidsupdate door resource toestaan.</span><span class="sxs-lookup"><span data-stu-id="4362c-113">Allow skill update by resource.</span></span> <span data-ttu-id="4362c-114">Als dit kenmerk wordt ingesteld op Ja, kunnen gebruikers vaardigheden toevoegen aan hun profiel en het deskundigheidsniveau instellen voor de vaardigheden die zij toevoegen.</span><span class="sxs-lookup"><span data-stu-id="4362c-114">Setting this attribute to Yes provides users with the ability to add skills to their profiles and to set their level of proficiency for the skills they add.</span></span>
