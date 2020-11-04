@@ -1,0 +1,93 @@
+---
+title: Voorgestelde resources beoordelen
+description: Dit onderwerp bevat informatie over hoe u projectresources kunt voorstellen.
+author: ruhercul
+manager: AnnBe
+ms.date: 09/23/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-customerservice
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: ruhercul
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074531"
+---
+# <a name="review-proposed-resources"></a><span data-ttu-id="0fd84-103">Voorgestelde resources beoordelen</span><span class="sxs-lookup"><span data-stu-id="0fd84-103">Review proposed resources</span></span>
+
+<span data-ttu-id="0fd84-104">_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_</span><span class="sxs-lookup"><span data-stu-id="0fd84-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="0fd84-105">Resourcemanagers kunnen een resource voorstellen aan de projectmanager door middel van een resourceaanvraag.</span><span class="sxs-lookup"><span data-stu-id="0fd84-105">Resource managers can propose a resource to the project manager by using a resource request.</span></span>
+
+1. <span data-ttu-id="0fd84-106">Selecteer in het aanvraagraster of in de aanvraag zelf **Resources zoeken**.</span><span class="sxs-lookup"><span data-stu-id="0fd84-106">From the request grid or the request itself, select **Find Resources**.</span></span>
+2. <span data-ttu-id="0fd84-107">Selecteer op de pagina **Planningsassistent** de resource en selecteer vervolgens in het deelvenster **Resourceboeking maken** in het veld **Boekingsstatus** de optie **Boeken**.</span><span class="sxs-lookup"><span data-stu-id="0fd84-107">On the **Schedule Assistant** page, select the resource, and then, in the **Create Resource Booking** pane, in the **Booking Status** field, select **Book**.</span></span>
+
+<span data-ttu-id="0fd84-108">De volgende statusupdates worden uitgevoerd:</span><span class="sxs-lookup"><span data-stu-id="0fd84-108">The following status updates occur:</span></span>
+
+- <span data-ttu-id="0fd84-109">Op de pagina **Planningsassistent** worden de statusindicatoren bijgewerkt om aan te geven dat de boeking wordt voorgesteld en niet hard geboekt is.</span><span class="sxs-lookup"><span data-stu-id="0fd84-109">On the **Schedule Assistant** page, the status indicators are updated to indicate that the booking is proposed, not hard-booked.</span></span>
+- <span data-ttu-id="0fd84-110">Op de resourceaanvraag wordt de status gewijzigd in **Moet worden geëvalueerd**.</span><span class="sxs-lookup"><span data-stu-id="0fd84-110">On the resource request, the status is changed to **Needs Review**.</span></span>
+- <span data-ttu-id="0fd84-111">Op het tabblad **Team** van het project wordt de **Aanvraagstatus** van het algemene teamlid gewijzigd in **Moet worden geëvalueerd**.</span><span class="sxs-lookup"><span data-stu-id="0fd84-111">On the **Team** tab of the project, the generic team member's **Request Status** value is changed to **Needs Review**.</span></span>
+
+<span data-ttu-id="0fd84-112">De projectmanager kan het voorstel accepteren of afwijzen.</span><span class="sxs-lookup"><span data-stu-id="0fd84-112">The project manager can either accept or reject the proposal.</span></span>
+
+<span data-ttu-id="0fd84-113">Wanneer resourcemanagers resourceaanvragen verwerken, kunnen ze een van de volgende benaderingen gebruiken:</span><span class="sxs-lookup"><span data-stu-id="0fd84-113">When resource managers process resource requests, they can use any of the following approaches:</span></span>
+
+- <span data-ttu-id="0fd84-114">Stel meerdere resources voor om aan de vraag te voldoen, als er niet een enkele resource beschikbaar is om de vereiste uren te vervullen.</span><span class="sxs-lookup"><span data-stu-id="0fd84-114">Propose multiple resources to satisfy the demand if no single resource is available to fulfill the required hours.</span></span> <span data-ttu-id="0fd84-115">Voorgestelde uren worden vervolgens verdeeld over meerdere resources, die kunnen voldoen aan de vereiste uren.</span><span class="sxs-lookup"><span data-stu-id="0fd84-115">Proposed hours are then split among multiple resources that can satisfy the required hours.</span></span> <span data-ttu-id="0fd84-116">In dit scenario kunnen de uren niet overlappen.</span><span class="sxs-lookup"><span data-stu-id="0fd84-116">In this scenario, the hours can't overlap.</span></span>
+- <span data-ttu-id="0fd84-117">Stel minder resources voor dan nodig is.</span><span class="sxs-lookup"><span data-stu-id="0fd84-117">Propose fewer resources than are required.</span></span> <span data-ttu-id="0fd84-118">In dit scenario is de voorgestelde resourcecapaciteit minder dan de vereiste uren die de aanvrager heeft opgegeven.</span><span class="sxs-lookup"><span data-stu-id="0fd84-118">In this scenario, the proposed resource capacity is less than the required hours that the requestor specified.</span></span> <span data-ttu-id="0fd84-119">Wanneer de aanvrager de voorgestelde resources accepteert, wordt er daarom een niet-vervulde resourcevereiste gemaakt om de overblijvende vraag vast te leggen.</span><span class="sxs-lookup"><span data-stu-id="0fd84-119">Therefore, when the requestor accepts the proposed resources, an unfulfilled resource requirement is created to capture the remaining demand.</span></span>
+- <span data-ttu-id="0fd84-120">Boek meerdere resources om aan de vraag te voldoen, als er niet één enkele resource beschikbaar is om het werk te voltooien.</span><span class="sxs-lookup"><span data-stu-id="0fd84-120">Book multiple resources to satisfy the demand if no single resource is available to complete the work.</span></span>
+- <span data-ttu-id="0fd84-121">Boek minder resources dan vereist.</span><span class="sxs-lookup"><span data-stu-id="0fd84-121">Book fewer resources than are required.</span></span> <span data-ttu-id="0fd84-122">In dit scenario zijn de geboekte uren minder dan de vereiste uren.</span><span class="sxs-lookup"><span data-stu-id="0fd84-122">In this scenario, the booked hours are fewer than the required hours.</span></span> <span data-ttu-id="0fd84-123">Het systeem begeleidt u bij het voorstellen van resources in plaats van boekingen, zodat de aanvrager de resterende vraag kan controleren en volgen.</span><span class="sxs-lookup"><span data-stu-id="0fd84-123">The system guides you to propose resources instead of bookings, so that the requestor can verify and keep track of remaining demand.</span></span>
+
+## <a name="billable-utilization"></a><span data-ttu-id="0fd84-124">Factureerbare uren</span><span class="sxs-lookup"><span data-stu-id="0fd84-124">Billable utilization</span></span>
+
+<span data-ttu-id="0fd84-125">Resources kunnen een doelwaarde voor factureerbare bestede uren hebben.</span><span class="sxs-lookup"><span data-stu-id="0fd84-125">Resources can have a target billable utilization.</span></span> <span data-ttu-id="0fd84-126">Dit doel voor bestede uren is gedefinieerd als een kenmerk voor de standaardrol van een resource, of is ingesteld in de record van de individuele boekbare resource.</span><span class="sxs-lookup"><span data-stu-id="0fd84-126">This target utilization is either defined as an attribute on a resource's default role or set on the record of the individual bookable resource.</span></span> <span data-ttu-id="0fd84-127">Berekeningen van bestede uren zijn gebaseerd op de werkelijke uren die resources hebben gerapporteerd door middel van goedgekeurde tijdsvermeldingen.</span><span class="sxs-lookup"><span data-stu-id="0fd84-127">Utilization calculations are based on the actual hours that resources have reported by using approved time entries.</span></span>
+
+<span data-ttu-id="0fd84-128">De volgende formules worden gebruikt om het gebruik te berekenen:</span><span class="sxs-lookup"><span data-stu-id="0fd84-128">The following formulas are used to calculate utilization:</span></span>
+
+- <span data-ttu-id="0fd84-129">Factureerbare uren = Factureerbare werkelijke uren ÷ Resourcecapaciteit</span><span class="sxs-lookup"><span data-stu-id="0fd84-129">Billable utilization = Chargeable actual hours ÷ Resource capacity</span></span>
+- <span data-ttu-id="0fd84-130">Niet-factureerbare uren = Werkelijke tijd met factureringstype-ID = Niet-factureerbaar, Complementair of Niet beschikbaar ÷ Resourcecapaciteit</span><span class="sxs-lookup"><span data-stu-id="0fd84-130">Non-billable utilization = Actual time with billing type ID = Non-chargeable, Complementary, or Not available ÷ Resource capacity</span></span>
+- <span data-ttu-id="0fd84-131">Intern = Werkelijke tijd zonder verkoopcontract ÷ Resourcecapaciteit</span><span class="sxs-lookup"><span data-stu-id="0fd84-131">Internal = Actual time with no sales contract ÷ Resource capacity</span></span>
+- <span data-ttu-id="0fd84-132">Resourcecapaciteit = Werkuren van resource – Afwezig – Niet-werkdagen</span><span class="sxs-lookup"><span data-stu-id="0fd84-132">Resource capacity = Resource work hours – Out-of-office – Non-working days</span></span>
+
+<span data-ttu-id="0fd84-133">De weergave **Bestede uren van resource** vindt u in het deelvenster **Resources**.</span><span class="sxs-lookup"><span data-stu-id="0fd84-133">You can find the **Resource Utilization** view in the **Resources** pane.</span></span>
+
+<span data-ttu-id="0fd84-134">Elke cel in het raster vertegenwoordigt het het percentage factureerbare uren van de resource in een periode, zoals een dag, week of maand.</span><span class="sxs-lookup"><span data-stu-id="0fd84-134">Each cell in the grid represents the billable utilization percentage of the resource in a period, such as a day, week, or month.</span></span> <span data-ttu-id="0fd84-135">De volgende formules worden gebruikt voor de kleur van de cellen:</span><span class="sxs-lookup"><span data-stu-id="0fd84-135">The following formulas are used to color the cells:</span></span>
+
+- <span data-ttu-id="0fd84-136">**Groen:** Factureerbare bestede uren \>= doel voor Bestede uren van resource</span><span class="sxs-lookup"><span data-stu-id="0fd84-136">**Green:** Billable utilization \>= Resource target utilization</span></span>
+- <span data-ttu-id="0fd84-137">**Geel:** Doel voor bestede uren - 20 \<= Factureerbare bestede uren \< doel voor Bestede uren</span><span class="sxs-lookup"><span data-stu-id="0fd84-137">**Yellow:** Target utilization – 20 \<= Billable utilization \< Target utilization</span></span>
+- <span data-ttu-id="0fd84-138">**Rood:** Factureerbare bestede uren \< doel voor bestede uren – 20</span><span class="sxs-lookup"><span data-stu-id="0fd84-138">**Red:** Billable utilization \< Target utilization – 20</span></span>
+
+<span data-ttu-id="0fd84-139">Omdat de weergave **Bestede uren van resource** is gebaseerd op het planbord, kunt u met de filtermogelijkheden van het planbord uw resultaten filteren.</span><span class="sxs-lookup"><span data-stu-id="0fd84-139">Because the **Resource Utilization** view is based on the Schedule Board, you can use the filtering capabilities of the Schedule Board to filter your results.</span></span>
+
+<span data-ttu-id="0fd84-140">Het raster vereist dat u een doelwaarde voor bestede uren instelt voor de rol of voor de individuele resource.</span><span class="sxs-lookup"><span data-stu-id="0fd84-140">The grid requires that you set a target utilization on either the role or the individual resource.</span></span> <span data-ttu-id="0fd84-141">Dit kunt u doen in **Resources** \> **Resourcerollen**.</span><span class="sxs-lookup"><span data-stu-id="0fd84-141">To do this setup, go to **Resources** \> **Resource roles**.</span></span>
+
+<span data-ttu-id="0fd84-142">Daarnaast moet een standaardrol worden toegewezen aan elke boekbare resource.</span><span class="sxs-lookup"><span data-stu-id="0fd84-142">Additionally, a default role must be assigned to each bookable resource.</span></span> <span data-ttu-id="0fd84-143">Ga naar **Resources** \> **Resources**.</span><span class="sxs-lookup"><span data-stu-id="0fd84-143">Go to **Resources** \> **Resources**.</span></span> <span data-ttu-id="0fd84-144">Controleer op het tabblad **Project Service** of een resourerol is gedefinieerd en of het veld **Is standaard** is ingesteld op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="0fd84-144">On the **Project Service** tab, verify that a resource role is defined, and that the **Is Default** field for it is set to **Yes**.</span></span> <span data-ttu-id="0fd84-145">U kunt extra rollen toevoegen waar **Is standaard = Nee**.</span><span class="sxs-lookup"><span data-stu-id="0fd84-145">You can add additional roles where **Is Default = No**.</span></span> <span data-ttu-id="0fd84-146">De rol waar **Is standaard = Ja** , wordt gebruikt voor het evalueren van de bestede uren van de resource ten opzichte van het doel voor die rol.</span><span class="sxs-lookup"><span data-stu-id="0fd84-146">The role where the **Is Default = Yes** is used to evaluate the resource's utilization against the target for that role.</span></span>
+
+<span data-ttu-id="0fd84-147">Op het tabblad **Project Service** kunt u ook een afzonderlijk doel voor bestede uren voor de resource instellen.</span><span class="sxs-lookup"><span data-stu-id="0fd84-147">On the **Project Service** tab, you can also set an individual target utilization for the resource.</span></span> <span data-ttu-id="0fd84-148">De berekening van de bestede uren gebruikt vervolgens die doelwaarde om te het doel van de resource te evalueren, in plaats van het doel van de standaardrol van de resource.</span><span class="sxs-lookup"><span data-stu-id="0fd84-148">The utilization calculation then uses that target utilization to evaluate the resource's target instead of the target of the resource's default role.</span></span>
+
+<span data-ttu-id="0fd84-149">De bestede uren worden alleen voor een resource weergegeven als die resource goedgekeurde, factureerbare tijd heeft in de periode die wordt weergegeven in het raster.</span><span class="sxs-lookup"><span data-stu-id="0fd84-149">Utilization is shown for a resource only if that resource has approved, chargeable time during the period that is shown in the grid.</span></span>
+
+## <a name="resource-availability"></a><span data-ttu-id="0fd84-150">Resourcebeschikbaarheid</span><span class="sxs-lookup"><span data-stu-id="0fd84-150">Resource availability</span></span>
+
+<span data-ttu-id="0fd84-151">Het is essentieel dat resourcemanagers de beschikbaarheid van resources kunnen bekijken en boekingen kunnen bijwerken.</span><span class="sxs-lookup"><span data-stu-id="0fd84-151">It's critical that resource managers be able to view the availability of resources and update bookings.</span></span> <span data-ttu-id="0fd84-152">In sommige gevallen is er geen formele vraag (resourceaanvraag), maar moet een resourcemanager reageren op een niet-geplande vraag die binnenkomt via kanalen zoals een e-mail, telefoongesprek of chat.</span><span class="sxs-lookup"><span data-stu-id="0fd84-152">In some cases, there is no formal demand (resource request), but a resource manager must respond to an unplanned demand that comes through channels such as an email, phone call, or instant message.</span></span> <span data-ttu-id="0fd84-153">Resourcemanagers gebruiken het planbord om resources en boekingen bij te werken.</span><span class="sxs-lookup"><span data-stu-id="0fd84-153">Resource managers use the Schedule Board to update resources and bookings.</span></span>
+
+<span data-ttu-id="0fd84-154">Werkuren van een resource worden gebruikt als basis voor het berekenen van de beschikbaarheid van een resource.</span><span class="sxs-lookup"><span data-stu-id="0fd84-154">Resource work hours are used as the basis for calculating the availability of a resource.</span></span> <span data-ttu-id="0fd84-155">Resourceboekingen verbruiken de capaciteit van de resources.</span><span class="sxs-lookup"><span data-stu-id="0fd84-155">Resource bookings consume the capacity of the resources.</span></span>
+
+<span data-ttu-id="0fd84-156">Het planbord gebruikt kleuren en arcering om boekingen, beschikbaarheid en overboekingen weer te geven, en ook de status van boekingen.</span><span class="sxs-lookup"><span data-stu-id="0fd84-156">The Schedule Board uses colors and shading to show bookings, availability, and overbookings, and also the status of bookings.</span></span> <span data-ttu-id="0fd84-157">Met een instelling in de instellingen van het planbord kunt u een legenda laten weergeven.</span><span class="sxs-lookup"><span data-stu-id="0fd84-157">A setting in the Schedule Board settings lets you show a legend.</span></span>
+
+<span data-ttu-id="0fd84-158">Als er naast een individuele boekbare resource op het planbord een pijl naar rechts wordt weergegeven, kan de resource worden uitgevouwen om details weer te geven van het werk waarvoor de resource is geboekt.</span><span class="sxs-lookup"><span data-stu-id="0fd84-158">If a right-pointing arrow appears next to an individual bookable resource on the Schedule Board, the resource can be expanded to show details of the work that the resource is booked on.</span></span>
+
+<span data-ttu-id="0fd84-159">Omdat Dynamics 365 Project Operations de Universal Resource Scheduling-engine gebruikt kunt u, als ook Dynamics 365 Field Service is geïnstalleerd, de details van resourceboekingen weergeven voor projecten, werkorders en andere entiteiten waarnaar u de planning hebt uitgebreid.</span><span class="sxs-lookup"><span data-stu-id="0fd84-159">Because Dynamics 365 Project Operations uses the Universal Resource Scheduling engine, if you also have Dynamics 365 Field Service installed, you can view the details of resource bookings for projects, work orders, and any other entities that you've extended scheduling to.</span></span>
+
+<span data-ttu-id="0fd84-160">Als u meer details voor een individuele resource wilt weergeven, klikt u er met de rechtermuisknop op om de resourcekaart te openen.</span><span class="sxs-lookup"><span data-stu-id="0fd84-160">To view more details about an individual resource, right-click it to open the resource card.</span></span>
+

@@ -1,0 +1,28 @@
+---
+title: Productgebaseerde verkoopkansregels
+description: Dit onderwerp bevat informatie over productgebaseerde regelitems voor verkoopkansen in Project Operations.
+author: rumant
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074490"
+---
+# <a name="product-based-opportunity-lines"></a><span data-ttu-id="0c8ef-103">Productgebaseerde verkoopkansregels</span><span class="sxs-lookup"><span data-stu-id="0c8ef-103">Product-based opportunity lines</span></span>
+
+<span data-ttu-id="0c8ef-104">_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_</span><span class="sxs-lookup"><span data-stu-id="0c8ef-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="0c8ef-105">Productgebaseerde verkoopkansregels zijn regelitems in de verkoopkans.</span><span class="sxs-lookup"><span data-stu-id="0c8ef-105">Product-based opportunity lines are line items on the Opportunity.</span></span> <span data-ttu-id="0c8ef-106">Deze regels worden aan de klant geleverd als afzonderlijke regelitems op de uiteindelijke factuur zonder enige andere diensten met toegevoegde waarde.</span><span class="sxs-lookup"><span data-stu-id="0c8ef-106">These lines are delivered to the customer as distinct line items on the eventual invoice without any other value-added services.</span></span> <span data-ttu-id="0c8ef-107">De bijbehorende uitgaven en verbruik worden niet bijgehouden voor taken van gerelateerde projecten.</span><span class="sxs-lookup"><span data-stu-id="0c8ef-107">The associated spend and consumption isn't tracked on tasks of any related projects.</span></span>
+
+<span data-ttu-id="0c8ef-108">Productgebaseerde regels kunnen catalogusartikelen of inschrijfproducten zijn.</span><span class="sxs-lookup"><span data-stu-id="0c8ef-108">Product-based lines can be catalog items or write-in products.</span></span> <span data-ttu-id="0c8ef-109">De meeste functionaliteit van productgebaseerde regels van een verkoopkansproduct volgt de functionaliteit die wordt geboden door de Dynamics 365 Sales-applicatie.</span><span class="sxs-lookup"><span data-stu-id="0c8ef-109">Most of the functionality on an Opportunity's product-based lines follows the functionality provided by the Dynamics 365 Sales application.</span></span> <span data-ttu-id="0c8ef-110">Zie [Producten toevoegen aan een verkoopkans](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity) voor meer informatie over productgebaseerde verkoopkansregels.</span><span class="sxs-lookup"><span data-stu-id="0c8ef-110">For more information about product-based opportunity lines, see [Add products to an opportunity](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).</span></span>
+
+<span data-ttu-id="0c8ef-111">Eén concept over productgebaseerde verkoopkansregels dat specifiek geldt voor projectgebaseerde verkoopkansen is **Klantbudget**.</span><span class="sxs-lookup"><span data-stu-id="0c8ef-111">One concept about product-based opportunity lines that is specific to project-based opportunities is **Customer Budget**.</span></span> <span data-ttu-id="0c8ef-112">Gebruik dit veld om het bedrag bij te houden dat de klant bereid is te betalen voor het regelitem.</span><span class="sxs-lookup"><span data-stu-id="0c8ef-112">Use this field to track the amount the customer is willing to pay for the line item.</span></span>
+
+<span data-ttu-id="0c8ef-113">Als de omzetmethode van het verkoopkansoverzicht is ingesteld op **Door systeem berekend** , worden de klantbudgetwaarden in alle product- en projectgebaseerde regels samengevat om de geschatte omzet te berekenen.</span><span class="sxs-lookup"><span data-stu-id="0c8ef-113">If the revenue method of the Opportunity summary is set to **System Calculated** , the customer budget values across product- and project-based lines are summarized to calculate the estimated revenue.</span></span>

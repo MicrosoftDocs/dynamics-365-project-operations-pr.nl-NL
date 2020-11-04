@@ -1,0 +1,72 @@
+---
+title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 22, v3
+description: In dit onderwerp vindt u een overzicht van de functies en oplossingen die beschikbaar zijn voor Project Service Automation updaterelease 22, v3.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-projectservice
+ms.date: 07/28/2020
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074512"
+---
+# <a name="project-service-automation-update-release-22-v3"></a><span data-ttu-id="78028-103">Project Service Automation, updaterelease 22, v3</span><span class="sxs-lookup"><span data-stu-id="78028-103">Project Service Automation Update Release 22, V3</span></span>
+
+<span data-ttu-id="78028-104">Met genoegen kondigen we de nieuwste update aan voor de toepassing Project Service Automation voor Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="78028-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="78028-105">Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid.</span><span class="sxs-lookup"><span data-stu-id="78028-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="78028-106">Deze versie is compatibel met Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="78028-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="78028-107">Als u deze release wilt bijwerken, gaat u online naar het Beheercentrum voor Dynamics 365 en naar de pagina Oplossingen om de update te installeren.</span><span class="sxs-lookup"><span data-stu-id="78028-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="78028-108">Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="78028-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+
+<span data-ttu-id="78028-109">In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw of gewijzigd zijn voor Project Service Automation v3, updaterelease 22.</span><span class="sxs-lookup"><span data-stu-id="78028-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 22.</span></span> <span data-ttu-id="78028-110">Deze versie heeft buildnummer V 3.10.33.48 en is algemeen beschikbaar via een zelfupdate in juni 2020.</span><span class="sxs-lookup"><span data-stu-id="78028-110">This version has a build number of V 3.10.33.48 and is generally available through a self-update in June 2020.</span></span>
+
+## <a name="update-release-22"></a><span data-ttu-id="78028-111">Updaterelease 22</span><span class="sxs-lookup"><span data-stu-id="78028-111">Update Release 22</span></span>
+
+### <a name="bug-fixes"></a><span data-ttu-id="78028-112">Opgeloste fouten</span><span class="sxs-lookup"><span data-stu-id="78028-112">Bug fixes</span></span>
+
+
+
+<span data-ttu-id="78028-113">**Tijd en onkosten**</span><span class="sxs-lookup"><span data-stu-id="78028-113">**Time and Expense**</span></span>
+
+<span data-ttu-id="78028-114">De volgende problemen zijn opgelost:</span><span class="sxs-lookup"><span data-stu-id="78028-114">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="78028-115">**Tijdsvermeldingen** worden na het importeren niet automatisch toegevoegd aan het tijdsvermeldingenschema.</span><span class="sxs-lookup"><span data-stu-id="78028-115">**Time entries** are not automatically added in the Time entries schedule after import.</span></span>
+- <span data-ttu-id="78028-116">De datumkiezer van het raster **Tijdsvermelding** herkent de regionale instellingen van een gebruiker niet.</span><span class="sxs-lookup"><span data-stu-id="78028-116">The **Time Entry** grid date picker does not recognize a user's regional settings.</span></span>
+
+<span data-ttu-id="78028-117">**Resourcebeheer**</span><span class="sxs-lookup"><span data-stu-id="78028-117">**Resource Management**</span></span>
+
+<span data-ttu-id="78028-118">De volgende problemen zijn opgelost:</span><span class="sxs-lookup"><span data-stu-id="78028-118">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="78028-119">In handmatige modus worden wijzigingen in **Resourcetoewijzings** contouren niet herkend bij het genereren van **Resourcevereisten**.</span><span class="sxs-lookup"><span data-stu-id="78028-119">In manual mode, changes to **Resource Assignment** contours are not recognized when generating **Resource Requirements**.</span></span>
+- <span data-ttu-id="78028-120">**Resourceaanvragen** ondersteunen geen aangepaste aanvraagstatussen.</span><span class="sxs-lookup"><span data-stu-id="78028-120">**Resource Requests** do not support custom request statuses.</span></span>
+
+<span data-ttu-id="78028-121">**Projectbeheer**</span><span class="sxs-lookup"><span data-stu-id="78028-121">**Project Management**</span></span>
+
+<span data-ttu-id="78028-122">De volgende problemen zijn opgelost:</span><span class="sxs-lookup"><span data-stu-id="78028-122">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="78028-123">Als u dubbelklikt op EstimateGridControl, worden getallen in de Nederlandse indeling niet correct geparseerd.</span><span class="sxs-lookup"><span data-stu-id="78028-123">Using double-click on EstimateGridControl will not correctly parse Dutch format numbers.</span></span>
+- <span data-ttu-id="78028-124">Toegewezen uren worden niet correct bijgewerkt wanneer toewijzingen worden gewijzigd met de Microsoft Project-desktopclient-invoegtoepassing.</span><span class="sxs-lookup"><span data-stu-id="78028-124">Assigned hours do not update correctly when assignments are changed using the Microsoft Project desktop client add-in.</span></span>
+- <span data-ttu-id="78028-125">De rasters voor Projecten bijhouden en Schattingen geven een onjuiste valutacode voor verkoop weer wanneer de contractvaluta anders is dan de valuta van de klant en de organisatie is geconfigureerd om valutacodes weer te geven in plaats van valutasymbolen.</span><span class="sxs-lookup"><span data-stu-id="78028-125">Project Tracking and Estimates grids display incorrect sales currency code when contract currency is different than customer currency and organization is configured to display currency codes instead of currency symbols.</span></span>
+- <span data-ttu-id="78028-126">De einddatum van een teamlid telt één dag op als het werkuurschema 24 uur per dag is.</span><span class="sxs-lookup"><span data-stu-id="78028-126">A Team member's finish date will add one day if the work hour schedule is 24-hours per day.</span></span>
+- <span data-ttu-id="78028-127">In de projectplanning leidt het toevoegen van een transactiecategorie aan een taak niet tot automatisch opslaan.</span><span class="sxs-lookup"><span data-stu-id="78028-127">On the Project Schedule, adding a Transaction Category to a task does not trigger auto save.</span></span>
+- <span data-ttu-id="78028-128">De volgende fout wordt weergegeven bij het toevoegen van een teamlid aan de projectsjabloon: "Resourcevereisten kunnen niet worden gekoppeld aan projectsjablonen".</span><span class="sxs-lookup"><span data-stu-id="78028-128">The following error is displayed when adding a team member to the Project Template: "Resource requirements cannot be associated with project templates".</span></span> 
+- <span data-ttu-id="78028-129">Lintregelscript "msdyn.Approval.CanApproveOrReject" geeft een time-outfout weer.</span><span class="sxs-lookup"><span data-stu-id="78028-129">Ribbon rule script "msdyn.Approval.CanApproveOrReject" displays a timeout error.</span></span>
+
+<span data-ttu-id="78028-130">**Sales**</span><span class="sxs-lookup"><span data-stu-id="78028-130">**Sales**</span></span>
+
+<span data-ttu-id="78028-131">De volgende problemen zijn opgelost:</span><span class="sxs-lookup"><span data-stu-id="78028-131">The following issues have been fixed:</span></span>
+
+- <span data-ttu-id="78028-132">Validatiefoutbericht wordt niet weergegeven wanneer een kostprijslijst is geselecteerd bij het opzoeken van prijslijsten op het formulier/de entiteit 'Projectprijslijst nieuwe prijsopgave'.</span><span class="sxs-lookup"><span data-stu-id="78028-132">Validation error message not displayed when a Cost Price List is selected in Price List lookup on 'New Quote Project Price List' form/entity.</span></span>
+- <span data-ttu-id="78028-133">Als u de prijsopgave als gewonnen sluit, navigeert u niet naar het gemaakte contract als een BPF die aan de prijsopgave is gekoppeld, zich in de laatste fase bevindt.</span><span class="sxs-lookup"><span data-stu-id="78028-133">Closing the quote as won does not navigate to the created contract if a BPF attached to the quote is in the final stage.</span></span>
+- <span data-ttu-id="78028-134">Omkeren van **Niet-gefactureerde verkopen** is gekoppeld aan de oorspronkelijke kosten wanneer een tijdsvermelding wordt teruggeroepen.</span><span class="sxs-lookup"><span data-stu-id="78028-134">Reversing **Unbilled Sales** is linked to original cost when a time entry is recalled.</span></span>
+- <span data-ttu-id="78028-135">Nadat u de knop **Bevestigen** hebt geselecteerd, verandert de factuurstatus niet in **Bevestigd** tenzij de factuur wordt vernieuwd.</span><span class="sxs-lookup"><span data-stu-id="78028-135">After selecting the **Confirm** button, the invoice status doesn't change to **Confirmed** unless the invoice is refreshed.</span></span>
