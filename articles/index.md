@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4efd5d182b14d8b3b54ddde47176bbdeccfdeb69
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: 8e1001144bf5347ba1c170cdeae494deef6c2d9c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949266"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074533"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -33,7 +32,7 @@ Microsoft Dynamics 365 Project Operations verbindt verkoop-, resourcing-, projec
 -   **Verkoop is ingeschakeld** om meer deals binnen te halen en de verkoopcyclus te versnellen met snelle en nauwkeurige offertes, flexibele prijzen en naadloze overgangen van schatting naar uitvoering.
 -   **Resourcing is opgezet voor een optimaal** gebruik van resources door de juiste mensen, met de juiste vaardigheden, op de juiste projecten af te stemmen. Dit verbetert de kwaliteit en helpt om toppresteerders te behouden.
 -   **Projectmanagers zorgen voor versnelling** van de projectoplevering met state-of-the-art, ingebouwd projectbeheer dat vertrouwde, gebruiksvriendelijke Microsoft Project-mogelijkheden gebruikt.
--   **Teamleden verbeteren de productiviteit**, samenwerking en zichtbaarheid met integratie met Microsoft Teams en kunnen overal tijd- en onkostendeclaraties indienen.
+-   **Teamleden verbeteren de productiviteit** , samenwerking en zichtbaarheid met integratie met Microsoft Teams en kunnen overal tijd- en onkostendeclaraties indienen.
 -   **Finance kan de projectboekhouding vereenvoudigen** met beheer van tijd en onkosten, projectkosten, budgettering, facturering, omzetverantwoording, naleving en inzicht in de belangrijkste bedrijfsstatistieken.
 
 Project Operations is op zichzelf al krachtig, maar kan worden uitgebreid door onze klanten die extra mogelijkheden van Dynamics 365 nodig hebben. Dit omvat Marketing, Human Resources, Customer Service en meer. Of u nu de extra functionaliteit van een andere Dynamics 365-applicatie wilt of een applicatie op maat wilt toevoegen die is gebouwd met Power Apps, alles werkt samen en werkt zoals u verwacht, omdat alles de gemeenschappelijke basis deelt van een veilige, privé en compatibele cloudoplossing.

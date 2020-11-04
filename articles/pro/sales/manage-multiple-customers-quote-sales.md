@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966762"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074464"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Meerdere klanten in projectprijsopgaven beheren (Sales)
 
@@ -31,7 +31,7 @@ Klanten voor de prijsopgave en de prijsopgaveregels kunnen op elk moment worden 
 
 De klant die op het overzichtstabblad van de projectprijsopgave staat als de potentiële klant, is de primaire klant van de prijsopgave. Wanneer u probeert om de primaire klant uit de klantenlijst op de prijsopgave te verwijderen, ziet u een foutmelding dat een primaire klantrecord op een prijsopgave niet kan worden verwijderd.
 
-De primaire klant mag niet worden bijgewerkt vanuit de klantenlijst op de prijsopgave. U kunt de primaire klant echter beïnvloeden door de potentiële klant te wijzigen op het tabblad **Samenvatting** van de prijsopgave. Wanneer dit veld wordt bijgewerkt in de **samenvatting van de prijsopgave**, wordt de nieuw geselecteerde potentiële klant toegevoegd als een nieuwe klant waarvoor de markering **Primair** is ingesteld. De oude potentiële klant blijft staan op de prijsopgave.
+De primaire klant mag niet worden bijgewerkt vanuit de klantenlijst op de prijsopgave. U kunt de primaire klant echter beïnvloeden door de potentiële klant te wijzigen op het tabblad **Samenvatting** van de prijsopgave. Wanneer dit veld wordt bijgewerkt in de **samenvatting van de prijsopgave** , wordt de nieuw geselecteerde potentiële klant toegevoegd als een nieuwe klant waarvoor de markering **Primair** is ingesteld. De oude potentiële klant blijft staan op de prijsopgave.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Een klantrecord voor een prijsopgave maken, bijwerken of verwijderen
 

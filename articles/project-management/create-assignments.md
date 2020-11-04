@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906125"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074477"
 ---
 # <a name="create-resource-assignments"></a>Resourcetoewijzingen maken
 
@@ -37,7 +37,7 @@ Wanneer u een algemeen teamlid maakt via taaktoewijzing, maakt u een tijdelijke 
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Een benoemde resource toewijzen vanuit de lijst met alle boekbare resources
 
-U kunt het zoekvak in de **resourcekiezer** gebruiken om alle boekbare resources te doorzoeken en deze toe te wijzen aan een bladknooppunttaak. Resources die op deze manier worden toegewezen, worden zonder boekingen aan het team toegevoegd. Dit is vergelijkbaar met het toevoegen van een teamlid en het selecteren van **Geen** als de toewijzingsmethode. De resource wordt op de tabbladen **Team**, **Resourcetoewijzing** en **Afstemming** weergegeven als resources met alleen toewijzingen en een boekingstekort. Boek deze resources als u hun beschikbaarheid wilt gebruiken.
+U kunt het zoekvak in de **resourcekiezer** gebruiken om alle boekbare resources te doorzoeken en deze toe te wijzen aan een bladknooppunttaak. Resources die op deze manier worden toegewezen, worden zonder boekingen aan het team toegevoegd. Dit is vergelijkbaar met het toevoegen van een teamlid en het selecteren van **Geen** als de toewijzingsmethode. De resource wordt op de tabbladen **Team** , **Resourcetoewijzing** en **Afstemming** weergegeven als resources met alleen toewijzingen en een boekingstekort. Boek deze resources als u hun beschikbaarheid wilt gebruiken.
 
 1. Navigeer vanuit het taakraster, het planbord of de tijdlijn naar de cel **Toegewezen aan**.
 2. Begin met het typen van een naam in het zoekvak. De zoekresultaten voor de naam worden weergegeven in de **resourceselectie** onder **Overige resources**.

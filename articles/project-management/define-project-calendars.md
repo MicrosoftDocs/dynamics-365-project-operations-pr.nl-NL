@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d44a2d0d8c13fb9e93b9a6da15fb3a7ce8d764c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 774399f2c02d8434c9c042c3a9f995792893bfce
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897985"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074738"
 ---
 # <a name="define-project-calendars"></a>Projectkalenders definiëren
 
@@ -43,7 +42,7 @@ Als u een projectplanning wilt maken, maakt u een sjabloon voor een projectkalen
   - Werkplanning voor één dag
   - Verlof
 
-4. Selecteer **Nieuwe weekplanning**en stel vervolgens de opties voor deze resourceplanning in. U kunt een terugkerende weekplanning, parameters voor dagelijkse uren, sluitingsdagen van het bedrijf en meer instellen.
+4. Selecteer **Nieuwe weekplanning** en stel vervolgens de opties voor deze resourceplanning in. U kunt een terugkerende weekplanning, parameters voor dagelijkse uren, sluitingsdagen van het bedrijf en meer instellen.
 5. Stel het datumbereik in, selecteer **Opslaan** en selecteer vervolgens **Sluiten**. 
 6. Ga terug naar de lijstpagina **Resources** en selecteer de resource waarvoor u de werkuren wilt instellen. 
 7. Selecteer **Agenda instellen als** om de werksjabloon in te stellen. 

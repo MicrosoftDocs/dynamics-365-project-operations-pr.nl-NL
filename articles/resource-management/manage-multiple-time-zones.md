@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961846"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074502"
 ---
 # <a name="manage-time-zones"></a>Tijdzones beheren
 
@@ -30,7 +30,7 @@ Wanneer een taak wordt gemaakt, worden de starttijd, eindtijd en uren/dag bepaal
 
 ## <a name="manage-resources-with-time-zones"></a>Resources beheren met tijdzones
 
-Voor nauwkeurige en voorspelbare resultaten bij gebruik van **Boeking uitbreiden**, zijn er twee belangrijke voorwaarden waaraan moet worden voldaan:  
+Voor nauwkeurige en voorspelbare resultaten bij gebruik van **Boeking uitbreiden** , zijn er twee belangrijke voorwaarden waaraan moet worden voldaan:  
 
 - De gebruiker moet de tijdzone van zijn apparaat configureren zodat deze overeenkomt met de tijdzone die is gedefinieerd in **Persoonlijke instellingen** van het systeem.
  

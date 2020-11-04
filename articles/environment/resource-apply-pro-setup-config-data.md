@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948820"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074437"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Configuratiegegevens in Common Data Service instellen en toepassen voor Project Operations
 
@@ -27,7 +27,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 ![Configuratiemigratie](./media/1ConfigurationMigration.png)
 
-4. Selecteer op pagina 2 van de CMT-wizard **Office 365** als **Implementatietype**.
+4. Selecteer op pagina 2 van de CMT-wizard **Microsoft 365** als **Implementatietype**.
 5. Schakel de selectievakjes **Een lijst met beschikbare organisaties weergeven** en **Geavanceerd weergeven** in.
 6. Selecteer de regio van uw tenant, voer uw inloggegevens in en selecteer **Login**.
 
@@ -83,7 +83,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 ![Nieuwe boekbare resource](./media/9NewBookableResource.png)
 
-4. Op het tabblad **Planning**, in het veld **Bedrijf** kiest u het bedrijf **USPM** en selecteert u **Opslaan**. 
+4. Op het tabblad **Planning** , in het veld **Bedrijf** kiest u het bedrijf **USPM** en selecteert u **Opslaan**. 
 
 ![Tabblad Planning](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
  
 12. Werk de volgende velden bij:
 
- - **Standaardbedrijf**: USPM
- - **Standaard organisatie-eenheid**: Contoso Robotics Global
- - **Factuurfrequentie**: zevende en laatste dag
- - **Werkuursjabloon**: ga naar de sjabloon die u hebt gemaakt.
+ - **Standaardbedrijf** : USPM
+ - **Standaard organisatie-eenheid** : Contoso Robotics Global
+ - **Factuurfrequentie** : zevende en laatste dag
+ - **Werkuursjabloon** : ga naar de sjabloon die u hebt gemaakt.
 
 13. Selecteer **Opslaan**. 
 

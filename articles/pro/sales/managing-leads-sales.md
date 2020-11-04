@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896320"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074493"
 ---
 # <a name="manage-leads-pro"></a>Potentiële klanten beheren (Pro)
 
@@ -53,7 +53,7 @@ Potentiële klanten waarvoor de waarde **Type** is ingesteld op **Werkgebaseerd*
 
 - Een account dat het veld **Bedrijf** gebruikt van de potentiële klant.
 - Een contactpersoonrecord die aan het account wordt gekoppeld op basis van de waarden in de velden **Voornaam** en **Achternaam** voor de potentiële klant.
-- Een projectgebaseerde verkoopkans met het veld **Type** ingesteld op &quot;**Werkgebaseerd**.
+- Een projectgebaseerde verkoopkans met het veld **Type** ingesteld op **Werkgebaseerd**.
 
 Zie [Potentiële klanten kwalificeren of converteren](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales) voor meer informatie over in aanmerking komende potentiële klanten.
 

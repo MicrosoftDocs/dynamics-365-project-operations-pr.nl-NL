@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908038"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074418"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Meerdere klanten in projectprijsopgaven beheren
 
@@ -29,7 +29,7 @@ Klanten voor de prijsopgave en de prijsopgaveregels kunnen op elk moment worden 
 
 De klant die op het **overzichtstabblad** van de projectprijsopgave staat als de potentiële klant, is de primaire klant van de prijsopgave. Wanneer u probeert om de primaire klant uit de klantenlijst op de prijsopgave te verwijderen, ziet u een foutmelding dat een primaire klantrecord op een prijsopgave niet kan worden verwijderd.
 
-De primaire klant mag niet worden bijgewerkt vanuit de klantenlijst op de prijsopgave. U kunt de primaire klant echter beïnvloeden door de potentiële klant te wijzigen op het tabblad **Samenvatting** van de prijsopgave. Wanneer dit veld wordt bijgewerkt in de **samenvatting van de prijsopgave**, wordt de nieuw geselecteerde potentiële klant toegevoegd als een nieuwe klant waarvoor de markering **Primair** is ingesteld. De oude potentiële klant blijft staan op de prijsopgave.
+De primaire klant mag niet worden bijgewerkt vanuit de klantenlijst op de prijsopgave. U kunt de primaire klant echter beïnvloeden door de potentiële klant te wijzigen op het tabblad **Samenvatting** van de prijsopgave. Wanneer dit veld wordt bijgewerkt in de **samenvatting van de prijsopgave** , wordt de nieuw geselecteerde potentiële klant toegevoegd als een nieuwe klant waarvoor de markering **Primair** is ingesteld. De oude potentiële klant blijft staan op de prijsopgave.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Een klantrecord voor een prijsopgave maken, bijwerken of verwijderen
 

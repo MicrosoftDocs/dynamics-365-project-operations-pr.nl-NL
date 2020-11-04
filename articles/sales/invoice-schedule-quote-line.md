@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908039"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074497"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Factuurschema's voor projectgebaseerde prijsopgaveregels
 
@@ -32,7 +32,7 @@ Wanneer de factureringsmethode voor een projectgebaseerde prijsopgaveregel Tijd 
 3. Open de prijsopgaveregel met tijd en materiaal waarvoor u een op datum gebaseerd factuurschema wilt maken. 
 4. Selecteer op het tabblad **Factuurschema** waarden in de velden **Facturering start** en **Factuurfrequentie**. 
 5. Selecteer in het subraster **Factuurschema genereren**.
-6. De applicatie genereert het factuurschema terwijl de velden **Uitvoeringsdatum van factuur**, **Einddatum transactie** en **Uitvoeringsstatus** op de volgende manier zijn ingesteld:
+6. De applicatie genereert het factuurschema terwijl de velden **Uitvoeringsdatum van factuur** , **Einddatum transactie** en **Uitvoeringsstatus** op de volgende manier zijn ingesteld:
 
     - **Uitvoeringsdatum van factuur** wordt ingesteld op de datum die wordt bepaald op basis van de factuurfrequentie.
     - **Sluitingsdatum van de transactie** is ingesteld op de dag vóór **Uitvoeringsdatum van factuur**.

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074449"
 ---
 # <a name="security-model"></a>Beveiligingsmodel
 
@@ -36,10 +36,11 @@ De front-endfuncties van Project Operations omvatten de volgende rollen:
 
 
 Microsoft Project for the Web bevat de volgende rollen:
-| - Rol                          | Beschrijving                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Projectgebruiker | Samenwerkende Project-gebruiker die eigen projecten kan maken en projecten kan bekijken die met hen zijn gedeeld.| Gebruiker|
-| Projectsysteem | Rol gebruikt voor toepassingscontext. Klanten mogen deze systeemrol niet gebruiken. | Globaal|
+
+| - Rol           | Beschrijving                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Projectgebruiker   | Samenwerkende Project-gebruiker die eigen projecten kan maken en projecten kan bekijken die met hen zijn gedeeld. | Gebruiker   |
+| Projectsysteem | Rol gebruikt voor toepassingscontext. Klanten mogen deze systeemrol niet gebruiken.                                    | Globaal |
 
 ## <a name="security-enforcement"></a>Veiligheidshandhaving
 Acties die op projectniveau worden uitgevoerd in de context van de ingelogde gebruiker. Dit betekent dat de gebruiker toegang moet hebben in CDS om een project te maken, te openen of te verwijderen. Toegang tot CDS kan worden verleend via de beschikbare mechanismen die in het platform zijn opgenomen. Een gebruiker met een groter bereik heeft bijvoorbeeld toegang tot het project of als een expliciete actie voor het delen van projecten is uitgevoerd die de gebruiker toegang verleent.
@@ -56,6 +57,8 @@ Groepen staan de projectmachtigingen toe en ondersteunen samenwerkingsonderdelen
 Project Operations creëert geen groep door middel van impliciete actie en doet dit alleen door de expliciete actie van groepen.
 
 Groepslid zoeken in het dialoogvenster **Groepsbeheer** is beperkt tot degenen die zijn ingesteld als onderdeel van de beveiligingsgroep van de omgeving. Zie voor meer informatie [Gebruikerstoegang tot omgevingen controleren: beveiligingsgroepen en licenties](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Groepsmodus](./media/groupsmode.png)
 
 1. Het project wordt gemaakt door eis n eigendom van de creërende gebruiker.
 2. De projecteigenaar wordt bijgewerkt in het team.

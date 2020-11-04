@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898705"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074661"
 ---
 # <a name="products"></a>Producten
 
@@ -39,22 +38,22 @@ Producten vormen de ruggengraat van uw bedrijf. De productcatalogus in Dynamics 
 
     -  **Name**
     -  **Product-id**
-    -  **Bovenliggend product**: selecteer een bovenliggende productfamilie voor het product. Als u een onderliggend product in een productfamilie maakt, wordt hier de naam van de bovenliggende productfamilie ingevuld. Dit kan niet worden gewijzigd nadat de record is opgeslagen.
-    -  **Geldig van**/**Geldig tot**: geef de geldigheidsperiode voor het product op door een datum te selecteren voor **Geldig van** en **Geldig tot**.
-    -  **Eenhedengroep**: selecteer een eenhedengroep. Een eenhedengroep is een verzameling van verschillende eenheden waarin een product wordt verkocht en bepaalt op welke manier afzonderlijke items in grotere hoeveelheden worden gegroepeerd. Als u bijvoorbeeld zaden toevoegt als een product, kunt u een eenhedengroep met de naam "Zaden" maken en de primaire eenheid definiëren als "pakket".
-    -  **Standaardeenheid**: selecteer de meest voorkomende eenheid waarin het product wordt verkocht. Eenheden worden de hoeveelheden of de eenheden waarin u uw producten verkoopt in. Bijvoorbeeld, als u zaden als product toevoegt, kunt u deze verkopen in pakken, dozen of pallets. Elk van deze wordt een eenheid van het product. Als de zaden meestal in pakketten worden verkocht, selecteert u pakket als eenheid.
-    -  **Standaardprijslijst**: als dit een nieuw product is, is dit veld alleen-lezen. Voordat u een standaardprijslijst selecteert, moet u gegevens in alle vereiste velden invullen en vervolgens de record opslaan. Hoewel de standaardprijslijst niet vereist is, is het raadzaam voor elk product een standaardprijslijst in te stellen nadat u de productrecord hebt opgeslagen. In dat geval kan Sales de standaardprijslijst gebruiken voor het genereren van prijsopgaven, orders en facturen als een klantrecord geen prijslijst bevat.
-    -  **Decimalen ondersteund**: voer een geheel getal in tussen 0 en 5. Als het product niet kan worden verdeeld in delen, voert u 0 in. De precisie van het veld **Hoeveelheid** in de prijsopgave, de order of de factuur wordt gevalideerd op basis van de waarde in dit veld als het product geen gekoppelde prijslijst heeft.
-    -  **Onderwerp**: u kunt dit product aan een onderwerp koppelen. Met behulp van onderwerpen kunt u producten categoriseren en rapporten filteren.
+    -  **Bovenliggend product** : selecteer een bovenliggende productfamilie voor het product. Als u een onderliggend product in een productfamilie maakt, wordt hier de naam van de bovenliggende productfamilie ingevuld. Dit kan niet worden gewijzigd nadat de record is opgeslagen.
+    -  **Geldig van**/**Geldig tot** : geef de geldigheidsperiode voor het product op door een datum te selecteren voor **Geldig van** en **Geldig tot**.
+    -  **Eenhedengroep** : selecteer een eenhedengroep. Een eenhedengroep is een verzameling van verschillende eenheden waarin een product wordt verkocht en bepaalt op welke manier afzonderlijke items in grotere hoeveelheden worden gegroepeerd. Als u bijvoorbeeld zaden toevoegt als een product, kunt u een eenhedengroep met de naam "Zaden" maken en de primaire eenheid definiëren als "pakket".
+    -  **Standaardeenheid** : selecteer de meest voorkomende eenheid waarin het product wordt verkocht. Eenheden worden de hoeveelheden of de eenheden waarin u uw producten verkoopt in. Bijvoorbeeld, als u zaden als product toevoegt, kunt u deze verkopen in pakken, dozen of pallets. Elk van deze wordt een eenheid van het product. Als de zaden meestal in pakketten worden verkocht, selecteert u pakket als eenheid.
+    -  **Standaardprijslijst** : als dit een nieuw product is, is dit veld alleen-lezen. Voordat u een standaardprijslijst selecteert, moet u gegevens in alle vereiste velden invullen en vervolgens de record opslaan. Hoewel de standaardprijslijst niet vereist is, is het raadzaam voor elk product een standaardprijslijst in te stellen nadat u de productrecord hebt opgeslagen. In dat geval kan Sales de standaardprijslijst gebruiken voor het genereren van prijsopgaven, orders en facturen als een klantrecord geen prijslijst bevat.
+    -  **Decimalen ondersteund** : voer een geheel getal in tussen 0 en 5. Als het product niet kan worden verdeeld in delen, voert u 0 in. De precisie van het veld **Hoeveelheid** in de prijsopgave, de order of de factuur wordt gevalideerd op basis van de waarde in dit veld als het product geen gekoppelde prijslijst heeft.
+    -  **Onderwerp** : u kunt dit product aan een onderwerp koppelen. Met behulp van onderwerpen kunt u producten categoriseren en rapporten filteren.
 
 4.  Selecteer **Opslaan**.
 5.  Selecteer op het tabblad **Aanvullende details** in het gedeelte **Prijslijstitems** de optie **Meer opdrachten** en selecteer vervolgens **Nieuw prijslijstitem toevoegen**.
 7.  Selecteer op het tabblad **Aanvullende details** in het gedeelte **Productrelatie** de optie **Meer opdrachten** en selecteer vervolgens **Nieuwe productrelatie toevoegen.**
 8.  Voer in het formulier **Nieuwe productrelatie** de volgende details in en selecteer **Opslaan en sluiten** op de opdrachtbalk:
 
-    -   **Gerelateerd product**: selecteer een product dat u wilt toevoegen als een gerelateerd product aan de bestaande productrecord waaraan u werkt.
-    -   **Type verkooprelatie**: selecteer of u het product wilt toevoegen als product voor up-selling, cross-selling, accessoire of vervangend product.
-    -   **Richting**: selecteer of de relatie tussen de producten unidirectioneel of bidirectioneel is. Als u unidirectioneel selecteert, wordt het product dat u selecteert in **Gerelateerd product** weergegeven als aanbeveling voor het bestaande product maar niet omgekeerd.
+    -   **Gerelateerd product** : selecteer een product dat u wilt toevoegen als een gerelateerd product aan de bestaande productrecord waaraan u werkt.
+    -   **Type verkooprelatie** : selecteer of u het product wilt toevoegen als product voor up-selling, cross-selling, accessoire of vervangend product.
+    -   **Richting** : selecteer of de relatie tussen de producten unidirectioneel of bidirectioneel is. Als u unidirectioneel selecteert, wordt het product dat u selecteert in **Gerelateerd product** weergegeven als aanbeveling voor het bestaande product maar niet omgekeerd.
 
 9.  Selecteer op het formulier Product de optie **Opslaan**.
 
@@ -120,8 +119,8 @@ Het systeem zorgt ervoor dat alleen numerieke eigenschappen of producteigenschap
 
 Als het bijvoorbeeld de volgende eigenschappen zijn: 
 
-- **Aantal gebruikers**: het aantal gebruikers 
-- **Aantal maanden**: het aantal abonnementsmaanden
+- **Aantal gebruikers** : het aantal gebruikers 
+- **Aantal maanden** : het aantal abonnementsmaanden
 - **SKU van product** 
 
 De eigenschappen **Aantal gebruikers** en **Aantal maanden** kunnen worden gemarkeerd als hoeveelheidsfactoren door de eigenschappen van de productregel te bewerken. 

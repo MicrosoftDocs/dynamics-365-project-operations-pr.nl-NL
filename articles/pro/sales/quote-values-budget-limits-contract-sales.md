@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074495"
 ---
 # <a name="summary-information-on-a-project-quote-sales"></a>Overzichtsgegevens voor een projectprijsopgave (verkoop)
 
@@ -40,4 +40,4 @@ Hieronder staan de tabbladen en KPI's voor een projectprijsopgave die uniek zijn
 | --- | --- | --- |
 | Winstgevendheidsanalyse | Tabblad voor prijsopgave | Het tabblad bevat de volgende gegevens:</br>- Totale toerekenbare kosten</br></br>- Totale niet-toerekenbare kosten</br>- Totale omzet</br>- Totale omzet (basis)</br>- Brutomarge</br>- Aangepaste brutomarge|
 | Vergelijking met klantverwachtingen | Tabblad voor prijsopgave | Dit tabblad bevat de volgende gegevens:</br>- Geschatte voltooiing</br>- Aangevraagde voltooiing</br>- Klantbudget</br>- Waarde van prijsopgave |
-| - Analyse prijsopgave | Tabblad voor prijsopgave | Dit tabblad geeft een overzicht van de volgende top-KPI's voor een projectprijsopgave</br>- Vergelijking met de verwachtingen van de klant voor budget en planning</br>- Brutomarge</br>- Aangepaste brutomarge |
+| Analyse prijsopgave | Tabblad voor prijsopgave | Dit tabblad geeft een overzicht van de volgende top-KPI's voor een projectprijsopgave</br>- Vergelijking met de verwachtingen van de klant voor budget en planning</br>- Brutomarge</br>- Aangepaste brutomarge |

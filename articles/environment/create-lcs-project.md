@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: f42a5e4dbb9e82d8e635d1fbfb17c49c73f25d60
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930521"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074421"
 ---
 # <a name="start-a-new-project-in-lcs"></a>Een nieuw project in LCS starten
 
@@ -23,7 +23,7 @@ Gebruik Lifecycle Services (LCS) om uw Dynamics 365 Project Operations-omgevinge
 
 1. Ga naar [LCS](https://lcs.dynamics.com/Logon/Index) en selecteer **Aanmelden** met het account waarmee u zich hebt aangemeld.
 2. Accepteer zo nodig de wettelijke en privacyvoorwaarden.
-3. Selecteer het plusteken (**+**) om een nieuw project te maken.
+3. Selecteer het plusteken ( **+** ) om een nieuw project te maken.
 4. Selecteer voor voorbeelddoeleinden het projecttype **Migreren, oplossingen maken en leren**.
 
   ![LCS-projecttype kiezen](./media/create-lcs-1.png)

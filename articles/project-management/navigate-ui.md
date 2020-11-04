@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ff624a13ec88ae64dba18715fbe9b94353b070e8
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961847"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074482"
 ---
 # <a name="navigating-the-user-interface"></a>Navigeren door de gebruikersinterface
 
@@ -23,37 +23,37 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Het hoofdprojectformulier is onderverdeeld in verschillende tabbladen. Elk tabblad vertegenwoordigt een ander detailniveau binnen het project.
 
-- **Overzicht**: geeft een beschrijving van het project en voegt zowel de geplande als de werkelijke projectprestaties samen.
+- **Overzicht** : geeft een beschrijving van het project en voegt zowel de geplande als de werkelijke projectprestaties samen.
 
     ![Overzichtstabblad en velden](media/navigation7.png)
 
-- **Taken**: bevat de details over de structuur voor werkspecificatie die wordt weergegeven door een rasterweergave, bordweergave en een ganttdiagram.
+- **Taken** : bevat de details over de structuur voor werkspecificatie die wordt weergegeven door een rasterweergave, bordweergave en een ganttdiagram.
 
     ![Taaktabblad en velden](media/navigation8.png)
 
-- **Team**: geeft details over de projectdeelnemers. De toegewezen inspanning van elk teamlid wordt ook in deze weergave samengevat.
+- **Team** : geeft details over de projectdeelnemers. De toegewezen inspanning van elk teamlid wordt ook in deze weergave samengevat.
 
     ![Teamtabblad en velden](media/navigation9.png)
 
-- **Resourcetoewijzingen**: bevat een gefaseerd overzicht van de inspanning voor elke resource in een project.
+- **Resourcetoewijzingen** : bevat een gefaseerd overzicht van de inspanning voor elke resource in een project.
 
     ![Het tabblad Resourcetoewijzingen en velden](media/navigation10.png)
 
-- **Afstemming van resources**: biedt een tijdgefaseerd overzicht van de verschillen tussen de toewijzingen van elke genoemde resource en hun boekingen.
+- **Afstemming van resources** : biedt een tijdgefaseerd overzicht van de verschillen tussen de toewijzingen van elke genoemde resource en hun boekingen.
 
     ![Het tabblad Afstemming van resources en velden](media/navigation11.png)
 
-- **Schattingen**: biedt een gefaseerd overzicht van de kosten en verkoopramingen van een project.
+- **Schattingen** : biedt een gefaseerd overzicht van de kosten en verkoopramingen van een project.
 
     ![Tabblad Schattingen en velden](media/navigation12.png)
 
-- **Volgen**: bevat een weergave met de voortgang van taken in de structuur voor werkspecificatie voor inspanning, kosten en verkoop.
+- **Volgen** : bevat een weergave met de voortgang van taken in de structuur voor werkspecificatie voor inspanning, kosten en verkoop.
 
     ![Tabblad Volgen en velden](media/navigation13.png)
 
-- **Verkoop**: bevat diepe koppelingen naar prijsopgaven en contracten die aan het project zijn gekoppeld.
+- **Verkoop** : bevat diepe koppelingen naar prijsopgaven en contracten die aan het project zijn gekoppeld.
 
-- **Kostenramingen**: bevat een raster dat projectkosten definieert op basis van organisatorische kostencategorieën.
+- **Kostenramingen** : bevat een raster dat projectkosten definieert op basis van organisatorische kostencategorieën.
 
     ![Tabblad Kostenramingen en velden](media/navigation14.png)
 
@@ -63,42 +63,42 @@ Hieronder volgt een beknopt overzicht van de gebruikelijke instellingen op de ve
 
 ### <a name="refresh"></a>Vernieuwen
 
-**Vernieuwen**: haalt de laatste gegevens van de server op als er wijzigingen zijn opgetreden nadat het raster is geladen.
+**Vernieuwen** : haalt de laatste gegevens van de server op als er wijzigingen zijn opgetreden nadat het raster is geladen.
 
 ![Knop Vernieuwen](media/navigation7.png)
 
 ### <a name="group-by"></a>Groeperen op
 
-**Groeperen op**: werkt de groepering van de rijen in het raster bij om bronnen, rollen of categorieën weer te geven op basis van de behoeften van de gebruiker.
+**Groeperen op** : werkt de groepering van de rijen in het raster bij om bronnen, rollen of categorieën weer te geven op basis van de behoeften van de gebruiker.
 
 ![Knop Groeperen op](media/navigation6.png)
 
 ### <a name="previousnext"></a>Vorige/Volgende
 
-**Vorige**/**Volgende**: werkt de zichtbare tijdsperioden bij op de tijdgebonden rasters.
+**Vorige**/**Volgende** : werkt de zichtbare tijdsperioden bij op de tijdgebonden rasters.
 
 ![Knoppen Vorige en Volgende](media/navigation2.png)
 
 ### <a name="timescale"></a>Tijdschaal
 
-**Tijdschaal**: wijzigt de samengevoegde tijdgebonden gegevens op basis van dagen, weken, maanden en jaren.
+**Tijdschaal** : wijzigt de samengevoegde tijdgebonden gegevens op basis van dagen, weken, maanden en jaren.
 
 ![Knop Tijdschaal](media/navigation3.png)
 
 ### <a name="expand"></a>Uitbreiden
 
-**Uitbreiden**: geeft het zichtbare raster weer op volledig scherm, zodat u extra rollen kunt zien.
+**Uitbreiden** : geeft het zichtbare raster weer op volledig scherm, zodat u extra rollen kunt zien.
 
 ![Knop Uitvouwen](media/navigation4.png)
 
 ### <a name="time-phase-by"></a>Tijdsfasering op
 
-**Tijdsfasering op**: werkt de groepering van de rijen in het raster bij om kostenramingen voor verkoopramingen weer te geven. Dit besturingselement is ook van toepassing op het script voor ramingen en het raster voor het bijhouden van de gegevens.
+**Tijdsfasering op** : werkt de groepering van de rijen in het raster bij om kostenramingen voor verkoopramingen weer te geven. Dit besturingselement is ook van toepassing op het script voor ramingen en het raster voor het bijhouden van de gegevens.
 
 ![Knop Tijdsfasering op](media/navigation0.png)
 
 ### <a name="add-column"></a>Kolom toevoegen
 
-**Kolom toevoegen**: hiermee kan de gebruiker de zichtbare kolommen in het raster definiëren. Alleen eenvoudige kolommen kunnen worden toegevoegd aan de rasters in het formulier **Projectplanning**.
+**Kolom toevoegen** : hiermee kan de gebruiker de zichtbare kolommen in het raster definiëren. Alleen eenvoudige kolommen kunnen worden toegevoegd aan de rasters in het formulier **Projectplanning**.
 
 ![Knop Kolom toevoegen](media/navigation5.png)

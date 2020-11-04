@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965760"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074440"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Meerdere klanten in projectgebaseerde prijsopgaveregels beheren
+
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
 Projectgebaseerde prijsopgaveregels ondersteunen scenario's waarin elke prijsopgaveregel een lijst heeft met klanten die ervoor betalen. Deze lijst met klanten op de projectgebaseerde prijsopgaveregel kan hetzelfde zijn als de lijst met klanten in de prijsopgave. U kunt de lijst met klanten ook wijzigen. Wanneer het uiteindelijke projectcontract wordt gecreëerd nadat een projectprijsopgave wordt geaccepteerd, wordt de klantenlijst op de projectgebaseerde prijsopgaveregel gekopieerd naar de corresponderende projectgebaseerde contractregel. Klanten in de projectgebaseerde prijsopgave worden gekopieerd naar het projectcontract.
 

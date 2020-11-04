@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928557"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074441"
 ---
 # <a name="copy-project-based-quotes"></a>Projectgebaseerde prijsopgaven kopiëren
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 U kunt eenvoudig een nieuwe projectprijsopgave maken door een bestaande te kopiëren. 
 
-- Om een projectprijsopgave te kopiëren, selecteert u op de lijstpagina **Projectprijsopgaven** of de detailpagina **Projectprijsopgave**, de projectprijsopgave die u wilt kopiëren en selecteert u vervolgens **Kopiëren**.
+- Om een projectprijsopgave te kopiëren, selecteert u op de lijstpagina **Projectprijsopgaven** of de detailpagina **Projectprijsopgave** , de projectprijsopgave die u wilt kopiëren en selecteert u vervolgens **Kopiëren**.
 
 Hierdoor wordt een dialoogvenster geopend waar u de parameters van de kopie kunt invoeren. De volgende tabel beschrijft de velden in het dialoogvenster. Afhankelijk van de waarden die u selecteert, kan het kopieerproces veranderen.
 

@@ -3,17 +3,17 @@ title: Een nieuwe omgeving inrichten
 description: Dit onderwerp bevat informatie over het inrichten van een nieuwe Project Operations-omgeving.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949356"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074451"
 ---
 # <a name="provision-a-new-environment"></a>Een nieuwe omgeving inrichten
 
@@ -26,14 +26,14 @@ Dit onderwerp bevat informatie over het inrichten van een nieuwe Dynamics 365 Pr
 Gebruik de volgende stappen om de geautomatiseerde inrichtingsstroom van Project Operations voor uw LCS-project in te schakelen.
 
 1. Ga naar [LCS](https://lcs.dynamics.com/v2) en selecteer de tegel **Beheer previewfunctie**.
-2. Selecteer **Project Operations** in de lijst **Previewfunctie** en selecteer **Previewfunctie ingeschakeld** om Project Operations in te schakelen.
+2. Selecteer **Project Operations** in de lijst **Previewfunctie** en selecteer vervolgens **Previewfunctie ingeschakeld** om Project Operations in te schakelen.
 
 > [!NOTE]
 > Deze stap wordt slechts één keer per LCS-project uitgevoerd.
 
 ## <a name="provision-a-project-operations-environment"></a>Een Project Operations-omgeving inrichten
 
-1. Open een nieuwe implementatie van een Dynamics 365 Finance [demo-omgeving](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) of [sandbox-/productieomgeving](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Open een nieuwe implementatie van een Dynamics 365 Finance [demo-omgeving](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) of [sandbox-/productieomgeving](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Volg de wizard **Omgeving inrichten**. 
 
 > [!IMPORTANT]
@@ -120,7 +120,7 @@ Het onderhouden van de omgeving kan enige tijd duren. Nadat het is voltooid, kee
 
 ![Oplossingen toepassen](./media/13ApplySolutions.png)
 
-5. Selecteer beide oplossingen, **Entiteitstoewijzing voor twee keer wegschrijven in Dynamics 365 Finance and Operations** en **Entiteitstoewijzingen voor twee keer wegschrijven in Dynamics 365 Project Operations**, en selecteer vervolgens **Toepassen**.
+5. Selecteer beide oplossingen, **Entiteitstoewijzing voor twee keer wegschrijven in Dynamics 365 Finance and Operations** en **Entiteitstoewijzingen voor twee keer wegschrijven in Dynamics 365 Project Operations** , en selecteer vervolgens **Toepassen**.
 
 ![Oplossingen bevestigen](./media/14ConfirmSolutions.png)
 
@@ -164,17 +164,18 @@ Het vernieuwen duurt ongeveer 20 minuten. U ontvangt een melding wanneer dit is 
 | **Projectcontractregels (salesorderdetails)** | No | No | n.v.t. | No | No |
 | **Integratie-entiteit voor projecttransactierelaties (msdyn\_transactionconnections)** | No | No | n.v.t. | No | n.v.t. |
 | **Mijlpalen voor de contractregel van Project Operations-integratie (msdyn\_contractlinesscheduleofvalues)** | No | No | n.v.t. | No | n.v.t. |
-| **Entiteit voor onkostenramingen van Project Operations-integratie (msdyn\_estimateslines)** | No | No | n.v.t. | No | n.v.t. |
-| **Entiteit voor tijdramingen van Project Operations-integratie (msdyn\_resourceassignments)** | No | No | n.v.t. | No | n.v.t. |
+| **Entiteit voor onkostenramingen van Project Operations-integratie (msdyn\_estimateslines)** | Geen | Geen | n.v.t. | Geen | n.v.t. |
+| **Entiteit voor exporteren van categorieën met projectonkosten voor Project Operations-integratie (msdyn\_expensecategories)** | Geen | Geen | n.v.t. | Geen | n.v.t. |
 | **Entiteit voor exporteren van projectkosten voor Project Operations-integratie (msdyn\_expenses)** | Ja | No | n.v.t. | No | n.v.t. |
 | **Entiteit voor tijdramingen van Project Operations-integratie (msdyn\_resourceassignments)** | Ja | No | n.v.t. | No | n.v.t. |
 
+
 4. Als u de entiteit wilt vernieuwen, selecteert u de toewijzingsnaam en vervolgens **Entiteiten vernieuwen**. 
-5. Ga verder met het uitvoeren van de toewijzing nadat het vernieuwen is voltooid.
+
 
 ![Toewijzing vernieuwen](./media/20RefreshMapping.png)
 
-Voordat u de volgende toewijzing inschakelt, moet u controleren of de toewijzing in de tabel de status **In uitvoering** heeft. Het uitvoeren van toewijzingen met een groot aantal vereisten kan enige tijd duren.
+5. Voer de toewijzing uit nadat het vernieuwen is voltooid. Voordat u de volgende toewijzing inschakelt, moet u controleren of de toewijzing in de tabel de status **In uitvoering** heeft. Het uitvoeren van toewijzingen met een groot aantal vereisten kan enige tijd duren.
 
 Om een toewijzing met vereisten uit te voeren, schakelt u de wisselknop **Gerelateerde entiteitstoewijzingen weergeven** in. Als in de tabel bij **Vereisten voor initiële synchronisatie** **Nee** wordt aangegeven, controleert u of de markering **Initiële synchronisatie** op **Uit** staat voor alle vereiste toewijzingen voordat u deze uitvoert.
 

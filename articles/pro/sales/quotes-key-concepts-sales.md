@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074488"
 ---
 # <a name="project-quote-key-concepts"></a>Belangrijke concepten voor projectprijsopgaven
 
@@ -78,7 +78,7 @@ Deals voor meerdere klanten vinden plaats wanneer er meer dan één klant moet w
 
 ## <a name="invoice-schedules"></a>Factuurschema's
 
-Factuurschema's zijn specifiek voor elke prijsopgaveregel en zijn ook optioneel. Factuurschema's worden gemaakt op basis van bepaalde start- en einddatums en factuurfrequentie. Factuurschema's worden gebruikt in de contractfase wanneer het proces voor het automatisch maken van facturen is geconfigureerd. In de prijsopgavefase zijn de schema's optioneel. Wanneer factuurschema's worden gemaakt in de fase **Prijsopgave**, worden ze gekopieerd naar het projectcontract dat wordt gecreëerd wanneer een projectprijsopgave wordt geaccepteerd.
+Factuurschema's zijn specifiek voor elke prijsopgaveregel en zijn ook optioneel. Factuurschema's worden gemaakt op basis van bepaalde start- en einddatums en factuurfrequentie. Factuurschema's worden gebruikt in de contractfase wanneer het proces voor het automatisch maken van facturen is geconfigureerd. In de prijsopgavefase zijn de schema's optioneel. Wanneer factuurschema's worden gemaakt in de fase **Prijsopgave** , worden ze gekopieerd naar het projectcontract dat wordt gecreëerd wanneer een projectprijsopgave wordt geaccepteerd.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Wijzigingen ten opzichte van een Dynamics 365 Sales-prijsopgave:
 

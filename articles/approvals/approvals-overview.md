@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961160"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074424"
 ---
 # <a name="approvals-overview"></a>Overzicht van goedkeuringen
 
@@ -27,7 +27,7 @@ Wanneer u een tijdsvermelding of onkostenpost maakt en indient, wordt een goedke
 ## <a name="approve-an-entry"></a>Een inzending goedkeuren
 Via het formulier **Goedkeuringen** kunt u schakelen tussen verschillende weergaven, zodat u de verschillende soorten goedkeuringen kunt bekijken.
   
-1. Ga naar het formulier **Goedkeuringen** en selecteer **Onkosten**, **Tijd** of **Intrekkingen**.
+1. Ga naar het formulier **Goedkeuringen** en selecteer **Onkosten** , **Tijd** of **Intrekkingen**.
 2. Bekijk elke goedkeuring en selecteer de goedkeuringen die u wilt goedkeuren.
 3. Selecteer **Goedkeuren** om de geselecteerde items goed te keuren.
 Deze items worden verwerkt en er worden werkelijke waarden of een boeking gemaakt.

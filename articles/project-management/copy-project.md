@@ -3,23 +3,23 @@ title: Een project kopiëren
 description: Dit onderwerp biedt informatie over het kopiëren van projecten in Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908033"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074505"
 ---
 # <a name="copy-a-project"></a>Een project kopiëren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Met Dynamics 365 Project Operations kunt u snel nieuwe projecten bouwen met behulp van de actie **Project kopiëren** in het formulier **Projecten**. Als u een project wilt kopiëren, selecteert u een project en vervolgens **Kopiëren**. Met de actie kopieert u het volgende:
+Met Dynamics 365 Project Operations kunt u snel nieuwe projecten maken door **Project kopiëren** in het formulier **Projecten** te selecteren. Als u een project wilt kopiëren, opent u het project dat u wilt kopiëren en selecteert u vervolgens **Project kopiëren**. Met de actie kopieert u het volgende:
 
 - Projecteigenschappen
 - De structuur voor werkspecificatie
@@ -58,4 +58,6 @@ Wanneer een projectteam wordt gekopieerd uit het bronproject, worden de algemene
 
 ## <a name="estimates"></a>Schattingen
 
-Wanneer het project wordt gekopieerd, worden zowel resource- als kostenramingsregels uit het bronproject gekopieerd.
+Wanneer het project wordt gekopieerd, worden zowel resource- als kostenramingsregels uit het bronproject gekopieerd. 
+
+Zie voor informatie over het programmatisch openen van Project kopiëren [Projectsjablonen ontwikkelen met Project kopiëren](dev-copy-project.md).
