@@ -1,23 +1,30 @@
 ---
-title: Demogegevens voor installatie en configuratie toepassen
+title: Demogegevens voor installatie en configuratie toepassen - lite
 description: Dit onderwerp bevat informatie over het toepassen van demo- en configuratiegegevens voor Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074429"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401257"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Demo- en configuratiegegevens toepassen voor Project Operations Lite-implementatie, van deal tot proforma-facturering
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Demogegevens voor installatie en configuratie toepassen voor Project Operations - lite 
 
 _**Lite-implementatie - van deal tot pro-formafacturering_
+
+## <a name="prerequisites"></a>Vereisten
+
+Voordat u met de configuratie begint, moet u een Common Data Service-omgeving (CDS) inrichten voor Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Instructies
 
 1. Download het [Pakket met mastergegevens](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Navigeer naar de map *ProjOpsDemoDataSetupAndMaster - Integrated CMT* en voer het uitvoerbare bestand *DataMigrationUtility* uit.
@@ -45,25 +52,25 @@ _**Lite-implementatie - van deal tot pro-formafacturering_
 10. Het importeren duurt ongeveer twee tot tien minuten, afhankelijk van uw netwerksnelheid. Sluit de CMT-wizard nadat het importeren is voltooid. 
 11. Controleer uw organisatie op gegevens in de volgende 20 entiteiten:
 
-- Valuta
-- Organisatie-eenheid
-- Contact
-- Belastinggroep
-- Klantengroep
-- Eenheid
-- Eenhedengroep
-- Prijslijst
-- Prijslijst voor projectparameters
-- Factuurfrequentie
-- Factuurfrequentiedetail
-- Categorie van boekbare resources
-- Transactiecategorie
-- Onkostencategorie
-- Rolprijs
-- Prijs voor transactiecategorie
-- Kenmerk
-- Boekbare resource
-- Toewijzing van categorie met boekbare resources
-- Kenmerk van boekbare resources
+-   Valuta
+-   Account
+-   Organisatie-eenheid
+-   Contact
+-   Belastinggroep
+-   Klantengroep
+-   Eenheid
+-   Eenhedengroep
+-   Prijslijst
+-   Prijslijst voor projectparameters 
+-   Factuurfrequentie
+-   Categorie van boekbare resources
+-   Transactiecategorie
+-   Onkostencategorie
+-   Rolprijs
+-   Prijs voor transactiecategorie
+-   Kenmerk
+-   Boekbare resource
+-   Toewijzing van categorie met boekbare resources
+-   Kenmerk van boekbare resources
 
 ![Import voltooid](./media/6CompleteImport.png)

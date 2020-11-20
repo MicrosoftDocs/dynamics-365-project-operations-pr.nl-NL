@@ -3,17 +3,17 @@ title: Het type implementatie bepalen
 description: Dit onderwerp biedt informatie waarmee u het juiste implementatietype van projectactiviteiten voor uw bedrijf kunt bepalen.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074568"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401212"
 ---
 # <a name="determine-your-deployment-type"></a>Het type implementatie bepalen
 
@@ -25,11 +25,11 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Bestaande klanten van Dynamics die Dynamics 365 Project Service Automation gebruiken
-Project Operations omvat de mogelijkheden die bij Project Service Automation worden geleverd. Voor deze klanten wordt in de toekomst een upgradepad vrijgegeven.
+Project Operations omvat de mogelijkheden die bij Project Service Automation worden geleverd. In releasewave 1 van 2021 wordt voor deze klanten een upgradepad vrijgegeven.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Bestaande klanten van Dynamics 365 Finance die Projectmanagement en financiële administratie gebruiken 
 
-Bestaande klanten van Finance die gebruikmaken van de functionaliteit Projectmanagement en financiële administratie, kunnen dit zo blijven doen. Zie [Project Operations voor scenario's op basis van voorradige artikelen/productieorders](#pma).
+Bestaande klanten van Finance die de functionaliteit Projectbeheer en financiële administratie gebruiken, kunnen deze gewoon blijven gebruiken. Zie [Project Operations voor scenario's op basis van voorradige artikelen/productieorders](#pma).
 
 
 ## <a name="deployment-types"></a>Implementatietypen
@@ -47,12 +47,13 @@ Project Operations ondersteunt scenario's op basis van voorradige artikelen/prod
 
 De Lite-implementatie omvat de volgende mogelijkheden:
 
+- Verkoopproces voor projecten waarbij de voorzieningen van Dynamics 365 Sales-toepassingen worden uitgebreid
 - Projectplanning met Microsoft Project voor het web
 - Multidimensionale prijzen
 - Geïntegreerd resourcebeheer
 - Tijden bijhouden
 - Basisonkosten
-- Factuurvoorstel
+- Pro-forma- en klantgerichte facturering 
 
 #### <a name="deployment-steps"></a>Installatiestappen
 Bepaal het beste implementatiemodel van Project Operations met behulp van de [vragenlijst voor implementaties](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ Zie voor deze implementatie [Aanmelden voor preview-abonnementen](lite-preview-s
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 Project Operations biedt voor scenario's voor resources/niet-voorradige artikelen de volgende mogelijkheden:
-  
+ 
+- Verkoopproces voor projecten waarbij de Dynamics 365 Sales-toepassing wordt uitgebreid
 - Projectplanning met Microsoft Project voor het web
 - Multidimensionale prijzen
 - Geïntegreerd resourcebeheer
@@ -70,8 +72,8 @@ Project Operations biedt voor scenario's voor resources/niet-voorradige artikele
 - Basisonkosten
 - Volledige onkosten
 - OCR ontvangst
-- Volledige facturering
-- Omzetverantwoording
+- Pro-forma- en klantgerichte facturering 
+- Opbrengstverantwoording voor projecten
 
 #### <a name="deployment-steps"></a>Installatiestappen
 Bepaal het beste implementatiemodel van Project Operations met behulp van de [vragenlijst voor implementaties](https://aka.ms/provisionprojectoperations).
