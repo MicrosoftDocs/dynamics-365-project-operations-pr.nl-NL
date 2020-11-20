@@ -3,7 +3,7 @@ title: Projectschattingen weergeven en bewerken
 description: Informatie over projectschattingen weergeven en bewerken in Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,28 +18,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074640"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125847"
 ---
-# <a name="view-and-edit-project-estimates-project-service"></a><span data-ttu-id="f9613-103">PSchattingen van het project weergeven en bewerken (Project Service)</span><span class="sxs-lookup"><span data-stu-id="f9613-103">View and edit project estimates (Project Service)</span></span>
+# <a name="view-and-edit-project-estimates-project-service"></a><span data-ttu-id="61f99-103">PSchattingen van het project weergeven en bewerken (Project Service)</span><span class="sxs-lookup"><span data-stu-id="61f99-103">View and edit project estimates (Project Service)</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="f9613-104">Met de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-mogelijkheden in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] kunt u schattingen voor een project weergeven, inclusief schattingen van kosten, verkopen of inspanning.</span><span class="sxs-lookup"><span data-stu-id="f9613-104">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can view estimates for a project, including estimates by cost, sales, or effort.</span></span>  
+<span data-ttu-id="61f99-104">Met de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-mogelijkheden in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] kunt u schattingen voor een project weergeven, inclusief schattingen van kosten, verkopen of inspanning.</span><span class="sxs-lookup"><span data-stu-id="61f99-104">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can view estimates for a project, including estimates by cost, sales, or effort.</span></span>  
   
-1.  <span data-ttu-id="f9613-105">Ga naar **Project Service > Projecten**.</span><span class="sxs-lookup"><span data-stu-id="f9613-105">Go to **Project Service > Projects**.</span></span>  
+1.  <span data-ttu-id="61f99-105">Ga naar **Project Service > Projecten**.</span><span class="sxs-lookup"><span data-stu-id="61f99-105">Go to **Project Service > Projects**.</span></span>  
   
-2.  <span data-ttu-id="f9613-106">Klik op het project waaraan u wilt werken.</span><span class="sxs-lookup"><span data-stu-id="f9613-106">Click the project you want to work on.</span></span>  
+2.  <span data-ttu-id="61f99-106">Klik op het project waaraan u wilt werken.</span><span class="sxs-lookup"><span data-stu-id="61f99-106">Click the project you want to work on.</span></span>  
   
-3.  <span data-ttu-id="f9613-107">In de balk die boven aan het scherm wordt weergegeven, selecteert u de pijl-omlaag naast de projectnaam, en klikt u vervolgens op **Projectschattingen**</span><span class="sxs-lookup"><span data-stu-id="f9613-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Project Estimates**.</span></span>  
+3.  <span data-ttu-id="61f99-107">In de balk die boven aan het scherm wordt weergegeven, selecteert u de pijl-omlaag naast de projectnaam, en klikt u vervolgens op **Projectschattingen**</span><span class="sxs-lookup"><span data-stu-id="61f99-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Project Estimates**.</span></span>  
   
-4.  <span data-ttu-id="f9613-108">Selecteer in **Tijdsfasering op** de waarden **Inspanning** , **Kosten** of **Verkoop** om te wijzigen welke projectschattingen worden weergegeven.</span><span class="sxs-lookup"><span data-stu-id="f9613-108">In **Time-phase By** , select **Effort** , **Cost** , or **Sales** to change which project estimates to display.</span></span>  
+4.  <span data-ttu-id="61f99-108">Selecteer in **Tijdsfasering op** de waarden **Inspanning**, **Kosten** of **Verkoop** om te wijzigen welke projectschattingen worden weergegeven.</span><span class="sxs-lookup"><span data-stu-id="61f99-108">In **Time-phase By**, select **Effort**, **Cost**, or **Sales** to change which project estimates to display.</span></span>  
   
-5.  <span data-ttu-id="f9613-109">Om de kosten toe te voegen of te verwijderen, klikt u **Weergeven Rasterweergave**.</span><span class="sxs-lookup"><span data-stu-id="f9613-109">To add or delete expenses, click **Show Grid View**.</span></span> <span data-ttu-id="f9613-110">Klik op **Nieuwe uitgave** om een nieuwe uitgave te maken.</span><span class="sxs-lookup"><span data-stu-id="f9613-110">To create a new expense, click **New Expense**.</span></span> <span data-ttu-id="f9613-111">Als u uitgaven wilt verwijderen, selecteert u deze in de lijst, en klikt u vervolgens **Uitgaven verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="f9613-111">To delete an expense, select it from the list, and then click **Delete Expense**.</span></span> <span data-ttu-id="f9613-112">Wanneer u klaar bent met het toevoegen of het verwijderen van kosten, klikt u op **Opslaan**</span><span class="sxs-lookup"><span data-stu-id="f9613-112">When you’re done adding or deleting expenses, click **Save**.</span></span>  
+5.  <span data-ttu-id="61f99-109">Om de kosten toe te voegen of te verwijderen, klikt u **Weergeven Rasterweergave**.</span><span class="sxs-lookup"><span data-stu-id="61f99-109">To add or delete expenses, click **Show Grid View**.</span></span> <span data-ttu-id="61f99-110">Klik op **Nieuwe uitgave** om een nieuwe uitgave te maken.</span><span class="sxs-lookup"><span data-stu-id="61f99-110">To create a new expense, click **New Expense**.</span></span> <span data-ttu-id="61f99-111">Als u uitgaven wilt verwijderen, selecteert u deze in de lijst, en klikt u vervolgens **Uitgaven verwijderen**.</span><span class="sxs-lookup"><span data-stu-id="61f99-111">To delete an expense, select it from the list, and then click **Delete Expense**.</span></span> <span data-ttu-id="61f99-112">Wanneer u klaar bent met het toevoegen of het verwijderen van kosten, klikt u op **Opslaan**</span><span class="sxs-lookup"><span data-stu-id="61f99-112">When you’re done adding or deleting expenses, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="f9613-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="f9613-113">See Also</span></span>  
- [<span data-ttu-id="f9613-114">Projectmanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="f9613-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="61f99-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="61f99-113">See Also</span></span>  
+ [<span data-ttu-id="61f99-114">Projectmanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="61f99-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)

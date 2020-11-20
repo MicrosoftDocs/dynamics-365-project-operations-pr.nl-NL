@@ -2,7 +2,7 @@
 title: Een resourceaanvraag indienen
 description: Dit onderwerp bevat informatie over het indienen van een aanvraag voor een projectresource.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,24 +18,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcea3d640d7e9ee2b071c55bff9ade3268edb319
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f076b89c5ac7fee4866534cbd47d81f92f3ab3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074657"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131255"
 ---
-# <a name="submitting-a-resource-request"></a><span data-ttu-id="220d8-103">Een resourceaanvraag indienen</span><span class="sxs-lookup"><span data-stu-id="220d8-103">Submitting a resource request</span></span>
+# <a name="submitting-a-resource-request"></a><span data-ttu-id="70a59-103">Een resourceaanvraag indienen</span><span class="sxs-lookup"><span data-stu-id="70a59-103">Submitting a resource request</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="220d8-104">U kunt een gegenereerde resourcevereiste indienen als een resourceaanvraag.</span><span class="sxs-lookup"><span data-stu-id="220d8-104">You can submit a generated resource requirement as a resource request.</span></span> <span data-ttu-id="220d8-105">De aanvraag wordt vervolgens verzonden naar een resourcemanager voor vervulling.</span><span class="sxs-lookup"><span data-stu-id="220d8-105">The request is then sent to a resource manager for fulfillment.</span></span>
+<span data-ttu-id="70a59-104">U kunt een gegenereerde resourcevereiste indienen als een resourceaanvraag.</span><span class="sxs-lookup"><span data-stu-id="70a59-104">You can submit a generated resource requirement as a resource request.</span></span> <span data-ttu-id="70a59-105">De aanvraag wordt vervolgens verzonden naar een resourcemanager voor vervulling.</span><span class="sxs-lookup"><span data-stu-id="70a59-105">The request is then sent to a resource manager for fulfillment.</span></span>
 
-1. <span data-ttu-id="220d8-106">Klik in Project Service Automation (PSA) op de pagina **Projecten** op het tabblad **Team** om een lijst met te boeken resources weer te geven.</span><span class="sxs-lookup"><span data-stu-id="220d8-106">In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab to view a list bookable resources.</span></span> 
-2. <span data-ttu-id="220d8-107">Selecteer de algemene resource met een resourcevereiste in de lijst en klik vervolgens op **Aanvraag verzenden**.</span><span class="sxs-lookup"><span data-stu-id="220d8-107">Select the generic resource that has a resource requirement from the list and then click **Submit Request**.</span></span>
+1. <span data-ttu-id="70a59-106">Klik in Project Service Automation (PSA) op de pagina **Projecten** op het tabblad **Team** om een lijst met te boeken resources weer te geven.</span><span class="sxs-lookup"><span data-stu-id="70a59-106">In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab to view a list bookable resources.</span></span> 
+2. <span data-ttu-id="70a59-107">Selecteer de algemene resource met een resourcevereiste in de lijst en klik vervolgens op **Aanvraag verzenden**.</span><span class="sxs-lookup"><span data-stu-id="70a59-107">Select the generic resource that has a resource requirement from the list and then click **Submit Request**.</span></span>
 
 ![Een resourceaanvraag indienen](media/RM-how-to-18.png)
 
-<span data-ttu-id="220d8-109">De aanvraagstatus van het algemene teamlid wordt gewijzigd in **Ingediend**.</span><span class="sxs-lookup"><span data-stu-id="220d8-109">The request status of the generic team member will change to **Submitted**.</span></span>
+<span data-ttu-id="70a59-109">De aanvraagstatus van het algemene teamlid wordt gewijzigd in **Ingediend**.</span><span class="sxs-lookup"><span data-stu-id="70a59-109">The request status of the generic team member will change to **Submitted**.</span></span>
 
-<span data-ttu-id="220d8-110">Nadat de aanvraag is vervuld door de resourcemanager wordt de algemene resource vervangen door een benoemde resource, als de resourcemanager de aanvraag vervult door een benoemde resource te boeken.</span><span class="sxs-lookup"><span data-stu-id="220d8-110">After the request is fulfilled by the resource manager, the generic resource will be replaced by a named resource if the resource manager fulfills the request with the booking of a named resource.</span></span> <span data-ttu-id="220d8-111">Anders blijft de algemene resource in het team staan en wordt de status van de aanvraag gewijzigd **Moet worden geëvalueerd** , als de resourcemanager een benoemde resource heeft voorgesteld.</span><span class="sxs-lookup"><span data-stu-id="220d8-111">Otherwise, the generic resource will remain on the team and the request status will change to **Needs Review** , if the resource manager has proposed a named resource.</span></span>
+<span data-ttu-id="70a59-110">Nadat de aanvraag is vervuld door de resourcemanager wordt de algemene resource vervangen door een benoemde resource, als de resourcemanager de aanvraag vervult door een benoemde resource te boeken.</span><span class="sxs-lookup"><span data-stu-id="70a59-110">After the request is fulfilled by the resource manager, the generic resource will be replaced by a named resource if the resource manager fulfills the request with the booking of a named resource.</span></span> <span data-ttu-id="70a59-111">Anders blijft de algemene resource in het team staan en wordt de status van de aanvraag gewijzigd **Moet worden geëvalueerd**, als de resourcemanager een benoemde resource heeft voorgesteld.</span><span class="sxs-lookup"><span data-stu-id="70a59-111">Otherwise, the generic resource will remain on the team and the request status will change to **Needs Review**, if the resource manager has proposed a named resource.</span></span>
