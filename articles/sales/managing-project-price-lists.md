@@ -1,12 +1,12 @@
 ---
-title: Projectprijslijsten
+title: Projectprijslijsten in een prijsopgave beheren
 description: In dit onderwerp krijgt u informatie over de entiteit Projectprijslijst.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074790"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177190"
 ---
-# <a name="project-price-lists"></a>Projectprijslijsten
+# <a name="manage-project-price-lists-on-a-quote"></a>Projectprijslijsten in een prijsopgave beheren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
@@ -34,16 +34,16 @@ Dynamics 365 project Operations breidt de entiteit Prijslijst in Dynamics 365 Sa
 
 Een prijslijst bevat informatie die wordt geleverd door vier verschillende entiteiten:
 
-- **Prijslijst** : in deze entiteit wordt informatie opgeslagen over context, valuta, datumgeldigheid en tijdseenheid voor prijsbepaling. Aan de context is te zien of in de prijslijst kostentarieven of verkooptarieven worden weergegeven. 
-- **Valuta** : in deze entiteit wordt de valuta van prijzen in de prijslijst opgeslagen. 
-- **Datum** : deze entiteit wordt gebruikt wanneer het systeem een standaardprijs voor een transactie probeert in te voeren. Er wordt een prijslijst geselecteerd met een datumgeldigheid waarbinnen de datum van de transactie valt. Als er meer dan één prijslijst wordt gevonden die geldig is voor de transactiedatum en is gekoppeld aan een verwante prijsopgave, verwant contract of verwante organisatie-eenheid, wordt er standaard geen prijs ingesteld. 
-- **Tijd** : in deze entiteit wordt de tijdseenheid opgeslagen waarin prijzen worden weergegeven, zoals dagtarieven of uurtarieven. 
+- **Prijslijst**: in deze entiteit wordt informatie opgeslagen over context, valuta, datumgeldigheid en tijdseenheid voor prijsbepaling. Aan de context is te zien of in de prijslijst kostentarieven of verkooptarieven worden weergegeven. 
+- **Valuta**: in deze entiteit wordt de valuta van prijzen in de prijslijst opgeslagen. 
+- **Datum**: deze entiteit wordt gebruikt wanneer het systeem een standaardprijs voor een transactie probeert in te voeren. Er wordt een prijslijst geselecteerd met een datumgeldigheid waarbinnen de datum van de transactie valt. Als er meer dan één prijslijst wordt gevonden die geldig is voor de transactiedatum en is gekoppeld aan een verwante prijsopgave, verwant contract of verwante organisatie-eenheid, wordt er standaard geen prijs ingesteld. 
+- **Tijd**: in deze entiteit wordt de tijdseenheid opgeslagen waarin prijzen worden weergegeven, zoals dagtarieven of uurtarieven. 
 
 De entiteit Prijslijst heeft drie gerelateerde tabellen waarin prijzen worden opgeslagen:
 
-  - **Rolprijs** : in deze tabel wordt een tarief opgeslagen voor een combinatie van rol- en organisatie-eenheidswaarden en deze tabel wordt gebruikt voor het instellen van op rollen gebaseerde prijzen voor personeel.
-  - **Prijs voor transactiecategorie** : in deze tabel worden prijzen per transactiecategorie opgeslagen en deze tabel wordt gebruikt om prijzen voor onkostencategorieën in te stellen.
-  - **Prijslijstitems** : in deze tabel worden prijzen voor catalogusproducten opgeslagen.
+  - **Rolprijs**: in deze tabel wordt een tarief opgeslagen voor een combinatie van rol- en organisatie-eenheidswaarden en deze tabel wordt gebruikt voor het instellen van op rollen gebaseerde prijzen voor personeel.
+  - **Prijs voor transactiecategorie**: in deze tabel worden prijzen per transactiecategorie opgeslagen en deze tabel wordt gebruikt om prijzen voor onkostencategorieën in te stellen.
+  - **Prijslijstitems**: in deze tabel worden prijzen voor catalogusproducten opgeslagen.
  
 De prijslijst is een tariefkaart. Een tariefkaart is een combinatie van de entiteit Prijslijst en gerelateerde rijen in de tabellen Rolprijs, Prijs voor transactiecategorie en Prijslijstitems.
 
@@ -59,9 +59,9 @@ De eenhedengroep **Tijd** wordt gemaakt wanneer u Project Operations installeert
 
 Reis- en andere onkosten die projectconsultants maken, worden aan de klant gefactureerd. De prijsbepaling van onkostencategorieën vindt plaats op basis van prijslijsten. Vliegtickets, hotelovernachtingen en autohuur zijn voorbeelden van onkostencategorieën. Elke prijslijstregel voor onkosten bevat de prijs voor een specifieke onkostencategorie. De volgende drie methoden worden gebruikt om de prijs van onkostencategorieën te bepalen:
 
-- **Tegen kosten** : de onkosten worden gefactureerd aan de klant en er wordt geen opslag toegepast.
-- **Opslagpercentage** : het percentage over de werkelijke kosten wordt gefactureerd aan de klant. 
-- **Prijs per eenheid** : er wordt een factureringsprijs ingesteld voor elke eenheid van de onkostencategorie. Het bedrag dat wordt gefactureerd aan de klant wordt berekend op basis van het aantal onkosteneenheden dat de consultant rapporteert. Bij Gereden kilometers wordt de prijsstellingsmethode Prijs per eenheid gebruikt. De onkostencategorie Gereden kilometers kan bijvoorbeeld worden geconfigureerd voor 30 euro per dag of 2 euro per kilometer. Wanneer een consultant het aantal gereden kilometers voor een project rapporteert, wordt het factuurbedrag berekend op basis van het aantal kilometers dat de consultant heeft gerapporteerd.
+- **Tegen kosten**: de onkosten worden gefactureerd aan de klant en er wordt geen opslag toegepast.
+- **Opslagpercentage**: het percentage over de werkelijke kosten wordt gefactureerd aan de klant. 
+- **Prijs per eenheid**: er wordt een factureringsprijs ingesteld voor elke eenheid van de onkostencategorie. Het bedrag dat wordt gefactureerd aan de klant wordt berekend op basis van het aantal onkosteneenheden dat de consultant rapporteert. Bij Gereden kilometers wordt de prijsstellingsmethode Prijs per eenheid gebruikt. De onkostencategorie Gereden kilometers kan bijvoorbeeld worden geconfigureerd voor 30 euro per dag of 2 euro per kilometer. Wanneer een consultant het aantal gereden kilometers voor een project rapporteert, wordt het factuurbedrag berekend op basis van het aantal kilometers dat de consultant heeft gerapporteerd.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prijzen en overschrijvingen van projectverkopen
 

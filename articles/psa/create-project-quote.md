@@ -3,7 +3,7 @@ title: Een projectprijsopgave maken
 description: Informatie over een projectprijsopgave maken in Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074672"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133137"
 ---
 # <a name="create-a-project-quote-project-service"></a>Een projectprijsopgave maken (Project Service)
 
@@ -45,7 +45,7 @@ Maken van een offerte is vergelijkbaar met het maken van een verkoopkans. Terwij
   
 7. Klik wanneer u klaar bent met wijzigen op de knop **Opslaan** rechtsonder in het scherm.  
   
-8. Wanneer u gereed bent om de offerte naar uw klant kunt verzenden, klik **Meer** , klik **Rapport uitvoeren** en klik vervolgens **Offerte**. Sla het rapport als document [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)], bewerk zo nodig en stuur de offerte naar uw klant.  
+8. Wanneer u gereed bent om de offerte naar uw klant kunt verzenden, klik **Meer**, klik **Rapport uitvoeren** en klik vervolgens **Offerte**. Sla het rapport als document [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)], bewerk zo nodig en stuur de offerte naar uw klant.  
   
 9. Als uw klant uw offerte accepteert, klik **Afsluiten als binnengehaald** boven aan het scherm **Offerte**. Als uw klant wilt dat u sommige items wijzigt, volgt u opnieuw dit volledige proces om een nieuwe offerte te maken. Als de klant besluit uw services niet te gebruiken op dit moment, klik **Afsluiten als gemist** boven aan het scherm **Offerte**.  
   

@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074588"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180682"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Factureringstarieven instellen voor het factureren van loonkosten 
+# <a name="set-up-labor-bill-rates"></a>Factureringstarieven voor arbeid instellen
 
 _ **Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 
@@ -27,7 +27,7 @@ Elke prijslijst heeft een reeks rolprijzen of loonkosten die gelden voor de cont
 
    De volgende tabel bevat de velden op het tabblad **Algemeen** en deelvenster **Snelle invoer** van een rolprijsregel waarmee u rekening moet houden wanneer u rolprijzen maakt op een verkoopprijslijst:
 
-    | Veld | Locatie | Relevantie, doel en richtlijnen | Downstreamimpact |
+    | Veld | Locatie | Beschrijving | Downstreamimpact |
     | --- | --- | --- | --- |
     | - Rol | Tabblad **Algemeen** en deelvenster **Snelle invoer** | Selecteer de rol waarvoor u het factuurtarief instelt. | Rol in de inkomende regel met het geschatte of werkelijke bedrag wordt vergeleken met deze regel voor de standaardwaarde voor de factuurtarieven van de rol. |
     | Bedrijf voor resources | Tabblad **Algemeen** en deelvenster **Snelle invoer** | Selecteer het bedrijf of de rechtspersoon waaraan de rol is toegewezen. Bijvoorbeeld een ontwikkelaar van Fabrikam India of een ontwikkelaar van Fabrikam USA. | Het resourcebedrijf in de inkomende regel met het geschatte of werkelijke bedrag wordt vergeleken met deze regel voor de standaardwaarde voor de factuurtarieven van de rol. |

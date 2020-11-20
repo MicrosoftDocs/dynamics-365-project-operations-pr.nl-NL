@@ -1,21 +1,21 @@
 ---
-title: Een voorschot of een vooruitbetaling factureren
+title: Een voorschot of een vooruitbetaling factureren - lite
 description: Dit onderwerp bevat informatie over hoe u een voorschot of een vooruitbetaling factureert in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087874"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180546"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Een voorschot of een vooruitbetaling factureren
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Een voorschot of een vooruitbetaling factureren - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -43,7 +43,7 @@ Op elke factuur die wordt gegenereerd voor een projectcontract dat gefactureerde
 
 Dit is te zien in het raster **Toegepaste voorschotten en vooruitbetalingen** op de pagina **Factuur**. De volgende tabel bevat informatie over de velden in het raster **Toegepaste voorschotten en vooruitbetalingen** van de pagina **Projectfactuur**.
 
-| Veld | Locatie | Relevantie, doel en richtlijnen | Downstreamimpact |
+| Veld | Locatie | Beschrijving | Downstreamimpact |
 | --- | --- | --- | --- |
 | Beschrijving | Dit is te zien in het raster **Toegepaste voorschotten en vooruitbetalingen** op de pagina **Projectfactuur**. |Dit alleen-lezen veld geeft een beschrijving van het voorschot dat of de vooruitbetaling die op deze factuur wordt gebruikt. Deze waarde kan niet worden gewijzigd op de factuur. Deze waarde kan worden bijgewerkt in het subraster op de pagina **Projectcontract**. | Dit veld kan aan de klant op de afgedrukte factuur worden weergegeven om aan te geven welk voorschot of welke vooruitbetaling op de factuur wordt toegepast. |
 | Afgeleverd op | Dit is te zien in het raster **Toegepaste voorschotten en vooruitbetalingen** op de pagina **Projectfactuur**.  | Dit alleen-lezen veld bevat de factuurdatum van het voorschot dat of de vooruitbetaling die op deze factuur wordt gebruikt. Deze waarde kan niet worden gewijzigd op de factuur. Deze waarde kan worden bijgewerkt in het subraster op de pagina **Projectcontract**. | Dit veld kan aan de klant op de afgedrukte factuur worden weergegeven om de datum aan te geven waarop het voorschot of de vooruitbetaling voor het eerst aan de klant is gefactureerd. |

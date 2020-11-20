@@ -3,7 +3,7 @@ title: Projecten plannen en bijhouden
 description: Dit onderwerp bevat een koppeling naar informatie over het plannen en bijhouden van projecten in Project Service Automation.
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0dfd05f7f22d0f339bd2437bbd47009e92ebb72a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2aaa1b523099e7346053245473cc6ec849245f92
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074665"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132598"
 ---
 # <a name="project-planning-and-tracking"></a>Projecten plannen en bijhouden
 

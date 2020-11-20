@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074497"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180816"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Factuurschema's voor projectgebaseerde prijsopgaveregels
 
@@ -32,7 +32,7 @@ Wanneer de factureringsmethode voor een projectgebaseerde prijsopgaveregel Tijd 
 3. Open de prijsopgaveregel met tijd en materiaal waarvoor u een op datum gebaseerd factuurschema wilt maken. 
 4. Selecteer op het tabblad **Factuurschema** waarden in de velden **Facturering start** en **Factuurfrequentie**. 
 5. Selecteer in het subraster **Factuurschema genereren**.
-6. De applicatie genereert het factuurschema terwijl de velden **Uitvoeringsdatum van factuur** , **Einddatum transactie** en **Uitvoeringsstatus** op de volgende manier zijn ingesteld:
+6. De applicatie genereert het factuurschema terwijl de velden **Uitvoeringsdatum van factuur**, **Einddatum transactie** en **Uitvoeringsstatus** op de volgende manier zijn ingesteld:
 
     - **Uitvoeringsdatum van factuur** wordt ingesteld op de datum die wordt bepaald op basis van de factuurfrequentie.
     - **Sluitingsdatum van de transactie** is ingesteld op de dag vóór **Uitvoeringsdatum van factuur**.
@@ -58,9 +58,9 @@ Als de projectgebaseerde prijsopgaveregel een **vaste** factureringsmethode heef
 
 Mijlpalen met een vaste prijs kunnen ook handmatig worden gegenereerd als ze niet periodiek worden opgesplitst. Handmatig een mijlpaal maken:
 
-Open de prijsopgaveregel met de vaste prijs waarvoor u een mijlpaal wilt maken. Op het tabblad **Factuurschema** selecteert u in het subraster **+Nieuwe mijlpaal maken voor prijsopgave** en voer de vereiste informatie in op basis van de volgende tabel.
+Open de prijsopgaveregel met de vaste prijs waarvoor u een mijlpaal wilt maken. Op het tabblad **Factuurschema** selecteert u in het subraster **+ Een nieuwe mijlpaal voor de prijsopgaveregel maken** en voert u de vereiste informatie in op basis van de volgende tabel.
 
-| **Veld** | **Locatie** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
 | Naam van mijlpaal | Snelle invoer | De naam van de mijlpaal. | Dit wordt doorgegeven aan de mijlpaal van de projectcontractregel en aan de factuur |
 | Projecttaak | Snelle invoer | Als de mijlpaal is gekoppeld aan een projecttaak, kunt u deze referentie gebruiken om aangepaste logica toe te voegen aan de mijlpaalstatus op basis van de taakstatus. | De toepassing heeft geen downstream-impact van deze verwijzing naar een taak. |

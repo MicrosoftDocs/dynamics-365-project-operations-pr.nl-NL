@@ -1,21 +1,21 @@
 ---
-title: Overzicht van productgebaseerde contractregels
+title: Overzicht van productgebaseerde contractregels - lite
 description: Dit onderwerp bevat informatie over op producten gebaseerde contractregels.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074491"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177865"
 ---
-# <a name="product-based-contract-lines-overview"></a>Overzicht van productgebaseerde contractregels
+# <a name="product-based-contract-lines-overview---lite"></a>Overzicht van productgebaseerde contractregels - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -43,6 +43,6 @@ Als een contractregel is gebaseerd op een productcatalogus, kunt u de verkooppri
 - **Prijs negeren**
 - **Standaardwaarde gebruiken**
 
-Als u het veld **Prijzen** instelt op **Prijs negeren** , wordt er geen standaardprijs ingesteld. Voer een prijs in voor het product in op de contractregel. Als u het veld instelt op **Standaardwaarde gebruiken** , wordt de standaardverkoopprijs gebruikt en kan het veld niet worden bewerkt.
+Als u het veld **Prijzen** instelt op **Prijs negeren**, wordt er geen standaardprijs ingesteld. Voer een prijs in voor het product in op de contractregel. Als u het veld instelt op **Standaardwaarde gebruiken**, wordt de standaardverkoopprijs gebruikt en kan het veld niet worden bewerkt.
 
-Nadat u Project Operations hebt geïnstalleerd, worden standaardverkoopprijzen ingevoerd op de productgebaseerde regels van een contract. Het veld **Prijzen** wordt vervolgens ingesteld op **Prijzen negeren** , zodat u de standaardprijs op de contractregels kunt bewerken. Dit is een Project Operations-specifieke overschrijving van productgebaseerd regelgedrag in Dynamics 365 Sales.
+Nadat u Project Operations hebt geïnstalleerd, worden standaardverkoopprijzen ingevoerd op de productgebaseerde regels van een contract. Het veld **Prijzen** wordt vervolgens ingesteld op **Prijzen negeren**, zodat u de standaardprijs op de contractregels kunt bewerken. Dit is een Project Operations-specifieke overschrijving van productgebaseerd regelgedrag in Dynamics 365 Sales.

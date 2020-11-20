@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 89f5a63581f36b30634bdd302a6d360d6b5e75bd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074503"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181628"
 ---
 # <a name="copy-project-based-opportunities"></a>Projectgebaseerde verkoopkansen kopiëren
 
-_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 
 Projectgebaseerde verkoopkansen kunnen eenvoudig worden gekopieerd om nieuwe projectkansen te maken. 
@@ -25,7 +25,7 @@ Projectgebaseerde verkoopkansen kunnen eenvoudig worden gekopieerd om nieuwe pro
 1. Ga naar de lijstpagina **Projectgebaseerde verkoopkansen** en selecteer een verkoopkans in de lijst. U kunt ook de detailpagina van een specifieke verkoopkans openen. 
 2. Selecteer op een van beide pagina's **Kopiëren**. Er wordt een dialoogvensterpagina geopend met de volgende veldinformatie. Afhankelijk van de waarden die u in dit dialoogvenster selecteert, kan het kopieerproces veranderen.
 
-    | **Veld** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+    | **Veld** | **Beschrijving** | **Downstreamimpact** |
     | --- | --- | --- |
     | Onderwerp | Voer het relevante onderwerp van de doelverkoopkans in. Wanneer het dialoogvenster wordt geopend, wordt het ingesteld op het onderwerp van de bronverkoopkans met **-kopie** eraan toegevoegd. | Er is geen impact op dit veld. |
     | Account | Verwijzingen naar de bedrijfs- of accountrecord van de klant. Wanneer het dialoogvenster wordt geopend, wordt deze ingesteld op de account in de bronverkoopkans. | Dit veld is de primaire klant in de verkoopkans. |

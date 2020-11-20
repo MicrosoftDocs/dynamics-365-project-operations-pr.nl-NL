@@ -1,21 +1,21 @@
 ---
-title: Potentiële klanten beheren (Pro)
+title: Potentiële klanten beheren - lite
 description: In dit onderwerp krijgt u informatie over beheren van potentiële klanten op basis van projecten (pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074493"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180501"
 ---
-# <a name="manage-leads-pro"></a>Potentiële klanten beheren (Pro)
+# <a name="manage-leads---lite"></a>Potentiële klanten beheren - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -38,7 +38,7 @@ Als u wilt dat voor een gekwalificeerde potentiële klant automatisch een verkoo
 
 De volgende tabel bevat belangrijke veldinformatie voor een potentiële klant en voor downstream-implicaties van die velden.
 
-| **Veld** | **Locatie** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
 | Onderwerp | Tabblad Algemeen | Dit tekstveld moet een korte beschrijving van de deal bevatten. | Het onderwerp van de potentiële klant wordt standaard het onderwerp van de verkoopkans, en de naam van de prijsopgave en het projectcontract. |
 | Type | Tabblad Algemeen | Deze optieset heeft de volgende opties:</br>- Op werk gebaseerd (alleen beschikbaar als Project Operations is geïnstalleerd)</br>- Op artikel gebaseerd (alleen beschikbaar als Project Operations en Sales zijn geïnstalleerd)</br>- Op onderhoud gebaseerd (beschikbaar wanneer Field Service is geïnstalleerd) | Als de waarde van dit veld is ingesteld op **Werkgebaseerd** voor de potentiële klant, is deze gekwalificeerd om een projectgebaseerde verkoopkans te creëren. Er is een projectgebaseerde verkoopkans vereist om alle projectspecifieke uitbreidingen en functionaliteit in het downstream-verkoopproces voor deze deal in te schakelen. |

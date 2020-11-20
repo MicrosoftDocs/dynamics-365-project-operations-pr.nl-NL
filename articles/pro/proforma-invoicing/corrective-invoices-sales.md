@@ -1,21 +1,21 @@
 ---
-title: Tegoeden en gecorrigeerde facturen
+title: Gecorrigeerde facturen - lite
 description: Dit onderwerp bevat informatie over gecorrigeerde facturen in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074675"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176425"
 ---
-# <a name="credits-and-corrected-invoices"></a>Tegoeden en gecorrigeerde facturen
+# <a name="corrected-invoices---lite"></a>Gecorrigeerde facturen - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 

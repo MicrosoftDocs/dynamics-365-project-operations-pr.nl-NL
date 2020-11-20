@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074603"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181491"
 ---
 # <a name="copy-price-lists"></a>Prijslijsten kopiëren
 
@@ -26,10 +26,10 @@ Voer de volgende stappen uit om een kopie van de prijslijst te maken.
 1. Open de prijslijst waarvan u een kopie wilt maken en selecteer **Kopiëren**.
 2. Voer de nodige informatie in om de prijslijst te kopiëren. De volgende tabel bevat overwegingen waarmee u rekening moet houden bij het invoeren van informatie.
 
-| Veld | Relevantie, doel en richtlijnen | Downstreamimpact |
+| Veld | Beschrijving | Downstreamimpact |
 | --- | --- | --- |
 | Meetcriterium | De naam van de bronprijslijst met **-kopie** toegevoegd. | De prijslijst bevat deze waarde op alle lijstpagina's en opties van vervolgkeuzelijsten. |
-| Context | Voer de gewenste context in voor de doelprijslijst. | Een prijslijst waarvan de context is ingesteld op **Kosten** , wordt gebruikt om de prijs op te zoeken voor kostenramingen en werkelijke kosten. Een prijslijst waarvan de context is ingesteld op **Verkoop** , wordt gebruikt om de prijs op te zoeken voor verkoopschattingen en werkelijke verkopen. Alleen prijslijsten waarvoor de context is ingesteld op **Verkoop** , kunnen worden toegevoegd aan een projectprijslijst voor een klant, offerte of contract. |
+| Context | Voer de gewenste context in voor de doelprijslijst. | Een prijslijst waarvan de context is ingesteld op **Kosten**, wordt gebruikt om de prijs op te zoeken voor kostenramingen en werkelijke kosten. Een prijslijst waarvan de context is ingesteld op **Verkoop**, wordt gebruikt om de prijs op te zoeken voor verkoopschattingen en werkelijke verkopen. Alleen prijslijsten waarvoor de context is ingesteld op **Verkoop**, kunnen worden toegevoegd aan een projectprijslijst voor een klant, offerte of contract. |
 | Begindatum | De startdatum van de periode waarin de prijslijst van kracht is. | Samen met **Einddatum** wordt dit veld gebruikt om te bepalen welke prijslijst van toepassing is op een bepaalde schatting of werkelijke regel. |
 | Einddatum | De einddatum van de periode waarin de prijslijst van kracht is. | Samen met **Begindatum** wordt dit veld gebruikt om te bepalen welke prijslijst van toepassing is op een bepaalde schatting of werkelijke regel. |
 | Valuta | De valuta van de bronprijslijst. De valuta kan worden gewijzigd. | Wanneer de valuta wordt gewijzigd, worden alle resulterende prijsregels voor arbeid, onkosten en productcatalogusartikelen tijdens het kopiëren geconverteerd naar de valuta van de doelprijslijst. |
@@ -40,6 +40,6 @@ Voer de volgende stappen uit om een kopie van de prijslijst te maken.
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Een prijslijst bijwerken door een prijsverhoging op alle prijzen toe te passen
 
-1. Op de tabbladen **Rol** , **Categorie** en **Prijslijstitem** van een prijslijst, kunt u **Prijzen bijwerken** selecteren om een prijsverhoging toe te passen op alle prijzen in het subraster. 
+1. Op de tabbladen **Rol**, **Categorie** en **Prijslijstitem** van een prijslijst, kunt u **Prijzen bijwerken** selecteren om een toeslag toe te passen voor alle prijzen in het subraster. 
 2. Voer een prijsverhoging in op de pagina van het dialoogvenster dat wordt geopend. U kunt ook een negatief prijsverhogingspercentage invoeren om prijzen met een bepaald percentage te verlagen. 
-3. Selecteer **OK** op de pagina van het dialoogvenster en controleer vervolgens of de prijzen in het subraster de door u gemaakte wijzigingen weerspiegelen.
+3. Selecteer **OK** in de dialoogpagina en controleer vervolgens of de prijzen in het subraster de door u gemaakte wijzigingen weerspiegelen.

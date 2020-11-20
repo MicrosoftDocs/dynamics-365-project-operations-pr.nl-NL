@@ -1,21 +1,21 @@
 ---
-title: Vooruitbetalingen en op voorschot gebaseerde contracten
+title: Vooruitbetalingen en op voorschot gebaseerde contracten - lite
 description: Dit onderwerp bevat informatie over contractmodellen op basis van voorschotten en vooruitbetalingen in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087871"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180861"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Vooruitbetalingen en op voorschot gebaseerde contracten 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Vooruitbetalingen en op voorschot gebaseerde contracten - lite
 
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
@@ -33,7 +33,7 @@ Naast een periodiek op voorschotten gebaseerd schema, kan Project Operations een
 
 Het voorschot in Project Operations is pas beschikbaar voor gebruik als dit aan de klant is gefactureerd. Dit wordt aangegeven door de volgende velden op het subraster voor voorschotten en vooruitbetalingen.
 
-| Veld | Relevantie, doel en richtlijnen | Downstreamimpact |
+| Veld | Beschrijving | Downstreamimpact |
 | --- | --- | --- |
 | Beschikbaar bedrag | Het bedrag dat beschikbaar is om te worden gebruikt op de voorschot- of vooruitbetalingsrecord. | Totdat het voorschot of de vooruitbetaling is gefactureerd, kan het niet worden gebruikt, wat betekent dat het beschikbare bedrag nul zal zijn. |
 | Gebruikt bedrag | Het bedrag dat al is gebruikt voor het voorschot of de vooruitbetaling. | Een voorschot of vooruitbetaling kan gedeeltelijk op een factuur worden afgestemd met de werkelijke kosten, waarbij een deel wordt gemarkeerd als al gebruikt of verbruikt. De rest van het voorschot of de vooruitbetaling is beschikbaar om op een toekomstige factuur af te stemmen met de werkelijke kosten. |

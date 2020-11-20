@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074425"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181941"
 ---
 # <a name="project-based-opportunity-lines"></a>Projectgebaseerde verkoopkansregels
 
@@ -26,7 +26,7 @@ Projectgebaseerde verkoopkansregels zijn de regelitems die met behulp van een pr
 
 Hieronder staan de velden op een projectgebaseerde verkoopkansregel:
 
-| **Veld** | **Locatie** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
 | Producttype | Tabblad Algemeen (verborgen) | Dit is een veld uit de optieset. Als Dynamics 365 Project Operations is geïnstalleerd, is **Projectgebaseerde service** een van de beschikbare opties.  | De waarde van dit veld is ingesteld op **Projectgebaseerde service** wanneer u de projectgebaseerde verkoopkansregel maakt vanuit het projectgebaseerde regelraster van de verkoopkans. <br> Als u deze waarde wijzigt of overschrijft, wordt de projectfunctionaliteit niet ingeschakeld voor uw projectgebaseerde regelitems. |
 | Kans | Tabblad Algemeen | Dit veld is alleen-lezen en verwijst naar de bovenliggende verkoopkansrecord waartoe dit regelitem behoort. | Er is geen downstreamimpact van dit veld. |

@@ -1,21 +1,21 @@
 ---
-title: Kostentarieven voor arbeid instellen
+title: Tarieven voor loonkosten instellen - lite
 description: Dit onderwerp bevat informatie over het instellen van tarieven voor de loonkosten in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074475"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180702"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Kostentarieven voor arbeid instellen 
+# <a name="set-up-labor-cost-rates---lite"></a>Tarieven voor loonkosten instellen - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -27,7 +27,7 @@ Elke prijslijst heeft een reeks loonkosten (rolprijzen) die aansluiten bij de in
 
 De volgende tabel bevat enkele van de velden die belangrijk zijn bij het aanmaken van loonkosten op een kostprijslijst.
 
-| Veld | Locatie | Relevantie, doel en richtlijnen | Downstreamimpact |
+| Veld | Locatie | Beschrijving | Downstreamimpact |
 | --- | --- | --- | --- |
 | - Rol | Tabblad **Algemeen** en pagina **Snelle invoer** | Kies de rol waaraan het kostentarief wordt toegewezen. | De rol in de inkomende regel met het geschatte of werkelijke bedrag wordt vergeleken met deze regel voor de standaardwaarde voor de kosten van de rol. |
 | Resource-eenheid | Tabblad **Algemeen** en pagina **Snelle invoer** | Selecteer de organisatie-eenheid of divisie van het bedrijf waar deze rol zal worden gebruikt. Bijvoorbeeld een ontwikkelaar van de Robotics-divisie van Fabrikam India of een ontwikkelaar van de Software-divisie van Fabrikam USA. | De resource-eenheid in de inkomende regel met het geschatte of werkelijke bedrag wordt vergeleken met deze regel voor de standaardwaarde voor de kosten van de rol. |

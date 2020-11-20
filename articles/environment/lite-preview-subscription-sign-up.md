@@ -1,21 +1,21 @@
 ---
-title: Aanmelden voor een preview-abonnement
+title: Aanmelden voor een preview-abonnement - lite
 description: In dit onderwerp vindt u informatie over hoe u zich kunt abonneren op Project Operations Lite en hoe u dit kunt implementeren, van deal tot pro-formafacturering.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074427"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175885"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Aanmelden voor een preview-abonnement voor lite-implementatie, van deal tot proforma-facturering
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Aanmelden voor een preview-abonnement - lite 
 
 In dit onderwerp wordt beschreven hoe u zich kunt abonneren op het partneraanbod voor een preview, en hoe u Dynamics 365 Project Operations Lite kunt implementeren, van deal tot pro-formafacturering.
 

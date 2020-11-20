@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074439"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181221"
 ---
-# <a name="opportunity-headersummary"></a>Header/samenvatting verkoopkansen
+# <a name="opportunity-settings"></a>Instellingen voor verkoopkansen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
@@ -26,7 +26,7 @@ Projectgebaseerde verkoopkansen in Dynamics 365 Project Operations zijn uitbreid
 
 De volgende tabel bevat de velden in een projectgebaseerde verkoopkans die uniek zijn voor Project Operations of die een aantal belangrijke gedragsveranderingen vertonen ten opzichte van verkoopkansen in Sales.
 
-| **Veld** | **Locatie** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
 | Type | Tabblad Algemeen (verborgen) | Deze optieset heeft de volgende opties:</br>- Op werk gebaseerd (alleen beschikbaar in Project Operations)</br>- Op artikel gebaseerd (alleen beschikbaar als Project Operations en Sales zijn geïnstalleerd)</br>- Op onderhoud gebaseerd (beschikbaar wanneer Field Service is geïnstalleerd) | Wanneer u Project Operations gebruikt, wordt deze veldwaarde automatisch ingesteld op **Op werk gebaseerd** waardoor de verkoopkans wordt ingedeeld als projectgebaseerd. Een verkoopkans moet projectgebaseerd zijn om alle projectspecifieke uitbreidingen en functionaliteit in het downstream-verkoopproces voor deze deal in te schakelen. |
 | Bedrijf dat eigenaar is | Tabblad Algemeen | Dit is het bedrijf of de rechtspersoon die het project voor de klant zal opleveren. | Deze veldinformatie wordt gekopieerd naar het overeenkomstige veld op de projectprijsopgave die op basis van deze verkoopkans wordt gemaakt. |

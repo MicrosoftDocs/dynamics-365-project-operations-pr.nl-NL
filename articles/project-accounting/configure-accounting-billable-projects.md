@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074478"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131967"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Boekhouding configureren voor factureerbare projecten
 
@@ -22,7 +22,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 Dynamics 365 Project Operations ondersteunt verschillende boekhoudopties voor factureerbare projecten die tijd- en materiaaltransacties en transacties met een vaste prijs bevatten.
 
 - **Tijd- en materiaaltransacties** : deze transacties worden gefactureerd naarmate het werk vordert op basis van het verbruik van uren, onkosten, artikelen of vergoedingen voor het project. Deze transactiekosten kunnen worden vergeleken met de opbrengsten van elke transactie en het project wordt gefactureerd naarmate het werk vordert. Projectopbrengsten kunnen ook worden verzameld op het moment dat de transactie plaatsvindt. Tijdens de facturering wordt omzet herkend en wordt, indien van toepassing, verzamelde omzet teruggeboekt.
-- **Transacties met een vaste prijs** : deze transacties worden gefactureerd volgens een factureringsschema dat is gebaseerd op het projectcontract. Omzet voor transacties met een vaste prijs kan worden verwerkt bij facturering of periodiek worden berekend en geboekt volgens de methode **Voltooid contract** of **Voltooid percentage**.
+- **Transacties met een vaste prijs**: deze transacties worden gefactureerd volgens een factureringsschema dat is gebaseerd op het projectcontract. Omzet voor transacties met een vaste prijs kan worden verwerkt bij facturering of periodiek worden berekend en geboekt volgens de methode **Voltooid contract** of **Voltooid percentage**.
 
 Een project wordt als factureerbaar beschouwd wanneer het is gekoppeld aan een of meer contractregels. Een projectcontractregel bepaalt voor zichzelf welke factureringsmethode en transactietypen zijn toegestaan.
 
@@ -45,47 +45,47 @@ Voer de volgende stappen uit om een nieuw profiel voor projectkosten en -inkomst
 3. Voer in het veld **Naam** de naam en een korte beschrijving van het profiel in.
 4. Selecteer in het veld **Factureringsmethode** de optie **Tijd en materiaal** of **Vaste prijs**.
 5. Vouw het sneltabblad **Grootboek** uit. Met de velden op dit tabblad worden de boekhoudprincipes gedefinieerd die worden gebruikt wanneer projecttransacties worden gejournaliseerd met behulp van het Project Operations-integratiejournaal en vervolgens worden gefactureerd via het Project-factuurvoorstel.
-6. Selecteer de juiste gegevens in de volgende velden op het sneltabblad **Grootboek** :
+6. Selecteer de juiste gegevens in de volgende velden op het sneltabblad **Grootboek**:
 
-    - **Kosten boeken - uur** :
+    - **Kosten boeken - uur**:
 
-       - *Geen grootboek* : de kosten voor tijdtransacties worden niet naar het grootboek geboekt wanneer het Project Operations-integratiejournaal wordt geboekt. De accountant kan kosten echter op een later tijdstip boeken met de functie Kosten boeken.
-       - **Saldo** : de kosten voor tijdtransacties worden afgeschreven van het grootboekrekeningtype *OHW - Kostprijs* en toegeschreven aan de *salaristoewijzingsrekening* in Instellingen voor boeking in grootboek. De accountant gebruikt de functie Kosten boeken om deze kosten periodiek van een saldorekening naar een winst- en verliesrekening te verplaatsen.
-       - **Winst en verlies** : bij het boeken van het Project Operations-integratiejournaal worden de tijdtransactiekosten gedebiteerd van het grootboekrekeningtype *Kosten* en gecrediteerd aan de *salaristoewijzingsrekening* die is gedefinieerd op het tabblad **Kosten** van de pagina **Instellingen voor boeking in grootboek** ( **Projectmanagement en financiële administratie** \> **Instellingen** \> **Boeken** \> **Instellingen voor boeking in grootboek** ). Dit is de meest gebruikelijke instelling voor tijd- en materiaaltransacties.
-        - *Nooit grootboek* : de kosten voor tijdtransacties worden nooit in het grootboek geboekt.
+       - *Geen grootboek*: de kosten voor tijdtransacties worden niet naar het grootboek geboekt wanneer het Project Operations-integratiejournaal wordt geboekt. De accountant kan kosten echter op een later tijdstip boeken met de functie Kosten boeken.
+       - **Saldo**: de kosten voor tijdtransacties worden afgeschreven van het grootboekrekeningtype *OHW - Kostprijs* en toegeschreven aan de *salaristoewijzingsrekening* in Instellingen voor boeking in grootboek. De accountant gebruikt de functie Kosten boeken om deze kosten periodiek van een saldorekening naar een winst- en verliesrekening te verplaatsen.
+       - **Winst en verlies**: bij het boeken van het Project Operations-integratiejournaal worden de tijdtransactiekosten gedebiteerd van het grootboekrekeningtype *Kosten* en gecrediteerd aan de *salaristoewijzingsrekening* die is gedefinieerd op het tabblad **Kosten** van de pagina **Instellingen voor boeking in grootboek** (**Projectmanagement en financiële administratie** \> **Instellingen** \> **Boeken** \> **Instellingen voor boeking in grootboek**). Dit is de meest gebruikelijke instelling voor tijd- en materiaaltransacties.
+        - *Nooit grootboek*: de kosten voor tijdtransacties worden nooit in het grootboek geboekt.
 
-    - **Kosten boeken – onkosten** :
+    - **Kosten boeken – onkosten**:
 
-         - **Saldo** : bij het boeken van het Project Operations-integratiejournaal worden de onkostentransactiekosten gedebiteerd van het grootboekrekeningtype *OHW - kostprijs* , zoals gedefinieerd op het tabblad **Kosten** van de pagina **Instellingen voor boeking in grootboek** en gecrediteerd aan de tegenrekening op de journaalregel. Standaardtegenrekeningen voor onkosten worden gedefinieerd in **Projectmanagement en financiële administratie** > **Instellingen** \> **Boeken** \> **Standaardtegenrekening voor onkosten**. De accountant gebruikt de functie **Kosten boeken** om deze kosten periodiek van de saldorekening naar de winst- en verliesrekening te verplaatsen.
-        - **Wint en verlies** : bij het boeken van het Project Operations-integratiejournaal worden de onkostentransactiekosten gedebiteerd van het grootboekrekeningtype *Kosten* , zoals gedefinieerd op het tabblad **Kosten** van de pagina **Instellingen voor boeking in grootboek** en gecrediteerd aan de tegenrekening op de journaalregel. Standaardtegenrekeningen voor onkosten worden gedefinieerd in **Projectmanagement en financiële administratie** \> **Instellingen** \> **Boeken** \> **Standaardtegenrekening voor onkosten**.
+         - **Saldo**: bij het boeken van het Project Operations-integratiejournaal worden de onkostentransactiekosten gedebiteerd van het grootboekrekeningtype *OHW - kostprijs*, zoals gedefinieerd op het tabblad **Kosten** van de pagina **Instellingen voor boeking in grootboek** en gecrediteerd aan de tegenrekening op de journaalregel. Standaardtegenrekeningen voor onkosten worden gedefinieerd in **Projectmanagement en financiële administratie** > **Instellingen** \> **Boeken** \> **Standaardtegenrekening voor onkosten**. De accountant gebruikt de functie **Kosten boeken** om deze kosten periodiek van de saldorekening naar de winst- en verliesrekening te verplaatsen.
+        - **Wint en verlies**: bij het boeken van het Project Operations-integratiejournaal worden de onkostentransactiekosten gedebiteerd van het grootboekrekeningtype *Kosten*, zoals gedefinieerd op het tabblad **Kosten** van de pagina **Instellingen voor boeking in grootboek** en gecrediteerd aan de tegenrekening op de journaalregel. Standaardtegenrekeningen voor onkosten worden gedefinieerd in **Projectmanagement en financiële administratie** \> **Instellingen** \> **Boeken** \> **Standaardtegenrekening voor onkosten**.
        
-    - **Bij facturering op rekening** :
+    - **Bij facturering op rekening**:
 
-        - **Saldo** : bij het boeken van het Project-factuurvoorstel wordt een transactie op rekening (factureringsmijlpaal) gecrediteerd naar het grootboekrekeningtype *OHW gefactureerd - op rekening* , zoals gedefinieerd op het tabblad **Omzet** op de pagina **Instellingen voor boeking in grootboek** en gedebiteerd van de klantsaldorekening.
-         - **Winst en verlies** : bij het boeken van het Project-factuurvoorstel wordt een transactie op rekening (factureringsmijlpaal) gecrediteerd naar het grootboekrekeningtype *Gefactureerde omzet - op rekening* , zoals gedefinieerd op het tabblad **Omzet** op de pagina **Instellingen voor boeking in grootboek** en gedebiteerd van de klantsaldorekening. Klantsaldorekeningen worden gedefinieerd in **Debiteuren** \> **Instellingen** \> **Boekingsprofielen voor klanten**.
+        - **Saldo** : bij het boeken van het Project-factuurvoorstel wordt een transactie op rekening (factureringsmijlpaal) gecrediteerd naar het grootboekrekeningtype *OHW gefactureerd - op rekening*, zoals gedefinieerd op het tabblad **Omzet** op de pagina **Instellingen voor boeking in grootboek** en gedebiteerd van de klantsaldorekening.
+         - **Winst en verlies** : bij het boeken van het Project-factuurvoorstel wordt een transactie op rekening (factureringsmijlpaal) gecrediteerd naar het grootboekrekeningtype *Gefactureerde omzet - op rekening*, zoals gedefinieerd op het tabblad **Omzet** op de pagina **Instellingen voor boeking in grootboek** en gedebiteerd van de klantsaldorekening. Klantsaldorekeningen worden gedefinieerd in **Debiteuren** \> **Instellingen** \> **Boekingsprofielen voor klanten**.
 
-   Wanneer u de boekingsprofielen definieert voor factureringsmethoden voor tijd en materiaal, hebt u de mogelijkheid om omzet te genereren per transactietype (uur, onkosten en kosten). Als **Omzet toerekenen** is ingesteld op **Ja** , worden niet-gefactureerde verkooptransacties in het Project Operations-integratiejournaal geregistreerd in het grootboek. De verkoopwaarde wordt gedebiteerd van de **OHW - verkoopwaarderekening** en gecrediteerd naar de rekening **Verzamelde omzet - verkoopwaarde** die is ingesteld op de pagina **Instellingen voor boeking in grootboek** op het tabblad **Omzet**. 
+   Wanneer u de boekingsprofielen definieert voor factureringsmethoden voor tijd en materiaal, hebt u de mogelijkheid om omzet te genereren per transactietype (uur, onkosten en kosten). Als **Omzet toerekenen** is ingesteld op **Ja**, worden niet-gefactureerde verkooptransacties in het Project Operations-integratiejournaal geregistreerd in het grootboek. De verkoopwaarde wordt gedebiteerd van de **OHW - verkoopwaarderekening** en gecrediteerd naar de rekening **Verzamelde omzet - verkoopwaarde** die is ingesteld op de pagina **Instellingen voor boeking in grootboek** op het tabblad **Omzet**. 
   
   > [!NOTE]
   > De optie **Omzet toerekenen** is alleen beschikbaar als het betreffende transactietype **Kosten** wordt geboekt naar de winst- en verliesrekening.
     
 7. Vouw het sneltabblad **Schatting** uit. De velden op dit tabblad definiëren de berekeningsinstellingen voor omzetschattingen met een vaste prijs. De velden op dit tabblad zijn alleen van toepassing op profielen voor projectkosten en -inkomsten met de factureringsmethode **Vaste prijs**.
-8. Selecteer de juiste gegevens in de volgende velden op het sneltabblad **Schatting** :
+8. Selecteer de juiste gegevens in de volgende velden op het sneltabblad **Schatting**:
 
-    - **Gebruikt principe voor de berekening van projectvoltooiing** :
+    - **Gebruikt principe voor de berekening van projectvoltooiing**:
 
-        - **Voltooid contract** : kostenafstemming en omzetverantwoording vinden pas plaats aan het einde van het project. De kosten worden als OHW in de balans weergegeven totdat het project is voltooid.
-        - **Voltooid percentage** : de verzamelde omzet wordt elke periode berekend en naar het grootboek geboekt op basis van het voltooiingspercentage van het project. Er zijn meerdere methoden beschikbaar om het voltooiingspercentage te berekenen. Deze methoden kunnen automatisch zijn op basis van configuratie of handmatig worden uitgevoerd.
-        - **Geen OHW** : deze configuratie wordt gebruikt voor projecten met vaste prijzen met een korte tijdspanne en waarbij de facturering en de kosten in dezelfde periode plaatsvinden. In dit geval wordt het veld **Facturering op rekening** op het sneltabblad **Grootboek** automatisch ingesteld op **Winst en verlies** om ervoor te zorgen dat omzet wordt verantwoord bij facturering. Het omzetschattingsproces wordt niet gebruikt voor dit profiel voor projectkosten en -inkomsten.
+        - **Voltooid contract**: kostenafstemming en omzetverantwoording vinden pas plaats aan het einde van het project. De kosten worden als OHW in de balans weergegeven totdat het project is voltooid.
+        - **Voltooid percentage**: de verzamelde omzet wordt elke periode berekend en naar het grootboek geboekt op basis van het voltooiingspercentage van het project. Er zijn meerdere methoden beschikbaar om het voltooiingspercentage te berekenen. Deze methoden kunnen automatisch zijn op basis van configuratie of handmatig worden uitgevoerd.
+        - **Geen OHW**: deze configuratie wordt gebruikt voor projecten met vaste prijzen met een korte tijdspanne en waarbij de facturering en de kosten in dezelfde periode plaatsvinden. In dit geval wordt het veld **Facturering op rekening** op het sneltabblad **Grootboek** automatisch ingesteld op **Winst en verlies** om ervoor te zorgen dat omzet wordt verantwoord bij facturering. Het omzetschattingsproces wordt niet gebruikt voor dit profiel voor projectkosten en -inkomsten.
 
-    - **Methode van overeenkomst** : dit veld bepaalt hoe de berekende verkoopwaarde (verzamelde omzet) naar het grootboek wordt geboekt.
+    - **Methode van overeenkomst**: dit veld bepaalt hoe de berekende verkoopwaarde (verzamelde omzet) naar het grootboek wordt geboekt.
 
         - Met de methode **Verkoopwaarde** wordt de verkoopwaarde door kosten en omzet te matchen en deze vervolgens als één bedrag te boeken.
         - Op basis van de methode **Productie en winst** wordt de verkoopwaarde opgesplitst in gerealiseerde kosten en berekende winst. Deze worden apart geboekt.
 
-    - **Kostensjablonen** : sta toe dat projecttransacties worden gegroepeerd op basis van transactietype en projectcategorie, en definieer berekeningsregels voor het voltooiingspercentage voor deze groepen.
-    - **Periodecodes** : definieer de frequentie waarmee omzetschattingen worden berekend voor een bepaald profiel voor projectkosten en -inkomsten.
-    - **Categorieën voor schatting** : wordt gebruikt voor het boeken van verkoopwaarde (verzamelde omzet) naar projecttransacties. Configureer eerst de speciale projectcategorie voor een transactietype **Tarief** en stel vervolgens de vlag **Schatting** in voor deze projectcategorie. Kies vervolgens, afhankelijk van de geselecteerde methode van overeenkomst, deze projectcategorie voor **Verkoop** of **Winst** in het profiel voor projectkosten en -inkomsten.
+    - **Kostensjablonen**: sta toe dat projecttransacties worden gegroepeerd op basis van transactietype en projectcategorie, en definieer berekeningsregels voor het voltooiingspercentage voor deze groepen.
+    - **Periodecodes**: definieer de frequentie waarmee omzetschattingen worden berekend voor een bepaald profiel voor projectkosten en -inkomsten.
+    - **Categorieën voor schatting**: wordt gebruikt voor het boeken van verkoopwaarde (verzamelde omzet) naar projecttransacties. Configureer eerst de speciale projectcategorie voor een transactietype **Tarief** en stel vervolgens de vlag **Schatting** in voor deze projectcategorie. Kies vervolgens, afhankelijk van de geselecteerde methode van overeenkomst, deze projectcategorie voor **Verkoop** of **Winst** in het profiel voor projectkosten en -inkomsten.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Voorbeeldconfiguraties voor profielen voor projectkosten en -inkomsten
 

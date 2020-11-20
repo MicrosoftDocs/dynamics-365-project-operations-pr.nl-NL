@@ -3,7 +3,7 @@ title: Uren invoeren
 description: Informatie over uren invoeren in Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074767"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132867"
 ---
 # <a name="enter-time-project-service"></a>Uren invoeren (Project Service)
 
@@ -51,7 +51,7 @@ Voer in ieder uw - uren op in weekblad-of de frequentie wordt aangevraagd door d
   
    Als u het web-app gebruikt:  
   
-9. In het menu, gaat u naar **Tijdvermeldingen**.     U kunt overschakelen tussen weergaven voor **Dag** , **Week** of **Maand** , of navigeren naar de vorige of volgende periode.  
+9. In het menu, gaat u naar **Tijdvermeldingen**.     U kunt overschakelen tussen weergaven voor **Dag**, **Week** of **Maand**, of navigeren naar de vorige of volgende periode.  
   
 10. Tik op **…** en vervolgens op **Nieuw**.  
   

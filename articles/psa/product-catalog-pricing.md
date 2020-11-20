@@ -3,7 +3,7 @@ title: Productcatalogusprijzen bepalen
 description: Dit onderwerp biedt informatie over de manier waarop productcatalogusprijzen worden bepaald in Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074595"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132282"
 ---
 # <a name="product-catalog-pricing"></a>Productcatalogusprijzen bepalen 
 
@@ -46,7 +46,7 @@ Er worden verschillende afrondingsopties ondersteund wanneer prijzen worden geco
 
 > ![Producten uit een catalogus aan verschillende prijslijsten toevoegen](media/basic-guide-16.png)
 
-Wanneer u een nieuwe aangepaste prijslijst voor een prijsopgave maakt door **Aangepaste prijzen maken** te selecteren op de pagina **Prijsopgave voor projecten** , wordt er in PSA een kopie gemaakt van de prijslijst en wordt het veld **Entiteit** in de header van de nieuwe prijslijst ingesteld op **Verkoopentiteit**. Aan de naam van de nieuwe prijslijst worden de naam van de prijsopgave en een timestamp toegevoegd. U kunt ook de naam van de nieuwe prijslijst en de naam van de prijsopgave in aangepaste werkstromen gebruiken om extra controles en goedkeuringen te activeren voor prijsopgaven waarin aangepaste prijzen worden gebruikt.
+Wanneer u een nieuwe aangepaste prijslijst voor een prijsopgave maakt door **Aangepaste prijzen maken** te selecteren op de pagina **Prijsopgave voor projecten**, wordt er in PSA een kopie gemaakt van de prijslijst en wordt het veld **Entiteit** in de header van de nieuwe prijslijst ingesteld op **Verkoopentiteit**. Aan de naam van de nieuwe prijslijst worden de naam van de prijsopgave en een timestamp toegevoegd. U kunt ook de naam van de nieuwe prijslijst en de naam van de prijsopgave in aangepaste werkstromen gebruiken om extra controles en goedkeuringen te activeren voor prijsopgaven waarin aangepaste prijzen worden gebruikt.
 
  
 ## <a name="default-product-price-list"></a>Standaardproductprijslijst

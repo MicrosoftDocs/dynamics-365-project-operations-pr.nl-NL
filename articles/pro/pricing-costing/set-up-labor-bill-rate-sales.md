@@ -1,21 +1,21 @@
 ---
-title: Factureringstarieven voor arbeid instellen
+title: Factureringstarieven voor arbeid instellen - lite
 description: Dit onderwerp bevat informatie over het instellen van factureringstarieven voor arbeid in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074626"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181175"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Factureringstarieven instellen voor het factureren van loonkosten 
+# <a name="set-up-labor-bill-rates---lite"></a>Factureringstarieven voor arbeid instellen - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -27,7 +27,7 @@ Elke prijslijst heeft een reeks rolprijzen of loonkosten die gelden voor de cont
 
   De volgende tabel bevat de velden op het tabblad **Algemeen** en deelvenster **Snelle invoer** van een rolprijsregel waarmee u rekening moet houden wanneer u rolprijzen maakt op een verkoopprijslijst:
 
-  | Veld | Locatie | Relevantie, doel en richtlijnen | Downstreamimpact |
+  | Veld | Locatie | Beschrijving | Downstreamimpact |
   | --- | --- | --- | --- |
   | - Rol | Tabblad **Algemeen** en deelvenster **Snelle invoer** | Selecteer de rol waarvoor u het factuurtarief instelt. | Rol in de inkomende regel met het geschatte of werkelijke bedrag wordt vergeleken met deze regel voor de standaardwaarde voor de factuurtarieven van de rol. |
   | Resource-eenheid | Tabblad **Algemeen** en deelvenster **Snelle invoer** | Selecteer de organisatie-eenheid of divisie van het bedrijf waarvan deze rol afkomstig is. Bijvoorbeeld een ontwikkelaar van de Robotics-divisie van Fabrikam India of een ontwikkelaar van de Software-divisie van Fabrikam USA. | De resource-eenheid in de inkomende regel met het geschatte of werkelijke bedrag wordt vergeleken met deze regel voor de standaardwaarde voor de factuurtarieven van de rol. |

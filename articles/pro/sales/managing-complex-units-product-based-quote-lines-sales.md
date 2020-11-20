@@ -1,21 +1,21 @@
 ---
-title: Complexe eenheden, zoals per gebruiker of per maand, beheren voor productgebaseerde prijsopgaveregels
+title: Complexe eenheden, zoals per gebruiker of per maand, beheren voor productgebaseerde prijsopgaveregels - lite
 description: Dit onderwerp bevat informatie over het beheren van complexe eenheden voor productgebaseerde prijsopgaveregels.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074496"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175570"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Complexe eenheden, zoals per gebruiker of per maand, beheren voor productgebaseerde prijsopgaveregels
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Complexe eenheden, zoals per gebruiker of per maand, beheren voor productgebaseerde prijsopgaveregels - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -29,8 +29,8 @@ Project Operations zorgt ervoor dat alleen numerieke eigenschappen of producteig
 
 Dynamics 365 Sales kan bijvoorbeeld de volgende eigenschappen hebben:
 
-- **Aantal gebruikers** : het aantal gebruikers
-- **Aantal maanden** : het aantal abonnementsmaanden
+- **Aantal gebruikers**: het aantal gebruikers
+- **Aantal maanden**: het aantal abonnementsmaanden
 - **SKU van product**
 
 U kunt de eigenschappen **Aantal gebruikers** en **Aantal maanden** markeren als hoeveelheidsfactoren door de eigenschappen van de productregel te bewerken.

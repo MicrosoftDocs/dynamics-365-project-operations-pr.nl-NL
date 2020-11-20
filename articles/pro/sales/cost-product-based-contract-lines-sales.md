@@ -1,26 +1,26 @@
 ---
-title: Kostprijsberekening van productgebaseerde contractregels
+title: Kosten van productgebaseerde contractregels - lite
 description: Dit onderwerp bevat informatie over het maken van productgebaseerde contractregels.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4074795"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177235"
 ---
-# <a name="costing-product-based-contract-lines"></a>Kostprijsberekening van productgebaseerde contractregels
+# <a name="cost-product-based-contract-lines---lite"></a>Kosten van productgebaseerde contractregels - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
 
-Productgebaseerde contractregels in Dynamics 365 Project Operations omvatten het veld **Kostprijs** , waarin de kostprijs van het product wordt opgeslagen voor berekeningen van de winstgevendheid verderop in het proces.
+Productgebaseerde contractregels in Dynamics 365 Project Operations omvatten het veld **Kostprijs**, waarin de kostprijs van het product wordt opgeslagen voor berekeningen van de winstgevendheid verderop in het proces.
 
 Wanneer een productgebaseerde contractregel wordt gemaakt voor een catalogusproduct, worden de kosten van de productgebaseerde contractregel standaard overgenomen uit het veld **Standaardkosten** in de productcatalogus. Het veld **Standaardkosten** in de productcatalogus is ingesteld in de basisvaluta van de organisatie. Wanneer de eenheidskosten op de contractregel standaard zijn ingesteld, worden deze omgerekend naar de verkoopvaluta in het contract.
 

@@ -1,21 +1,21 @@
 ---
-title: Projectgebaseerde prijsopgaveregels (Pro)
+title: Overzicht van projectgebaseerde prijsopgaveregels - lite
 description: Dit onderwerp bevat informatie over het gebruik van op projectgebaseerde prijsopgaveregels voor projectwerk. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074494"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181086"
 ---
-# <a name="project-based-quote-lines-pro"></a>Projectgebaseerde prijsopgaveregels (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Overzicht van projectgebaseerde prijsopgaveregels - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -31,7 +31,7 @@ Projectgebaseerde prijsopgaveregels zijn ontworpen om te helpen bij het inschatt
 
 De volgende tabel bevat informatie over de velden op het tabblad **Algemeen** van projectgebaseerde prijsopgaveregels. Deze velden helpen bij het opzetten van de basis voor een gedetailleerde, complete schatting voor projectwerk.
 
-| **Veld** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- |
 | Meetcriterium | De naam van de prijsopgaveregel waarmee u de afzonderlijke component van de prijsopgave in de raming kunt identificeren. | Gekopieerd naar de projectcontractregel die is gemaakt op basis van deze prijsopgaveregel wanneer de prijsopgave wordt geaccepteerd. |
 | Factureringsmethode | In een prijsopgave die wordt gemaakt op basis van een verkoopkans, wordt deze waarde gekopieerd uit het overeenkomstige veld op de verkoopkansregel. Dit veld bevat de twee belangrijkste contractmodellen die worden ondersteund door Dynamics 365 Project Operations:</br>- Vaste prijs</br>- Tijd en materiaal.| Deze veldwaarde wordt gekopieerd naar de projectcontractregel die is gemaakt op basis van deze prijsopgaveregel wanneer de prijsopgave wordt geaccepteerd. |
@@ -49,15 +49,15 @@ De volgende tabel bevat informatie over de velden op het tabblad **Algemeen** va
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Validatieregels voor velden op het tabblad Algemeen van projectgebaseerde prijsopgaveregels
 
-**Regel 1** : als het veld **Inbegrepen taken** leeg is, of als het is ingesteld op **Alle projecttaken** , wordt een project opgenomen in de prijsopgaveregel.
+**Regel 1**: als het veld **Inbegrepen taken** leeg is, of als het is ingesteld op **Alle projecttaken**, wordt een project opgenomen in de prijsopgaveregel.
 
-**Regel 2** : als het veld **Inbegrepen taken** leeg is, of als het is ingesteld op **Alle projecttaken** kunnen een project en een bepaalde transactieklasse alleen worden opgenomen in één projectgebaseerde prijsopgaveregel van een prijsopgave.
+**Regel 2**: als het veld **Inbegrepen taken** leeg is, of als het is ingesteld op **Alle projecttaken** kunnen een project en een bepaalde transactieklasse alleen worden opgenomen in één projectgebaseerde prijsopgaveregel van een prijsopgave.
 
-**Regel 3** : als het veld **Inbegrepen taken** is ingesteld op **Alleen geselecteerde projecttaken** kunnen een project en een bepaalde transactieklasse worden opgenomen in meerdere projectgebaseerde prijsopgaveregels van een prijsopgave.
+**Regel 3**: als het veld **Inbegrepen taken** is ingesteld op **Alleen geselecteerde projecttaken** kunnen een project en een bepaalde transactieklasse worden opgenomen in meerdere projectgebaseerde prijsopgaveregels van een prijsopgave.
 
-**Regel 4** : als een verkoopkans meerdere prijsopgaven bevat, kunnen er regels van verschillende prijsopgaven zijn die allemaal naar hetzelfde project verwijzen en dezelfde transactieklasse bevatten.
+**Regel 4**: als een verkoopkans meerdere prijsopgaven bevat, kunnen er regels van verschillende prijsopgaven zijn die allemaal naar hetzelfde project verwijzen en dezelfde transactieklasse bevatten.
 
-**Regel 5** : als de prijsopgaven niet tot dezelfde verkoopkans behoren, kunnen ze niet hetzelfde project en dezelfde transactieklasse bevatten.
+**Regel 5**: als de prijsopgaven niet tot dezelfde verkoopkans behoren, kunnen ze niet hetzelfde project en dezelfde transactieklasse bevatten.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

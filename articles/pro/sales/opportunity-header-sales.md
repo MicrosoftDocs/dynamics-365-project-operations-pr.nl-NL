@@ -1,21 +1,21 @@
 ---
-title: Verkoopkans-header
-description: Dit onderwerp bevat informatie over de algemene gegevens voor projectgebaseerde deals en de regels voor projectgebaseerde verkoopkansen.
+title: Instellingen voor verkoopkansen - lite
+description: Dit onderwerp bevat informatie over projectgebaseerde deals en projectgebaseerde verkoopkansregels.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074492"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181026"
 ---
-# <a name="opportunity-header"></a>Verkoopkans-header
+# <a name="opportunity-header---lite"></a>Verkoopkanskoptekst - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -25,7 +25,7 @@ Projectgebaseerde verkoopkansen in Dynamics 365 Project Operations zijn uitbreid
 
 De volgende tabel bevat de velden in een projectgebaseerde verkoopkans die uniek zijn voor Project Operations of die een aantal belangrijke gedragsveranderingen vertonen ten opzichte van verkoopkansen in Sales.
 
-| **Veld** | **Locatie** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
 | Type | Tabblad Algemeen (verborgen) | Deze optieset heeft de volgende opties:</br>- Op werk gebaseerd (alleen beschikbaar in Project Operations)</br>- Op artikel gebaseerd (alleen beschikbaar als Project Operations en Sales zijn geïnstalleerd)</br>- Op onderhoud gebaseerd (beschikbaar wanneer Field Service is geïnstalleerd) | Wanneer u Project Operations gebruikt, wordt deze veldwaarde automatisch ingesteld op **Op werk gebaseerd** waardoor de verkoopkans wordt ingedeeld als projectgebaseerd. Een verkoopkans moet projectgebaseerd zijn om alle projectspecifieke uitbreidingen en functionaliteit in het downstream-verkoopproces voor deze deal in te schakelen. |
 | Contact | Tabblad Algemeen | Verwijzing naar de primaire contactpersoon van de klant voor deze deal. | |

@@ -1,29 +1,23 @@
 ---
-title: Overzicht van verkoopprocessen
+title: Overzicht van verkoopproces
 description: Dit onderwerp geeft informatie over standaardverkoopprocessen.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074763"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177595"
 ---
-# <a name="sales-processes-overview"></a>Overzicht van verkoopprocessen
+# <a name="sales-process-overview"></a>Overzicht van verkoopproces
+
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 De verkoopprocessen die worden gebruikt in een projectgebaseerde organisatie verschillen van de verkoopprocessen die worden gebruikt in een productgebaseerde organisatie. Dit verschil treedt op omdat de verkoopcycli voor projectgebaseerde organisaties langer zijn en aangepaste schattingstechnieken vereisen voor het analyseren en maken van prijsopgaven voor elke deal. Dynamics 365 Project Operations maakt gebruik van een aantal van de volgende functies die in een verkoopproces worden gebruikt:
 
@@ -56,12 +50,12 @@ Uw bedrijf kan bijvoorbeeld de volgende zes fasen in het verkoopproces hanteren:
  
 Uw organisatie kan verschillende entiteiten voor dezelfde deal gebruiken terwijl deze zich ontwikkelt. Vroeg in het verkoopproces wordt een deal vertegenwoordigd door de entiteit Verkoopkans. Naarmate de tijd verstrijkt en er meer details opduiken, kunt u algemene schattingen gebruiken om een of meer prijsopgaven te maken. Als een van deze prijsopgaven wordt beoordeeld door interne belanghebbenden en klanten, vertegenwoordigt de entiteit Prijsopgave de deal. Nadat de klant de prijsopgave heeft aanvaard, wordt de deal vertegenwoordigd door een projectcontract of werkomschrijving. Ter ondersteuning van dit probleem zijn BPFs zo gestructureerd dat elke fase in het proces is gekoppeld aan een andere databasetabel.
 
-De fase **Kwalificeren** in het verkoopproces kan worden ondersteund door een entiteit Verkoopkans. De fasen **Schatting** en **Interne beoordeling** kunnen worden ondersteund door een entiteit Prijsopgave. De fasen **Contract** , **Levering** en **Afsluiting** kunnen worden ondersteund door een entiteit Projectcontract.
+De fase **Kwalificeren** in het verkoopproces kan worden ondersteund door een entiteit Verkoopkans. De fasen **Schatting** en **Interne beoordeling** kunnen worden ondersteund door een entiteit Prijsopgave. De fasen **Contract**, **Levering** en **Afsluiting** kunnen worden ondersteund door een entiteit Projectcontract.
 
 Terwijl deals de fasen doorlopen, wordt u gevraagd de juiste entiteitsrecord te maken om u door het proces te begeleiden. De fasen kunnen voorwaardelijk zijn. Als u bijvoorbeeld alleen een interne beoordeling van een prijsopgave nodig hebt als de prijsopgave een aangepaste prijslijst gebruikt, kunt u die voorwaarde configureren in de betreffende fase van het bedrijfsproces. De fase **Interne beoordeling** wordt dan alleen weergegeven voor prijsopgaven die een aangepaste prijslijst gebruiken. Voor alle andere deals en prijsopgaven wordt de fase **Schatting** gevolgd door de fase **Contract**.
 
 > [!NOTE]
-> Project Operations heeft specifieke pagina's voor entiteitsrecords voor verkoopkansen, prijsopgaven, orders en facturen. U moet deze records maken met behulp van de projectinformatiepagina's voor deze entiteiten. Als u dat niet doet, kunt u de records niet openen vanaf de pagina **Projectinformatie**. Als u een record wilt openen vanaf de pagina **Projectinformatie** , moet u de record verwijderen en opnieuw maken via de pagina **Projectinformatie** waar de bedrijfslogica voor elk van deze entiteitstypen ervoor zorgt dat het veld **Type** van de record correct is ingesteld en alle verplichte concepten goed zijn geïnitialiseerd.
+> Project Operations heeft specifieke pagina's voor entiteitsrecords voor verkoopkansen, prijsopgaven, orders en facturen. U moet deze records maken met behulp van de projectinformatiepagina's voor deze entiteiten. Als u dat niet doet, kunt u de records niet openen vanaf de pagina **Projectinformatie**. Als u een record wilt openen vanaf de pagina **Projectinformatie**, moet u de record verwijderen en opnieuw maken via de pagina **Projectinformatie** waar de bedrijfslogica voor elk van deze entiteitstypen ervoor zorgt dat het veld **Type** van de record correct is ingesteld en alle verplichte concepten goed zijn geïnitialiseerd.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Revisies in prijsopgaven en projectplannen in de verkoopcyclus bijhouden

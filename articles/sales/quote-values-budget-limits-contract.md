@@ -1,21 +1,21 @@
 ---
-title: Overzichtsgegevens voor een projectprijsopgave
+title: Instellingen voor projectprijsopgaven
 description: Dit onderwerp beschrijft de informatie en instellingen die van toepassing en invloed zijn op projectprijsopgaven.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074410"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180231"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Overzichtsgegevens voor een projectprijsopgave
+# <a name="project-quote-settings"></a>Instellingen voor projectprijsopgaven
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
@@ -24,7 +24,7 @@ In dit artikel wordt uitgelegd welke informatie van toepassing is op een project
 
 De volgende tabel bevat een overzicht met de informatievelden voor projectprijsopgaven die uniek zijn voor Dynamics 365 Project Operations of die belangrijke veranderingen bevatten ten opzichte van Dynamics 365 Sales.
 
-| **Veld** | **Locatie** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
 | Type | Overzichtstabblad (verborgen) | Deze optieset bevat de volgende opties:</br>- Op werk gebaseerd (alleen beschikbaar als Project Operations is geïnstalleerd)</br>- Op artikel gebaseerd (alleen beschikbaar als Project Operations en Sales zijn geïnstalleerd)</br>- Op onderhoud gebaseerd (beschikbaar wanneer Dynamics 365 Field Service is geïnstalleerd) | Wanneer u de toepassing Project Operations gebruikt, wordt de waarde van dit veld automatisch ingesteld op **Op werk gebaseerd**. Dit classificeert de prijsopgave als een projectmatige prijsopgave. Een prijsopgave moet projectgebaseerd zijn om alle projectspecifieke uitbreidingen en functionaliteit mogelijk te maken. |
 | Bedrijf dat eigenaar is | Samenvatting | De rechtspersoon die verantwoording aflegt over de kosten en opbrengsten die voortvloeien uit dit project of projecten die aan deze offerte zijn gekoppeld. Wanneer een prijsopgave wordt gemaakt op basis van een verkoopkans, wordt dit veld gekopieerd uit het overeenkomstige veld op de verkoopkans. | Het bedrijf dat eigenaar is, komt overeen met het concept van rechtspersoon in de module **Projectmanagement en financiële administratie** van Project Operations. Alle kosten en opbrengsten die voortvloeien uit dit project worden verantwoord in het grootboek van het bedrijf dat de eigenaar is. |
@@ -38,7 +38,7 @@ De volgende tabel bevat een overzicht met de informatievelden voor projectprijso
 
 Hieronder staan de tabbladen en KPI's voor een projectprijsopgave die uniek zijn voor Project Operations of die enkele belangrijke veranderingen bevatten ten opzichte van Verkoopoffertes:
 
-| **Veld** | **Locatie** | **Relevantie, doel en richtlijnen** |
+| **Veld** | **Locatie** | **Beschrijving** |
 | --- | --- | --- |
 | Winstgevendheidsanalyse | Tabblad voor prijsopgave | Het tabblad bevat de volgende gegevens:</br>- Totale toerekenbare kosten</br></br>- Totale niet-toerekenbare kosten</br>- Totale omzet</br>- Totale omzet (basis)</br>- Brutomarge</br>- Aangepaste brutomarge|
 | Vergelijking met klantverwachtingen | Tabblad voor prijsopgave | Dit tabblad bevat de volgende gegevens:</br>- Geschatte voltooiing</br>- Aangevraagde voltooiing</br>- Klantbudget</br>- Waarde van prijsopgave |

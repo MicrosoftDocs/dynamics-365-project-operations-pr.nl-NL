@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074422"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181761"
 ---
 # <a name="manage-leads"></a>Leads beheren
 
@@ -38,7 +38,7 @@ Als u wilt dat voor een gekwalificeerde potentiële klant automatisch een verkoo
 
 De volgende tabel bevat belangrijke veldinformatie voor een potentiële klant en voor downstream-implicaties van die velden.
  
-| **Veld** | **Locatie** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
 | Onderwerp | Tabblad Algemeen | Dit tekstveld moet een korte beschrijving van de deal bevatten. | Het onderwerp van de potentiële klant wordt standaard het onderwerp van de verkoopkans, en de naam van de prijsopgave en het projectcontract. |
 | Type | Tabblad Algemeen | Deze optieset heeft de volgende opties:</br>- Op werk gebaseerd (alleen beschikbaar als Project Operations is geïnstalleerd)</br>- Op artikel gebaseerd (alleen beschikbaar als Project Operations en Sales zijn geïnstalleerd)</br>- Op onderhoud gebaseerd (beschikbaar wanneer Field Service is geïnstalleerd) | Als de waarde van dit veld is ingesteld op **Werkgebaseerd** voor de potentiële klant, is deze gekwalificeerd om een projectgebaseerde verkoopkans te creëren. Er is een projectgebaseerde verkoopkans vereist om alle projectspecifieke uitbreidingen en functionaliteit in het downstream-verkoopproces voor deze deal in te schakelen. |

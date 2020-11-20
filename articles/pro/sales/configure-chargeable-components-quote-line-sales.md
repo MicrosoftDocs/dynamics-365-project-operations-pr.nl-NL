@@ -1,21 +1,21 @@
 ---
-title: De toerekenbare onderdelen van een prijsopgaveregel configureren
+title: De toerekenbare componenten van een prijsopgaveregel configureren - lite
 description: Dit onderwerp bevat informatie over het instellen van toerekenbare en niet-toerekenbare onderdelen op een projectgebaseerde prijsopgaveregel.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074685"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177100"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>De toerekenbare onderdelen van een prijsopgaveregel configureren
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>De toerekenbare componenten van een prijsopgaveregel configureren - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -44,21 +44,21 @@ Toerekenbaarheid die is gedefinieerd voor transactiecategorieën voor een prijso
 
 Een projecttaak kan in de context van een projectgebaseerde prijsopgaveregel toerekenbaar of niet-toerekenbaar zijn, waardoor de volgende instellingen mogelijk zijn:
 
-Als een projectgebaseerde prijsopgaveregel **Tijd** en de taak **T1** bevat, wordt de taak als toerekenbaar aan de prijsopgaveregel gekoppeld. Als er een tweede prijsopgaveregel is die **Onkosten** bevat, kunt u de **T1** -taak op de prijsopgaveregel als niet-toerekenbaar koppelen. Het resultaat is dat alle tijd die voor de taak is geregistreerd, toerekenbaar is en dat alle onkosten die voor de taak zijn geregistreerd niet-toerekenbaar zijn.
+Als een projectgebaseerde prijsopgaveregel **Tijd** en de taak **T1** bevat, wordt de taak als toerekenbaar aan de prijsopgaveregel gekoppeld. Als er een tweede prijsopgaveregel is die **Onkosten** bevat, kunt u de **T1**-taak op de prijsopgaveregel als niet-toerekenbaar koppelen. Het resultaat is dat alle tijd die voor de taak is geregistreerd, toerekenbaar is en dat alle onkosten die voor de taak zijn geregistreerd niet-toerekenbaar zijn.
 
-Het factureringstype van een taak kan worden geconfigureerd op het tabblad **Toerekenbare taken** van een projectgebaseerde prijsopgaveregel door het veld **Factureringstype** op het subraster **Taken prijsopgaveregel** bij te werken. U kunt ook het factureringstype voor een projecttaak in het veld **Factureringstype** in het subraster van de taakfactureringsinstellingen van een project bijwerken waarin de prijsopgaveregels worden weergegeven die aan een taak zijn gekoppeld.
+Het factureringstype van een taak kan worden geconfigureerd op het tabblad **Toerekenbare taken** van de projectgebaseerde prijsopgaveregel door het veld **Factureringstype** op het subraster **Taken van contractregel** bij te werken. U kunt ook het factureringstype voor een projecttaak bijwerken in het veld **Factureringstype** op het subraster Factureringsinstellingen van een project bijwerken dat de prijsopgaveregels toont die aan een taak zijn gekoppeld.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Een rol bijwerken als toerekenbaar of niet-toerekenbaar
 
 Een rol kan toerekenbaar en niet-toerekenbaar zijn in de context van een specifieke projectgebaseerde prijsopgaveregel.
 
-Het factureringstype van een rol kan worden geconfigureerd op het tabblad **Toerekenbare rollen** van een prijsopgaveregel door het veld **Factureringstype** op het subraster **Toerekenbare rollen** bij te werken.
+Het factureringstype van een rol kan worden geconfigureerd op het tabblad **Toerekenbare rollen** door het veld **Factureringstype** op het subraster **Toerekenbare rollen** bij te werken.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Een transactiecategorie bijwerken als toerekenbaar of niet-toerekenbaar
 
 Een transactiecategorie kan toerekenbaar of niet-toerekenbaar zijn op een specifieke prijsopgaveregel.
 
-Het factureringstype van een transactie kan worden geconfigureerd op het tabblad **Toerekenbare categorieën** van een prijsopgaveregel door het veld **Factureringstype** op het subraster **Toerekenbare categorieën** bij te werken.
+Het factureringstype van een transactie kan worden geconfigureerd op het tabblad **Toerekenbare categorieën** door het veld **Factureringstype** op het subraster **Toerekenbare categorieën** bij te werken.
 
 ### <a name="resolve-chargeability"></a>Toerekenbaarheid oplossen
 Een schatting of een werkelijke waarde die is gemaakt voor tijd, wordt alleen als toerekenbaar beschouwd als **Tijd** is opgenomen op de prijsopgaveregel, en als **Taak** en **Rol** zijn geconfigureerd als toerekenbaar op de prijsopgaveregel.

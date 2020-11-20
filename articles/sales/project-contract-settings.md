@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087878"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181131"
 ---
 # <a name="project-contract-settings"></a>Instellingen voor projectcontracten
 
@@ -23,7 +23,7 @@ Dit onderwerp bevat informatie over velden die van toepassing zijn op het volled
 
 De volgende tabel bevat een overzicht met de velden in een projectcontract die uniek zijn voor Dynamics 365 Project Operations of die belangrijke veranderingen bevatten ten opzichte van verkooporders in Dynamics 365 Sales.
 
-| Veld | Locatie | Relevantie, doel en richtlijnen | Downstreamimpact |
+| Veld | Locatie | Beschrijving | Downstreamimpact |
 | --- | --- | --- | --- |
 | Type | Tabblad **Overzicht** (verborgen) | Dit is een veld met een optieset met de volgende opties:</br>- **Op werk gebaseerd** (alleen beschikbaar als Project Operations is geïnstalleerd)</br>- **Op artikel gebaseerd** (alleen beschikbaar als Project Operations en Sales zijn geïnstalleerd)</br>- **Op onderhoud gebaseerd** (beschikbaar als Dynamics 365 Field Service is geïnstalleerd) | In Project Operations is de waarde van dit veld standaard **Op werk gebaseerd** en wordt het contract ingedeeld als een projectgebaseerd contract. Een contract moet projectgebaseerd zijn om alle projectspecifieke uitbreidingen en functionaliteit mogelijk te maken. |
 | Bedrijf dat eigenaar is | Tabblad **Overzicht** | De rechtspersoon die verantwoording aflegt over de kosten en opbrengsten die voortvloeien uit de projecten die aan dit projectcontract zijn gekoppeld. Wanneer een contract wordt gemaakt op basis van een prijsopgave, wordt dit veld gekopieerd uit het overeenkomstige veld in de prijsopgaverecord. | Het bedrijf dat eigenaar is, komt overeen met het concept van rechtspersoon in de module **Projectmanagement en financiële administratie** van Project Operations. Alle kosten en opbrengsten die voortvloeien uit dit project worden verantwoord in het grootboek van het bedrijf dat de eigenaar is. |
@@ -37,7 +37,7 @@ De volgende tabel bevat een overzicht met de velden in een projectcontract die u
 
 De volgende KPI's zijn beschikbaar op het tabblad **Contractprestaties** van een projectcontract.
 
-| Veld | Locatie | Relevantie, doel en richtlijnen |
+| Veld | Locatie | Beschrijving |
 | --- | --- | --- |
 | Contractwaarde | Algemeen contract | De totale waarde van het projectcontract. |
 | Gefactureerd bedrag | Algemeen contract | De som van de bedragen op alle facturen voor dit contract. |

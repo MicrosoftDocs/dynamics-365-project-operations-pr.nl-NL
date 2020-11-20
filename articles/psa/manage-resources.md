@@ -3,7 +3,7 @@ title: Resources beheren
 description: Dit onderwerp bevat informatie over de manier waarop u resources kunt beheren.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074765"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132327"
 ---
 # <a name="manage-resources"></a>Resources beheren
 
@@ -64,7 +64,7 @@ Volg deze stappen om vereiste vaardigheden op te geven van een algemene resource
 
     ![Koppeling voor vereisten](media/Resource-Management-image10.png)
 
-3. Ga op de pagina **Resourcevereiste** die verschijnt, naar het raster **Vaardigheden** , selecteer het beletselteken ( **...** ) en selecteer vervolgens de optie **Nieuw vereistekenmerk toevoegen** om de vereiste vaardigheden voor uw ontwikkelaar toe te voegen.
+3. Ga op de pagina **Resourcevereiste** die verschijnt, naar het raster **Vaardigheden**, selecteer het beletselteken (**...**) en selecteer vervolgens de optie **Nieuw vereistekenmerk toevoegen** om de vereiste vaardigheden voor uw ontwikkelaar toe te voegen.
 
     ![Opdracht Nieuw vereistekenmerk toevoegen](media/Resource-Management-image11.png)
 
@@ -217,7 +217,7 @@ Op de pagina **Resourcevereiste** kan de projectmanager of resourcemanager ook d
 
 Nadat u een algemene of benoemde resource aan een projectteam hebt toegevoegd, kunt u de boekingen van de resource wijzigen.
 
-1. Ga naar de pagina **Projecten** , selecteer op het tabblad **Team** een teamlid en selecteer vervolgens **Boekingen bijhouden**.
+1. Ga naar de pagina **Projecten**, selecteer op het tabblad **Team** een teamlid en selecteer vervolgens **Boekingen bijhouden**.
 
     ![Planbord dat is geopend voor het geselecteerde teamlid](media/Resource-Management-image40.png)
 
@@ -286,7 +286,7 @@ Selecteer **Alle voorstellen accepteren** om alle voorgestelde resources te acce
 
 Soms moet een projectmanager een geboekt teamlid vervangen in een project.
 
-1. Ga naar de pagina **Projecten** , selecteer op het tabblad **Team** de resource die moet worden vervangen en selecteer vervolgens **Boekingen bijhouden**.
+1. Ga naar de pagina **Projecten**, selecteer op het tabblad **Team** de resource die moet worden vervangen en selecteer vervolgens **Boekingen bijhouden**.
 2. Vouw de resource uit om de projecten weer te geven waaraan deze is toegewezen.
 
     ![Uitgevouwen resource om toegewezen projecten weer te geven](media/Resource-Management-image50.png)

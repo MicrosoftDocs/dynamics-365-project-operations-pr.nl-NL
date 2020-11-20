@@ -1,21 +1,21 @@
 ---
-title: Meerdere klanten in projectprijsopgaven beheren
+title: Meerdere klanten in een projectprijsopgave beheren
 description: Dit onderwerp bevat informatie over het werken aan prijsopgaven waarbij meerdere klanten zijn betrokken die het project financieren.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074418"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181986"
 ---
-# <a name="manage-multiple-customers-on-project-quotes"></a>Meerdere klanten in projectprijsopgaven beheren
+# <a name="manage-multiple-customers-on-a-project-quote"></a>Meerdere klanten in een projectprijsopgave beheren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
@@ -29,13 +29,13 @@ Klanten voor de prijsopgave en de prijsopgaveregels kunnen op elk moment worden 
 
 De klant die op het **overzichtstabblad** van de projectprijsopgave staat als de potentiële klant, is de primaire klant van de prijsopgave. Wanneer u probeert om de primaire klant uit de klantenlijst op de prijsopgave te verwijderen, ziet u een foutmelding dat een primaire klantrecord op een prijsopgave niet kan worden verwijderd.
 
-De primaire klant mag niet worden bijgewerkt vanuit de klantenlijst op de prijsopgave. U kunt de primaire klant echter beïnvloeden door de potentiële klant te wijzigen op het tabblad **Samenvatting** van de prijsopgave. Wanneer dit veld wordt bijgewerkt in de **samenvatting van de prijsopgave** , wordt de nieuw geselecteerde potentiële klant toegevoegd als een nieuwe klant waarvoor de markering **Primair** is ingesteld. De oude potentiële klant blijft staan op de prijsopgave.
+De primaire klant mag niet worden bijgewerkt vanuit de klantenlijst op de prijsopgave. U kunt de primaire klant echter beïnvloeden door de potentiële klant te wijzigen op het tabblad **Samenvatting** van de prijsopgave. Wanneer dit veld wordt bijgewerkt in de **samenvatting van de prijsopgave**, wordt de nieuw geselecteerde potentiële klant toegevoegd als een nieuwe klant waarvoor de markering **Primair** is ingesteld. De oude potentiële klant blijft staan op de prijsopgave.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Een klantrecord voor een prijsopgave maken, bijwerken of verwijderen
 
 Een prijsopgaveklant kan worden gemaakt, bijgewerkt of verwijderd via het tabblad **Prijsopgaveklanten** op de pagina **Prijsopgave**. De velden in de volgende tabel staan in de klantrecord van een projectprijsopgave.
 
-| **Veld** | **Locatie** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
 | Account | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Geeft een overzicht van alle actieve accounts. Dit veld is vergrendeld nadat de record is gemaakt. Als u wilt bijwerken, verwijdert u de record en maakt u deze opnieuw. Als u werkelijke gegevens hebt vastgelegd of als de record van de klant van de prijsopgave een primaire klant is, mag u de record verwijderen. | Prijsopgaveklanten worden gekopieerd als prijsopgaveregelklanten wanneer een prijsopgaveregel wordt aangemaakt. Prijsopgaveklanten worden ook gekopieerd naar de projectcontractklanten wanneer een prijsopgave wordt geaccepteerd. |
 | Gesplitst percentage facturering | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Geven het percentage aan van elke niet-gefactureerde verkooptransactie die aan deze prijsopgaveklant wordt toegewezen. | Gekopieerd naar nieuwe prijsopgaveregels en projectcontractklanten. |
@@ -50,4 +50,4 @@ Een prijsopgaveklant kan worden gemaakt, bijgewerkt of verwijderd via het tabbla
 
 U kunt de percentages voor factuursplitsing bewerken met behulp van de bewerkingsfunctie voor rasterregels. Als de percentages voor factuursplitsing niet in totaal 100% bedragen, treedt er een fout op. Nadat u de percentages voor factuursplitsing hebt bijgewerkt, vernieuwt u de pagina om de fout te verwijderen.
 
-U kunt ook **Gelijkmatig verdelen** selecteren in het subraster met prijsopgaveklanten. Met deze actie worden factuursplitsingen toegewezen aan alle prijsopgaveklanten. Als er een afrondingsfactor is, wordt die toegevoegd voor de afrondingsklant. Een van de prijsopgaveklanten wordt altijd aangeduid als afrondingsklant. Dit betekent dat in de prijsopgaveklantrecord de markering **Afronding** is ingesteld op **Ja**. Meestal is dit de primaire klant van de prijsopgave, maar dat kan worden gewijzigd.
+U kunt ook **Evenredig verdelen** selecteren in het subraster van de prijsopgaveklant. Met deze actie worden factuursplitsingen toegewezen aan alle prijsopgaveklanten. Als er een afrondingsfactor is, wordt die toegevoegd voor de afrondingsklant. Een van de prijsopgaveklanten wordt altijd aangeduid als afrondingsklant. Dit betekent dat in de prijsopgaveklantrecord de markering **Afronding** is ingesteld op **Ja**. Meestal is dit de primaire klant van de prijsopgave, maar dat kan worden gewijzigd.

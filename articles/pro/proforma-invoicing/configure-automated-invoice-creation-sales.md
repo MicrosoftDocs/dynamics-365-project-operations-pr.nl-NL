@@ -1,22 +1,22 @@
 ---
-title: Het maken van geautomatiseerde pro-formafacturen configureren
+title: Automatisch maken van facturen configureren - lite
 description: Dit onderwerp bevat informatie over het configureren van het automatisch maken van pro-formafacturen.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074473"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176560"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Het maken van geautomatiseerde pro-formafacturen configureren
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Automatisch maken van facturen configureren - lite
+ 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
 U kunt het automatisch maken van facturen in Dynamics 365 Project Operations configureren. Er wordt een concept van de pro-formafactuur gemaakt op basis van het factuurschema voor elk projectcontract en elke contractregel. Factuurschema´s worden op contractregelniveau geconfigureerd. Elke regel in een contract kan een afzonderlijk factuurschema hebben of hetzelfde factuurschema kan op elke regel van het contract worden opgenomen.
@@ -48,16 +48,16 @@ Factuurschema's die voor elk van deze twee regelitems zijn gedefinieerd, zien er
 
 In dit voorbeeld wanneer de automatische facturering wordt uitgevoerd op:
 
-- **4 oktober of een eerdere datum** : er wordt geen factuur gegenereerd voor dit contract omdat de tabel **Factuurschema** voor elk van deze contractregels 4 oktober, zondag niet noemt als uitvoeringsdatum voor facturen.
-- **5 oktober, maandag** : er wordt één factuur gegenereerd voor:
+- **4 oktober of een eerdere datum**: er wordt geen factuur gegenereerd voor dit contract omdat de tabel **Factuurschema** voor elk van deze contractregels 4 oktober, zondag niet noemt als uitvoeringsdatum voor facturen.
+- **5 oktober, maandag**: er wordt één factuur gegenereerd voor:
 
     - Prototypewerk dat de mijlpaal bevat, als deze is gemarkeerd als **Gereed voor facturering**.
     - Implementatiewerk dat alle tijdtransacties omvat die zijn gemaakt vóór de afsluitdatum van de transactie van 4 oktober, zondag, dat is gemarkeerd als **Gereed voor facturering**.
     - Gemaakte onkosten waarin alle onkostentransacties zijn opgenomen die zijn gemaakt vóór de afsluitdatum van de transactie van 4 oktober, zondag, die zijn gemarkeerd als **Gereed voor facturering**.
   
-- **Op 6 oktober of een eerdere datum vóór 19 oktober** : er wordt geen factuur gegenereerd voor dit contract omdat de tabel **Factuurschema** voor elk van deze contractregels 6 oktober of een datum vóór 19 oktober niet noemt als uitvoeringsdatum voor facturen.
-- **19 oktober, maandag** : er wordt één factuur gegenereerd voor implementatiewerk dat alle tijdtransacties omvat die zijn gemaakt vóór de afsluitdatum van de transactie van 18 oktober, zondag, dat is gemarkeerd als **Gereed voor facturering**.
-- **2 november, maandag** : er wordt één factuur gegenereerd voor:
+- **Op 6 oktober of een eerdere datum vóór 19 oktober**: er wordt geen factuur gegenereerd voor dit contract omdat de tabel **Factuurschema** voor elk van deze contractregels 6 oktober of een datum vóór 19 oktober niet noemt als uitvoeringsdatum voor facturen.
+- **19 oktober, maandag**: er wordt één factuur gegenereerd voor implementatiewerk dat alle tijdtransacties omvat die zijn gemaakt vóór de afsluitdatum van de transactie van 18 oktober, zondag, dat is gemarkeerd als **Gereed voor facturering**.
+- **2 november, maandag**: er wordt één factuur gegenereerd voor:
 
     - Implementatiewerk dat alle tijdtransacties omvat die zijn gemaakt vóór de afsluitdatum van de transactie van 1 november, zondag, dat is gemarkeerd als **Gereed voor facturering**.
     - Gemaakte onkosten waarin alle onkostentransacties zijn opgenomen die zijn gemaakt vóór de afsluitdatum van de transactie van 1 november, zondag, die zijn gemarkeerd als **Gereed voor facturering**.

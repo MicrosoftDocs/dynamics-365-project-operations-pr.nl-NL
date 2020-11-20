@@ -3,7 +3,7 @@ title: Resources inplannen voor een project
 description: Informatie over resources plannen voor een project in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074770"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132125"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Resources plannen voor een project (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4074770"
 
 U kunt de beschikbaarheid van de resource weergeven om een algemeen overzicht te krijgen van hoe uw resources worden geboekt, of u kunt de weergave met vaardigheden, team, de locatie, en andere opties filteren.  
   
-Het planbord geeft de lijst met resources en hun beschikbaarheid weer. Selecteer een weergavemodus om beschikbaarheid weer te geven op **Uren** , **Dag** , **Week** of **Maand**.  
+Het planbord geeft de lijst met resources en hun beschikbaarheid weer. Selecteer een weergavemodus om beschikbaarheid weer te geven op **Uren**, **Dag**, **Week** of **Maand**.  
   
 Voordat u het planbord gebruikt, moet u dit configureren. Zie [Configureer het planningsbord (Field Service, Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board) voor meer informatie.
   
@@ -67,7 +67,7 @@ Als u een oudere versie gebruikt, raadpleegt u voor resourcebeschikbaarheid [De 
   
 2.  Klik op de naam van de resource die u wilt boeken en selecteer vervolgens **Boeken**.  
   
-3.  Klik in het dialoogvenster **Resourceboekingen (maken)** , kies het project waarvoor u de resource wilt boeken samen met de boekingsmethode en de start- en eindtijden.  
+3.  Klik in het dialoogvenster **Resourceboekingen (maken)**, kies het project waarvoor u de resource wilt boeken samen met de boekingsmethode en de start- en eindtijden.  
   
 4.  Selecteer **Boeken** als u klaar bent.  
   

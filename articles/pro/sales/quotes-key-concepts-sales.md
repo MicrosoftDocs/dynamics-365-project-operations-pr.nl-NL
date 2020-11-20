@@ -1,21 +1,21 @@
 ---
-title: Belangrijke concepten voor projectprijsopgaven
+title: Belangrijke concepten voor prijsopgaven - lite
 description: Dit onderwerp biedt informatie over het gebruiken van projectprijsopgaven in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074488"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4178000"
 ---
-# <a name="project-quote-key-concepts"></a>Belangrijke concepten voor projectprijsopgaven
+# <a name="quotes---key-concepts---lite"></a>Belangrijke concepten voor prijsopgaven - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -78,7 +78,7 @@ Deals voor meerdere klanten vinden plaats wanneer er meer dan één klant moet w
 
 ## <a name="invoice-schedules"></a>Factuurschema's
 
-Factuurschema's zijn specifiek voor elke prijsopgaveregel en zijn ook optioneel. Factuurschema's worden gemaakt op basis van bepaalde start- en einddatums en factuurfrequentie. Factuurschema's worden gebruikt in de contractfase wanneer het proces voor het automatisch maken van facturen is geconfigureerd. In de prijsopgavefase zijn de schema's optioneel. Wanneer factuurschema's worden gemaakt in de fase **Prijsopgave** , worden ze gekopieerd naar het projectcontract dat wordt gecreëerd wanneer een projectprijsopgave wordt geaccepteerd.
+Factuurschema's zijn specifiek voor elke prijsopgaveregel en zijn ook optioneel. Factuurschema's worden gemaakt op basis van bepaalde start- en einddatums en factuurfrequentie. Factuurschema's worden gebruikt in de contractfase wanneer het proces voor het automatisch maken van facturen is geconfigureerd. In de prijsopgavefase zijn de schema's optioneel. Wanneer factuurschema's worden gemaakt in de fase **Prijsopgave**, worden ze gekopieerd naar het projectcontract dat wordt gecreëerd wanneer een projectprijsopgave wordt geaccepteerd.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Wijzigingen ten opzichte van een Dynamics 365 Sales-prijsopgave:
 

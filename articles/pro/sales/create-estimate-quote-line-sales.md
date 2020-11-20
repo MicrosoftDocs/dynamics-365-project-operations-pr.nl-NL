@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074468"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180366"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Een schatting voor een projectgebaseerde prijsopgaveregel maken
 
@@ -30,9 +30,9 @@ Als u een projectgebaseerde prijsopgaveregel wilt schatten, selecteert u op de p
 
 Als u een schatting wilt maken op een projectgebaseerde prijsopgaveregel, selecteert u het tabblad **Details van prijsopgaveregel**. Het regelitem dat u op dit tabblad maakt, bevat een samenvatting van de waarde van de prijsopgave voor deze prijsopgaveregel. 
 
-Als u details van prijsopgaven wilt maken, selecteert u **+ Nieuw detail voor prijsopgaveregel** in het subraster **Details van prijsopgaveregel**. Een formulier voor snelle invoer wordt geopend. Het formulier **Prijsopgaveregel** bevat de volgende velden:
+Selecteer om details van prijsopgaven te maken **+ Nieuw prijsopgaveregeldetail** in het subraster **Prijsopgaveregeldetails**. Een formulier voor snelle invoer wordt geopend. Het formulier **Prijsopgaveregel** bevat de volgende velden:
 
-| **Veld** | **Locatie** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
 | Beschrijving | Snelle invoer | Een beschrijving van de betreffende schatting. | Dit veld bevat standaard de gerelateerde prijsopgaveregeldetails voor kosten die automatisch worden gemaakt. |
 | Transactieklasse | Snelle invoer | Deze vervolgkeuzelijst bevat de transactieklassen die zijn opgenomen op het tabblad **Algemeen** van de projectgebaseerde prijsopgaveregel.  | Dit veld bevat standaard de gerelateerde prijsopgaveregeldetails voor kosten die automatisch worden gemaakt. |
@@ -54,7 +54,7 @@ Als u prijzen hebt gewijzigd in de projectprijslijst die bij de prijsopgave is g
 
 ## <a name="access-quote-line-details-for-cost"></a>Prijsopgaveregeldetails voor kosten openen
 
-Selecteer op het tabblad **Prijsopgaveregeldetails** een rij in het raster om bepaalde acties op de werkbalk van het subraster in te schakelen. De eerste actie op de werkbalk van het subraster wanneer een detail van een prijsopgaveregel wordt geselecteerd, is **Open kostendetails**. Selecteer **Open kostendetails** om het gerelateerde kostentarief en bedrag voor deze prijsopgaveregel te zien.
+Selecteer op het tabblad **Prijsopgaveregeldetails** een rij in het raster om acties op de werkbalk van het subraster in te schakelen. De eerste actie op de werkbalk van het subraster wanneer een offerteregeldetail wordt geselecteerd, is **Open kostendetails**. Selecteer **Open kostendetails** om het gerelateerde kostentarief en bedrag voor deze prijsopgaveregel te zien.
 
 > [!NOTE]
 > Als u de resourcing-eenheid, het aantal, de datums, de rol of de categoriewaarden wijzigt in de prijsopgaveregeldetails voor kosten, worden de overeenkomende waarden in de prijsopgaveregeldetails voor kosten gewijzigd.

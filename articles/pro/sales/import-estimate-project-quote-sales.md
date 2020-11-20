@@ -1,21 +1,21 @@
 ---
-title: Schattingen voor een project importeren in een projectgebaseerde prijsopgaveregel
+title: Projectschattingen importeren in een projectgebaseerde prijsopgaveregel - lite
 description: Dit onderwerp bevat informatie over het importeren van schattingen uit een project naar een prijsopgaveregel.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074466"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177730"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Schattingen voor een project importeren in een projectgebaseerde prijsopgaveregel
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Projectschattingen importeren in een projectgebaseerde prijsopgaveregel - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -30,7 +30,7 @@ Als een project wordt aangemaakt tijdens de voor-verkoopfase, kunt u ervoor kiez
   - **- Rol** 
   - **Projecttaak**
 
-Op basis van uw selectie wordt de schatting uit het project voor alle transactieklassen op deze prijsopgaveregel gekopieerd. Om te controleren welke transactieklassen zijn inbegrepen, selecteert u het tabblad **Algemeen** op de projectgebaseerde prijsopgaveregel en controleert u de waarden voor **Inclusief tijd** , **Inclusief kosten** en **Inclusief kosten**.  Om te controleren welke taken zijn opgenomen, selecteert u het tabblad **Toerekenbare taken** op de prijsopgaveregel.
+Op basis van uw selectie wordt de schatting uit het project voor alle transactieklassen op deze prijsopgaveregel gekopieerd. Om te controleren welke transactieklassen zijn inbegrepen, selecteert u het tabblad **Algemeen** op de projectgebaseerde prijsopgaveregel en controleert u de waarden voor **Inclusief tijd**, **Inclusief kosten** en **Inclusief kosten**.  Om te controleren welke taken zijn opgenomen, selecteert u het tabblad **Toerekenbare taken** op de prijsopgaveregel.
 
 Afhankelijk van de aan de taken gekoppelde en opgenomen transactieklassen worden de schattingen voor deze taak- en transactieklassecombinaties geïmporteerd in de prijsopgaveregel.
 

@@ -3,7 +3,7 @@ title: Installatie van voorbeeldgegevens
 description: Dit onderwerp bevat informatie over het installeren van voorbeeldgegevens in Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074629"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132417"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installatie van voorbeeldgegevens voor de Project Service-toepassing
 
@@ -43,13 +43,13 @@ Het meest recente pakket met **demogegevens** is:
 Deze pakketten met voorbeeldgegevens zijn alleen beschikbaar in het Engels.
 
 > [!IMPORTANT]
-> **De installatie van de voorbeeldgegevens kan niet ongedaan worden gemaakt.** U dient deze pakketten alleen te installeren op demo-, evaluatie-, trainings- of testsystemen. Bedenk ook dat de installatie van een afzonderlijk pakket, en vervolgens de installatie van het andere individuele pakket, niet wordt ondersteund. (Met andere woorden: u kunt niet **FSMasterData** installeren gevolgd door **PSMasterData** , of omgekeerd). Als u op enig moment in de toekomst voorbeeldgegevens voor beide toepassingen nodig hebt, dient u het pakket **v902FPSMasterData** te installeren.
+> **De installatie van de voorbeeldgegevens kan niet ongedaan worden gemaakt.** U dient deze pakketten alleen te installeren op demo-, evaluatie-, trainings- of testsystemen. Bedenk ook dat de installatie van een afzonderlijk pakket, en vervolgens de installatie van het andere individuele pakket, niet wordt ondersteund. (Met andere woorden: u kunt niet **FSMasterData** installeren gevolgd door **PSMasterData**, of omgekeerd). Als u op enig moment in de toekomst voorbeeldgegevens voor beide toepassingen nodig hebt, dient u het pakket **v902FPSMasterData** te installeren.
 
 Als u een van de pakketten met voorbeeldgegevens installeert, voert het installatieproces de volgende acties uit:
 
 - Hiermee worden standaardparameters gemaakt of ingesteld voor het gebruik van Project Service, Field Service of beide toepassingen (indien van toepassing).
 
-- Hiermee worden voorbeeldgegevens voor de toepassingen geïmporteerd, zoals boekbare resources, toepassingsspecifieke rollen, verkoop- en kostprijslijsten, organisatie-eenheden, verkoopprocesrecords en andere entiteiten om belangrijke mogelijkheden te laten zien.  
+- Hiermee worden voorbeeldgegevens voor de toepassingen geïmporteerd, zoals boekbare resources, toepassingsspecifieke rollen, verkoop- en kostprijslijsten, organisatie-eenheden, verkoopprocesrecords en andere entiteiten om belangrijke mogelijkheden te laten zien.  
 
 Met het pakket met **demogegevens** krijgt u de beschikking over de bovenstaande gegevens en over aanvullende transactiegegevens zoals werkorders en projecten.
 
@@ -80,7 +80,7 @@ In het installatieprotocol wordt uitgegaan van het volgende met betrekking tot u
 
 U moet het installatieprogramma uitvoeren op een computer met een recente versie van Windows (Windows 10 geniet de voorkeur).
 
-U dient ervoor te zorgen dat de computer verbonden blijft met een netwerk en er rekening mee te houden dat de installatie van **instellings-/referentiegegevens** tot **1 uur** kan duren. (Normaal vergt de installatie ongeveer 30 minuten voor **FPSMasterData** , met voorbeeldgegevens voor beide toepassingen.) De installatie van de **FPSDemoData** neemt ongeveer **3 uur** in beslag.
+U dient ervoor te zorgen dat de computer verbonden blijft met een netwerk en er rekening mee te houden dat de installatie van **instellings-/referentiegegevens** tot **1 uur** kan duren. (Normaal vergt de installatie ongeveer 30 minuten voor **FPSMasterData**, met voorbeeldgegevens voor beide toepassingen.) De installatie van de **FPSDemoData** neemt ongeveer **3 uur** in beslag.
 
 De schermbeveiligingsfunctie van de computer moet zijn uitgeschakeld. Anders gaan sessiereferenties voor de installatie mogelijk verloren als de schermbeveiliging wordt ingeschakeld (tenzij u uw sessie actief houdt gedurende de hele procedure).
 
@@ -114,13 +114,13 @@ Het pakket **FPSMasterData** is ontworpen voor installatie met één gebruiker g
 
 U kunt gebruikers maken of configureren door naar **Instellingen** > **Beveiliging** > **Gebruikers** te gaan en het volgende te doen:
 
-1. Stel UserFullname= "Marinus Wolthuis" met gebruikersnaam "marinusw" ( **kleine letters** ) in op de rollen van Projectmanager en Praktijkbeheer.
+1. Stel UserFullname= "Marinus Wolthuis" met gebruikersnaam "marinusw" (**kleine letters**) in op de rollen van Projectmanager en Praktijkbeheer.
 
 2. Selecteer de gebruiker **Marinus Wolthuis** en selecteer vervolgens **Rollen beheren**. Zoek en selecteer de rol **Systeembeheerder** en selecteer vervolgens **OK** om volledige beheerdersrechten te verlenen aan Marinus Wolthuis. Deze stap is vereist om ervoor te zorgen dat voorbeeldrecords worden gemaakt met het juiste gebruikereigendom, zodat weergaven correct worden gevuld.
 
 3. In het gedownloade pakket moet u een gegevenstoewijzingsbestand bijwerken met e-mailadressen van de standaardgebruikercontext. Dit kunt u doen door **PkgFolder** te openen en vervolgens het bestand **ImportUserMapFile.xml** te zoeken en openen in Kladblok (of Visual Studio of andere een XML-editor). Stel het veld **DefaultUserToMapTo=** in op het e-mailadres van de gebruiker Marinus Wolthuis.
 
-4. Als u geen gebruikmaakt van Marinus Wolthuis met gebruikersnaam **marinusw** , moet u een extra bestand bijwerken. Open het bestand **DemoDataPreImportConfig.xml** en zoek vervolgens de code **userstocreateandconfigure**. Werk de code **\<login\>** bij met de gebruikersnaam voor uw gebruiker Marinus Wolthuis. Zie [Technische notities](#technical-notes) voor aanvullende details.
+4. Als u geen gebruikmaakt van Marinus Wolthuis met gebruikersnaam **marinusw**, moet u een extra bestand bijwerken. Open het bestand **DemoDataPreImportConfig.xml** en zoek vervolgens de code **userstocreateandconfigure**. Werk de code **\<login\>** bij met de gebruikersnaam voor uw gebruiker Marinus Wolthuis. Zie [Technische notities](#technical-notes) voor aanvullende details.
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Gebruikers maken of configureren - pakket met demogegevens
 
@@ -143,9 +143,9 @@ Het pakket met demogegevens vereist zes gebruikers. Ga als volgt te werk om het 
    > [!div class="mx-imgBorder"]
    > ![Schermafbeelding van UserMapFile](media/sample-data-7.png)
 
-4. Als uw gebruiker met de volledige naam "Spencer Low" een andere gebruikers-id heeft dan **"spencerl"** , moet u een extra bestand bijwerken. Open **DemoDataPreImportConfig.xml** en zoek de code **userstocreateandconfigure**. Werk de code **\<login\>** bij met de aanmeld-id (hoofdlettergevoelig). 
+4. Als uw gebruiker met de volledige naam "Spencer Low" een andere gebruikers-id heeft dan **"spencerl"**, moet u een extra bestand bijwerken. Open **DemoDataPreImportConfig.xml** en zoek de code **userstocreateandconfigure**. Werk de code **\<login\>** bij met de aanmeld-id (hoofdlettergevoelig). 
 
-5. De agenda van de eerste gebruiker (in de code **userstocreateandconfigure** ) wordt gebruikt om de werkuren voor alle boekbare resources bij het importeren van demogegevens in te vullen. Navigeer naar **Instellingen** > **Beveiliging** > **Gebruikers** , zoek uw gebruiker "Spencer Low" en open de optie "Werkuren". Bewerk de bestaande werkuren en selecteer de optie **De hele terugkerende weekplanning van begin tot eind**. Controleer of de **Werkuren zijn ingesteld op 8 tot 17 uur (9 uur), van maandag tot en met vrijdag en met de tijdzone ingesteld op Pacific Time (VS en Canada)**. Dit is noodzakelijk om ervoor te zorgen dat het project- en planbord er uitzien zoals verwacht.
+5. De agenda van de eerste gebruiker (in de code **userstocreateandconfigure**) wordt gebruikt om de werkuren voor alle boekbare resources bij het importeren van demogegevens in te vullen. Navigeer naar **Instellingen** > **Beveiliging** > **Gebruikers**, zoek uw gebruiker "Spencer Low" en open de optie "Werkuren". Bewerk de bestaande werkuren en selecteer de optie **De hele terugkerende weekplanning van begin tot eind**. Controleer of de **Werkuren zijn ingesteld op 8 tot 17 uur (9 uur), van maandag tot en met vrijdag en met de tijdzone ingesteld op Pacific Time (VS en Canada)**. Dit is noodzakelijk om ervoor te zorgen dat het project- en planbord er uitzien zoals verwacht.
 
 **Aanbeveling:** overweeg nu een back-up van uw organisatie te maken, voor het geval dat u naar het beginpunt moet herstellen als tijdens de installatie van de voorbeeldgegevens iets misgaat. Zie [Back-up van exemplaren maken en deze terugzetten](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) voor meer informatie.
 
@@ -241,7 +241,7 @@ Er is een aantal andere configuratieonderdelen opgenomen in dit configuratiebest
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Fictief scenario voor Fabrikam Robotics
 
-De pakketten met voorbeeldreferentiegegevens voor Field Service en Project Service installeren de **oplossing Mastergegevens voor productie van Fabrikam (v 3.0.0.0)** , samen met ongeveer 4000 records en ongeveer 40 verschillende entiteiten. De afzonderlijke pakketten met voorbeeldgegevens voor Field Service en Project Service bevatten een subset van de voorbeeldgegevens van **v902FPSMasterData** voor die toepassing. Het pakket **Demogegevens** installeert de **oplossing Demogegevens van Fabrikam Manufacturing (v 3.0.0.7)** met ongeveer 22.000 records verdeeld over 148 entiteiten.
+De pakketten met voorbeeldreferentiegegevens voor Field Service en Project Service installeren de **oplossing Mastergegevens voor productie van Fabrikam (v 3.0.0.0)**, samen met ongeveer 4000 records en ongeveer 40 verschillende entiteiten. De afzonderlijke pakketten met voorbeeldgegevens voor Field Service en Project Service bevatten een subset van de voorbeeldgegevens van **v902FPSMasterData** voor die toepassing. Het pakket **Demogegevens** installeert de **oplossing Demogegevens van Fabrikam Manufacturing (v 3.0.0.7)** met ongeveer 22.000 records verdeeld over 148 entiteiten.
 
 Het fictieve bedrijf, Fabrikam-Robotics, is een fabrikant van robots voor assemblagelijnen voor elektronische apparaten en staat bekend om zijn productkwaliteit, innovatie en uitstekende klantenservice, met inbegrip van services voor installatieplanning, implementatie en doorlopend onderhoud. Het hoofdkantoor van Fabrikam is gevestigd in de Verenigde Staten (Fabrikam US) en het bedrijf heeft projectgebaseerde servicevestigingen in Frankrijk, India, het Verenigd Koninkrijk en Zwitserland.
 
