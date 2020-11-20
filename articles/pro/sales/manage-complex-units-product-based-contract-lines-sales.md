@@ -1,0 +1,48 @@
+---
+title: Complexe eenheden voor productgebaseerde contractregels beheren - lite
+description: Dit onderwerp biedt informatie over het ondersteunen van de verkoop van op abonnementen gebaseerde producten.
+author: rumant
+manager: Annbe
+ms.date: 10/28/2020
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177370"
+---
+# <a name="manage-complex-units-for-product-based-contract-lines---lite"></a><span data-ttu-id="ea426-103">Complexe eenheden voor productgebaseerde contractregels beheren - lite</span><span class="sxs-lookup"><span data-stu-id="ea426-103">Manage complex units for product-based contract lines - lite</span></span>
+
+<span data-ttu-id="ea426-104">_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_</span><span class="sxs-lookup"><span data-stu-id="ea426-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="ea426-105">In Dynamics 365 Project Operations worden hoeveelheidsfactoren gebruikt om de verkoop van op abonnementen gebaseerde producten te ondersteunen.</span><span class="sxs-lookup"><span data-stu-id="ea426-105">Dynamics 365 Project Operations uses quantity factors to support the sale of subscription-based products.</span></span> <span data-ttu-id="ea426-106">Voor producten waarop een abonnement kan worden genomen, wordt de hoeveelheid in het contract of de projectcontractregel uitgedrukt in het aantal gebruikersmaanden.</span><span class="sxs-lookup"><span data-stu-id="ea426-106">For subscription-based products, the quantity on the contract or project contract line is expressed as the number of user-months.</span></span>
+
+<span data-ttu-id="ea426-107">De prijs van abonnementssoftware wordt in de catalogus opgeslagen als de prijs per gebruiker, per maand.</span><span class="sxs-lookup"><span data-stu-id="ea426-107">The price of subscription software is stored in the catalog as the price per-user, per-month.</span></span> <span data-ttu-id="ea426-108">Tijdens het verkoopproces is de prijs op de contractregel meestal de prijs per gebruiker, per maand die is overeengekomen en waarop korting is gegeven door de verkoopagent.</span><span class="sxs-lookup"><span data-stu-id="ea426-108">During the sales process, the price on the contract line is usually the per-user, per-month price that was negotiated and discounted by the sales agent.</span></span> <span data-ttu-id="ea426-109">Elke deal heeft een ander aantal gebruikers en een ander aantal abonnementsmaanden.</span><span class="sxs-lookup"><span data-stu-id="ea426-109">Each deal has a different number of users and a different number of subscription months.</span></span> <span data-ttu-id="ea426-110">De hoeveelheid die wordt gebruikt om het bedrag van de contractregel te berekenen, is het product van het aantal gebruikers en het aantal abonnementsmaanden.</span><span class="sxs-lookup"><span data-stu-id="ea426-110">The quantity used to calculate the amount of the contract line is a product of the number of users and the number of subscription months.</span></span>
+
+<span data-ttu-id="ea426-111">Om dit type verkoop te ondersteunen, introduceerde Project Operations het concept van *hoeveelheidsfactoren*.</span><span class="sxs-lookup"><span data-stu-id="ea426-111">To support this type of sale, Project Operations supports the concept of *quantity factors*.</span></span> <span data-ttu-id="ea426-112">Hoeveelheidsfactoren zijn afhankelijk van productkenmerken.</span><span class="sxs-lookup"><span data-stu-id="ea426-112">Quantity factors rely on product attributes.</span></span> <span data-ttu-id="ea426-113">Wanneer u specifieke eigenschappen voor een product configureert, kunt u een subset van deze eigenschappen, of alle eigenschappen, markeren als hoeveelheidsfactoren.</span><span class="sxs-lookup"><span data-stu-id="ea426-113">When you configure specific properties for a product, you can flag a subset of those properties, or all the properties, as quantity factors.</span></span>
+
+<span data-ttu-id="ea426-114">Project Operations zorgt ervoor dat alleen numerieke eigenschappen of producteigenschappen met een numeriek gegevenstype worden gemarkeerd als hoeveelheidsfactoren.</span><span class="sxs-lookup"><span data-stu-id="ea426-114">Project Operations validates that only numeric properties or product properties that have a numeric data type are flagged as quantity factors.</span></span> <span data-ttu-id="ea426-115">Wanneer een product met geconfigureerde hoeveelheidsfactoren wordt toegevoegd aan een contractregel, wordt het veld **Hoeveelheid** alleen-lezen.</span><span class="sxs-lookup"><span data-stu-id="ea426-115">When a product with configured quantity factors is added to a contract line, the **Quantity** field  becomes read-only.</span></span> <span data-ttu-id="ea426-116">Nadat u waarden hebt ingevoerd voor producteigenschappen die hoeveelheidsfactoren zijn, berekent Project Operations de hoeveelheid van de contractregel.</span><span class="sxs-lookup"><span data-stu-id="ea426-116">After you enter values for product properties that are quantity factors, Project Operations calculates the quantity of the contract line.</span></span>
+
+<span data-ttu-id="ea426-117">Dynamics 365 Sales kan bijvoorbeeld de volgende eigenschappen hebben:</span><span class="sxs-lookup"><span data-stu-id="ea426-117">For example, Dynamics 365 Sales might have the following properties:</span></span>
+
+- <span data-ttu-id="ea426-118">**Aantal gebruikers**: het aantal gebruikers.</span><span class="sxs-lookup"><span data-stu-id="ea426-118">**No of users**: The number of users.</span></span>
+- <span data-ttu-id="ea426-119">**Aantal maanden**: het aantal abonnementsmaanden.</span><span class="sxs-lookup"><span data-stu-id="ea426-119">**No of Months**: The number of subscription months.</span></span>
+- <span data-ttu-id="ea426-120">**Product-SKU** : de voorraadeenheid (SKU) voor het product.</span><span class="sxs-lookup"><span data-stu-id="ea426-120">**Product SKU**: The stock keeping unit (SKU) for the product.</span></span>
+
+<span data-ttu-id="ea426-121">De eigenschappen **Aantal gebruikers** en **Aantal maanden** kunnen worden gemarkeerd als hoeveelheidsfactoren door de eigenschappen van de productregel te bewerken.</span><span class="sxs-lookup"><span data-stu-id="ea426-121">The **No of Users** and **No of Months** properties can be flagged as quantity factors by editing the properties of the product line.</span></span>
+
+<span data-ttu-id="ea426-122">Voer de volgende stappen uit om kwantiteitsfactoren te creëren op basis van producteigenschappen.</span><span class="sxs-lookup"><span data-stu-id="ea426-122">To create quantity factors from product properties, complete the following steps.</span></span>
+
+1. <span data-ttu-id="ea426-123">Selecteer **Verkoopproducten** en dan **Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="ea426-123">On the **Project Operations**, select **Sales-Products**.</span></span>
+2. <span data-ttu-id="ea426-124">Open het product waarvoor u hoeveelheidsfactoren moet instellen.</span><span class="sxs-lookup"><span data-stu-id="ea426-124">Open the product for which you need to set up quantity factors.</span></span> <span data-ttu-id="ea426-125">Zorg ervoor dat het product al eigenschappen heeft.</span><span class="sxs-lookup"><span data-stu-id="ea426-125">Make sure that the product has properties already set up.</span></span>
+3. <span data-ttu-id="ea426-126">Op de pagina **Projectgegevens** selecteert u het tabblad **Hoeveelheidsfactoren**.</span><span class="sxs-lookup"><span data-stu-id="ea426-126">On the **Project Information** page, select the **Quantity Factors** tab.</span></span>
+4. <span data-ttu-id="ea426-127">Selecteer in het subraster de optie **+ Nieuwe veldberekening**.</span><span class="sxs-lookup"><span data-stu-id="ea426-127">In the subgrid, select **+ New field computation**.</span></span>
+5. <span data-ttu-id="ea426-128">Voer de naam van de **Hoeveelheidsfactor** in en selecteer de eigenschapswaarde die aan de veldberekening is toegewezen.</span><span class="sxs-lookup"><span data-stu-id="ea426-128">Enter the name of the **Quantity Factor** and select the property value that maps to the field computation.</span></span>
+6. <span data-ttu-id="ea426-129">Sla het formulier op en sluit het.</span><span class="sxs-lookup"><span data-stu-id="ea426-129">Save and close the form.</span></span>
+7. <span data-ttu-id="ea426-130">Herhaal stap 2-6 voor alle eigenschappen die samen de hoeveelheid vormen voor de productgebaseerde contractregel.</span><span class="sxs-lookup"><span data-stu-id="ea426-130">Repeat steps 2-6 for all the properties that together will make up the quantity for the product-based contract line.</span></span>
+
+<span data-ttu-id="ea426-131">Als de hoeveelheidsfactoren zijn ingesteld en de gebruiker een contractregel voor dit product aanmaakt, wordt de hoeveelheid van de contractregel vergrendeld.</span><span class="sxs-lookup"><span data-stu-id="ea426-131">With quantity factors set up, when the user creates a contract line for this product, the quantity of the contract line is locked.</span></span> <span data-ttu-id="ea426-132">De hoeveelheid wordt vervolgens berekend als een product van de eigenschapswaarden voor die contractregel.</span><span class="sxs-lookup"><span data-stu-id="ea426-132">The quantity is then calculated as a product of the property values for that contract line.</span></span>
