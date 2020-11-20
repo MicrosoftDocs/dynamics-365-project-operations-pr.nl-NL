@@ -3,7 +3,7 @@ title: Tijdsvermeldingen maken
 description: Dit onderwerp bevat informatie over het maken van tijdsvermeldingen.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074655"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131260"
 ---
 # <a name="create-time-entries"></a>Tijdsvermeldingen maken
 
@@ -41,7 +41,7 @@ Volg deze stappen om een tijdsvermelding te maken.
 4. Zoek in **het veld** Projecttaak de taak voor deze tijdsvermelding.
 
     > [!NOTE]
-    > Als u een tijdsvermelding maakt voor een taak die niet aan een gebruiker is toegewezen, selecteert u in het veld **Projecttaak** de knop **Zoeken** , en selecteert u vervolgens **Weergave wijzigen** en **Alle actieve projecttaken** om alle taken te vermelden.
+    > Als u een tijdsvermelding maakt voor een taak die niet aan een gebruiker is toegewezen, selecteert u in het veld **Projecttaak** de knop **Zoeken**, en selecteert u vervolgens **Weergave wijzigen** en **Alle actieve projecttaken** om alle taken te vermelden.
 
 5. Voer een omschrijving in als een omschrijving vereist is en selecteer vervolgens **Opslaan en sluiten**.
 

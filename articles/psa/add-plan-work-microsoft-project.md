@@ -3,7 +3,7 @@ title: Werk plannen in Microsoft Project met de invoegtoepassing Project Service
 description: Dit onderwerp bevat informatie over het toevoegen, configureren en gebruiken van de Microsoft project-invoegtoepassing voor Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074694"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129672"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Werk plannen in Microsoft Project met de invoegtoepassing Project Service Automation
 
@@ -68,7 +68,7 @@ Met [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>Rollen in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] toewijzen aan projectresources  
 
-1.  Open een project en klik op het **Taak** -lint.  
+1.  Open een project en klik op het **Taak**-lint.  
 
 2.  Klik op het menu **Gantt-diagram** en kies **Resourceblad**.  
 

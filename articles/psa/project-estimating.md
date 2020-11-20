@@ -3,7 +3,7 @@ title: Projectkosten en -opbrengsten
 description: Dit onderwerp bevat informatie over het schatten van de projectkosten en -opbrengsten.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074594"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127962"
 ---
 # <a name="project-costs-and-revenue"></a>Projectkosten en -opbrengsten
 
@@ -80,7 +80,7 @@ In de tijdgebonden weergave verdeelt u de totale inspanning die wordt geschat vo
 
 ### <a name="work-hours-based-allocation"></a>Toewijzing op basis van werkuren
  
-In de taakmodus voor automatisch plannen worden de dagelijkse standaarduren voor taakresources ingesteld op het volledige werkuurtarief. Dit gedrag treedt op wanneer inspanning wordt toegewezen door deze op te splitsen voor de duur van de taak in de tijdgebonden weergave. Als u bijvoorbeeld schat dat een taak door één resource kan worden voltooid in de tijdschaal **Dag** , zal de inspanning die wordt toegewezen per dag, het aantal werkuren per dag dat is gedefinieerd in de projectagenda, niet overschrijden. Daarom wordt er bij de toewijzing van inspanning altijd voor gezorgd dat er bij de schatting van wordt uitgegaan dat de resources de hele dag worden gebruikt.
+In de taakmodus voor automatisch plannen worden de dagelijkse standaarduren voor taakresources ingesteld op het volledige werkuurtarief. Dit gedrag treedt op wanneer inspanning wordt toegewezen door deze op te splitsen voor de duur van de taak in de tijdgebonden weergave. Als u bijvoorbeeld schat dat een taak door één resource kan worden voltooid in de tijdschaal **Dag**, zal de inspanning die wordt toegewezen per dag, het aantal werkuren per dag dat is gedefinieerd in de projectagenda, niet overschrijden. Daarom wordt er bij de toewijzing van inspanning altijd voor gezorgd dat er bij de schatting van wordt uitgegaan dat de resources de hele dag worden gebruikt.
 
 ### <a name="even-allocation"></a>Gelijkmatige toewijzing
 

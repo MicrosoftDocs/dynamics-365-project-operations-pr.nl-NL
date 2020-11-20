@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074453"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131562"
 ---
 # <a name="estimate-projects-overview"></a>Overzicht van ramingsprojecten
 
@@ -74,7 +74,7 @@ Als u een aangepast veld hebt toegevoegd voor de prijsopgaveregeldetails en de w
 2. Selecteer **Zoeken** en zoek de invoegtoepassing om bij te werken.
 3. Selecteer de invoegtoepassing en klik vervolgens op de hoofdpagina op **Selecteren**.
 4. Selecteer de stap van de invoegtoepassing die moet worden bijgewerkt, klik met de rechtermuisknop en selecteer **Bijwerken**.
-5. Selecteer in het dialoogvenster **Bestaande stap bijwerken** in het veld **Filterkenmerken** de ellipsknop ( **...** ):
+5. Selecteer in het dialoogvenster **Bestaande stap bijwerken** in het veld **Filterkenmerken** de ellipsknop (**...**):
 6. Schakel in het dialoogvenster **Kenmerken selecteren** selectievakjes voor aangepaste kenmerken in.
 7. Selecteer **OK** om het dialoogvenster te sluiten en selecteer vervolgens **Stap bijwerken**.
 8. Herhaal stap 1 tot en met 7 voor de tweede invoegtoepassing.

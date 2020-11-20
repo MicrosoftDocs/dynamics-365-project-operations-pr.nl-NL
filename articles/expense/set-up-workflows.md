@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074591"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127692"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Werkstromen instellen voor onkostenbeheer
 
@@ -30,9 +30,9 @@ U kunt een werkstroomproces instellen om reis- en onkostendocumenten te beoordel
 
 Een werkstroom vertegenwoordigt een bedrijfsproces. In een werkstroom wordt gedefinieerd hoe een document door het systeem wordt verwerkt. De werkstroom geeft ook aan wie een taak moet voltooien of een document moet goedkeuren. Het gebruik van het werkstroomsysteem in uw organisatie heeft verschillende voordelen:
 
-- **Consistente processen** : u kunt het goedkeuringsproces definiëren voor specifieke documenten, zoals inkoopaanvragen en onkostennota's. Het gebruik van het werkstroomsysteem zorgt ervoor dat documenten op een consistente en efficiënte manier worden verwerkt en goedgekeurd.
-- **Zichtbaarheid van het proces** : u kunt de status, geschiedenis en prestatiestatistieken van een specifieke werkstroominstantie volgen. Dit helpt u om te bepalen of er wijzigingen in de werkstroom moeten worden aangebracht om de efficiëntie te verbeteren.
-- **Gecentraliseerde werklijst** : gebruikers kunnen een gecentraliseerde werklijst weergeven om de werkstroomtaken en goedkeuringen te bekijken die aan hen zijn toegewezen. 
+- **Consistente processen**: u kunt het goedkeuringsproces definiëren voor specifieke documenten, zoals inkoopaanvragen en onkostennota's. Het gebruik van het werkstroomsysteem zorgt ervoor dat documenten op een consistente en efficiënte manier worden verwerkt en goedgekeurd.
+- **Zichtbaarheid van het proces**: u kunt de status, geschiedenis en prestatiestatistieken van een specifieke werkstroominstantie volgen. Dit helpt u om te bepalen of er wijzigingen in de werkstroom moeten worden aangebracht om de efficiëntie te verbeteren.
+- **Gecentraliseerde werklijst**: gebruikers kunnen een gecentraliseerde werklijst weergeven om de werkstroomtaken en goedkeuringen te bekijken die aan hen zijn toegewezen. 
 
 ## <a name="workflow-types"></a>Werkstroomtypen
 

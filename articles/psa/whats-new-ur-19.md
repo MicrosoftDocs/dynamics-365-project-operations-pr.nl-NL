@@ -3,7 +3,7 @@ title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 
 description: In dit onderwerp vindt u een overzicht van de functies en oplossingen die beschikbaar zijn voor Project Service Automation updaterelease 19, v3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074517"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126830"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation, updaterelease 19, v3
 
@@ -60,7 +60,7 @@ De volgende problemen zijn opgelost:
 - Als niet-toerekenbare transactiecategorie-items worden toegevoegd aan een toerekenbare contractregel, wordt geen rekening gehouden met het factureringstype **Niet-toerekenbaar** van de transactiecategorie.
 - Klanten kunnen de nieuw toegevoegde rollen en categorie niet gebruiken in eerder gemaakte contracten.
 - Klanten ervaren verminderde prestaties door onnodig ophalen in PreValidateprojectTeamMemberUpdate.cs
-- Rollen die zijn ingesteld als niet-toerekenbaar in de lijst **Resourcecategorieën** , moeten aan het tabblad **Toerekenbare rollen** worden toegevoegd als **Niet-toerekenbaar** op de contractregel voor een project.
+- Rollen die zijn ingesteld als niet-toerekenbaar in de lijst **Resourcecategorieën**, moeten aan het tabblad **Toerekenbare rollen** worden toegevoegd als **Niet-toerekenbaar** op de contractregel voor een project.
 - Klanten kunnen verminderde prestaties ervaren bij het maken van een project omdat met **GetBookableResourceIdFromUser** alle kolommen met boekbare resources worden opgehaald in plaats van alleen de primaire id.
 - In de entiteit **TransactionType** ontbreekt de update-invoegtoepassing voor prevalidatie die voorkomt dat gebruikers **Eenheden** en **UnitGroups** invoeren die niet geldig zijn voor transactietypen.
 - De stap **Verwijderen** werkt niet voor het importeren van tijdsvermeldingen.

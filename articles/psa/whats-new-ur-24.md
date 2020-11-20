@@ -3,7 +3,7 @@ title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 
 description: In dit onderwerp vindt u een overzicht van de functies en oplossingen die beschikbaar zijn voor Project Service Automation updaterelease 24, v3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074516"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126567"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation, updaterelease 24, v3
 

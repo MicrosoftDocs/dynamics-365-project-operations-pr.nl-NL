@@ -3,7 +3,7 @@ title: De status van een project volgen
 description: Informatie over de status van een project volgen in Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074650"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127827"
 ---
 # <a name="track-a-projects-status-project-service"></a>De status van een project bijhouden (Project Service)
 
@@ -40,7 +40,7 @@ Als overeenkomstenvoortgangen, het bijwerken van projecten fasen van het stadium
 |  **Offerte**   |      Wanneer u een project aan een offerte koppelt of het aanmaakt op basis van een offert, wordt de projectfase ingesteld op **Offerte** en de geschatte begin- en einddatum worden eveneens bijgewerkt. Wanneer het project in de prijsopgavefase is, ziet u de details op de offerte in op het **Verkoop** op de **Project**      |
 |   **Plannen**   |                                     Wanneer u een quote binnenhaalt aan een project is gekoppeld, en als de overeenkomstenvoortgangen aan de contractfase, updates van de projectfase op **Plannen**. De weergave van contract details op het tabblad **Verkoop** op de pagina **Project**.                                      |
 | **Voltooien** |                    Als het projectwerk is voltooid, kunt u de fase aan **Voltooien** Als de projectfase is ingesteld om te voltooien, wordt deze met het werk begrepen volledige 100% is maar wordt het project voor de behandeling of tijd te kosten registreren vermeldingen open verdeeld.                     |
-|  **Sluiten**   |           Wanneer alle transacties op het project zijn geregistreerd en any u er niet als u verwacht zijn geregistreerd, kunt u de fase aan **Sluiten** handmatig instellen. Wanneer het project is ingesteld op **Sluiten** , kunt u niet logboek any more transacties op het project en het project alleen worden gelezen.           |
+|  **Sluiten**   |           Wanneer alle transacties op het project zijn geregistreerd en any u er niet als u verwacht zijn geregistreerd, kunt u de fase aan **Sluiten** handmatig instellen. Wanneer het project is ingesteld op **Sluiten**, kunt u niet logboek any more transacties op het project en het project alleen worden gelezen.           |
 
 ## <a name="to-track-a-projects-status"></a>Om de status van een project te houden  
 

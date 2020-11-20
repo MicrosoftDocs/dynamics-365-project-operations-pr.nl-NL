@@ -3,7 +3,7 @@ title: Iemand anders toestaan om uw tijdvermelding of onkosten in te voeren
 description: Informatie over iemand anders toestaan om uw tijdvermelding of onkosten in te voeren in Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074537"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130353"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Iemand anders toestaan om uw tijdvermelding of onkosten in te voeren (Project Service)
 
@@ -37,13 +37,13 @@ Stel een gemachtigde in die namens u tijd of onkosten kan invoeren in [!INCLUDE[
   
 2.  Klik op de opdrachtbalk op **Nieuw**.  
   
-3. **Naam** : Voer de naam in het voor de record.  
+3. **Naam**: Voer de naam in het voor de record.  
   
-4. **Type** : Geef aan of de gemachtigde namens u tijd of onkosten kan invoeren.  
+4. **Type**: Geef aan of de gemachtigde namens u tijd of onkosten kan invoeren.  
   
-5. **Gemachtigde** : Selecteer de naam van de persoon die u als gemachtigde wilt instellen.  
+5. **Gemachtigde**: Selecteer de naam van de persoon die u als gemachtigde wilt instellen.  
   
-6. **Begin- en einddatums** : Kies de datums waarop de machtiging begint en eindigt.  
+6. **Begin- en einddatums**: Kies de datums waarop de machtiging begint en eindigt.  
   
 7.  Klik op **Opslaan en sluiten** als u klaar bent.  
   

@@ -3,7 +3,7 @@ title: Overzicht van werkelijke waarden
 description: In dit onderwerp krijgt u informatie over werkelijke projectwaarden.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074762"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129762"
 ---
 # <a name="actuals-overview"></a>Overzicht van werkelijke waarden
 
@@ -39,7 +39,7 @@ Wanneer in PSA een tijdsvermelding wordt ingediend voor een project dat is toege
 
 De logica voor het invoeren van standaardprijzen bevindt zich op de dagboekregel. Alle veldwaarden uit een tijdsvermelding worden naar de dagboekregel gekopieerd. Deze velden bevatten de datum van de transactie, de contractregel waaraan het project is toegewezen en het resultaat van de valuta in de juiste prijslijst. 
 
-De velden die van invloed zijn op standaardprijzen, zoals **Rol** en **organisatie-eenheid** , zorgen ervoor dat de juiste prijs standaard op de journaalregel wordt ingevoerd. Als u een aangepast veld toevoegt aan de tijdsvermelding en u wilt dat de veldwaarde wordt doorgegeven aan werkelijke waarden, maakt u het veld in de entiteit Werkelijke waarden en gebruikt u veldtoewijzingen om het veld van de tijdsvermelding naar de werkelijke waarde te kopiëren.
+De velden die van invloed zijn op standaardprijzen, zoals **Rol** en **organisatie-eenheid**, zorgen ervoor dat de juiste prijs standaard op de journaalregel wordt ingevoerd. Als u een aangepast veld toevoegt aan de tijdsvermelding en u wilt dat de veldwaarde wordt doorgegeven aan werkelijke waarden, maakt u het veld in de entiteit Werkelijke waarden en gebruikt u veldtoewijzingen om het veld van de tijdsvermelding naar de werkelijke waarde te kopiëren.
 
 ## <a name="submitting-an-expense-entry"></a>Een onkostenvermelding indienen
 

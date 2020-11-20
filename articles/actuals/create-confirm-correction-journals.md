@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074561"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127739"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Correctiejournalen maken en bevestigen
 
@@ -53,9 +53,9 @@ Voer de volgende stappen uit om enkele of meerdere tijdsvermeldingen voor een pr
 
 7. Selecteer **Bevestigen** als de correcties verschijnen zoals verwacht. Selecteer **OK** in het dialoogvenster.
 
-8. Ga terug naar het gebied **Verkoop** , selecteer **Projecten** en open vervolgens het project waarvoor u zojuist de tijdsvermeldingen hebt bijgewerkt. 
+8. Ga terug naar het gebied **Verkoop**, selecteer **Projecten** en open vervolgens het project waarvoor u zojuist de tijdsvermeldingen hebt bijgewerkt. 
 
-9. Bekijk op de pagina **Projecten** , op het tabblad **Werkelijke waarden** de wijzigingen die u hebt aangebracht. 
+9. Bekijk op de pagina **Projecten**, op het tabblad **Werkelijke waarden** de wijzigingen die u hebt aangebracht. 
 
 > [!NOTE]
 > Als het tabblad **Werkelijke waarden** niet zichtbaar is, selecteert u **Gerelateerd** > **Werkelijke waarden**.  
@@ -73,7 +73,7 @@ Voer de volgende stappen uit om een of meer onkostenvermeldingen te corrigeren.
 
 2. Selecteer in de lijst **Goedgekeurde onkosten** het project dat u wilt corrigeren en selecteer vervolgens **Correcte vermeldingen**. Er wordt automatisch een nieuw correctiejournaal gemaakt met het toegewezen type **Correctie van onkosten**. 
 
-3. Voer op de pagina **Nieuw journaal** een **Beschrijving** voor de correctie in, en selecteer op het tabblad **Onkostencorrectie** , in de sectie **Nieuwe waarden voor onkosten** de gegevensvelden die u wilt corrigeren voor de geselecteerde onkostenregels. U kunt de uitgave bijvoorbeeld toewijzen aan een ander **Project** of de **Onkostencategorie** , **Onkostendatum** of **Boekbare resource** corrigeren.
+3. Voer op de pagina **Nieuw journaal** een **Beschrijving** voor de correctie in, en selecteer op het tabblad **Onkostencorrectie**, in de sectie **Nieuwe waarden voor onkosten** de gegevensvelden die u wilt corrigeren voor de geselecteerde onkostenregels. U kunt de uitgave bijvoorbeeld toewijzen aan een ander **Project** of de **Onkostencategorie**, **Onkostendatum** of **Boekbare resource** corrigeren.
 
 4. Selecteer **Voorbeeld**. Selecteer **OK** in het dialoogvenster. 
 

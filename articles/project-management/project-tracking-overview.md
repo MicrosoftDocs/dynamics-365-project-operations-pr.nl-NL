@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074415"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127337"
 ---
 # <a name="project-tracking-overview"></a>Overzicht van projecttracering
 
@@ -25,10 +25,10 @@ De noodzaak om de voortgang aan de hand van een planning bij te houden verschilt
 
 In de weergave **Inspanning volgen** wordt de voortgang van taken in de planning bijgehouden door de werkelijke inspanning die aan een taak is besteed te vergelijken met de geplande inspanning van de taak. Dynamics 365 Project Operations gebruikt de volgende formules om de metrische gegevens voor het bijhouden van de voortgang te berekenen:
 
-- **Voortgangspercentage** : werkelijke aantal gewerkte uren tot op heden ÷ schatting bij voltooiing (Estimate At Complete, EAC) 
-- **Schatting tot voltooiing (Estimate To Complete, ETC)** : geplande inspanning - werkelijke aantal bestede uren tot op heden 
-- **EAC** : resterende inspanning + werkelijke aantal gewerkte uren tot op heden 
-- **Verwachte inspanningsafwijking** : geplande inspanning - EAC
+- **Voortgangspercentage**: werkelijke aantal gewerkte uren tot op heden ÷ schatting bij voltooiing (Estimate At Complete, EAC) 
+- **Schatting tot voltooiing (Estimate To Complete, ETC)**: geplande inspanning - werkelijke aantal bestede uren tot op heden 
+- **EAC**: resterende inspanning + werkelijke aantal gewerkte uren tot op heden 
+- **Verwachte inspanningsafwijking**: geplande inspanning - EAC
 
 Project Operations toont een prognose van de inspanningsafwijking voor de taak. Als de EAC groter is dan de geplande inspanning, wordt verwacht dat de taak meer tijd in beslag neemt dan oorspronkelijk was gepland en achter ligt op schema. Als de EAC minder is dan de geplande inspanning, wordt verwacht dat de taak minder tijd in beslag neemt dan oorspronkelijk was gepland en voor ligt op schema.
 
@@ -60,10 +60,10 @@ In de weergave **Kosten bijhouden** worden de werkelijke gemaakte kosten voor ee
 > [!NOTE]
 > In deze weergave worden alleen arbeidskosten weergegeven en worden niet de kosten van de onkostenschattingen weergegeven. Project Operations gebruikt de volgende formules om de metrische gegevens voor het bijhouden van de voortgang te berekenen:
 
-- **Percentage verbruikte kosten** : werkelijke gemaakte kosten tot op heden ÷ geschatte kosten bij voltooiing
-- **Kosten tot voltooiing (Cost To Complete, CTC)** : geplande kosten - werkelijke gemaakte kosten tot op heden
-- **EAC** : resterende kosten + werkelijke kosten tot op heden
-- **Geschatte kostenvariantie** : geplande kosten - EAC
+- **Percentage verbruikte kosten**: werkelijke gemaakte kosten tot op heden ÷ geschatte kosten bij voltooiing
+- **Kosten tot voltooiing (Cost To Complete, CTC)**: geplande kosten - werkelijke gemaakte kosten tot op heden
+- **EAC**: resterende kosten + werkelijke kosten tot op heden
+- **Geschatte kostenvariantie**: geplande kosten - EAC
 
 Voor de taak wordt een prognose van de kostenvariantie weergegeven. Als de EAC groter is dan de geplande kosten, wordt verwacht dat voor de taak meer kosten moeten worden gemaakt dan oorspronkelijk was gepland. Daarom is de verwachting dat de kosten voor de taak het budget overschrijden. Als de EAC minder is dan de geplande kosten, wordt verwacht dat voor de taak minder kosten hoeven te worden gemaakt dan oorspronkelijk was gepland. Daarom is de verwachting dat de kosten voor de taak onder het budget blijven.
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074604"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130977"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
 
@@ -42,31 +42,31 @@ Wanneer een aangepaste prijsdimensie is gebaseerd op een optieset, voegt u deze 
 2. Selecteer in Solution Explorer in het linkernavigatiedeelvenster **Entiteiten > Rolprijs**.
 3. Vouw de entiteit **Rolprijs** uit en selecteer **Velden**.
 4. Selecteer **Nieuw** om een nieuw veld te maken met de naam **Werklocatie van resource** en selecteer **Optieset** als het veldtype. 
-5. Selecteer **Een bestaande optieset gebruiken** , selecteer de optieset **Werklocatie van resource** en selecteer vervolgens **Opslaan**.
+5. Selecteer **Een bestaande optieset gebruiken**, selecteer de optieset **Werklocatie van resource** en selecteer vervolgens **Opslaan**.
 6. Herhaal de stappen 1-5 om dit veld toe te voegen aan de entiteit **Opslag voor rolprijs**. 
 7. Herhaal de stappen 1-5 voor de optieset **Werkuren van resource**.
 
 > [!IMPORTANT]
 > Wanneer u een veld aan meer dan één entiteit toevoegt, gebruikt u dezelfde veldnaam voor alle entiteiten. 
 
-In de verkoop- en schattingsfasen voor een project worden schattingen van de werkinspanning die is vereist om werk **Lokaal** en **Op locatie** te voltooien, in **Reguliere uren** en **Overuren** gebruikt om de waarde van de prijsopgave of het project te schatten. De velden **Werklocatie van resource** en **Werkuren van resource** worden toegevoegd aan de schattingsentiteiten **Details van prijsopgaveregel** , **Details van contractregel** , **Projectteamlid** en **Schattingsregel**.
+In de verkoop- en schattingsfasen voor een project worden schattingen van de werkinspanning die is vereist om werk **Lokaal** en **Op locatie** te voltooien, in **Reguliere uren** en **Overuren** gebruikt om de waarde van de prijsopgave of het project te schatten. De velden **Werklocatie van resource** en **Werkuren van resource** worden toegevoegd aan de schattingsentiteiten **Details van prijsopgaveregel**, **Details van contractregel**, **Projectteamlid** en **Schattingsregel**.
 
 1. Selecteer in Project Operations de opties **Instellingen** > **Oplossingen** en dubbelklik vervolgens op **\<your organization name> prijsdimensies**. 
 2. Selecteer in Solution Explorer in het linkernavigatiedeelvenster **Entiteiten > Details van prijsopgaveregel**.
 3. Vouw de entiteit **Details van prijsopgaveregel** uit en selecteer **Velden**.
 4. Selecteer **Nieuw** om een nieuw veld te maken met de naam **Werklocatie van resource** en selecteer het veldtype **Optieset**. 
 5. Selecteer **Een bestaande optieset gebruiken** en **Werklocatie van resource** en selecteer vervolgens **Opslaan**.
-6. Herhaal de stappen 1-5 om dit veld toe te voegen aan de entiteiten **Details van projectcontractregels** , **Projectteamlid** en **Schattingsregel**.
+6. Herhaal de stappen 1-5 om dit veld toe te voegen aan de entiteiten **Details van projectcontractregels**, **Projectteamlid** en **Schattingsregel**.
 7. Herhaal de stappen 1-6 voor de optieset **Werkuren van resource**. 
 
-Voor de levering en facturering moet voltooid werk nauwkeurig worden geprijsd en daarom moeten gebruikers kunnen selecteren of het werk **Lokaal** of **Op locatie** is uitgevoerd en of het is voltooid tijdens **Reguliere uren** of **Overuren** om de werkelijke waarden van het project te verkrijgen. De velden **Werklocatie van resource** en **Werkuren van resource** moeten worden toegevoegd aan de entiteiten **Tijdsvermelding** , **Werkelijk** , **Factuurregeldetail** en **Journaalregel**.
+Voor de levering en facturering moet voltooid werk nauwkeurig worden geprijsd en daarom moeten gebruikers kunnen selecteren of het werk **Lokaal** of **Op locatie** is uitgevoerd en of het is voltooid tijdens **Reguliere uren** of **Overuren** om de werkelijke waarden van het project te verkrijgen. De velden **Werklocatie van resource** en **Werkuren van resource** moeten worden toegevoegd aan de entiteiten **Tijdsvermelding**, **Werkelijk**, **Factuurregeldetail** en **Journaalregel**.
 
 1. Selecteer de opties **Instellingen** > **Oplossingen** en dubbelklik vervolgens op **\<your organization name> prijsdimensies**.
 2. Selecteer in Solution Explorer in het linkernavigatiedeelvenster **Entiteiten > Tijdsvermelding**.
 3. Vouw **Details van prijsopgaveregel** uit en selecteer **Velden**.
 4. Selecteer **Nieuw** om een nieuw veld te maken met de naam **Werklocatie van resource** en selecteer **Optieset** als het veldtype. 
-5. Selecteer **Een bestaande optieset gebruiken** , selecteer de optieset **Werklocatie van resource** en selecteer vervolgens **Opslaan**.
-6. Herhaal de stappen 1-5 om dit veld toe te voegen aan de entiteiten **Werkelijk** , **Factuurregeldetail** en **Journaalregel**.
+5. Selecteer **Een bestaande optieset gebruiken**, selecteer de optieset **Werklocatie van resource** en selecteer vervolgens **Opslaan**.
+6. Herhaal de stappen 1-5 om dit veld toe te voegen aan de entiteiten **Werkelijk**, **Factuurregeldetail** en **Journaalregel**.
 7. Herhaal de stappen 1-6 voor de optieset **Werkuren van resource**. 
 
 Hiermee zijn de schemawijzigingen voltooid die zijn vereist voor aangepaste dimensies op basis van een optieset.
@@ -94,11 +94,11 @@ In de verkoop- en schattingsfasen voor het project zijn schattingen van de werki
 - **Projectteamlid**
 - **Schattingsregel**
 
-5. Herhaal de stappen 1-5 om 1:N-relaties te maken van **Standaardtitel** naar **Details van prijsopgaveregel** , **Details van projectcontractregels,** **Projectteamlid** en **Schattingsregel**.
+5. Herhaal de stappen 1-5 om 1:N-relaties te maken van **Standaardtitel** naar **Details van prijsopgaveregel**, **Details van projectcontractregels,** **Projectteamlid** en **Schattingsregel**.
 
-  In de leverings- en factureringsfasen moet het werk dat door elke standaardtitel is voltooid, nauwkeurig worden geprijsd om de werkelijke waarden van het project te verkrijgen. Dit betekent dat er 1:N-relaties moeten zijn van **Standaardtitel** naar de entiteiten **Tijdsvermelding** , **Werkelijk** , **Factuurregeldetail** en **Journaalregel**.
+  In de leverings- en factureringsfasen moet het werk dat door elke standaardtitel is voltooid, nauwkeurig worden geprijsd om de werkelijke waarden van het project te verkrijgen. Dit betekent dat er 1:N-relaties moeten zijn van **Standaardtitel** naar de entiteiten **Tijdsvermelding**, **Werkelijk**, **Factuurregeldetail** en **Journaalregel**.
 
-6. Herhaal de stappen 1-6 om 1:N-relaties te maken van **Standaardtitel** naar de entiteiten **Tijdsvermelding** , **Werkelijk** , **Factuurregeldetail** en **Journaalregel**.
+6. Herhaal de stappen 1-6 om 1:N-relaties te maken van **Standaardtitel** naar de entiteiten **Tijdsvermelding**, **Werkelijk**, **Factuurregeldetail** en **Journaalregel**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Standaarddimensiewaarden instellen met de toewijzingsfuncties van het platform
 Voor de tijdsvermelding is het handig als het systeem standaard voor Tijdsvermelding de standaardtitel gebruikt van de boekbare resource die de tijdsvermelding vastlegt. Neem de volgende stappen om veldtoewijzingen toe te voegen aan de 1:N-relatie van **Boekbare resource** naar **Tijdsvermelding**.
@@ -115,7 +115,7 @@ Hiermee zijn de schemawijzigingen voltooid die zijn vereist voor aangepaste dime
 Nadat u alle vereiste schemawijzigingen hebt aangebracht, moet u de velden zichtbaar maken in de gebruikersinterface door de velden toe te voegen aan de formulieren en weergaven.
 
 1. Open het formulier of de weergave. Selecteer het veld in het rechternavigatiedeelvenster en sleep het veld naar het formuliercanvas. 
-2. Als u een weergave bewerkt, gebruikt u het rechternavigatiedeelvenster, selecteert u **Velden toevoegen** , selecteert u in het dialoogvenster **Lijst met velden** de velden die u nodig hebt en selecteert u **OK**.
+2. Als u een weergave bewerkt, gebruikt u het rechternavigatiedeelvenster, selecteert u **Velden toevoegen**, selecteert u in het dialoogvenster **Lijst met velden** de velden die u nodig hebt en selecteert u **OK**.
 
 De volgende tabel bevat een uitgebreide lijst met gebruiksklare formulieren en weergaven per entiteit die moeten worden bijgewerkt met de nieuwe velden. Als u extra weergaven of formulieren in uw aanpassingen van deze entiteiten hebt, voegt u de nieuwe velden ook daar aan toe.
 

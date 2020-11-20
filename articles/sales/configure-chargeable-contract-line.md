@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074501"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128682"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Toerekenbare onderdelen van een projectgebaseerde contractregel configureren
 
@@ -35,13 +35,13 @@ Toerekenbaarheid die is gedefinieerd voor transactiecategorieën voor een projec
 
 Een rol kan toerekenbaar of niet-toerekenbaar op een specifieke projectgebaseerde contractregel zijn.
 
-Werk het factureringstype voor een rol bij op het tabblad **Toerekenbare rollen** van een projectgebaseerde contractregel in het subraster **Toerekenbare categorieën** in het veld **Factureringstype**.
+Op het tabblad **Toerekenbare rollen** van een projectgebaseerde contractregel werkt u in het veld **Factureringstype** op het subraster **Toerekenbare categorieën** het factureringstype van een rol bij.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Een transactiecategorie bijwerken als toerekenbaar of niet-toerekenbaar
 
 Een transactiecategorie kan toerekenbaar of niet-toerekenbaar zijn op een specifieke projectgebaseerde contractregel.
 
-Werk het factureringstype voor een transactie bij op het tabblad **Toerekenbare categorieën** van een projectgebaseerde contractregel in het subraster **Toerekenbare categorieën** in het veld **Factureringstype**.
+Op het tabblad **Toerekenbare categorieën** van een projectgebaseerde contractregel werkt u in het veld **Factureringstype** op het subraster **Toerekenbare categorieën** het factureringstype van een transactie bij.
 
 ### <a name="resolve-chargeability"></a>Toerekenbaarheid oplossen
 

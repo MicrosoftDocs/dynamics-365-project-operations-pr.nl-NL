@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074481"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128862"
 ---
 # <a name="skills-and-certifications"></a>Vaardigheden en certificeringen
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_

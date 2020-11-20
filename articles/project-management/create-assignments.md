@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074477"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131742"
 ---
 # <a name="create-resource-assignments"></a>Resourcetoewijzingen maken
 
@@ -37,7 +37,7 @@ Wanneer u een algemeen teamlid maakt via taaktoewijzing, maakt u een tijdelijke 
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Een benoemde resource toewijzen vanuit de lijst met alle boekbare resources
 
-U kunt het zoekvak in de **resourcekiezer** gebruiken om alle boekbare resources te doorzoeken en deze toe te wijzen aan een bladknooppunttaak. Resources die op deze manier worden toegewezen, worden zonder boekingen aan het team toegevoegd. Dit is vergelijkbaar met het toevoegen van een teamlid en het selecteren van **Geen** als de toewijzingsmethode. De resource wordt op de tabbladen **Team** , **Resourcetoewijzing** en **Afstemming** weergegeven als resources met alleen toewijzingen en een boekingstekort. Boek deze resources als u hun beschikbaarheid wilt gebruiken.
+U kunt het zoekvak in de **resourcekiezer** gebruiken om alle boekbare resources te doorzoeken en deze toe te wijzen aan een bladknooppunttaak. Resources die op deze manier worden toegewezen, worden zonder boekingen aan het team toegevoegd. Dit is vergelijkbaar met het toevoegen van een teamlid en het selecteren van **Geen** als de toewijzingsmethode. De resource wordt op de tabbladen **Team**, **Resourcetoewijzing** en **Afstemming** weergegeven als resources met alleen toewijzingen en een boekingstekort. Boek deze resources als u hun beschikbaarheid wilt gebruiken.
 
 1. Navigeer vanuit het taakraster, het planbord of de tijdlijn naar de cel **Toegewezen aan**.
 2. Begin met het typen van een naam in het zoekvak. De zoekresultaten voor de naam worden weergegeven in de **resourceselectie** onder **Overige resources**.

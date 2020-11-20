@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: cb49109e8c199bc4569702ae844a19985534294d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074504"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131607"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projectsjablonen ontwikkelen met Project kopiëren
 
@@ -39,8 +39,8 @@ Er zijn drie invoerparameters:
 | Doel             | Entiteitverwijzing | Doelproject |
 
 
-- **{"clearTeamsAndAssignments":true}** : het standaardgedrag voor Project for the Web; hiermee worden alle toewijzingen en teamleden verwijderd.
-- **{"removeNamedResources":true}** : het standaardgedrag voor Project Operations; hiermee worden toewijzingen teruggezet naar algemene resources.
+- **{"clearTeamsAndAssignments":true}**: het standaardgedrag voor Project for the Web; hiermee worden alle toewijzingen en teamleden verwijderd.
+- **{"removeNamedResources":true}**: het standaardgedrag voor Project Operations; hiermee worden toewijzingen teruggezet naar algemene resources.
 
 Zie [Web-API -acties gebruiken](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions) voor meer standaardwaarden voor acties.
 

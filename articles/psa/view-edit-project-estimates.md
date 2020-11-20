@@ -3,7 +3,7 @@ title: Projectschattingen weergeven en bewerken
 description: Informatie over projectschattingen weergeven en bewerken in Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34f0c1d85311dc6ec00e892ee899bc4dad0eed32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074640"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125847"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>PSchattingen van het project weergeven en bewerken (Project Service)
 
@@ -37,7 +37,7 @@ Met de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
   
 3.  In de balk die boven aan het scherm wordt weergegeven, selecteert u de pijl-omlaag naast de projectnaam, en klikt u vervolgens op **Projectschattingen**  
   
-4.  Selecteer in **Tijdsfasering op** de waarden **Inspanning** , **Kosten** of **Verkoop** om te wijzigen welke projectschattingen worden weergegeven.  
+4.  Selecteer in **Tijdsfasering op** de waarden **Inspanning**, **Kosten** of **Verkoop** om te wijzigen welke projectschattingen worden weergegeven.  
   
 5.  Om de kosten toe te voegen of te verwijderen, klikt u **Weergeven Rasterweergave**. Klik op **Nieuwe uitgave** om een nieuwe uitgave te maken. Als u uitgaven wilt verwijderen, selecteert u deze in de lijst, en klikt u vervolgens **Uitgaven verwijderen**. Wanneer u klaar bent met het toevoegen of het verwijderen van kosten, klikt u op **Opslaan**  
   

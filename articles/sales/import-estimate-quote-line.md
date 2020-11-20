@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074480"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125577"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Projectschattingen importeren in projectgebaseerde prijsopgaveregel
 
@@ -31,7 +31,7 @@ Als een project wordt aangemaakt tijdens de voor-verkoopfase, kunt u ervoor kiez
   - **- Rol** 
   - **Projecttaak**
 
-Op basis van uw selectie wordt de schatting uit het project voor alle transactieklassen op deze prijsopgaveregel gekopieerd. Om te controleren welke transactieklassen zijn inbegrepen, selecteert u het tabblad **Algemeen** op de projectgebaseerde prijsopgaveregel en controleert u de waarden voor **Inclusief tijd** , **Inclusief kosten** en **Inclusief kosten**.
+Op basis van uw selectie wordt de schatting uit het project voor alle transactieklassen op deze prijsopgaveregel gekopieerd. Om te controleren welke transactieklassen zijn inbegrepen, selecteert u het tabblad **Algemeen** op de projectgebaseerde prijsopgaveregel en controleert u de waarden voor **Inclusief tijd**, **Inclusief kosten** en **Inclusief kosten**.
 
 Wanneer u schattingen importeert, worden standaard de prijzen gebruiken uit de projectprijslijsten die aan de prijsopgave zijn gekoppeld en het factureringstype dat is ingesteld op de projectgebaseerde prijsopgaveregel. Als een rol of categorie op de projectgebaseerde prijsopgaveregel is ingesteld als niet-toerekenbaar, wordt de geïmporteerde schattingsregel ingesteld als niet-toerekenbaar en wordt deze niet opgeteld bij de opgegeven waarde van de prijsopgaveregel.
 

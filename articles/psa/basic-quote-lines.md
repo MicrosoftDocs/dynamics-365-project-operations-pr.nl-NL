@@ -3,7 +3,7 @@ title: Prijsopgaven en prijsopgaveregels
 description: Dit onderwerp bevat informatie over prijsopgaven en prijsopgaveregels.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074679"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129447"
 ---
 # <a name="quotes-and-quote-lines"></a>Prijsopgaven en prijsopgaveregels
 
@@ -35,15 +35,15 @@ In Dynamics 365 Project Service Automation zijn er twee typen prijsopgaven: proj
 - Een verkoopprijsopgave ondersteunt activering en revisies. Een projectprijsopgave ondersteunt deze processen niet.
 - U kunt meerdere orders aan een verkoopprijsopgave koppelen. U kunt slechts één projectcontract aan een projectprijsopgave koppelen.
 - U kunt een verkoopprijsopgave winnen en de gerelateerde verkoopkans open houden. Nadat een projectprijsopgave is gewonnen, wordt de gerelateerde verkoopkans gesloten.
-- Een verkoopprijsopgave bevat niet alle velden en concepten die zijn opgenomen in een projectprijsopgave. De velden omvatten **Contracterende eenheid** , **Accountmanager** en **Naam van de contactpersoon voor de factuur**.  
+- Een verkoopprijsopgave bevat niet alle velden en concepten die zijn opgenomen in een projectprijsopgave. De velden omvatten **Contracterende eenheid**, **Accountmanager** en **Naam van de contactpersoon voor de factuur**.  
 - Verkoopprijsopgaven en projectprijsopgaven worden ook aangeduid met een op een optieset gebaseerd veld met de naam **Type**. Voor een verkoopprijsopgave heeft dit veld de waarde **Artikelgebaseerd**. Voor een projectprijsopgave heeft deze de waarde **Werkgebaseerd**.
 
 In dit onderwerp wordt ingegaan op de details van projectprijsopgaven.
 
 Een projectprijsopgave in PSA kan meerdere regelartikelen of prijsopgaveregels bevatten. Een projectprijsopgave heeft zelfs twee rasters voor regelitems. Eén raster is bedoeld voor projectgebaseerde regels die gedetailleerde schattingen mogelijk maken. Het andere raster is bedoeld voor productgebaseerde regels die gebruikmaken van een eenvoudige eenheidsprijs en een op hoeveelheid gebaseerde benadering.
 
-- **Projectgebaseerd** : het bedrag (de waarde van de prijsopgave) wordt bepaald nadat u hebt vastgesteld hoeveel werk nodig is. U kunt een algemene schatting van het werk maken of direct als regeldetails onder elke prijsopgaveregel een schatting opgeven. Ten slotte kunt u het werk schatten op basis van geheel nieuwe schattingen, met behulp van een project en projectplan. Projectgebaseerde prijsopgaveregels worden alleen gevonden in projectgebaseerde prijsopgaven die worden gemaakt met Project Service Automation. Dit type prijsopgaveregel is een aangepaste vorm van de toe te voegen prijsopgaveregels die beschikbaar zijn in Microsoft Dynamics 365 Sales.
-- **Productgebaseerd** : het bedrag (de waarde van de prijsopgave) wordt bepaald op basis van het aantal verkochte eenheden en de verkoopprijs per eenheid van het product. Het product op een productgebaseerde regel kan afkomstig zijn uit een productcatalogus in Sales of het kan een product zijn dat u definieert. Dit type prijsopgaveregel is ook beschikbaar in projectgebaseerde prijsopgaven die worden gemaakt met behulp van PSA.
+- **Projectgebaseerd**: het bedrag (de waarde van de prijsopgave) wordt bepaald nadat u hebt vastgesteld hoeveel werk nodig is. U kunt een algemene schatting van het werk maken of direct als regeldetails onder elke prijsopgaveregel een schatting opgeven. Ten slotte kunt u het werk schatten op basis van geheel nieuwe schattingen, met behulp van een project en projectplan. Projectgebaseerde prijsopgaveregels worden alleen gevonden in projectgebaseerde prijsopgaven die worden gemaakt met Project Service Automation. Dit type prijsopgaveregel is een aangepaste vorm van de toe te voegen prijsopgaveregels die beschikbaar zijn in Microsoft Dynamics 365 Sales.
+- **Productgebaseerd**: het bedrag (de waarde van de prijsopgave) wordt bepaald op basis van het aantal verkochte eenheden en de verkoopprijs per eenheid van het product. Het product op een productgebaseerde regel kan afkomstig zijn uit een productcatalogus in Sales of het kan een product zijn dat u definieert. Dit type prijsopgaveregel is ook beschikbaar in projectgebaseerde prijsopgaven die worden gemaakt met behulp van PSA.
 
 Het bedrag in een prijsopgave is het totaal van alle productgebaseerde regels en de projectgebaseerde regels.
 
@@ -75,12 +75,12 @@ PSA ondersteunt alle drie de typen factuurschema's voor prijsopgaveregels met ee
 
 De prijsopgaven en facturen van professionele dienstverleners bevatten doorgaans kostenclassificaties. In PSA worden de kosten vertegenwoordigd door de volgende transactieclassificaties:
 
-- **Tijd** : deze classificatie vertegenwoordigt de kosten van arbeid of de tijd die personeel aan een project heeft besteed.
-- **Onkosten** : deze classificatie vertegenwoordigt alle andere soorten onkosten voor een project. Omdat onkosten breed kunnen worden geclassificeerd, maken de meeste organisaties subcategorieën, zoals reizen, autohuur, hotel of kantoorbenodigdheden.
-- **Tarief** : deze classificatie vertegenwoordigt diverse typen overhead, boetes en andere items die aan de klant in rekening worden gebracht. 
-- **Belasting** : deze classificatie vertegenwoordigt btw-bedragen die gebruikers toevoegen terwijl ze onkosten invoeren.
-- **Materiaaltransactie** : deze classificatie vertegenwoordigt werkelijke waarden van productregels in een bevestigde projectfactuur.
-- **Mijlpaal** : deze classificatie wordt gebruikt door de logica voor facturering met een vaste prijs in PSA.
+- **Tijd**: deze classificatie vertegenwoordigt de kosten van arbeid of de tijd die personeel aan een project heeft besteed.
+- **Onkosten**: deze classificatie vertegenwoordigt alle andere soorten onkosten voor een project. Omdat onkosten breed kunnen worden geclassificeerd, maken de meeste organisaties subcategorieën, zoals reizen, autohuur, hotel of kantoorbenodigdheden.
+- **Tarief**: deze classificatie vertegenwoordigt diverse typen overhead, boetes en andere items die aan de klant in rekening worden gebracht. 
+- **Belasting**: deze classificatie vertegenwoordigt btw-bedragen die gebruikers toevoegen terwijl ze onkosten invoeren.
+- **Materiaaltransactie**: deze classificatie vertegenwoordigt werkelijke waarden van productregels in een bevestigde projectfactuur.
+- **Mijlpaal**: deze classificatie wordt gebruikt door de logica voor facturering met een vaste prijs in PSA.
 
 Aan elke prijsopgaveregel kunnen een of meer van deze transactieclassificaties worden gekoppeld. Nadat de prijsopgave is geaccepteerd, wordt de toewijzing tussen transactieclassificatie en prijsopgaveregel overgebracht naar de contractregel.
  
@@ -91,16 +91,16 @@ Een prijsopgave kan bijvoorbeeld de volgende twee prijsopgaveregels bevatten:
 - Gerelateerde reiskosten waarvoor een factureringsmethode met een vaste prijs wordt gebruikt. Alle reiskosten voor het voorbeeldproject **Dynamics AX -implementatie** worden bijvoorbeeld gefactureerd tegen een vaste monetaire waarde.
 
 > [!NOTE]
-> De combinatie van de project- en transactieclassificaties **Tijd** , **Onkosten** en **Tarief** die aan een prijsopgave- of contractregel zijn gekoppeld, moet uniek zijn. Als dezelfde combinatie van project- en transactieklasse aan meerdere contract- of prijsopgaveregels is gekoppeld, werkt PSA niet goed.
+> De combinatie van de project- en transactieclassificaties **Tijd**, **Onkosten** en **Tarief** die aan een prijsopgave- of contractregel zijn gekoppeld, moet uniek zijn. Als dezelfde combinatie van project- en transactieklasse aan meerdere contract- of prijsopgaveregels is gekoppeld, werkt PSA niet goed.
 
 ## <a name="billing-types"></a>Factureringstypen
 
 Het veld **Factureringstype** bepaalt het concept van toerekenbaarheid in PSA. Dit is een optieset met de volgende mogelijke waarden:
 
-- **Toerekenbaar** : de kosten die door deze rol/categorie worden toegerekend, zijn directe kosten die worden gemaakt voor de uitvoering van het project en de klant betaalt voor dit werk. De betaling kan worden beheerd als een regeling voor tijd- en materiaalverbruik of een vaste-prijsregeling. De werknemer die deze tijd besteedt, ontvangt echter het overeenkomstige tegoed voor zijn of haar factureerbare bestede uren.
-- **Niet-toerekenbaar** : de kosten die door deze rol/categorie worden toegerekend, worden beschouwd als directe kosten die worden gemaakt voor de uitvoering van het project, hoewel dit feit niet wordt erkend door de klant en deze niet betaalt voor dit werk. De werknemer die deze tijd besteedt, wordt niet gecrediteerd met factureerbare bestede uren hiervoor.
-- **Gratis** : de kosten die door deze rol/categorie worden toegerekend, worden beschouwd als directe kosten die worden gemaakt voor de uitvoering van het project en de klant erkent dit feit. De werknemer die deze tijd besteedt, wordt gecrediteerd voor de factureerbare bestede uren hiervoor. Deze kosten worden echter niet aan de klant in rekening gebracht.
-- **Niet beschikbaar** : de kosten die zijn gemaakt voor interne projecten waarvoor geen inkomsten moeten worden bijgehouden, worden bijgehouden met deze optie.
+- **Toerekenbaar**: de kosten die door deze rol/categorie worden toegerekend, zijn directe kosten die worden gemaakt voor de uitvoering van het project en de klant betaalt voor dit werk. De betaling kan worden beheerd als een regeling voor tijd- en materiaalverbruik of een vaste-prijsregeling. De werknemer die deze tijd besteedt, ontvangt echter het overeenkomstige tegoed voor zijn of haar factureerbare bestede uren.
+- **Niet-toerekenbaar**: de kosten die door deze rol/categorie worden toegerekend, worden beschouwd als directe kosten die worden gemaakt voor de uitvoering van het project, hoewel dit feit niet wordt erkend door de klant en deze niet betaalt voor dit werk. De werknemer die deze tijd besteedt, wordt niet gecrediteerd met factureerbare bestede uren hiervoor.
+- **Gratis**: de kosten die door deze rol/categorie worden toegerekend, worden beschouwd als directe kosten die worden gemaakt voor de uitvoering van het project en de klant erkent dit feit. De werknemer die deze tijd besteedt, wordt gecrediteerd voor de factureerbare bestede uren hiervoor. Deze kosten worden echter niet aan de klant in rekening gebracht.
+- **Niet beschikbaar**: de kosten die zijn gemaakt voor interne projecten waarvoor geen inkomsten moeten worden bijgehouden, worden bijgehouden met deze optie.
 
 ## <a name="invoice-schedule"></a>Factuurschema
 
@@ -116,11 +116,11 @@ PSA maakt gebruik van deze drie kenmerkwaarden voor het genereren van een voorlo
 
 Factuurfrequentie is een entiteit waarin kenmerkwaarden worden opgeslagen waarmee de frequentie van het maken van facturen wordt uitgedrukt. De volgende kenmerken bepalen de entiteit Factuurfrequentie:
 
-- **Periode** : maandelijkse, tweewekelijkse en wekelijkse perioden worden ondersteund. 
-- **Runs per periode** : voor wekelijkse en tweewekelijkse perioden u slechts één run per periode definiëren. Voor maandelijkse perioden kunt u tussen de één en vier runs per periode definiëren. 
-- **Uitvoeringsdagen** : de dagen waarop de facturering moet worden uitgevoerd. U kunt dit kenmerk op twee manieren configureren:
-  - **Weekdagen** : u kunt bijvoorbeeld opgeven dat de facturering elke maandag of om de maandag wordt uitgevoerd. Klanten die facturering moeten instellen om op een werkdag te worden uitgevoerd, hebben misschien de voorkeur voor dit type configuratie. 
-  - **Kalenderdagen** : u kunt bijvoorbeeld opgeven dat facturering wordt uitgevoerd op de zevende en de eenentwintigste dag van elke maand. Sommige organisaties geven misschien de voorkeur aan dit type configuratie omdat dit ervoor zorgt dat de facturering elke maand wordt uitgevoerd op basis van een vast schema.
+- **Periode**: maandelijkse, tweewekelijkse en wekelijkse perioden worden ondersteund. 
+- **Runs per periode**: voor wekelijkse en tweewekelijkse perioden u slechts één run per periode definiëren. Voor maandelijkse perioden kunt u tussen de één en vier runs per periode definiëren. 
+- **Uitvoeringsdagen**: de dagen waarop de facturering moet worden uitgevoerd. U kunt dit kenmerk op twee manieren configureren:
+  - **Weekdagen**: u kunt bijvoorbeeld opgeven dat de facturering elke maandag of om de maandag wordt uitgevoerd. Klanten die facturering moeten instellen om op een werkdag te worden uitgevoerd, hebben misschien de voorkeur voor dit type configuratie. 
+  - **Kalenderdagen**: u kunt bijvoorbeeld opgeven dat facturering wordt uitgevoerd op de zevende en de eenentwintigste dag van elke maand. Sommige organisaties geven misschien de voorkeur aan dit type configuratie omdat dit ervoor zorgt dat de facturering elke maand wordt uitgevoerd op basis van een vast schema.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Factuurschema voor een prijsopgaveregel met vaste prijs
 

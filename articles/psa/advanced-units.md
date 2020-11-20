@@ -3,7 +3,7 @@ title: Eenhedengroepen en eenheden
 description: Dit onderwerp bevat informatie over eenhedengroepen en eenheden.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074580"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130572"
 ---
 # <a name="unit-groups-and-units"></a>Eenhedengroepen en eenheden
 
@@ -33,16 +33,16 @@ Eenhedengroepen en eenheden zijn basisentiteiten in Microsoft Dynamics 365. Een 
 
 Hier volgen enkele voorbeelden van eenheden en eenhedengroepen:
  
-- **Eenhedengroep** : afstand 
-    - **Eenheden** : mijl, kilometer, enzovoort.
-- **Eenhedengroep** : tijd
-    - **Eenheden** : uur, dag, week, enzovoort. 
+- **Eenhedengroep**: afstand 
+    - **Eenheden**: mijl, kilometer, enzovoort.
+- **Eenhedengroep**: tijd
+    - **Eenheden**: uur, dag, week, enzovoort. 
 
 Wanneer u meerdere eenheden in een eenhedengroep instelt, moet u ook een conversiefactor hiertussen instellen door de eerste eenheid die u instelt aan te wijzen als de standaard- of primaire eenheid voor de eenhedengroep. 
 
 Wanneer u in een eenhedengroep **Tijd** bijvoorbeeld **Uur** instelt als eerste eenheid, wordt **Uur** aangewezen als de standaardeenheid. Als de volgende eenheid die u instelt **Dag** is, moet u een conversiefactor instellen voor **Dag** naar **Uur**. Als u vervolgens **Week** als derde eenheid toevoegt, moet u een conversiefactor voor **Week** instellen als **Dag** of **Uur**. 
 
-In de volgende afbeelding ziet u een voorbeeld van de instelling voor de eenheid **Dag** , waarbij in het veld **Hoeveelheid** het aantal uren in een dag wordt weergegeven, en de eenheid **Week** , waarbij in het veld **Hoeveelheid** het aantal dagen in een week wordt weergegeven.
+In de volgende afbeelding ziet u een voorbeeld van de instelling voor de eenheid **Dag**, waarbij in het veld **Hoeveelheid** het aantal uren in een dag wordt weergegeven, en de eenheid **Week**, waarbij in het veld **Hoeveelheid** het aantal dagen in een week wordt weergegeven.
 
 > ![Eenhedengroep: informatiepagina](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation gebruikt eenheden en eenhedengroepen voo
 
 Voor onkosten heeft elke onkostencategorie een standaardeenhedengroep en -eenheid. Deze waarden worden ingevoerd als standaardwaarden in prijslijstposten voor onkostencategorieën. 
 
-U hebt bijvoorbeeld een onkostencategorie met de naam **Gereden kilometers**. Deze heeft een eenhedengroep met de naam **Afstand** en een standaardeenheid met de naam **Mijl**. Als u de eenhedengroep **Afstand** zo instelt dat deze twee eenheden ( **Mijl** en **Kilometer** ) heeft, kunt u twee prijzen voor de categorie **Gereden kilometers** in één prijslijst instellen: de prijs per mijl en prijs per kilometer.
+U hebt bijvoorbeeld een onkostencategorie met de naam **Gereden kilometers**. Deze heeft een eenhedengroep met de naam **Afstand** en een standaardeenheid met de naam **Mijl**. Als u de eenhedengroep **Afstand** zo instelt dat deze twee eenheden (**Mijl** en **Kilometer**) heeft, kunt u twee prijzen voor de categorie **Gereden kilometers** in één prijslijst instellen: de prijs per mijl en prijs per kilometer.
 
 | Onkostencategorie  | Eenhedengroep  | Eenheid      | Prijsmethode  | Prijs per eenheid  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Schattingsregels voor het veld **Tijd in prijsopgave** kunnen in elke tijdseenhe
 In het volgende voorbeeld ziet u hoe PSA de eenhedengroep, eenheden en conversiefactoren gebruikt.
 - Eenheden
 
-   - **Eenhedengroep** : tijd 
-   - **Eenheden** : uur 
+   - **Eenhedengroep**: tijd 
+   - **Eenheden**: uur 
     
     - **Dag** - Conversiefactor: 8 uur       
     - **Week** - Conversiefactor: 40 uur  
         
 - Ingestelde prijslijst voor project A:
 
-    - **Naam** : verkoopprijzen VK 2016 
-    - **Standaardtijdseenheid** : dag 
-    - **Valuta** : GBP
+    - **Naam**: verkoopprijzen VK 2016 
+    - **Standaardtijdseenheid**: dag 
+    - **Valuta**: GBP
 
 | Rol      | Eenhedengroep | Eenheid | Organisatie-eenheid | Prijs   |
 |-----------|------------|------|---------------------|---------|

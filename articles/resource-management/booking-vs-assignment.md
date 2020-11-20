@@ -3,24 +3,24 @@ title: Boekingen versus toewijzingen
 description: Dit onderwerp biedt informatie over de verschillen tussen resourceboekingen en resourcetoewijzingen.
 author: ruhercul
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fa99783e52dbcdeaf80bbfd03df0f458f86b5e99
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8fe6937dfdfe137f28917c16da1d7dc6155284ae
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074413"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130212"
 ---
 # <a name="bookings-vs-assignments"></a>Boekingen versus toewijzingen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Boekingen zijn de harde of zachte toewijzing van resources aan een project. Een harde boeking verbruikt de capaciteit van een resource. 
+Boekingen zijn de harde of zachte toewijzing van resources aan een project. Een harde boeking verbruikt de capaciteit van een resource. Boekingen vertegenwoordigen organisatieconcepten voor teams, zodat ze kunnen begrijpen hoe resources bij verschillende projecten worden ingezet. In Dynamics 365 Project Operations worden boekingen als een concept op projectniveau beschouwd. 
 
-Toewijzingen zijn de toewijzing van resources aan projecttaken in de projectplanning. De resources kunnen echte resources zijn of algemene resources. 
+In tegenstelling tot boekingen zijn toewijzingen de toezegging van resources voor projecttaken in de projectplanning. De resources kunnen een naam hebben of generiek zijn. 
 
-In het ideale geval moeten voor echte resources de boekingen en toewijzingen overeenkomen, omdat ze niet verschillen. Microsoft Dynamics Project Operations dwingt deze overeenkomst echter niet af. In de weergave **Vereffening** wordt aan een projectmanager getoond waar boekingen en toewijzingen van een resource niet overeenkomen.
+Meestal is de som van de boekingen voor een resource gelijk aan de som van de toewijzingen van de resource voor een of meerdere taken. In Project Operations is deze overeenkomst echter niet verplicht. In de weergave **Afstemming** wordt aan een projectmanager getoond waar boekingen en toewijzingen van een resource niet overeenkomen.

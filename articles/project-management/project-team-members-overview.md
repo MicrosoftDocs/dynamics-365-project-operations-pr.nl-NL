@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074455"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127422"
 ---
 # <a name="project-team-members"></a>Projectteamleden
 
@@ -47,16 +47,16 @@ De volgende tabel bevat de belangrijkste kenmerken van een projectteamlid.
 
 Vanuit het raster met teamledem kunnen de volgende acties worden ondernomen:
 
-- **Boeken** : voor organisaties die gebruikmaken van de hybride boekingsmethode, stelt de boekactie gebruikers in staat een benoemde resource te boeken op basis van de vereisten die zijn gegenereerd door het algemene teamlid
-- **Vereiste genereren** : deze actie genereert de vereiste.
-- **Patroon specificeren** : hiermee kunnen projectmanagers de contouren van resourcevereisten op gedetailleerd niveau aanpassen. Projectmanagers kunnen zich aanpassen aan de specifieke behoeften van het project in gevallen waarin de standaarddistributie niet past.
-- **Aanvraag indienen** : voor organisaties die de centrale boekingsmethode gebruiken.
-- **Bewerken** : teamlidkenmerken kunnen worden bewerkt, inclusief organisatie-eenheid, rol en positienaam.
-- **Boekingen bijhouden** : wanneer boekingen van resources moeten worden bijgewerkt, kan de projectmanager door het bijhouden van boekingen het volgende aanpassen:
+- **Boeken**: voor organisaties die gebruikmaken van de hybride boekingsmethode, stelt de boekactie gebruikers in staat een benoemde resource te boeken op basis van de vereisten die zijn gegenereerd door het algemene teamlid
+- **Vereiste genereren**: deze actie genereert de vereiste.
+- **Patroon specificeren**: hiermee kunnen projectmanagers de contouren van resourcevereisten op gedetailleerd niveau aanpassen. Projectmanagers kunnen zich aanpassen aan de specifieke behoeften van het project in gevallen waarin de standaarddistributie niet past.
+- **Aanvraag indienen**: voor organisaties die de centrale boekingsmethode gebruiken.
+- **Bewerken**: teamlidkenmerken kunnen worden bewerkt, inclusief organisatie-eenheid, rol en positienaam.
+- **Boekingen bijhouden**: wanneer boekingen van resources moeten worden bijgewerkt, kan de projectmanager door het bijhouden van boekingen het volgende aanpassen:
 
     - Starten
     - End
     - Totale inspanningstoewijzing
 
-- **Nieuw** : naast het rechtstreeks toevoegen van resources vanuit de planning, kunnen projectmanagers nieuwe benoemde of generieke teamleden toevoegen vanuit het teamlidraster.
-- **Verwijderen** : door een of meerdere teamleden te selecteren kan de projectmanager resources verwijderen die niet langer aan het project zullen deelnemen. Als u een teamlid verwijdert, worden ook alle bijbehorende resourcetoewijzingen verwijderd en worden alle bestaande boekingen geannuleerd.
+- **Nieuw**: naast het rechtstreeks toevoegen van resources vanuit de planning, kunnen projectmanagers nieuwe benoemde of generieke teamleden toevoegen vanuit het teamlidraster.
+- **Verwijderen**: door een of meerdere teamleden te selecteren kan de projectmanager resources verwijderen die niet langer aan het project zullen deelnemen. Als u een teamlid verwijdert, worden ook alle bijbehorende resourcetoewijzingen verwijderd en worden alle bestaande boekingen geannuleerd.

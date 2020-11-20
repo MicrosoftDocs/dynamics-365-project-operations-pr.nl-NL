@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074684"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128277"
 ---
 # <a name="confirm-a-project-contract"></a>Een projectcontract bevestigen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Een projectcontract in Dynamics 365 Project Operations kan actief zijn met een reden van **Bevestigd** , of gesloten met een reden van **Verloren**. Wanneer u een projectcontract bevestigt, wordt de status bijgewerkt van **Concept** naar **Actief** en is de reden van de status **Bevestigd**. Een actief of gesloten contract kan niet worden bewerkt of heropend. 
+Een projectcontract in Dynamics 365 Project Operations kan actief zijn met een reden van **Bevestigd**, of gesloten met een reden van **Verloren**. Wanneer u een projectcontract bevestigt, wordt de status bijgewerkt van **Concept** naar **Actief** en is de reden van de status **Bevestigd**. Een actief of gesloten contract kan niet worden bewerkt of heropend. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Financiële gevolgen van het bevestigen van een projectcontract
 

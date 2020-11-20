@@ -3,7 +3,7 @@ title: Wekelijkse tijdinvoer aanpassen
 description: Dit onderwerp bevat informatie over het implementeren van aangepaste bedrijfsregels die de werkwijzen van een organisatie ondersteunen.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074651"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127917"
 ---
 # <a name="customize-weekly-time-entry"></a>Wekelijkse tijdinvoer aanpassen 
 
@@ -51,12 +51,12 @@ De sectie **Dimensies** staat geen inline bewerking toe. Deze sectie wordt onder
 In de sectie Duur worden de dagen van de week weergegeven als kolomkoppen. In deze sectie is ook inline bewerken mogelijk. Nadat een rij voor tijdinvoer is gemaakt met de juiste dimensies, kunnen gebruikers snel inline de hoeveelheid tijd invoeren die ze aan deze dimensies hebben besteed.
 
 ## <a name="create-a-new-time-entry"></a>Een nieuwe tijdsvermelding maken
-Als u een nieuwe tijdsvermelding wilt maken in het tijdinvoerraster, selecteert u **Nieuw**. Het dialoogvenster **Snelle invoer van tijdsvermelding** wordt weergegeven. In dit dialoogvenster kunnen gebruikers de tijdvermeldingsdatum selecteren en vervolgens gegevens invoeren voor de dimensies **Project** , **Projecttaak** , **Rol** en **Duur** in minuten, uren of dagen door **u** , **m** of **d** in te voeren, samen met het aantal. Gebruikers kunnen ook een beschrijving en opmerkingen invoeren die extern kunnen worden gedeeld voor de tijdinvoer. Wanneer gebruikers hun wijzigingen opslaan, worden de waarden die ze hebben ingevoerd voor de dimensies weergegeven in de sectie **Dimensies**. De gegevens over duur die in het veld **Duur** zijn ingevoerd, worden weergegeven op de datum waarop de tijdsvermelding is gemaakt.
+Als u een nieuwe tijdsvermelding wilt maken in het tijdinvoerraster, selecteert u **Nieuw**. Het dialoogvenster **Snelle invoer van tijdsvermelding** wordt weergegeven. In dit dialoogvenster kunnen gebruikers de tijdvermeldingsdatum selecteren en vervolgens gegevens invoeren voor de dimensies **Project**, **Projecttaak**, **Rol** en **Duur** in minuten, uren of dagen door **u**, **m** of **d** in te voeren, samen met het aantal. Gebruikers kunnen ook een beschrijving en opmerkingen invoeren die extern kunnen worden gedeeld voor de tijdinvoer. Wanneer gebruikers hun wijzigingen opslaan, worden de waarden die ze hebben ingevoerd voor de dimensies weergegeven in de sectie **Dimensies**. De gegevens over duur die in het veld **Duur** zijn ingevoerd, worden weergegeven op de datum waarop de tijdsvermelding is gemaakt.
 
 Opzoekvelden worden ondersteund door systeemweergaven. Nadat een gebruiker bijvoorbeeld een project heeft ingevoerd, wordt het veld **Projecttaak** standaard ingesteld op de weergave **Kopiëren**. Als u tijdsvermeldingen wilt maken voor taken die niet aan een gebruiker zijn toegewezen, klikt u op **Weergave wijzigen** in het zoekvenster en selecteert u de weergave **Alle actieve projecttaken**.
 
 ## <a name="edit-a-time-entry"></a>Een tijdsvermelding bewerken
-Details van bepaalde velden op de pagina voor tijdinvoer, zoals **Beschrijving** en **Externe opmerkingen** , worden niet weergegeven in het wekelijkse tijdinvoerraster. In plaats daarvan wordt een kleine driehoekige indicator weergegeven in duurcellen waarvoor aanvullende gegevens bestaan. Selecteer de cel en selecteer vervolgens **Details bewerken** om de gegevens in het deelvenster **Snel bewerken** weer te geven. Als u de details voor een specifieke tijdsvermelding wilt bewerken of bijwerken die niet deel uitmaakt van het wekelijkse tijdinvoerraster, moeten gebruikers het deelvenster **Snel bewerken** openen.
+Details van bepaalde velden op de pagina voor tijdinvoer, zoals **Beschrijving** en **Externe opmerkingen**, worden niet weergegeven in het wekelijkse tijdinvoerraster. In plaats daarvan wordt een kleine driehoekige indicator weergegeven in duurcellen waarvoor aanvullende gegevens bestaan. Selecteer de cel en selecteer vervolgens **Details bewerken** om de gegevens in het deelvenster **Snel bewerken** weer te geven. Als u de details voor een specifieke tijdsvermelding wilt bewerken of bijwerken die niet deel uitmaakt van het wekelijkse tijdinvoerraster, moeten gebruikers het deelvenster **Snel bewerken** openen.
 
 ## <a name="copy-a-time-entry-row"></a>Een rij met tijdinvoer kopiëren
 Nadat de eerste rij voor de tijdinvoer is gemaakt, kunnen gebruikers **Rij kopiëren** selecteren om de hele rij naar een nieuwe rij te kopiëren. Wanneer een rij op deze manier wordt gekopieerd, worden ook dimensies en duur gekopieerd. Gebruikers kunnen ook **Rij bewerken** selecteren om dimensiewaarden en duur inline bij te werken in de sectie **Duur**.
@@ -98,22 +98,22 @@ Voeg het aangepaste veld toe aan het dialoogvenster Snelle invoer voor tijdsverm
 #### <a name="configure-the-grid-to-show-the-custom-field"></a>Het raster configureren om het aangepaste veld weer te geven
 Er zijn twee manieren voor het toevoegen van een aangepast veld aan het wekelijkse tijdinvoerraster. De eerste optie is het aanpassen van de weergave **Mijn wekelijkse tijdsvermeldingen** en het aangepaste veld hieraan toe te voegen. U kunt de positie en grootte van het aangepaste veld in het raster kiezen door deze eigenschappen in de weergave te bewerken.
 
-De tweede optie is om een nieuwe aangepaste weergave voor tijdsvermeldingen te maken en deze in te stellen als de standaardweergave. Deze weergave moet naast de kolommen die u in het raster wilt opnemen, de velden **Beschrijving** en **Externe opmerkingen** bevatten. U kunt de positie, grootte en standaardsorteervolgorde van het raster kiezen door deze eigenschappen in de weergave te bewerken. Vervolgens configureert u het aangepaste besturingselement voor deze weergave, zodat het een besturingselement voor een **Tijdinvoerraster** is. Voeg dit besturingselement toe aan de weergave en selecteer het voor web, telefoon en tablet. Configureer vervolgens de parameters voor het wekelijkse tijdinvoerraster. Stel het veld **Begindatum** in op **msdyn_date** , stel het veld **Duur** in op **msdyn_duration** en stel het veld **Status** in op **msdyn_entrystatus**. Voor de standaardweergave is het veld **Lijst voor status Alleen-lezen** ingesteld op **192350002, 192350003, 192350004** , het veld **Taakstroom voor rij bewerken** op **msdyn_timeentryrowedit** en het veld **Taakstroom voor cel bewerken** op **msdyn_timeentryedit**. U kunt deze velden aanpassen om de status alleen-lezen toe te voegen of te verwijderen, of om een andere op taken gebaseerde ervaring (TBX) te gebruiken voor het bewerken van rijen of cellen. Deze velden moeten afhankelijk zijn van een statische waarde.
+De tweede optie is om een nieuwe aangepaste weergave voor tijdsvermeldingen te maken en deze in te stellen als de standaardweergave. Deze weergave moet naast de kolommen die u in het raster wilt opnemen, de velden **Beschrijving** en **Externe opmerkingen** bevatten. U kunt de positie, grootte en standaardsorteervolgorde van het raster kiezen door deze eigenschappen in de weergave te bewerken. Vervolgens configureert u het aangepaste besturingselement voor deze weergave, zodat het een besturingselement voor een **Tijdinvoerraster** is. Voeg dit besturingselement toe aan de weergave en selecteer het voor web, telefoon en tablet. Configureer vervolgens de parameters voor het wekelijkse tijdinvoerraster. Stel het veld **Begindatum** in op **msdyn_date**, stel het veld **Duur** in op **msdyn_duration** en stel het veld **Status** in op **msdyn_entrystatus**. Voor de standaardweergave is het veld **Lijst voor status Alleen-lezen** ingesteld op **192350002, 192350003, 192350004**, het veld **Taakstroom voor rij bewerken** op **msdyn_timeentryrowedit** en het veld **Taakstroom voor cel bewerken** op **msdyn_timeentryedit**. U kunt deze velden aanpassen om de status alleen-lezen toe te voegen of te verwijderen, of om een andere op taken gebaseerde ervaring (TBX) te gebruiken voor het bewerken van rijen of cellen. Deze velden moeten afhankelijk zijn van een statische waarde.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Het aangepaste veld toevoegen aan de juiste bewerkingsstroom voor taken
 De TBX-pagina's die worden gebruikt voor bewerken bevinden zich onder **Processen**. De standaardpagina's zijn **Project Service - Rij met tijdsvermelding bewerken** en **Project Service - Tijdsvermelding bewerken**. U kunt deze standaardpagina's bewerken of nieuwe aangepaste TBX-pagina's maken.
 
 > [!NOTE] 
-> Met beide opties worden sommige standaardfilters voor **project** - en **projecttaak** entiteiten verwijderd, zodat alle opzoekweergaven voor de entiteiten zichtbaar zijn. Standaard zijn alleen de relevante opzoekweergaven zichtbaar.
+> Met beide opties worden sommige standaardfilters voor **project**- en **projecttaak** entiteiten verwijderd, zodat alle opzoekweergaven voor de entiteiten zichtbaar zijn. Standaard zijn alleen de relevante opzoekweergaven zichtbaar.
 
-U moet de juiste taakstroom voor het aangepaste veld bepalen. Als u het veld aan het raster hebt toegevoegd, gaat het waarschijnlijk naar de taakstroom voor rij bewerken die wordt gebruikt voor velden die van toepassing zijn op de hele rij met tijdsvermeldingen. Als het aangepaste veld elke dag een unieke waarde heeft, zoals een aangepast veld voor **Eindtijd** , moet het naar de taakstroom voor cel bewerken gaan.
+U moet de juiste taakstroom voor het aangepaste veld bepalen. Als u het veld aan het raster hebt toegevoegd, gaat het waarschijnlijk naar de taakstroom voor rij bewerken die wordt gebruikt voor velden die van toepassing zijn op de hele rij met tijdsvermeldingen. Als het aangepaste veld elke dag een unieke waarde heeft, zoals een aangepast veld voor **Eindtijd**, moet het naar de taakstroom voor cel bewerken gaan.
 
 Als u het aangepaste veld aan een taakstroom wilt toevoegen, sleept u een **veld** element naar de juiste positie op de pagina en stelt u de eigenschappen ervan in. Stel de eigenschap **Bron** in op **Tijdsvermelding** en stel de eigenschap **Gegevensveld** in op het aangepaste veld. De eigenschap **Veld** geeft de weergavenaam aan op de TBX-pagina. Selecteer **Toepassen** om uw wijzigingen in het veld op te slaan. Selecteer **Bijwerken** om uw wijzigingen in de pagina op te slaan.
 
-Als u in plaats daarvan een nieuwe aangepaste TBX-pagina wilt gebruiken, maakt u een nieuw proces. Stel de categorie in op **Bedrijfsprocesstroom** , stel de entiteit in op **Tijdsvermelding** en stel het bedrijfsprocestype in op **Proces uitvoeren als takenstroom**. Onder **Eigenschappen** moet de eigenschap **Paginanaam** worden ingesteld op de weergavenaam voor de pagina. Voeg alle relevante velden toe aan de TBX-pagina. Sla het proces op en activeer het. Werk vervolgens de aangepaste besturingselementeigenschap voor de desbetreffende taakstroom bij met de waarde van de **Naam** in het proces.
+Als u in plaats daarvan een nieuwe aangepaste TBX-pagina wilt gebruiken, maakt u een nieuw proces. Stel de categorie in op **Bedrijfsprocesstroom**, stel de entiteit in op **Tijdsvermelding** en stel het bedrijfsprocestype in op **Proces uitvoeren als takenstroom**. Onder **Eigenschappen** moet de eigenschap **Paginanaam** worden ingesteld op de weergavenaam voor de pagina. Voeg alle relevante velden toe aan de TBX-pagina. Sla het proces op en activeer het. Werk vervolgens de aangepaste besturingselementeigenschap voor de desbetreffende taakstroom bij met de waarde van de **Naam** in het proces.
 
 ### <a name="add-new-option-set-values"></a>Nieuwe optiesetwaarden toevoegen
-Als u optiesetwaarden wilt toevoegen aan een standaardveld, opent u de bewerkingspagina voor het veld en selecteert u vervolgens onder **Type** de optie **Bewerken** naast de optieset. Voeg vervolgens een nieuwe optie toe met een aangepast label en een aangepaste kleur. Als u een nieuwe status voor de tijdsvermelding wilt toevoegen, krijgt het standaardveld de naam **Vermeldingsstatus** , niet **Status**.
+Als u optiesetwaarden wilt toevoegen aan een standaardveld, opent u de bewerkingspagina voor het veld en selecteert u vervolgens onder **Type** de optie **Bewerken** naast de optieset. Voeg vervolgens een nieuwe optie toe met een aangepast label en een aangepaste kleur. Als u een nieuwe status voor de tijdsvermelding wilt toevoegen, krijgt het standaardveld de naam **Vermeldingsstatus**, niet **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Een nieuwe status voor een tijdsvermelding aanwijzen als alleen-lezen
 Als u een nieuwe tiijdsvermeldingsstatus wilt aanwijzen als alleen-lezen, voegt u de nieuwe waarde voor de tijdsvermelding (het nummer, niet het label) toe aan de eigenschap **Lijst voor status Alleen-lezen**. Het bewerkbare deel van het tijdinvoerraster wordt vergrendeld voor rijen met de nieuwe status.

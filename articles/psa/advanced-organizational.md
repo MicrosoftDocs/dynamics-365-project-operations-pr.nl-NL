@@ -3,7 +3,7 @@ title: Organisatie-eenheden
 description: Dit onderwerp bevat informatie over organisatie-eenheden in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074676"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130617"
 ---
 # <a name="organizational-units"></a>Organisatie-eenheden 
 
@@ -50,8 +50,8 @@ Bovendien bestaat er een kenmerk voor de organisatie-eenheid in de entiteit Reso
 
 De organisatie-eenheid speelt twee rollen in PSA:
 
-- **Contracterende eenheid** : de organisatie-eenheid die de bedrijfsgroep of divisie vertegenwoordigt die primair verantwoordelijk is voor het sluiten van de verkoop en het beheren van de levering van arbeid en diensten aan de klant. De contracterende eenheid wordt geïdentificeerd door het veld **Contracterende eenheid** in het koptekstgedeelte van de pagina's **Verkoopkans** , **Prijsopgave** , **Projectcontract** en **Project**.
-- **Resource-eenheid** : de organisatie-eenheid waar een resource hoort of waaraan deze is toegewezen. Deze organisatie-eenheid kan de resources voor bepaalde rollen leveren in werkomschrijvingen en projecten die eigendom zijn van de contracterende eenheid.
+- **Contracterende eenheid**: de organisatie-eenheid die de bedrijfsgroep of divisie vertegenwoordigt die primair verantwoordelijk is voor het sluiten van de verkoop en het beheren van de levering van arbeid en diensten aan de klant. De contracterende eenheid wordt geïdentificeerd door het veld **Contracterende eenheid** in het koptekstgedeelte van de pagina's **Verkoopkans**, **Prijsopgave**, **Projectcontract** en **Project**.
+- **Resource-eenheid**: de organisatie-eenheid waar een resource hoort of waaraan deze is toegewezen. Deze organisatie-eenheid kan de resources voor bepaalde rollen leveren in werkomschrijvingen en projecten die eigendom zijn van de contracterende eenheid.
 
 > ![Contracterende en resource-eenheden](media/advanced-1.png)
 

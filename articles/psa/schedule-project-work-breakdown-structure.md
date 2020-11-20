@@ -3,7 +3,7 @@ title: Een project inplannen met een structuur voor werkspecificatie
 description: Informatie over een project inplannen met een structuur voor werkspecificatie in Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074746"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127872"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Een project plannen in een structuur voor werkspecificatie (Project Service)
 
@@ -86,14 +86,14 @@ U kunt de volgende typen taken bij het maken van de structuur voor werkspecifica
   
 ### <a name="schedule-attributes"></a>Planningskenmerken
 
- - Wijs aan waarden **Inspanningsuren** , **Aantal resources** , **Begindatum** , **Einddatum** , en **Duur** als u de planning voor de taak te bepalen. 
+ - Wijs aan waarden **Inspanningsuren**, **Aantal resources**, **Begindatum**, **Einddatum**, en **Duur** als u de planning voor de taak te bepalen. 
  - **Inspanning** is een schatting van de werkuren het nemen om de taak te voltooien.
  - **Aantal resources** is een schatting van de projectmanager de taak aanbrengt helpen met de best mogelijke planning in de gemaakt zijn. 
  - **Duur** (in dagen) geeft het aantal werkdagen wordt treffen om de taak te voltooien.  
   
 ### <a name="staffing-attributes"></a>Personeelskenmerken
 
- - **Rol** , **Resourceorganisatie-eenheid** , **Aantal resources** , **Resources** en worden het personeelsbestand mogelijk de vereisten voor de taak. 
+ - **Rol**, **Resourceorganisatie-eenheid**, **Aantal resources**, **Resources** en worden het personeelsbestand mogelijk de vereisten voor de taak. 
  - **Rol** worden beschreven die het type resource nodig om de taak uit te voeren. 
  - **Resourceorganisatie-eenheid** duidt op de organisatie-eenheid voor de resource voor taken die moeten worden bemand; deze instelling wordt ook de kosten en verkopenschatting van de taak, want dit is opgegeven rekenschap van de configuratie-items bepaalt van de verkoopprijs per eenheid voor de resource. 
  - **Resources** bevat een of algemene resource door een resource wordt gevonden.  

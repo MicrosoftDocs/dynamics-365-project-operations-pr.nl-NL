@@ -3,7 +3,7 @@ title: Resourcerollen configureren
 description: Informatie over resourcerollen configureren in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074562"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129132"
 ---
 # <a name="configure-resource-roles-project-service"></a>Resourcerollen configureren (Project Service)
 
@@ -47,7 +47,7 @@ De rollen spelen een belangrijk aspect in de projectplanning, het bepalen van re
   
 5.  Klik in het gebied **Vaardigheden** op **+** om een vaardigheid toe te voegen.  
   
-6.  In het deelvenster **Vereiste rolcompetentie** klikt u in het veld **Vaardigheden** , klikt u op de knop **Zoeken** , en selecteert u vervolgens een vaardigheid.  
+6.  In het deelvenster **Vereiste rolcompetentie** klikt u in het veld **Vaardigheden**, klikt u op de knop **Zoeken**, en selecteert u vervolgens een vaardigheid.  
   
 7.  Selecteer een deskundigheid voor die vaardigheid en klik vervolgens op **Opslaan**.  
   

@@ -3,7 +3,7 @@ title: Tijd en onkosten goedkeuren
 description: Informatie over tijd en onkosten goedkeuren in Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074742"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127107"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Tijd en onkosten goedkeuren (Project Service)
 
@@ -35,7 +35,7 @@ Als adviseurs hun tijd en onkosten voor een project hebben ingevoerd, moet u dez
   
 2.  Klik op het item dat moet worden goedgekeurd.  
   
-3.  Controleer elk item op de tabbladen **Tijdsvermeldingen** , **Onkostenposten** en **Afwezigheid/vakantie** en breng indien nodig wijzigingen aan.  
+3.  Controleer elk item op de tabbladen **Tijdsvermeldingen**, **Onkostenposten** en **Afwezigheid/vakantie** en breng indien nodig wijzigingen aan.  
   
 4.  Als u een item wilt goedkeuren, selecteert u het en klikt u op **Goedkeuren**. U kunt meerdere items tegelijk selecteren en goedkeuren.  
   

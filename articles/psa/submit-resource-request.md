@@ -2,7 +2,7 @@
 title: Een resourceaanvraag indienen
 description: Dit onderwerp bevat informatie over het indienen van een aanvraag voor een projectresource.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcea3d640d7e9ee2b071c55bff9ade3268edb319
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f076b89c5ac7fee4866534cbd47d81f92f3ab3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074657"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131255"
 ---
 # <a name="submitting-a-resource-request"></a>Een resourceaanvraag indienen
 
@@ -38,4 +38,4 @@ U kunt een gegenereerde resourcevereiste indienen als een resourceaanvraag. De a
 
 De aanvraagstatus van het algemene teamlid wordt gewijzigd in **Ingediend**.
 
-Nadat de aanvraag is vervuld door de resourcemanager wordt de algemene resource vervangen door een benoemde resource, als de resourcemanager de aanvraag vervult door een benoemde resource te boeken. Anders blijft de algemene resource in het team staan en wordt de status van de aanvraag gewijzigd **Moet worden geëvalueerd** , als de resourcemanager een benoemde resource heeft voorgesteld.
+Nadat de aanvraag is vervuld door de resourcemanager wordt de algemene resource vervangen door een benoemde resource, als de resourcemanager de aanvraag vervult door een benoemde resource te boeken. Anders blijft de algemene resource in het team staan en wordt de status van de aanvraag gewijzigd **Moet worden geëvalueerd**, als de resourcemanager een benoemde resource heeft voorgesteld.

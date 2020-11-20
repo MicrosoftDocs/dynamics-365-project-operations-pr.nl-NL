@@ -3,7 +3,7 @@ title: verkoopprocessen
 description: Dit onderwerp geeft informatie over de standaardverkoopprocessen.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074678"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129312"
 ---
 # <a name="sales-processes"></a>verkoopprocessen
 
@@ -70,21 +70,21 @@ Deze zes fasen worden vertegenwoordigd door punthaken (\>) die u selecteert om u
  
 Uw organisatie kan verschillende entiteiten voor dezelfde deal gebruiken terwijl deze zich ontwikkelt. Vroeg in het verkoopproces wordt een deal vertegenwoordigd door de entiteit Verkoopkans. Naarmate de tijd verstrijkt en er meer details opduiken, kunt u algemene schattingen gebruiken om een of meer prijsopgaven te maken. Als een van deze prijsopgaven wordt beoordeeld door interne belanghebbenden en klanten, vertegenwoordigt de entiteit Prijsopgave de deal. Nadat de klant de prijsopgave heeft aanvaard, wordt de deal vertegenwoordigd door een projectcontract of werkomschrijving. Ter ondersteuning van dit probleem zijn BPFs zo gestructureerd dat elke fase in het proces is gekoppeld aan een andere databasetabel.
 
-De fase **Kwalificeren** in het verkoopproces kan worden ondersteund door een entiteit Verkoopkans. De fasen **Schatting** en **Interne beoordeling** kunnen worden ondersteund door een entiteit Prijsopgave. De fasen **Contract** , **Levering** en **Afsluiting** kunnen worden ondersteund door een entiteit Projectcontract.
+De fase **Kwalificeren** in het verkoopproces kan worden ondersteund door een entiteit Verkoopkans. De fasen **Schatting** en **Interne beoordeling** kunnen worden ondersteund door een entiteit Prijsopgave. De fasen **Contract**, **Levering** en **Afsluiting** kunnen worden ondersteund door een entiteit Projectcontract.
 
 Terwijl deals de fasen doorlopen, wordt u gevraagd de juiste entiteitsrecord te maken om u door het proces te begeleiden. De fasen kunnen voorwaardelijk zijn. Als u bijvoorbeeld alleen een interne beoordeling van een prijsopgave nodig hebt als de prijsopgave een aangepaste prijslijst gebruikt, kunt u die voorwaarde configureren in de betreffende fase van het bedrijfsproces. De fase **Interne beoordeling** wordt dan alleen weergegeven voor prijsopgaven die een aangepaste prijslijst gebruiken. Voor alle andere deals en prijsopgaven wordt de fase **Schatting** gevolgd door de fase **Contract**.
 
 > [!NOTE]
-> PSA heeft specifieke pagina's voor de entiteiten Verkoopkans, Prijsopgave, Order en Factuur. U moet Project Service-verkoopkansen, -prijsopgaven, -orders en -facturen maken met behulp van de projectinformatiepagina's voor deze entiteiten. Als u een andere pagina gebruikt om een record te maken, kunt u de record niet openen via de pagina **Projectgegevens**. Als u een record wilt openen via de pagina **Projectgegevens** , moet u de record verwijderen en opnieuw maken op de pagina **Projectgegevens**. Op de pagina **Projectgegevens** zorgt bedrijfslogica voor elk van deze entiteitstypen ervoor dat het veld **Type** van de record correct is ingesteld en dat alle verplichte concepten correct worden geïnitialiseerd.
+> PSA heeft specifieke pagina's voor de entiteiten Verkoopkans, Prijsopgave, Order en Factuur. U moet Project Service-verkoopkansen, -prijsopgaven, -orders en -facturen maken met behulp van de projectinformatiepagina's voor deze entiteiten. Als u een andere pagina gebruikt om een record te maken, kunt u de record niet openen via de pagina **Projectgegevens**. Als u een record wilt openen via de pagina **Projectgegevens**, moet u de record verwijderen en opnieuw maken op de pagina **Projectgegevens**. Op de pagina **Projectgegevens** zorgt bedrijfslogica voor elk van deze entiteitstypen ervoor dat het veld **Type** van de record correct is ingesteld en dat alle verplichte concepten correct worden geïnitialiseerd.
 
 > ![Projectgegevens voor een nieuwe order](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Verschillen tussen Project Service Automation en Sales
 Hoewel voor het verkoopproces in PSA de standaardmogelijkheden van het verkoopproces in Sales worden gebruikt, zijn er wel enkele belangrijke verschillen vanwege variaties in de bedrijfspraktijken van projectgebaseerde organisaties. Hieronder volgen een aantal voorbeelden:
 
-- **Projectprijsopgaven** : in Project Service Automation wordt een prijsopgave afgesloten als een projectcontract is gemaakt op basis van een prijsopgave. In Sales kunt u een prijsopgave open houden nadat u deze hebt binnengehaald. De reden voor dit verschil is dat een prijsopgave en een projectcontract meer overeenkomen voor projectgebaseerde organisaties. 
-- **Activering en revisies** : in PSA worden activering en revisies niet ondersteund voor projectprijsopgaven. In Sales kan een prijsopgave worden vergrendeld om extra bewerkingen te voorkomen.
-- **Een prijsopgave afsluiten als gemist verloren of binnengehaald** : wanneer in PSA een projectprijsopgave wordt afgesloten als binnengehaald of gemist, blijft de verkoopkans open. Alle andere prijsopgaven voor de verkoopkans worden gesloten als gemist. Wanneer in Sales een prijsopgave wordt afgesloten als binnengehaald of gemist, wordt de gebruiker gevraagd een actie te ondernemen voor de verkoopkans. Afhankelijk van de invoer van de gebruiker, kan de onderliggende verkoopkans worden afgesloten of open gelaten.
+- **Projectprijsopgaven**: in Project Service Automation wordt een prijsopgave afgesloten als een projectcontract is gemaakt op basis van een prijsopgave. In Sales kunt u een prijsopgave open houden nadat u deze hebt binnengehaald. De reden voor dit verschil is dat een prijsopgave en een projectcontract meer overeenkomen voor projectgebaseerde organisaties. 
+- **Activering en revisies**: in PSA worden activering en revisies niet ondersteund voor projectprijsopgaven. In Sales kan een prijsopgave worden vergrendeld om extra bewerkingen te voorkomen.
+- **Een prijsopgave afsluiten als gemist verloren of binnengehaald**: wanneer in PSA een projectprijsopgave wordt afgesloten als binnengehaald of gemist, blijft de verkoopkans open. Alle andere prijsopgaven voor de verkoopkans worden gesloten als gemist. Wanneer in Sales een prijsopgave wordt afgesloten als binnengehaald of gemist, wordt de gebruiker gevraagd een actie te ondernemen voor de verkoopkans. Afhankelijk van de invoer van de gebruiker, kan de onderliggende verkoopkans worden afgesloten of open gelaten.
 
 ## <a name="tracking-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Revisies in prijsopgaven en projectplannen in de verkoopcyclus bijhouden
 In PSA kunt u aangebrachte revisies in een prijsopgave niet bijhouden. In plaats daarvan moet u de bestaande prijsopgave als **Afgesloten als gemist** markeren en vervolgens een nieuwe prijsopgave maken. U kunt een prijsopgave kopiëren of een projectgebaseerde prijsopgave klonen met PSA.

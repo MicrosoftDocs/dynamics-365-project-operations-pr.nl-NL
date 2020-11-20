@@ -2,7 +2,7 @@
 title: Wat is er nieuw of gewijzigd in Project Service Automation versie 3.x, wave 1 van 2020
 description: In dit onderwerp vindt u informatie over wat er nieuw en gewijzigd is in Project Service Automation versie 3, wave 1 van 2020.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 16b51995f863d9ee54172625dacbf081c51c8556
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2308f83e09c25059b6a36599b04b5b00f66c704f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074510"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126477"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Wat is er nieuw of gewijzigd in Project Service Automation versie 3, wave 1 van 2020
 In dit onderwerp worden belangrijke overwegingen belicht voor upgraden, wanneer u wilt overstappen naar de nieuwste release van Project Service Automation (PSA) versie 3.x, wave 1 van 2020.
 
 ## <a name="time-entry"></a>Tijdsvermelding
-De tijdinvoerervaring is uitgebreid en biedt nu mogelijkheden voor het uitbreiden van tijdinvoer naar meer klantenscenario's. Dit omvat de mogelijkheid om invoertypen toe te voegen, die nu specifiek gedrag aansturen op basis van de veldschemanaam **Instellingen voor tijdinvoer** , weergegeven als **Tijdsbron**. De nieuwe oplossing TESA (Time, Expense, Statusing and Approvals) is toegevoegd om deze functionaliteit te ondersteunen.
+De tijdinvoerervaring is uitgebreid en biedt nu mogelijkheden voor het uitbreiden van tijdinvoer naar meer klantenscenario's. Dit omvat de mogelijkheid om invoertypen toe te voegen, die nu specifiek gedrag aansturen op basis van de veldschemanaam **Instellingen voor tijdinvoer**, weergegeven als **Tijdsbron**. De nieuwe oplossing TESA (Time, Expense, Statusing and Approvals) is toegevoegd om deze functionaliteit te ondersteunen.
 
 ### <a name="upgrade-consideration"></a>Overwegingen voor het upgraden
 Ter ondersteuning van deze functionaliteit zijn de rollen in PSA bijgewerkt met nieuwe rechten. Deze rechten verlenen leestoegang tot de nieuwe entiteit **Instellingen voor tijdinvoer**.

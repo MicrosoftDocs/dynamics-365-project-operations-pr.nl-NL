@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074432"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126117"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Btw-terugvordering in Onkostenbeheer
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Om terugbetaling te ontvangen voor in aanmerking komende btw-transacties moet een bedrijf of organisatie nauwkeurige informatie opgeven, verzamelen, verifiëren en indienen. Dit proces omvat meerdere taken en kan, afhankelijk van de grootte van uw bedrijf, betrekking hebben op meerdere medewerkers of rollen.
 
-Als u btw wilt terugvorderen in de module **Onkostenbeheer** , moet aan de volgende voorwaarden worden voldaan:
+Als u btw wilt terugvorderen in de module **Onkostenbeheer**, moet aan de volgende voorwaarden worden voldaan:
 
 - Belastingcodes moeten zijn gemaakt voor landen/regio's die zijn toegewezen aan onkostencategorieën.
 - Voor elke belastingcode moet een btw-groep worden aangemaakt.

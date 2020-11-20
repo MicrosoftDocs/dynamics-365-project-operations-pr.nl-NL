@@ -3,7 +3,7 @@ title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 
 description: In dit onderwerp vindt u een overzicht van de functies en oplossingen die beschikbaar zijn voor Project Service Automation updaterelease 21, v3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074515"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126702"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation, updaterelease 21, v3
 
@@ -54,7 +54,7 @@ De volgende problemen zijn opgelost:
 
 De volgende problemen zijn opgelost:
 
-- De **Project** formulierrasters ( **Resourcetoewijzing** , **Taak** , weergave **Afstemming** , **Onkostenschattingen** ) blijven bewerkbaar, ook als een project niet actief is.
+- De **Project** formulierrasters ( **Resourcetoewijzing**, **Taak**, weergave **Afstemming**, **Onkostenschattingen**) blijven bewerkbaar, ook als een project niet actief is.
 - Dubbele klanten kunnen niet worden samengevoegd met klanten die zijn gekoppeld aan bevestigde projectcontracten.
 - Wanneer een resource zonder geldige kalender agenda wordt toegevoegd, geeft het systeem geen gebruiksvriendelijke foutmelding.
 - De knop **Taak toevoegen** op het taakraster is ingeschakeld wanneer het project is gekoppeld aan **Microsoft project-invoegtoepassing**.
@@ -71,7 +71,7 @@ De volgende problemen zijn opgelost:
 - **Totale verkoopprijs** is nul (0) voor **Categorie** ondanks dat **Rol** een totale verkoopprijs heeft die niet nul is.
 - Klanten kunnen de waarde van het veld **Factuurstatus** niet wijzigen in **Gereed voor facturering** wanneer een ander aangepast proces een extra veld bijwerkt.
 - De knop **Factuurregels vernieuwen** kan meerdere gedupliceerde regels maken als deze herhaaldelijk wordt geselecteerd.
-- De knop **Prijzen bijwerken** werkt niet op het subraster **Rolprijzen** in het formulier **Snelle weergave**.
+- De knop **Prijzen bijwerken** werkt niet in het subraster **Rolprijzen** in het formulier **Snelle weergave**.
 - De logica voor **Oplossing verkoopprijslijst** behandelt tijdzones onjuist, wat resulteert in de verkeerde selectie van prijslijsten.
 - De **Totale werkelijke kosten** van een project kunnen een fractie afwijken nadat een enkele tijdpost is goedgekeurd.
 - De logica voor **Prijsoplossing** geeft geen gebruiksvriendelijke foutmelding if **Opgehaalde rolprijs** geen waarden bevat in de velden **'Primaire eenheid'** en **'Prijs in primaire eenheid'**.

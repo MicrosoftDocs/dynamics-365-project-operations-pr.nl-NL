@@ -3,7 +3,7 @@ title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 
 description: In dit onderwerp vindt u een overzicht van de functies en oplossingen die beschikbaar zijn voor Project Service Automation updaterelease 20, v3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074513"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126747"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, updaterelease 20, v3
 
@@ -48,7 +48,7 @@ De volgende problemen zijn opgelost:
 
 De volgende problemen zijn opgelost:
 
-- Als op het formulier **Contract** wordt gedubbelklikt op **Factuur maken** , worden twee facturen gemaakt voor één record met werkelijke waarden.
+- Als op het formulier **Contract** wordt gedubbelklikt op **Factuur maken**, worden twee facturen gemaakt voor één record met werkelijke waarden.
 - In Internet Explorer11 kunnen gebruikers geen onkostenboekingen maken.
 - Terugboeking van kosten en terugboeking van niet-gefactureerde werkelijke verkoopwaarden zijn niet gekoppeld.
 - Met de knop **Werkelijke waarden vernieuwen** op het formulier **Project** worden niet de **Werkelijke taakuren** vernieuwd.
@@ -59,4 +59,4 @@ De volgende problemen zijn opgelost:
 - Eenheids- en eenheidsgroepwaarden worden niet correct standaard ingesteld voor onkostencategorieën in de formulieren **Contractregeldetails** en **Prijsopgaveregeldetails**.
 - De lijsten met **Kostprijs organisatie-eenheid** staan overlappingen in de geldigheidsdatums toe.
 - Het is gebruikers niet toegestaan **OrgUnit** te wijzigen wanneer het ordertype niet op werk is gebaseerd omdat dit zal leiden tot een uitzonderingsfout met een null-referentie.
-- Wanneer u uit het formulier **Prijsopgaveregeldetails** probeert terug te gaan naar het tabblad **Prijsopgave** , wordt het formulier vernieuwd en verschijnt het tabblad **Overzicht**.
+- Wanneer u uit het formulier **Prijsopgaveregeldetails** probeert terug te gaan naar het tabblad **Prijsopgave**, wordt het formulier vernieuwd en verschijnt het tabblad **Overzicht**.

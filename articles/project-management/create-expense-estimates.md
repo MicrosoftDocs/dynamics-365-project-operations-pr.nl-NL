@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074486"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131697"
 ---
 # <a name="expense-estimates"></a>Onkostenschattingen
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
@@ -32,9 +32,9 @@ Voer de volgende stappen uit om projectonkosten te bekijken, toe te voegen of te
 
 De volgende kenmerken worden gedefinieerd voor elk onkostenregelitem:
 
-- **Categorie** : de gemeenschappelijke groeperingen die worden gebruikt om alle uitgaven voor een project te beschrijven.
-- **Begindatum** : de datum waarop de onkosten naar verwachting worden gemaakt.
-- **Aantal** : het geschatte aantal onkostenitems voor een specifieke categorie.
-- **Kostprijs per eenheid** : de eenheidsprijs die wordt gebruikt om de kosten van de onkosten te berekenen.
-- **Verkoopprijs per eenheid** : de eenheidsprijs die wordt gebruikt om de verkoopprijzen van de onkosten te berekenen.
+- **Categorie**: de gemeenschappelijke groeperingen die worden gebruikt om alle uitgaven voor een project te beschrijven.
+- **Begindatum**: de datum waarop de onkosten naar verwachting worden gemaakt.
+- **Aantal**: het geschatte aantal onkostenitems voor een specifieke categorie.
+- **Kostprijs per eenheid**: de eenheidsprijs die wordt gebruikt om de kosten van de onkosten te berekenen.
+- **Verkoopprijs per eenheid**: de eenheidsprijs die wordt gebruikt om de verkoopprijzen van de onkosten te berekenen.
 

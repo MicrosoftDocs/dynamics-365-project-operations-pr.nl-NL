@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074602"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130887"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Aangepaste velden en entiteiten maken als prijsdimensies
 
@@ -36,7 +36,7 @@ Voer de volgende stappen uit wanneer u een aangepaste optieset of entiteit wilt 
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Een aangepaste oplossing maken voor prijsdimensies
 1. Ga naar **Instellingen** > **Oplossingen** en selecteer vervolgens **Nieuw** om een nieuwe oplossing te maken. 
-2. Noem de oplossing **\<your organization name> prijsdimensies** , voer de resterende vereiste informatie in en selecteer vervolgens **Opslaan**.
+2. Noem de oplossing **\<your organization name> prijsdimensies**, voer de resterende vereiste informatie in en selecteer vervolgens **Opslaan**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Aangepaste velden en optiesets maken in de prijsdimensieoplossing
 
@@ -62,8 +62,8 @@ U twee op optiesets gebaseerde dimensies maken. Gebruik **Werklocatie van resour
 
 U kunt gegevens voor op entiteiten gebaseerde dimensies handmatig maken of met behulp van Microsoft Excel-imports of serviceaanroepen. Gebruik de stappen in deze procedure om de twee standaardtitels **Systeemtechnicus** en **Hoofdsysteemtechnicus** te maken op basis van de op entiteiten gebaseerde dimensie **Standaardtitel**. Als u een beperkte hoeveelheid gegevens wilt maken, zoals in het volgende voorbeeld, kunt u een standaardformulier gebruiken.
 
-1. Selecteer **Geavanceerd zoeken** , selecteer de entiteit **Standaardtitel** en selecteer vervolgens **Resultaten**. Alle rijen in de entiteit **Standaardtitel** worden weergegeven.
-2. Selecteer **Nieuw** , voer in het veld **Naam** de naam 'Systeemtechnicus' in en selecteer vervolgens **Opslaan**.
+1. Selecteer **Geavanceerd zoeken**, selecteer de entiteit **Standaardtitel** en selecteer vervolgens **Resultaten**. Alle rijen in de entiteit **Standaardtitel** worden weergegeven.
+2. Selecteer **Nieuw**, voer in het veld **Naam** de naam 'Systeemtechnicus' in en selecteer vervolgens **Opslaan**.
 3. Sluit het formulier. 
 4. Herhaal stap 1-3 om een andere standaardtitel te maken voor Hoofdsysteemtechnicus.
 
