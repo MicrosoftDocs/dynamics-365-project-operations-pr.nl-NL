@@ -3,7 +3,7 @@ title: Eerder goedgekeurde tijdsvermeldingen en onkostenposten annuleren
 description: Dit onderwerp bevat informatie over het annuleren van een goedgekeurde projecttijd en onkostentransactie.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074739"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123327"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Eerder goedgekeurde tijdsvermeldingen of onkostenposten annuleren
 
@@ -46,7 +46,7 @@ Wanneer een goedkeuring wordt geannuleerd, heeft dit zowel operationele als fina
 
 ### <a name="operational-impact"></a>Operationele gevolgen
 
-Wanneer een goedkeuring wordt geannuleerd, wordt de status van de record opnieuw ingesteld op **Concept** en wordt de goedkeuring niet meer weergegeven in de weergave **Mijn eerdere goedkeuringen**. In plaats daarvan wordt de geannuleerde goedkeuring weergegeven in de weergave **Tijdsvermeldingen voor goedkeuring** of **Onkostenposten voor goedkeuring** , afhankelijk van of het een tijdsvermelding of onkostenpost betreft. Bovendien wordt de status van de gerelateerde tijdsvermelding of onkostenpost gewijzigd in **Verzonden** , zodat de gerelateerde vermelding of post consistent is met goedkeuringen met de status **Concept.**
+Wanneer een goedkeuring wordt geannuleerd, wordt de status van de record opnieuw ingesteld op **Concept** en wordt de goedkeuring niet meer weergegeven in de weergave **Mijn eerdere goedkeuringen**. In plaats daarvan wordt de geannuleerde goedkeuring weergegeven in de weergave **Tijdsvermeldingen voor goedkeuring** of **Onkostenposten voor goedkeuring**, afhankelijk van of het een tijdsvermelding of onkostenpost betreft. Bovendien wordt de status van de gerelateerde tijdsvermelding of onkostenpost gewijzigd in **Verzonden**, zodat de gerelateerde vermelding of post consistent is met goedkeuringen met de status **Concept.**
 
 Als fiatteur kunt u enkele velden van een goedkeuring met de status **Concept** bewerken. Deze velden zijn **Factureringstype** en **Factureerbare uren voor tijdsvermeldingen**. Nadat u wijzigingen hebt aangebracht, kunt u de record opnieuw goedkeuren. U kunt deze ook afwijzen. Als u de goedkeuring van een tijdsvermelding afwijst, wordt de status van de vermelding gewijzigd in **Geretourneerd**. Als u de goedkeuring van een onkostenpost afwijst, wordt de status gewijzigd in **Afgewezen**. Functioneel gedragen geretourneerde en afgewezen posten en vermeldingen zich hetzelfde als een post of vermelding met de status **Concept**. Een lid van het projectteam kan de vereiste wijzigingen in de post/vermelding aanbrengen en deze vervolgens opnieuw indienen ter goedkeuring of de post/vermelding volledig verwijderen.
 

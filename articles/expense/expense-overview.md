@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074444"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122823"
 ---
 # <a name="expense-home-page"></a>Startpagina voor onkosten
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations ondersteunt de mogelijkheid om onkosten te verwe
 
 In Project Operations zijn er twee ondersteunde implementatiemodellen voor onkosten: 
 
-- **Volledig** : een volledige implementatie is beschikbaar voor **Project Operations voor scenario's op basis van resources/niet-voorradige artikelen** of **Project Operations voor scenario's op basis van productieorders**.
-- **Basis** : een basisimplementatie is beschikbaar voor **Project Operations voor scenario's op basis van resources/niet-voorradige artikelen** en **Lite-implementatie – van deal tot pro-formafacturering**.
+- **Volledig**: een volledige implementatie is beschikbaar voor **Project Operations voor scenario's op basis van resources/niet-voorradige artikelen** of **Project Operations voor scenario's op basis van productieorders**.
+- **Basis**: een basisimplementatie is beschikbaar voor **Project Operations voor scenario's op basis van resources/niet-voorradige artikelen** en **Lite-implementatie – van deal tot pro-formafacturering**.
 
 ## <a name="full"></a>Volledig 
 De implementatie Volledige onkosten biedt volledige afdwinging van beleid, inclusief de mogelijkheid om beleid te maken, zoals:

@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096746"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122877"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>De integratie van Project Operations per rechtspersoon configureren 
 
@@ -48,6 +48,6 @@ U kunt Project Operations in Dynamics 365 Customer Engagement inschakelen op het
 
 Elke rechtspersoon die Project Operations gebruikt in Dynamics 365 Customer Engagement heeft een set standaardparameters nodig. Deze parameters zijn geconfigureerd op het tabblad **Project Operations** op de pagina **Parameters voor Projectbeheer en financiële administratie** bladzijde. De parameters zijn:
 
-  - **Standaardwaarden voor factureringstype** : Project Operations gebruikt een vaste set standaardinstellingen voor factureringstypes die moeten worden toegewezen aan regeleigenschappen in Finance. Maak een record voor elk factureringstype: **Niet gespecificeerd** , **Toerekenbaar** , **Niet-toerekenbaar** , **Gratis** en **Niet beschikbaar**.
-  - **Standaardinstellingen projectcategorie** : selecteer de standaardprojectcategorieën die voor elk transactietype moeten worden gebruikt. Deze standaardinstellingen worden gebruikt in **Integratiejournaal in Project Operations** en in schattingen waar geen transactiecategorie is gespecificeerd voor de werkelijke projectwaarden.
-  - **Prognoses** : selecteer het prognosemodel dat moet worden gebruikt voor schattingen van tijd en onkosten.
+  - **Standaardwaarden voor factureringstype**: Project Operations gebruikt een vaste set standaardinstellingen voor factureringstypes die moeten worden toegewezen aan regeleigenschappen in Finance. Maak een record voor elk factureringstype: **Niet gespecificeerd**, **Toerekenbaar**, **Niet-toerekenbaar**, **Gratis** en **Niet beschikbaar**.
+  - **Standaardinstellingen projectcategorie**: selecteer de standaardprojectcategorieën die voor elk transactietype moeten worden gebruikt. Deze standaardinstellingen worden gebruikt in **Integratiejournaal in Project Operations** en in schattingen waar geen transactiecategorie is gespecificeerd voor de werkelijke projectwaarden.
+  - **Prognoses**: selecteer het prognosemodel dat moet worden gebruikt voor schattingen van tijd en onkosten.

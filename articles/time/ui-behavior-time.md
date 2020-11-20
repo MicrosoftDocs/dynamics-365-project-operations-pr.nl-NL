@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074499"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124497"
 ---
 # <a name="time-entry-ui-behavior"></a>Gedrag van UI voor tijdinvoer
 
@@ -40,7 +40,7 @@ In de sectie Duur worden de dagen van de week weergegeven als kolomkoppen. In de
 
 1. Selecteer **Nieuw** in het tijdinvoerraster. 
 2. Selecteer in het dialoogvenster **Snelle invoer van tijdsvermelding** de datum van de tijdsvermelding.
-3. Voer gegevens in voor de dimensies **Project** , **Projecttaak** , **Rol** en **Duur**. Deze informatie moet in minuten, uren of dagen worden toegevoegd door **h** , **m** of **d** in te voeren samen met het aantal. 
+3. Voer gegevens in voor de dimensies **Project**, **Projecttaak**, **Rol** en **Duur**. Deze informatie moet in minuten, uren of dagen worden toegevoegd door **h**, **m** of **d** in te voeren samen met het aantal. 
 4. Voer een beschrijving en opmerkingen in die extern kunnen worden gedeeld voor de tijdsvermelding. 
 
 Wanneer u het item opslaat, verschijnen de ingevoerde waarden in de sectie **Dimensies**. De gegevens die in het veld **Duur** zijn ingevoerd, worden weergegeven op de datum waarop de tijdsvermelding is gemaakt.
@@ -48,7 +48,7 @@ Wanneer u het item opslaat, verschijnen de ingevoerde waarden in de sectie **Dim
 Opzoekvelden worden ondersteund door systeemweergaven. Nadat een gebruiker bijvoorbeeld een project heeft ingevoerd, wordt het veld **Projecttaak** standaard ingesteld op de weergave **Kopiëren**. Als u tijdsvermeldingen wilt maken voor taken die niet aan een gebruiker zijn toegewezen, klikt u op **Weergave wijzigen** in het zoekvenster en selecteert u de weergave **Alle actieve projecttaken**.
 
 ## <a name="edit-a-time-entry"></a>Een tijdsvermelding bewerken 
-Details van bepaalde velden op de pagina voor tijdinvoer, zoals **Beschrijving** en **Externe opmerkingen** , worden niet weergegeven in het wekelijkse tijdinvoerraster. In plaats daarvan wordt een kleine driehoekige indicator weergegeven in cellen voor **Duur** waarvoor aanvullende gegevens bestaan. 
+Details van bepaalde velden op de pagina voor tijdinvoer, zoals **Beschrijving** en **Externe opmerkingen**, worden niet weergegeven in het wekelijkse tijdinvoerraster. In plaats daarvan wordt een kleine driehoekige indicator weergegeven in cellen voor **Duur** waarvoor aanvullende gegevens bestaan. 
 
 1. Om een tijdvermelding te bewerken, selecteert u de cel die u wilt bijwerken in de tijdvermelding.
 2. Selecteer **Details bewerken** om de gegevens in deelvenster **Hoofdformulier tijdinvoer** bij te werken. 
@@ -67,10 +67,10 @@ U kunt tijdvermeldingen die u hebt ingediend, intrekken. U kunt één tijdsverme
 
 ## <a name="time-entry-status"></a>Status van tijdsvermelding
 
-- **Concept** : nieuwe tijdsvermeldingen krijgen automatisch de status **Concept** toegewezen. Alleen tijdsvermeldingen met de status **Concept** kunnen worden verwijderd.
-- **Ingediend** : wanneer een tijdsvermelding wordt ingediend, wordt de status bijgewerkt naar **Ingediend**. 
-- **Goedgekeurd** : wanneer een ingediende tijdsvermelding wordt goedgekeurd, wordt de status bijgewerkt naar **Goedgekeurd**. 
-- **Geretourneerd** : als een tijdsvermelding wordt afgewezen, wordt de status bijgewerkt naar **Geretourneerd** en wordt de vermelding beschikbaar voor correctie en opnieuw indienen. 
+- **Concept**: nieuwe tijdsvermeldingen krijgen automatisch de status **Concept** toegewezen. Alleen tijdsvermeldingen met de status **Concept** kunnen worden verwijderd.
+- **Ingediend**: wanneer een tijdsvermelding wordt ingediend, wordt de status bijgewerkt naar **Ingediend**. 
+- **Goedgekeurd**: wanneer een ingediende tijdsvermelding wordt goedgekeurd, wordt de status bijgewerkt naar **Goedgekeurd**. 
+- **Geretourneerd**: als een tijdsvermelding wordt afgewezen, wordt de status bijgewerkt naar **Geretourneerd** en wordt de vermelding beschikbaar voor correctie en opnieuw indienen. 
 
 ## <a name="view-rejection-comments"></a>Opmerkingen bij afwijzing weergeven
 Wanneer een tijdsvermelding wordt afgewezen door een fiatteur, kan de fiatteur opmerkingen toevoegen om de resource te helpen de reden voor de afwijzing te begrijpen. Als u de afwijzingsopmerkingen voor een tijdsvermelding wilt weergeven, selecteert u **Vermelding openen**. De opmerkingen voor afwijzing worden weergegeven in de tijdlijn. De gebruiker kan reageren op de afwijzingsopmerkingen voordat ze het item opnieuw indienen.

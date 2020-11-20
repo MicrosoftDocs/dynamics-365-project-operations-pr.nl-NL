@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074463"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124632"
 ---
 # <a name="extending-time-entries"></a>Tijdinvoer uitbreiden
 
@@ -33,7 +33,7 @@ Het uitbreiden van tijdinvoer is mogelijk in twee gebieden:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Aangepaste tijdinvoer voor eigen gebruik toevoegen
 
-Tijdinvoer is een kernentiteit die in meerdere scenario's wordt gebruikt. In april Wave 1 2020 werd de TESA-kernoplossing geïntroduceerd. TESA biedt een **Instellingen** -entiteit en de nieuwe beveiligingsrol **Gebruiker tijdinvoer**. De nieuwe velden **msdyn_start** en **msdyn_end** , die een directe relatie hebben met **msdyn_duration** , waren ook inbegrepen. De nieuwe entiteit, beveiligingsrol en velden zorgen voor een meer uniforme benadering van tijd voor meerdere producten.
+Tijdinvoer is een kernentiteit die in meerdere scenario's wordt gebruikt. In april Wave 1 2020 werd de TESA-kernoplossing geïntroduceerd. TESA biedt een **Instellingen**-entiteit en de nieuwe beveiligingsrol **Gebruiker tijdinvoer**. De nieuwe velden **msdyn_start** en **msdyn_end**, die een directe relatie hebben met **msdyn_duration**, waren ook inbegrepen. De nieuwe entiteit, beveiligingsrol en velden zorgen voor een meer uniforme benadering van tijd voor meerdere producten.
 
 
 ### <a name="time-source-entity"></a>Entiteit Tijdbron
@@ -109,7 +109,7 @@ Deze weergave moet naast de kolommen die u in het raster wilt opnemen, de velden
 2. Configureer het aangepaste besturingselement voor deze weergave, zodat het een besturingselement **Tijdsvermeldingsraster** is. 
 3. Voeg dit besturingselement toe aan de weergave en selecteer het voor web, telefoon en tablet. 
 4. Configureer de parameters voor het wekelijkse tijdinvoerraster. 
-5. Stel het veld **Begindatum** in op **msdyn_date** , stel het veld **Duur** in op **msdyn_duration** en stel het veld **Status** in op **msdyn_entrystatus**. 
+5. Stel het veld **Begindatum** in op **msdyn_date**, stel het veld **Duur** in op **msdyn_duration** en stel het veld **Status** in op **msdyn_entrystatus**. 
 6. Voor de standaardweergave wordt het veld **Lijst voor status Alleen-lezen** ingesteld op **192350002,192350003,192350004**. Het veld **Taakstroom voor rij bewerken** wordt ingesteld op **msdyn_timeentryrowedit**. Het veld **Taakstroom voor cel bewerken** wordt ingesteld op **msdyn_timeentryedit**. 
 7. U kunt deze velden aanpassen om de status alleen-lezen toe te voegen of te verwijderen, of om een andere op taken gebaseerde ervaring (TBX) te gebruiken voor het bewerken van rijen of cellen. Deze velden zijn nu verbonden met een statische waarde.
 
@@ -117,14 +117,14 @@ Deze weergave moet naast de kolommen die u in het raster wilt opnemen, de velden
 > [!NOTE] 
 > Met beide opties worden sommige standaardfilters in de entiteiten **Project** en **Projecttaak** verwijderd, zodat alle opzoekweergaven voor de entiteiten zichtbaar zijn. Standaard zijn alleen de relevante opzoekweergaven zichtbaar.
 
-Bepaal de juiste taakstroom voor het aangepaste veld. Als u het veld aan het raster hebt toegevoegd, gaat het naar de taakstroom voor rij bewerken die wordt gebruikt voor velden die van toepassing zijn op de hele rij met tijdsvermeldingen. Als het aangepaste veld elke dag een unieke waarde heeft, zoals een aangepast veld voor **Eindtijd** , moet het naar de taakstroom voor cel bewerken gaan.
+Bepaal de juiste taakstroom voor het aangepaste veld. Als u het veld aan het raster hebt toegevoegd, gaat het naar de taakstroom voor rij bewerken die wordt gebruikt voor velden die van toepassing zijn op de hele rij met tijdsvermeldingen. Als het aangepaste veld elke dag een unieke waarde heeft, zoals een aangepast veld voor **Eindtijd**, moet het naar de taakstroom voor cel bewerken gaan.
 
 Als u het aangepaste veld aan een taakstroom wilt toevoegen, sleept u een element **Veld** naar de juiste positie op de pagina en stelt u de veldeigenschappen in. Stel de eigenschap **Bron** in op **Tijdsvermelding** en stel de eigenschap **Gegevensveld** in op het aangepaste veld. De eigenschap **Veld** geeft de weergavenaam aan op de TBX-pagina. Selecteer **Toepassen** om uw wijzigingen in het veld op te slaan en selecteer vervolgens **Bijwerken** om uw wijzigingen op de pagina op te slaan.
 
-Als u in plaats daarvan een nieuwe aangepaste TBX-pagina wilt gebruiken, maakt u een nieuw proces. Stel de categorie in op **Bedrijfsprocesstroom** , stel de entiteit in op **Tijdsvermelding** en stel het bedrijfsprocestype in op **Proces uitvoeren als takenstroom**. Onder **Eigenschappen** moet de eigenschap **Paginanaam** worden ingesteld op de weergavenaam voor de pagina. Voeg alle relevante velden toe aan de TBX-pagina. Sla het proces op en activeer het. Werk de aangepaste besturingselementeigenschap voor de desbetreffende taakstroom bij met de waarde van de **Naam** in het proces.
+Als u in plaats daarvan een nieuwe aangepaste TBX-pagina wilt gebruiken, maakt u een nieuw proces. Stel de categorie in op **Bedrijfsprocesstroom**, stel de entiteit in op **Tijdsvermelding** en stel het bedrijfsprocestype in op **Proces uitvoeren als takenstroom**. Onder **Eigenschappen** moet de eigenschap **Paginanaam** worden ingesteld op de weergavenaam voor de pagina. Voeg alle relevante velden toe aan de TBX-pagina. Sla het proces op en activeer het. Werk de aangepaste besturingselementeigenschap voor de desbetreffende taakstroom bij met de waarde van de **Naam** in het proces.
 
 ### <a name="add-new-option-set-values"></a>Nieuwe optiesetwaarden toevoegen
-Als u optiesetwaarden wilt toevoegen aan een standaardveld, opent u de bewerkingspagina voor het veld en selecteert u onder **Type** de optie **Bewerken** naast de optieset. Voeg een nieuwe optie toe met een aangepast label en een aangepaste kleur. Als u een nieuwe status voor de tijdsvermelding wilt toevoegen, krijgt het standaardveld de naam **Vermeldingsstatus** , niet **Status**.
+Als u optiesetwaarden wilt toevoegen aan een standaardveld, opent u de bewerkingspagina voor het veld en selecteert u onder **Type** de optie **Bewerken** naast de optieset. Voeg een nieuwe optie toe met een aangepast label en een aangepaste kleur. Als u een nieuwe status voor de tijdsvermelding wilt toevoegen, krijgt het standaardveld de naam **Vermeldingsstatus**, niet **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Een nieuwe status voor een tijdsvermelding aanwijzen als alleen-lezen
 Als u een nieuwe tiijdsvermeldingsstatus wilt aanwijzen als alleen-lezen, voegt u de nieuwe waarde voor de tijdsvermelding toe aan de eigenschap **Lijst voor status Alleen-lezen**. Het bewerkbare deel van het tijdinvoerraster wordt vergrendeld voor rijen met de nieuwe status.

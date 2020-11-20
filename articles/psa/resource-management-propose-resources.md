@@ -3,7 +3,7 @@ title: Projectresources voorstellen
 description: Dit onderwerp bevat informatie over het voorstellen van projectresources.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074783"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120177"
 ---
 # <a name="propose-project-resources"></a>Projectresources voorstellen
 
@@ -82,7 +82,7 @@ Omdat de weergave **Bestede uren van resource** is gebaseerd op het planbord, ku
 
 Het raster vereist dat u een doelwaarde voor bestede uren instelt voor de rol of voor de individuele resource. Dit kunt u doen in **Resources** \> **Resourcerollen**.
 
-Daarnaast moet een standaardrol worden toegewezen aan elke boekbare resource. Ga naar **Resources** \> **Resources**. Controleer op het tabblad **Project Service** of een resourerol is gedefinieerd en of het veld **Is standaard** is ingesteld op **Ja**. U kunt extra rollen toevoegen waar **Is standaard = Nee**. De rol waar **Is standaard = Ja** , wordt gebruikt voor het evalueren van de bestede uren van de resource ten opzichte van het doel voor die rol.
+Daarnaast moet een standaardrol worden toegewezen aan elke boekbare resource. Ga naar **Resources** \> **Resources**. Controleer op het tabblad **Project Service** of een resourerol is gedefinieerd en of het veld **Is standaard** is ingesteld op **Ja**. U kunt extra rollen toevoegen waar **Is standaard = Nee**. De rol waar **Is standaard = Ja**, wordt gebruikt voor het evalueren van de bestede uren van de resource ten opzichte van het doel voor die rol.
 
 ![Standaardrol ingesteld](media/Resource-Management-image67.png)
 

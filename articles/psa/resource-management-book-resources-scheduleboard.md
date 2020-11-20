@@ -3,7 +3,7 @@ title: Projectresources boeken door middel van het planbord
 description: Dit onderwerp biedt informatie over de manier waarop u resources kunt boeken.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074786"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120222"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Projectresources boeken door middel van het planbord
 
@@ -42,7 +42,7 @@ Voordat u vanaf het planbord kunt boeken, moet u resourcevereisten maken of gene
 
     ![Deelvenster Resourceboeking maken voor de geselecteerde boekbare resource](media/Resource-Management-image74.png)
 
-6. Terwijl de vereiste is geselecteerd in het deelvenster **Resourceboeking maken** , selecteert u een of meer cellen van een resource om de boeking te maken.
+6. Terwijl de vereiste is geselecteerd in het deelvenster **Resourceboeking maken**, selecteert u een of meer cellen van een resource om de boeking te maken.
 
     ![Meerdere cellen geselecteerd voor een resource](media/Resource-Management-image75.png)
 

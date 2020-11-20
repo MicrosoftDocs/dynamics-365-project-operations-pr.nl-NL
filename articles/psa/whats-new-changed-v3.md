@@ -2,7 +2,7 @@
 title: Wat is er nieuw of gewijzigd in Project Service Automation versie 3
 description: Dit onderwerp bevat informatie over wat er nieuw en gewijzigd is in Project Service Automation versie 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074526"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119997"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Wat is er nieuw of gewijzigd in Project Service Automation versie 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -37,10 +37,10 @@ De projectplanning, die bekend stond als de structuur voor Werkspecificatie (WBS
 
 De planning heeft nu een nieuwe interface voor interactie, die zowel modern als toegankelijk is. De onderliggende planningsengine voor Project Service Automation is echter niet gewijzigd. Met de bedieningsknoppen in het lint van het planningsraster kunt u op dezelfde manier met de planning werken als in de vorige versie van Project Service Automation. Aanvullende wijzigingen in de planning zijn:
 
-- **Gantt-diagram** : het Gantt-diagram is niet meer aanwezig. Een nieuwe Gannt-visualisatie komt terug in een toekomstige update.
-- **Kolomkoppen** : u kunt kolomkoppen in het raster verbergen door op de indicator naast de kolomtitel te klikken. 
-- **Kolommen** : u kunt verborgen kolommen weergeven door te klikken op **Kolom toevoegen**. 
-- **Transactiecategorie** : een opzoekactie voor de **Transactiecategorie** is toegevoegd aan planningsraster en wordt standaard weergegeven. 
+- **Gantt-diagram**: het Gantt-diagram is niet meer aanwezig. Een nieuwe Gannt-visualisatie komt terug in een toekomstige update.
+- **Kolomkoppen**: u kunt kolomkoppen in het raster verbergen door op de indicator naast de kolomtitel te klikken. 
+- **Kolommen**: u kunt verborgen kolommen weergeven door te klikken op **Kolom toevoegen**. 
+- **Transactiecategorie**: een opzoekactie voor de **Transactiecategorie** is toegevoegd aan planningsraster en wordt standaard weergegeven. 
  
 ## <a name="project-templates"></a>Projectsjablonen
 De volgende wijzigingen zijn aangebracht in de functionaliteit voor projectsjablonen.
@@ -94,7 +94,7 @@ Schattingen zijn opgesplitst in twee tabbladen, **Resourcetoewijzing** en **Scha
 
 ![Het tabblad Resourcetoewijzingen met inspanningsschattingen en resourcetoewijzingen voor taken](media/resource-assignments-tab-02.png)
 
-Op het tabblad **Schattingen** worden de kosten en verkoopbedragen voor resourcetoewijzingen weergegeven. De bedragen zijn alleen-lezen. De kostprijsberekening en verkoopprijzen worden nu aangestuurd vanuit de toewijzingen van teamleden in de planning. Dit betekent dat als u een taak zonder toewijzing hebt, de taak wordt weergegeven onder de niet-toegewezen bucket. Dit betekent ook dat zonder **rol** , wat een standaardprijsdimensie is, er geen geschatte kosten of verkopen zijn als u een klant of contract/prijsopgave hebt gekoppeld aan het project. 
+Op het tabblad **Schattingen** worden de kosten en verkoopbedragen voor resourcetoewijzingen weergegeven. De bedragen zijn alleen-lezen. De kostprijsberekening en verkoopprijzen worden nu aangestuurd vanuit de toewijzingen van teamleden in de planning. Dit betekent dat als u een taak zonder toewijzing hebt, de taak wordt weergegeven onder de niet-toegewezen bucket. Dit betekent ook dat zonder **rol**, wat een standaardprijsdimensie is, er geen geschatte kosten of verkopen zijn als u een klant of contract/prijsopgave hebt gekoppeld aan het project. 
 
 ![Tabblad Schattingen met de kosten en verkoopbedragen](media/estimates-tab-03.png)
   
@@ -105,7 +105,7 @@ Onkostenschattingen kunnen worden ingevoerd in het raster op het tabblad **Onkos
 ![Tabblad Onkostenschattingen met raster met onkostenschattingen](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Resourcebeheer
-Project Service Automation versie 3 heeft een nieuwe Unified Client-UI en wijzigingen in de relatie tussen boekingen en toewijzingen. Daardoor is het toewijzing van personeel aan een project met algemene of echte resources drastisch anders dan in versie 2 en versie 1. De concepten van boekbare resources, zowel **werkelijk** als **algemeen** , blijven echter hetzelfde, net als teamleden, vereisten, toewijzingen en boekingen.   
+Project Service Automation versie 3 heeft een nieuwe Unified Client-UI en wijzigingen in de relatie tussen boekingen en toewijzingen. Daardoor is het toewijzing van personeel aan een project met algemene of echte resources drastisch anders dan in versie 2 en versie 1. De concepten van boekbare resources, zowel **werkelijk** als **algemeen**, blijven echter hetzelfde, net als teamleden, vereisten, toewijzingen en boekingen.   
 
 ![Resourcekiezer gebruiken](media/resource-management-05.png)
 
@@ -137,8 +137,8 @@ Het tabblad **Afstemming** geeft boekingen en alle toewijzingen weer voor elk pr
 
 Voor elke resource neemt de weergave het verschil tussen de boekingen van een teamlid en de totalisatie van hun taaktoewijzingen en worden de volgende twee verschillen weergegeven die kunnen optreden bij boekingen en toewijzingen in een project: 
 
-- **Te weinig boekingen** : een tekort aan boekingen treedt op wanneer een resource meer toewijzingen dan boekingen heeft. Omdat deze capaciteit niet is gereserveerd, kan een projectmanager deze voorwaarde corrigeren door de boekingen van de resource uit te breiden om het tekort te dekken. 
-- **Te veel boekingen** : te veel boekingen treden op wanneer een resource is geboekt voor het project, maar er geen taken aan de resource zijn toegewezen.  Dit kan acceptabel zijn als de resource bijvoorbeeld is geboekt voordat er taaktoewijzing plaatsvond. In andere gevallen is de resource echter niet ingepland om te worden toegewezen en moet de PM overwegen de boekingen van de resource te annuleren zodat de capaciteit kan worden gebruikt voor een ander project. 
+- **Te weinig boekingen**: een tekort aan boekingen treedt op wanneer een resource meer toewijzingen dan boekingen heeft. Omdat deze capaciteit niet is gereserveerd, kan een projectmanager deze voorwaarde corrigeren door de boekingen van de resource uit te breiden om het tekort te dekken. 
+- **Te veel boekingen**: te veel boekingen treden op wanneer een resource is geboekt voor het project, maar er geen taken aan de resource zijn toegewezen.  Dit kan acceptabel zijn als de resource bijvoorbeeld is geboekt voordat er taaktoewijzing plaatsvond. In andere gevallen is de resource echter niet ingepland om te worden toegewezen en moet de PM overwegen de boekingen van de resource te annuleren zodat de capaciteit kan worden gebruikt voor een ander project. 
 
 Als u taaktoewijzingen voor een resource hebt zonder boekingen (een boekingstekort), kunt u het boekingstekort samenvoegen en op **Boeking uitbreiden** klikken. Hier kunt u de boeking bekijken die nodig is om het tekort aan resources en de beschikbaarheid ervan te verhelpen. 
  
@@ -172,9 +172,9 @@ In versie 3 zijn we afgestapt van het aangepaste agendabesturingselement en gebr
 > Een beperking in de agenda is dat dit besturingselement geen acties ondersteunt voor afzonderlijke agenda-items. U kunt bijvoorbeeld niet een of meer agenda-items selecteren en deze items indienen of verwijderen. Als u op een agenda-item klikt , wordt de pagina **Tijdsvermelding entiteit** geopend voor aanvullende acties. 
 
 ### <a name="extensibility"></a>-uitbreidbaarheid
-**Gegevens alleen vastleggen in aangepaste velden voor entiteiten voor het invoeren van tijd en onkosten** : voor tijdsvermeldingen worden een bewerkbaar raster, een alleen-lezen raster en agendabesturingselementen van het platform gebruikt. Al deze besturingselementen zijn native en ondersteunen dus aanpassingen. In Project Service Automation versie 3 kunt u extra aangepaste velden toevoegen, opzoekvelden instellen en deze opnemen in aangepaste weergaven. U kunt ook aangepaste bedrijfslogica instellen op basis van geselecteerde waarden in aangepaste velden.  
+**Gegevens alleen vastleggen in aangepaste velden voor entiteiten voor het invoeren van tijd en onkosten**: voor tijdsvermeldingen worden een bewerkbaar raster, een alleen-lezen raster en agendabesturingselementen van het platform gebruikt. Al deze besturingselementen zijn native en ondersteunen dus aanpassingen. In Project Service Automation versie 3 kunt u extra aangepaste velden toevoegen, opzoekvelden instellen en deze opnemen in aangepaste weergaven. U kunt ook aangepaste bedrijfslogica instellen op basis van geselecteerde waarden in aangepaste velden.  
 
-**Gegevens vastleggen in aangepaste velden in tijd- en onkostenvermeldingen en doorgeven via entiteiten die de indienings- en de goedkeurings stroom ondersteunen** :d e normale verwerking van tijdsvermeldingen wordt in het volgende diagram weergegeven.
+**Gegevens vastleggen in aangepaste velden in tijd- en onkostenvermeldingen en doorgeven via entiteiten die de indienings- en de goedkeurings stroom ondersteunen**:d e normale verwerking van tijdsvermeldingen wordt in het volgende diagram weergegeven.
 
 ![Proces van verwerkingsstroom voor tijd](media/process-time-entries-10.png)
 
@@ -192,7 +192,7 @@ Het Common Data Service-platform biedt geen ondersteuning voor gebruikers die zi
 Met een aanpassing kunt u een **Boekbare resource** voor maken en bewerken toevoegen. Dan kan een gebruiker als gemachtigde fungeren door het veld **Resourceboeking** te wijzigen in een andere gebruiker voor wie tijd en onkosten moeten worden vastgelegd. De volgende stappen hebben betrekking op het delegeren van tijdsvermeldingen. Dezelfde informatie is van toepassing op het delegeren van onkostenposten. 
  
 1.  Zorg ervoor dat de gedelegeerde gebruiker globale beveiligingstoegang heeft voor projecten en projecttaken. 
-1.  Omdat het veld **Boekbare resource** onderdeel is van de entiteit **Tijdsvermelding** en niet wordt weergegeven op de pagina **Snelle invoer** , moet u het toevoegen.
+1.  Omdat het veld **Boekbare resource** onderdeel is van de entiteit **Tijdsvermelding** en niet wordt weergegeven op de pagina **Snelle invoer**, moet u het toevoegen.
 
     -of-
 

@@ -3,7 +3,7 @@ title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 
 description: Dit onderwerp bevat informatie over wat er nieuw en gewijzigd is in Project Service Automation updaterelease 12, v3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074525"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119952"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Project Service Automation, updaterelease 12, v3
 Met genoegen kondigen we de nieuwste update voor de toepassing Dynamics 365 Project Service Automation (PSA) aan. Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid. Deze versie is compatibel met Dynamics 365 9.x. Als u deze release wilt bijwerken, gaat u online naar het Beheercentrum voor Dynamics 365. Hierin gaat u naar de pagina Oplossingen om de update te installeren. Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -39,7 +39,7 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
     - Opgelost: raster en planning voor tijdinvoer geven waar nodig de verticale schuifbalk correct weer.
     - Opgelost: ingediende vermeldingen voor kosten en tijd kunnen worden goedgekeurd.
     - Opgelost: het dialoogvenster Goedkeuring annuleren is gecorrigeerd en geeft nu de status van de goedkeuring weer wanneer deze wijzigt van **Goedgekeurd** naar **Ingediend**.
-    - Opgelost: de velden **Prijs** , **Eenheid** en **Aantal** worden nu vergrendeld in de onkostenrecord nadat deze is goedgekeurd.
+    - Opgelost: de velden **Prijs**, **Eenheid** en **Aantal** worden nu vergrendeld in de onkostenrecord nadat deze is goedgekeurd.
 
 - Projectbeheer
 

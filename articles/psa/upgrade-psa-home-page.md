@@ -2,7 +2,7 @@
 title: Startpagina upgraden
 description: Dit onderwerp laat zien waar u belangrijke informatie vindt over de nieuwe en gewijzigde functies in Dynamics 365 Project Service Automation en het proces voor het upgraden naar de nieuwste versie.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074645"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121752"
 ---
 # <a name="upgrade-home-page"></a>Startpagina upgraden
 

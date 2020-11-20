@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087876"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122337"
 ---
 # <a name="manage-the-billing-backlog"></a>Achterstallige facturen beheren
 
@@ -23,15 +23,15 @@ Dynamics 365 Project Operations heeft twee speciale weergaven waarin u kunt werk
 
 ## <a name="fixed-price-milestones"></a>Mijlpalen voor vaste prijs
 
-In deze weergave worden alle mijlpalen met een vaste prijs voor alle projectcontractregels in het systeem weergegeven. Een of meerdere mijlpalen kunnen worden gemarkeerd als **Gereed voor facturering** of **Niet gereed voor facturering** vanuit deze weergave. Wanneer u een mijlpaal markeert als **Gereed voor facturering** , wordt de mijlpaal beschikbaar voor een conceptfactuur.
+In deze weergave worden alle mijlpalen met een vaste prijs voor alle projectcontractregels in het systeem weergegeven. Een of meerdere mijlpalen kunnen worden gemarkeerd als **Gereed voor facturering** of **Niet gereed voor facturering** vanuit deze weergave. Wanneer u een mijlpaal markeert als **Gereed voor facturering**, wordt de mijlpaal beschikbaar voor een conceptfactuur.
 
-Wanneer contractregels voor meerdere klanten een factureringsmethode met een vaste prijs hebben, wordt er voor elke klant één mijlpaal op de contractregel gemaakt. De gebruiker maakt een mijlpaal en die mijlpaal wordt intern opgesplitst in klant=specifieke mijlpaalrecords, volgens de factureringspercentagesplitsing die voor elke klant op de contractregel is gedefinieerd. In de weergave **Mijlpalen met een vaste prijs** ziet u afzonderlijke klantspecifieke mijlpaalrecords. Elk van deze mijlpaalrecords kan worden gemarkeerd als **Gereed voor facturering** vanuit deze weergave. Wanneer een of meer van de gerelateerde mijlpaalsplitsingen zijn gemarkeerd als **Gereed voor facturering** , verandert de status van de koptekst in **In uitvoering** van **Niet gestart**. Wanneer alle mijlpaalsplitsingen zijn gefactureerd, wordt de mijlpaalstatus van de koptekst **Voltooid**.
+Wanneer contractregels voor meerdere klanten een factureringsmethode met een vaste prijs hebben, wordt er voor elke klant één mijlpaal op de contractregel gemaakt. De gebruiker maakt een mijlpaal en die mijlpaal wordt intern opgesplitst in klant=specifieke mijlpaalrecords, volgens de factureringspercentagesplitsing die voor elke klant op de contractregel is gedefinieerd. In de weergave **Mijlpalen met een vaste prijs** ziet u afzonderlijke klantspecifieke mijlpaalrecords. Elk van deze mijlpaalrecords kan worden gemarkeerd als **Gereed voor facturering** vanuit deze weergave. Wanneer een of meer van de gerelateerde mijlpaalsplitsingen zijn gemarkeerd als **Gereed voor facturering**, verandert de status van de koptekst in **In uitvoering** van **Niet gestart**. Wanneer alle mijlpaalsplitsingen zijn gefactureerd, wordt de mijlpaalstatus van de koptekst **Voltooid**.
 
 In deze weergave wordt een mijlpaal op een conceptfactuur weergegeven met een factureringsstatus van **Klantfactuur gemaakt**. Wanneer de conceptfactuur wordt bevestigd, wordt de factureringsstatus in deze record bijgewerkt naar **Factuur geboekt**. Het wordt afgeraden deze statuswaarde bij te werken met behulp van aangepaste code. Project Operations werkt niet correct als deze statuswaarden worden bijgewerkt met aangepaste code.
 
 ## <a name="time-and-material-billing-backlog"></a>Backlog voor facturering van tijd en materiaal
 
-Deze weergave bevat alle niet-gefactureerde werkelijke waarden voor verkoop die niet zijn gefactureerd voor alle projectcontracten in het systeem. Een of meer werkelijke niet-gefactureerde verkoopwaarden kunnen worden gemarkeerd als **Gereed voor facturering** of **Niet gereed voor facturering** vanuit deze weergave. Als een werkelijke niet-gefactureerde verkoopwaarde wordt gemarkeerd als **Gereed voor facturering** , wordt deze beschikbaar om op een conceptfactuur te worden geplaatst.
+Deze weergave bevat alle niet-gefactureerde werkelijke waarden voor verkoop die niet zijn gefactureerd voor alle projectcontracten in het systeem. Een of meer werkelijke niet-gefactureerde verkoopwaarden kunnen worden gemarkeerd als **Gereed voor facturering** of **Niet gereed voor facturering** vanuit deze weergave. Als een werkelijke niet-gefactureerde verkoopwaarde wordt gemarkeerd als **Gereed voor facturering**, wordt deze beschikbaar om op een conceptfactuur te worden geplaatst.
 
 Niet-gefactureerde werkelijke verkoopwaarden met de status **Niet te overschrijden** ingesteld op **Mislukt** kunnen niet worden gemarkeerd als **Gereed voor facturering**. Als deze werkelijke waarden als zodanig moeten worden gemarkeerd, stelt u de status opnieuw in op andere werkelijke waarden op de contractregel die zijn vastgelegd, en evalueert u vervolgens de status **Niet te overschrijden**.
 

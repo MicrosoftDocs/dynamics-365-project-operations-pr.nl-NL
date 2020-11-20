@@ -3,7 +3,7 @@ title: Een prijslijst maken
 description: Informatie over een prijslijst maken in Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074600"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122022"
 ---
 # <a name="create-a-price-list-project-service"></a>Een prijslijst maken (Project Service)
 
@@ -39,33 +39,33 @@ Prijslijsten hangen af van rollen en onkostencategorieën, dus voordat u een pri
   
 2.  Klik op **Nieuw**.  
   
-3.  In **Context** selecteer of deze prijslijst voor **Kosten** , **Kopen** of **Verkoop** is.  
+3.  In **Context** selecteer of deze prijslijst voor **Kosten**, **Kopen** of **Verkoop** is.  
   
-4.  In het vak **Naam** , typ een naam voor de prijslijst.  
+4.  In het vak **Naam**, typ een naam voor de prijslijst.  
   
 5.  In **Valuta** selecteert u de valuta voor facturering of kosten die u gaat gebruiken.  
   
-6.  In **Tijdseenheid** , geeft u de tijd op waarvoor de prijs van toepassing is, zoals dag of uur.  
+6.  In **Tijdseenheid**, geeft u de tijd op waarvoor de prijs van toepassing is, zoals dag of uur.  
   
-7.  Vul de gewenste waarden in voor **Begindatum** , **Einddatum** en **Beschrijving**.  
+7.  Vul de gewenste waarden in voor **Begindatum**, **Einddatum** en **Beschrijving**.  
   
 8.  Klik op **Opslaan** om de record te maken zodat u deze verder kunt bewerken.  
   
 9. Om een rolprijs aan de prijslijst toe te voegen, klikt u op **+** onder **Rolprijzen**.  
   
-10. In het deelvenster **Rolprijs** , geef de details in en klik vervolgens **Opslaan**. Blijf zo nodig rolprijzen toevoegen. Klik wanneer u klaar bent op de knop **Opslaan** rechtsonder in het scherm.  
+10. In het deelvenster **Rolprijs**, geef de details in en klik vervolgens **Opslaan**. Blijf zo nodig rolprijzen toevoegen. Klik wanneer u klaar bent op de knop **Opslaan** rechtsonder in het scherm.  
   
 11. Om een onkostencategorie aan de prijslijst toe te voegen, klikt u op **+** onder **Categorieprijzen**.  
   
-12. In het deelvenster **Transactiecategorieprijs** , geef de details in en klik vervolgens **Opslaan**. Blijf zo nodig categorieprijzen toevoegen. Klik wanneer u klaar bent op de knop **Opslaan** rechtsonder in het scherm.  
+12. In het deelvenster **Transactiecategorieprijs**, geef de details in en klik vervolgens **Opslaan**. Blijf zo nodig categorieprijzen toevoegen. Klik wanneer u klaar bent op de knop **Opslaan** rechtsonder in het scherm.  
   
 13. Om prijslijstitems aan de prijslijst toe te voegen, klik op **+** onder **Prijslijstitems**.  
   
-14. In het deelvenster **Prijslijstitem** , geef de details in en klik vervolgens **Opslaan**. Blijf zo nodig prijslijstitems toevoegen. Klik wanneer u klaar bent op de knop **Opslaan** rechtsonder in het scherm.  
+14. In het deelvenster **Prijslijstitem**, geef de details in en klik vervolgens **Opslaan**. Blijf zo nodig prijslijstitems toevoegen. Klik wanneer u klaar bent op de knop **Opslaan** rechtsonder in het scherm.  
   
 15. Om de relaties van het rayon aan de prijslijst toe te voegen, klik op **+** onder **Relaties van het rayon**.  
   
-16. In het venster **Nieuwe connectie** , geef de details in en klik vervolgens **Opslaan**. Blijf zo nodig relaties van het rayon toevoegen. Klik wanneer u klaar bent op de knop **Opslaan** rechtsonder in het scherm.  
+16. In het venster **Nieuwe connectie**, geef de details in en klik vervolgens **Opslaan**. Blijf zo nodig relaties van het rayon toevoegen. Klik wanneer u klaar bent op de knop **Opslaan** rechtsonder in het scherm.  
   
 ### <a name="see-also"></a>Zie ook  
  [Project Service Automation configureren](../psa/configure.md)

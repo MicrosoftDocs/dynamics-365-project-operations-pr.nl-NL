@@ -3,7 +3,7 @@ title: Projectprijzen
 description: Dit onderwerp biedt informatie over de manier waarop prijzen werken in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074761"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120762"
 ---
 # <a name="project-pricing"></a>Projectprijzen 
 
@@ -35,16 +35,16 @@ Dynamics 365 Project Service Automation breidt de entiteit Prijslijst in Dynamic
 
 Een prijslijst bevat informatie die wordt geleverd door vier verschillende entiteiten:
 
-- **Prijslijst** : deze entiteit slaat informatie op over context, valuta, ingangsdatum en tijdeenheid voor de prijs. De context geeft aan of de prijslijst kosten- of verkooptarieven weergeeft. 
-- **Valuta** : deze entiteit slaat de valuta van prijzen in de prijslijst op. 
-- **Datum** : deze entiteit wordt gebruikt wanneer het systeem een standaardprijs voor een transactie probeert in te voeren. In PSA wordt de prijslijst met datumgeldigheid geselecteerd die de datum van de transactie bevat. Als meer dan één prijslijst wordt gevonden die van kracht is voor de transactiedatum van een bijbehorende prijsopgave, contract of organisatie-eenheid, dan wordt er niet standaard een prijs ingesteld. 
-- **Tijd** : met deze entiteit wordt de tijdseenheid opgeslagen waarvoor prijzen worden weergegeven, zoals dagelijkse of uurtarieven. 
+- **Prijslijst**: deze entiteit slaat informatie op over context, valuta, ingangsdatum en tijdeenheid voor de prijs. De context geeft aan of de prijslijst kosten- of verkooptarieven weergeeft. 
+- **Valuta**: deze entiteit slaat de valuta van prijzen in de prijslijst op. 
+- **Datum**: deze entiteit wordt gebruikt wanneer het systeem een standaardprijs voor een transactie probeert in te voeren. In PSA wordt de prijslijst met datumgeldigheid geselecteerd die de datum van de transactie bevat. Als meer dan één prijslijst wordt gevonden die van kracht is voor de transactiedatum van een bijbehorende prijsopgave, contract of organisatie-eenheid, dan wordt er niet standaard een prijs ingesteld. 
+- **Tijd**: met deze entiteit wordt de tijdseenheid opgeslagen waarvoor prijzen worden weergegeven, zoals dagelijkse of uurtarieven. 
 
 De entiteit Prijslijst heeft drie gerelateerde tabellen waarin prijzen worden opgeslagen:
 
-  - **Rolprijs** : in deze tabel wordt een tarief opgeslagen voor een combinatie van rol- en organisatie-eenheidswaarden en deze tabel wordt gebruikt voor het instellen van op rollen gebaseerde prijzen voor personeel.
-  - **Prijs voor transactiecategorie** : in deze tabel worden prijzen per transactiecategorie opgeslagen en deze tabel wordt gebruikt om prijzen voor onkostencategorieën in te stellen.
-  - **Prijslijstitems** : in deze tabel worden prijzen voor catalogusproducten opgeslagen.
+  - **Rolprijs**: in deze tabel wordt een tarief opgeslagen voor een combinatie van rol- en organisatie-eenheidswaarden en deze tabel wordt gebruikt voor het instellen van op rollen gebaseerde prijzen voor personeel.
+  - **Prijs voor transactiecategorie**: in deze tabel worden prijzen per transactiecategorie opgeslagen en deze tabel wordt gebruikt om prijzen voor onkostencategorieën in te stellen.
+  - **Prijslijstitems**: in deze tabel worden prijzen voor catalogusproducten opgeslagen.
 
 > ![Prijzen configureren met een prijslijst](media/basic-guide-12.png)
  
@@ -64,9 +64,9 @@ De eenhedengroep **Tijd** wordt gemaakt wanneer PSA is geïnstalleerd. Deze heef
 
 Reis- en andere onkosten die projectconsultants maken, worden meestal aan de klant gefactureerd. PSA ondersteunt de prijsstelling van onkostencategorieën op basis van prijslijsten. Vliegtickets, hotelovernachtingen en autohuur zijn voorbeelden van onkostencategorieën. Elke prijslijstregel voor onkosten bevat de prijs voor een specifieke onkostencategorie. Voor de prijsstelling van onkostencategorieën ondersteunt PSA de volgende drie prijsmethoden:
 
-- **Tegen kosten** : de onkosten worden gefactureerd aan de klant en er wordt geen opslag toegepast.
-- **Opslagpercentage** : het percentage over de werkelijke kosten wordt gefactureerd aan de klant. 
-- **Prijs per eenheid** : er wordt een factureringsprijs ingesteld voor elke eenheid van de onkostencategorie. Het bedrag dat wordt gefactureerd aan de klant wordt berekend op basis van het aantal onkosteneenheden dat de consultant rapporteert. Bij Gereden kilometers wordt de prijsstellingsmethode Prijs per eenheid gebruikt. De onkostencategorie Gereden kilometers kan bijvoorbeeld worden geconfigureerd voor 30 euro per dag of 2 euro per kilometer. Wanneer een consultant het aantal gereden kilometers voor een project rapporteert, wordt het factuurbedrag berekend op basis van het aantal kilometers dat de consultant heeft gerapporteerd.
+- **Tegen kosten**: de onkosten worden gefactureerd aan de klant en er wordt geen opslag toegepast.
+- **Opslagpercentage**: het percentage over de werkelijke kosten wordt gefactureerd aan de klant. 
+- **Prijs per eenheid**: er wordt een factureringsprijs ingesteld voor elke eenheid van de onkostencategorie. Het bedrag dat wordt gefactureerd aan de klant wordt berekend op basis van het aantal onkosteneenheden dat de consultant rapporteert. Bij Gereden kilometers wordt de prijsstellingsmethode Prijs per eenheid gebruikt. De onkostencategorie Gereden kilometers kan bijvoorbeeld worden geconfigureerd voor 30 euro per dag of 2 euro per kilometer. Wanneer een consultant het aantal gereden kilometers voor een project rapporteert, wordt het factuurbedrag berekend op basis van het aantal kilometers dat de consultant heeft gerapporteerd.
 
 > ![Prijzen voor onkostencategorieën configureren](media/basic-guide-14.png)
  

@@ -3,7 +3,7 @@ title: Gebruikershandleiding voor de Hub voor projectresources
 description: Een handleiding voor eindgebruikers voor de Project Resource Hub voor Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074555"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123147"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Gebruikershandleiding voor Hub voor projectresources
 
@@ -88,7 +88,7 @@ Voer in ieder uw - uren op in weekblad-of de frequentie wordt aangevraagd door d
 
 1. Tik op de knop Menu ![Knop Menu](media/MenuButton.png "Menuknop") en tik vervolgens op **Onkosten**. Dit toont uw agenda.
 
-2. U kunt overschakelen tussen weergaven voor **Dag** , **Week** of **Maand** , of navigeren naar de vorige of volgende periode. 
+2. U kunt overschakelen tussen weergaven voor **Dag**, **Week** of **Maand**, of navigeren naar de vorige of volgende periode. 
 
 3. Tik **Nieuw** aan op de opdrachtbalk om uw onkosten in te voeren. 
 

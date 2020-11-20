@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1db7e76dbb220954b9f9088b2168eed1a1902abc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074596"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121212"
 ---
 # <a name="currency"></a>Valuta
 
@@ -31,7 +31,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 Valuta's bepalen de prijzen van producten in de productcatalogus en de kosten van transacties, zoals verkooporders. Als uw klanten geografisch verspreid zijn, kunt u hun valuta's toevoegen om uw transacties te beheren. Voeg de valuta's toe die het meest relevant zijn voor uw huidige en toekomstige zakelijke behoeften.  
 
 > [!NOTE]
-> Als uw omgeving een Common Data Service-omgeving is, u zich in het Power Platform-beheercentrum bevindt en de pagina **Valuta's** selecteert ( **Omgevingen** > [selecteer omgeving] > **Instellingen** > **Zakelijk** > **Valuta's** ), is de pagina leeg. Dit komt omdat het instellen van een valuta niet wordt ondersteund in Common Data Service-omgevingen.
+> Als uw omgeving een Common Data Service-omgeving is, u zich in het Power Platform-beheercentrum bevindt en de pagina **Valuta's** selecteert (**Omgevingen** > [selecteer omgeving] > **Instellingen** > **Zakelijk** > **Valuta's**), is de pagina leeg. Dit komt omdat het instellen van een valuta niet wordt ondersteund in Common Data Service-omgevingen.
 
 ## <a name="add-a-currency"></a>Een valuta toevoegen  
 Voordat u met deze procedure begint, moet u controleren of uw beveiligingsrol systeembeheerdersmachtigingen bevat. 
@@ -45,7 +45,7 @@ Voordat u met deze procedure begint, moet u controleren of uw beveiligingsrol sy
 
    |          Veld          |                                                                                                                                                                                                                                                                                                                                                                            Beschrijving                                                                                                                                                                                                                                                                                                                                                                            |
    |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |    **Type valuta**    | - **Systeem** - Selecteer deze optie als u de valuta's wilt gebruiken die beschikbaar zijn in modelgestuurde apps in Dynamics 365. Selecteer **Opzoeken** om naar een valuta te zoeken. Als u een valutacode hebt geselecteerd, worden de waarden voor **Valutanaam** en **Valutasymbool** automatisch toegevoegd voor de geselecteerde valuta.<br />- **Aangepast** - Selecteer deze optie als u een valuta wilt toevoegen die niet beschikbaar is in modelgestuurde apps in Dynamics 365. In dit geval moet u de waarden voor **Valutacode** , **Valutanauwkeurigheid** , **Valutanaam** , **Valutasymbool** en **Valutaomrekening** handmatig invoeren. |
+   |    **Type valuta**    | - **Systeem** - Selecteer deze optie als u de valuta's wilt gebruiken die beschikbaar zijn in modelgestuurde apps in Dynamics 365. Selecteer **Opzoeken** om naar een valuta te zoeken. Als u een valutacode hebt geselecteerd, worden de waarden voor **Valutanaam** en **Valutasymbool** automatisch toegevoegd voor de geselecteerde valuta.<br />- **Aangepast** - Selecteer deze optie als u een valuta wilt toevoegen die niet beschikbaar is in modelgestuurde apps in Dynamics 365. In dit geval moet u de waarden voor **Valutacode**, **Valutanauwkeurigheid**, **Valutanaam**, **Valutasymbool** en **Valutaomrekening** handmatig invoeren. |
    |    **Valutacode**    |                                                                                                                                                                                                                                                                                                                                            Korte notatie voor de valuta. Zoals **USD** voor de Amerikaanse dollar.                                                                                                                                                                                                                                                                                                                                            |
    | **Valutanauwkeurigheid**  |                                                                                                                                                                                  Typ het aantal decimalen dat u voor de valuta wilt gebruiken.  U kunt een waarde tussen 0 en 4 invoeren. **Opmerking:** als u een precisiewaarde in het dialoogvenster **Systeeminstellingen** hebt ingesteld, wordt die waarde hier weergegeven.                                                                                                                                                                                  |
    |    **Valutanaam**    |                                                                                                                                                                                                                                         Als u een valutacode in de lijst met beschikbare valuta's in modelgestuurde apps in Dynamics 365 hebt geselecteerd, wordt de valutanaam voor de geselecteerde code hier weergegeven. Als u **Aangepast** als valutatype hebt geselecteerd, typt u de naam van de valuta.                                                                                                                                                                                                                                          |

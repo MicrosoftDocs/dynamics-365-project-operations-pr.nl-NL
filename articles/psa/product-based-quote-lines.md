@@ -3,7 +3,7 @@ title: Productgebaseerde prijsopgaveregels
 description: Dit onderwerp bevat informatie over op producten gebaseerde prijsopgaveregels.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55a5b5041a494892e6d96bf24e1bc132a26521dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9c3b2b35abe894e79d6f55a7ddd6e5c64d0f12f2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074744"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123192"
 ---
 # <a name="product-based-quote-lines"></a>Productgebaseerde prijsopgaveregels
 
@@ -41,7 +41,7 @@ Een bedrijf verkoopt bijvoorbeeld abonnementslicenties voor verschillende softwa
 - Aantal gebruikers 
 - Abonnementsduur (in maanden)
 
-Een goede manier om dit type catalogus te onderhouden is het maken van een productfamilie met de naam **Abonnementssoftware** dat de kenmerken **Aantal gebruikers** en **Abonnementsduur** heeft. Vervolgens kunt u afzonderlijke producten, zoals **Dynamics 365 Sales** of **Dynamics 365 Field Service** , aan de productfamilie **Abonnementssoftware** toevoegen.
+Een goede manier om dit type catalogus te onderhouden is het maken van een productfamilie met de naam **Abonnementssoftware** dat de kenmerken **Aantal gebruikers** en **Abonnementsduur** heeft. Vervolgens kunt u afzonderlijke producten, zoals **Dynamics 365 Sales** of **Dynamics 365 Field Service**, aan de productfamilie **Abonnementssoftware** toevoegen.
 
 ## <a name="adding-product-catalog-items-to-a-project-quote"></a>Productcatalogusitems toevoegen aan de prijsopgave voor een project
 
@@ -54,9 +54,9 @@ Als een prijsopgaveregel is gebaseerd op een productcatalogus, kunt u de verkoop
 - Prijs negeren  
 - Standaardwaarde gebruiken
 
-Als u dit veld instelt op **Prijs negeren** , wordt er in Dynamics 365 geen standaardprijs ingesteld. U moet een prijs voor het product invoeren op de prijsopgaveregel. Als u dit veld instelt op **Standaardwaarde gebruiken** , wordt in Dynamics 365 de standaardverkoopprijs gebruikt en wordt het veld vergrendeld om bewerking te voorkomen.
+Als u dit veld instelt op **Prijs negeren**, wordt er in Dynamics 365 geen standaardprijs ingesteld. U moet een prijs voor het product invoeren op de prijsopgaveregel. Als u dit veld instelt op **Standaardwaarde gebruiken**, wordt in Dynamics 365 de standaardverkoopprijs gebruikt en wordt het veld vergrendeld om bewerking te voorkomen.
 
-Nadat u PSA hebt geïnstalleerd, worden standaardverkoopprijzen ingevoerd op de productgebaseerde regels van een prijsopgave. Het veld **Prijzen** wordt vervolgens ingesteld op **Prijzen negeren** , zodat u de standaardprijs op de prijsopgaveregels kunt bewerken.
+Nadat u PSA hebt geïnstalleerd, worden standaardverkoopprijzen ingevoerd op de productgebaseerde regels van een prijsopgave. Het veld **Prijzen** wordt vervolgens ingesteld op **Prijzen negeren**, zodat u de standaardprijs op de prijsopgaveregels kunt bewerken.
 
 > ![Het negeren van prijzen instellen](media/basic-guide-10.png)
  

@@ -2,7 +2,7 @@
 title: Het pas ik de bedrijfsprocesstroom Projectfasen aan?
 description: Een overzicht van de manier waarop u de bedrijfsprocesstroom Projectfasen aanpast.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074750"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125027"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Het pas ik de bedrijfsprocesstroom Projectfasen aan?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Er bestaat een bekende beperking in eerdere versies van de Project Service-toepassing dat de namen van de fasen in de bedrijfsprocesstroom Projectfasen exact moeten overeenkomen met de verwachte Engelse namen ( **Quote** , **Plan** , **Close** ). Anders werkt de bedrijfslogica, die is gebaseerd op de Engelse fasenamen, niet zoals verwacht. Daarom zijn vertrouwde acties, zoals **Proces omwisselen** of **Proces bewerken** , niet beschikbaar in het projectformulier en het aanpassen van de bedrijfsprocesstroom wordt niet aangeraden. 
+Er bestaat een bekende beperking in eerdere versies van de Project Service-toepassing dat de namen van de fasen in de bedrijfsprocesstroom Projectfasen exact moeten overeenkomen met de verwachte Engelse namen (**Quote**, **Plan**, **Close**). Anders werkt de bedrijfslogica, die is gebaseerd op de Engelse fasenamen, niet zoals verwacht. Daarom zijn vertrouwde acties, zoals **Proces omwisselen** of **Proces bewerken**, niet beschikbaar in het projectformulier en het aanpassen van de bedrijfsprocesstroom wordt niet aangeraden. 
 
 Deze beperking is opgelost in versie 2.4.5.48 en hoger. Dit artikel bevat voorgestelde oplossingen als u de standaardbedrijfsprocesstroom moet aanpassen voor eerdere versies.  
 
@@ -48,7 +48,7 @@ Als in versie 1.x van de Project Service-app op het 8.2-platform de fasenamen in
 
 In versie 2.4.4.30 of eerder van de Project Service-app op het 9.0-platform was er een aanzienlijke architectuurverandering in bedrijfsprocesstromen, waarvoor de bedrijfslogica van bedrijfsprocesstromen moest worden herschreven. Als gevolg daarvan wordt er een foutbericht weergegeven als de namen van procesfasen niet overeenkomen met de verwachte Engelse namen. 
 
-Als u de bedrijfsprocesstroom Projectfasen voor de projectentiteit wilt aanpassen, kunt u alleen nieuwe fasen toevoegen aan de standaardbedrijfsprocesstroom voor de projectentiteit en de fasen **Quote** , **Plan** en **Close** ongewijzigd laten. Deze beperking zorgt ervoor dat u geen fouten over de bedrijfslogica ontvangt omdat er Engels fasenamen worden verwacht in de bedrijfsprocesstroom.
+Als u de bedrijfsprocesstroom Projectfasen voor de projectentiteit wilt aanpassen, kunt u alleen nieuwe fasen toevoegen aan de standaardbedrijfsprocesstroom voor de projectentiteit en de fasen **Quote**, **Plan** en **Close** ongewijzigd laten. Deze beperking zorgt ervoor dat u geen fouten over de bedrijfslogica ontvangt omdat er Engels fasenamen worden verwacht in de bedrijfsprocesstroom.
 
 In versie 2.4.5.48 of hoger is de in dit artikel beschreven bedrijfslogica verwijderd uit de standaardbedrijfsprocesstroom voor de projectentiteit. Wanneer u bijwerkt naar die versie of hoger, kunt u de standaardbedrijfsprocesstroom aanpassen of vervangen door een van uw eigen bedrijfsprocesstromen. 
 
@@ -56,12 +56,12 @@ In versie 2.4.5.48 of hoger is de in dit artikel beschreven bedrijfslogica verwi
 
 Als een upgrade geen optie is, kunt u de bedrijfsprocesstroom Projectfasen voor de projectentiteit op een van deze twee manieren aanpassen:
 
-1. Voeg extra fasen toe aan de standaardconfiguratie terwijl u de Engelse fasenamen **Quote** , **Plan** en **Close** behoudt.
+1. Voeg extra fasen toe aan de standaardconfiguratie terwijl u de Engelse fasenamen **Quote**, **Plan** en **Close** behoudt.
 
 
 ![Schermafbeelding van het toevoegen van fasen aan de standaardconfiguratie](media/FAQ-Customize-BPF-1.png)
  
-2. Maak uw eigen bedrijfsprocesstroom en stel deze in als de primaire bedrijfsprocesstroom voor de projectentiteit. In dat geval kunt u de gewenste fasenamen instellen. Als u echter dezelfde standaardprojectfasen **Quote** , **Plan** en **Close** wilt gebruiken, moet u enkele aanpassingen doorvoeren. De meer complexe logica heeft betrekking op de sluiting van het project, die u nog wel kunt wel activeren door de projectrecord te deactiveren.
+2. Maak uw eigen bedrijfsprocesstroom en stel deze in als de primaire bedrijfsprocesstroom voor de projectentiteit. In dat geval kunt u de gewenste fasenamen instellen. Als u echter dezelfde standaardprojectfasen **Quote**, **Plan** en **Close** wilt gebruiken, moet u enkele aanpassingen doorvoeren. De meer complexe logica heeft betrekking op de sluiting van het project, die u nog wel kunt wel activeren door de projectrecord te deactiveren.
 
 ![BPF-aanpassing](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Ga als volgt te werk om uw eigen bedrijfsprocesstroom voor de projectentiteit te
 
   ![Proces maken](media/FAQ-Customize-BPF-3.png)
 
-2. Gebruik de procesontwerper om de gewenste fasenamen te maken. Als u dezelfde functionaliteit als de standaardfasen voor **Quote** , **Plan** en **Close** wilt gebruiken, moet u deze maken op basis van de fasenamen van uw aangepaste bedrijfsprocesstroom.
+2. Gebruik de procesontwerper om de gewenste fasenamen te maken. Als u dezelfde functionaliteit als de standaardfasen voor **Quote**, **Plan** en **Close** wilt gebruiken, moet u deze maken op basis van de fasenamen van uw aangepaste bedrijfsprocesstroom.
 
    ![Schermafbeelding van procesontwerper om bedrijfsprocesstromen aan te passen](media/FAQ-Customize-BPF-4.png) 
 

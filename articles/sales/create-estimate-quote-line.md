@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074592"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122922"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Schattingen maken op een prijsopgaveregel
 
@@ -83,7 +83,7 @@ Als u een aangepast veld hebt toegevoegd voor de prijsopgaveregeldetails en de w
 2. Selecteer **Zoeken** en zoek de invoegtoepassing om bij te werken.
 3. Selecteer de invoegtoepassing en selecteer vervolgens op de hoofdpagina **Selecteren**.
 4. Selecteer de stap van de invoegtoepassing die moet worden bijgewerkt, klik met de rechtermuisknop en selecteer **Bijwerken**.
-5. Selecteer in het dialoogvenster **Bestaande stap bijwerken** in het veld **Filterkenmerken** de ellipsknop ( **...** ):
+5. Selecteer in het dialoogvenster **Bestaande stap bijwerken** in het veld **Filterkenmerken** de ellipsknop (**...**):
 6. Schakel in het dialoogvenster **Kenmerken selecteren** selectievakjes voor aangepaste kenmerken in.
 7. Selecteer **OK** om het dialoogvenster te sluiten en selecteer vervolgens **Stap bijwerken**.
 8. Herhaal stap 1 tot en met 7 voor de tweede invoegtoepassing.

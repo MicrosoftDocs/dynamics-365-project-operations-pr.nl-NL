@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 42ea1eb71b3285159b3fdf79ba34a562f948fd6e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074730"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121302"
 ---
 # <a name="quotes---key-concepts"></a>Prijsopgaven - sleutelbegrippen
 
@@ -30,20 +30,20 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 In Dynamics 365 project Operations zijn er twee soorten prijsopgaven: projectprijsopgaven en verkoopprijsopgaven. De twee typen prijsopgaven verschillen op de volgende manieren:
 
-- **Rasters voor regelitems** : in een verkoopprijsopgave is er slechts één raster voor regelitems aanwezig. In een projectprijsopgave zijn twee rasters voor regelitems aanwezig. Het ene raster is voor projectregels en het andere is voor productregels.
-- **Activering en revisies** : verkoopprijsopgaven ondersteunen activering en revisies. Deze processen worden niet ondersteund in een projectprijsopgave.
-- **Gekoppelde orders** : u kunt meerdere orders aan een verkoopprijsopgave koppelen. Er kan slechts één projectcontract aan een projectprijsopgave worden gekoppeld.
+- **Rasters voor regelitems**: in een verkoopprijsopgave is er slechts één raster voor regelitems aanwezig. In een projectprijsopgave zijn twee rasters voor regelitems aanwezig. Het ene raster is voor projectregels en het andere is voor productregels.
+- **Activering en revisies**: verkoopprijsopgaven ondersteunen activering en revisies. Deze processen worden niet ondersteund in een projectprijsopgave.
+- **Gekoppelde orders**: u kunt meerdere orders aan een verkoopprijsopgave koppelen. Er kan slechts één projectcontract aan een projectprijsopgave worden gekoppeld.
 - **Een order binnenhalen met een prijsopgave** : wanneer u een order binnenhaalt met een verkoopprijsopgave wint, kan de gerelateerde verkoopkans open blijven. Als u een order binnenhaalt met een projectprijsopgave, wordt de gerelateerde verkoopkans gesloten.
-- **Velden en concepten** : een verkoopprijsopgave bevat niet alle velden en concepten die zijn opgenomen in een projectprijsopgave. De velden omvatten **Contracterende eenheid** , **Accountmanager** en **Naam van de contactpersoon voor de factuur**.  
-- **Type** : verkoopprijsopgaven en projectprijsopgaven kunnen ook worden geïdentificeerd aan de hand van het op een optieset gebaseerde veld **Type**. Voor een verkoopprijsopgave heeft dit veld de waarde **Artikelgebaseerd**. Voor een projectprijsopgave heeft deze de waarde **Werkgebaseerd**.
+- **Velden en concepten**: een verkoopprijsopgave bevat niet alle velden en concepten die zijn opgenomen in een projectprijsopgave. De velden omvatten **Contracterende eenheid**, **Accountmanager** en **Naam van de contactpersoon voor de factuur**.  
+- **Type**: verkoopprijsopgaven en projectprijsopgaven kunnen ook worden geïdentificeerd aan de hand van het op een optieset gebaseerde veld **Type**. Voor een verkoopprijsopgave heeft dit veld de waarde **Artikelgebaseerd**. Voor een projectprijsopgave heeft deze de waarde **Werkgebaseerd**.
 
 In dit onderwerp wordt ingegaan op de details van projectprijsopgaven.
 
 Een projectprijsopgave in Project Operations kan meerdere regelitems of prijsopgaveregels bevatten. Een projectprijsopgave heeft zelfs twee rasters voor regelitems. Eén raster is bedoeld voor projectgebaseerde regels die gedetailleerde schattingen mogelijk maken. Het andere raster is bedoeld voor productgebaseerde regels die gebruikmaken van een eenvoudige eenheidsprijs en een op hoeveelheid gebaseerde benadering.
 
-- **Projectgebaseerd** : de waarde van de prijsopgave wordt bepaald nadat u hebt vastgesteld hoeveel werk er nodig is. U kunt een algemene schatting maken van het werk door rechtstreeks te kijken naar de regeldetails onder elke prijsopgaveregel of op basis van geheel nieuwe schattingen, waarbij u een project en een projectplan gebruikt. Projectgebaseerde prijsopgaveregels zijn alleen aanwezig in projectgebaseerde prijsopgaven die worden gemaakt met Project Operations. Dit type prijsopgaveregel is een aangepaste vorm van de toe te voegen prijsopgaveregels die beschikbaar zijn in Microsoft Dynamics 365 Sales.
+- **Projectgebaseerd**: de waarde van de prijsopgave wordt bepaald nadat u hebt vastgesteld hoeveel werk er nodig is. U kunt een algemene schatting maken van het werk door rechtstreeks te kijken naar de regeldetails onder elke prijsopgaveregel of op basis van geheel nieuwe schattingen, waarbij u een project en een projectplan gebruikt. Projectgebaseerde prijsopgaveregels zijn alleen aanwezig in projectgebaseerde prijsopgaven die worden gemaakt met Project Operations. Dit type prijsopgaveregel is een aangepaste vorm van de toe te voegen prijsopgaveregels die beschikbaar zijn in Microsoft Dynamics 365 Sales.
 
-- **Productgebaseerd** : de waarde van de prijsopgave wordt bepaald wordt bepaald op basis van het aantal verkochte eenheden en de verkoopprijs per eenheid. Het product op een productgebaseerde regel kan afkomstig zijn uit een productcatalogus in Sales of het kan een product zijn dat u definieert. Dit type prijsopgaveregel is ook beschikbaar in projectgebaseerde prijsopgaven die worden gemaakt met Project Operations.
+- **Productgebaseerd**: de waarde van de prijsopgave wordt bepaald wordt bepaald op basis van het aantal verkochte eenheden en de verkoopprijs per eenheid. Het product op een productgebaseerde regel kan afkomstig zijn uit een productcatalogus in Sales of het kan een product zijn dat u definieert. Dit type prijsopgaveregel is ook beschikbaar in projectgebaseerde prijsopgaven die worden gemaakt met Project Operations.
 
 Het bedrag in een prijsopgave is het totaal van alle productgebaseerde regels en de projectgebaseerde regels.
 
@@ -75,12 +75,12 @@ Project Operations ondersteunt alle drie de typen factuurschema's voor prijsopga
 
 De prijsopgaven en facturen van professionele dienstverleners bevatten doorgaans kostenclassificaties. Kosten worden vertegenwoordigd door de volgende transactieclassificaties:
 
-- **Tijd** : deze classificatie vertegenwoordigt de kosten van arbeid of de tijd die personeel aan een project heeft besteed.
-- **Onkosten** : deze classificatie vertegenwoordigt alle andere soorten onkosten voor een project. Omdat onkosten breed kunnen worden geclassificeerd, maken de meeste organisaties subcategorieën, zoals reizen, autohuur, hotel of kantoorbenodigdheden.
-- **Tarief** : deze classificatie vertegenwoordigt diverse typen overhead, boetes en andere items die aan de klant in rekening worden gebracht. 
-- **Belasting** : deze classificatie vertegenwoordigt btw-bedragen die gebruikers toevoegen terwijl ze onkosten invoeren.
-- **Materiaaltransactie** : deze classificatie vertegenwoordigt werkelijke waarden van productregels in een bevestigde projectfactuur.
-- **Mijlpaal** : deze classificatie wordt gebruikt door de logica voor facturering met een vaste prijs.
+- **Tijd**: deze classificatie vertegenwoordigt de kosten van arbeid of de tijd die personeel aan een project heeft besteed.
+- **Onkosten**: deze classificatie vertegenwoordigt alle andere soorten onkosten voor een project. Omdat onkosten breed kunnen worden geclassificeerd, maken de meeste organisaties subcategorieën, zoals reizen, autohuur, hotel of kantoorbenodigdheden.
+- **Tarief**: deze classificatie vertegenwoordigt diverse typen overhead, boetes en andere items die aan de klant in rekening worden gebracht. 
+- **Belasting**: deze classificatie vertegenwoordigt btw-bedragen die gebruikers toevoegen terwijl ze onkosten invoeren.
+- **Materiaaltransactie**: deze classificatie vertegenwoordigt werkelijke waarden van productregels in een bevestigde projectfactuur.
+- **Mijlpaal**: deze classificatie wordt gebruikt door de logica voor facturering met een vaste prijs.
 
 Aan elke prijsopgaveregel kunnen een of meer van deze transactieclassificaties worden gekoppeld. Nadat de prijsopgave is geaccepteerd, wordt de toewijzing tussen transactieclassificatie en prijsopgaveregel overgebracht naar de contractregel.
   
@@ -90,16 +90,16 @@ Een prijsopgave kan bijvoorbeeld de volgende twee prijsopgaveregels bevatten:
 - Gerelateerde reiskosten waarvoor een factureringsmethode met een vaste prijs wordt gebruikt. Alle reiskosten voor het voorbeeldproject **Dynamics AX -implementatie** worden bijvoorbeeld gefactureerd tegen een vaste monetaire waarde.
 
 > [!NOTE]
-> De combinatie van de project- en transactieclassificaties **Tijd** , **Onkosten** en **Tarief** die aan een prijsopgave- of contractregel zijn gekoppeld, moet uniek zijn. Als dezelfde combinatie van project- en transactieklasse aan meerdere contract- of prijsopgaveregels is gekoppeld, werkt Project Operations niet goed.
+> De combinatie van de project- en transactieclassificaties **Tijd**, **Onkosten** en **Tarief** die aan een prijsopgave- of contractregel zijn gekoppeld, moet uniek zijn. Als dezelfde combinatie van project- en transactieklasse aan meerdere contract- of prijsopgaveregels is gekoppeld, werkt Project Operations niet goed.
 
 ## <a name="billing-types"></a>Factureringstypen
 
 Het veld **Factureringstype** bepaalt het concept van factureerbaarheid. Dit is een optieset met de volgende mogelijke waarden:
 
-- **Factureerbaar** : de kosten die door deze rol/categorie worden gemaakt, zijn directe kosten die worden gemaakt voor de uitvoering van het project en de klant betaalt voor dit werk. De betaling kan worden beheerd als een regeling voor tijd- en materiaalverbruik of een vaste-prijsregeling. De werknemer die deze tijd besteedt, ontvangt echter het overeenkomstige tegoed voor zijn of haar factureerbare bestede uren.
-- **Niet-factureerbaar** : de kosten die door deze rol/categorie worden gemaakt, worden beschouwd als directe kosten die worden gemaakt voor de uitvoering van het project, hoewel dit feit niet wordt erkend door de klant en deze niet betaalt voor dit werk. De werknemer die deze tijd besteedt, wordt niet gecrediteerd met factureerbare bestede uren hiervoor.
-- **Gratis** : de kosten die door deze rol/categorie worden gemaakt, worden beschouwd als directe kosten die worden gemaakt voor de uitvoering van het project en de klant erkent dit feit. De werknemer die deze tijd besteedt, wordt gecrediteerd voor de factureerbare bestede uren hiervoor. Deze kosten worden echter niet aan de klant in rekening gebracht.
-- **Niet beschikbaar** : de kosten die zijn gemaakt voor interne projecten waarvoor geen inkomsten moeten worden bijgehouden met deze optie.
+- **Factureerbaar**: de kosten die door deze rol/categorie worden gemaakt, zijn directe kosten die worden gemaakt voor de uitvoering van het project en de klant betaalt voor dit werk. De betaling kan worden beheerd als een regeling voor tijd- en materiaalverbruik of een vaste-prijsregeling. De werknemer die deze tijd besteedt, ontvangt echter het overeenkomstige tegoed voor zijn of haar factureerbare bestede uren.
+- **Niet-factureerbaar**: de kosten die door deze rol/categorie worden gemaakt, worden beschouwd als directe kosten die worden gemaakt voor de uitvoering van het project, hoewel dit feit niet wordt erkend door de klant en deze niet betaalt voor dit werk. De werknemer die deze tijd besteedt, wordt niet gecrediteerd met factureerbare bestede uren hiervoor.
+- **Gratis**: de kosten die door deze rol/categorie worden gemaakt, worden beschouwd als directe kosten die worden gemaakt voor de uitvoering van het project en de klant erkent dit feit. De werknemer die deze tijd besteedt, wordt gecrediteerd voor de factureerbare bestede uren hiervoor. Deze kosten worden echter niet aan de klant in rekening gebracht.
+- **Niet beschikbaar**: de kosten die zijn gemaakt voor interne projecten waarvoor geen inkomsten moeten worden bijgehouden met deze optie.
 
 ## <a name="invoice-schedule"></a>Factuurschema
 
@@ -115,11 +115,11 @@ Deze drie kenmerkwaarden worden gebruikt voor het genereren van een voorlopige v
 
 Factuurfrequentie is een entiteit waarin kenmerkwaarden worden opgeslagen waarmee de frequentie van het maken van facturen wordt uitgedrukt. De volgende kenmerken bepalen de entiteit Factuurfrequentie:
 
-- **Periode** : maandelijkse, tweewekelijkse en wekelijkse perioden worden ondersteund. 
-- **Runs per periode** : voor wekelijkse en tweewekelijkse perioden kunt u slechts één run per periode definiëren. Voor maandelijkse perioden kunt u tussen de één en vier runs per periode definiëren. 
-- **Uitvoeringsdagen** : de dagen waarop de facturering moet worden uitgevoerd. U kunt dit kenmerk op twee manieren configureren:
-  - **Weekdagen** : u kunt bijvoorbeeld opgeven dat de facturering elke maandag of om de maandag moet worden uitgevoerd. Klanten die facturering moeten instellen om op een werkdag te worden uitgevoerd, hebben misschien de voorkeur voor dit type configuratie. 
-  - **Kalenderdagen** : u kunt bijvoorbeeld opgeven dat facturering wordt uitgevoerd op de zevende en de eenentwintigste dag van elke maand. Sommige organisaties geven misschien de voorkeur aan dit type configuratie omdat dit ervoor zorgt dat de facturering elke maand wordt uitgevoerd op basis van een vast schema.
+- **Periode**: maandelijkse, tweewekelijkse en wekelijkse perioden worden ondersteund. 
+- **Runs per periode**: voor wekelijkse en tweewekelijkse perioden kunt u slechts één run per periode definiëren. Voor maandelijkse perioden kunt u tussen de één en vier runs per periode definiëren. 
+- **Uitvoeringsdagen**: de dagen waarop de facturering moet worden uitgevoerd. U kunt dit kenmerk op twee manieren configureren:
+  - **Weekdagen**: u kunt bijvoorbeeld opgeven dat de facturering elke maandag of om de maandag moet worden uitgevoerd. Klanten die facturering moeten instellen om op een werkdag te worden uitgevoerd, hebben misschien de voorkeur voor dit type configuratie. 
+  - **Kalenderdagen**: u kunt bijvoorbeeld opgeven dat facturering wordt uitgevoerd op de zevende en de eenentwintigste dag van elke maand. Sommige organisaties geven misschien de voorkeur aan dit type configuratie omdat dit ervoor zorgt dat de facturering elke maand wordt uitgevoerd op basis van een vast schema.
   
 ### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Factuurschema voor een prijsopgaveregel met vaste prijs
 

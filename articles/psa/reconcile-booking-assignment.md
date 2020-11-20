@@ -3,7 +3,7 @@ title: Boekingen en toewijzingen afstemmen
 description: In dit onderwerp krijgt u informatie over werkelijke waarden.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074610"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120447"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Boekingen en toewijzingen afstemmen
 
@@ -35,7 +35,7 @@ Vanwege de losse koppeling van projectboekingen en taaktoewijzingen, is er een t
 
 Voor elk benoemde teamlid worden op het tabblad **Afstemming** de boekingen en toewijzingen weergegeven tot op het niveau van de afzonderlijke taaktoewijzing. Er worden uren weergegeven die tijdsperioden vertegenwoordigen van maanden tot dagen.
 
-In het veld **Tijdschaal** kunt u **Maand** , **Week** of **Dag** selecteren. Standaard is **Week** geselecteerd. U kunt de standaardwaarde echter wijzigen door de knop **Instellingen** te selecteren. Wanneer het tabblad **Afstemming** wordt geopend, wordt de huidige datum weergegeven, maar u kunt het agendabesturingselement gebruiken om vooruit of achteruit te gaan in de tijd. Wanneer een project een begindatum heeft die in de toekomst ligt, wordt op het tabblad die datum weergegeven wanneer het tabblad wordt geopend. Het agendabesturingselement bevat ook opties waarmee u naar de begin- en einddatums van het project kunt gaan.
+In het veld **Tijdschaal** kunt u **Maand**, **Week** of **Dag** selecteren. Standaard is **Week** geselecteerd. U kunt de standaardwaarde echter wijzigen door de knop **Instellingen** te selecteren. Wanneer het tabblad **Afstemming** wordt geopend, wordt de huidige datum weergegeven, maar u kunt het agendabesturingselement gebruiken om vooruit of achteruit te gaan in de tijd. Wanneer een project een begindatum heeft die in de toekomst ligt, wordt op het tabblad die datum weergegeven wanneer het tabblad wordt geopend. Het agendabesturingselement bevat ook opties waarmee u naar de begin- en einddatums van het project kunt gaan.
 
 U kunt de uitvouwbesturingselementen voor elke resource gebruiken om de details van de boekingen van die resource weer te geven. U ook de toewijzingen van elke resource uitvouwen tot op het niveau van de afzonderlijke taak.
 
@@ -47,9 +47,9 @@ Onderaan op het tabblad **Afstemming** wordt een totaal nettobedrag voor het pro
 > [!NOTE]
 > De legenda voor deze toestanden is mogelijk verborgen om meer ruimte te maken voor het raster. In dit geval kunt u de legenda zichtbaar maken door de knop **Instellingen** te selecteren.
 
-In sommige gevallen, wanneer het veld **Tijdschaal** is ingesteld op een niveau dat hoger is dan **Dag** , kunnen verschillen worden berekend als 0 (nul). Op het niveau van de **Maand** kan het nettoverschil voor een resource bijvoorbeeld 0 (nul) zijn om aan te geven dat de boekingen gelijk zijn aan de toewijzingen. Als u echter naar het niveau **Week** kijkt, ziet u mogelijk toewijzingen van 0 (nul) uur en boekingen van 40 uur in de eerste week van de maand en toewijzingen van 40 uur en boekingen van 0 (nul) uur in de tweede week van de maand. Hoewel het totale aantal boekingen en toewijzingen voor de maand gelijk zijn, verschillen ze per week.
+In sommige gevallen, wanneer het veld **Tijdschaal** is ingesteld op een niveau dat hoger is dan **Dag**, kunnen verschillen worden berekend als 0 (nul). Op het niveau van de **Maand** kan het nettoverschil voor een resource bijvoorbeeld 0 (nul) zijn om aan te geven dat de boekingen gelijk zijn aan de toewijzingen. Als u echter naar het niveau **Week** kijkt, ziet u mogelijk toewijzingen van 0 (nul) uur en boekingen van 40 uur in de eerste week van de maand en toewijzingen van 40 uur en boekingen van 0 (nul) uur in de tweede week van de maand. Hoewel het totale aantal boekingen en toewijzingen voor de maand gelijk zijn, verschillen ze per week.
 
-Wanneer u tijd op hogere niveaus weergeeft, wordt op het tabblad **Afstemming** een celindicator weergegeven om u erop te wijzen dat er verschillen zijn op lagere tijdniveaus. In de volgende afbeelding wordt bijvoorbeeld een celindicator weergegeven in de cel voor de maand oktober 2018 voor de resource met de naam Josephine Beukema. Daarom kunt u zien dat, zelfs als de resourceboekingen en toewijzingen gelijk zijn wanneer ze worden samengevoegd op het niveau van **Maand** , ze niet overeenkomen op lagere niveaus.
+Wanneer u tijd op hogere niveaus weergeeft, wordt op het tabblad **Afstemming** een celindicator weergegeven om u erop te wijzen dat er verschillen zijn op lagere tijdniveaus. In de volgende afbeelding wordt bijvoorbeeld een celindicator weergegeven in de cel voor de maand oktober 2018 voor de resource met de naam Josephine Beukema. Daarom kunt u zien dat, zelfs als de resourceboekingen en toewijzingen gelijk zijn wanneer ze worden samengevoegd op het niveau van **Maand**, ze niet overeenkomen op lagere niveaus.
 
 ![Niet-overeenkomende boekingen en toewijzingen op maandelijks niveau](media/reconcile-assignments-01.JPG)
 

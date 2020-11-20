@@ -3,7 +3,7 @@ title: Typen projectfasen
 description: In dit onderwerp krijgt u informatie over projectfasen.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074615"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123043"
 ---
 # <a name="project-stage-types"></a>Typen projectfasen 
 
@@ -50,7 +50,7 @@ Wanneer u een project aan een prijsopgave koppelt of wanneer u een project maakt
 
 ## <a name="plan"></a>Plannen
 
-Wanneer u een order binnenhaalt op basis van een prijsopgave die aan een project is gekoppeld en het project overgaat naar de fase **Contract** , wordt de projectfase bijgewerkt naar **Plannen**. Als het project zich in de fase **Plannen** bevindt, worden op de pagina **Projectentiteit** de details van het contract weergegeven.
+Wanneer u een order binnenhaalt op basis van een prijsopgave die aan een project is gekoppeld en het project overgaat naar de fase **Contract**, wordt de projectfase bijgewerkt naar **Plannen**. Als het project zich in de fase **Plannen** bevindt, worden op de pagina **Projectentiteit** de details van het contract weergegeven.
 
 ## <a name="deliver"></a>Leveren
 
@@ -58,7 +58,7 @@ Wanneer het projectplan is voltooid en u aan het project kunt beginnen, moet de 
 
 ## <a name="complete"></a>Voltooid 
 
-Wanneer het werk voor het project is voltooid, kan de projectmanager de fase bijwerken naar **Voltooid**. Als u de projectfase bijwerkt naar **Voltooid** , geeft de projectmanager aan dat het werk voor 100 procent is voltooid, maar dat het project nog open wordt gehouden om eventuele openstaande tijdsvermeldingen of onkostenposten te kunnen vastleggen.
+Wanneer het werk voor het project is voltooid, kan de projectmanager de fase bijwerken naar **Voltooid**. Als u de projectfase bijwerkt naar **Voltooid**, geeft de projectmanager aan dat het werk voor 100 procent is voltooid, maar dat het project nog open wordt gehouden om eventuele openstaande tijdsvermeldingen of onkostenposten te kunnen vastleggen.
 
 ## <a name="close"></a>Sluiten
 

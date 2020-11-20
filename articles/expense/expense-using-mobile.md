@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074566"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120897"
 ---
 # <a name="expense-using-mobile"></a>Mobiel onkosten declareren
 
@@ -144,7 +144,7 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
     
 3. Selecteer een onkostennota om de onkostendetails ervan te bekijken.
 4. Selecteer de onkosten om de details ervan te bekijken. De informatie die voor bepaalde kosten wordt weergegeven, bestaat onder andere uit een betalingsbewijs, gastgegevens en specificatiegegevens.
-5. Als u terug bent op de pagina **Onkostennota** , selecteert u de optie om de onkostennota goed te keuren of af te wijzen.
+5. Als u terug bent op de pagina **Onkostennota**, selecteert u de optie om de onkostennota goed te keuren of af te wijzen.
 6. Voer eventuele opmerkingen in voor de goedkeuringsactie.
 7. Selecteer **Gereed**.
 
@@ -197,7 +197,7 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 
 18. Als het bedrijfsbeleid namen van gasten vereist voor de onkosten, selecteert u **Gasten** en volgt u deze stappen:
 
-    1. Selecteer **Gast** , **Vorige gasten** of **Collega's**.
+    1. Selecteer **Gast**, **Vorige gasten** of **Collega's**.
     2. Volg een van deze stappen:
 
         - Als u **Gast** hebt geselecteerd, volgt u deze stappen:

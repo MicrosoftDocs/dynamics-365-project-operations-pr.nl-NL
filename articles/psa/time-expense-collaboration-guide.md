@@ -3,7 +3,7 @@ title: Handleiding Tijd, onkosten en samenwerken
 description: Een handleiding voor tijd, kosten en samenwerking voor Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3404642bf20ee23000202b3447f3167aeb4dee27
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4f975a248c6224bdea72ca1ecdb8a299f0f9254c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074653"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120042"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Handleiding Tijd, Kosten en Samenwerking (Project Service)
 
@@ -59,7 +59,7 @@ Klik op een koppeling voor meer informatie over wat u met [!INCLUDE[pn_project_s
   
 -   [Iemand anders toestaan om uw tijdvermelding of onkosten in te voeren](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [Verlof plannen ](../psa/schedule-time-off.md)  
+-   [Verlof plannen](../psa/schedule-time-off.md)  
   
 -   [Samenwerken met uw projectteamleden met Office 365 Groepen](../psa/collaborate-project-team-members-office-365-groups.md)  
   

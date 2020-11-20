@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0f975d295b4c0ccef9827767beabd32ffd761faa
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074442"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121527"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Teamleden toevoegen vanuit het raster Teamlid
 
@@ -21,9 +21,9 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Dynamics 365 Project Operations bevat een dashboard voor resourcebeheer dat een visueel overzicht biedt van de vraag naar resources en het aantal bestede uren van resources in de hele organisatie. U kunt de grafieken op dit dashboard gebruiken om de volgende informatie te visualiseren:
 
-- **Resourcevraag** : in de grafiek **Actieve resourceaanvragen** worden de resourcesaanvragen weergegeven die zijn ingediend. De resources worden gecombineerd per rol of project.
-- **Niet-ingediende resourcevraag** : in de grafiek **Niet-toegewezen resourcevraag** worden alle resourcevereisten weergegeven waarvoor geen aanvraag is ingediend. Zo krijgen resourcemanagers een beeld van de vraag die nog niet vastligt en waarvoor mogelijk een resourceaanvraag zal worden ingediend.
-- **Toerekenbare bestede uren voor de afgelopen week** : in de grafiek **Bestede uren per rol** wordt het percentage van het werkelijke aantal toerekenbare bestede uren per rol van de organisatie weergegeven ten opzichte van het beoogde aantal toerekenbare bestede uren per rol.
+- **Resourcevraag**: in de grafiek **Actieve resourceaanvragen** worden de resourcesaanvragen weergegeven die zijn ingediend. De resources worden gecombineerd per rol of project.
+- **Niet-ingediende resourcevraag**: in de grafiek **Niet-toegewezen resourcevraag** worden alle resourcevereisten weergegeven waarvoor geen aanvraag is ingediend. Zo krijgen resourcemanagers een beeld van de vraag die nog niet vastligt en waarvoor mogelijk een resourceaanvraag zal worden ingediend.
+- **Toerekenbare bestede uren voor de afgelopen week**: in de grafiek **Bestede uren per rol** wordt het percentage van het werkelijke aantal toerekenbare bestede uren per rol van de organisatie weergegeven ten opzichte van het beoogde aantal toerekenbare bestede uren per rol.
 
     > [!NOTE]
     > Als u de grafiek **Bestede uren per rol** beschikbaar wilt maken, maakt u een taak waarmee de werkstroom **UpdateRoleUtilization** wordt uitgevoerd. Deze terugkerende taak wordt elke zeven dagen uitgevoerd om het aantal toerekenbare bestede uren te berekenen voor de afgelopen zeven dagen. De resultaten worden gecombineerd per rol.
@@ -36,9 +36,9 @@ Projectmanagers kunnen het dashboard voor resourcebeheer gebruiken om de resourc
 
 Als u een teamlid rechtstreeks aan een project wilt toevoegen, gaat u in het formulier **Projecten** naar het tabblad **Team** en selecteert u de optie **Nieuw**. Het dialoogvenster **Snelle invoer: Projectteamlid** wordt weergegeven. In dit dialoogvenster kunt u de volgende taken uitvoeren:
 
-- **Een benoemde resource boeken** : selecteer in het veld **Boekbare resource** de naam van de resource. Selecteer vervolgens de rol, stel de periode in en selecteer een toewijzingsmethode. De benoemde resource die u hebt geselecteerd, wordt aan het project toegevoegd met de geselecteerde toewijzingsmethode en de resourceagenda.
-- **Een algemene resource toevoegen** : laat het veld **Boekbare resource** leeg en selecteer vervolgens de rol, stel de periode in en selecteer de gewenste toewijzingsmethode. Een algemene resource wordt als tijdelijke aanduiding aan het team toegevoegd. De tijdelijke aanduiding bevat het vraagpatroon dat wordt gebruikt om benoemde resources voor het team te boeken. De vereiste wordt gemaakt volgens de projectagenda.
-- **Een benoemde resource aan het team toevoegen zonder resourcecapaciteit te verbruiken** : selecteer in het veld **Boekbare resource** een resource. Selecteer de periode en selecteer **Geen** als de toewijzingsmethode. De resource wordt toegevoegd aan het team, maar de capaciteit van de resource wordt niet verbruikt via een boeking.
+- **Een benoemde resource boeken**: selecteer in het veld **Boekbare resource** de naam van de resource. Selecteer vervolgens de rol, stel de periode in en selecteer een toewijzingsmethode. De benoemde resource die u hebt geselecteerd, wordt aan het project toegevoegd met de geselecteerde toewijzingsmethode en de resourceagenda.
+- **Een algemene resource toevoegen**: laat het veld **Boekbare resource** leeg en selecteer vervolgens de rol, stel de periode in en selecteer de gewenste toewijzingsmethode. Een algemene resource wordt als tijdelijke aanduiding aan het team toegevoegd. De tijdelijke aanduiding bevat het vraagpatroon dat wordt gebruikt om benoemde resources voor het team te boeken. De vereiste wordt gemaakt volgens de projectagenda.
+- **Een benoemde resource aan het team toevoegen zonder resourcecapaciteit te verbruiken**: selecteer in het veld **Boekbare resource** een resource. Selecteer de periode en selecteer **Geen** als de toewijzingsmethode. De resource wordt toegevoegd aan het team, maar de capaciteit van de resource wordt niet verbruikt via een boeking.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Een teamlid boeken om te voldoen aan de resourcevereisten voor een algemene resource
 
@@ -48,7 +48,7 @@ Voer deze stappen uit om de vereiste vaardigheden op te geven van een algemene r
 
 1. Ga in het formulier **Projecten** naar het tabblad **Team** en selecteer **Nieuw** om een algemene resource te boeken.
 2. Ga in de weergave **Alle teamleden** naar de kolom **Resourcevereiste** en selecteer de koppeling om vereiste vaardigheden voor de algemene resource toe te voegen.
-3. Ga in het formulier **Resourcevereiste** naar het raster **Vaardigheden** , selecteer het beletselteken ( **...** ) en selecteer vervolgens de optie **Nieuw vereistekenmerk toevoegen** om de vereiste vaardigheden voor uw ontwikkelaar toe te voegen.
+3. Ga in het formulier **Resourcevereiste** naar het raster **Vaardigheden**, selecteer het beletselteken (**...**) en selecteer vervolgens de optie **Nieuw vereistekenmerk toevoegen** om de vereiste vaardigheden voor uw ontwikkelaar toe te voegen.
 4. Ga in het dialoogvensterformulier **Snelle invoer: Vereistekenmerk** naar het veld **Kenmerk** en selecteer de vereiste vaardigheid.
 5. Selecteer in het veld **Beoordelingswaarde** het vaardigheidsniveau voor die vaardigheid. 
 6. Stel in het veld **Resourcevereiste** de vereiste in op bronresources van organisatie-eenheden of zelfs benoemde resources. Als u klaar bent, selecteert u **Opslaan**.
@@ -61,9 +61,9 @@ Voer deze stappen uit om de vereiste vaardigheden op te geven van een algemene r
 
    Dit zijn een paar van de meest gebruikte filters:
 
-    - **Kenmerken samen met een beoordeling** : filter behalve op vaardigheidsbeoordelingen ook op vaardigheden, certificeringen en andere resourcekwaliteiten.
-    - **Rollen** : filter op de standaardrollen die zijn toegewezen aan boekbare resources.
-    - **Organisatie- eenheden** : filter boekbare resources op de organisatie-eenheden waaraan ze zijn toegewezen.
+    - **Kenmerken samen met een beoordeling**: filter behalve op vaardigheidsbeoordelingen ook op vaardigheden, certificeringen en andere resourcekwaliteiten.
+    - **Rollen**: filter op de standaardrollen die zijn toegewezen aan boekbare resources.
+    - **Organisatie- eenheden**: filter boekbare resources op de organisatie-eenheden waaraan ze zijn toegewezen.
 
 8. Als u niet tevreden bent over de resultaten van de eerste zoekopdracht naar vereisten, kunt u de filtercriteria wijzigen. Vouw het deelvenster **Filterweergave** aan de linkerkant uit en selecteer vervolgens **Zoeken** om extra resources te zoeken. Selecteer **Sorteren** om de manier waarop de resultaten worden gesorteerd, te wijzigen.
 9. Selecteer resources op basis van de vraag die is opgegeven voor de vereiste, zoals aangegeven boven aan het raster. U kunt de selectie van cellen in het raster ongedaan maken en de resourcecapaciteit open laten. Er kan slechts één resource tegelijk als geboekt worden geselecteerd.
@@ -113,7 +113,7 @@ Nadat een resourcevereiste is gemaakt, kan een projectmanager of resourcemanager
 
 Nadat u een algemene of benoemde resource aan een projectteam hebt toegevoegd, kunt u de boekingen van de resource wijzigen.
 
-1. Ga naar het formulier **Projecten** , selecteer op het tabblad **Team** een teamlid en selecteer vervolgens **Boekingen bijhouden**.
+1. Ga naar het formulier **Projecten**, selecteer op het tabblad **Team** een teamlid en selecteer vervolgens **Boekingen bijhouden**.
  
    Het planbord verschijnt en hierop worden de boekingen van het projectteamlid weergegeven. Vouw de record van het teamlid uit om de uren weer te geven die zijn geboekt voor dit project en andere projecten die de capaciteit van het teamlid verbruiken.
 
@@ -130,10 +130,10 @@ U kunt elke standaard- of aangepaste boekingsstatus wijzigen.
 
 De volgende statussen zijn in Project Operations opgenomen:
 
-- **Geannuleerd** : een boeking van een resource die deze status krijgt, wordt geannuleerd en de capaciteit van de resource wordt vrijgemaakt.
-- **Harde boeking** : verbruikt de capaciteit van een resource. Een boeking heeft meestal deze status wanneer u **Boekingen bijhouden** opent via het raster **Alle teamleden** in het formulier **Projecten**.
-- **Zacht boeken** : als een boeking deze status krijgt, wordt een resource toegevoegd aan een team, maar wordt de capaciteit van de resource niet verbruikt. Deze status geeft aan dat de resource is gereserveerd voor mogelijk werk, maar nog steeds capaciteit heeft als deze nodig is voor andere taken. In de weergave van de totale resourcebeschikbaarheid hebben zachte boekingen een andere status dan harde boekingen.
-- **Voorgesteld** : deze status vertegenwoordigt het voorstel van een resourcemanager of projectmanager voor een resource. Voorstellen verbruiken geen capaciteit van een resource en de resource wordt niet toegevoegd aan het projectteam. Om de resource in het team 'hard' te boeken, moet de projectmanager het voorstel accepteren.
+- **Geannuleerd**: een boeking van een resource die deze status krijgt, wordt geannuleerd en de capaciteit van de resource wordt vrijgemaakt.
+- **Harde boeking**: verbruikt de capaciteit van een resource. Een boeking heeft meestal deze status wanneer u **Boekingen bijhouden** opent via het raster **Alle teamleden** in het formulier **Projecten**.
+- **Zacht boeken**: als een boeking deze status krijgt, wordt een resource toegevoegd aan een team, maar wordt de capaciteit van de resource niet verbruikt. Deze status geeft aan dat de resource is gereserveerd voor mogelijk werk, maar nog steeds capaciteit heeft als deze nodig is voor andere taken. In de weergave van de totale resourcebeschikbaarheid hebben zachte boekingen een andere status dan harde boekingen.
+- **Voorgesteld**: deze status vertegenwoordigt het voorstel van een resourcemanager of projectmanager voor een resource. Voorstellen verbruiken geen capaciteit van een resource en de resource wordt niet toegevoegd aan het projectteam. Om de resource in het team 'hard' te boeken, moet de projectmanager het voorstel accepteren.
 
 ### <a name="submit-resource-requests"></a>Resourceaanvragen indienen
 
@@ -163,7 +163,7 @@ U kunt de voorgestelde resource bekijken samen met een visualisatie van het effe
 
 Soms moet een projectmanager een geboekt teamlid vervangen in een project.
 
-1. Ga naar het formulier **Projecten** , selecteer op het tabblad **Team** de resource die moet worden vervangen en selecteer vervolgens **Boekingen bijhouden**.
+1. Ga naar het formulier **Projecten**, selecteer op het tabblad **Team** de resource die moet worden vervangen en selecteer vervolgens **Boekingen bijhouden**.
 2. Vouw de resource uit om de projecten weer te geven waaraan deze is toegewezen.
 3. Klik met de rechtermuisknop op het project en selecteer vervolgens **Resource vervangen**.
 4. Als u de resource kent die de huidige resource moet vervangen, selecteert of typt u de naam en selecteert u vervolgens de optie **Opnieuw toewijzen**.
@@ -190,8 +190,8 @@ Het tabblad bevat ook een totaal nettobedrag voor het project samen met een kolo
 
 Voor elke resource wordt op het tabblad het verschil berekend tussen de boekingen van het teamlid en de samengetelde waarde van de taaktoewijzingen van het teamlid. Idealiter zou dit verschil 0 (nul) moeten zijn. Met andere woorden: er zou geen verschil moeten zijn tussen boekingen en toewijzingen. Verschillen hebben een kleur en zijn gearceerd om de aandacht te vestigen op twee toestanden:
 
-- **Te weinig boekingen** : dit gebeurt wanneer een resource meer toewijzingen dan boekingen heeft. Omdat deze capaciteit niet is gereserveerd, kan een projectmanager deze toestand corrigeren door de boekingen van de resource uit te breiden om het tekort te dekken.
-- **Te veel boekingen** : dit gebeurt wanneer een resource is geboekt voor het project, maar er geen taken aan de resource zijn toegewezen. Deze toestand kan acceptabel zijn in die gevallen waarin de resource is geboekt voor het project voordat de taaktoewijzing plaatsvond. In andere gevallen is de resource echter niet gepland om aan taken te worden toegewezen. In dergelijke gevallen moet de projectmanager overwegen de boekingen van de resource te annuleren, zodat de capaciteit voor een ander project kan worden gebruikt.
+- **Te weinig boekingen**: dit gebeurt wanneer een resource meer toewijzingen dan boekingen heeft. Omdat deze capaciteit niet is gereserveerd, kan een projectmanager deze toestand corrigeren door de boekingen van de resource uit te breiden om het tekort te dekken.
+- **Te veel boekingen**: dit gebeurt wanneer een resource is geboekt voor het project, maar er geen taken aan de resource zijn toegewezen. Deze toestand kan acceptabel zijn in die gevallen waarin de resource is geboekt voor het project voordat de taaktoewijzing plaatsvond. In andere gevallen is de resource echter niet gepland om aan taken te worden toegewezen. In dergelijke gevallen moet de projectmanager overwegen de boekingen van de resource te annuleren, zodat de capaciteit voor een ander project kan worden gebruikt.
 
 In sommige gevallen, wanneer u de tijd weergeeft op een hoger niveau dan het dagniveau, bijvoorbeeld op maandniveau, ziet u mogelijk een nettoverschil van nul voor een resource. Met andere woorden: boekingen = toewijzingen. Als u echter de tijd op weekniveau weergeeft, ziet u mogelijk toewijzingen van nul uur en boekingen van 40 uur in de eerste week, maar toewijzingen van 40 uur en boekingen van nul uur in de tweede week. Over het algemeen zijn de boekingen en toewijzingen op elkaar afgestemd, maar ze verschillen van week tot week.
 

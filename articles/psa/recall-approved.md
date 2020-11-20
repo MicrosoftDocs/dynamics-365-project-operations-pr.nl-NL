@@ -3,7 +3,7 @@ title: Goedgekeurde tijdsvermeldingen of onkostenposten intrekken
 description: Dit onderwerp bevat informatie over het intrekken van een eerder goedgekeurde tijds- of onkostentransactie.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074611"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120537"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Goedgekeurde tijdsvermeldingen of onkostenposten intrekken
 
@@ -77,7 +77,7 @@ Wanneer een goedkeuring wordt ingetrokken, heeft dit zowel operationele als fina
 
 ### <a name="operational-impact"></a>Operationele gevolgen
 
-Als een intrekkingsaanvraag is goedgekeurd, wordt de goedkeuringsrecord gemarkeerd **als** Afgewezen. De status van de vermelding wordt gewijzigd in **Geretourneerd** of **Afgewezen** , afhankelijk van of het een tijdsvermelding of een onkostenpost is.
+Als een intrekkingsaanvraag is goedgekeurd, wordt de goedkeuringsrecord gemarkeerd **als** Afgewezen. De status van de vermelding wordt gewijzigd in **Geretourneerd** of **Afgewezen**, afhankelijk van of het een tijdsvermelding of een onkostenpost is.
 
 Het projectteamlid kan posten weergeven, posten bewerken en vervolgens opnieuw indienen of posten volledig verwijderen.
 

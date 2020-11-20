@@ -3,7 +3,7 @@ title: Projectplanningen
 description: Dit onderwerp bevat informatie over het maken van een planning.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074599"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123223"
 ---
 # <a name="project-schedules"></a>Projectplanningen 
 
@@ -83,12 +83,12 @@ Met de knoppen **Omhoog** en **Omlaag** wijzigt u de positie van een taak binnen
 
 Het raster **Planning** is volledig toegankelijk en kan worden gebruikt met schermlezers, zoals Verteller, JAWS of NVDA. U kunt door het rastergebied navigeren met behulp van de pijltoetsen (zoals in Microsoft Excel), u kunt de tab-toets gebruiken om de interactieve UI-elementen te doorlopen en u kunt de pijl-omlaag, de Enter-toets of de spatiebalk gebruiken om de vervolgkeuzemenu's te selecteren en opdrachten daarin aan te roepen. De kolomkoppen zijn ook interactief. U kunt kolommen verbergen en weergeven, met de tab-toets en de pijltoetsen de kolomkoppen doorlopen en de actieknoppen op de werkbalk gebruiken. Bovendien kunt u de volgende sneltoetsen gebruiken:
 
-- **Vernieuwen** : ALT+SHIFT+F5
-- **Toevoegen** : ALT+SHIFT+Insert
-- **Verwijderen** : ALT+SHIFT+Delete
-- **Iets omhoog of omlaag verplaatsen** : ALT+SHIFT+pijl-omhoog/pijl-omlaag
-- **Inspringen of inspringing verkleinen** : ALT_SHIFT+pijl-links/pijl-rechts
-- **Hiërarchieën uitvouwen/samenvouwen** : ALT+SHIFT+plus-toets/min-toets
+- **Vernieuwen**: ALT+SHIFT+F5
+- **Toevoegen**: ALT+SHIFT+Insert
+- **Verwijderen**: ALT+SHIFT+Delete
+- **Iets omhoog of omlaag verplaatsen**: ALT+SHIFT+pijl-omhoog/pijl-omlaag
+- **Inspringen of inspringing verkleinen**: ALT_SHIFT+pijl-links/pijl-rechts
+- **Hiërarchieën uitvouwen/samenvouwen**: ALT+SHIFT+plus-toets/min-toets
 
 ## <a name="task-attributes"></a>Taakkenmerken
 
@@ -98,19 +98,19 @@ De naam van een taak beschrijft het werk dat moet worden uitgevoerd. In PSA besc
  
 ### <a name="schedule-attributes"></a>Planningskenmerken
 
-De kenmerken **Inspanning** , **Begindatum** , **Einddatum** en **Duur** bepalen de planning voor de taak.
+De kenmerken **Inspanning**, **Begindatum**, **Einddatum** en **Duur** bepalen de planning voor de taak.
 
 Aanvullende kenmerken voor de planning zijn:
 
-- **Inspanningsuren** : Voer een schatting in van het aantal uren dat nodig is om de taak te voltooien. 
-- **Duur** : Geef het aantal werkdagen op dat nodig is om de taak te voltooien.
-- **Plannings-id** : Deze automatisch gegenereerde id wordt gebruikt om taken in de hiërarchie te ordenen. Afhankelijkheden tussen de taken bepalen de werkelijke volgorde waarin er aan de taken wordt gewerkt.
+- **Inspanningsuren**: Voer een schatting in van het aantal uren dat nodig is om de taak te voltooien. 
+- **Duur**: Geef het aantal werkdagen op dat nodig is om de taak te voltooien.
+- **Plannings-id**: Deze automatisch gegenereerde id wordt gebruikt om taken in de hiërarchie te ordenen. Afhankelijkheden tussen de taken bepalen de werkelijke volgorde waarin er aan de taken wordt gewerkt.
  
 ### <a name="staffing-attributes"></a>Personeelskenmerken
 
 U hebt toegang tot personeelskenmerken via het veld **Resources** in de planning. U kunt zoeken naar een bestaande resource of op **Maken** klikken en in het deelvenster **Snelle invoer** een projectteamlid toevoegen als een nieuwe resource.
 
-De velden **Rol** , **Resource-eenheid** en **Naam van positie** worden gebruikt om de personeelsvereisten voor de taak te beschrijven. Deze personeelskenmerken worden samen met de taakplanning gebruikt om beschikbare resources te vinden voor het uitvoeren van deze taak.
+De velden **Rol**, **Resource-eenheid** en **Naam van positie** worden gebruikt om de personeelsvereisten voor de taak te beschrijven. Deze personeelskenmerken worden samen met de taakplanning gebruikt om beschikbare resources te vinden voor het uitvoeren van deze taak.
 
 **Rol** - Geef het type resource op dat nodig is om de taak uit te voeren.
 

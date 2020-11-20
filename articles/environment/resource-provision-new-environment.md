@@ -3,17 +3,17 @@ title: Een nieuwe omgeving inrichten
 description: Dit onderwerp bevat informatie over het inrichten van een nieuwe Project Operations-omgeving.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074451"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121167"
 ---
 # <a name="provision-a-new-environment"></a>Een nieuwe omgeving inrichten
 
@@ -120,7 +120,7 @@ Het onderhouden van de omgeving kan enige tijd duren. Nadat het is voltooid, kee
 
 ![Oplossingen toepassen](./media/13ApplySolutions.png)
 
-5. Selecteer beide oplossingen, **Entiteitstoewijzing voor twee keer wegschrijven in Dynamics 365 Finance and Operations** en **Entiteitstoewijzingen voor twee keer wegschrijven in Dynamics 365 Project Operations** , en selecteer vervolgens **Toepassen**.
+5. Selecteer beide oplossingen, **Entiteitstoewijzing voor twee keer wegschrijven in Dynamics 365 Finance and Operations** en **Entiteitstoewijzingen voor twee keer wegschrijven in Dynamics 365 Project Operations**, en selecteer vervolgens **Toepassen**.
 
 ![Oplossingen bevestigen](./media/14ConfirmSolutions.png)
 
@@ -185,4 +185,10 @@ Om een toewijzing met vereisten uit te voeren, schakelt u de wisselknop **Gerela
 
 ![Alle toewijzingen worden uitgevoerd](./media/22AllMapsRunning.png)
 
-Uw Project Operations-omgeving is nu ingericht en geconfigureerd.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Configuratiegegevens in CDS toepassen voor Project Operations (optioneel)
+
+Als u demogegevens hebt toegepast op de Finance-omgeving raadpleegt u [Configuratiegegevens instellen en toepassen in Common Data Service voor Project Operations](resource-apply-pro-setup-config-data.md) om demogegevens toe te passen in de CDS-omgeving.
+
+
+Uw Project Operations-omgeving is nu ingericht en geconfigureerd. 

@@ -2,7 +2,7 @@
 title: Overwegingen voor de upgrade van Microsoft Dynamics 365 Project Service Automation, versie 2.x of 1.x, naar versie 3
 description: Dit onderwerp bevat informatie over de overwegingen voor het upgraden van Project Service Automation versie 2.x of 1.x naar versie 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074644"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121707"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Overwegingen voor de upgrade van PSA-versie 2.x of 1.x naar versie 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -77,7 +77,7 @@ In versie 2 en versie 1 kunnen projecten met algemene resources twee statussen h
 
 Voordat u begint met de upgrade, is het raadzaam dat u het team opnieuw genereert voor elk project waarvoor taken zijn toegewezen aan algemene resources of waarvoor het proces Team genereren nog moet worden uitgevoerd.
 
-Voor taken die zijn toegewezen aan algemene teamleden die zijn gegenereerd met **Team genereren** , blijft ook na de upgrade de algemene resource bij het team en de toewijzing voor dat algemene teamlid. Het is raadzaam dat u de resourcevereiste voor het algemene teamlid genereert na de upgrade, maar voordat u een resourceaanvraag boekt of indient. Hiermee worden alle toewijzingen van organisatie-eenheden aan de algemene teamleden behouden die afwijken van de contracterende organisatie-eenheid van het project.
+Voor taken die zijn toegewezen aan algemene teamleden die zijn gegenereerd met **Team genereren**, blijft ook na de upgrade de algemene resource bij het team en de toewijzing voor dat algemene teamlid. Het is raadzaam dat u de resourcevereiste voor het algemene teamlid genereert na de upgrade, maar voordat u een resourceaanvraag boekt of indient. Hiermee worden alle toewijzingen van organisatie-eenheden aan de algemene teamleden behouden die afwijken van de contracterende organisatie-eenheid van het project.
 
 In het project Z is bijvoorbeeld de eenheid van de contracterende organisatie Contoso US. In het projectplan is aan testtaken binnen de implementatiefase de rol van technisch adviseur toegewezen en is de toegewezen organisatie-eenheid is Contoso India.
 
