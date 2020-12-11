@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nieuwe functies
       items:
+        - name: December 2020 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Verkoopproces voor project
@@ -87,7 +89,7 @@
                 - name: Meerdere klanten in projectgebaseerde prijsopgaveregels beheren
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: De toerekenbare componenten van een projectprijsopgaveregel configureren
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Schattingen maken op een prijsopgaveregel
                   href: sales/create-estimate-quote-line.md
                 - name: Schattingen uit een project importeren in een projectgebaseerde prijsopgaveregel
@@ -109,7 +111,7 @@
             - name: Projectprijslijsten in projectcontracten beheren
               href: sales/contracts-manage-project-price-lists.md
             - name: Meerdere klanten in projectcontracten beheren
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Projectgebaseerde contractregels
               items:
                 - name: Overzicht van projectgebaseerde contractregels
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Een projectcontract kopiëren
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Vooruitbetalingen en voorschotten
+              items:
+                - name: Vooruitbetalingen en op voorschot gebaseerde contracten - lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Een voorschotschema instellen - lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Een ad-hocvoorschot maken voor een contract - lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prijzen en kosten berekenen
       items:
         - name: Prijslijst instellen
@@ -158,18 +168,28 @@
           items:
             - name: Overzicht van prijsdimensies
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Een oplossing maken voor aangepaste prijsdimensies
+              href: sales/create-solution-custompd.md
             - name: Bestaande velden gebruiken als prijsdimensies
               items:
                 - name: Project Operations-velden als prijsdimensies
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Een boekbare resource gebruiken als een prijsdimensie
+                  href: sales/use-br-as-pd.md
+                - name: Transactiecategorie gebruiken als prijsdimensie
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Boekbare resource met meerdere rollen in een project
+                  href: sales/br-playing-multiple-roles.md
             - name: Aangepaste velden als prijsdimensies
               items:
                 - name: Aangepaste velden en entiteiten maken als prijsdimensies
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Aangepaste velden instellen als prijsdimensies
+                - name: 'Aangepaste velden instellen als prijsdimensies '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Een prijsdimensie uitschakelen
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projectbeheer
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Beheer van resources
           items:
+            - name: Resources maken
+              href: resource-management/create-resources.md
             - name: Vaardigheden en deskundigheden definiëren
               href: resource-management/define-skills-proficiencies.md
+            - name: Rollen definiëren
+              href: resource-management/define-roles.md
             - name: Resourcekalenders definiëren
               href: resource-management/define-resource-calendars.md
         - name: Toewijzingsmethoden voor boekingen
           href: resource-management/booking-allocation-methods.md
+        - name: Boekingsstatussen
+          href: resource-management/booking-status.md
         - name: Vaardigheids- en deskundigheidsmodellen
           href: resource-management/skills-proficiency-models.md
         - name: Afstemming van resources
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Een pro-formaprojectfactuur beheren
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Een voorschot of een vooruitbetaling factureren
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Een pro-formaprojectfactuur bevestigen
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Automatisering van projectfactuur configureren
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Integratiejournaal in Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Intercompany-facturering
+          items:
+            - name: Overzicht van intercompany-facturering
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Intercompany-facturering configureren
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Intercompany-klant- en leveranciersfacturen maken
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Intercompany-transacties maken
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Inkomstenverantwoording
+      items:
+        - name: Overzicht van inkomstenverantwoording
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Inkomstenverantwoording instellen
+          items:
+            - name: Periodetypen instellen
+              href: project-accounting/period-types.md
+            - name: Kostensjablonen instellen
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Omzetschattingen beheren
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Projecten met omzetschattingen met een vaste prijs
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Kosten om methoden te voltooien
+          href: revenue-recognition/cost-complete-methods.md
 - name: Lite-implementatie - van deal tot pro-formafacturering
   items:
     - name: Aan de slag
@@ -386,7 +440,9 @@
           href: environment/security-model.md
     - name: Nieuwe functies
       items:
-        - name: Nieuwe functies van november 2020 - Lite-implementatie - van deal tot pro-formafacturering
+        - name: Nieuwe functies van december 2020 - lite-implementatie - van deal tot pro-formafacturering
+          href: pro/whats-new/whats-new-dec-2020-lite.md
+        - name: Nieuwe functies van november 2020 - lite-implementatie - van deal tot pro-formafacturering
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Verkoopproces voor project
       items:
@@ -538,18 +594,28 @@
           items:
             - name: Overzicht van prijsdimensies
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Een oplossing maken voor aangepaste prijsdimensies
+              href: sales/create-solution-custompd.md
             - name: Bestaande velden gebruiken als prijsdimensies
               items:
-                - name: Een bestaand veld gebruiken als een prijsdimensie
+                - name: Project Operations-velden als prijsdimensies
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Een boekbare resource gebruiken als een prijsdimensie
+                  href: sales/use-br-as-pd.md
+                - name: Transactiecategorie gebruiken als prijsdimensie
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Boekbare resource met meerdere rollen in een project
+                  href: sales/br-playing-multiple-roles.md
             - name: Aangepaste velden als prijsdimensies
               items:
                 - name: Aangepaste velden en entiteiten maken als prijsdimensies
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Aangepaste velden instellen als prijsdimensies
+                - name: 'Aangepaste velden instellen als prijsdimensies '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Een prijsdimensie uitschakelen
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Projectbeheer
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Beheer van resources
           items:
+            - name: Resources maken
+              href: resource-management/create-resources.md
             - name: Vaardigheden en deskundigheden definiëren
               href: resource-management/define-skills-proficiencies.md
+            - name: Rollen definiëren
+              href: resource-management/define-roles.md
             - name: Resourcekalenders definiëren
               href: resource-management/define-resource-calendars.md
         - name: Toewijzingsmethoden boeken
           href: resource-management/booking-allocation-methods.md
+        - name: Boekingsstatussen
+          href: resource-management/booking-status.md
         - name: Vaardigheids- en deskundigheidsmodellen
           href: resource-management/skills-proficiency-models.md
         - name: Afstemming van resources
@@ -834,6 +906,8 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 24, V3'
