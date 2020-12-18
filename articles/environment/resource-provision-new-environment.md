@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121167"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642959"
 ---
 # <a name="provision-a-new-environment"></a>Een nieuwe omgeving inrichten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dit onderwerp bevat informatie over het inrichten van een nieuwe Dynamics 365 Project Operations-omgeving voor scenario's op basis van resources/niet-voorradige artikelen.
 
@@ -120,7 +122,7 @@ Het onderhouden van de omgeving kan enige tijd duren. Nadat het is voltooid, kee
 
 ![Oplossingen toepassen](./media/13ApplySolutions.png)
 
-5. Selecteer beide oplossingen, **Entiteitstoewijzing voor twee keer wegschrijven in Dynamics 365 Finance and Operations** en **Entiteitstoewijzingen voor twee keer wegschrijven in Dynamics 365 Project Operations**, en selecteer vervolgens **Toepassen**.
+5. Selecteer beide oplossingen, **Dynamics 365 Finance and Operations-entiteitstoewijzing voor twee keer wegschrijven** en **Dynamics 365 Project Operations-entiteitstoewijzingen voor twee keer wegschrijven** en selecteer vervolgens **Toepassen**.
 
 ![Oplossingen bevestigen](./media/14ConfirmSolutions.png)
 
@@ -158,9 +160,10 @@ Het vernieuwen duurt ongeveer 20 minuten. U ontvangt een melding wanneer dit is 
 
 | **Entiteitstoewijzing** | **Entiteit vernieuwen** | **Initiële synchronisatie** | **Model voor initiële synchronisatie** | **Vereisten voor uitvoeren** | **Vereisten voor initiële synchronisatie** |
 | --- | --- | --- | --- | --- | --- |
-| **Rollen voor projectresources voor alle bedrijven (bookableresourcecategories)** | No | Ja | Common Data Service | No | n.v.t. |
-| **Rechtspersonen (cdm\_companies)** | No | Ja | Finance and Operations-apps | No | n.v.t. |
-| **Werkelijke waarden voor integratie van Project Operations (msdyn\_actuals)** | No | No | n.v.t. | Ja | No |
+| **Rollen voor projectresources voor alle bedrijven (bookableresourcecategories)** | Geen | Ja | Common Data Service | Geen | n.v.t. |
+| **Rechtspersonen (cdm\_companies)** | Geen | Ja | Finance and Operations-apps | Geen | n.v.t. |
+| **Grootboek (msdyn_ledgers)** | Geen | Ja | Finance and Operations-apps | Ja | Ja, Finance and Operations-apps |
+| **Werkelijke waarden voor integratie van Project Operations (msdyn\_actuals)** | Geen | No | n.v.t. | Ja | No |
 | **Projectcontractregels (salesorderdetails)** | No | No | n.v.t. | No | No |
 | **Integratie-entiteit voor projecttransactierelaties (msdyn\_transactionconnections)** | No | No | n.v.t. | No | n.v.t. |
 | **Mijlpalen voor de contractregel van Project Operations-integratie (msdyn\_contractlinesscheduleofvalues)** | No | No | n.v.t. | No | n.v.t. |

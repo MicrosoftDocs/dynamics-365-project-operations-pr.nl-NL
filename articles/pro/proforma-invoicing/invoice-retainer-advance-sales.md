@@ -1,5 +1,5 @@
 ---
-title: Een voorschot of een vooruitbetaling factureren - lite
+title: Een voorschot of een vooruitbetaling factureren
 description: Dit onderwerp bevat informatie over hoe u een voorschot of een vooruitbetaling factureert in Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180546"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596186"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Een voorschot of een vooruitbetaling factureren - lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Een voorschot of een vooruitbetaling factureren
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Dynamics 365 Project Operations ondersteunt contracten op basis van voorschotten en eenmalige vooruitbetalingen. In een projectcontract kunt u een schema van voorschotten of een eenmalige vooruitbetaling registreren. Registratie op projectcontractniveau maakt een voorschot of een vooruitbetaling echter niet direct beschikbaar voor gebruik. Als u een voorschot of een vooruitbetaling wilt gebruiken voor een factuur die daadwerkelijk bij de klant in rekening wordt gebracht, moet het voorschot of de vooruitbetaling eerst worden gefactureerd.
+Dynamics 365 Project Operations ondersteunt op voorschot gebaseerde contracten en eenmalige vooruitbetalingen. In een projectcontract kunt u een schema van voorschotten of een eenmalige vooruitbetaling registreren. Registratie op projectcontractniveau maakt een voorschot of een vooruitbetaling echter niet direct beschikbaar voor gebruik. Als u een voorschot of een vooruitbetaling wilt gebruiken voor een factuur die daadwerkelijk bij de klant in rekening wordt gebracht, moet het voorschot of de vooruitbetaling eerst worden gefactureerd.
 
 Voer de volgende stappen uit om een voorschot of een vooruitbetaling te factureren.
 

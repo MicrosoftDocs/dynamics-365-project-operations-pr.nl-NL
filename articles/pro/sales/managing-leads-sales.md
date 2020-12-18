@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180501"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513783"
 ---
 # <a name="manage-leads---lite"></a>Potentiële klanten beheren - lite
 
@@ -23,7 +23,7 @@ Projectgebaseerde potentiële klanten kunnen worden beheerd en gekwalificeerd in
 
 ## <a name="list-of-project-sales-leads"></a>Lijst met potentiële klanten voor projectverkoop
 
-Open in het gedeelte **Verkoop** in het linkernavigatievenster de lijstpagina **Potentiële klanten** om een lijst met alle records met potentiële klanten in het systeem te bekijken. De weergegeven lijst met potentiële klanten zijn werkgebaseerde en andere soorten potentiële klanten die kunnen worden gemaakt als u ook beschikt over de Dynamics 365 Sales- of Dynamics 365 Field Service-toepassingen.
+Open in het gedeelte **Verkoop** in het linkernavigatievenster de lijstpagina **Potentiële klanten** om een lijst met alle records met potentiële klanten in het systeem te bekijken. De potentiële klanten in de lijst zijn werkgebaseerd en andere soorten potentiële klanten die kunnen worden gemaakt als u ook toepassingen Dynamics 365 Sales of Dynamics 365 Field Service gebruikt.
 
 U kunt een gefilterde weergave maken om alleen projectgebaseerde potentiële klanten te zien door een filter te maken op de waarde bij **Type**. U kunt er bijvoorbeeld voor kiezen om alleen werkgebaseerde potentiële klanten weer te geven.
 

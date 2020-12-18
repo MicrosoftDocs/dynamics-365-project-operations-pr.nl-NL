@@ -1,28 +1,20 @@
 ---
 title: Overzicht van prijsdimensies
-description: Dit onderwerp bevat informatie over de prijsdimensies in Dynamics 365 Project Operations.
+description: Dit onderwerp bevat informatie over prijsdimensies in Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128457"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650180"
 ---
 # <a name="pricing-dimensions-overview"></a>Overzicht van prijsdimensies
 
@@ -40,9 +32,21 @@ Hierdoor zijn er twee typen prijsdimensiewaarden beschikbaar:
 
 ## <a name="pricing-dimensions"></a>Prijsdimensies
 
-Dynamics 365 project Operations wordt geleverd met een standaardset prijsdimensies. U kunt deze prijsdimensies bekijken door naar **Project Operations** > **Parameters** te gaan. Controleer in de parameterrecord op het tabblad **Op bedrag gebaseerde prijsdimensies** of voor de rol **msdyn_resourcecategory** en de resource-organisatie-eenheid **msdyn_organizationalunit** de velden **Van toepassing op verkoop** en **Van toepassing op kosten** op **Ja** zijn ingesteld. Als deze velden zijn ingeschakeld, kunt u de prijs en kosten voor elke combinatie van rol en organisatie-eenheid instellen.
+Dynamics 365 Project Operations wordt geleverd met een standaardset prijsdimensies. U kunt deze prijsdimensies bekijken door naar **Project Operations** > **Parameters** te gaan. Controleer in de parameterrecord op het tabblad **Op bedrag gebaseerde prijsdimensies** of voor de rol **msdyn_resourcecategory** en de resource-organisatie-eenheid **msdyn_organizationalunit** de velden **Van toepassing op verkoop** en **Van toepassing op kosten** op **Ja** zijn ingesteld. Als deze velden zijn ingeschakeld, kunt u de prijs en kosten voor elke combinatie van rol en organisatie-eenheid instellen.
 
-Als u de prijs of kosten voor uw resources vaststelt met behulp van extra kenmerken, kunt u aangepaste velden, entiteiten en dimensies maken.
+![Schermopname van Project Service-parameters waarin 'Van toepassing op verkoop' is gemarkeerd](media/PS-OOB-parameters.png)
+
+Als u de prijs of kosten voor uw resources vaststelt met behulp van extra kenmerken, kunt u aangepaste velden, entiteiten en dimensies maken. Voor meer informatie raadpleegt u de volgende onderwerpen. 
+  
+  > [!NOTE]
+  > De procedures moeten worden voltooid in de volgorde waarin ze worden vermeld.
+
+1. [Een oplossing maken voor aangepaste prijsdimensies](../sales/create-solution-custompd.md)
+2. [Aangepaste velden en entiteiten maken](create-custom-fields-entities-pricing-dimensions.md)
+3. [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Aangepaste velden instellen als prijsdimensies ](set-up-custom-fields-pricing-dimensions.md)
+5. [Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>De prijs van personeelstijd bepalen
 Hoe een organisatie de prijs van personeelstijd bepaalt, is vaak een belangrijke strategische overweging die rechtstreeks van invloed is op de winstgevendheid van de organisatie. Werk samen met de financiële teams en groepshoofden wanneer uw organisatie klaar is om te bepalen hoe zij facturerings- en kostentarieven voor personeelstijd wil instellen.

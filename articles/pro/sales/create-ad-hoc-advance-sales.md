@@ -1,5 +1,5 @@
 ---
-title: Een ad-hocvoorschot maken voor een contract - lite
+title: Een ad-hocvoorschot maken voor een contract
 description: Dit onderwerp bevat informatie over het maken van een voorschot op een contract als dat nodig is.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181356"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595950"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Een ad-hocvoorschot maken voor een contract - lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Een ad-hocvoorschot maken voor een contract
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 Microsoft Dynamics 365 Project Operations ondersteunt factureringsscenario's met vooruitbetalingen en voorschotten. Het proces voor het gebruik van **Vooruitbetalingen** in **Project Operations** is vergelijkbaar met contracten met **Voorschotten**. 
 

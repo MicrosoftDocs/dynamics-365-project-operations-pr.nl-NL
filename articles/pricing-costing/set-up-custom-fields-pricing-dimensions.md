@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119412"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650198"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Aangepaste velden instellen als prijsdimensies
 
@@ -41,9 +41,15 @@ Dit onderwerp bevat informatie over het instellen van aangepaste prijsdimensies.
 Als u een veld wilt laten fungeren als een prijsdimensie, moet het voldoen aan de volgende voorwaarden:
 
 - Het is gemaakt als een veld in de entiteiten **Rolprijs** en **Opslag voor rolprijs**. Meer informatie over hoe u dit doet, vindt u in [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](add-custom-fields-price-setup-transactional-entities.md).
+
 - Het is gemaakt als een rij in de tabel **Prijsdimensie**. Voeg bijvoorbeeld prijsdimensierijen toe zoals weergegeven in de volgende afbeelding. 
 
+![Rijen in Op bedrag gebaseerde prijsdimensies](media/Amt-based-PD.png)
+
 Werkuren van resource (**msdyn_resourceworkhours**) is toegevoegd als een op toeslag gebaseerde dimensie en is toegevoegd aan het raster op het tabblad **Op opslag gebaseerde prijsdimensie**.
+
+![Rijen in Op opslag gebaseerde prijsdimensies](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Elke wijziging in de prijsdimensiegegevens in deze tabel, of dit nu bestaande of nieuwe gegevens zijn, wordt alleen doorgevoerd in de bedrijfslogica voor prijzen nadat de cache is vernieuwd. Het kan tot 10 minuten duren totdat de cache is vernieuwd. Wacht zo lang om de wijzigingen in de logica voor standaardwaarden voor prijzen te zien, die moet resulteren uit wijzigingen in de gegevens van de prijsdimensie.

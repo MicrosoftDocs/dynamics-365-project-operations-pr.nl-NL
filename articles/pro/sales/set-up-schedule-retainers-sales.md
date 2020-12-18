@@ -1,5 +1,5 @@
 ---
-title: Een voorschotschema instellen - lite
+title: Een voorschotschema instellen
 description: Dit onderwerp bevat informatie over hoe u een voorschotschema in Project Operations instelt.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181266"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596366"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Een voorschotschema instellen - lite
+# <a name="set-up-a-retainer-schedule"></a>Een voorschotschema instellen
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 Voorschotschema's worden opgesteld op de pagina **Projectcontract** in Dynamics 365 Project Operations.
 

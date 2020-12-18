@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130977"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590895"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
 
@@ -49,6 +49,8 @@ Wanneer een aangepaste prijsdimensie is gebaseerd op een optieset, voegt u deze 
 > [!IMPORTANT]
 > Wanneer u een veld aan meer dan één entiteit toevoegt, gebruikt u dezelfde veldnaam voor alle entiteiten. 
 
+> ![Werklocatie van resource toevoegen aan Rolprijs](media/RWL-Field.png)
+
 In de verkoop- en schattingsfasen voor een project worden schattingen van de werkinspanning die is vereist om werk **Lokaal** en **Op locatie** te voltooien, in **Reguliere uren** en **Overuren** gebruikt om de waarde van de prijsopgave of het project te schatten. De velden **Werklocatie van resource** en **Werkuren van resource** worden toegevoegd aan de schattingsentiteiten **Details van prijsopgaveregel**, **Details van contractregel**, **Projectteamlid** en **Schattingsregel**.
 
 1. Selecteer in Project Operations de opties **Instellingen** > **Oplossingen** en dubbelklik vervolgens op **\<your organization name> prijsdimensies**. 
@@ -58,6 +60,8 @@ In de verkoop- en schattingsfasen voor een project worden schattingen van de wer
 5. Selecteer **Een bestaande optieset gebruiken** en **Werklocatie van resource** en selecteer vervolgens **Opslaan**.
 6. Herhaal de stappen 1-5 om dit veld toe te voegen aan de entiteiten **Details van projectcontractregels**, **Projectteamlid** en **Schattingsregel**.
 7. Herhaal de stappen 1-6 voor de optieset **Werkuren van resource**. 
+
+> ![Werklocatie van resource toevoegen aan Schattingsregel](media/RWL-Default-Value.png)
 
 Voor de levering en facturering moet voltooid werk nauwkeurig worden geprijsd en daarom moeten gebruikers kunnen selecteren of het werk **Lokaal** of **Op locatie** is uitgevoerd en of het is voltooid tijdens **Reguliere uren** of **Overuren** om de werkelijke waarden van het project te verkrijgen. De velden **Werklocatie van resource** en **Werkuren van resource** moeten worden toegevoegd aan de entiteiten **Tijdsvermelding**, **Werkelijk**, **Factuurregeldetail** en **Journaalregel**.
 
@@ -69,6 +73,8 @@ Voor de levering en facturering moet voltooid werk nauwkeurig worden geprijsd en
 6. Herhaal de stappen 1-5 om dit veld toe te voegen aan de entiteiten **Werkelijk**, **Factuurregeldetail** en **Journaalregel**.
 7. Herhaal de stappen 1-6 voor de optieset **Werkuren van resource**. 
 
+> ![Werklocatie van resource toevoegen aan Tijdsvermelding](media/RWL-time-entry.png)
+
 Hiermee zijn de schemawijzigingen voltooid die zijn vereist voor aangepaste dimensies op basis van een optieset.
 
 ## <a name="entity-based-custom-pricing-dimensions"></a>Aangepaste prijsdimensies op basis van entiteit
@@ -79,6 +85,8 @@ Wanneer de aangepaste prijsdimensie een entiteit is, voegt u 1:N-relaties toe tu
 2. Selecteer in Solution Explorer in het linkernavigatiedeelvenster **Entiteiten > Standaardtitel**.
 3. Vouw de entiteit **Standaardtitel** uit en selecteer **1:N-relaties**.
 4. Selecteer **Nieuw** om een nieuwe 1: N-relatie te maken met de naam **Standaardtitel naar boekbare resource**. Geef de vereiste informatie op en selecteer vervolgens **Opslaan**.
+
+> ![Standaardtitel toevoegen als een verwijzingsveld aan Boekbare resource](media/ST-BR.png)
 
 De standaardtitel moet ook worden toegevoegd aan de prijsentiteiten **Rolprijs** en **Opslag voor rolprijs**. Dit wordt ook uitgevoerd met 1:N-relaties tussen de entiteiten **Standaardtitel** en **Rolprijs** en **Standaardtitel** en **Opslag voor rolprijs**.
 
@@ -96,9 +104,13 @@ In de verkoop- en schattingsfasen voor het project zijn schattingen van de werki
 
 5. Herhaal de stappen 1-5 om 1:N-relaties te maken van **Standaardtitel** naar **Details van prijsopgaveregel**, **Details van projectcontractregels,** **Projectteamlid** en **Schattingsregel**.
 
+> ![Standaardtitel toevoegen als een verwijzingsveld aan Schattingsregel](media/ST-Estimate-Line.png)
+
   In de leverings- en factureringsfasen moet het werk dat door elke standaardtitel is voltooid, nauwkeurig worden geprijsd om de werkelijke waarden van het project te verkrijgen. Dit betekent dat er 1:N-relaties moeten zijn van **Standaardtitel** naar de entiteiten **Tijdsvermelding**, **Werkelijk**, **Factuurregeldetail** en **Journaalregel**.
 
 6. Herhaal de stappen 1-6 om 1:N-relaties te maken van **Standaardtitel** naar de entiteiten **Tijdsvermelding**, **Werkelijk**, **Factuurregeldetail** en **Journaalregel**.
+
+> ![Standaardtitel toevoegen als een verwijzingsveld aan Tijdsvermelding](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Standaarddimensiewaarden instellen met de toewijzingsfuncties van het platform
 Voor de tijdsvermelding is het handig als het systeem standaard voor Tijdsvermelding de standaardtitel gebruikt van de boekbare resource die de tijdsvermelding vastlegt. Neem de volgende stappen om veldtoewijzingen toe te voegen aan de 1:N-relatie van **Boekbare resource** naar **Tijdsvermelding**.
@@ -107,6 +119,8 @@ Voor de tijdsvermelding is het handig als het systeem standaard voor Tijdsvermel
 2. Vouw de entiteit **Standaardtitel** uit en selecteer **1:N-relaties**.
 3. Dubbelklik op **Boekbare resource naar Tijdsvermelding**. Selecteer op de pagina **Relatie** de optie **Veldtoewijzingen gebruiken**. 
 4. Selecteer **Nieuw** om een nieuwe veldtoewijzing te maken tussen het veld **Standaardtitel** van de entiteit **Boekbare resource** naar het verwijzingsveld **Standaardtitel** van de entiteit **Tijdsvermelding**. 
+
+> ![Veldtoewijzingen instellen om te zorgen dat standaard de Standaardtitel van Boekbare resource wordt gebruikt voor Tijdsvermelding](media/ST-Mapping2.png)
 
 Hiermee zijn de schemawijzigingen voltooid die zijn vereist voor aangepaste dimensies op basis van entiteit.
 

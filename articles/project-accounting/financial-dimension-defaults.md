@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: aa6771ba5346fd4133b82c3e670badfa7655299f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131877"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642357"
 ---
 # <a name="financial-dimension-defaults"></a>Standaardwaarden voor financiële dimensies
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Operations gebruikt het raamwerk [Financiële dimensies](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) in Dynamics 365 Finance om aanvullende inzichten te bieden in projecttransacties in subadministratie en grootboek.
 
@@ -32,7 +34,7 @@ Standaardinstellingen voor klantdimensies worden opgegeven in Finance. Voer de v
 
 ## <a name="define-default-financial-dimensions-for-project-contracts"></a>Financiële standaarddimensies voor projectcontracten definiëren
 
-Projectcontracten worden aangemaakt en onderhouden in Common Data Service (CDS). Boekhoudkundige kenmerken voor projectcontracten worden ingesteld in de module **Projectbeheer en financiële administratie** in Finance.
+Projectcontracten worden aangemaakt en onderhouden in Common Data Service (CDS). Boekhoudkundige kenmerken voor projectcontracten worden ingesteld in de module **Projectbeheer en boekhouding** in Finance.
 
 ### <a name="set-financial-dimensions-for-a-project-funding-source"></a>Financiële dimensies instellen voor een financieringsbron voor een project
 
@@ -52,9 +54,9 @@ Deze standaardwaarden worden gebruikt voor gerelateerde projecttransacties op re
 
 ## <a name="define-default-financial-dimensions-for-projects"></a>Financiële standaarddimensies voor projecten definiëren
 
-Projecten worden aangemaakt en onderhouden in CDS. Boekhoudkundige kenmerken voor projecten worden ingesteld in de module **Projectbeheer en financiële administratie** in Finance.
+Projecten worden aangemaakt en onderhouden in CDS. Boekhoudkundige kenmerken voor projecten worden ingesteld in de module **Projectbeheer en boekhouding** in Finance.
 
-1. Ga naar **Projectbeheer en financiële administratie** > **Projecten** > **Alle projecten**.
+1. Ga naar **Projectbeheer en boekhouding** > **Projecten** > **Alle projecten**.
 2. Selecteer de record die u wilt bijwerken en selecteer op het tabblad **Project** de optie **Standaardboekhouding weergeven**.
 3. Vouw **Gerelateerde informatie** uit en selecteer het tabblad **Instellen**.
 4. Stel de standaardwaarden voor financiële dimensies in. Merk op dat de financiële dimensies standaard afkomstig zijn van de klantrekening. Als het project is gekoppeld aan een contractregel met meerdere projectcontractklanten, wordt de primaire klant gebruikt om de financiële standaarddimensies te bepalen.

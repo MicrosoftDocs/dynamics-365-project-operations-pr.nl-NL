@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129672"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642762"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Werk plannen in Microsoft Project met de invoegtoepassing Project Service Automation
 
@@ -92,7 +92,7 @@ Het project wordt geïmporteerd in [!INCLUDE[pn_project_service_auto](../include
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-diagram**   | Importbewerkingen in het [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] scherm **Structuur voor werkspecificatie**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resourceblad** |   Importbewerkingen in het [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] scherm **Projectteamleden**.   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gebruik gebruiken**    |    Importbewerkingen in het [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] scherm **Projectschattingen**.     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gebruik gebruiken**    |    Importbewerkingen in het scherm [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projectschattingen**.     |
 
 **Uw project importeren en publiceren**  
 1. Klik op het tabblad **Project Service** op **Publiceren** > **Nieuw Project Service Automation-project**.  
@@ -173,6 +173,59 @@ Het project wordt geïmporteerd in [!INCLUDE[pn_project_service_auto](../include
 4. Klik op **Publiceren**.  
 
 Wanneer het Project-bestand aan [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] wordt gekoppeld, wordt het Project-bestand het hooftbestand en wordt de structuur voor werkspecificatie in de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-sjabloon ingesteld op alleen-lezen.  Als u wijzigingen wilt aanbrengen in het projectplan, moet u dat doen in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] en deze als updates publiceren naar [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Een schema geladen met resources lezen
+
+Bij het lezen van een project vanuit Project Service Automation, wordt de agenda van de resource niet gesynchroniseerd met de desktopclient. Als er verschillen zijn in de duur, de inspanning of het einde van de taak, komt dat waarschijnlijk doordat de resources en de desktopclient niet dezelfde kalender voor werkuursjablonen hebben die op het project zijn toegepast.
+
+
+## <a name="data-synchronization"></a>Gegevenssynchronisatie
+
+In de volgende tabel wordt beschreven hoe gegevens worden gesynchroniseerd tussen Project Service Automation en de Microsoft Project-desktopinvoegtoepassing.
+
+| **Entiteit** | **Veld** | **Microsoft Project met Project Service Automation** | **Project Service Automation met Microsoft Project** |
+| --- | --- | --- | --- |
+| Projecttaak | Vervaldatum | ● | - |
+| Projecttaak | Geschatte inspanning | ● | - |
+| Projecttaak | Id van MS Project Client | ● | - |
+| Projecttaak | Bovenliggende taak | ● | - |
+| Projecttaak | Project | ● | - |
+| Projecttaak | Projecttaak | ● | - |
+| Projecttaak | Naam van projecttaak | ● | - |
+| Projecttaak | Resource-eenheid (Afgeschaft in v3.0) | ● | - |
+| Projecttaak | Geplande duur | ● | - |
+| Projecttaak | Begindatum | ● | - |
+| Projecttaak | Id van structuur van werkspecificatie | ● | - |
+
+| **Entiteit** | **Veld** | **Microsoft Project met Project Service Automation** | **Project Service Automation met Microsoft Project** |
+| --- | --- | --- | --- |
+| Teamlid | Id van MS Project Client | ● | - |
+| Teamlid | Naam van positie | ● | - |
+| Teamlid | project | ● | ● |
+| Teamlid | Projectteam | ● | ● |
+| Teamlid | Resource-eenheid | - | ● |
+| Teamlid | - Rol | - | ● |
+| Teamlid | Werkuren | Niet gesynchroniseerd | Niet gesynchroniseerd |
+
+| **Entiteit** | **Veld** | **Microsoft Project met Project Service Automation** | **Project Service Automation met Microsoft Project** |
+| --- | --- | --- | --- |
+| Resourcetoewijzing | Begindatum | ● | - |
+| Resourcetoewijzing | Uur | ● | - |
+| Resourcetoewijzing | Id van MS Project Client | ● | - |
+| Resourcetoewijzing | Gepland werk | ● | - |
+| Resourcetoewijzing | Project | ● | - |
+| Resourcetoewijzing | Projectteam | ● | - |
+| Resourcetoewijzing | Resourcetoewijzing | ● | - |
+| Resourcetoewijzing | Opdracht | ● | - |
+| Resourcetoewijzing | Datum tot | ● | - |
+
+| **Entiteit** | **Veld** | **Microsoft Project met Project Service Automation** | **Project Service Automation met Microsoft Project** |
+| --- | --- | --- | --- |
+| Afhankelijkheden van projecttaken | Afhankelijkheid van projecttaken | ● | - |
+| Afhankelijkheden van projecttaken | Type koppeling | ● | - |
+| Afhankelijkheden van projecttaken | Voorgaande taak | ● | - |
+| Afhankelijkheden van projecttaken | Project | ● | - |
+| Afhankelijkheden van projecttaken | Volgende taak | ● | - |
 
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)

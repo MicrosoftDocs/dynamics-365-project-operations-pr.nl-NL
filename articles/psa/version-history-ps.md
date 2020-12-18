@@ -2,8 +2,9 @@
 title: Updatereleaseschema voor Project Service 3.x
 description: Dit onderwerp biedt informatie over de beschikbare en aankomende releases van Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 11/01/2020
+ms.date: 12/07/2020
 ms.reviewer: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -23,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf1203884cb4e49e0982bffb3092730122b2be9c
-ms.sourcegitcommit: 2848a8a654df601911593da8e2f9b6ffd6adc702
+ms.openlocfilehash: 8e9a29b05e07bb59ade00c8f4acdf0275538d5bd
+ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "4404809"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689449"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Updatereleaseschema voor Project Service 3.x
 
@@ -36,7 +37,7 @@ ms.locfileid: "4404809"
 
 | Oplossing  | Nieuwste versie |
 |-------|----|
-| Project Service Automation    | 3.10.43.76 |
+| Project Service Automation    | 3.10.44.59 |
 | Invoegtoepassing voor Project Service Automation-bureaublad                | 3.15          |
 
 Meer informatie over updates voor Project Service vindt u in [Releaseplannen voor Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -44,27 +45,27 @@ Meer informatie over updates voor Project Service vindt u in [Releaseplannen voo
 | Station  | Regio | Huidige versie | Volgende versie |  Geplande datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>Eerste versie</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 20 november 2020
+| | <i>Eerste versie</i> | [3.10.44.59](whats-new-ur-26.md) | N.t.b. | 8 januari 2021
 |<strong>Station 2</strong> | |  |  | |
-| | <i>Zuid-Amerika</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 27 november 2020
-| | <i>Canada</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 27 november 2020 
-| | <i>India</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 27 november 2020
-| | <i>Frankrijk</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 27 november 2020
-| | <i>Verenigde Arabische Emiraten</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 27 november 2020
-| | <i>Zuid-Afrika</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 27 november 2020
-| | <i>Duitsland</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 27 november 2020
+| | <i>Zuid-Amerika</i> | [3.10.44.59](whats-new-ur-26.md) | N.t.b. | 15 januari 2021
+| | <i>Canada</i> | [3.10.44.59](whats-new-ur-26.md) | N.t.b. | 15 januari 2021
+| | <i>India</i> | [3.10.44.59](whats-new-ur-26.md) | N.t.b. | 15 januari 2021
+| | <i>Frankrijk</i> | [3.10.44.59](whats-new-ur-26.md) | N.t.b. | 15 januari 2021
+| | <i>Verenigde Arabische Emiraten</i> | [3.10.44.59](whats-new-ur-26.md) | N.t.b. | 15 januari 2021
+| | <i>Zuid-Afrika</i> | [3.10.44.59](whats-new-ur-26.md) | N.t.b. | 15 januari 2021
+| | <i>Duitsland</i> | [3.10.44.59](whats-new-ur-26.md) | N.t.b. | 15 januari 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 11 december 2020
-| | <i>Azië en Stille Oceaan</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 11 december 2020
-| | <i>Groot-Brittannië</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 11 december 2020
-| | <i>Oceanië</i> | [3.10.43.76](whats-new-ur-25.md) | N.t.b. | 11 december 2020
+| | <i>Japan</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 december 2020
+| | <i>Azië en Stille Oceaan</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 december 2020
+| | <i>Groot-Brittannië</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 december 2020
+| | <i>Oceanië</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 december 2020
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europa</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 13 november 2020
+| | <i>Europa</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 18 december 2020
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Noord-Amerika</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 november 2020
+| | <i>Noord-Amerika</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8 januari 2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 november 2020
-| | <i>Speciale schaalgroepen</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 27 november 2020
+| | <i>Government Community Cloud</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8 januari 2021
+| | <i>Speciale schaalgroepen</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 15 januari 2021
 
 >[!Note]
 > - Datums in alle regio's behalve Government Community Cloud (GCC) geven aan wanneer de volgende automatische update plaatsvindt. Datums in GCC geven de beschikbaarheid van de versie aan; op dit moment is er geen automatische update voor deze regio's.

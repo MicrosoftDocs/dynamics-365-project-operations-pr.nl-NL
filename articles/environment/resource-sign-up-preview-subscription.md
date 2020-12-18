@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121122"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642946"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Aanmelden voor preview-abonnementen op Project Operations voor scenario's voor resources/niet-voorradige artikelen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dit onderwerp geeft aan hoe u zich abonneert op de preview-/partneraanbieding en hoe u de Project Operations-omgeving implementeert voor scenario's op basis van resources/niet-voorradige artikelen.
 
@@ -42,7 +44,7 @@ Wanneer uw [preview-aanvraag](https://forms.office.com/FormsPro/Pages/ResponsePa
 
 Voordat u begint, moet u ervoor zorgen dat u bent aangemeld bij een browser met de werkaccount van de gebruiker in de gewenste tenant voor de preview van Project Operations.
 
-1. Wissel de eerste aanbiedingscode in, **Dynamics 365 Project Operations (CRM) - proefversie van preview** door deze in de browser-URL te plakken.
+1. Wissel de eerste aanbiedingscode **Dynamics 365 Project Operations (CRM) - proefversie voor preview** in door de in de browser-URL te plakken.
 
 ![Aanbieding inwisselen](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Herhaal dezelfde stappen met de laatste aanbieding uit de welkomstmail.
 
 ![Licenties toewijzen](./media/15AssignLicenses.png)
 
-3. Controleer of de licenties **Dynamics 365 Project Operations (CRM) - preview** en **Office 365 Project Operations - preview** zijn geselecteerd en selecteer **Wijzigingen opslaan**.
+3. Controleer of de licentie voor **Dynamics 365 Project Operations (CRM) Preview** en **Office 365 Project Operations - Preview** is geselecteerd en selecteer **Wijzigingen opslaan**.
 
 > [!NOTE]
 > De Finance-proefaanbieding hoeft niet aan een gebruiker te worden toegewezen.

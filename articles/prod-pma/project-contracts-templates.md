@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074698"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642627"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren met Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In dit onderwerp worden de sjabloon en onderliggende taken beschreven die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Dynamics 365 Project Service Automation te synchroniseren met Dynamics 365 Finance.
 
@@ -95,11 +97,11 @@ Mijlpalen voor projectcontractregels worden beheerd in Project Service Automatio
 
 Het veld **Projectcontract-id** is beschikbaar op de pagina **Projectcontracten**. Dit veld is tot een natuurlijke en unieke sleutel gemaakt ter ondersteuning van de integratie.
 
-Wanneer een nieuw projectcontract wordt gemaakt en er bestaat nog geen waarde voor **Projectcontract-id** , wordt deze wordt automatisch gegenereerd door een nummerreeks te gebruiken. De waarde bestaat uit **ORD** gevolgd door een oplopende cijferreeks en vervolgens een achtervoegsel van zes tekens. Hier volgt een voorbeeld: **ORD-01022-Z4M9Q0**.
+Wanneer een nieuw projectcontract wordt gemaakt en er bestaat nog geen waarde voor **Projectcontract-id**, wordt deze wordt automatisch gegenereerd door een nummerreeks te gebruiken. De waarde bestaat uit **ORD** gevolgd door een oplopende cijferreeks en vervolgens een achtervoegsel van zes tekens. Hier volgt een voorbeeld: **ORD-01022-Z4M9Q0**.
 
 Het veld **Projectnummer** is beschikbaar op de pagina **Projecten**. Dit veld is tot een natuurlijke en unieke sleutel gemaakt ter ondersteuning van de integratie.
 
-Wanneer een nieuw projectcontract wordt gemaakt en er bestaat nog geen waarde voor **Projectnummer** , wordt deze wordt automatisch gegenereerd door een nummerreeks te gebruiken. De waarde bestaat uit **PRJ** gevolgd door een oplopende cijferreeks en vervolgens een achtervoegsel van zes tekens. Hier volgt een voorbeeld: **PRJ-01049-CCNID0**.
+Wanneer een nieuw projectcontract wordt gemaakt en er bestaat nog geen waarde voor **Projectnummer**, wordt deze wordt automatisch gegenereerd door een nummerreeks te gebruiken. De waarde bestaat uit **PRJ** gevolgd door een oplopende cijferreeks en vervolgens een achtervoegsel van zes tekens. Hier volgt een voorbeeld: **PRJ-01049-CCNID0**.
 
 Wanneer de integratieoplossing voor Project Service Automation met Finance wordt toegepast, stelt een upgradescript het veld **Projectcontract-id** voor bestaande projectcontracten en het veld **Projectnummer** in voor bestaande projecten in Project Service Automation.
 
@@ -133,9 +135,9 @@ Volg deze richtlijnen als u Power Query moet gebruiken:
 ## <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
 
 > [!NOTE] 
-> De velden **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** en **AddressZipCode** zijn niet opgenomen in de standaardtoewijzing voor projectcontracten. U kunt de toewijzingen toevoegen als u wilt dat deze gegevens worden gesynchroniseerd voor projectcontracten.
+> De velden **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** en **AddressZipCode** zijn niet opgenomen in de standaardtoewijzing voor projectcontracten. U kunt de toewijzingen toevoegen als u wilt dat deze gegevens worden gesynchroniseerd voor projectcontracten.
 >
-> De velden **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** en **ProjectType** zijn niet opgenomen in de standaardtoewijzing voor projecten. U kunt de toewijzingen toevoegen als u wilt dat deze gegevens worden gesynchroniseerd voor projecten.
+> De velden **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** en **ProjectType** zijn niet opgenomen in de standaardtoewijzing voor projecten. U kunt de toewijzingen toevoegen als u wilt dat deze gegevens worden gesynchroniseerd voor projecten.
 
 De volgende afbeeldingen laten voorbeelden zien van de toewijzingen van sjabloontaken in Gegevensintegratie. De toewijzing toont de veldinformatie die wordt gesynchroniseerd van Project Service Automation naar Finance.
 

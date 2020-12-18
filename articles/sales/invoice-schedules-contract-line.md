@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180771"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513918"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Een factuurschema maken voor een projectgebaseerde contractregel 
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een op mijlpalen gebaseerd factuurschema te gene
 3. Open de contractregel **Vaste prijs** waarvoor u het mijlpaalschema maakt. Selecteer op het tabblad **Factureringsmijlpalen** de begindatum van de facturering en de factuurfrequentie. 
 4. Selecteer in het subraster **Periodieke mijlpalen genereren**. Het factuurschema wordt gegenereerd terwijl de velden **Mijlpaalnaam**, **Mijlpaaldatum** en **Mijlpaalbedrag** als volgt zijn ingesteld:
 
-    - **Mijlpaalnaam**: deze datum wordt bepaald door de factuurfrequentie.
+    - **Mijlpaalnaam**: deze naam wordt bepaald door de factuurfrequentie.
     - **Mijlpaaldatum**: deze datum wordt bepaald door de factuurfrequentie.
     - **Mijlpaalbedrag**: dit bedrag wordt berekend door het contractbedrag op de contractregel te delen door het aantal mijlpalen zoals bepaald door de frequentie, het begin van de facturering en de aangevraagde leveringsdatums.
 

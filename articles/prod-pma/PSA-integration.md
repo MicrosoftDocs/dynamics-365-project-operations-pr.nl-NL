@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074705"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642447"
 ---
 # <a name="project-service-automation-overview"></a>Overzicht van Project Service Automation
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 De integratieoplossing van Project Service Automation naar Finance gebruikt de functie Gegevensintegratie om gegevens tussen exemplaren van Dynamics 365 Finance en Dynamics 365 Project Service Automation via Common Data Service te synchroniseren. De integratiesjablonen die beschikbaar zijn met de functie Gegevensintegratie maken de stroom van projecten, projectcontracten, projectcontractregels en mijlpalen voor projectcontractregels, projecttaken, onkostentransactiecategorieën, uurschattingen en onkostenschattingen vanuit Project Service Automation naar Finance mogelijk.
 

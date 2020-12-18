@@ -1,5 +1,5 @@
 ---
-title: Vooruitbetalingen en op voorschot gebaseerde contracten - lite
+title: Vooruitbetalingen en op voorschot gebaseerde contracten
 description: Dit onderwerp bevat informatie over contractmodellen op basis van voorschotten en vooruitbetalingen in Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180861"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596096"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Vooruitbetalingen en op voorschot gebaseerde contracten - lite
+# <a name="advances-and-retainer-based-contracts"></a>Vooruitbetalingen en op voorschot gebaseerde contracten
 
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Dynamics 365 Project Operations ondersteunt contracten op basis van voorschotten. Een contract op basis van voorschotten omvat een afgesproken reeks gelijk verdeelde betalingen waarvoor de klant gedurende de duur van een project wordt gefactureerd. Dit type contract wordt doorgaans gebruikt voor factureringsmodellen op basis van tijd en materiaal of verbruik, waarbij de klant een voorspelbaar factuur- en betalingsschema nodig heeft. De werkelijke omzet die in elke periode wordt opgebouwd, worden afgestemd met de betaling die aan het begin van de periode van de klant is ontvangen. In overeenstemming met het concept van het factureringsmodel voor tijd en materiaal, kunnen de in elke periode opgebouwde omzetwaarden variëren met de gemaakte kosten. Als de totale omzet hoger is dan het bedrag dat aan het begin van de periode is ontvangen, kan de projectleverancier:
+Dynamics 365 Project Operations ondersteunt op voorschot gebaseerde contracten. Een contract op basis van voorschotten omvat een afgesproken reeks gelijk verdeelde betalingen waarvoor de klant gedurende de duur van een project wordt gefactureerd. Dit type contract wordt doorgaans gebruikt voor factureringsmodellen op basis van tijd en materiaal of verbruik, waarbij de klant een voorspelbaar factuur- en betalingsschema nodig heeft. De werkelijke omzet die in elke periode wordt opgebouwd, worden afgestemd met de betaling die aan het begin van de periode van de klant is ontvangen. In overeenstemming met het concept van het factureringsmodel voor tijd en materiaal, kunnen de in elke periode opgebouwde omzetwaarden variëren met de gemaakte kosten. Als de totale omzet hoger is dan het bedrag dat aan het begin van de periode is ontvangen, kan de projectleverancier:
 
 - De klant alleen factureren voor het overschot 
 - De afstemming van de omzet uitstellen tot de volgende factureringsperiode en aan het einde van het project een laatste factuur opstellen voor eventuele resterende niet-afgestemde inkomsten

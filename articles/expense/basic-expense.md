@@ -3,17 +3,17 @@ title: Onkostenpost (Lite)
 description: Dit onderwerp biedt informatie over het werken met onkosteninvoer in een Lite-implementatie.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121077"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590940"
 ---
 # <a name="expense-entry-lite"></a>Onkostenpost (Lite)
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
 Eenvoudig, of Lite, onkostenbeheer is de mogelijkheid om eenvoudige onkosten vast te leggen. U kunt onkosten voor een project boeken waarna de projectfiatteur deze beoordeelt en goedkeurt.
 
-Zie [Onkostenoverzicht](expense-overview.md) voor meer informatie over mogelijkheden voor onkosten in Dynamics 365 Project Operations.
+Meer informatie over onkostenfuncties in Dynamics 365 Project Operations vindt u in [Onkostenoverzicht](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Eenvoudige onkosten vastleggen
 
@@ -36,6 +36,10 @@ Nadat u al uw onkosten hebt vastgelegd en klaar bent om deze te laten goedkeuren
 
 1. Ga naar **Onkosten** en selecteer een item. Of selecteer alle onkosten met behulp van het selectievakje in de koptekst.
 2. Selecteer **Indienen**. De geselecteerde items worden verwerkt en vervolgens worden er aanvragen voor onkostengoedkeuring gemaakt.
+
+## <a name="add-an-attachment"></a>Een bijlage toevoegen
+
+Mogelijk moet u de fiatteur aanvullende documentatie over uw onkosten verstrekken. U kunt een ontvangstbewijs bijvoegen in de tijdlijn van de onkosteninvoer. Selecteer **Bewerken** in de sectie **Tijdlijn** en selecteer vervolgens het paperclippictogram om uw ontvangstbewijs bij te voegen.
 
 ## <a name="recall-a-basic-expense"></a>Eenvoudige onkosten intrekken
 

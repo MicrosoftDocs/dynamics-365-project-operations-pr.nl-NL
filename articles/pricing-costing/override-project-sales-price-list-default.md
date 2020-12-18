@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130842"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672225"
 ---
 # <a name="override-project-sales-price-lists"></a>Verkoopprijslijsten voor project overschrijven
 
@@ -27,7 +28,7 @@ Als u een klantspecifieke projectprijslijst wilt instellen, gaat u in het gebied
 
 1. Open de lijstpagina **Accounts**.
 2. Zoek en dubbelklik op een klantrecord om de detailpagina **Account** te openen.
-3. Selecteer op het tabblad **Projectprijslijsten** **+ Nieuwe projectprijslijst^^.
+3. Selecteer op het tabblad **Projectprijslijsten** **+ Nieuwe projectprijslijst**.
 4. Op de pagina **Nieuwe projectprijslijst** selecteert u een prijslijst in de vervolgkeuzelijst. Alleen prijslijsten waarvoor de context is ingesteld op **Verkoop** en waarvan de valuta overeenkomt met de accountvaluta zijn inbegrepen.
 5. Geef de koppeling een naam en selecteer **Opslaan**. Er wordt een klantspecifieke projectprijslijst gemaakt. Deze prijslijst wordt gebruikt om de standaardprojectprijzen te gebruiken voor projectoffertes of contracten die voor deze klant zijn gemaakt, waarbij de aanmaakdatum van de offerte of het projectcontract binnen de geldigheidsperiode van de prijslijst valt.
 

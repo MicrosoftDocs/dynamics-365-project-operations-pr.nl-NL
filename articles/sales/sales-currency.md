@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121212"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642267"
 ---
 # <a name="currency"></a>Valuta
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Valuta's bepalen de prijzen van producten in de productcatalogus en de kosten van transacties, zoals verkooporders. Als uw klanten geografisch verspreid zijn, kunt u hun valuta's toevoegen om uw transacties te beheren. Voeg de valuta's toe die het meest relevant zijn voor uw huidige en toekomstige zakelijke behoeften.  
 
