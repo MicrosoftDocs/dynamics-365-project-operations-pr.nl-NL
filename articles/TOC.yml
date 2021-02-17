@@ -24,8 +24,6 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Demogegevens toepassen
           items:
-            - name: Demogegevens toepassen op een Finance-cloudomgeving
-              href: environment/resource-apply-finance-demo-data.md
             - name: Configuratiegegevens toepassen in Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Omgevingen implementeren
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nieuwe functies
       items:
+        - name: Februari 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: Januari 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: December 2020 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: November 2020 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Vooruitbetalingen en voorschotten
               items:
-                - name: Vooruitbetalingen en op voorschot gebaseerde contracten - lite
+                - name: Vooruitbetalingen en op voorschot gebaseerde contracten
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Een voorschotschema instellen - lite
+                - name: Een voorschotschema instellen
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Een ad-hocvoorschot maken voor een contract - lite
+                - name: Een ad-hocvoorschot maken voor een contract
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prijzen en kosten berekenen
       items:
@@ -186,7 +188,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'Aangepaste velden instellen als prijsdimensies '
+                - name: Aangepaste velden instellen als prijsdimensies
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Een structuur voor werkspecificatie plannen
           items:
+            - name: Een structuur voor werkspecificatie maken
+              href: project-management/create-wbs.md
             - name: Toewijzingen maken
               href: project-management/create-assignments.md
         - name: Ramingsprojecten
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Teamleden onderhouden
               href: project-management/maintain-team-members.md
+        - name: Problemen met werken in het taakraster oplossen
+          href: project-management/projectplanningUIFAQ.md
         - name: Samenwerking
           items:
             - name: Samenwerking met Office Groepen
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: Voorgestelde resources beoordelen
               href: resource-management/review-proposed-resources.md
+            - name: Boekingen bewerken
+              href: resource-management/edit-existing-bookings.md
         - name: Gedecentraliseerde boeking van resources (hybride)
           items:
             - name: Teamleden toevoegen vanuit het raster Teamlid
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: Onkostencategorieën instellen
                   href: expense/set-up-expense-categories.md
+            - name: Werken met persoonlijke onkosten in een onkostennota
+              href: expense/personal-expenses-expense-report.md
             - name: Onkostennota's maken
               items:
                 - name: Onkosten verdelen in een onkostennota
@@ -370,22 +380,28 @@
           items:
             - name: Correctiejournalen maken en bevestigen
               href: actuals/create-confirm-correction-journals.md
-    - name: Pro-formafacturering
+    - name: Facturering
       items:
-        - name: Achterstallige facturen voor project beheren
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: De niet-overschrijdingsstatus en validaties beheren
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Handmatig een pro-formaprojectfactuur maken
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Een pro-formaprojectfactuur beheren
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Een voorschot of een vooruitbetaling factureren
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Een pro-formaprojectfactuur bevestigen
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Automatisering van projectfactuur configureren
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Overzicht van factureringsproces
+          href: invoicing/post-project-invoices.md
+        - name: Projectfactuurvoorstellen beheren
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Pro-formafacturering
+          items:
+            - name: Achterstallige facturen voor project beheren
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: De niet-overschrijdingsstatus en validaties beheren
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Handmatig een pro-formaprojectfactuur maken
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Een pro-formaprojectfactuur beheren
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Een voorschot of een vooruitbetaling factureren
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Een pro-formaprojectfactuur bevestigen
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Automatisering van projectfactuur configureren
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projectboekhouding
       items:
         - name: Standaardwaarden voor financiële dimensies
@@ -404,26 +420,26 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Intercompany-facturering configureren
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Intercompany-klant- en leveranciersfacturen maken
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Intercompany-transacties maken
               href: project-accounting/create-intercompany-transactions.md
-    - name: Inkomstenverantwoording
+            - name: Intercompany-klant- en leveranciersfacturen maken
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: Omzetverantwoording
       items:
-        - name: Overzicht van inkomstenverantwoording
+        - name: Overzicht van omzetverantwoording
           href: revenue-recognition/revenue-recognition-overview.md
-        - name: Inkomstenverantwoording instellen
+        - name: Omzetverantwoording instellen
           items:
             - name: Periodetypen instellen
               href: project-accounting/period-types.md
             - name: Kostensjablonen instellen
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Omzetschattingen beheren
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: Projecten met omzetschattingen met een vaste prijs
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Kosten om methoden te voltooien
           href: revenue-recognition/cost-complete-methods.md
+        - name: Omzetschattingen beheren
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Lite-implementatie - van deal tot pro-formafacturering
   items:
     - name: Aan de slag
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: Nieuwe functies
       items:
-        - name: Nieuwe functies van december 2020 - lite-implementatie - van deal tot pro-formafacturering
+        - name: Nieuw in februari 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: Nieuw in januari 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: Nieuw in december 2020 - lite-implementatie
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: Nieuwe functies van november 2020 - lite-implementatie - van deal tot pro-formafacturering
+        - name: Nieuw in november 2020 - lite-implementatie
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Verkoopproces voor project
       items:
@@ -612,7 +632,7 @@
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: 'Aangepaste velden instellen als prijsdimensies '
+                - name: Aangepaste velden instellen als prijsdimensies
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
                 - name: Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen
                   href: pricing-costing/update-plugin-attributes-pd.md
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Een structuur voor werkspecificatie plannen
           items:
+            - name: Een structuur voor werkspecificatie maken
+              href: project-management/create-wbs.md
             - name: Toewijzingen maken
               href: project-management/create-assignments.md
         - name: Ramingsprojecten
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Teamleden onderhouden
               href: project-management/maintain-team-members.md
+        - name: Problemen met werken in het taakraster oplossen
+          href: project-management/projectplanningUIFAQ.md
         - name: Samenwerking
           items:
             - name: Samenwerking met Office Groepen
               href: project-management/collaboration-groups.md
+        - name: Opmerkingen van de ontwikkelaar
+          items:
+            - name: Projectsjablonen ontwikkelen met Project kopiëren
+              href: project-management/dev-copy-project.md
     - name: Resourcebeheer
       items:
         - name: Belangrijke concepten
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: Voorgestelde resources beoordelen
               href: resource-management/review-proposed-resources.md
+            - name: Boekingen bewerken
+              href: resource-management/edit-existing-bookings.md
         - name: Gedecentraliseerde boeking van resources (hybride)
           items:
             - name: Teamleden toevoegen vanuit het raster Teamlid
@@ -772,6 +802,10 @@
   items:
     - name: Nieuwe functies
       items:
+        - name: Nieuwe functies van januari 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: Nieuwe functies van december 2020 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: Nieuwe functies van november 2020 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Implementatieoverzicht van Project Operations voor scenario's op basis van voorradige artikelen/productieorders
@@ -906,6 +940,14 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 28.5 Hotfix, V3'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 27.5 Hotfix, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 27, V3'
+          href: psa/whats-new-ur-27.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 26, V3'
           href: psa/whats-new-ur-26.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 25, V3'
@@ -936,7 +978,9 @@
           href: psa/whats-new-ur-13.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 12, V3'
           href: psa/whats-new-ur-12.md
-        - name: 'Wat is er nieuw of gewijzigd in Project Service Automation V3.x, wave 1 van 2020'
+        - name: 'Nieuwe of gewijzigde functies in Project Service Automation V3.x, wave 1 van 2021'
+          href: psa/whats-new-2021-wave1.md
+        - name: 'Nieuwe of gewijzigde functies in Project Service Automation V3.x, wave 1 van 2020'
           href: psa/whats-new-v3-2020-wave1.md
         - name: Wat is er nieuw of gewijzigd in Project Service Automation V3
           href: psa/whats-new-changed-v3.md
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Projectinstellingen
               href: psa/project-settings.md
+            - name: Uw werk plannen in Microsoft Project met de invoegtoepassing Project Service
+              href: psa/add-in-plan-work-projects.md
         - name: Prijs- en kostendimensies
           items:
             - name: Startpagina van Prijs- en kostendimensies
@@ -1002,7 +1048,7 @@
               href: psa/create-custom-fields-entities.md
             - name: Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
               href: psa/field-references.md
-            - name: 'Aangepaste velden instellen als prijsdimensies '
+            - name: Aangepaste velden instellen als prijsdimensies
               href: psa/set-up-pricing-dimensions.md
             - name: Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen
               href: psa/update-plug-in-attributes.md
