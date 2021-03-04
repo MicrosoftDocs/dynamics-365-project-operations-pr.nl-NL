@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074755"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148637"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Wijzigingen op het gebied van resourcebeheer (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 De secties van dit onderwerp bevatten informatie over de wijzigingen die zijn doorgevoerd in het resourcebeheer-deel van Dynamics 365 Project Service Automation versie 3.x.
 
 ## <a name="project-estimates"></a>Projectschattingen
 
-Projectschattingen zijn nu niet meer gebaseerd op de entiteit **msdyn\_projecttask** ( **Projecttaak** ), maar op de entiteit **msdyn\_resourceassignment** ( **Resourcetoewijzing** ). Resourcetoewijzingen zijn de 'bron van waarheid' geworden voor taakplanning en prijzen.
+Projectschattingen zijn nu niet meer gebaseerd op de entiteit **msdyn\_projecttask** (**Projecttaak**), maar op de entiteit **msdyn\_resourceassignment** (**Resourcetoewijzing**). Resourcetoewijzingen zijn de 'bron van waarheid' geworden voor taakplanning en prijzen.
 
 ## <a name="line-tasks"></a>Regeltaken
 
@@ -58,14 +60,14 @@ In het volgende voorbeeld ziet u hoe een taak met de naam Testtaak wordt toegewe
 
 ## <a name="unassigned-assignment"></a>Niet-toegewezen toewijzing
 
-In PSA 3.x is een niet-toegewezen toewijzing een toewijzing die is toegewezen aan een **NULL** -teamlid en een **NULL** -resource. Niet-toegewezen toewijzingen kunnen in een aantal scenario's optreden:
+In PSA 3.x is een niet-toegewezen toewijzing een toewijzing die is toegewezen aan een **NULL**-teamlid en een **NULL**-resource. Niet-toegewezen toewijzingen kunnen in een aantal scenario's optreden:
 
 - Als een taak is gemaakt maar nog niet is toegewezen aan een teamlid, wordt altijd een niet-toegewezen toewijzing gemaakt. 
 - Als alle toegewezen gebruikers van een taak worden verwijderd, wordt een niet-toegewezen toewijzing voor die taak opnieuw gemaakt.
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Planningsvelden in de entiteit Projecttaak
 
-De velden in de entiteit **msdyn\_projecttask** zijn afgeschaft of verplaatst naar de entiteit **msdyn\_resourceassignment** , of er wordt nu naar verwezen vanuit de entiteit **msdyn\_projectteam** ( **Projectteamlid** ).
+De velden in de entiteit **msdyn\_projecttask** zijn afgeschaft of verplaatst naar de entiteit **msdyn\_resourceassignment**, of er wordt nu naar verwezen vanuit de entiteit **msdyn\_projectteam** (**Projectteamlid**).
 
 | Afgeschaft veld op msdyn\_projecttask (Projecttaak) | Nieuw veld op msdyn\_resourceassignment (Resourcetoewijzing) | Opmerking |
 |---|---|---|
@@ -77,15 +79,15 @@ De velden in de entiteit **msdyn\_projecttask** zijn afgeschaft of verplaatst na
 
 ## <a name="schedule-contour"></a>Planningscontour
 
-De planningscontour is opgeslagen in het veld **Gepland werk** ( **\_msdyn plannedwork** ) van elke entiteit van het type **Resourcetoewijzing** ( **\_msdyn ResourceAssignment** ).
+De planningscontour is opgeslagen in het veld **Gepland werk** (**\_msdyn plannedwork**) van elke entiteit van het type **Resourcetoewijzing** (**\_msdyn ResourceAssignment**).
 
 ### <a name="structure"></a>Structuur
 
 De nieuwe structuur van de planningscontour bestaat uit flexibele tijdsegmenten die voor elke dag van de planning zijn gedefinieerd. Elke tijdsectie heeft de volgende eigenschappen:
 
-- **Begin** : het begin van de werkuren voor de dag, volgens de projectagenda.
-- **Eind** : het einde van de werkuren voor de dag, volgens de projectagenda.
-- **Uren** : het aantal uren dat is toegewezen op de dag.
+- **Begin**: het begin van de werkuren voor de dag, volgens de projectagenda.
+- **Eind**: het einde van de werkuren voor de dag, volgens de projectagenda.
+- **Uren**: het aantal uren dat is toegewezen op de dag.
 
 **Voorbeeld**
 
@@ -139,7 +141,7 @@ In dit voorbeeld wordt de taak toegewezen aan twee resources en automatisch gepl
 
 ## <a name="pricing-dimensions"></a>Prijsdimensies
 
-In PSA 3.x zijn resourcespecifieke dimensievelden voor prijzen (zoals **Rol** en **Organisatie-eenheid** ) verwijderd uit de entiteit **msdyn\_projecttask**. Deze velden kunnen nu worden opgehaald uit het bijbehorende projectteamlid ( **msdyn\_projectteam** ) van de resourcetoewijzing ( **msdyn\_resourceassignment** ) wanneer projectschattingen worden gegenereerd. Er is een nieuw veld, **msdyn\_organizationalunit** , toegevoegd aan de entiteit **msdyn\_projectteam**.
+In PSA 3.x zijn resourcespecifieke dimensievelden voor prijzen (zoals **Rol** en **Organisatie-eenheid**) verwijderd uit de entiteit **msdyn\_projecttask**. Deze velden kunnen nu worden opgehaald uit het bijbehorende projectteamlid (**msdyn\_projectteam**) van de resourcetoewijzing (**msdyn\_resourceassignment**) wanneer projectschattingen worden gegenereerd. Er is een nieuw veld, **msdyn\_organizationalunit**, toegevoegd aan de entiteit **msdyn\_projectteam**.
 
 | Afgeschaft veld op msdyn\_projecttask (Projecttaak) | Veld van msdyn\_projectteam (Projectteamlid) dat in plaats daarvan wordt gebruikt |
 |---|---|
@@ -155,12 +157,12 @@ De contourvelden voor prijzen en schattingen zijn afgeschaft voor de entiteit **
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-De volgende velden zijn toegevoegd aan de entiteit **msdyn\_resourceassignment** :
+De volgende velden zijn toegevoegd aan de entiteit **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-De volgende velden voor geplande, werkelijke en resterende kosten en verkopen zijn niet veranderd voor de entiteit **msdyn\_projecttask** :
+De volgende velden voor geplande, werkelijke en resterende kosten en verkopen zijn niet veranderd voor de entiteit **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
