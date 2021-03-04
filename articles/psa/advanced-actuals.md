@@ -18,17 +18,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a52e0f57f36d535b746e5379eb3910a2368355fb
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e417a24d5291fa88dee6583f11439eac0a44a574
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129402"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145712"
 ---
-# <a name="recording-actuals"></a><span data-ttu-id="b53a7-103">Werkelijke waarden vastleggen</span><span class="sxs-lookup"><span data-stu-id="b53a7-103">Recording actuals</span></span> 
+# <a name="recording-actuals"></a><span data-ttu-id="ca046-103">Werkelijke waarden vastleggen</span><span class="sxs-lookup"><span data-stu-id="ca046-103">Recording actuals</span></span> 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="b53a7-104">Alle financiële transacties die tijdens een project plaatsvinden, worden vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="b53a7-104">All financial transactions that occur during a project are recorded.</span></span> <span data-ttu-id="b53a7-105">Deze transacties worden geregistreerd als **werkelijke waarden**.</span><span class="sxs-lookup"><span data-stu-id="b53a7-105">These transactions are recorded as **actuals**.</span></span> <span data-ttu-id="b53a7-106">In de volgende tabel ziet u de verschillende typen werkelijke waarden die worden gemaakt, afhankelijk van of het project een project op basis van tijd- en materiaalverbruik, een project met een vaste prijs of een intern project is en of dit zich in de pre-salesfase bevindt.</span><span class="sxs-lookup"><span data-stu-id="b53a7-106">The following table shows the different types of actuals that are created, depending on whether the project is a time-and-material, fixed-price, or internal project, or whether it's in the presales stage.</span></span>
+<span data-ttu-id="ca046-104">Alle financiële transacties die tijdens een project plaatsvinden, worden vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="ca046-104">All financial transactions that occur during a project are recorded.</span></span> <span data-ttu-id="ca046-105">Deze transacties worden geregistreerd als **werkelijke waarden**.</span><span class="sxs-lookup"><span data-stu-id="ca046-105">These transactions are recorded as **actuals**.</span></span> <span data-ttu-id="ca046-106">In de volgende tabel ziet u de verschillende typen werkelijke waarden die worden gemaakt, afhankelijk van of het project een project op basis van tijd- en materiaalverbruik, een project met een vaste prijs of een intern project is en of dit zich in de pre-salesfase bevindt.</span><span class="sxs-lookup"><span data-stu-id="ca046-106">The following table shows the different types of actuals that are created, depending on whether the project is a time-and-material, fixed-price, or internal project, or whether it's in the presales stage.</span></span>
 
 > ![Tabel waarin wordt weergegeven hoe werkelijke waarden worden vastgelegd](media/advanced-table2.png)
