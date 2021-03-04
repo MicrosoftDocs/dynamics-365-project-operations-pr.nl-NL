@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074605"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151292"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startpagina voor prijs- en kostendimensies
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 De dimensies die worden gebruikt om arbeidsprijzen en -kosten in projectgebaseerde organisaties vast te stellen, worden beïnvloed door de volgende kenmerken:
 
@@ -33,8 +35,8 @@ De dimensies die worden gebruikt om arbeidsprijzen en -kosten in projectgebaseer
 
 Gezien de typische aard van deze kenmerken van het werk en de mensen die nodig zijn om het werk uit te voeren, zijn er twee soorten prijsdimensiewaarden beschikbaar in Project Service Automation: 
 
-- **Optiesets** : kenmerken die vaste opsommingen voor een set waarden zijn.
-- **Op entiteiten gebaseerde waarden** : kenmrken die een gevarieerde reeks waarden kunnen hebben die eindig zijn, maar in de loop van de tijd kunnen veranderen.
+- **Optiesets**: kenmerken die vaste opsommingen voor een set waarden zijn.
+- **Op entiteiten gebaseerde waarden**: kenmrken die een gevarieerde reeks waarden kunnen hebben die eindig zijn, maar in de loop van de tijd kunnen veranderen.
 
 ## <a name="pricing-dimensions"></a>Prijsdimensies
 
@@ -55,7 +57,7 @@ Als u de prijs of kosten voor uw resources vaststelt met behulp van extra kenmer
 ## <a name="pricing-human-resource-time"></a>De prijs van personeelstijd bepalen
 Hoe een organisatie de prijs van personeelstijd bepaalt, is vaak een belangrijke strategische overweging die rechtstreeks van invloed is op de winstgevendheid van de organisatie. Werk samen met de financiële teams en groepshoofden wanneer uw organisatie klaar is om te bepalen hoe zij facturerings- en kostentarieven voor personeelstijd wil instellen.
 
-Een andere overweging voor de prijsbepaling is onder andere de vraag of u velden of entiteiten die momenteel geen prijsdimensies zijn, opnieuw wilt gebruiken, maar ze dan wilt toepassen als een prijsdimensie voor uw organisatie. Velden, zoals **Transactiecategorie** ( **msdyn_transactioncategory** ) en **Boekbare resource** ( **bookableresource** ), zijn voorbeelden van mogelijk geschikte dimensies. 
+Een andere overweging voor de prijsbepaling is onder andere de vraag of u velden of entiteiten die momenteel geen prijsdimensies zijn, opnieuw wilt gebruiken, maar ze dan wilt toepassen als een prijsdimensie voor uw organisatie. Velden, zoals **Transactiecategorie** (**msdyn_transactioncategory**) en **Boekbare resource** (**bookableresource**), zijn voorbeelden van mogelijk geschikte dimensies. 
 
 Overweeg ook of uw prijsdimensie een tabel of een optieset moet zijn. Als u verwacht dat u meer dan 10 of 12 wijzigingen in de waarden van een dimensie moet aanbrengen en u aanvullende kenmerken voor deze waarden nodig hebt, maakt u een entiteit in plaats van een optieset. Voor het onderhouden van een optieset, zoals het toevoegen of verwijderen van waarden, is een beheerder of ontwikkelaar vereist, terwijl het toevoegen van nieuwe rijen aan een tabel kan worden gedaan door de meeste zakelijke gebruikers.
 
