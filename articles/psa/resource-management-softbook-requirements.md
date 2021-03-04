@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124092"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147377"
 ---
 # <a name="soft-book-requirements"></a>Vereisten zacht boeken
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Een resourcevereiste kan hard worden geboekt. Een harde boeking maakt een voorstel aan, waardoor de capaciteit van een resource wordt verbruikt. Het voorstel wordt vervolgens ter goedkeuring teruggestuurd naar de aanvrager. Een zachte boeking voegt een resource voorlopig toe aan een projectteam en heeft een andere status op het planbord, maar verbruikt niet de capaciteit van de resource. Als u een resource vanuit het planbord zacht wilt boeken, stelt u het veld **Boekingsstatus** in op **Zacht**.
 

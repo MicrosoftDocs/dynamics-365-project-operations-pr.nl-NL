@@ -3,6 +3,7 @@ title: Waarom wordt de prijs standaard op nul gezet voor de werkelijke verkoopwa
 description: Met de volgende drie controles kunt u vaststellen waarom de prijs standaard op 0 wordt gezet voor werkelijke verkoopwaarden op basis van onkosten.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122067"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146297"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Waarom wordt de prijs standaard op nul gezet voor de werkelijke verkoopwaarden op basis van onkosten?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Dit artikel is van toepassing op werkelijke verkoopwaarden op basis van onkosten
 
 Zoek het project in het projectveld voor de werkelijke waarde en ga naar de projectpagina. Ga vervolgens naar het tabblad Verkoop. Klik in het raster Contractregels voor projecten op de koppeling in het veld Projectcontract. De pagina Projectcontract wordt geopend. Ga op de pagina Projectcontract naar het tabblad Projectprijslijsten. Controleer of hier minstens één prijslijst is toegevoegd.
 
-Ga als volgt te werk als er geen prijslijst is toegevoegd in het raster Projectprijslijsten van het projectcontract:
+Als er geen prijslijst is toegevoegd in het raster Projectprijslijsten van het projectcontract:
 
 - Voeg een prijslijst toe aan het raster Projectprijslijsten. Voor de prijslijsten die hier mogen worden toegevoegd, moet het contextveld zijn ingesteld op Verkoop en moet het valutaveld in de prijslijst overeenkomen met het valutaveld in het projectcontract. Zodra u de vereiste correcties hebt doorgevoerd, maakt u een nieuwe onkostenvermelding, keurt u deze goed en verifieert u of voor de niet-gefactureerde werkelijke verkoopwaarde een geldige prijs wordt weergegeven.
 - Als u een of meer prijslijsten hebt toegevoegd aan het raster Projectprijslijsten van het projectcontract, gaat u naar controle 2.
@@ -47,7 +50,7 @@ Een prijslijst wordt in Project Service pas voor standaardprijzen gebruikt als d
 - Begin door te controleren of de begin- en einddatums op het tabblad Algemeen voor de toegevoegde prijslijsten niet leeg zijn. Als de begin- en einddatums van de betreffende prijslijsten leeg zijn, hebt u het probleem gevonden. 
 - Controleer of een van de geïdentificeerde prijslijsten van toepassing is op de begindatum van uw werkelijke verkoopwaarde op basis van onkosten. De datum van de werkelijke verkoopwaarde op basis van onkosten moet bijvoorbeeld binnen de begin- en einddatum in de prijslijst liggen. 
     - Als geen van de prijslijsten van toepassing is op de datum van de werkelijke verkoopwaarde op basis van onkosten, hebt u het probleem gevonden. Wijzig de begin- en einddatums van de prijslijst om ervoor te zorgen dat de prijslijst de datum van de werkelijke verkoopwaarde op basis van onkosten dekt. 
-    - Als meerdere prijslijsten van toepassing zijn op de datum van de werkelijke verkoopwaarde op basis van onkosten, hebt u het probleem gevonden. U kunt dit probleem verhelpen door de begin- en einddatums van de prijslijst(en) te bewerken zodat de datum van de werkelijke verkoopwaarde op basis van onkosten door slechts één prijslijst wordt gedekt. 
+    - Als meerdere prijslijsten van toepassing zijn op de datum van de werkelijke verkoopwaarde op basis van onkosten, hebt u het probleem gevonden. Bewerk de begin- en einddatums van de prijslijst(en), zodat de datum van de werkelijke verkoopwaarde op basis van onkosten door slechts één prijslijst wordt gedekt. 
     - Ga verder met controle 3 als de datum van de werkelijke verkoopwaarde op basis van onkosten door slechts één prijslijst wordt gedekt.
 Zodra u de vereiste correcties hebt doorgevoerd, maakt u een nieuwe onkostenvermelding, keurt u deze goed en verifieert u of voor de niet-gefactureerde werkelijke verkoopwaarde een geldige prijs wordt weergegeven.
 
@@ -66,6 +69,6 @@ Gebruik deze methoden om te begrijpen wat een geldige prijs is:
 
 Als de prijsconfiguratie voor de onkostencategorie ongeldig is, hebt u het probleem gevonden. U lost het probleem op door de prijs op de regel Categorieprijs in overeenstemming met de bovenstaande regels te vervangen door een geldige prijs voor de onkostencategorie. Zodra u dat hebt gedaan, maakt u een nieuwe onkostenvermelding, keurt u deze goed en controleert u of voor de niet-gefactureerde werkelijke verkoopwaarde een geldige prijs wordt weergegeven.
 
-Dien een ondersteuningsticket in als na het uitvoeren van de bovenstaande controles voor u nog steeds geen geldige prijs wordt weergegeven voor uw werkelijke verkoopwaarde op basis van onkosten.
+Dien een ondersteuningsticket in als na het uitvoeren van de bovenstaande drie controles voor u nog steeds geen geldige prijs wordt weergegeven voor uw werkelijke verkoopwaarde op basis van onkosten.
 
 
