@@ -3,17 +3,17 @@ title: Projectsjablonen ontwikkelen met Project kopiëren
 description: Dit onderwerp bevat informatie over het maken van projectsjablonen met de aangepaste actie Project kopiëren.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642402"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045003"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projectsjablonen ontwikkelen met Project kopiëren
 
@@ -48,3 +48,67 @@ Zie [Web-API -acties gebruiken](https://docs.microsoft.com/powerapps/developer/c
 
 ## <a name="specify-fields-to-copy"></a>Te kopiëren velden opgeven 
 Wanneer de actie wordt aangeroepen, wordt met **Project kopiëren** de projectweergave **Projectkolommen kopiëren** gecontroleerd om te bepalen welke velden moeten worden gekopieerd wanneer het project wordt gekopieerd.
+
+
+### <a name="example"></a>Voorbeeld
+Het volgende voorbeeld laat zien hoe u de aangepaste actie **CopyProject** kunt aanroepen met de parameter **removeNamedResources** ingesteld.
+```C#
+{
+    using System;
+    using System.Runtime.Serialization;
+    using Microsoft.Xrm.Sdk;
+    using Newtonsoft.Json;
+
+    [DataContract]
+    public class ProjectCopyOption
+    {
+        /// <summary>
+        /// Clear teams and assignments.
+        /// </summary>
+        [DataMember(Name = "clearTeamsAndAssignments")]
+        public bool ClearTeamsAndAssignments { get; set; }
+
+        /// <summary>
+        /// Replace named resource with generic resource.
+        /// </summary>
+        [DataMember(Name = "removeNamedResources")]
+        public bool ReplaceNamedResources { get; set; }
+    }
+
+    public class CopyProjectSample
+    {
+        private IOrganizationService organizationService;
+
+        public CopyProjectSample(IOrganizationService organizationService)
+        {
+            this.organizationService = organizationService;
+        }
+
+        public void SampleRun()
+        {
+            // Example source project GUID
+            Guid sourceProjectId = new Guid("11111111-1111-1111-1111-111111111111");
+            var sourceProject = new Entity("msdyn_project", sourceProjectId);
+
+            Entity targetProject = new Entity("msdyn_project");
+            targetProject["msdyn_subject"] = "Example Project";
+            targetProject.Id = organizationService.Create(targetProject);
+
+            ProjectCopyOption copyOption = new ProjectCopyOption();
+            copyOption.ReplaceNamedResources = true;
+
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            Console.WriteLine("Done ...");
+        }
+
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        {
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            req["SourceProject"] = sourceProject;
+            req["Target"] = TargetProject;
+            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+            OrganizationResponse response = organizationService.Execute(req);
+        }
+    }
+}
+```

@@ -1,6 +1,6 @@
 ---
 title: Het delegeren van onkosten beheren
-description: Een gemachtigde gebruiker voor onkosten kan onkostendeclaraties maken en beheren namens een andere werknemer in de organisatie.
+description: Een gemachtigde onkostengebruiker kan onkostendeclaraties voor een andere werknemer in de organisatie maken en beheren.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074716"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960781"
 ---
-# <a name="manage-expense-delegation"></a>Het delegeren van onkosten beheren
+# <a name="manage-expense-delegation"></a>Onkostendelegering beheren
 
-[!include [banner](../includes/banner.md)]
+Een gemachtigde voor onkostendeclaraties kan onkostendeclaraties voor een andere werknemer maken en beheren.
 
-Een gemachtigde gebruiker voor onkosten kan onkostendeclaraties maken en beheren namens een andere werknemer in de organisatie.
+## <a name="configure-expense-delegation"></a>Onkostendelegering configureren
 
-## <a name="configuring-expense-delegation"></a>Het delegeren van onkosten configureren
+1. Ga naar **Onkostenbeheer > instellingen > Algemeen> Gemachtigden** om een gebruiker in te stellen als gemachtigde voor onkosten.
+2. Selecteer op de pagina **Gemachtigden** de optie **Nieuw**.
+3. Selecteer de werknemer waarvoor een gedelegeerde moet worden gedefinieerd. 
+4. Voer de alias van de gemachtigde gebruiker in en de begin- en einddatum voor de periode van machtiging.
 
-Als u een gebruiker wilt instellen als gemachtigde voor onkosten, gaat u naar **Onkostenbeheer > Instellingen > Algemeen> Gemachtigden** om de pagina **Gemachtigden** te openen. Selecteer **Nieuw** en selecteer vervolgens de werknemer voor wie een gemachtigde moet worden gedefinieerd. Voer de alias van de gemachtigde gebruiker in en de begin- en einddatum voor de periode van machtiging.
+## <a name="manage-expense-delegation-for-another-employee"></a>Onkostendelegatie voor een andere werknemer beheren
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Machtiging voor onkosten beheren namens een andere werknemer
+Wanneer de functiebeheersleutel **Lijstpagina met gemachtigde onkostengebruikers inschakelen** is ingeschakeld, zal de lijstpagina **Aan mij gedelegeerde onkosten** beschikbaar zijn. Ga naar **Onkostenbeheer** > **Mijn uitgaven** > **Aan mij gedelegeerde onkosten**.
 
-Als de functiebeheersleutel **Lijstpagina met gemachtigden voor onkosten inschakelen** is ingeschakeld, is de pagina **Aan mij gedelegeerde onkosten** beschikbaar door te navigeren naar **Onkostenbeheer > Mijn onkosten > Aan mij gedelegeerde onkosten**.
+Een gemachtigde gebruiker kan snel filteren en zoeken op bestaande onkostendeclaraties die aan hem zijn gedelegeerd. Ze kunnen ook een nieuwe onkostendeclaratie voor andere gebruikers maken door **Nieuwe onkostendeclaratie** te selecteren.
 
-Een gemachtigde gebruiker kan snel filteren op en zoeken naar bestaande onkostendeclaraties die aan de gebruiker zijn gedelegeerd. De gebruiker kan ook snel een nieuwe onkostendeclaratie namens andere gebruikers maken door op **Nieuwe onkostendeclaratie** te klikken.
-
-Gemachtigde gebruikers kunnen ook onkostendeclaraties maken en beheren namens andere werknemers door te navigeren naar **Onkostenbeheer > Mijn onkosten > Onkostendeclaraties** en te klikken op de knop **Onkosten van andere gebruiker openen**.
+Gemachtigde gebruikers kunnen ook onkostendeclaraties voor andere werknemers maken en beheren door naar **Onkostenbeheer** > **Mijn onkosten** > **Onkostendeclaraties** te gaan en **Onkosten van een andere gebruiker openen** te selecteren.

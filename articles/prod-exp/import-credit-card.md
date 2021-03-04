@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6cec15e436bc699e361577c970dd5845c6c68908
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bf75c13bb190c7b992aa516f1593d886dfa604d
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074717"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960421"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Creditcardtransacties importeren en onderhouden
-
-[!include [banner](../includes/banner.md)]
 
 Onkostengerelateerde creditcardtransacties kunnen zo worden ingesteld dat ze automatisch volgens een terugkerende planning worden geïmporteerd. U kunt de transacties ook handmatig importeren als u ze nodig hebt. De creditcardtransacties worden geïmporteerd via de gegevensentiteit Creditcardtransacties.
 

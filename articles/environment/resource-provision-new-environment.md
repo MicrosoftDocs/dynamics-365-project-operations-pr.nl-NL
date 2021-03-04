@@ -3,17 +3,18 @@ title: Een nieuwe omgeving inrichten
 description: Dit onderwerp bevat informatie over het inrichten van een nieuwe Project Operations-omgeving.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642959"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727784"
 ---
 # <a name="provision-a-new-environment"></a>Een nieuwe omgeving inrichten
 
@@ -60,17 +61,15 @@ Gebruik de volgende stappen om de geautomatiseerde inrichtingsstroom van Project
 
 ![Toestemming voor implementatie](./media/2DeploymentConsent.png)
 
-7. Vul de overige verplichte velden in de wizard in en bevestig de implementatie. Hoe lang het inrichten van de omgeving duurt, is afhankelijk van het type omgeving. Het inrichten kan tot zes uur duren.
+7. Optioneel - Pas demogegevens toe op de omgeving. Ga naar **Geavanceerde instellingen**, selecteer **SQL-databaseconfiguratie aanpassen** en stel **Een gegevensset opgeven voor de toepassingsdatabase** in op **Demo**.
+
+8. Vul de overige verplichte velden in de wizard in en bevestig de implementatie. De tijd die nodig is om de omgeving in te richten, is afhankelijk van het omgevingstype. Het inrichten kan tot zes uur duren.
 
   Nadat de implementatie met succes is voltooid, wordt de omgeving weergegeven als **Geïmplementeerd**.
 
-8. Om te bevestigen dat de omgeving is geïmplementeerd selecteert u **Aanmelden** en meldt u zich aan bij de omgeving om te bevestigen.
+9. Selecteer om te bevestigen dat de omgeving met succes is geïmplementeerd **Aanmelden** en meld u aan bij de omgeving om te bevestigen.
 
 ![Details van -omgevingen](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Finance-demogegevens van Project Operations toepassen (optionele stap)
-
-Finance-demogegevens van Project Operations toepassen op een Cloud Hosted Environment met servicerelease 10.0.13 zoals beschreven in [dit artikel](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Updates toepassen op de Finance-omgeving
 
@@ -151,6 +150,21 @@ Nadat de entiteiten zijn toegepast, worden alle beschikbare toewijzingen in de o
 Het vernieuwen duurt ongeveer 20 minuten. U ontvangt een melding wanneer dit is voltooid.
 
 ![Bevestiging vernieuwen](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Beveiligingsinstellingen bijwerken in Project Operations in Dataverse
+
+1. Ga naar Project Operations in uw Dataverse-omgeving. 
+2. Ga naar **Instellingen** > **Beveiliging** > **Beveiligingsrollen**. 
+3. Selecteer op de pagina **Beveiligingsrollen** in de lijst met rollen **Twee keer wegschrijven app-gebruiker** en selecteer het tabblad **Aangepaste entiteiten**.  
+4. Controleer of de rol de machtigingen **Lezen** en **Toevoegen aan** heeft voor:
+      
+      - **Type valutawisselkoers**
+      - **Rekeningschema**
+      - **Fiscale kalender**
+      - **Grootboek**
+
+5. Ga nadat de beveiligingsrol is bijgewerkt naar **Instellingen** > **Beveiliging** > **Teams** en selecteer het standaardteam in de teamweergave **Lokale bedrijfseigenaar**.
+6. Selecteer **Rollen beheren** en controleer of de beveiligingsbevoegdheid **twee keer wegschrijven app-gebruiker** is toegepast op dit team.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Toewijzingen voor twee keer wegschrijven uitvoeren in Project Operations
 

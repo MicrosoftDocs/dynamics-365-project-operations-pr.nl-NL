@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650133"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960241"
 ---
 # <a name="redesigned-expense-reports"></a>Opnieuw ontworpen onkostendeclaraties
-[!include[banner](../includes/banner.md)]
 
 De invoer voor onkostendeclaraties is opnieuw ontworpen om het proces voor het invullen van de onkostendeclaraties te vereenvoudigen en de tijd te verkorten die ervoor nodig is. Dit zijn de belangrijkste componenten van de nieuwe onkostenfunctie:
 

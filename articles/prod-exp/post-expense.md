@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d008ef8dd55550431fbb9e329cd7d9428a08831
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 982b7621c35547448b5d756f77f3873b9fbbcb9d
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074710"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960105"
 ---
 # <a name="post-an-expense-report"></a>Een onkostennota boeken
-
-[!include [banner](../includes/banner.md)]
 
 Nadat een onkostendeclaratie is goedgekeurd en naar het journaal is overgeboekt, kan deze worden geboekt naar het grootboek. Wanneer u een onkostendeclaratie boekt, worden uitgaven geïdentificeerd die in aanmerking komen voor terugvordering van belasting over de omzetbelasting. De taak om btw-betalingen te verifiëren en terug te vorderen, wordt toegewezen aan de werknemer die verantwoordelijk is voor het verifiëren van de onkostendeclaratie.
 

@@ -3,17 +3,17 @@ title: Demogegevens voor installatie en configuratie toepassen - lite
 description: Dit onderwerp bevat informatie over het toepassen van demo- en configuratiegegevens voor Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 01/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642087"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089113"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Demogegevens voor installatie en configuratie toepassen voor Project Operations - lite 
 
@@ -32,47 +32,45 @@ Voordat u met de configuratie begint, moet u een Common Data Service-omgeving (C
 2. Navigeer naar de map *ProjOpsDemoDataSetupAndMaster - Integrated CMT* en voer het uitvoerbare bestand *DataMigrationUtility* uit.
 3. Op pagina 1 van de wizard Common Data Service Configuratiemigratie (CMT) selecteert u **Gegevens importeren** en vervolgens **Doorgaan**.
 
-![Configuratiemigratie](./media/1ConfigurationMigration.png)
+    ![Configuratiemigratie](./media/1ConfigurationMigration.png)
 
 4. Selecteer op pagina 2 van de CMT-wizard **Microsoft 365** als **Implementatietype**.
 5. Schakel de selectievakjes **Een lijst met beschikbare organisaties weergeven** en **Geavanceerd weergeven** in.
 6. Selecteer de regio van uw tenant, voer uw inloggegevens in en selecteer **Login**.
 
-![Configuratie inloggen](./media/2ConfigurationSignin.png)
+   ![Configuratie inloggen](./media/2ConfigurationSignin.png)
 
 7. Selecteer op pagina 3 uit de lijst met organisaties op de tenant de organisatie waarin u de demogegevens wilt importeren en selecteer **Login**.
 8. Selecteer op pagina 4 het zipbestand *MasterAndSetupData* in de uitgepakte map, *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
 
-![Zipbestand](./media/3ZipFile.png)
+   ![Zipbestand](./media/3ZipFile.png)
 
-![Selecteer een bestand](./media/4SelectAFile.png)
+   ![Selecteer een bestand](./media/4SelectAFile.png)
 
 9. Selecteer nadat het zipbestand is geselecteerd **Gegevens importeren**.
 
-![Gegevens importeren](./media/5ImportData.png)
+   ![Gegevens importeren](./media/5ImportData.png)
 
 10. Het importeren duurt ongeveer twee tot tien minuten, afhankelijk van uw netwerksnelheid. Sluit de CMT-wizard nadat het importeren is voltooid. 
 11. Controleer uw organisatie op gegevens in de volgende 20 entiteiten:
 
--   Valuta
--   Account
--   Organisatie-eenheid
--   Contact
--   Belastinggroep
--   Klantengroep
--   Eenheid
--   Eenhedengroep
--   Prijslijst
--   Prijslijst voor projectparameters 
--   Factuurfrequentie
--   Categorie van boekbare resources
--   Transactiecategorie
--   Onkostencategorie
--   Rolprijs
--   Prijs voor transactiecategorie
--   Kenmerk
--   Boekbare resource
--   Toewijzing van categorie met boekbare resources
--   Kenmerk van boekbare resources
+    -   Valuta
+    -   Account
+    -   Organisatie-eenheid
+    -   Contact
+    -   Eenheid
+    -   Eenhedengroep
+    -   Prijslijst
+    -   Prijslijst voor projectparameters 
+    -   Factuurfrequentie
+    -   Categorie van boekbare resources
+    -   Transactiecategorie
+    -   Onkostencategorie
+    -   Rolprijs
+    -   Prijs voor transactiecategorie
+    -   Kenmerk
+    -   Boekbare resource
+    -   Toewijzing van categorie met boekbare resources
+    -   Kenmerk van boekbare resources
 
-![Import voltooid](./media/6CompleteImport.png)
+    ![Import voltooid](./media/6CompleteImport.png)

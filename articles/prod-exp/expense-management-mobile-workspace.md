@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074723"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960466"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobiele werkruimte voor onkostenbeheer
-
-[!include [banner](../includes/banner.md)]
 
 Dit onderwerp bevat informatie over de mobiele werkruimte **Onkostenbeheer**. In deze werkruimte kunnen gebruikers een betalingsbewijs vastleggen en uploaden, zodat ze dit later aan een onkostennota kunnen toevoegen. Gebruikers kunnen ook snel een onkostenregel maken met behulp van een bijgevoegd betalingsbewijs en onkostennota's maken en beheren. Bovendien kunnen fiatteurs de mobiele werkruimte **Onkostenbeheer** gebruiken om onkostennota's te bekijken die aan hen zijn toegewezen en die onkostennota's goed te keuren of af te wijzen.
 
@@ -151,7 +149,7 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
     
 3. Selecteer een onkostennota om de onkostendetails ervan te bekijken.
 4. Selecteer de onkosten om de details ervan te bekijken. De informatie die voor bepaalde kosten wordt weergegeven, bestaat onder andere uit een betalingsbewijs, gastgegevens en specificatiegegevens.
-5. Als u terug bent op de pagina **Onkostennota** , selecteert u de optie om de onkostennota goed te keuren of af te wijzen.
+5. Als u terug bent op de pagina **Onkostennota**, selecteert u de optie om de onkostennota goed te keuren of af te wijzen.
 6. Voer eventuele opmerkingen in voor de goedkeuringsactie.
 7. Selecteer **Gereed**.
 
@@ -203,7 +201,7 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 
 18. Als het bedrijfsbeleid namen van gasten vereist voor de onkosten, selecteert u **Gasten** en volgt u deze stappen:
 
-    1. Selecteer **Gast** , **Vorige gasten** of **Collega's**.
+    1. Selecteer **Gast**, **Vorige gasten** of **Collega's**.
     2. Volg een van deze stappen:
 
         - Als u **Gast** hebt geselecteerd, volgt u deze stappen:

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6a001cea56411865599a5c0a41fe47682dad35c2
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: bfa13ab74031eb52c128fed16a31e3a8167e8bde
+ms.sourcegitcommit: ec8ab099a03725de9f61edfdeb90fbefae54cd4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700810"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4707667"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nieuwe functies van december 2020 - Lite-implementatie Project Operations - van deal tot pro-formafacturering
 
@@ -24,7 +24,7 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 
   - Project Operations in Dataverse-omgeving, versie 4.5.0.134 
 
-De volgende tabel bevat de updates voor Project Operations in Dataverse-omgeving, versie 4.4.0.70.
+De volgende tabel bevat de updates voor Project Operations in Dataverse-omgeving, versie 4.5.0.134.
 
 | **Functiegebied** | **Referentienummer** | **Kwaliteitsupdate** |
 | --- | --- | --- |
