@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68eb9d4334bed7562ffe0de7951a2d364bbf9a5d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a7548f588b492cd4c8cf19c0c88ce5ea1b34cc76
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074757"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148682"
 ---
-# <a name="development-home-page-project-service-automation-3x"></a><span data-ttu-id="d51ab-103">Startpagina Ontwikkeling (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="d51ab-103">Development home page (Project Service Automation 3.x)</span></span>
+# <a name="development-home-page-project-service-automation-3x"></a><span data-ttu-id="d33f6-103">Startpagina Ontwikkeling (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="d33f6-103">Development home page (Project Service Automation 3.x)</span></span>
 
-<span data-ttu-id="d51ab-104">Dynamics 365 Project Service Automation 3.x biedt nieuwe functies, implementatie van nieuwe platformmogelijkheden en verbeteringen van bestaande functies op verschillende gebieden.</span><span class="sxs-lookup"><span data-stu-id="d51ab-104">Dynamics 365 Project Service Automation 3.x offers new features, implementation of new platform capabilities, and improvements to existing features in various areas.</span></span> <span data-ttu-id="d51ab-105">De volgende onderwerpen bevatten meer informatie over de wijzigingen die zijn aangebracht in de nieuwste versie van PSA:</span><span class="sxs-lookup"><span data-stu-id="d51ab-105">The following topics provide more information about the changes that were made in the newest version of PSA:</span></span>
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
-- [<span data-ttu-id="d51ab-106">Wijzigingen in entiteiten, besturingselementen en de gebruikersinterface (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="d51ab-106">Entity, control, and user interface changes (Project Service Automation 3.x)</span></span>](../developer-guides/entity-changes-v3.x.md)
-- [<span data-ttu-id="d51ab-107">Wijzigingen op het gebied van tijd en onkosten (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="d51ab-107">Time and Expense changes (Project Service Automation 3.x)</span></span>](../developer-guides/time-expense-changes-v3.x.md)
-- [<span data-ttu-id="d51ab-108">Wijzigingen op het gebied van resourcebeheer (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="d51ab-108">Resource management changes (Project Service Automation 3.x)</span></span>](../developer-guides/resource-management-changes-v3.x.md)
-- [<span data-ttu-id="d51ab-109">Afgeschafte webresources in Project Service Automation 3.x</span><span class="sxs-lookup"><span data-stu-id="d51ab-109">Deprecated web resources in Project Service Automation 3.x</span></span>](../developer-guides/web-resources-deprecated-v3.x.md)
+<span data-ttu-id="d33f6-104">Dynamics 365 Project Service Automation 3.x biedt nieuwe functies, implementatie van nieuwe platformmogelijkheden en verbeteringen van bestaande functies op verschillende gebieden.</span><span class="sxs-lookup"><span data-stu-id="d33f6-104">Dynamics 365 Project Service Automation 3.x offers new features, implementation of new platform capabilities, and improvements to existing features in various areas.</span></span> <span data-ttu-id="d33f6-105">De volgende onderwerpen bevatten meer informatie over de wijzigingen die zijn aangebracht in de nieuwste versie van PSA:</span><span class="sxs-lookup"><span data-stu-id="d33f6-105">The following topics provide more information about the changes that were made in the newest version of PSA:</span></span>
+
+- [<span data-ttu-id="d33f6-106">Wijzigingen in entiteiten, besturingselementen en de gebruikersinterface (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="d33f6-106">Entity, control, and user interface changes (Project Service Automation 3.x)</span></span>](../developer-guides/entity-changes-v3.x.md)
+- [<span data-ttu-id="d33f6-107">Wijzigingen op het gebied van tijd en onkosten (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="d33f6-107">Time and Expense changes (Project Service Automation 3.x)</span></span>](../developer-guides/time-expense-changes-v3.x.md)
+- [<span data-ttu-id="d33f6-108">Wijzigingen op het gebied van resourcebeheer (Project Service Automation 3.x)</span><span class="sxs-lookup"><span data-stu-id="d33f6-108">Resource management changes (Project Service Automation 3.x)</span></span>](../developer-guides/resource-management-changes-v3.x.md)
+- [<span data-ttu-id="d33f6-109">Afgeschafte webresources in Project Service Automation 3.x</span><span class="sxs-lookup"><span data-stu-id="d33f6-109">Deprecated web resources in Project Service Automation 3.x</span></span>](../developer-guides/web-resources-deprecated-v3.x.md)

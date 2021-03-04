@@ -18,48 +18,50 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 54d7385a2bb161c7dd02d882090790debaef3bdb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133047"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148772"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="70f8c-103">Een werkurensjabloon maken (Project Service)</span><span class="sxs-lookup"><span data-stu-id="70f8c-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="2a343-103">Een werkurensjabloon maken (Project Service)</span><span class="sxs-lookup"><span data-stu-id="2a343-103">Create a work hours template (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="70f8c-104">Voordat u projectplannings kunt maken, moet u aan setup een projectkalender nodig nodig waarmee het aantal werkuren bepalen per dag in de planning en de onderneming te matchen.</span><span class="sxs-lookup"><span data-stu-id="70f8c-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="70f8c-105">Dit doet u met een sjabloon met de werkuren, gegevens over werkuren per dag, vrije dagen, korting en andere momenten bevat.</span><span class="sxs-lookup"><span data-stu-id="70f8c-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
+<span data-ttu-id="2a343-104">Voordat u projectplannings kunt maken, moet u aan setup een projectkalender nodig nodig waarmee het aantal werkuren bepalen per dag in de planning en de onderneming te matchen.</span><span class="sxs-lookup"><span data-stu-id="2a343-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="2a343-105">Dit doet u met een sjabloon met de werkuren, gegevens over werkuren per dag, vrije dagen, korting en andere momenten bevat.</span><span class="sxs-lookup"><span data-stu-id="2a343-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
   
- <span data-ttu-id="70f8c-106">Wanneer u een gebruiker maken, koppelt u een prijsbeleid werksjabloon aan de projectkalender als u de planning voor het project te passen.</span><span class="sxs-lookup"><span data-stu-id="70f8c-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
+ <span data-ttu-id="2a343-106">Wanneer u een gebruiker maken, koppelt u een prijsbeleid werksjabloon aan de projectkalender als u de planning voor het project te passen.</span><span class="sxs-lookup"><span data-stu-id="2a343-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
   
- <span data-ttu-id="70f8c-107">Er zijn twee manieren waarop u een sjabloon met de werkuren kunt maken:</span><span class="sxs-lookup"><span data-stu-id="70f8c-107">There are two ways you can create a work hours template:</span></span>  
+ <span data-ttu-id="2a343-107">Er zijn twee manieren waarop u een sjabloon met de werkuren kunt maken:</span><span class="sxs-lookup"><span data-stu-id="2a343-107">There are two ways you can create a work hours template:</span></span>  
   
--   <span data-ttu-id="70f8c-108">U kunt een werkurensjabloon maken op basis van de agenda van een resource.</span><span class="sxs-lookup"><span data-stu-id="70f8c-108">Create a work hours template based on a resource’s calendar.</span></span>  
+-   <span data-ttu-id="2a343-108">U kunt een werkurensjabloon maken op basis van de agenda van een resource.</span><span class="sxs-lookup"><span data-stu-id="2a343-108">Create a work hours template based on a resource’s calendar.</span></span>  
   
--   <span data-ttu-id="70f8c-109">U kunt een nieuwe werkurensjabloon maken.</span><span class="sxs-lookup"><span data-stu-id="70f8c-109">Create a new work hours template.</span></span>  
+-   <span data-ttu-id="2a343-109">U kunt een nieuwe werkurensjabloon maken.</span><span class="sxs-lookup"><span data-stu-id="2a343-109">Create a new work hours template.</span></span>  
   
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="70f8c-110">U kunt een sjabloon maken van werkuren in de kalender van een bron wordt gebaseerd.</span><span class="sxs-lookup"><span data-stu-id="70f8c-110">To create a work hours template based on a resource’s calendar</span></span>  
+#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="2a343-110">U kunt een sjabloon maken van werkuren in de kalender van een bron wordt gebaseerd.</span><span class="sxs-lookup"><span data-stu-id="2a343-110">To create a work hours template based on a resource’s calendar</span></span>  
   
-1.  <span data-ttu-id="70f8c-111">Ga naar **Project Service > Resources**.</span><span class="sxs-lookup"><span data-stu-id="70f8c-111">Go to **Project Service > Resources**.</span></span>  
+1.  <span data-ttu-id="2a343-111">Ga naar **Project Service > Resources**.</span><span class="sxs-lookup"><span data-stu-id="2a343-111">Go to **Project Service > Resources**.</span></span>  
   
-2.  <span data-ttu-id="70f8c-112">Selecteer de resource waarop u de werkuren wilt baseren.</span><span class="sxs-lookup"><span data-stu-id="70f8c-112">Select the resource you want to base your work hours on.</span></span>  
+2.  <span data-ttu-id="2a343-112">Selecteer de resource waarop u de werkuren wilt baseren.</span><span class="sxs-lookup"><span data-stu-id="2a343-112">Select the resource you want to base your work hours on.</span></span>  
   
-3.  <span data-ttu-id="70f8c-113">Klik op **Agenda opslaan als**, typ een naam voor de werkurensjabloon en klik vervolgens op **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="70f8c-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
+3.  <span data-ttu-id="2a343-113">Klik op **Agenda opslaan als**, typ een naam voor de werkurensjabloon en klik vervolgens op **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="2a343-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
   
-4.  <span data-ttu-id="70f8c-114">Wanneer u klaar bent, klikt u op **Opslaan en sluiten**.</span><span class="sxs-lookup"><span data-stu-id="70f8c-114">When you’re done changing options, click **Save and Close**.</span></span>  
+4.  <span data-ttu-id="2a343-114">Wanneer u klaar bent, klikt u op **Opslaan en sluiten**.</span><span class="sxs-lookup"><span data-stu-id="2a343-114">When you’re done changing options, click **Save and Close**.</span></span>  
   
-5.  <span data-ttu-id="70f8c-115">Klik op de knop **Opslaan** rechtsonder in het scherm.</span><span class="sxs-lookup"><span data-stu-id="70f8c-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
+5.  <span data-ttu-id="2a343-115">Klik op de knop **Opslaan** rechtsonder in het scherm.</span><span class="sxs-lookup"><span data-stu-id="2a343-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
   
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="70f8c-116">Maak een nieuwe sjabloon van werkuren.</span><span class="sxs-lookup"><span data-stu-id="70f8c-116">To create a new work hours template</span></span>  
+#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="2a343-116">Maak een nieuwe sjabloon van werkuren.</span><span class="sxs-lookup"><span data-stu-id="2a343-116">To create a new work hours template</span></span>  
   
-1.  <span data-ttu-id="70f8c-117">Ga naar **Project Service > Werkurensjablonen**.</span><span class="sxs-lookup"><span data-stu-id="70f8c-117">Go to **Project Service > Work Hours Templates**.</span></span>  
+1.  <span data-ttu-id="2a343-117">Ga naar **Project Service > Werkurensjablonen**.</span><span class="sxs-lookup"><span data-stu-id="2a343-117">Go to **Project Service > Work Hours Templates**.</span></span>  
   
-2.  <span data-ttu-id="70f8c-118">Klik op **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="70f8c-118">Click **New**.</span></span>  
+2.  <span data-ttu-id="2a343-118">Klik op **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="2a343-118">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="70f8c-119">Typ een beschrijvende naam voor de sjabloon.</span><span class="sxs-lookup"><span data-stu-id="70f8c-119">Enter a name for the work hours template.</span></span>  
+3.  <span data-ttu-id="2a343-119">Typ een beschrijvende naam voor de sjabloon.</span><span class="sxs-lookup"><span data-stu-id="2a343-119">Enter a name for the work hours template.</span></span>  
   
-4.  <span data-ttu-id="70f8c-120">Selecteer een resource hebt geselecteerd als basis- de werkuren, en klik vervolgens op **Opslaan**</span><span class="sxs-lookup"><span data-stu-id="70f8c-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
+4.  <span data-ttu-id="2a343-120">Selecteer een resource hebt geselecteerd als basis- de werkuren, en klik vervolgens op **Opslaan**</span><span class="sxs-lookup"><span data-stu-id="2a343-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="70f8c-121">Zie ook</span><span class="sxs-lookup"><span data-stu-id="70f8c-121">See Also</span></span>  
- [<span data-ttu-id="70f8c-122">Resources configureren</span><span class="sxs-lookup"><span data-stu-id="70f8c-122">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="2a343-121">Zie ook</span><span class="sxs-lookup"><span data-stu-id="2a343-121">See Also</span></span>  
+ [<span data-ttu-id="2a343-122">Resources configureren</span><span class="sxs-lookup"><span data-stu-id="2a343-122">Set up resources</span></span>](../psa/set-up-resources.md)
