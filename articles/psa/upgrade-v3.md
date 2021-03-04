@@ -2,6 +2,7 @@
 title: Overwegingen voor de upgrade van Microsoft Dynamics 365 Project Service Automation, versie 2.x of 1.x, naar versie 3
 description: Dit onderwerp bevat informatie over de overwegingen voor het upgraden van Project Service Automation versie 2.x of 1.x naar versie 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121707"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144150"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Overwegingen voor de upgrade van PSA-versie 2.x of 1.x naar versie 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation en Field Service
-Zowel Dynamics 365 Project Service Automation als Dynamics 365 Field Service maken gebruik van de oplossing Universal Resourcing Scheduling (URS) voor resourceplanning. Als u in uw exemplaar zowel Project Service Automation als Field Service hebt, moet u beide oplossingen upgraden naar de nieuwste versie (versie 3.x voor Project Service Automation, versie 8.x voor Field Service). Bij het upgraden van Project Service Automation of Field Service wordt de nieuwste versie van URS geïnstalleerd, wat betekent dat inconsistent gedrag mogelijk is als niet zowel de Project Service Automation-oplossingen als de Field Service-oplossingen in hetzelfde exemplaar worden bijgewerkt naar de nieuwste versie.
+Zowel Dynamics 365 Project Service Automation als Dynamics 365 Field Service maken gebruik van de oplossing Universal Resourcing Scheduling (URS) voor resourceplanning. Als u Project Service Automation en Field Service in uw exemplaar hebt, moet u beide oplossingen upgraden naar de nieuwste versie. Voor Project Service Automation is dat versie 3.x. Voor Field Service is dit versie 8.x. Als u project Service Automation of Field Service upgradet, wordt de nieuwste versie van URS geïnstalleerd. Als zowel de project Service Automation- als de Field Service-oplossingen in hetzelfde exemplaar niet worden geüpgraded naar de nieuwste versie, kan er sprake zijn van inconsistent gedrag.
 
 ## <a name="resource-assignments"></a>Resourcetoewijzingen
 In Project Service Automation versie 2 en versie 1 zijn taaktoewijzingen opgeslagen als onderliggende taken (ook wel regeltaken genoemd) in de **entiteit Taak** en indirect gerelateerd aan de entiteit **Resourcetoewijzing**. De regeltaak is zichtbaar in het toewijzingspop-upvenster in de Structuur voor werkspecificatie (WBS).
@@ -40,9 +44,9 @@ In versie 3 van Project Service Automation is het onderliggende schema voor het 
 Deze wijzigingen zijn van invloed op de upgrade van bestaande projecten met resourcetoewijzingen voor benoemde boekbare resources en algemene resources in een projectteam. Dit onderwerp bevat de overwegingen waarmee u rekening moet houden voor uw projecten wanneer u een upgrade uitvoert naar versie 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Taken toegewezen aan benoemde resources
-Met de onderliggende taakentiteit konden teamleden in versie 2 en versie 1 voor taken een andere rol weergeven dan hun standaard gedefinieerde rol. Femke Van der Star aan wie standaard de rol van programmamanager is toegewezen, kan bijvoorbeeld worden toegewezen aan een taak met de rol van ontwikkelaar. In versie 3 is de rol van een benoemd teamlid altijd de standaardrol, dus elke taak die Femke Van der Star krijgt toegewezen, gebruikt haar standaardrol van programmamanager.
+Met de onderliggende taakentiteit konden teamleden in versie 2 en versie 1 voor taken een andere rol weergeven dan hun standaard gedefinieerde rol. Femke Van der Star aan wie standaard de rol van programmamanager is toegewezen, kan bijvoorbeeld worden toegewezen aan een taak met de rol van ontwikkelaar. In versie 3 is de rol van een benoemd teamlid altijd de standaardrol, dus elke taak die Femke Van der Star krijgt toegewezen, gebruikt Femke's standaardrol van programmamanager.
 
-Als u een resource hebt toegewezen aan een taak buiten de standaardrol in versie 2 en versie 1, wordt bij het upgraden de benoemde resource toegewezen aan de standaardrol voor alle taaktoewijzingen, ongeacht de roltoewijzing in versie 2. Dit resulteert in verschillen in de berekende schattingen van versie 2 of versie 1 naar versie 3 omdat schattingen worden berekend op basis van de rol van de resource en niet de regeltaaktoewijzing. In versie 2 zijn bijvoorbeeld twee taken toegewezen aan Dana Plant. De rol op de regeltaak voor taak 1 is ontwikkelaar en voor taak 2 programmamanager. Dana Plant heeft de standaardfunctie van programmamanager.
+Als u een resource hebt toegewezen aan een taak buiten de standaardrol in versie 2 en versie 1, wordt bij het upgraden de benoemde resource toegewezen aan de standaardrol voor alle taaktoewijzingen, ongeacht de roltoewijzing in versie 2. Deze toewijzing resulteert in verschillen in de berekende schattingen van versie 2 of versie 1 naar versie 3 omdat schattingen worden berekend op basis van de rol van de resource en niet de regeltaaktoewijzing. In versie 2 zijn bijvoorbeeld twee taken toegewezen aan Dana Plant. De rol op de regeltaak voor taak 1 is ontwikkelaar en voor taak 2 programmamanager. Dana Plant heeft de standaardfunctie van programmamanager.
 
 ![Meerdere rollen toegewezen aan één resource](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Wanneer u een upgrade uitvoert naar versie 3, worden regeltaken vervangen door r
 
 ![Resourcetoewijzingen](media/resource-assignment-v2-05.png)
 
-Omdat de schattingen zijn gebaseerd op de standaardrol voor de resource, kunnen de verkoop- en kostenschattingen veranderen. In de volgende afbeelding ziet u de rol van **ontwikkelaar** niet meer omdat de rol nu is overgenomen van de standaardrol van de boekbare resource.
+Omdat de schattingen zijn gebaseerd op de standaardrol voor de resource, kunnen de verkoop- en kostenschattingen veranderen. In de volgende afbeelding ziet u de rol van **Ontwikkelaar** niet meer omdat de rol nu is overgenomen van de standaardrol van de boekbare resource.
 
 ![Kostenschattingen voor standaardrollen](media/resource-assignment-cost-estimate-06.png)
 ![Verkoopschatting voor standaardrollen](media/resource-assignment-sales-estimate-07.png)
 
-Nadat de upgrade is voltooid, kunt u de rol van een teamlid bewerken in iets anders dan de toegewezen standaardwaarde. Als u echter een rol van teamleden wijzigt, wordt deze gewijzigd voor alle toegewezen taken, omdat aan teamleden niet langer meerdere rollen mogen worden toegewezen in versie 3.
+Nadat de upgrade is voltooid, kunt u de rol van een teamlid bewerken in iets anders dan de toegewezen standaardwaarde. Als u echter een rol van teamleden wijzigt, wordt deze gewijzigd voor alle toegewezen taken, omdat aan teamleden niet meerdere rollen mogen worden toegewezen in versie 3.
 
 ![Een resourcerol bijwerken](media/resource-role-assignment-08.png)
 
@@ -102,7 +106,7 @@ U kunt de organisatie-eenheid bekijken in de schattingenweergave.
  
 Wanneer de upgrade is voltooid, wordt de organisatie-eenheid op de regeltaak die overeenkomt met het algemene teamlid toegevoegd aan het algemene teamlid en wordt de regeltaak verwijderd. Daarom is het raadzaam dat u voordat u een upgrade uitvoert, het team genereert of opnieuw genereert voor elk project dat algemene resources bevat.
 
-Voor taken die zijn toegewezen aan een rol met een organisatie-eenheid die verschilt van de organisatie-eenheid van het contracterende project en waarvoor geen team is gegenereerd, maakt upgraden een algemeen teamlid voor de rol, maar wordt de contracterende eenheid van het project gebruikt voor de organisatie-eenheid van het teamlid. In het voorbeeld met project Z betekent dit dat aan de contracterende organisatie-eenheid Contoso US en de testtaken van het projectplan binnen de implementatiefase de rol technisch consultant is toegewezen voor de organisatie-eenheid die is toegewezen aan Contoso India. De integratietesttaak die is voltooid na de implementatiefase is toegewezen aan de rol technisch consultant. De organisatie-eenheid is Contoso US en er is geen team gegenereerd. Bij een upgrade wordt één algemeen teamlid gemaakt, een technisch adviseur met de toegewezen uren van alle drie taken en een organisatie-eenheid van Contoso US, de contracterende organisatie-eenheid van het project.   
+Voor taken die zijn toegewezen aan een rol met een organisatie-eenheid die verschilt van de organisatie-eenheid van het contracterende project en waarvoor geen team is gegenereerd, maakt upgraden een algemeen teamlid voor de rol, maar wordt de contracterende eenheid van het project gebruikt voor de organisatie-eenheid van het teamlid. In het voorbeeld met project Z hebben de contracterende organisatie-eenheid Contoso US en de testtaken van het projectplan binnen de implementatiefase de rol technisch consultant toegewezen gekregen voor de organisatie-eenheid die is toegewezen aan Contoso India. De integratietesttaak die is voltooid na de implementatiefase is toegewezen aan de rol technisch consultant. De organisatie-eenheid is Contoso US en er is geen team gegenereerd. Bij een upgrade wordt één algemeen teamlid gemaakt, een technisch adviseur met de toegewezen uren van alle drie taken en een organisatie-eenheid van Contoso US, de contracterende organisatie-eenheid van het project.   
  
-Het wijzigen van de standaardwaarde van de verschillende organisatie-eenheden op niet-gegenereerde teamleden is de reden waarom we u aanraden het team te genereren of opnieuw genereren voor elk project dat vóór de upgrade algemene resources bevat, zodat de toewijzingen van de organisatie-eenheid niet verloren gaan.
+Het wijzigen van de standaardwaarde van de verschillende organisatie-eenheden op niet-gegenereerde teamleden is de reden waarom we u aanraden het team te genereren of opnieuw te genereren voor elk project dat vóór de upgrade algemene resources bevat, zodat de toewijzingen van de organisatie-eenheid niet verloren gaan.
 

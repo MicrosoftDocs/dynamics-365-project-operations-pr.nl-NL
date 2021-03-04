@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074758"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144587"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Nieuwe aangepaste-entiteitformulieren toevoegen (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Het veld Type 
 
-Dynamics 365 Project Service Automation is afhankelijk van het veld **Type** ( **msdyn\_ordertype** ) van de entiteiten Verkoopkans, Prijsopgave, Order en Factuur om **werkgebaseerde** versies van deze entiteiten te onderscheiden van **artikelgebaseerde** en **servicegebaseerde** versies. Werkgebaseerde versies van deze entiteiten worden afgehandeld door PSA. Veel bedrijfslogica aan de client- en serverzijde van de oplossing is afhankelijk van het veld **Type**. Daarom is het belangrijk dat het veld wordt geïnitialiseerd met een juiste waarde wanneer de entiteiten worden gemaakt. Een onjuiste waarde kan leiden tot onjuist gedrag en sommige bedrijfslogica wordt mogelijk niet correct uitgevoerd.
+Dynamics 365 Project Service Automation is afhankelijk van het veld **Type** (**msdyn\_ordertype**) van de entiteiten Verkoopkans, Prijsopgave, Order en Factuur om **werkgebaseerde** versies van deze entiteiten te onderscheiden van **artikelgebaseerde** en **servicegebaseerde** versies. Werkgebaseerde versies van deze entiteiten worden afgehandeld door PSA. Veel bedrijfslogica aan de client- en serverzijde van de oplossing is afhankelijk van het veld **Type**. Daarom is het belangrijk dat het veld wordt geïnitialiseerd met een juiste waarde wanneer de entiteiten worden gemaakt. Een onjuiste waarde kan leiden tot onjuist gedrag en sommige bedrijfslogica wordt mogelijk niet correct uitgevoerd.
 
 ## <a name="automatic-form-switching"></a>Automatisch schakelen tussen formulieren
 
@@ -47,7 +49,7 @@ Volg deze stappen om een aangepaste versie van het formulier **Projectgegevens**
     > [!IMPORTANT]
     > Verwijder de scripts niet. Anders kunnen sommige gegevens onjuist worden geïnitialiseerd.
 
-3. Controleer of het veld **Type** ( **msdyn\_ordertype** ) aanwezig is in het formulier. 
+3. Controleer of het veld **Type** (**msdyn\_ordertype**) aanwezig is in het formulier. 
 
     > [!IMPORTANT]
     > Verwijder dit veld niet. Anders mislukken de initialisatiescripts.

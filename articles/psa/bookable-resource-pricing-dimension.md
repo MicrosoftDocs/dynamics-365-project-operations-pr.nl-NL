@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074663"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144992"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Boekbare resource gebruiken als een prijsdimensie
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Dit onderwerp bevat informatie over het gebruik van een boekbare resource als een prijsdimensie. Voordat u begint, moet u een nieuwe oplossing voor prijsdimensies maken als u deze nog niet hebt. Als u al een oplossing voor prijsdimensies hebt, kunt u wijzigingen in die oplossing aanbrengen. Als u geen nieuwe oplossing voor prijsdimensies voor uw organisatie hebt gemaakt, voltooit u de procedures in het onderwerp [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Boekbare resource toevoegen aan formulieren en weergaven
@@ -52,12 +55,12 @@ Open Oplossingenverkenner voor de oplossing voor prijsdimensies en klik op **All
 2. Voeg **Boekbare resource** toe aan deze lijst met prijsdimensies als **msdyn_bookableresource**. 
 3. Geef de context aan waarin de boekbare resource werkt als een prijsdimensie en stel de waarden voor **Van toepassing op kosten** en **Van toepassing op verkoop** in.
 4. Selecteer in het veld **Dimensietype** de optie **Op bedrag gebaseerd**. 
-5. Selecteer de kosten- en verkoopprioriteit voor de boekbare resource. Als een boekbare resource wordt opgenomen als een prijsdimensie, heeft deze meestal de hoogste prioriteit, dus als u dit instelt op **1** (of **0** , afhankelijk van de manier waarop u de prioriteit telt), bent u verzekerd van dat gedrag.
+5. Selecteer de kosten- en verkoopprioriteit voor de boekbare resource. Als een boekbare resource wordt opgenomen als een prijsdimensie, heeft deze meestal de hoogste prioriteit, dus als u dit instelt op **1** (of **0**, afhankelijk van de manier waarop u de prioriteit telt), bent u verzekerd van dat gedrag.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Veldnamen voor prijsdimensies instellen
 
 Wanneer de veldnaam van een prijsdimensie in de tabel **Rolprijs** verschilt van de veldnaam in een van de andere entiteiten waar de standaardinstelling van de prijs moet werken, moet de prijsdimensierecord op de hoogte worden gesteld van de verschillende namen.    
-Voor een boekbare resource heeft de entiteit **Projectteamleden** een iets andere veldnaam ( **msdyn_bookableresourceid** ) dan in de rolentiteit **Rolprijs** ( **msdyn_ bookableresource** ). De prijsdimensierecord voor **msydn_bookableresource** moet hiervan op de hoogte worden gesteld. 
+Voor een boekbare resource heeft de entiteit **Projectteamleden** een iets andere veldnaam (**msdyn_bookableresourceid**) dan in de rolentiteit **Rolprijs** (**msdyn_ bookableresource**). De prijsdimensierecord voor **msydn_bookableresource** moet hiervan op de hoogte worden gesteld. 
 1. Dubbelklik hiervoor op de rij in het raster **Prijsdimensies** om de dimensiepagina van **msdyn_bookableresource** te openen.
 2. Klik op de dimensiepagina op het tabblad **Gerelateerd** op **Veldnamen voor prijsdimensies**.
 

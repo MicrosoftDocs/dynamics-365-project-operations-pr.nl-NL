@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074633"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144857"
 ---
 # <a name="create-custom-fields-and-entities"></a>Aangepaste velden en entiteiten maken 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Voer de volgende stappen uit wanneer u een aangepaste optieset of entiteit op het Power Apps-platform wilt maken.  
 De procedures in dit onderwerp moeten worden voltooid met behulp van de webinterface van Project Service Automation (PSA).

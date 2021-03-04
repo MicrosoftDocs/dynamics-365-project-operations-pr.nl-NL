@@ -3,6 +3,7 @@ title: Functies van de app Project Finder Mobile inschakelen
 description: Informatie over de app Project Finder Mobile inschakelen voor Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132957"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144542"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Functies van de app Project Finder Mobile inschakelen (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Uw resources kunnen de app Project Finder Mobile op hun telefoon met [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] gebruiken om nieuwe projecten te zoeken waaraan kan worden gewerkt en om hun vaardighedensets bij te werken.  
+Uw resources kunnen de Project Finder Mobile-app op hun telefoon gebruiken met [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] om nieuwe projecten te zoeken waaraan kan worden gewerkt en om hun vaardighedensets bij te werken.  
   
  De toepassing is beschikbaar voor [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)]-telefoons en [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- U moet een aantal opties instellen in de parameterinstelling voor uw organisatie-eenheid zodat gebruikers de resourcevereisten van projecten kunnen weergeven en hun vaardigheden kunnen bijwerken.  
+    
+ U moet een aantal opties instellen in de parameterinstellingen voor uw organisatie-eenheid om gebruikers toestemming te geven om de resourcevereisten van projecten te kunnen bekijken en vaardigheden te kunnen bijwerken.
   
 > [!NOTE]
 >  De app Project Finder Mobile werkt alleen met [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], niet met lokale installaties.  
@@ -55,10 +58,10 @@ Uw resources kunnen de app Project Finder Mobile op hun telefoon met [!INCLUDE[p
 ## <a name="email-notifications"></a>E-mailmeldingen  
  Met [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] worden e-mailberichten over resourceaanvragen verzonden naar de volgende geadresseerden op de volgende tijdstippen:  
   
-|Geadresseerde|Gebeurtenis|  
+|Ontvanger|Gebeurtenis|  
 |---------------|-----------|  
-|Projectmanager|-   Als een resource zich aanmeldt voor een project met de toepassing Project Finder Mobile.|  
-|Resource|-   Als het projectwerk waarvoor de resource zich heeft aangemeld, al door een andere resource is uitgevoerd.<br />-   Als hun vaardigheidsgoedkeuringsaanvraag is goedgekeurd of geweigerd.<br />-   Als hun projectaanmeldingsaanvraag is goedgekeurd of geweigerd.|  
+|Projectmanager|- Een resource meldt zich aan voor een project met de Project Finder Mobile-app.|  
+|Resource|- Het projectwerk waarvoor de resource zich heeft aangemeld, is al door een andere resource uitgevoerd.<br />- De vaardigheidsgoedkeuringsaanvraag is goedgekeurd of geweigerd.<br />- De projectaanmeldingsaanvraag is goedgekeurd of geweigerd.|  
   
 ## <a name="privacy-notice"></a>Privacyverklaring  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
