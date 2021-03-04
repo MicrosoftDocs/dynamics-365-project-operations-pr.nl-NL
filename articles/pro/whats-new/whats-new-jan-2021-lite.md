@@ -41,3 +41,6 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 | **Beheer van verkoopkansen** | 2040713 | De scriptfout opgelost die optreedt bij het maken van een factuur op basis van een contract waarbij Field Service is geïnstalleerd. |
 | **Projecten plannen en bijhouden** | 2090202 | Bedrijfsregels die niet meer worden gebruikt, gemarkeerd als **Afgeschaft**. |
 | **Tijd en onkosten** | 2091249 | Aangescherpte controles, zodat gebruikers de taak niet kunnen wijzigen op een ingediende of goedgekeurde tijdsvermelding. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

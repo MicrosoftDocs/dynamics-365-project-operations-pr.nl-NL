@@ -73,3 +73,6 @@ U kunt gegevens voor op entiteiten gebaseerde dimensies handmatig maken of met b
 > ![Voorbeeldgegevens voor de entiteit Standaardtitel ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

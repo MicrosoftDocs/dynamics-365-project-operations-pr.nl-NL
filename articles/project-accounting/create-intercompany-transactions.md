@@ -113,3 +113,6 @@ Elsje Hulsegge, ontwikkelaar werkzaam bij GBPM, registreert 10 uur werk voor een
     - Credit: Project - Toegerekende inkomsten 120 USD
 
     Het systeem is nu klaar om een intercompany-klantfactuur te creëren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

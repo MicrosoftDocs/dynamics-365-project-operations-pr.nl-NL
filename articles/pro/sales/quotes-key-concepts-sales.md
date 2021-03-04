@@ -89,3 +89,6 @@ Prijsopgaven voor Project Operations zijn gebaseerd op de prijsopgaven van Dynam
 - Prijsopgaven voor Project Operations hebben hun eigen formulier- en UI-elementen, bedrijfsregels, bedrijfslogica in invoegtoepassingen en client-side scripts die ze uniek maken ten opzichte van verkoopprijsopgaven.
 
 Daarom wordt het niet aanbevolen om een verkoopprijsopgave en een Project Operations-prijsopgave door elkaar te gebruiken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

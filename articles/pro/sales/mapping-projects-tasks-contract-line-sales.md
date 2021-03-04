@@ -82,3 +82,6 @@ Dit is de betere methode om projecttaken los te koppelen van contractregels. U k
 4. Selecteer in het dialoogvenster dat wordt geopend een contractregel in de vervolgkeuzelijst.
 5. Schakel het selectievakje in om aan te geven of de koppeling ook moet worden verwijderd voor onderliggende taken van de geselecteerde taken. Als u het vakje aanvinkt, worden ook de onderliggende taken van de geselecteerde taken losgekoppeld van de contractregel.
 6. Selecteer **OK**. Een waarschuwingsbericht geeft aan dat het verwijderen van deze koppeling kan resulteren in de omkering van de werkelijke waarden die eerder voor de taak zijn geregistreerd. Selecteer **OK** in het waarschuwingsvenster om de koppeling tussen de taak en de projectgebaseerde contractregel te verwijderen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Geef persoonlijke afspraken, boekingen van projectwerk en toewijzingen van field
   
 ### <a name="see-also"></a>Zie ook  
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

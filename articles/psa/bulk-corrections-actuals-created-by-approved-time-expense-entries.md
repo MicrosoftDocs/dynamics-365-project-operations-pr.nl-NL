@@ -90,3 +90,6 @@ Voer de volgende stappen uit om een of meer onkostenvermeldingen te corrigeren.
 8. Controleer op het tabblad **Werkelijke waarden** op de projectpagina de **Gekoppelde weergave van werkelijke waarden**. De oorspronkelijke vermeldingen en de gecorrigeerde vermeldingen worden vermeld. In de volgende afbeelding ziet u de oorspronkelijke bedragen voor onkostenvermeldingen en de overeenkomstige gecorrigeerde bedragen voor onkostenvermeldingen. 
 
 ![Werkelijke onkosten](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

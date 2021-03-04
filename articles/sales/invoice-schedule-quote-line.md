@@ -68,3 +68,6 @@ Open de prijsopgaveregel met de vaste prijs waarvoor u een mijlpaal wilt maken. 
 | Factuurstatus | Snelle invoer | Wanneer een mijlpaal wordt gemaakt, wordt deze status altijd ingesteld op **Niet gereed voor facturering**. | Dit wordt doorgegeven aan de mijlpaal van de projectcontractregel en aan de factuur. |
 | Regelbedrag | Snelle invoer | Bedrag of waarde van de mijlpaal voor facturering aan de klant. | Dit wordt doorgegeven aan de mijlpaal van de projectcontractregel en aan de factuur. |
 | Belastingen | Snelle invoer | Belastingbedrag dat wordt toegepast op de mijlpaal. | Dit wordt doorgegeven aan de mijlpaal van de projectcontractregel en aan de factuur. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

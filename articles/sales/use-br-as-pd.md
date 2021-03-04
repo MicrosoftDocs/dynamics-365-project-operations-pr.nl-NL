@@ -78,3 +78,6 @@ De prijsdimensierecord voor **msydn_bookableresource** moet op de hoogte worden 
 5. Voeg **msdyn_bookableresourceid** toe aan **Veldnaam**.
 
  ![Het formulier Veldnaam voor nieuwe prijsdimensie](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

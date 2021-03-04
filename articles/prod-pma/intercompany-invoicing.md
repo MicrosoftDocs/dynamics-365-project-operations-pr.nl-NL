@@ -113,3 +113,6 @@ Wanneer de uitlenende rechtspersoon, USSI, de intercompany-klantfactuur boekt, w
 Zie [Intercompany-projectfacturering configureren](tasks/configure-intercompany-project-invoicing.md) voor meer informatie.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -231,3 +231,6 @@ In de volgende tabel wordt beschreven hoe gegevens worden gesynchroniseerd tusse
 
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ De volgende problemen zijn opgelost:
 
 - Einddatums worden automatisch ingevuld wanneer een tijdsvermelding wordt gemaakt als de duur null is.
 - Gebruikers kunnen de taak wijzigen voor een tijdsvermelding die is goedgekeurd of ingediend.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

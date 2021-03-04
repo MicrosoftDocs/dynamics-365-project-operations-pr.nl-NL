@@ -79,3 +79,6 @@ Als u een aangepast veld hebt toegevoegd voor de prijsopgaveregeldetails en de w
 7. Selecteer **OK** om het dialoogvenster te sluiten en selecteer vervolgens **Stap bijwerken**.
 8. Herhaal stap 1 tot en met 7 voor de tweede invoegtoepassing.
 9. Sluit de **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

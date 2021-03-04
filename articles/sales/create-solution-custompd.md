@@ -64,3 +64,6 @@ Voeg de volgende Project Service-entiteiten toe aan uw prijsoplossing om belangr
 5.  Wanneer u wordt gevraagd om afhankelijke entiteiten voor de geselecteerde entiteiten op te nemen, selecteert u **Nee, neem geen vereiste componenten op.**
 
     ![Inclusief afhankelijke entiteiten](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

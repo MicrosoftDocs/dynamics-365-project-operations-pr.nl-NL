@@ -45,3 +45,6 @@ Houd documenten met betrekking tot het project die door deze aan het project wor
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -167,3 +167,6 @@ Als uw bedrijf fungeert als één eenheid met één kostprijslijst, hoeft u geen
 Wanneer een zelfstandig project wordt gemaakt, wordt de standaard contracterende eenheid van het project gebaseerd op de gebruiker die het project maakt. Die gebruiker is ook de standaardprojectmanager. Als het project wordt toegewezen aan een verkoopentiteit, zoals een prijsopgave of projectcontract, wordt de contracterende eenheid voor het project in plaats daarvan gebaseerd op de verkoopentiteit. In dit geval kunnen projectschattingen opnieuw worden berekend omdat de kostprijslijst wordt gebruikt om de wijzigingen in de kostenschatting te berekenen als de contracterende eenheid wordt gewijzigd. De verkoopprijslijst wordt gebruikt om de verkoopschattingen te berekenen die worden gewijzigd, zodat deze zijn gesynchroniseerd met de projectprijslijst van de prijsopgave.
 
 De velden **Contracterende eenheid** en **Valuta** voor het project zijn vergrendeld voor bewerking, omdat ze moeten zijn gesynchroniseerd met de waarden in de verkoopentiteit (prijsopgave of projectcontract) waaraan het project is toegewezen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

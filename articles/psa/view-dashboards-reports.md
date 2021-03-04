@@ -49,3 +49,6 @@ Dashboards en rapporten geven u inzicht in de status van uw bedrijf. Het Practic
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

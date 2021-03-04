@@ -32,3 +32,6 @@ Elk project dat niet aan een contract is gekoppeld, wordt in Dynamics 365 Projec
 Nadat transacties naar het project zijn geboekt, worden als het project aan een projectcontract is gekoppeld alle samengevoegde transacties omgekeerd en worden nieuwe factureerbare transacties gemaakt. De factureerbare transacties volgen de boekhoudregels die zijn gedefinieerd met betrekking tot projectkosten en het opbrengstprofiel.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

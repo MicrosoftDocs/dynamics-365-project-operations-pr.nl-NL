@@ -43,3 +43,6 @@ Om prijsopgaven te maken en uw klanten in [!INCLUDE[pn_project_service_auto](../
   
 ### <a name="see-also"></a>Zie ook  
  [Project Service configureren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

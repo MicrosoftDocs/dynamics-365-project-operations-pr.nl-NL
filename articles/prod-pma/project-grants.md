@@ -79,3 +79,6 @@ U kunt een subsidie aanmaken door alle details in een nieuw record in te voeren,
 2. Selecteer de subsidie die u wilt wijzigen.
 3. Ga naar het actievenster en selecteer op het tabblad **Subsidie** in de groep **Onderhouden** de optie **Bewerken**.
 4. Bekijk de details van de subsidie en breng de nodige wijzigingen aan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

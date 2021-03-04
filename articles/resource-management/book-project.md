@@ -66,3 +66,6 @@ Als projectmanager moet u mogelijk een resource naar een project boeken, maar ke
 
 > [!NOTE]
 > Met deze methode maakt u geen boekingen voor de resource. In plaats daarvan wordt de resource toegevoegd aan het team. Nadat het teamlid aan het project is toegevoegd, kan de projectmanager de opties voor boekingen onderhouden en verlengen gebruiken om de vereiste boekingen aan de resource toe te voegen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

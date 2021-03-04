@@ -45,3 +45,6 @@ Deze technische documenten zijn bedoeld om gedetailleerde informatie over [!INCL
 
 ### <a name="see-also"></a>Zie ook
  [Overzicht van Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

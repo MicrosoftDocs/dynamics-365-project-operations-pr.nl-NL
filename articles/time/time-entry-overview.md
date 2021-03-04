@@ -27,3 +27,6 @@ Leden van het projectteam maken en verzenden tijdsvermeldingen voor goedkeuring 
 
 Zie [Gebruikersgedrag van tijdinvoer](ui-behavior-time.md) voor informatie over het maken, indienen of intrekken van een item en andere hulpmiddelen om uw rapportage te voltooien.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

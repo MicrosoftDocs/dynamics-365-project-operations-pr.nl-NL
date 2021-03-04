@@ -116,3 +116,6 @@ De taakmodus heeft geen invloed op updates die zijn aangebracht in de begin- en 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Toegankelijkheid en sneltoetsen
 
 Het raster **Planning** is volledig toegankelijk en kan worden gebruikt met schermlezers, zoals Verteller, JAWS of NVDA. U kunt door het rastergebied navigeren met behulp van de pijltoetsen (zoals in Microsoft Excel), u kunt de tab-toets gebruiken om de interactieve elementen van de gebruikersinterface te doorlopen en u kunt de pijl-omlaag, de Enter-toets of de spatiebalk gebruiken om de vervolgkeuzemenu's te selecteren en te openen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

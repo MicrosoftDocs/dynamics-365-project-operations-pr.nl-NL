@@ -73,3 +73,6 @@ U kunt de niet-overschrijdingsstatus in bulk opnieuw evalueren. Herevaluatie van
 Als u de niet-overschrijdingsstatus opnieuw wilt evalueren, selecteert u een of meer werkelijke waarden uit de weergave **Backlog voor facturering van tijd en materiaal** of **Werkelijke waarden** en vervolgens **Niet-overschrijdingsstatus opnieuw evalueren**.
 
 Alle relevante geselecteerde werkelijke waarden met een limiet die niet mag worden overschreden, worden geëvalueerd op basis van de ingestelde niet-overschrijdingslimiet. Werkelijke waarden die relevant zijn voor het opnieuw evalueren van de niet-overschrijdingsstatus, zijn niet-gefactureerde werkelijke verkopen die niet zijn gefactureerd, niet op een conceptfactuur staan en zijn gemarkeerd als toerekenbaar. Alle andere geselecteerde werkelijke waarden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

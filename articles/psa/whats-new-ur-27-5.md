@@ -42,3 +42,6 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
 De volgende problemen zijn opgelost:
 
 - Vermindering zoekprestaties voor planningsassistentie
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

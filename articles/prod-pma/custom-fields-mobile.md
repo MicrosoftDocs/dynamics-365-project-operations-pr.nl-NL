@@ -429,3 +429,6 @@ Het invoeren van een standaardprojectcategorie voor urenstaatvermeldingen vindt 
 1. De app probeert de standaardcategorie uit de projectresource op te halen. Deze standaardcategorie is ingesteld in de methoden **getCurrentUserResource** en **getDelegatedResourcesForCurrentUser** in de klasse **TSTimesheetSettingsService**.
 2. Als de standaardcategorie niet is opgegeven op het resourceniveau van het project, probeert de app deze uit de projectactiviteit op te halen. Deze standaardcategorie is ingesteld in de methode **getActivitiesForproject** in de klasse **TSTimesheetprojectService**.
 3. Als de standaardcategorie niet is opgegeven op het activiteitsniveau van het project, wordt de standaardcategorie uit de projectactiviteit opgehaald. Deze standaardcategorie is ingesteld in de methode **getProjectDetailsbyRule** in de klasse **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

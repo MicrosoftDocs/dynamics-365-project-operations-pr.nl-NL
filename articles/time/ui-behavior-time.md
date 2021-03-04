@@ -85,3 +85,6 @@ Nadat een paar tijdsvermeldingen zijn gemaakt, kunnen gebruikers meerdere tijdsv
 
 ## <a name="import"></a>Import
 Hetzelfde basisproces wordt gebruikt om te importeren uit boekingen, toewijzingen en uitwisselingen. U kunt het datumbereik opgeven waaruit de boekingen zijn geïmporteerd en vervolgens expliciet de boekingen selecteren die moeten worden gekopieerd als concept-tijdsvermeldingen. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

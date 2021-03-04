@@ -140,3 +140,6 @@ De volgende afbeeldingen laten voorbeelden zien van de toewijzingen van sjabloon
 [![Sjabloontoewijzing - update werkelijk](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Sjabloontoewijzing - update transactie](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

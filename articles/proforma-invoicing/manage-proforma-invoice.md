@@ -135,3 +135,6 @@ Als u werkelijke waarden hebt die zijn binnengekomen nadat de factuur is gemaakt
 2. Open het concept van de pro-formafactuur en klik op het lint **Acties** op **Factuurregeltransacties vernieuwen**.
 
   Hiermee worden factuurregeldetails gemaakt voor elke werkelijke waarde met een datum in het verleden en die is gemarkeerd als **Gereed voor facturering**, maar niet in de factuur is opgenomen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Er zijn twee methoden om de persoonlijke onkosten van een werknemer te verwerken
 - **Betaald door bedrijf**: uw organisatie betaalt de volledige factuur van de bedrijfscreditcard en schrijft vervolgens de persoonlijke onkosten van de rekening van de werknemer af.
 
 U kunt de methode selecteren die uw organisatie gebruikt op de pagina **Parameters onkostenbeheer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

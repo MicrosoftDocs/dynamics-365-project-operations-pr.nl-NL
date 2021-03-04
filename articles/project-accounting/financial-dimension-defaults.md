@@ -62,3 +62,6 @@ Projecten worden aangemaakt en onderhouden in CDS. Boekhoudkundige kenmerken voo
 4. Stel de standaardwaarden voor financiële dimensies in. Merk op dat de financiële dimensies standaard afkomstig zijn van de klantrekening. Als het project is gekoppeld aan een contractregel met meerdere projectcontractklanten, wordt de primaire klant gebruikt om de financiële standaarddimensies te bepalen.
 
 Financiële standaarddimensies van projecten worden gebruikt om de standaardwaarden van journaalregels in te stellen voor transacties voor tijd, onkosten en vergoedingen in het **Project Operations-integratiejournaal** en op gerelateerde projectfactuurregels.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

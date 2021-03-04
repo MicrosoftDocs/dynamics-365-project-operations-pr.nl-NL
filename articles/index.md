@@ -42,3 +42,6 @@ Voor meer informatie raadpleegt u:
 - [Overzicht van Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Overzicht van releasewave 1 van Dynamics 365 Project Operations 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

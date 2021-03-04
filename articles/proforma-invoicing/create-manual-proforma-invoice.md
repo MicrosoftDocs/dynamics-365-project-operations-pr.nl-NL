@@ -111,3 +111,6 @@ Wanneer u een correctiefactuur bevestigt, wordt de oorspronkelijke gefactureerde
 
 - Een gefactureerde werkelijke verkoopwaarde voor zes uur.
 - Een niet-gefactureerde werkelijke verkoopwaarde voor de resterende twee uur. Deze transactie kan later worden gefactureerd of als niet-factureerbaar worden aangemerkt, afhankelijk van de onderhandelingen met de klant.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

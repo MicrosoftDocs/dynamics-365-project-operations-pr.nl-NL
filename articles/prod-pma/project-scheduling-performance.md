@@ -69,3 +69,6 @@ Voer de volgende stappen uit om prestatieverbeteringen voor resourceplanning in 
 
 > [!NOTE]
 > Hiermee worden algemene gegevens gegenereerd voor de tabel **ResRollup** voor alle bedrijven in uw omgeving, dus de batchtaak hoeft maar in één rechtspersoon te worden uitgevoerd. Deze batchtaak is vereist voor alle weergaven voor **Beschikbaarheid van resources**. Als deze batchtaak niet wordt uitgevoerd, worden de gegevens voor **ResRollup** tijdens de uitvoering gegenereerd, wat even kan duren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Configureer de tijdseenheden in de productcatalogus die u als uitgangspunt voor 
   
 ### <a name="see-also"></a>Zie ook  
  [Project Service configureren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

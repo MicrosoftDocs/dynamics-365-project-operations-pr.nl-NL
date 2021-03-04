@@ -33,3 +33,6 @@ Een lijst van alle projectprijsopgaven is te zien op de lijstpagina **Prijsopgav
 2. Gebruik de **Weergavewisselaar** om andere gefilterde weergaven van de prijsopgaven te selecteren. Met aangepaste filtercriteria kunt u uw eigen weergaven en navigatieopties configureren.
 
 Prijsopgaven kunnen worden gemaakt of verwijderd uit deze lijstpagina of detailpagina's.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

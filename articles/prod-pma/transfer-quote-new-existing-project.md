@@ -36,3 +36,6 @@ Volg deze stappen om de wizard te gebruiken.
 1. Ga naar **Projectmanagement en financiële administratie** > **Offertes** > **Projectoffertes**.
 2. Selecteer de offerte die u wilt overdragen en selecteer op het tabblad **Opvolgen** , in de groep **Wijzigen** de optie **Overbrengen naar project**.
 3. Volg de wizard **Offerte overbrengen naar project** om de offerte aan een project te koppelen en over te dragen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

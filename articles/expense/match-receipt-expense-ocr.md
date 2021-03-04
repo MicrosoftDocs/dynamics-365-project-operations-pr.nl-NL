@@ -94,3 +94,6 @@ Momenteel worden de Verenigde Staten ondersteund.
 Finance neemt contact op met Cognitive Services om de veldgegevens te extraheren. Cognitive Services bewaart gedurende maximaal 24 uur een kopie van uw betalingsbewijs terwijl de verwerking plaatsvindt. Nadat de verwerking is voltooid, verwijdert Cognitive Services het betalingsbewijs. Betalingsbewijzen worden nog steeds opgeslagen in Finance.
 
 Zie [Het begrijpen van betalingsbewijzen mogelijk maken met de nieuwe mogelijkheid van Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

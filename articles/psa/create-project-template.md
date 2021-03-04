@@ -62,3 +62,6 @@ Projectsjablonen besparen u tijd als uw bedrijf regelmatig op soortgelijke proje
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

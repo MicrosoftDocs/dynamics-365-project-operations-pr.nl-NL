@@ -77,3 +77,6 @@ U kunt gegevens voor op entiteiten gebaseerde dimensies handmatig maken of met b
 5. Herhaal stap 1-3 om een andere standaardtitel te maken voor Hoofdsysteemtechnicus.
 
 > ![Voorbeeldgegevens voor de entiteit Standaardtitel](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Elke boekbare resource die aan een project werkt, moet een werkurenkalender hebb
 2. Selecteer maximaal 25 **boekbare resources** om bij te werken in de rasterweergave.
 3. Selecteer **Kalender instellen** om een dialoogvenster met een lijst met beschikbare werkuursjablonen te openen.
 4. Selecteer de gewenste sjabloon en selecteer vervolgens **Toepassen**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

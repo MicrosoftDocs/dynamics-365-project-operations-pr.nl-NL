@@ -72,3 +72,6 @@ Als de prijsconfiguratie voor de onkostencategorie ongeldig is, hebt u het probl
 Dien een ondersteuningsticket in als na het uitvoeren van de bovenstaande drie controles voor u nog steeds geen geldige prijs wordt weergegeven voor uw werkelijke verkoopwaarde op basis van onkosten.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

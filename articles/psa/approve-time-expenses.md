@@ -47,3 +47,6 @@ Als adviseurs hun tijd en onkosten voor een project hebben ingevoerd, moet u dez
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

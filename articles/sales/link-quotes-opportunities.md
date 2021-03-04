@@ -56,3 +56,6 @@ Een bestaande prijsopgave kan worden gekoppeld aan een verkoopkans. Voer de volg
    Wanneer u een verkoopkans naar deze fase verplaatst, kunt u deze prijsopgave selecteren uit een lijst met prijsopgaven die aan deze verkoopkans zijn gekoppeld. Als u deze prijsopgave selecteert, geeft u aan dat u ermee verder gaat.
 
    Alle andere prijsopgaven die aan de verkoopkans zijn gekoppeld, blijven beschikbaar en actief totdat een van deze wordt geaccepteerd. U kunt het verkoopproces terug verplaatsen naar de vorige fase **Kwalificeren** en een andere prijsopgave kiezen om mee verder te gaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

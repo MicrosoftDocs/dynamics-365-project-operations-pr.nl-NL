@@ -45,3 +45,6 @@ Met de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Nadat u de inhoudingstermijnen voor een leverancier hebt ingesteld, kunt u de te
 6. Als voor het project ook PWP-voorwaarden (Pay-When-Paid) zijn ingesteld voor de leverancier, voert u het drempelpercentage voor het project in het veld **PWP-drempelpercentage** in.
 
 De inhoudingstermijnen voor leveranciers worden ook weergegeven op inkooporders die u voor de leverancier maakt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

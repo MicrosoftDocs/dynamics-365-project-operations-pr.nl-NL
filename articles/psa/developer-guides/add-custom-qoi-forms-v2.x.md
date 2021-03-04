@@ -96,3 +96,6 @@ Volg deze stappen om een aangepaste versie van het formulier **Projectgegevens**
     ```
 
 6. Sla de aanpassingen op en publiceer deze.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

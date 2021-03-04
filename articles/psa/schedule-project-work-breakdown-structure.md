@@ -152,3 +152,6 @@ U kunt de volgende typen taken bij het maken van de structuur voor werkspecifica
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

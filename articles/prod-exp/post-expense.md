@@ -32,3 +32,6 @@ Als kosten op een onkostendeclaratie in rekening worden gebracht bij een ander b
 Om een onkostendeclaratie te boeken selecteert u op de pagina **Goedgekeurde onkostendeclaraties** de onkostendeclaratie en vervolgens in het actievenster **Boeken**.
 
 U kunt ook alle onkostendeclaraties in de lijst tegelijk boeken. Selecteer alle onkostendeclaraties en vervolgens **Boeken**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

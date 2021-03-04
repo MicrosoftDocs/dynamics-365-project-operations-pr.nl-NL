@@ -93,3 +93,6 @@ In PSA kunt u aangebrachte revisies in een prijsopgave niet bijhouden. In plaats
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Opmerkingen en goedkeuringen van prijsopgaven en projectcontracten bijhouden
 U kunt de beoordeling en goedkeuring van prijsopgaven en projectcontracten beheren met behulp van het recordprikbord en berichten. Uw organisatie kan aangepaste workflows en invoegtoepassingen maken voor het toewijzen, omleiden, escaleren en beheren van meldingen over de revisie en goedkeuring van werkitems.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

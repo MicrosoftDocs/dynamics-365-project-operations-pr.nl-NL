@@ -101,3 +101,6 @@ In het volgende voorbeeld is Contoso Robotics USA (USPM) de lenende rechtspersoo
           - **Bedrijf voor resources** = **Contoso Robotics UK**
           - **Factuurtarief** = **200 USD**
       9. Ga naar **Verkoop** > **Projectcontracten** en voeg de prijslijst **Factuurtarieven van Adventure Works** toe aan de Adventure Works-projectprijslijst van het projectcontract.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

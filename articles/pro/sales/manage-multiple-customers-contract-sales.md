@@ -52,3 +52,6 @@ Een contractklant kan worden gemaakt, bijgewerkt of verwijderd uit het tabblad *
 Percentages voor factureringssplitsing kunnen worden bewerkt met de bewerkingsfunctie op de rasterregel. Als de percentages voor factureringssplitsing niet in totaal 100 procent bedragen, krijgt u een foutmelding. Nadat u de percentages voor factureringssplitsing hebt bewerkt, vernieuwt u de pagina om de fout te negeren.
 
 U kunt ook **Gelijkmatig verdelen** selecteren in het subraster **Contractklanten** om factureringssplitsingen gelijkmatig toe te wijzen aan alle contractklanten. Als er een afrondingsfactor is, wordt deze bij de afrondingsklant opgeteld. Een van de contractklanten wordt altijd getagd als **afrondingsklant**, wat betekent dat de afrondingsvlag om het contractklantrecord is ingesteld **Ja**. Dit is doorgaans de primaire klant van het contract, maar het kan ook worden gewijzigd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Het volgende proces is een voorbeeld van de werkstroom voor onkostenbeheer voor 
 Nadat deze vereisten zijn geverifieerd, wordt de onkostendeclaratie geboekt.
 
 Nadat de onkostendeclaratie is geboekt, wordt betaling geautoriseerd voor de onkostendeclaratie en wordt de werknemer vergoed.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

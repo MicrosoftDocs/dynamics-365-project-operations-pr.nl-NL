@@ -48,3 +48,6 @@ De onderstaande tabel bevat de werkstroomtypen die u kunt maken in **Onkostenbeh
 |       <strong>Reiskosten</strong>       |          Maken van goedkeuringswerkstromen voor aanvragen voor reis- en verblijfskostenvergoeding.           |
 |      <strong>Aanvraag voor kasvoorschot</strong>      |         Maken van goedkeuringswerkstromen voor aanvragen voor kasvoorschotten.          |
 |        <strong>Btw-afschrijving</strong>        | maken van goedkeuringswerkstromen voor het innen van btw (belasting toegevoegde waarde).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

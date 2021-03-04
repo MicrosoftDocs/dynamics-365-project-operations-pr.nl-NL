@@ -47,3 +47,6 @@ Terwijl u resourcerollen toegevoegd, wilt u waarschijnlijk al een aantal toe vaa
   
 ### <a name="see-also"></a>Zie ook  
  [Resources configureren](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Nadat de functie voor het uitbreiden van boekingen is gebruikt voor elke resourc
 Merk op dat de details van de boekingen verschillen laten zien in de starttijd van de boekingen. De boekingen starten niet eerder dan de starttijd van de toewijzingscontour en niet eerder dan de beschikbare starttijd van de resource.
 
 ![Nieuwe boekingen van de resources in het planbord](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

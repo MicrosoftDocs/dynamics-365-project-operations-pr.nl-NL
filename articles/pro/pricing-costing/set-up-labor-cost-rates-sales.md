@@ -82,3 +82,6 @@ In de kostprijslijst voor Fabrikam UK-Robotics kunnen kostentarieven worden uitg
 | Developer | Fabrikam UK | 115 GBP |
 
 De kostprijslijst kan loonkosten in meerdere valuta's weergeven. Bij het genereren van een kostenraming voor het project, zal Project Operations deze kostentarieven omzetten in de projectvaluta en deze aan de gebruiker tonen. Wanneer een tijdboeking is goedgekeurd en werkelijke kosten zijn gemaakt, worden de werkelijke kosten getoond in de valuta van die overeenkomende rolprijsregel op de kostprijslijst. Werkelijke kosten voor tijd van één project kunnen in meerdere valuta's worden geregistreerd. Bij het totaliseren of samenvatten van de werkelijke arbeidskosten op projectniveau, zal Project Operations alle loonkostenbedragen echter omrekenen naar de projectvaluta, die de gebruiker kan weergeven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

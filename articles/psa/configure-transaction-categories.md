@@ -43,3 +43,6 @@ De categorieën van de setuptransactie om superset van onkostencategorieën te b
   
 ### <a name="see-also"></a>Zie ook  
  [Project Service configureren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

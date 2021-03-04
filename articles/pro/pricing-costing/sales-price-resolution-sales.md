@@ -54,3 +54,6 @@ Nadat een prijslijst voor verkopen is omgezet, voert het systeem de volgende sta
     | &nbsp; | Toeslag op kosten | Pas een toeslag toe zoals gedefinieerd door de categorieprijsregel op het eenheidskostentarief van de gerelateerde werkelijke kosten |
 
 4. Als het systeem de veldwaarden **Categorie** en **Eenheid** niet kan afstemmen, wordt het verkooptarief standaard op nul (0) ingesteld.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

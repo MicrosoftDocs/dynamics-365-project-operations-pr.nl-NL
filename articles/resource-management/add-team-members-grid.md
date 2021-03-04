@@ -200,3 +200,6 @@ Wanneer u tijd op hogere niveaus weergeeft, hebben cellen op het tabblad **Afste
 Als u taaktoewijzingen voor een resource hebt, maar geen boekingen, gaat u naar het formulier **Projecten** en selecteert u op het tabblad **Afstemming** het tekort aan boekingen en selecteert u vervolgens **Boeking uitbreiden**. Het dialoogvenster **Boeking uitbreiden** verschijnt en hierin wordt de boeking weergegeven die nodig is om het tekort van de resource aan te vullen. Daarnaast worden de bestaande boekingen van de resource in alle projecten of andere planbare entiteiten weergegeven. Als u **OK** selecteert om de boeking voor de resource te maken, ongeacht de beschikbaarheid van die resource, kan er overboeking ontstaan.
 
 De projectmanager of resourcemanager kan vervolgens het planbord gebruiken om situaties te beheren waarin een resource boekingen heeft die zijn of haar capaciteit te boven gaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

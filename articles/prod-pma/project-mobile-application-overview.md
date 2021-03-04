@@ -49,3 +49,6 @@ Mijn urenstaten (geoptimaliseerd voor mobiel) en Urenstaten voor mijn beoordelin
 - [Projecttijdinvoer]( project-time-entry-mobile-workspace.md)
 - [Projecturenstaten op een mobiel apparaat](Mobile-timesheets.md)
 - [Aangepaste velden implementeren voor de mobiele app Microsoft Dynamics 365 Project Timesheet op iOS en Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

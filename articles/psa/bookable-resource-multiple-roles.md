@@ -74,3 +74,6 @@ Wanneer u de rij van die teamlidrecord uitvouwt, kunt u voor beide taken verschi
 Wanneer u naar het raster **Schattingen** navigeert, ziet u dat de toewijzingen voor dezelfde resource verschillend zijn geprijsd.
 De toewijzing voor de resource voor Taak A wordt geprijsd met de kenmerkwaarde **Adviesleider** voor **Rol**. De toewijzing voor dezelfde resource voor Taak B wordt geprijsd met de kenmerkwaarde **Netwerktechnicus** voor **Rol**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

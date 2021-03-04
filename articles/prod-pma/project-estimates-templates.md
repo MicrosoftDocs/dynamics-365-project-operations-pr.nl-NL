@@ -170,3 +170,6 @@ De volgende afbeeldingen laten voorbeelden zien van de toewijzingen van sjabloon
 [![Sjabloontoewijzing van transacties voor onkostenramingen](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Sjabloontoewijzing van onkostenramingen](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

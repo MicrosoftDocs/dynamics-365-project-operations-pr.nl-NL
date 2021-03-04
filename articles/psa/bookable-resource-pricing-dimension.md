@@ -76,3 +76,6 @@ Hiermee opent u de pagina **Veldnaam voor nieuwe prijsdimensie** voor **msdyn_bo
 5. Voeg **msdyn_projectteam** toe aan het veld **Logische naam van entiteit** en **msdyn_bookableresourceid** aan het veld **Veldnaam**. Sla de record op.
 
  ![Het formulier Veldnaam voor nieuwe prijsdimensie](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

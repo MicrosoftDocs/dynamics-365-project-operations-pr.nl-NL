@@ -44,3 +44,6 @@ Hieronder staan de velden van het klantrecord op de Contractregel van een projec
 Percentages voor factureringssplitsing kunnen worden bewerkt in het raster. Als de percentages voor factureringssplitsing niet in totaal 100 procent bedragen, krijgt u een foutmelding. Nadat u de percentages voor factureringssplitsing hebt bewerkt, vernieuwt u de pagina om de fout te sluiten.
 
 U kunt ook **Evenredig verdelen** selecteren in het subraster van de contractregelklant. Met deze actie worden factureringssplitsingen gelijkmatig toegewezen aan alle contractregelklanten. Als er een afrondingsfactor is, wordt deze bij de afrondingsklant opgeteld. Eén klant met een contractregel wordt altijd aangeduid als de **Afrondingsklant** met de vlag **Afronding** ingesteld op **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

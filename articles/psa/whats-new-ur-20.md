@@ -62,3 +62,6 @@ De volgende problemen zijn opgelost:
 - De lijsten met **Kostprijs organisatie-eenheid** staan overlappingen in de geldigheidsdatums toe.
 - Het is gebruikers niet toegestaan **OrgUnit** te wijzigen wanneer het ordertype niet op werk is gebaseerd omdat dit zal leiden tot een uitzonderingsfout met een null-referentie.
 - Wanneer u uit het formulier **Prijsopgaveregeldetails** probeert terug te gaan naar het tabblad **Prijsopgave**, wordt het formulier vernieuwd en verschijnt het tabblad **Overzicht**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Voer de volgende stappen uit om projecten met een geschatte omzet met een vaste 
 
   Projectkosten, inkomstenprofiel, kostensjabloon en de periodecode kunnen handmatig worden ingesteld. Als ze niet handmatig worden ingesteld, worden de standaardwaarden gebruikt van de eerste schattingsberekening voor het project met behulp van de regels die zijn geconfigureerd voor projectkosten- en opbrengstprofielen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

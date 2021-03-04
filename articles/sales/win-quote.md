@@ -43,3 +43,6 @@ Als de projectprijsopgave is gesloten als Verloren een project heeft waarnaar wo
 
 > [!NOTE]
 > In Project Operations heeft het sluiten van een prijsopgave als Gewonnen of Verloren geen invloed op de status van de verkoopkans. Deze blijft open totdat deze handmatig wordt gesloten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

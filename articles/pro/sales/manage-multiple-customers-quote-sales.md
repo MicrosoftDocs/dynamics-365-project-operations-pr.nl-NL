@@ -52,3 +52,6 @@ Een prijsopgaveklant kan worden gemaakt, bijgewerkt of verwijderd via het tabbla
 U kunt de percentages voor factuursplitsing bewerken met behulp van de bewerkingsfunctie voor rasterregels. Als de percentages voor factuursplitsing niet in totaal 100% bedragen, treedt er een fout op. Nadat u de percentages voor factuursplitsing hebt bijgewerkt, vernieuwt u de pagina om de fout te verwijderen.
 
 U kunt ook **Evenredig verdelen** selecteren in het subraster van de prijsopgaveklant. Met deze actie worden factuursplitsingen toegewezen aan alle prijsopgaveklanten. Als er een afrondingsfactor is, wordt die toegevoegd voor de afrondingsklant. Een van de prijsopgaveklanten wordt altijd aangeduid als afrondingsklant. Dit betekent dat in de prijsopgaveklantrecord de markering **Afronding** is ingesteld op **Ja**. Meestal is dit de primaire klant van de prijsopgave, maar dat kan worden gewijzigd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

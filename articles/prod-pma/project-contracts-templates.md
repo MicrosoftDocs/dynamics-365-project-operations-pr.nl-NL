@@ -153,3 +153,6 @@ De volgende afbeeldingen laten voorbeelden zien van de toewijzingen van sjabloon
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Toewijzing van mijlpalen voor projectcontractregels in de sjabloon Projecten en contracten (PSA 3.x naar Dynamics) - v2:
 
 [![Toewijzing mijlpaal projectcontractregels met versie twee van sjabloon](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

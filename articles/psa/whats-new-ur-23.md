@@ -67,3 +67,6 @@ De volgende problemen zijn opgelost:
 De volgende problemen zijn opgelost:
 
 - Wanneer in **Alle transactiecategorieën ophalen** wordt gedubbelklikt, worden er meerdere regels gemaakt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ U kunt de functie voor uitgebreid boeken van het tabblad **Afstemming** of het *
 ![Boekingen voor een teamlid uitbreiden op het tabblad Afstemming van resources](media/RM-how-to-7.png)
 
 Nadat een teamlid is geboekt voor uw project, kunt u Boekingen bijhouden of het planbord rechtstreeks gebruiken om hun boekingen te beheren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

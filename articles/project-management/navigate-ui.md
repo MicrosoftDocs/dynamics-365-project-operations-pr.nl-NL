@@ -102,3 +102,6 @@ Hieronder volgt een beknopt overzicht van de gebruikelijke instellingen op de ve
 **Kolom toevoegen**: hiermee kan de gebruiker de zichtbare kolommen in het raster definiëren. Alleen eenvoudige kolommen kunnen worden toegevoegd aan de rasters in het formulier **Projectplanning**.
 
 ![Knop Kolom toevoegen](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

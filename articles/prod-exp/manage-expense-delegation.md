@@ -41,3 +41,6 @@ Wanneer de functiebeheersleutel **Lijstpagina met gemachtigde onkostengebruikers
 Een gemachtigde gebruiker kan snel filteren en zoeken op bestaande onkostendeclaraties die aan hem zijn gedelegeerd. Ze kunnen ook een nieuwe onkostendeclaratie voor andere gebruikers maken door **Nieuwe onkostendeclaratie** te selecteren.
 
 Gemachtigde gebruikers kunnen ook onkostendeclaraties voor andere werknemers maken en beheren door naar **Onkostenbeheer** > **Mijn onkosten** > **Onkostendeclaraties** te gaan en **Onkosten van een andere gebruiker openen** te selecteren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

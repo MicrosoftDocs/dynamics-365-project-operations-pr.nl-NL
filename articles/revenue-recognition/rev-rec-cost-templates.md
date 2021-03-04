@@ -79,3 +79,6 @@ Voer deze stappen uit om kostensjablonen te maken:
 7. Op het tabblad **Categorieën** selecteert u de projectcategorieën die u in de kostensjabloonregel wilt opnemen.
 8. Selecteer op het tabblad **Algemeen** of deze regel wordt meegeteld in de berekening van het voltooiingspercentage.
 9. Selecteer de methode voor kosten tot voltooiing die moet worden gebruikt bij het berekenen van het voltooiingspercentage.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

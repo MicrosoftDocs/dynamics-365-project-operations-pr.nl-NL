@@ -93,3 +93,6 @@ Contracten in Project Operations zijn gebaseerd op de contracten in Dynamics 365
 - Contracten in Project Operations hebben hun eigen formulier- en UI-elementen, bedrijfsregels, bedrijfslogica in invoegtoepassingen en client-side scripts die ze uniek maken ten opzichte van Sales-contracten.
 
 Om deze redenen moet u een Sales-contract en een Project-contract niet door elkaar gebruiken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

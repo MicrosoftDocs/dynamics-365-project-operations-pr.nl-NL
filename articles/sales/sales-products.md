@@ -124,3 +124,6 @@ Als het bijvoorbeeld de volgende eigenschappen zijn:
 - **SKU van product** 
 
 De eigenschappen **Aantal gebruikers** en **Aantal maanden** kunnen worden gemarkeerd als hoeveelheidsfactoren door de eigenschappen van de productregel te bewerken. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

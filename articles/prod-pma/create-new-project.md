@@ -104,3 +104,6 @@ Tijdens het reserveren van resources kunnen projectmanagers de rolresources filt
 
 3. Selecteer **Opslaan** en sluit vervolgens de pagina.
 4. Voeg op het tabblad **Competenties** de vaardigheid **ProjectMgmt** en het certificaat **PMP** in.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

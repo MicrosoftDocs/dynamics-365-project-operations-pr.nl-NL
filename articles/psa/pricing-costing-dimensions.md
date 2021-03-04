@@ -77,3 +77,6 @@ In het volgende voorbeeld worden de factureringstarieven weergegeven die zijn in
 | ----------------|-------------|----------|----------:|----------|
 | Mijn bedrijf_Bandbreedte1 | Contoso US  |Hour | 145|USD     |
 | Mijn bedrijf_Bandbreedte2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

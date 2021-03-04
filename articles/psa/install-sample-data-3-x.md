@@ -297,3 +297,6 @@ Selecteer een gebruiker (bijvoorbeeld Marinus Wolthuis) en wijzig de werktijden 
 
 > [!div class="mx-imgBorder"]
 > ![Schermafbeelding van actieve boekbare resources](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

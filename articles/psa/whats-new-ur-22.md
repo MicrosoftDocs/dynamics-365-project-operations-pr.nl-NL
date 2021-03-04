@@ -72,3 +72,6 @@ De volgende problemen zijn opgelost:
 - Als u de prijsopgave als gewonnen sluit, navigeert u niet naar het gemaakte contract als een BPF die aan de prijsopgave is gekoppeld, zich in de laatste fase bevindt.
 - Omkeren van **Niet-gefactureerde verkopen** is gekoppeld aan de oorspronkelijke kosten wanneer een tijdsvermelding wordt teruggeroepen.
 - Nadat u de knop **Bevestigen** hebt geselecteerd, verandert de factuurstatus niet in **Bevestigd** tenzij de factuur wordt vernieuwd.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

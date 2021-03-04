@@ -48,3 +48,6 @@ Hieronder vindt u een overzicht van de velden die kunnen worden bijgewerkt voor 
 - **Algemene projectstatus**: de algehele status van het project die wordt geleverd door de projectmanager.
 - **Opmerkingen**: een beschrijving van de huidige status van het project, geleverd door de projectmanager.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

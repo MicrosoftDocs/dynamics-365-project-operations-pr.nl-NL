@@ -83,3 +83,6 @@ Als u een oudere versie gebruikt, raadpleegt u voor resourcebeschikbaarheid [De 
   
 ### <a name="additional-resources"></a>Aanvullende bronnen  
  [Resourcemanager-handleiding](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

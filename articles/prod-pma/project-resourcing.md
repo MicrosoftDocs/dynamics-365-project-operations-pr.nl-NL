@@ -55,3 +55,6 @@ De volgende onderwerpen bieden informatie over de taken die moeten worden voltoo
 - [Prestaties van projectresourceplanning](project-scheduling-performance.md)
 - [Rollen instellen voor sjablonen voor structuur voor werkspecificatie](set-up-roles-wbs-template.md)
 - [Vervulling van resources voor geplande resources](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

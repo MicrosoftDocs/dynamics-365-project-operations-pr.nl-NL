@@ -67,3 +67,6 @@ Nadat u organisatorische en klantspecifieke standaard projectprijslijsten hebt g
 
 1. Controleer in de **Projectprijsopgave** op het tabblad **Projectprijslijst** of in het subraster geen specifieke prijslijstrecord is geselecteerd.
 2. Selecteer **Aangepaste prijzen maken**. Hiermee worden kopieën gemaakt van alle standaardprijslijsten die momenteel aan de prijsopgave zijn gekoppeld en worden deze kopieën aan de prijsopgave gekoppeld. De bestaande koppelingen met standaardprijslijsten worden verwijderd. De verkoper kan vervolgens beginnen met het bewerken van prijzen op deze exemplaren. Deze gewijzigde prijzen zijn alleen van toepassing op deze projectprijsopgave.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

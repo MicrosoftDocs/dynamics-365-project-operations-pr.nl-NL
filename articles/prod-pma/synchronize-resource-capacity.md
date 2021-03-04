@@ -49,3 +49,6 @@ We raden u aan een batch te gebruiken. De opties zijn beschikbaar tijdens het sy
     | Einddatum    | Voer de einddatum in voor het synchronisatieproces voor het samenvoegen van resourcecapaciteit. |
 
 [![Synchronisatieproces](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

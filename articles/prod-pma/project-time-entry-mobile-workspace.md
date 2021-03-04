@@ -113,3 +113,6 @@ De mobiele app Finance and Operations downloaden en installeren:
 11. Selecteer de regeleigenschap.
 12. Optioneel: voer eventuele externe en interne opmerkingen in.
 13. Selecteer **Gereed**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

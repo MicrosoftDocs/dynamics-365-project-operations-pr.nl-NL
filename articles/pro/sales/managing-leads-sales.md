@@ -72,3 +72,6 @@ Het bedrijfsproces Potentiële klant naar verkoopkans ondersteunt de volgende fa
 | Ontwikkelen | Kans | Ontwikkel de verkoopkans om meer informatie toe te voegen over het betrokken werk, de belanghebbenden en de concurrentie. |
 | Voorstel | Kans | Ontwikkel het voorstel en verkrijg goedkeuring van het interne beoordelingsteam. |
 | Afsluiten | Kans | Haal de verkoopkans binnen om de deal te sluiten. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

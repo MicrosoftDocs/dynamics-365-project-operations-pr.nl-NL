@@ -60,3 +60,6 @@ U kunt prijsopgaven analyseren en grafieken voor klantverwachtingen genereren ov
 Een analyse van klantverwachtingen over de planning wordt uitgevoerd door de laatste einddatum van het details van de prijsopgaveregel te vergelijken met de gevraagde leveringsdatum voor alle prijsopgaveregels in de prijsopgave.
 
 Een analyse van klantverwachtingen over het budget wordt uitgevoerd door de som van het totale klantbudget te vergelijken met het prijsopgavebedrag van alle prijsopgaveregels.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

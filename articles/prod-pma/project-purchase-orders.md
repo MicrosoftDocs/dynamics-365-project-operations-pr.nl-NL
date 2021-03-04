@@ -76,3 +76,6 @@ U kunt een van de volgende methoden gebruiken om een inkooporder te maken in Pro
 
 Zie [Artikelen op inkooporder ontvangen vanuit artikelvereiste](tasks/receive-items-purchase-order-item-requirement.md) voor meer informatie.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

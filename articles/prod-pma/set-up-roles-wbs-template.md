@@ -107,3 +107,6 @@ Er zijn extra opties toegevoegd in de WBS om de functionaliteit voor het toewijz
     > U ontvangt geen waarschuwing dat de opgegeven resource nu 2 is, omdat het aantal resources 1 blijft.
 
 14. Valideer op de pagina **Structuur voor werkspecificatie** de resourcetoewijzing in de WBS en selecteer vervolgens **Opslaan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

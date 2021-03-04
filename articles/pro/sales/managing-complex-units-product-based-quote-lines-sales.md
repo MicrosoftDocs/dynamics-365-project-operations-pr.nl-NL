@@ -45,3 +45,6 @@ Volg deze stappen om kwantiteitsfactoren te maken op basis van producteigenschap
 6. Sla het formulier op en sluit het. Herhaal deze stappen voor alle eigenschappen die moeten worden gebruikt voor het berekenen van de hoeveelheid voor de productgebaseerde prijsopgaveregel.
 
 Wanneer u een productgebaseerde prijsopgaveregel voor een product maakt, wordt de hoeveelheid van de prijsopgaveregel vergrendeld. De hoeveelheid wordt berekend als een product van de eigenschapswaarden die u voor die prijsopgaveregel invoert.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

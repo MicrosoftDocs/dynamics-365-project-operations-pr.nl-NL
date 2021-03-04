@@ -43,3 +43,6 @@ Voer de volgende stappen uit om een kopie van de prijslijst te maken.
 1. Op de tabbladen **Rol**, **Categorie** en **Prijslijstitem** van een prijslijst, kunt u **Prijzen bijwerken** selecteren om een toeslag toe te passen voor alle prijzen in het subraster. 
 2. Voer een prijsverhoging in op de pagina van het dialoogvenster dat wordt geopend. U kunt ook een negatief prijsverhogingspercentage invoeren om prijzen met een bepaald percentage te verlagen. 
 3. Selecteer **OK** in de dialoogpagina en controleer vervolgens of de prijzen in het subraster de door u gemaakte wijzigingen weerspiegelen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

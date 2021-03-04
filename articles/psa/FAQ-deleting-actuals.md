@@ -33,3 +33,6 @@ ms.locfileid: "5148952"
 
 In Project Service Automation (PSA) kunt u geen werkelijke waarden verwijderen omdat deze fungeren als de bron van waarheid voor transacties die financiële gevolgen hebben voor downstream-systemen, zoals het grootboek. Als werkelijke waarden kunnen worden verwijderd, kan de integriteit van de financiële-rapportagetransacties worden betwist. Om een audittrail tot stand te brengen, moeten klanten journalen gebruiken om compenserende transacties te maken.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

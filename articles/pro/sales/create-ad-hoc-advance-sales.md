@@ -39,3 +39,6 @@ Voer de volgende stappen uit om een voorschot aan de klant te factureren.
     | **Factuurstatus** | Dit is een optie-instelling die aangeeft of dit voorschot wordt toegevoegd aan een conceptfactuur voor deze klant. De mogelijke waarden zijn:</br>- **Niet gereed voor facturering**</br>- **Gereed voor facturering** | Wanneer een voorschot of vooruitbetaling is gemarkeerd als **Gereed voor facturering**, wordt het toegevoegd als een regeltijd in een conceptfactuur. Alleen een volledig gefactureerd voorschot kan worden gebruikt om af te stemmen met projectkosten voor de volgende factuurperiode. |
 
 4. Selecteer **Opslaan en sluiten** in het dialoogvenster Snelle invoer om het voorschot of de vooruitbetaling te registreren.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

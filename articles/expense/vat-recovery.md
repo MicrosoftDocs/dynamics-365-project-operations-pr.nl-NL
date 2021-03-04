@@ -66,3 +66,6 @@ Wanneer Arnie klaar is om de onkostendeclaratiegegevens naar de derde leverancie
 Arnie moet controleren of de onkostendeclaratietransacties in aanmerking komen voor btw-terugvordering, en dat de digitale kwitanties bij de rapportages worden gevoegd. Om te beginnen met het verwerken van in aanmerking komende uitgaven voor binnenlandse terugvordering, opent Arnie de pagina **Terugvordering van belasting op onkosten** en selecteert hij de onkostendeclaratie die moet worden geverifieerd. Hij controleert of de bonnen op naam van het bedrijf staan in plaats van op de werknemer. (Voor btw-terugvordering moeten de kwitanties op naam van het bedrijf staan.) Arnie controleert vervolgens of alle vereiste kwitanties zijn bijgevoegd en of de juiste btw-groep en btw-codes voor artikelen zijn ingevoerd.
 
 Wanneer Arnie de papieren ontvangstbewijzen ontvangt, verandert hij de status van de onkostendeclaratie in **Klaar voor terugvordering**. Hij kan dan de aangifte indienen bij de betreffende belastingdienst. In dit geval gaat het in de Verenigde Staten om de Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

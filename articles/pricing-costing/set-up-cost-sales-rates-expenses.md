@@ -55,3 +55,6 @@ Wanneer deze prijsmethode wordt geselecteerd op de categorieprijsregel die is ge
 
 ### <a name="markup-over-cost"></a>Toeslag op kosten
 Wanneer deze prijsmethode wordt geselecteerd op de categorieprijsregel die is gekoppeld aan een verkoopprijslijst, wordt de prijs voor de combinatie van categorie en eenheid alleen standaard ingesteld voor een werkelijke prijs. Bijvoorbeeld niet-gefactureerde werkelijke verkoopkosten voor de onkostentransactieklasse. Deze eenheidsprijs wordt ingesteld op de niet-gefactureerde werkelijke verkoopwaarde voor een berekende waarde van de eenheidsprijs op de werkelijke kosten voor die onkosten nadat het gedefinieerde verhogingspercentage is toegepast. Het standaard instellen van prijzen op basis van kosten wordt niet gedaan op projectschattingen voor onkosten of prijsopgaveregel- en contractregeldetails voor onkosten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

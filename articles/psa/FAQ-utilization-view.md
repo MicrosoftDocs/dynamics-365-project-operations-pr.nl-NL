@@ -101,3 +101,6 @@ U kunt het volgende controleren als u geen toerekenbare bestede uren ziet:
   - De projectondersteunende rol op de projectcontractregel is ingesteld op niet-toerekenbaar.
   - Aan het project is geen contractregel gekoppeld.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

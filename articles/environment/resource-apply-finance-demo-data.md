@@ -79,3 +79,6 @@ Dit duurt een paar minuten. U ontvangt een bevestigingsbericht dat de gebruiker 
 18. Sluit de externe bureaubladsessie en gebruik de LCS-pagina **Omgevingsdetails** om in te loggen op de omgeving en te bevestigen dat deze werkt zoals verwacht.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

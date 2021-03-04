@@ -63,3 +63,6 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
   - Opgelost: geen foutmelding meer in **opzoekweergave van projecten** in het formulier **Prijsopgaveregel** wanneer er meer dan 1000 projecten zijn.
   - Opgelost: het raster **Schattingen** voor schattingen voor arbeid en onkosten geeft nu het juiste valutasymbool weer.
   - Opgelost: nadat een organisatie PSA heeft bijgewerkt van updaterelease 14 naar updaterelease 15, wordt het tabblad **Planning** niet langer leeg weergegeven op het formulier **Project**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

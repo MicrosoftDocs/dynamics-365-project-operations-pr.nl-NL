@@ -36,3 +36,6 @@ Er zijn twee manieren waarop een projectmanager een nieuwe prognose van de inspa
 - De projectbeheerder kan het standaardvoortgangspercentage vervangen door een nieuwe schatting van de werkelijke voortgang voor de taak.
 
 Bij elk van deze benaderingen worden de ETC, de EAC, het voortgangspercentage en de verwachte inspanningsafwijking voor een taak opnieuw berekend. De EAC, ETC en het voortgangspercentage voor de overzichtstaken worden opnieuw berekend en leveren een nieuwe prognose van de inspanningsafwijking op.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

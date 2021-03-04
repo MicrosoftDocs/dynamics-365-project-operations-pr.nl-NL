@@ -63,3 +63,6 @@ In Project Operations kunt u aangebrachte revisies in een prijsopgave niet bijho
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Opmerkingen en goedkeuringen van prijsopgaven en projectcontracten bijhouden
 U kunt de beoordeling en goedkeuring van prijsopgaven en projectcontracten beheren met behulp van het recordprikbord en berichten. Uw organisatie kan aangepaste werkstromen en invoegtoepassingen maken voor het toewijzen, omleiden, escaleren en beheren van meldingen over de revisie en de goedkeuring van werkitems.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

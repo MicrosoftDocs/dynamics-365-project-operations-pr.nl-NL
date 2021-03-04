@@ -80,3 +80,6 @@ Wanneer een leverancier zijn werk aan een project voltooit en u een factuur stuu
 2. Op de pagina **Leveranciersfactuur met betaling bij betaling** voert u in het zoekveld waarden in om de leveranciersfactuur te zoeken die u wilt bekijken, en selecteert u vervolgens **Zoeken**.
 3. Op het sneltabblad **Leveranciersfactuurregels** selecteert u de regels die u wilt wijzigen.
 4. Als aan de voorwaarden voor **Betalen bij betaling** is voldaan voor de factuurregel, selecteert u **Leveranciersbetaling vrijgeven**. De optie **Betalen bij betaling** wordt uitgeschakeld en de waarde van het veld **Klaar voor betaling** wordt gewijzigd in **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

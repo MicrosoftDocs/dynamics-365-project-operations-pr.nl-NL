@@ -45,3 +45,6 @@ Wanneer u **OK** selecteert in het dialoogvenster, wordt een kopie van de projec
 > - Projectreferentie - projectgebaseerde prijsopgaveregels - budgetinformatie van de klant
 >
 >Omdat deze informatie heel specifiek is voor elke prijsopgave, worden deze velden en records niet gekopieerd. Prijsopgaveregels voor projecten en producten, schattingen op prijsopgaveregeldetails en niet-overschrijdingswaarden op prijsopgaveniveau worden gekopieerd. Standaardinstellingen voor prijzen en kosten zijn afhankelijk van de selectie van de optie **Prijzen kopiëren** in het dialoogvenster **Parameters kopiëren**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Een lijst van alle projectcontracten is te zien op de lijstpagina **Contracten**
 2. Selecteer de **Weergavewisselaar** (de vervolgkeuzepijl naast de naam van de weergave) om andere gefilterde weergaven te selecteren. U kunt uw eigen aangepaste weergaven maken met aangepaste filtercriteria.
 
 Contracten kunnen worden gemaakt of verwijderd uit deze lijstpagina of detailpagina's.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

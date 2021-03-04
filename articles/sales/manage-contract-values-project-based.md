@@ -57,3 +57,6 @@ Regel: een project en een bepaalde transactieklasse kunnen slechts op één proj
 | C1       | CL2           | P1      | Geen           | Ja             | Geen          | Geldig           | Tijd en vergoedingen voor project P1 zijn opgenomen in CL1. Onkosten voor het P1-project zijn opgenomen in CL2. </br>   Er is geen overlap in wat op elke contractregel is opgenomen en daarom is het geldig.  |
 | C1       | CL1           | P1      | Ja          | Ja             | Ja         | Ongeldig       | In strijd met de regel. Tijd, onkosten en vergoedingen voor project P1 zijn opgenomen in de regels van twee contracten.                                                                                               |
 | CL2      | CL2           | P1      | Ja          | Ja             | Ja         | Ongeldig       | In strijd met de regel. Tijd, onkosten en vergoedingen voor project P1 zijn opgenomen in de regels van twee contracten.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

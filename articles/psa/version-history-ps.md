@@ -73,3 +73,6 @@ Meer informatie over updates voor Project Service vindt u in [Releaseplannen voo
 >[!Note]
 > - Datums in alle regio's behalve Government Community Cloud (GCC) geven aan wanneer de volgende automatische update plaatsvindt. Datums in GCC geven de beschikbaarheid van de versie aan; op dit moment is er geen automatische update voor deze regio's.
 > - Voor alle andere regio's geldt dat, hoewel de meeste updates in de geplande nacht zouden moeten zijn voltooid, updates die meer tijd nodig hebben kunnen worden voltooid tijdens rustige uren in het weekend zoals aangegeven in de kolom **Geplande datum**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

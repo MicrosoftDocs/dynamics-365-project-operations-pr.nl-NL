@@ -61,3 +61,6 @@ Voordat u met het instellen begint, moeten de volgende beslissingen worden genom
 
     - Zijn subcategorieën uitgesloten van belastingteruggave?
     - Wat is de btw-groep van de subcategorieën?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

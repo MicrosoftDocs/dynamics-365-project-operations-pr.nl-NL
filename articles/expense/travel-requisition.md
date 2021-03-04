@@ -56,3 +56,6 @@ Selecteer de reisaanvraag die u wilt goedkeuren en selecteer vervolgens **Workfl
 
 > [!NOTE]
 > Wanneer u een onkostendeclaratie toewijst aan een goedgekeurde reisaanvraag, kan het transactiebedrag niet hoger zijn dan het geautoriseerde bedrag. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

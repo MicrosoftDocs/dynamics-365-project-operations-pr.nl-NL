@@ -82,3 +82,6 @@ Resources die op deze manier worden toegewezen, worden zonder boekingen aan het 
 
 3. Selecteer de resource die u aan de taak wilt toewijzen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

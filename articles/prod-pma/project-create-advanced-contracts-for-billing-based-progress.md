@@ -103,3 +103,6 @@ Budgetcategorieën worden gebruikt om automatisch de factuurbedragen te berekene
 8. Optioneel: wijs de factureringsregel toe aan extra projecten. Selecteer op het sneltabblad **Project** in de sectie **Beschikbare projecten** een project en selecteer vervolgens de pijl naar rechts om het project toe te voegen aan de sectie **Geselecteerde projecten**.
 9. Optioneel: bereken het percentagebedrag dat de klant inhoudt op betalingen op een factuur. Selecteer op het sneltabblad **Inhoudingstermijnen voor betalingen** de financieringsbron en vul vervolgens het veld **Inhoudingspercentage** in.
 10. Herhaal deze stappen om aanvullende factureringsregels voor het projectcontract te maken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

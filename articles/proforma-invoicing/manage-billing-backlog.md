@@ -38,3 +38,6 @@ Niet-gefactureerde werkelijke verkoopwaarden met de status **Niet te overschrijd
 In het geval van contractregels met meerdere klanten die een factureringsmethode voor tijd en materiaal hebben, wordt wanneer tijd en onkosten worden goedgekeurd, een niet-gefactureerde werkelijke verkoopwaarde gemaakt voor elke klant op de contractregel volgens de factureringspercentagesplitsing die voor elke klant op de contractregel is gedefinieerd. In de weergave **Achterstand in facturering voor tijd en materiaal** ziet u deze afzonderlijke klantspecifieke niet-gefactureerde werkelijke verkoopwaarden. Al deze records van niet-gefactureerde werkelijke verkoopwaarden kunnen worden gemarkeerd als **Gereed voor facturering** vanuit deze weergave.
 
 In deze weergave wordt een niet-gefactureerde werkelijke verkoopwaarde weergegeven met een **Factureringsstatus** van **Klantfactuur gemaakt**. Wanneer de conceptfactuur wordt bevestigd, wordt de factureringsstatus in deze record bijgewerkt naar **Klantfactuur geboekt**. Het wordt afgeraden deze statuswaarde met behulp van aangepaste code bij te werken wanneer het deze status heeft. Project Operations werkt niet correct als deze statuswaarden worden bijgewerkt met aangepaste code.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

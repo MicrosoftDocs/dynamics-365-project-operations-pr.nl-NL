@@ -342,3 +342,6 @@ In Project Operations worden de financiële transacties vastgelegd die tijdens e
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

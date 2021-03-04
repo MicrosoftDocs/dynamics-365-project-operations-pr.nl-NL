@@ -48,3 +48,6 @@ Een resource rechtstreeks boeken voor een project:
 Een resource boeken op basis van een resourcevereiste:
 - [Algemene, boekbare resources toewijzen aan een taak en resourcevereisten genereren](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Benoemde resources boeken op basis van resourcevereisten](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

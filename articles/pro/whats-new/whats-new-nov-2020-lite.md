@@ -37,3 +37,6 @@ De volgende tabel bevat de updates voor Project Operations in CDS-omgeving, vers
 | Snelle invoer van tijd en onkosten | 2047499          | De knop **Nieuw** op de pagina Tijdsvermelding opent de pagina **Nieuwe e-mailhandtekening**.                                                                                               |
 | Snelle invoer van tijd en onkosten | 2059859          | Er wordt een onverwachte pop-up geopend wanneer u een onkostenpost maakt.                                                                                                                         |
 | Overige                        | 2044181          | [Inkooporder verwijderen] Bij het verwijderen van **msdyn_ProjectServiceCore_Patch** en msdyn_ProjectServiceCore_solutions treedt de fout "Record is niet beschikbaar" op.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

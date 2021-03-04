@@ -144,3 +144,6 @@ Als u werkelijke waarden hebt die zijn binnengekomen nadat de factuur is gemaakt
 In Project Operations kunt u factuurregels maken voor producten die niet van toepassing zijn op een project of voor alle projecten, samen met projectgebaseerde factuurregels. Deze factuurregels worden gemaakt als productgebaseerde contractregels en nadat ze zijn gemarkeerd als gereed voor facturering, worden ze toegevoegd als productgebaseerde factuurregels.
 
 Nadat u productgebaseerde factuurregels hebt toegevoegd, kunnen deze niet meer worden gewijzigd. Ze kunnen echter worden verwijderd uit het concept van de pro-formafactuur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

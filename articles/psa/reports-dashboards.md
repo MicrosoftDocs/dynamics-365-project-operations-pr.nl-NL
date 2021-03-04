@@ -40,3 +40,6 @@ Het dashboard **Praktijkbeheer** biedt praktijkbeheerders een grafische dashboar
 ## <a name="resource-manager"></a>Resourcebeheer 
 
 Het dashboard **Resourcebeheer** biedt resourcebeheerders een grafische dashboardervaring voor het monitoren van resourceaanvragen en de resourcevraag en bestede uren van resources. Op het dashboard kunnen resourcemanagers de informatie die ze monitoren, ook opsplitsen in verschillende dimensies.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

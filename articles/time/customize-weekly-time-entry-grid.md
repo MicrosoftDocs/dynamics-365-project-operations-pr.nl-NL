@@ -144,3 +144,6 @@ Gebruik validaties van invoegtoepassingen voor validaties die meer context verei
 
 ### <a name="copying-time-entries"></a>Tijdsvermeldingen kopiëren
 Gebruik de weergave **Kolommen met tijdsvermelding kopiëren** om de lijst met velden te definiëren die moeten worden gekopieerd tijdens het invoeren van tijd. **Datum** en **Duur** zijn verplichte velden en mogen niet uit de weergave worden verwijderd.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

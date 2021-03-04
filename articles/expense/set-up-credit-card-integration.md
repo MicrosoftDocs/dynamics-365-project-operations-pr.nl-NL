@@ -47,3 +47,6 @@ Onkostengerelateerde creditcardtransacties kunnen zo worden ingesteld dat ze aut
 Nadat een werknemersrecord is verwijderd, wordt het Active Directory Domain Services-account (AD DS) van de werknemer uitgeschakeld. Er kunnen echter actieve creditcardtransacties zijn die alsnog moeten worden afgeschreven en terugbetaald. Op de pagina **Creditcardtransacties** kunt u de werknemer opnieuw toewijzen voor elke creditcardtransactie waaruit de gekoppelde werknemer is verwijderd.
 
 Selecteer een of meer creditcardtransacties en selecteer vervolgens **Transacties opnieuw toewijzen**. U kunt vervolgens een andere werknemer selecteren aan wie u de creditcardtransacties wilt toewijzen. Nadat de creditcardtransacties opnieuw zijn toegewezen, kunnen ze worden geselecteerd voor een onkostennota en worden betaald via het gebruikelijke proces voor terugbetaling van onkostennota's.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

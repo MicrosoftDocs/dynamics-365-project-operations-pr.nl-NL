@@ -53,3 +53,6 @@ Hier volgen een paar suggesties die u kunnen helpen bij het maken van nieuw bele
 ## <a name="when-to-evaluate-policies"></a>Wanneer moet beleid worden geëvalueerd
 
 In de parameters voor onkostenbeheer kunt u ervoor kiezen om beleid voor onkostenbeheer te evalueren wanneer een regel wordt opgeslagen of wanneer een onkostennota wordt ingediend. Als u ervoor kiest om de evaluatie uit te voeren wanneer een regel wordt opgeslagen, hebben gebruikers eerder inzicht in wat ze moeten doen om hun onkostennota in één keer te voltooien. U kunt de beleidsevaluatie ook uitstellen en tijd besparen door de evaluatie aan het einde uit te voeren tijdens het indienen bij de werkstroom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

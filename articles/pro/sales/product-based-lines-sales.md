@@ -28,3 +28,6 @@ Productgebaseerde regels kunnen catalogusartikelen of inschrijfproducten zijn. D
 
 Wanneer de omzetmethode uit het overzicht Verkoopkans **Door systeem berekend** is, worden de budgetwaarden van de klant over de verkoopkansregels samengevat om de geschatte omzet te berekenen. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

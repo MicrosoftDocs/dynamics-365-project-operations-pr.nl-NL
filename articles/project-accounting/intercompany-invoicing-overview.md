@@ -43,3 +43,6 @@ Het volgende diagram illustreert de intercompany-facturering in relatie tot boek
 - [Intercompany-facturering configureren](configure-intercompany-invoicing.md)
 - [Intercompany-transacties registreren](create-intercompany-transactions.md)
 - [Intercompany-klant- en leveranciersfacturen maken](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Als de klant de projectofferte goedkeurt, kunt u de informatie in de projectoffe
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Prijslijsten hangen af van rollen en onkostencategorieën, dus voordat u een pri
   
 ### <a name="see-also"></a>Zie ook  
  [Project Service Automation configureren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

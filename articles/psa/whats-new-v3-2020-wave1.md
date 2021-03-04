@@ -43,3 +43,6 @@ Als u bovendien aangepaste app-modules hebt die alle formulieren voor de entitei
 
 ### <a name="currently-extended-time-entry-changes"></a>Momenteel uitgebreide wijzigingen in tijdinvoer
 Om de impact voor huidige gebruikers van tijdinvoer zo klein mogelijk te houden, is deze rolverandering de enige kernvereiste die nodig is om tijdinvoer te blijven gebruiken. Als u aangepaste weergaven of afzonderlijke tijdinvoerervaringen hebt gemaakt, moet u de velden **Instellingen voor tijdinvoer** instellen op de juiste PSA-waarde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

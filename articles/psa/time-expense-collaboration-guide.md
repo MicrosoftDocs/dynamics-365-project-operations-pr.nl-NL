@@ -73,3 +73,6 @@ Klik op een koppeling voor meer informatie over wat u met [!INCLUDE[pn_project_s
  [Accountmanager-handleiding](../psa/account-manager-guide.md)   
  [Projectmanager-handleiding](../psa/project-manager-guide.md)   
  [Resourcemanager-handleiding](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

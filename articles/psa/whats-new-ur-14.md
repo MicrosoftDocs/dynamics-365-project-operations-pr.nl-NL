@@ -64,3 +64,6 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
      - Opgelost: de totale verkoopprijs wordt niet berekend totdat de gebruiker ook een kostprijs invoert voor geschatte onkosten voor een project.
      - Opgelost: een offerte afsluiten als **binnengehaald** mislukt als het bijbehorende projectcontract niet de status **Concept** heeft.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

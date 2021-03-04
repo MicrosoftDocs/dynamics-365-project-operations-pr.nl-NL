@@ -34,3 +34,6 @@ Verkoopprijzen worden één keer per deal toegepast. De standaardhiërarchie voo
 1. Organisatie
 2. Klant
 3. Prijsopgave/contract
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

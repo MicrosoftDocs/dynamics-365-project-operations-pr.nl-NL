@@ -106,3 +106,6 @@ Wanneer u de rij voor dat teamlidrecord uitvouwt, kunt u voor beide taken versch
 ### <a name="estimates-grid"></a>Het raster Schattingen 
 
 In het raster **Schattingen** zijn voor beide toewijzingen voor dezelfde resource verschillende prijzen opgenomen. De toewijzing voor de resource voor **Taak A** wordt geprijsd met de kenmerkwaarde **Adviserend leider** voor **Rol**. De toewijzing voor dezelfde resource voor **Taak B** wordt geprijsd met de kenmerkwaarde **Netwerktechnicus** voor **Rol**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

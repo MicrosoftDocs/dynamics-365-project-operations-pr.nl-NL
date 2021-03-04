@@ -32,3 +32,6 @@ Uw organisatie vereist mogelijk dat een reisaanvraag wordt ingediend voordat wer
 Reisaanvragen en beleid kunnen worden gebruikt om het budget te beheren. Als uw organisatie bijvoorbeeld werkt aan een project met vaste prijs waarvoor reizen nodig is, moeten de reiskosten van de teamleden van het project passen binnen het budget voor het project. Door te eisen dat reiskosten worden goedgekeurd voordat ze worden gemaakt, kan de organisatie ervoor zorgen dat het project binnen het budget blijft.
 
 U kunt beleid instellen voor reisaanvragen via de pagina **Reisaanvraag**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

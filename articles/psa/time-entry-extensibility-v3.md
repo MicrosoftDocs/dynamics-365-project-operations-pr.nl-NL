@@ -132,3 +132,6 @@ U moet validaties van invoegtoepassingen gebruiken voor validaties die meer cont
 
 > [!IMPORTANT] 
 > Op dit moment voorkomt een bekend probleem op de TBX-pagina's dat gebruikers informatie kunnen corrigeren en Gereed selecteren wanneer een update niet kan worden gevalideerd voor een invoegtoepassing. Als tijdelijke oplossing kunt u zakelijke regelvalidaties instellen om deze situatie zoveel mogelijk te voorkomen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

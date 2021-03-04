@@ -40,3 +40,6 @@ Als u besluit dat u meerdere fiatteurs van onkostennota's nodig hebt, kunt u de 
 
     1. De manager van de medewerker keurt de onkostennota goed.
     2. De budgethouder keurt de onkostennota goed.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

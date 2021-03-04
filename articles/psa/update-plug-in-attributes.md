@@ -68,3 +68,6 @@ In de volgende stappen wordt het proces van het registreren van de invoegtoepass
 
 9. Sluit het registratiehulpprogramma.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

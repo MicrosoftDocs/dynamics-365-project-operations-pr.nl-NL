@@ -56,3 +56,6 @@ Deze taak maakt gebruik van de USSI-gegevensset.
 21. Typ een waarde in het veld **Productontvangst**.
 22. Selecteer **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

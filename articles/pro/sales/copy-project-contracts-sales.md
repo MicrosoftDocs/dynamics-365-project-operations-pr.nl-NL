@@ -45,3 +45,6 @@ De volgende informatie wordt niet gekopieerd van het **Broncontract** naar het *
   - Budgetgegevens van klanten
 
 Omdat deze informatie specifiek is voor elk contract, worden deze velden en records niet gekopieerd. Contractregels voor projecten en producten, schattingen van contractregeldetails en niet te overschrijden waarden op contractniveau worden gekopieerd. Standaardinstellingen voor prijzen en kosten zijn afhankelijk van de selectie van het veld **Prijzen kopiëren** op de dialoogvensterpagina **Parameters kopiëren**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

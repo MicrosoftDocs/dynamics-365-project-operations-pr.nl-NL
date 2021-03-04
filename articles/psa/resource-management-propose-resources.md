@@ -113,3 +113,6 @@ Omdat Dynamics 365 Project Service Automation de Universal Resource Scheduling-e
 Als u meer details voor een individuele resource wilt weergeven, klikt u er met de rechtermuisknop op om de resourcekaart te openen.
 
 ![Resourcekaart](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

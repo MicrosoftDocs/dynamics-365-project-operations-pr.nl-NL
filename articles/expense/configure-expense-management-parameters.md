@@ -83,3 +83,6 @@ In dit onderwerp worden de parameters beschreven die het algemene gedrag in Onko
 | Anti-corruptieattest weergeven   | Selecteer deze optie om de anti-corruptietekst weer te geven wanneer een onkostennota wordt gemaakt. Specifieke onkostencategorieën kunnen vervolgens worden ingeschakeld waarvoor het anti-corruptieattest voor de onkostennota moet worden geselecteerd. Voor een geschenkcategorie gerelateerd aan de onkosten van een overheidsfunctionaris, kan bijvoorbeeld vereist zijn dat de werknemer bevestigt dat de onkosten voldoen aan het bedrijfsbeleid voor overheidsfunctionarissen. |
 | Anti-corruptiebericht voor indiener | Voer de tekst in die moet worden getoond aan een werknemer die een onkostennota maakt. Selecteer **Vertalingen** om taalspecifieke tekst in te voeren die wordt weergegeven op basis van de gebruikerstaal. |
 | Anti-corruptiebericht voor fiatteur  | Voer de tekst in die moet worden getoond aan de fiatteur wanneer een onkostennota wordt gemaakt. Selecteer **Vertalingen** om taalspecifieke tekst in te voeren die wordt weergegeven op basis van de gebruikerstaal. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

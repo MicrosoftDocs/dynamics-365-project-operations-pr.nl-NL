@@ -55,3 +55,6 @@ De volgende problemen zijn opgelost:
 - Er wordt een null-referentie-uitzondering gegenereerd wanneer de invoegtoepassing **GetEstimatesForproject** wordt aangeroepen.
 - **Markeren als klaar voor facturering** op het mijlpaalraster werkt kenmerken slechts gedeeltelijk bij, behalve voor het kenmerk **InvoiceStatus**, dat wel wordt bijgewerkt.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

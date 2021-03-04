@@ -39,3 +39,6 @@ ms.locfileid: "4074541"
 10. Klik op OK. 
 
 Na deze stap is de creditnota beschikbaar voor factuurvoorstel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

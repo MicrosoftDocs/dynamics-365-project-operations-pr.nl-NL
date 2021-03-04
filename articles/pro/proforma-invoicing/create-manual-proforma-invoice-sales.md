@@ -35,3 +35,6 @@ Alle gemaakte projectfacturen zijn beschikbaar op de pagina **Factuur** in de se
 Een pro-formafactuur kan ook worden gemaakt op basis van de **Projectcontract**-detailpagina. Het systeem verifieert welk projectcontract een backlog voor **Gereed voor facturering** heeft die een datum heeft die vóór de datum van vandaag ligt. Op basis van deze contracten worden conceptpro-formafacturen gemaakt op basis van het aantal klanten op elke contractregel.
 
 Als er één pro-formafactuur wordt gemaakt, wordt de pagina **Factuur** geopend. Als er meerdere facturen worden aangemaakt voor dat projectcontract, opent de lijstpagina **Facturen** om alle gemaakte facturen weer te geven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

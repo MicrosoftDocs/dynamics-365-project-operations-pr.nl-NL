@@ -72,3 +72,6 @@ U kunt ook klantspecifieke projectprijslijsten opstellen wanneer u met uw klante
 ## <a name="custom-pricing-on-a-project-contract"></a>Aangepaste prijzen op een projectcontract
 
 Als u organisatorische en klantspecifieke standaardprijslijsten hebt, worden uw projectcontracten automatisch gemaakt met deze projectprijslijstkoppelingen. Projectprijslijsten in een projectcontract worden echter altijd gekopieerd met de datum en de contractnaam eraan toegevoegd. De account- en projectmanagers kunnen vervolgens beginnen met het bewerken van prijzen op deze exemplaren. Deze gewijzigde prijzen zijn alleen van toepassing op dit projectcontract.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Voor een prijsopgaveregel met vaste prijs kunt u het raster **Factuurschema** ge
 - Als u factureringsmijlpalen wilt maken die gelijkmatig verdeeld zijn, selecteert u een factuurfrequentie, voert u de begindatum voor facturering in op de prijsopgaveregel en selecteert u **Aangevraagde voltooiingsdatum** voor de prijsopgave in de sectie **Samenvatting** van de prijsopgavekop. Selecteer vervolgens **Periodieke mijlpalen genereren** om gelijkmatig opgesplitste mijlpalen te maken op basis van de geselecteerde factuurfrequentie. 
 - Als u een factureringsmijlpaal voor een forfaitair bedrag wilt maken, maakt u een mijlpaal en voert u de waarde van de prijsopgaveregel in als het mijlpaalbedrag.
 - Als u factureringsmijlpalen wilt maken die zijn gebaseerd op specifieke taken in het projectplan, maakt u een mijlpaal en wijst u deze toe aan het planningselement van het project in de gebruikersinterface voor factureringsmijlpalen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

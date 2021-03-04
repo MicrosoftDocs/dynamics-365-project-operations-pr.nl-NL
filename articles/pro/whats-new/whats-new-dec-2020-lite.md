@@ -57,3 +57,6 @@ De volgende tabel bevat de updates voor Project Operations in Dataverse-omgeving
 | Tijd en onkosten | 2034882 | De knop **Nieuw** wordt twee keer weergegeven op de opdrachtbalk voor tijdinvoer wanneer Dynamics 365 Field Service is geïnstalleerd. |
 | Tijd en onkosten | 2056028 | Werk de pagina **Tijd bewerken** bij om een tijdlijn op te nemen. |
 | Tijd en onkosten | 1983747 | Tijdinvoergrafiek toont aanvullende gegevens. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ De mogelijkheden van [!INCLUDE[pn_project_service_auto](../includes/pn-project-s
  [Accountmanager-handleiding](../psa/account-manager-guide.md)   
  [Projectmanager-handleiding](../psa/project-manager-guide.md)   
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

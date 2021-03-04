@@ -83,3 +83,6 @@ Volg deze richtlijn als u Power Query moet gebruiken:
 De volgende afbeelding toont een voorbeeld van de toewijzingen van sjabloontaken in Gegevensintegratie. De toewijzing toont de veldinformatie die wordt gesynchroniseerd van Project Service Automation naar Finance.
 
 [![Sjabloontoewijzing](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

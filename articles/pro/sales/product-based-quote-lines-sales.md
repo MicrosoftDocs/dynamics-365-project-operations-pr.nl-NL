@@ -46,3 +46,6 @@ Als een prijsopgaveregel is gebaseerd op een productcatalogus, kunt u de verkoop
 Als u **Prijs negeren** selecteert, wordt de standaardprijs niet ingesteld. U moet in plaats daarvan een prijs voor het product invoeren op de prijsopgaveregel. Als u **Standaard gebruiken** selecteert, wordt de standaardverkoopprijs gebruikt en is het veld vergrendeld voor bewerking.
 
 Standaardverkoopprijzen worden ingevoerd op de productgebaseerde regels van een prijsopgave. Het veld **Prijzen** wordt vervolgens ingesteld op **Prijs negeren**, zodat u de standaardprijs op de prijsopgaveregels kunt bewerken. Dit is een Project Operations-specifieke overschrijving van het gedrag van productgebaseerde regels in Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

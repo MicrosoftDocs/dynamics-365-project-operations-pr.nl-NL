@@ -34,3 +34,6 @@ Alle kost-, verkoop- en verrekenprijzen kunnen voor rollen worden ingesteld. Voe
 1. Selecteer op de pagina **Verkoopprijs (uur)** de optie **Nieuw** en voer een ingangsdatum in.
 2. Selecteer een rol in de kolom **Rol**.
 3. Voer in de kolom **Prijsstelling** een prijs in voor de geselecteerde resourcerol.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

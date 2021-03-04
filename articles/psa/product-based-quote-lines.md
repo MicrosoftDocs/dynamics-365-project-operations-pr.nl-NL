@@ -82,3 +82,6 @@ De eigenschappen **Aantal gebruikers** en **Aantal maanden** kunnen worden gemar
 
 > ![Het markeren van Aantal gebruikers en Aantal maanden als kwaliteitsfactoren](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

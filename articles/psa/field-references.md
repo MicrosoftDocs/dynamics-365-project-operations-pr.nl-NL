@@ -150,3 +150,6 @@ De volgende tabel bevat een uitgebreide lijst met gebruiksklare formulieren en w
 |  Werkelijk|• Informatie<br>• Actieve werkelijke waarden|• Gekoppelde weergave van werkelijke waarden|
 
 Aangepaste velden moeten mogelijk ook worden toegevoegd aan bedrijfsregels, afhankelijk van wat u hebt gedefinieerd. Eén gebruiksklaar voorbeeld is bedoeld voor de bedrijfsregel **Bewerkbaarheid van tijdsvermelding gebaseerd op status**. Deze regel bepaalt welke velden moeten worden vergrendeld wanneer de tijdsvermelding een niet-bewerkbare status heeft, zoals **Goedgekeurd.** Voeg velden aan deze bedrijfsregel toe zodat de velden zijn vergrendeld voor bewerking wanneer de tijdsvermelding een andere status heeft dan **Concept** of **Geretourneerd.**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

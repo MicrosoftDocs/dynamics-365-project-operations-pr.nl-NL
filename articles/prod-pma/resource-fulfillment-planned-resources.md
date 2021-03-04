@@ -40,3 +40,6 @@ Een projectmanager kan de vereiste resourcerollen voor een project plannen. De r
 7. Selecteer een werknemer en selecteer vervolgens **Toewijzen**.
 8. Controleer of de regel voor **Softwareontwikkelaar 1** is verwijderd voor het project **XYZ Upgrade-project fase 2**.
 9. Controleer op het tabblad **Projectteam en planning** voor het project **XYZ-upgrade fase 2** of de werknemer die u in de vorige stap hebt geselecteerd, is toegevoegd als **Softwareontwikkelaar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Als in het raster geen rij voor de prijsdimensies van de werkelijke verkoopwaard
 
 Dien een ondersteuningsticket in als na het uitvoeren van de bovenstaande controles voor u nog steeds geen geldige prijs wordt weergegeven voor de werkelijke verkoopwaarde op basis van tijd. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

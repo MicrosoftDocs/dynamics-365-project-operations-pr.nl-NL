@@ -120,3 +120,6 @@ Net als factuurtarieven worden ook kostentarieven voor personeel ingesteld met b
     1. De kostprijslijst die aan de organisatie-eenheid is gekoppeld.
     2. De kostprijslijst die aan de Project Operations-parameters is gekoppeld. Omdat kostprijslijsten in veel verschillende valuta's kunnen worden gekoppeld aan parameters, wordt de valuta van de contracterende organisatie-eenheid van het project, het contract of de prijsopgave afgestemd op de valuta van de kostprijslijst.
     3. Voor onkosten worden de prijsmethoden Tegen kosten en Opslag over kosten niet toegepast op kostprijslijsten. Zelfs als deze prijsmethoden worden gebruikt voor kostprijslijstregels om transactiecategoriekosten in te stellen, worden deze genegeerd en wordt er geen standaardkostprijs ingevoerd.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Voer de volgende stappen uit om periodetypen te maken en ermee te werken:
 4. Selecteer de periodetyperecord en selecteer vervolgens **Perioden genereren** om perioden voor het periodetype te creëren. Op basis van de periodefrequentie die u hebt geselecteerd, hebt u wellicht de mogelijkheid om een startdatum of het aantal te genereren perioden op te geven.
 5. Selecteer **Perioden** om gegenereerde perioden te bekijken.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

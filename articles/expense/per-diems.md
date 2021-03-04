@@ -31,3 +31,6 @@ Een dagvergoeding is een toelage die wordt betaald aan een werknemer die voor zi
     
 ## <a name="submit-expenses-using-per-diem"></a>Onkosten voor dagvergoedingen indienen
 Als u onkosten wilt indienen met dagvergoedingen, gebruikt u de onkostencategorie **Dagvergoeding** wanneer u een onkostendeclaratie maakt. Voer **Dagvergoeding vanaf datum**, **Dagvergoeding tot datum** en **Locatie voor dagvergoeding** in. Het bedrag wordt berekend op basis van de dagtarieven voor de geselecteerde locatie en de maaltijdvergoeding wordt berekend op basis van de tariefniveaus voor dagvergoeding.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

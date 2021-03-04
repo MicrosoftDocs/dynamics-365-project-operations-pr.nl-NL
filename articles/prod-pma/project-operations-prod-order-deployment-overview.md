@@ -43,3 +43,6 @@ Selecteer dit implementatietype om Dynamics 365 Project Operations te gebruiken 
 - Een omzetbelasting- en wisselkoersengine op ondernemingsniveau om klantgerichte facturen voor projecten te genereren.
 - Een systeem conform International Financial Reporting Standards (IFRS) voor projectboekhouding en opbrengstverantwoording.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

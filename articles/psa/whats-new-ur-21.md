@@ -77,3 +77,6 @@ De volgende problemen zijn opgelost:
 - De logica voor **Oplossing verkoopprijslijst** behandelt tijdzones onjuist, wat resulteert in de verkeerde selectie van prijslijsten.
 - De **Totale werkelijke kosten** van een project kunnen een fractie afwijken nadat een enkele tijdpost is goedgekeurd.
 - De logica voor **Prijsoplossing** geeft geen gebruiksvriendelijke foutmelding if **Opgehaalde rolprijs** geen waarden bevat in de velden **'Primaire eenheid'** en **'Prijs in primaire eenheid'**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

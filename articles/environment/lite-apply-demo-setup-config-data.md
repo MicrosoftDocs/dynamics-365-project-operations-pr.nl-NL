@@ -74,3 +74,6 @@ Voordat u met de configuratie begint, moet u een Common Data Service-omgeving (C
     -   Kenmerk van boekbare resources
 
     ![Import voltooid](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

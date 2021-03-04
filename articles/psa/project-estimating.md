@@ -97,3 +97,6 @@ In zowel de rasterweergave als de tijdgebonden weergave kunt u de velden selecte
 ## <a name="expense-estimates"></a>Onkostenschattingen
 
 Met de knop **Een nieuwe onkostenschatting toevoegen** in de rasterweergave kunt u onkosten vastleggen die het project met zich meebrengt, maar die niet direct gerelateerd zijn aan arbeid. U kunt de onkostenschattingen voor een specifieke taak of voor het hele project vastleggen. Selecteer onkostencategorieën en de voorlopige datum waarop u verwacht de onkosten te betalen. Als de gekoppelde kostprijslijst en verkoopprijslijst standaardprijzen hebben (of als er opslagpercentages zijn gedefinieerd voor onkostencategorieën), worden deze automatisch ingevoerd op de schattingsregel wanneer de koppeling optreedt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

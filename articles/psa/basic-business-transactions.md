@@ -149,3 +149,6 @@ De volgende tabel bevat de records in de entiteit Transactieverbinding voor de v
 | Correctie van conceptfactuur       | GUID factuurregeltransactie | Vervangen          | msdyn_invoicelinetransaction | GUID gefactureerde verkoop            | Oorspronkelijk           | msdyn_actual       |
 | Factuurcorrectie bevestigen     | GUID gefactureerde verkoopterugboeking    | Omkeren          | msdyn_actual                 | GUID gefactureerde verkoop            | Oorspronkelijk           | msdyn_actual       |
 | GUID nieuwe niet-gefactureerde werkelijke verkoopwaarde | Vervangen                     | msdyn_actual       | GUID gefactureerde verkoop            | Oorspronkelijk                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

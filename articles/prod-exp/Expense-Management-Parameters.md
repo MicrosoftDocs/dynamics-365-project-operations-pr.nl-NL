@@ -89,3 +89,6 @@ Met de parameters wordt het algemene gedrag in Onkostenbeheer bepaald.
 | <strong>Anti-corruptiebericht voor indiener</strong> |                                                                                             Voer de tekst in die aan de werknemer wordt getoond bij het maken van een nieuwe onkostendeclaratie. Klik op de knop <strong>Vertalingen</strong> om taalspecifieke tekst in te voeren die wordt weergegeven op basis van de gebruikerstaal.                                                                                             |
 | <strong>Anti-corruptiebericht voor fiatteur</strong>  |                                                                                             Voer de tekst in die aan de fiatteur wordt getoond bij het maken van een nieuwe onkostendeclaratie. Klik op de knop <strong>Vertalingen</strong> om taalspecifieke tekst in te voeren die wordt weergegeven op basis van de gebruikerstaal.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

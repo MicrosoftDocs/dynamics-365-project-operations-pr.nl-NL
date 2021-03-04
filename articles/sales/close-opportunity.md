@@ -24,3 +24,6 @@ Projectverkoopkansen kunnen worden afgesloten als Gewonnen of Verloren. In het d
 U kunt de verkoopkans niet sluiten als er actieve prijsopgaven aan zijn gekoppeld. U kunt alle actieve prijsopgaven en concepten van prijsopgaven die aan een verkoopkans zijn gekoppeld, tegelijkertijd sluiten. Vervolgens kunt u de verkoopkans sluiten.
 
 Voor meer algemene informatie over het sluiten van verkoopkansen raadpleegt u [Verkoopkansen afsluiten als binnengehaald of gemist](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

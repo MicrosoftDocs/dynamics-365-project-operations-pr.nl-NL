@@ -78,3 +78,6 @@ De volgende functies zijn aanwezig op de bestaande pagina, maar nog niet op de n
 - Werkstroom op regelniveau
 - Ondersteuning voor tijdelijke fiatteur
 - Geavanceerde specificatie
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

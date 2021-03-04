@@ -54,3 +54,6 @@ Tijdens het verkoopproces, kunt u verkopenschattingen van de grond af uitwerken 
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

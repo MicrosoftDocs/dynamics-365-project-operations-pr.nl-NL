@@ -71,3 +71,6 @@ Voordat u met deze procedure begint, moet u controleren of uw beveiligingsrol sy
 
 > [!IMPORTANT]
 >  Valuta's die door andere records worden gebruikt, kunnen niet worden verwijderd, alleen gedeactiveerd. Wanneer u valutarecords deactiveert, worden de valutagegevens in bestaande records (zoals verkoopkansen of orders) niet verwijderd. U kunt de gedeactiveerde valuta echter niet meer selecteren voor nieuwe transacties.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

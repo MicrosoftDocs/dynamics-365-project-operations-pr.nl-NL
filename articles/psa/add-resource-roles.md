@@ -47,3 +47,6 @@ De hoeveelheid van doelstelling instellen tarieven uren voor elke rol. Deze inst
   
 ### <a name="see-also"></a>Zie ook  
  [Resources configureren](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

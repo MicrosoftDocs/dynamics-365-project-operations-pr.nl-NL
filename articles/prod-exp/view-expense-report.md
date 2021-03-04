@@ -32,3 +32,6 @@ Voor onkostendeclaraties kunt u inzoomen vanuit een transactie op het originele 
 Om in te zoomen op de oorspronkelijke onkostendeclaratie waarin een transactie is opgenomen, selecteert u de transactie en vervolgens **Origineel document**.
 
 Wanneer u individuele transacties bekijkt, kunt u ook eventuele aanvullende gegevens bekijken die aan een transactie zijn gekoppeld. Voor een gespecificeerde hoteluitgave kunt u bijvoorbeeld een gedetailleerde lijst met onkosten bekijken, zoals internettoegang, telefoongesprekken en roomservice.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

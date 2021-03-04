@@ -59,3 +59,6 @@ De rollen spelen een belangrijk aspect in de projectplanning, het bepalen van re
   
 ### <a name="see-also"></a>Zie ook  
  [Resources configureren](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

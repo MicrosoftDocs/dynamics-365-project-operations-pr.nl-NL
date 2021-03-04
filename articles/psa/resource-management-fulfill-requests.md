@@ -46,3 +46,6 @@ De Planningsassistent wordt weergegeven en wordt gefilterd op de vereisten. Sele
 > ![Resource geselecteerd](media/Resource-Management-image61.png)
 
 Het algemene teamlid wordt vervangen door de hardgeboekte, benoemde resource op het projectteam en de taaktoewijzingen in de projectplanning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

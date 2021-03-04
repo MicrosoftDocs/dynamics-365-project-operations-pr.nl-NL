@@ -45,3 +45,6 @@ In de vorige stap, wilt u sommige met vaardigheden al een nieuwe resource. Van t
   
 ### <a name="see-also"></a>Zie ook  
  [Resources configureren](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

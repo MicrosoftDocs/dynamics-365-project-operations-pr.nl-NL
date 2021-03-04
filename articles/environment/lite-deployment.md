@@ -44,3 +44,6 @@ Project Operations ondersteunt meerdere implementatiemodellen. Zie voor het bepa
 2. Installeer **Microsoft Dynamics 365 Project Operations** uit de implementatielijst met Dynamics 365-apps. Zie [Dynamics 365-apps beheren](https://docs.microsoft.com/power-platform/admin/manage-apps) voor meer informatie.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

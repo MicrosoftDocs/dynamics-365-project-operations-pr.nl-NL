@@ -63,3 +63,6 @@ U kunt met dezelfde methode een harde boeking of een zachte boeking annuleren op
 Als u een zacht geboekte resource wilt converteren naar hard geboekt op het tabblad **Team** van het project, selecteert u de resource en vervolgens **Bevestigen**.
 
 ![Opdracht 'Bevestigen'](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

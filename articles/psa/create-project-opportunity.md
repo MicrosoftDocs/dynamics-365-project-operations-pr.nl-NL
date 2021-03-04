@@ -55,3 +55,6 @@ Verkoopkansen hebben rating leads van klanten in de aanbesteding van uw services
   
 ### <a name="see-also"></a>Zie ook  
  [Accountmanager-handleiding](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

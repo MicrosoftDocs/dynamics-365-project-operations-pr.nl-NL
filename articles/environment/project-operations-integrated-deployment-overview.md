@@ -43,3 +43,6 @@ Kies dit implementatietype als u Project Operations gaat gebruiken voor de volle
 - Vereisten voor een uitgebreide omzetbelasting- en wisselkoersengine op ondernemingsniveau om klantgerichte facturen voor projecten te genereren.
 - Een systeem conform International Financial Reporting Standards (IFRS) voor projectboekhouding en opbrengstverantwoording.
 - Toepassingen voor Finance of Supply Chain Management en integratie van projectgebaseerde transacties.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

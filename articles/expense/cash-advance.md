@@ -63,3 +63,6 @@ Wanneer u een onkostendeclaratie maakt en indient voor het kasvoorschot dat u al
 ### <a name="example"></a>Voorbeeld
 U bent van plan om van Seattle naar New York City te reizen voor een conferentie. U maakt een aanvraag voor een kasvoorschot aan voor 3000,00 USD op basis van de geschatte kosten van het conferentieticket, vluchten, hotel, maaltijden en taxi. Dit wordt niet betaald, tenzij uw manager deze aanvraag goedkeurt. Nadat uw manager akkoord is gegaan, wordt het gevraagde kasvoorschot als USD 3000,00 USD op uw bankrekening gestort. Vervolgens woont u het congres bij. Na uw reis merkt u dat de totale uitgaven slechts USD 2790,00 bedroegen. Selecteer **Contant geld** in het veld **Betalingswijze** en dien uw onkosten voor 2790,00 USD in. Uw ingediende onkostenbedrag wordt automatisch verrekend met het kasvoorschot van USD 3000,00 dat aan u is uitgeleend. U bent nu een saldo van 210,00 USD (3000,00 - 2790,00) verschuldigd, dat u aan het bedrijf kunt retourneren met de onkostencategorie **Retouren kas**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

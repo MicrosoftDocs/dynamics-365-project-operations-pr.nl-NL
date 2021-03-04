@@ -43,3 +43,5 @@ Door kenmerken aan resourcevereisten toe te voegen, kunt u de kennis of expertis
 3. In het subraster **Vaardigheden** selecteert u **+ Nieuw vereist kenmerk toevoegen.**
 4. Zoek en selecteer de vereiste kenmerken in het deelvenster Snel maken en voeg een **Beoordelingswaarde** toe.
 5. Kies **Opslaan en sluiten**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

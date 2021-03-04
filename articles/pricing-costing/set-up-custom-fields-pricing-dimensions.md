@@ -96,3 +96,6 @@ Als u de dimensieprioriteit instelt, kan de prijsfunctie een prijs produceren, z
 
 - **Kostenprioriteit**: de waarde van de kostenprioriteit van een dimensie geeft de weging van die dimensie aan bij het vergelijken met de configuratie van kostprijzen. De waarde van **Kostenprioriteit** moet uniek zijn in alle dimensies die **van toepassing op kosten** zijn.
 - **Verkoopprioriteit**: de waarde van de verkoopprioriteit van een dimensie geeft de weging van die dimensie aan bij het vergelijken met de configuratie van verkoopprijzen of factuurtarieven. De waarde van **Verkoopprioriteit** moet uniek zijn in alle dimensies die **van toepassing op verkoop** zijn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

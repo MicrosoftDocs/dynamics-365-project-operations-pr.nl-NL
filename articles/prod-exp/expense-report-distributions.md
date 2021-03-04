@@ -37,3 +37,6 @@ Omdat Marloe aan twee afzonderlijke projecten heeft gewerkt terwijl ze in Frankf
 |Hotel         |EUR 725              |EUR 557                        |EUR 168                          |
 |Maaltijden         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

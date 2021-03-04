@@ -26,3 +26,6 @@ Met de hulpmiddelen voor projectbeheer in Dynamics 365 Project Operations kunt u
 - Projectschattingen gebruiken tijdens het verkoopproces.
 - Prognoses maken van resourcevereisten voor projecten die zich in de pipeline bevinden.
 - Met succes projecten leveren door de voortgang en het kostenverbruik bij te houden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

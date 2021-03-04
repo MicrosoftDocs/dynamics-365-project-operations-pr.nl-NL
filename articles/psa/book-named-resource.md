@@ -68,3 +68,6 @@ Dit is een voorbeeld van wanneer er meerdere benoemde resources nodig zijn om te
 Het belangrijkste verschil in dit scenario is dat de algemene resource in het team blijft dat is toegewezen aan de taak terwijl de geboekte benoemde resourceteamleden niet worden toegewezen als onderdeel van de positie. De projectmanager kan het werk naar behoefte toewijzen aan de benoemde resources. De weergave **Afstemming** biedt een projectmanager overzicht van de boekingen voor meerdere resources naar taaktoewijzingen. Dit gebeurt niet automatisch omdat in complexere scenario's dan het bovenstaande voorbeeld, bijvoorbeeld waar de vereiste bestaat uit een bundel taken, moet worden aangenomen wat de intentie van de projectmanager is voor het toewijzen. Omdat het systeem de intentie niet begrijpt, kunnen de veronderstellingen waarschijnlijk anders zijn dan bedoeld en zal er een onjuist of onvoorspelbaar resultaat optreden. Het voorspelbare resultaat is dat de algemene resource toegewezen blijft totdat de projectmanager opzettelijk toewijzingen maakt, st met behulp van de weergave **Afstemming**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

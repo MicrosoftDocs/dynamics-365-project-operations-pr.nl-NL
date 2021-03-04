@@ -67,3 +67,6 @@ Ga als volgt te werk wanneer u een zacht geboekte teamlidresource in een hard ge
 2. Klik met de rechtermuisknop op de boeking en selecteer onder **Status wijzigen** de optie **Hard boeken** \> **Hard**. De boekingsstatus is nu **Hard**.
 3. Als u het planbord sluit en terugkeert naar het project en het tabblad **Team** opent, ziet u in de weergave **Benoemde teamleden** dat de uren voor de resource van de kolom **Zacht geboekte uren** naar de kolom **Hard geboekte uren** op het tabblad **Team** zijn verplaatst. Als de resource was toegewezen aan taken, wordt op het tabblad **Vereffening** geen boekingstekort meer weergegeven omdat de boekingen nu hard zijn.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

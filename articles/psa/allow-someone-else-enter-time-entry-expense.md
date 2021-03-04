@@ -93,3 +93,6 @@ Stel een gemachtigde in die namens u tijd of onkosten kan invoeren in [!INCLUDE[
   
 ### <a name="see-also"></a>Zie ook  
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

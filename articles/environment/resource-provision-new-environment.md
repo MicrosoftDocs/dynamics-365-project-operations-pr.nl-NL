@@ -209,3 +209,6 @@ Als u demogegevens hebt toegepast op de Finance-omgeving raadpleegt u [Configura
 
 
 Uw Project Operations-omgeving is nu ingericht en geconfigureerd. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

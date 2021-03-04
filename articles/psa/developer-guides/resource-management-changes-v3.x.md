@@ -170,3 +170,6 @@ De volgende velden voor geplande, werkelijke en resterende kosten en verkopen zi
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

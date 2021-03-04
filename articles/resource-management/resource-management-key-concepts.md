@@ -35,3 +35,6 @@ Resources zijn de belangrijkste activa van een serviceverlenende organisatie. De
 
 
 U kunt mensen aan uw project toewijzen met een team van algemene of benoemde resources in Project Operations. U kunt verschillende methoden gebruiken om teamleden toe te voegen en toe te wijzen en om hun boekingen en toewijzingen te beheren. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

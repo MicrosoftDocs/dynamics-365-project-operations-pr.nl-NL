@@ -47,3 +47,6 @@ Nu u de offerte voor het project hebt binnengehaald, is het tijd om een contract
   
 ### <a name="see-also"></a>Zie ook  
  [Accountmanager-handleiding](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Voor een geslaagde upgrade moeten de volgende relaties correct worden onderhoude
 
 - Alle projecttaakafhankelijkheden moeten zijn gerelateerd aan hetzelfde project.
 - Er kan niet meerdere keren worden verwezen naar dezelfde afhankelijkheid in een taak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

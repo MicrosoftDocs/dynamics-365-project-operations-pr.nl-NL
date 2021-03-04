@@ -81,3 +81,6 @@ De volgende problemen zijn opgelost:
 - De knop **Werkelijke waarden vernieuwen** berekent overzichtstaken onjuist.
 - Microsoft Project-invoegtoepassing: herstel de fout met de null-referentie als een teamlid een lege resource-eenheid heeft.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Voordat u de automatiseringsmogelijkheden van de [!INCLUDE[pn_project_service_au
  [Projectmanager-handleiding](../psa/project-manager-guide.md)   
  [Resourcemanager-handleiding](../psa/resource-manager-guide.md)   
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

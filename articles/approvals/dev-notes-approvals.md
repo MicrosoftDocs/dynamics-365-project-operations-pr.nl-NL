@@ -23,3 +23,6 @@ Dynamics 365 Project Operations bevat validatielogica die zorgt voor een correct
 
   - Alle ondersteunende rijen worden gemaakt in gerelateerde tabellen, zoals journalen en werkelijke waarden.
   - De goedkeurder wordt gemarkeerd als een **Projectgoedkeurder** in het project voordat u verder gaat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

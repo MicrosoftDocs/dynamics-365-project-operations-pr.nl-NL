@@ -65,3 +65,6 @@ Voordat u projectplannings kunt maken, moet u aan setup een projectkalender nodi
   
 ### <a name="see-also"></a>Zie ook  
  [Resources configureren](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Voer de volgende stappen uit om kwantiteitsfactoren te creëren op basis van pro
 7. Herhaal stap 2-6 voor alle eigenschappen die samen de hoeveelheid vormen voor de productgebaseerde contractregel.
 
 Als de hoeveelheidsfactoren zijn ingesteld en de gebruiker een contractregel voor dit product aanmaakt, wordt de hoeveelheid van de contractregel vergrendeld. De hoeveelheid wordt vervolgens berekend als een product van de eigenschapswaarden voor die contractregel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

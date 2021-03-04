@@ -43,3 +43,6 @@ Resourcegebruik u kunt volgen om urenniveaus hoeveelheid voor uw resources te de
   
 ### <a name="see-also"></a>Zie ook  
  [Resourcemanager-handleiding](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

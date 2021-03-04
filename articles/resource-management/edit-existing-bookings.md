@@ -33,3 +33,6 @@ Vanuit het raster **Teamlid** kan een projectmanager een specifieke resource mar
 ## <a name="schedule-board"></a>Planbord
 
 Vanuit het **Planbord** heeft de Resource Manager een portfolioweergave van alle boekingen binnen een organisatie. Vanuit deze weergave kan de Resource Manager bestaande boekingen uitbreiden, verkorten of verplaatsen, vergelijkbaar met de mogelijkheden die worden aangeboden in **Boekingen bijhouden**. De Resource Manager kan ook bestaande resources vervangen die aan een specifieke boeking zijn toegewezen door met de rechtermuisknop op de boeking te klikken en **Resource vervangen** te selecteren. Resource Managers kunnen ook de contouren van bestaande boekingen bewerken door met de rechtermuisknop op de boeking te klikken en **Bewerken** te selecteren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Volg de richtlijnen in het onderwerp [Een nieuwe omgeving inrichten](resource-pr
 
 Installeer CDS-installatie- en configuratiegegevens zoals beschreven in het onderwerp [Configuratiegegevens instellen en toepassen in Common Data Service](resource-apply-pro-setup-config-data.md).
 Voltooi deze stap pas nadat de demo-omgeving van Finance is geïmplementeerd en de demogegevens in FO gereed zijn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

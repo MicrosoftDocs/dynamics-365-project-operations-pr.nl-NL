@@ -70,3 +70,6 @@ U kunt gegevens importeren uit projectboekingen en -toewijzingen. Wanneer u gege
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Functies voor groeperen op, sorteren, zoeken en filteren
 
 U tijdsvermeldingen groeperen en filteren op de dimensies die in de kolommen zijn opgegeven. Selecteer in het veld **Groeperen op** de dimensie die u wilt gebruiken om tijdsvermeldingen te filteren. U kunt de records met tijdsvermeldingen ook in oplopende of aflopende volgorde sorteren met behulp van de sorteerpijl op de kolomkoppen. Bovendien kunt u items weergeven of verbergen door de knop **Filteren** in de kolomkoppen te selecteren en vervolgens in het **zoekvak** de tekst in te voeren die moet worden gebruikt om tijdsvermeldingen te zoeken op projectnaam, projecttaak, tijdsvermelding of resource.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

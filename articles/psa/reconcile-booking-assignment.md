@@ -101,3 +101,6 @@ De functionaliteit Boeking uitbreiden wordt uitgevoerd op elke resource en de bo
 
 Als we de details van de boekingen echter nader bekijken, zien we verschillen in de starttijd van de boekingen. De boekingen starten niet eerder dan de starttijd van de toewijzingscontour en niet eerder dan de beschikbare starttijd van de resource.
  ![Nieuwe boekingen van de resources in het planbord](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

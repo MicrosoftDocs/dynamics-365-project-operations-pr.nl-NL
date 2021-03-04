@@ -110,3 +110,6 @@ Voor taken die zijn toegewezen aan een rol met een organisatie-eenheid die versc
  
 Het wijzigen van de standaardwaarde van de verschillende organisatie-eenheden op niet-gegenereerde teamleden is de reden waarom we u aanraden het team te genereren of opnieuw te genereren voor elk project dat vóór de upgrade algemene resources bevat, zodat de toewijzingen van de organisatie-eenheid niet verloren gaan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

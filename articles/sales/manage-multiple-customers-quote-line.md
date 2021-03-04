@@ -44,3 +44,6 @@ De volgende tabel geeft de velden weer uit de klantrecord van een projectgebasee
 U kunt de percentages voor factureringssplitsing op de regel bewerken. Als de percentages voor factuursplitsing niet in totaal 100% bedragen, treedt er een fout op. Nadat u de percentages voor factuursplitsing hebt bewerkt, vernieuwt u de pagina met de prijsopgaveregel om de fout te verwijderen.
 
 Gebruik de actie voor gelijkmatig verdelen op het subraster met prijsopgaveregelklanten om factureringssplitsingen toe te wijzen aan alle klanten van de prijsopgaveregel. Als er een afrondingsfactor is, wordt die toegevoegd voor de afrondingsklant. Een van de klanten van de prijsopgaveregel wordt altijd getagd als de afrondingsklant, wat betekent dat de afrondingsvlag in de record van de prijsopgaveregelklant is ingesteld op **Ja**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

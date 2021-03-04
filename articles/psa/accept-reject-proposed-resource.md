@@ -45,3 +45,6 @@ Als u het voorstel wilt weigeren, klikt u op **Resource afwijzen**.
 ![Een resourcevoorstel accepteren](media/RM-how-to-20.png) 
 
 Net als bij het rechtstreeks vervullen van een algemene resourceaanvraag met een benoemde resource, wordt de algemene resource vervangen en worden de toegewezen taken bijgewerkt met het benoemde teamlid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

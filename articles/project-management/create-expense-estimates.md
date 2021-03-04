@@ -38,3 +38,6 @@ De volgende kenmerken worden gedefinieerd voor elk onkostenregelitem:
 - **Kostprijs per eenheid**: de eenheidsprijs die wordt gebruikt om de kosten van de onkosten te berekenen.
 - **Verkoopprijs per eenheid**: de eenheidsprijs die wordt gebruikt om de verkoopprijzen van de onkosten te berekenen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Voor een ontwikkelaar van de Robotics-divisie van Fabrikam India die aan een Ame
     | Developer | Fabrikam US | Fabrikam US - Robotics | $150 |
 
 3. Voeg de verkoopprijslijst **Fabrikam Amerikaanse factureringstarieven** toe aan de projectprijslijst van het projectcontract of aan een bepaald account.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

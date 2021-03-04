@@ -55,3 +55,6 @@ Voor meer informatie, zie deze [blog](https://blogs.msdn.microsoft.com/crm/2017/
  [Projectmanager-handleiding](../psa/project-manager-guide.md)   
  [Resourcemanager-handleiding](../psa/resource-manager-guide.md)   
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

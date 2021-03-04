@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4124587"
 ---
 # <a name="sample-data-home-page"></a>Startpagina voor voorbeeldgegevens
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

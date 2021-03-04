@@ -29,3 +29,6 @@ De sectie **Status** op de pagina **Projectentiteit** geeft een samenvatting van
 - In het veld **Opmerkingen** kan de projectmanager specifieke opmerkingen over de status invoeren. 
 - Het veld **Status bijgewerkt op** kan niet worden bewerkt. De waarde in dit veld is een tijdstempel die aangeeft wanneer de status voor het laatst is bijgewerkt.
 - De velden **Planningsprestaties** en **Kostenprestaties** worden ingesteld vanuit het volgraster. Wanneer de planning en kostenvariantie voor het hoofdknooppunt in de weergave **Inspanningen bijhouden** positief zijn, kunt u deze velden bijwerken naar **Voor**. Wanneer de planning en kostenvariantie voor het hoofdknooppunt negatief zijn, worden deze velden ingesteld op **Achter**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Nadat de resources zijn geboekt, selecteert u **Boekingen bijhouden** om de vere
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Wat is het verschil tussen een toewijzing en een boeking?
 
 Toewijzingen zijn de toewijzing van resources aan projecttaken in de projectplanning. De resources kunnen echte resources zijn of algemene resources. Boekingen zijn de harde of zachte toewijzing van resources aan een project. Een harde boeking verbruikt de capaciteit van een resource. In het ideale geval moeten voor echte resources de boekingen en toewijzingen overeenkomen, omdat ze niet verschillen. PSA dwingt deze overeenkomst echter niet af. In de weergave Vereffening wordt aan een projectmanager getoond waar boekingen en toewijzingen van een resource niet overeenkomen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ ms.locfileid: "5145712"
 Alle financiële transacties die tijdens een project plaatsvinden, worden vastgelegd. Deze transacties worden geregistreerd als **werkelijke waarden**. In de volgende tabel ziet u de verschillende typen werkelijke waarden die worden gemaakt, afhankelijk van of het project een project op basis van tijd- en materiaalverbruik, een project met een vaste prijs of een intern project is en of dit zich in de pre-salesfase bevindt.
 
 > ![Tabel waarin wordt weergegeven hoe werkelijke waarden worden vastgelegd](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

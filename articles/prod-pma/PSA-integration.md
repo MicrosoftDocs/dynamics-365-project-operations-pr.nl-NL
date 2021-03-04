@@ -75,3 +75,6 @@ Als u de integratieoplossing Project Service Automation naar Finance wilt gebrui
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Installeer de integratieoplossing Project Service Automation naar Finance in uw Project Service Automation-exemplaar
 
 Download de integratieoplossing Project Service Automation naar Finance vanuit het [Microsoft-downloadcentrum](https://www.microsoft.com/download/details.aspx?id=57016) en volg de instructies die bij de oplossing zijn geleverd.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

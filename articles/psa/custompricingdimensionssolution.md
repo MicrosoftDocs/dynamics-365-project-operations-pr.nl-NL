@@ -68,3 +68,6 @@ U moet de volgende Project Service-entiteiten toevoegen aan uw prijsoplossing. V
 > ![Niet alle gerelateerde onderdelen opnemen](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

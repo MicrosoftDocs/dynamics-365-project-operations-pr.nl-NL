@@ -20,3 +20,6 @@ ms.locfileid: "4514511"
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 U kunt de functionaliteit van Dynamics 365 Field Service gebruiken om de rollen in uw Dynamics 365 Project Operations-omgeving te definiëren. Zie [Categorieën voor boekbare resources instellen](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories) om het instellen te voltooien.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

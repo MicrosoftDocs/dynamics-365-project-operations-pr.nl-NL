@@ -66,3 +66,6 @@ De volgende problemen zijn opgelost:
 - Klanten kunnen verminderde prestaties ervaren bij het maken van een project omdat met **GetBookableResourceIdFromUser** alle kolommen met boekbare resources worden opgehaald in plaats van alleen de primaire id.
 - In de entiteit **TransactionType** ontbreekt de update-invoegtoepassing voor prevalidatie die voorkomt dat gebruikers **Eenheden** en **UnitGroups** invoeren die niet geldig zijn voor transactietypen.
 - De stap **Verwijderen** werkt niet voor het importeren van tijdsvermeldingen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

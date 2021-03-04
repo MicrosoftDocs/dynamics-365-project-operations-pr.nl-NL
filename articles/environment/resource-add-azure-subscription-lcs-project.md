@@ -70,3 +70,6 @@ De autorisatie is nu voltooid.
 U hebt uw Azure-abonnement met succes verbonden. U kunt nu gehoste Dynamics 365 Finance-cloudomgevingen implementeren.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

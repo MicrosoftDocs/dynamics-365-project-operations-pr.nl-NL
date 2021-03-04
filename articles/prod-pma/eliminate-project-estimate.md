@@ -51,3 +51,6 @@ Als u een schattingsproject wilt verwijderen, moet het voltooid zijn. In de volg
 5. Als het verwijderingsproces is voltooid, wordt het verwijderde schattingsproject weergegeven met een negatieve waarde. 
 
 Als u niet van plan was een schatting te verwijderen, kunt u de verwijderde schatting selecteren en **Verwijdering ongedaan maken** selecteren.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

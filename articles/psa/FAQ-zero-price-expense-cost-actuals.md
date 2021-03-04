@@ -38,3 +38,6 @@ Dit artikel is van toepassing op werkelijke waarden op basis van onkosten waarvo
 Ga naar de gerelateerde onkostenvermelding en controleer of het veld voor de onkostenvermelding een bedrag bevat. Als voor de oorspronkelijke onkostenvermelding geen bedrag is ingevuld, hebt u het probleem gevonden.
  
 U lost dit probleem op door de onkostenvermelding opnieuw te maken met een geldig bedrag en deze vervolgens goed te keuren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

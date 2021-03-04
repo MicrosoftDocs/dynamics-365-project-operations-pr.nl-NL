@@ -53,3 +53,6 @@ Als u competenties voor een werknemer wilt instellen, kunt u de lijstpagina **We
 5. Selecteer in het veld **Niveaudatum** de optie **14-01-2014**.
 6. Voer in het veld **Jaren ervaring** de waarde **10** in.
 7. Selecteer **Opslaan** en sluit vervolgens de pagina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

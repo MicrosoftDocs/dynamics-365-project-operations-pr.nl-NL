@@ -44,3 +44,6 @@ De volgende onderwerpen bevatten meer informatie over de functionaliteit voor pr
 - [Eenhedengroepen en eenheden](advanced-units.md)
 - [Valuta van meerdere eenheden](advanced-currency.md)
 - [Werkelijke waarden vastleggen](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

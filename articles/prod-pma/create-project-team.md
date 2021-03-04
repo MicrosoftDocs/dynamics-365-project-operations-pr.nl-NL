@@ -62,3 +62,6 @@ In de volgende procedure wordt uitgelegd hoe u een projectteam maakt.
 ## <a name="monitor-project-teams"></a>Projectteams bewaken
 1. Selecteer op de pagina **Alle projecten** de koppeling **Project-id** voor het project **XYZ-upgrade fase 2**.
 2. Controleer op het sneltabblad **Projectteam en planning** of de vermelde projectresources correct zijn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

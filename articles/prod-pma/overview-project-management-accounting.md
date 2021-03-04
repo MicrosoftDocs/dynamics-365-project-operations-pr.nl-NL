@@ -440,3 +440,6 @@ Nadat het overzicht is berekend, kunt u de volgende informatie bekijken op de ve
 -   **Verbruik** - Informatie over het verbruik van uren, artikelen, onkosten en salaristransacties.
 -   **Factuur** - Informatie over facturen en facturering op rekening.
 -   **Uurtarief** - De uurtarieven voor uren die naar opbrengsten- en kostenrekeningen worden geboekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

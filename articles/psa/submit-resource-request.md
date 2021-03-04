@@ -41,3 +41,6 @@ U kunt een gegenereerde resourcevereiste indienen als een resourceaanvraag. De a
 De aanvraagstatus van het algemene teamlid wordt gewijzigd in **Ingediend**.
 
 Nadat de aanvraag is vervuld door de resourcemanager wordt de algemene resource vervangen door een benoemde resource, als de resourcemanager de aanvraag vervult door een benoemde resource te boeken. Anders blijft de algemene resource in het team staan en wordt de status van de aanvraag gewijzigd **Moet worden geëvalueerd**, als de resourcemanager een benoemde resource heeft voorgesteld.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

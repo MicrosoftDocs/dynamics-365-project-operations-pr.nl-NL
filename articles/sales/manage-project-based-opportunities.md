@@ -65,3 +65,6 @@ Het verkoopproces voor verkoopkansen in Project Operations is een uitbreiding op
 > Als uw projectgebaseerde deal is begonnen met een verkoopkans, heeft het verkoopproces voor verkoopkansen voorrang.
 
 U kunt de bedrijfsprocesstroom voor producten bewerken of uw eigen bedrijfsprocesstromen maken om uw verkoopproces indien nodig te volgen. Zie [Overzicht van bedrijfsprocesstromen](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview) voor meer informatie over de bedrijfsprocesstroom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Wanneer het werk voor het project is voltooid, kan de projectmanager de fase bij
 ## <a name="close"></a>Sluiten
 
 Wanneer alle transacties voor het project zijn vastgelegd, kan de projectmanager de fase bijwerken naar **Sluiten**. Op dat moment kunnen er geen transacties meer worden vastgelegd en wordt het project ingesteld op alleen-lezen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
 
     -   Opgelost: wanneer gebruikers upgraden van 2.X naar 3.X, zijn projecten met de waarde NULL voor de projectnaam toegestaan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

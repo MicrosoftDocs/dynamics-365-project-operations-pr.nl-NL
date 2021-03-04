@@ -91,3 +91,6 @@ De batchprocestaak voor het maken van facturen is een terugkerende taak. Als dit
 
 > [!NOTE]
 > Batchfacturering in Project Operations wordt alleen uitgevoerd voor projectcontractregels die zijn geconfigureerd door factuurschema's. Voor een contractregel met een factureringsmethode met een vaste prijs moeten mijlpalen zijn geconfigureerd. Voor een projectcontractregel met een factureringsmethode voor tijd en materiaal is een op datum gebaseerd factuurschema nodig.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

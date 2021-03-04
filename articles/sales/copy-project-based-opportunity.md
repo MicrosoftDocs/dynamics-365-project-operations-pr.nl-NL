@@ -34,3 +34,6 @@ Projectgebaseerde verkoopkansen kunnen eenvoudig worden gekopieerd om nieuwe pro
     | Prijzen kopiëren | Een Ja-/Nee-waarde waarmee wordt aangegeven of de prijzen van de verkoopkans moeten worden gekopieerd vanuit de bronverkoopkans. | Als **Ja** wordt geselecteerd, worden prijslijsten gekopieerd van de bron- naar de doelverkoopkans. Als **Nee** wordt geselecteerd, worden prijslijsten standaard ingesteld op basis van de laatste ingestelde prijslijsten. |
 
 3. Selecteer **OK**. Er wordt een kopie gemaakt van de projectverkoopkans op basis van de geselecteerde parameters en de nieuwe projectgebaseerde verkoopkans wordt geopend.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

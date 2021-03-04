@@ -48,3 +48,6 @@ Als u taaktoewijzingen voor een resource hebt, maar geen boekingen, selecteert u
 Boekingen die zijn gemaakt via de actie **Boeking uitbreiden** worden gekoppeld aan de primaire projectvereiste. Wanneer een uitbreiding wordt geïnitieerd, kan de specifieke vereiste die moet worden uitgebreid niet worden bepaald, omdat de resource mogelijk aan meer dan één vereiste voor het project is gekoppeld.
 
 De projectmanager of resourcemanager kan vervolgens het planbord gebruiken om situaties te beheren waarin een resource boekingen heeft die zijn of haar capaciteit te boven gaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

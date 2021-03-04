@@ -149,3 +149,6 @@ Als een bladknooppunttaak geen voorgaande taken heeft, wordt zijn begindatum sta
 ### <a name="manual-scheduling"></a>Handmatige planning
 
 Als de regels van de automatische planning niet voldoen aan uw vereisten, kunt u de taakmodus voor de taak instellen op **Handmatig gepland**. Door deze instelling stopt de planningsengine met het berekenen van de waarden van andere planningskenmerken. Als u voorgaande taken voor taken instelt, heeft dat altijd invloed op de begindatum van de afhankelijke taak, ongeacht de taakmodus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

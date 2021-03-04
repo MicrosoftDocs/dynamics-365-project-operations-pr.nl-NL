@@ -67,3 +67,6 @@ Valuta in de prijsopgaveregeldetails voor standaardkostenwaarden uit de projectp
 Winstberekeningen zetten het bedrag in de prijsopgaveregeldetails voor kosten en verkopen om in de basisvaluta van de omgeving om de totale geschatte marge in de prijsopgave te rapporteren.
 
 Dit kan leiden tot valuta-afrondingsfouten en veranderende marges vanwege het ontbreken van geldende wisselkoersen. Gebruik deze berekeningen voor projectprijsopgaven alleen als benaderingen en niet als feitelijke wettelijke of andere rapportage die een hogere nauwkeurigheid van afronding en geldende wisselkoersen vereist.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

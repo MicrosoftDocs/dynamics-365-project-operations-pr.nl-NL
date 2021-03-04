@@ -116,3 +116,6 @@ Selecteer **Boeken** voor de algemene resource en gebruik het planbord om een ec
 Als de algemene resource door een benoemde resource wordt vervangen, wordt de algemene resource uit het team verwijderd en worden de taaktoewijzingen voor de algemene resource toegewezen aan de benoemde resource waarmee aan de resourcevereiste van de algemene resource werd voldaan.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

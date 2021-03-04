@@ -44,3 +44,6 @@ De PDF-koppeling die voorheen in dit onderwerp was opgenomen, is verwijderd en d
 
 > [!NOTE]
 > Dit onderwerp wordt verwijderd in een toekomstige documentatie-update. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

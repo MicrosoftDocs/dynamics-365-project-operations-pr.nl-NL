@@ -42,3 +42,6 @@ Vaardigheden voor resources worden beoordeeld door middel van deskundigheidsmode
 
 
 Deze beoordelingswaarden worden weergegeven in de filters **Resourcevereisten**, **Planbord** en **Planningsassistent**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

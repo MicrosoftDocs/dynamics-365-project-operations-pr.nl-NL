@@ -43,3 +43,6 @@ Geef een ruimte aan het team waar de leden van een project kunnen samenwerken aa
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Daarnaast moet een standaardrol worden toegewezen aan elke boekbare resource. Ga
 Op het tabblad **Project Service** kunt u ook een afzonderlijk doel voor bestede uren voor de resource instellen. De berekening van de bestede uren gebruikt vervolgens die doelwaarde om te het doel van de resource te evalueren, in plaats van het doel van de standaardrol van de resource.
 
 De bestede uren worden alleen voor een resource weergegeven als die resource goedgekeurde, factureerbare tijd heeft in de periode die wordt weergegeven in het raster.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

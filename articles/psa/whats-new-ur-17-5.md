@@ -44,3 +44,6 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
 - Opgelost: 24-uurs werkuursjablonen gewijzigd die onterecht een extra dag aan taken toevoegen.
 - Opgelost: +13 GMT-werkuursjablonen gewijzigd die taken onterecht één dag naar voren verschuiven.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

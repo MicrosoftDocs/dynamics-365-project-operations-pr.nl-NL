@@ -60,3 +60,6 @@ In Dynamics 365 Project Operations verschillen de principes van inkomstenverantw
 [Omzetschattingen beheren](rev-rec-completed-contract-method.md)
 
 [Kosten om methoden te voltooien](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

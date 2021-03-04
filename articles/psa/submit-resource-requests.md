@@ -55,3 +55,6 @@ Als u een projectcontract hebt binnengehaald, kunt u de medewerkers project wens
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

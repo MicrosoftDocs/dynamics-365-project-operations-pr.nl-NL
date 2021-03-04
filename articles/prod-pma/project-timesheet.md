@@ -96,3 +96,6 @@ Klik op **Indienen** om de urenstaat naar de goedkeuringsworkflow te verzenden.
 ## <a name="review-timesheets"></a>Urenstaten controleren
 
 Een lijst met de urenstaten die moeten worden gecontroleerd, is beschikbaar in het menu. Deze optie is alleen beschikbaar als u bent aangewezen als werkstroomgoedkeurder. Zowel koptekst- als regelgoedkeuring worden ondersteund. Goedkeuring op regelniveau biedt de mogelijkheid om een of meer regels voor goedkeuring te markeren. Klik na het controleren van de urenstaatinformatie op **Goedkeuren** , **Delegeren** of **Terugkeren** om de werkstroom voort te zetten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

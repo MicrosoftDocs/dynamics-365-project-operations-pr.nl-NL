@@ -68,3 +68,6 @@ Bij rentabiliteitsberekeningen worden de bedragen voor de contractregeldetails v
 
 > [!NOTE]
 > Afrondingsfouten voor valuta en gewijzigde marges kunnen optreden als gevolg van het ontbreken van effectieve wisselkoersen op de datum. Gebruik deze berekeningen voor projectcontracten alleen als benaderingen en niet voor echte wettelijke of andere rapportages die een hogere afrondingsprecisie vereisen en geldigheidsdatums voor wisselkoersen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

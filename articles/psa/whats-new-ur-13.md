@@ -59,3 +59,6 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
      - Opgelost: extra knoppen voor **Nieuwe verkoopkans**, **Prijsopgave**, **Orderregel** en **Product toevoegen** zijn zichtbaar in opdrachten voor Verkoopkansen, Prijsopgaven, Bestelproducten en het projectgebaseerde regelsubraster.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

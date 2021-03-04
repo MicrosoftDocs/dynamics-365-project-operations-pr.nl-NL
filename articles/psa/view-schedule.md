@@ -45,3 +45,6 @@ Als u wilt zien wat u aan voor een week werkt, analyseer uw planning.
   
 ### <a name="see-also"></a>Zie ook  
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

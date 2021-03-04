@@ -64,3 +64,6 @@ In dit onderwerp wordt getoond hoe u projectfacturering tussen twee bedrijven in
 32. Voer een getal in het veld **Prijzen** in.
 33. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

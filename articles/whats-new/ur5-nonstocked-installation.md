@@ -125,3 +125,6 @@ De volgende updates van de beveiligingsbevoegdheden voor entiteiten zijn vereist
  
  ![Synchronisatie van grootboektoewijzing](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

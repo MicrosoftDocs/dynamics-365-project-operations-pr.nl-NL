@@ -35,3 +35,6 @@ Nadat een kostprijslijst is herleid, worden de velden **Rol**, **Bedrijf voor re
 Schattingsregels voor Onkosten verwijzen naar de details van de prijsopgave- en contractregels voor onkosten en de schattingsregels voor onkosten in een project.
 
 Nadat een kostprijslijst is herleid, wordt een combinatie van velden **Categorie** en **Eenheid** op de schattingsregel voor Onkosten gebruikt voor afstemming met de regels van **Categorieprijs** in de herleide prijslijst. Als een categorieprijsregel wordt gevonden met een kostentarief voor de combinatie van **Categorie** en **Eenheid**, wordt het kostentarief standaard ingesteld. Als de waarden van **Categorie** en **Eenheid** niet kunnen worden afgestemd of als wel een overeenkomende categorieprijsregel wordt gevonden, maar de prijsmethode niet **Prijs per eenheid** is, wordt het kostentarief standaard ingesteld op nul (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

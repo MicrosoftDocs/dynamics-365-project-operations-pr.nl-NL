@@ -68,3 +68,6 @@ Wanneer de gebruiker ervoor kiest om samen te vatten op transactieklasse, catego
 | Taak A | Vliegticket | 10/1/2020 | 4 | 400 | 1600 |
 | Taak B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Taak C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

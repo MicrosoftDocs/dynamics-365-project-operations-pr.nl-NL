@@ -50,3 +50,6 @@ De volgende tabel bevat een overzicht van alle kant-en-klare formulieren en weer
 2. Controleer op de pagina **Parameters** in het tabblad **Op bedrag gebaseerde prijsdimensies** of het raster de records in de entiteit **Prijsdimensies** weergeeft.
 3. Voeg **Transactiecategorie** toe aan deze lijst en stel de velden **Van toepassing op kosten** en **Van toepassing op verkoop** in op **Ja**.
 4. Selecteer in het veld **Dimensietype** de optie **Op bedrag gebaseerd** en selecteer vervolgens de prioriteit voor **Transactiecategorie** met betrekking tot kosten en verkopen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

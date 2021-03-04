@@ -88,3 +88,6 @@ Factuurschema's zijn specifiek voor elke contractregel en zijn vereist voor auto
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Wijzigingen ten opzichte van orders in Dynamics 365 Sales
 
 Contracten in Project Operations zijn gebaseerd op orders in Dynamics 365 Sales. Er zijn echter enkele belangrijke afwijkingen en verschillen in functionaliteit. Contracten hebben hun eigen formulier- en UI-elementen, bedrijfsregels, bedrijfslogica in invoegtoepassingen en client-side scripts die ze uniek maken ten opzichte van Orders. Om deze redenen moet u een Sales-order en een Project Operations-contract niet door elkaar gebruiken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

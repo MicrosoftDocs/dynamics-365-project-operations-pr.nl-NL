@@ -125,3 +125,6 @@ Vaste prijs - voltooiingspercentage
 Profielregels voor projectkosten en -inkomsten bepalen welk profiel voor projectkosten- en inkomsten moet worden gebruikt bij het verwerken van factureerbare projecttransacties. Definieer de regels via **Projectmanagement en financiële administratie** \> **Instellingen** \> **Boeken** \> **Profielregels voor projectkosten en -inkomsten**.
 
 Regels kunnen worden gedefinieerd per projectcontract, projectgroep of specifiek project. Het systeem kiest altijd eerst de regel met de hoogste granulariteit.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

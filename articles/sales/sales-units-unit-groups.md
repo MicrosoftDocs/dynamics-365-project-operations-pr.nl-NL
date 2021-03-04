@@ -46,3 +46,6 @@ Om de stappen in deze onderwerp te kunnen voltooien, moet u ervoor zorgen dat aa
 3. Voer in het veld **Hoeveelheid** het aantal van de eenheid in. Als een doos bijvoorbeeld twee stuks bevat, voert u '2' in. 
 4. Selecteer in de **Basiseenheid** een basiseenheid om de laagste maateenheid voor de eenheid in te stellen. U kunt bijvoorbeeld 'Stuk' selecteren.
 5. Selecteer **Opslaan**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

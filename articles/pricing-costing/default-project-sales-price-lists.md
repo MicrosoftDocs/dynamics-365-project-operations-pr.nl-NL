@@ -57,3 +57,6 @@ Kostprijslijsten worden niet standaard ingesteld op een entiteit in Project Oper
 5. Vervolgens wordt gekeken naar de datumgeldigheid van de prijslijsten die overeenkomen met de datum van de inkomende regel met schattingen of werkelijke waarden. 
 6. Als er meerdere prijslijsten zijn die van kracht zijn voor de datum op de inkomende schatting of werkelijke waarde, wordt de meest recent gemaakte prijslijst geselecteerd.
 7. Als er geen kostprijslijsten zijn gekoppeld aan de projectparameters die overeenkomen met de valuta en de ingangsdatum, wordt het kostentarief standaard ingesteld op nul (0) op de regel voor inkomende schatting of werkelijke waarde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

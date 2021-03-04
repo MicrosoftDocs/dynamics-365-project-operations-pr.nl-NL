@@ -48,3 +48,6 @@ Vaardigheden voor resources worden beoordeeld door middel van deskundigheidsmode
 > ![Minimale en maximale beoordelingen gedefinieerd](media/Resource-Management-image85.png)
 
 Deze beoordelingswaarden worden weergegeven in de filters **Resourcevereisten**, **Planbord** en **Planningsassistent**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

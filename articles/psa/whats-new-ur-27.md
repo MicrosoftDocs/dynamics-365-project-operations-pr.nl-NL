@@ -81,3 +81,6 @@ De volgende problemen zijn opgelost:
 - Wanneer Dynamics 365 Field Service en Project Service Automation beide zijn geïnstalleerd, worden de opties **Prijzen vergrendelen** en **Huidige prijzen gebruiken** niet tegelijkertijd weergegeven op de pagina **Factuur**.
 - Voor de Japanse taal is er een inconsistente vertaling met andere agendagebaseerde pagina's.
 - **Activeren** en **Deactiveren** zijn verwijderd uit **Prijslijstkoppeling** entiteiten in Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

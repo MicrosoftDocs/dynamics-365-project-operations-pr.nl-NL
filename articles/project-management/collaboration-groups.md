@@ -26,3 +26,6 @@ Met Office Groepen kunt u een project delen met andere teamleden in Common Data 
 > [!NOTE] 
 > Gebruikers worden alleen aan de groep toegevoegd als u op **Groepen** kiest en deze toevoegt. Dit is anders dan het gedrag van de webversie van Project. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Voor elke projectcontractregel met een factureringsmethode met vaste prijs moete
 Als u factureringsmijlpalen wilt controleren, gaat u naar **Verkoop** \> **Facturering** \> **Mijlpalen voor vaste prijs**. Selecteer alle mijlpalen die gereed zijn om te worden gefactureerd en selecteer vervolgens **Gereed voor facturering**. De factureringsstatus van deze mijlpalen wordt gewijzigd in **Gereed voor facturering**.
 
 ![Mijlpalen voor vaste prijs](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

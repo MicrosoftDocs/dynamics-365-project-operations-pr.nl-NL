@@ -44,3 +44,6 @@ Zie voor meer informatie [Onkostenpost (Lite)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Uw type implementatie van Onkosten bepalen
 Om te bepalen of u de beheerimplementatie Basisonkosten uitvoert, controleert u of de adres-URL eindigt op **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

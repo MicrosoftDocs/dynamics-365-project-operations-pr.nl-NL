@@ -61,3 +61,6 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
     - Opgelost: dubbele object-id's werden aangetroffen op het hoofdformulier **Contract**.
     - Opgelost: logica is bijgewerkt en maakt nu het tabblad **Analyse prijsopgave** zichtbaar, zodat het de metadata-instellingen van het tabblad weergeeft.
     - Opgelost: de datum in financiële administratie in de werkelijke record komt nu van de datum van de tijd/kosteninvoerdatum en niet de datum van de goedkeuring.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

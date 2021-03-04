@@ -42,3 +42,6 @@ De agenda ondersteunt geen acties voor afzonderlijke agenda-items en u kunt niet
 ## <a name="extensibility"></a>-uitbreidbaarheid
 
 Op de pagina **Tijdsvermeldingen** kunt u in het tijdinvoerraster aangepaste velden toevoegen, opzoekvelden instellen en aangepaste overzichten maken. U kunt ook aangepaste bedrijfslogica instellen die is gebaseerd op de waarden die zijn geselecteerd of ingevoerd in aangepaste velden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

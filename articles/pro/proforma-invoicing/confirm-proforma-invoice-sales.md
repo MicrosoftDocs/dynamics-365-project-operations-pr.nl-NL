@@ -273,3 +273,6 @@ Een gefactureerde werkelijke verkoopwaarde voor de productregel met de hoeveelhe
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

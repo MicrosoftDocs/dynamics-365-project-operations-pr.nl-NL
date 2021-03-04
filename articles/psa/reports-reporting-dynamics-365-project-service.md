@@ -52,3 +52,6 @@ Zie de volgende onderwerpen voor meer informatie over rapporteren in PSA:
 - [Werken met het Project Service-gegevensmodel](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

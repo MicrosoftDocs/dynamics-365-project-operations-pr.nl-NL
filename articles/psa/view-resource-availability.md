@@ -48,3 +48,6 @@ U kunt de beschikbaarheid van de resource weergeven om een algemeen overzicht te
 
 ### <a name="see-also"></a>Zie ook  
  [Resourcemanager-handleiding](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

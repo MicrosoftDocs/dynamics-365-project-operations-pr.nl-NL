@@ -37,3 +37,5 @@ Voer als projectmanager de volgende stappen uit om de resourcevereiste van een t
 ## <a name="edit-resource-assignment-contours"></a>De contouren van de resourcetoewijzing bewerken
 
 Naast het bewerken van de details van de resourcevereisten, kan een projectmanager de individuele contouren van de resourcevereisten bijwerken met de functionaliteit **Patroon opgeven**. Wanneer **Patroon opgeven** wordt geselecteerd, wordt een pagina geopend en kunt u contouren bekijken op de tijdschaal van de dag, week of maand. Elke contour kan worden aangepast voor starttijd, eindtijd en totale inspanning in een bepaalde periode.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

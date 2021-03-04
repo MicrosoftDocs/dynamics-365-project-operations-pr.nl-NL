@@ -58,3 +58,6 @@ De volgende KPI's zijn beschikbaar op het tabblad **Contractprestaties** van een
 | Gemaakte kosten | Productgebaseerde regels | De som van alle werkelijke kosten voor de productgebaseerde contractregel. |
 | Brutomarge | Projectgebaseerde regels | Gefactureerd bedrag - gemaakte kosten tot datum/gefactureerd bedrag |
 | Verwachte marge | Productgebaseerde regels | (Contractregelwaarde - geschatte kosten voor de contractregel)/contractregelwaarde |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
 - Opgelost: wanneer de transactieklasse is **Tijd**, is **UnitGroup** niet bewerkbaar voor alle entiteiten, waaronder **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** en **ContractLineDetails**. **Eenheid** is echter niet bewerkbaar voor **JournalLine** en **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

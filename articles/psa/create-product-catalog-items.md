@@ -37,3 +37,6 @@ Als u producten, zoals softwarelicenties, op de projectprijsopgaven en schatting
   
 ### <a name="see-also"></a>Zie ook  
  [Project Service configureren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Dit foutbericht geeft aan dat er prijsrecords zijn die eerder zijn ingesteld voo
 
 
 Wanneer u **Standaardtitel** als prijsdimensie uitschakelt en de prijsengine naar een prijs zoekt, wordt alleen de waarde voor **Organisatie-eenheid** uit de invoercontext gebruikt. Als **Organisatie-eenheid** van de invoercontext “Contoso US” is, is het resultaat niet-deterministisch omdat beide rijen overeenkomen. Om dit scenario bij het maken van **Rolprijs** records te voorkomen, controleert het systeem of de combinatie van dimensies uniek is. Als de dimensie is uitgeschakeld nadat de **Rolprijs** records zijn gemaakt, kan deze beperking worden overtreden. Daarom moet u voordat u een dimensie uitschakelt, alle rijen voor **Rolprijs** en **Opslag voor rolprijs** verwijderen waarvoor die dimensiewaarde is ingevuld.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

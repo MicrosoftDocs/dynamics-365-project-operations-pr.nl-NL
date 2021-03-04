@@ -134,3 +134,6 @@ Voordat u begint met het configureren van gegevens in Common Data Service (CDS),
 13. Selecteer **Opslaan**. 
 
 ![Bijgewerkte projectparameters](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Hieronder staan de tabbladen en KPI's voor een projectprijsopgave die uniek zijn
 | Winstgevendheidsanalyse | Tabblad voor prijsopgave | Het tabblad bevat de volgende gegevens:</br>- Totale toerekenbare kosten</br></br>- Totale niet-toerekenbare kosten</br>- Totale omzet</br>- Totale omzet (basis)</br>- Brutomarge</br>- Aangepaste brutomarge|
 | Vergelijking met klantverwachtingen | Tabblad voor prijsopgave | Dit tabblad bevat de volgende gegevens:</br>- Geschatte voltooiing</br>- Aangevraagde voltooiing</br>- Klantbudget</br>- Waarde van prijsopgave |
 | Analyse prijsopgave | Tabblad voor prijsopgave | Dit tabblad geeft een overzicht van de volgende top-KPI's voor een projectprijsopgave</br>- Vergelijking met de verwachtingen van de klant voor budget en planning</br>- Brutomarge</br>- Aangepaste brutomarge |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

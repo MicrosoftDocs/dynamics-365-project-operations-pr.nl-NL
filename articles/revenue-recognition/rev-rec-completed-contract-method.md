@@ -90,3 +90,6 @@ De status van de schatting verandert in **Geëlimineerd**.
 Gebruik deze pagina om alle eliminaties terug te draaien met een gespecificeerde schattingsdatum en met een schattingsstatus van **Geëlimineerd**. De transactiestatus verandert nadat u de juiste velden hebt geselecteerd.
 
 Hierdoor wordt ook automatisch de projectstatus gewijzigd in **Wordt uitgevoerd** als de projectfase is voltooid. De schattingsstatus van de projectperiode verandert weer naar **Geboekt**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

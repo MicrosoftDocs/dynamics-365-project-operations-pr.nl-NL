@@ -236,3 +236,6 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 22. Selecteer **Indienen**.
 23. Voer eventuele opmerkingen in voor de fiatteur.
 24. Selecteer **Gereed**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Navigeer naar de werkelijke cijfers van het project en zorg dat kosten en niet-g
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

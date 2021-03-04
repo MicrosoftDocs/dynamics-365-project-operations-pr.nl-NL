@@ -35,3 +35,6 @@ Als het projectcontract dat als verloren is gesloten, verwijst naar een project 
 
 > [!NOTE]
 > In Dynamics 365 Project Operations heeft het sluiten van een projectcontract als verloren geen invloed op die status van de gekoppelde verkoopkans. De verkoopkans blijft open en moet handmatig worden gesloten.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

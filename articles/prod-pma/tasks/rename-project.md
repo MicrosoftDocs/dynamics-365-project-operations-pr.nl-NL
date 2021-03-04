@@ -35,3 +35,6 @@ Projectfasen kunnen dienen als leidraad voor de levenscyclus van een project. U 
 4. Selecteer in de lijst de vooraf gedefinieerde of door de gebruiker gedefinieerde fase die u wilt wijzigen. 
 5. Typ in het veld Projectfase de nieuwe naam.
 6. Klik op Opslaan.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

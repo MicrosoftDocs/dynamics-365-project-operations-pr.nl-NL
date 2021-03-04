@@ -38,3 +38,6 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 | **Projecten plannen en bijhouden** | 2164035 | Problemen opgelost met de functie **Project kopiëren**. |
 | **Tijdsvermelding** | 2129161 | Er worden strengere beperkingen toegepast om ervoor te zorgen dat gebruikers een ingediende of goedgekeurde tijdsvermelding niet kunnen wijzigen en bijwerken. |
 | **Tijdsvermelding** | 2103572 | Tijdsgoedkeuring voor niet-projecttijdsvermeldingen mag niet op zoek zijn naar de rol van projectfiatteur. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

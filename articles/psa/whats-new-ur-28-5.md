@@ -42,3 +42,6 @@ De volgende problemen zijn opgelost:
 
 - Vermindering zoekprestaties voor planningsassistentie
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

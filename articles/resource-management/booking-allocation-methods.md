@@ -81,3 +81,6 @@ De volgende toewijzingmethoden leiden dus tot overboekingen als de resource al i
 - Uren gelijkmatig verdelen
 
 Als u een van deze drie toewijzingmethoden gebruikt, wordt u niet op de hoogte gesteld als de resource wordt overboekt. U corrigeert de overboeking via het planbord.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

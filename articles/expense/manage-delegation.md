@@ -39,3 +39,6 @@ Als **Lijstpagina met gemachtigden voor onkosten inschakelen** is ingeschakeld, 
 Een gemachtigde kan snel filteren en zoeken op bestaande onkostendeclaraties die aan hem zijn gedelegeerd. De gedelegeerde kan ook snel een nieuwe onkostendeclaratie voor andere gebruikers maken door **Nieuwe onkostendeclaratie** te selecteren.
 
 Gemachtigden kunnen onkostendeclaraties voor andere werknemers maken en beheren via **Onkostenbeheer** > **Mijn gebruiker** > **Onkostendeclaraties** en **Onkosten van andere gebruikers openen**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

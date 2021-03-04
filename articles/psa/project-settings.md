@@ -68,3 +68,6 @@ Elke organisatie moet deze rollen instellen op de pagina **Actieve resourcecateg
 ## <a name="price-lists"></a>Prijslijsten
 
 Met prijslijsten kunt u kosten en verkoopprijzen voor resourcerollen, onkostencategorieën, producten en andere elementen in een organisatie instellen. Voordat u financiële schattingen instelt voor het werk dat voor een project moet worden geleverd, moet u een achterliggende lijst met kosten en een verkoopprijzen maken. In de parametersectie moet u ook een standaardlijst met kosten en verkoopprijzen instellen die van toepassing is op alle projecten die in de organisatie worden gemaakt. Zorg ervoor dat u op de pagina **Actieve projectparameters** een standaardlijst met kosten en verkoopprijzen instelt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

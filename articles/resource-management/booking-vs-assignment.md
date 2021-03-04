@@ -26,3 +26,6 @@ In tegenstelling tot boekingen zijn toewijzingen de toezegging van resources voo
 Meestal is de som van de boekingen voor een resource gelijk aan de som van de toewijzingen van de resource voor een of meerdere taken. In Project Operations is deze overeenkomst echter niet verplicht. In de weergave **Afstemming** wordt aan een projectmanager getoond waar boekingen en toewijzingen van een resource niet overeenkomen.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

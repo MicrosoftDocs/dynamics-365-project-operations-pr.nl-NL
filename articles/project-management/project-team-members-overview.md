@@ -60,3 +60,6 @@ Vanuit het raster met teamledem kunnen de volgende acties worden ondernomen:
 
 - **Nieuw**: naast het rechtstreeks toevoegen van resources vanuit de planning, kunnen projectmanagers nieuwe benoemde of generieke teamleden toevoegen vanuit het teamlidraster.
 - **Verwijderen**: door een of meerdere teamleden te selecteren kan de projectmanager resources verwijderen die niet langer aan het project zullen deelnemen. Als u een teamlid verwijdert, worden ook alle bijbehorende resourcetoewijzingen verwijderd en worden alle bestaande boekingen geannuleerd.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ De account- en projectmanagers vragen regelmatig resources aan voor hun projecte
   
 ### <a name="see-also"></a>Zie ook  
  [Resourcemanager-handleiding](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

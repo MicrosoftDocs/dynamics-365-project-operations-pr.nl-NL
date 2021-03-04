@@ -107,3 +107,6 @@ Ga als volgt te werk om uw eigen bedrijfsprocesstroom voor de projectentiteit te
 
    ![Schermafbeelding van het wijzigen van weergaven in de projectentiteit](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

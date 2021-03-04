@@ -90,3 +90,6 @@ U kunt projecttaken ook loskoppelen van prijsopgaveregels via het tabblad **Toer
 
 >[!NOTE]
 > Met deze procedure verwijdert u de taak niet uit het project. U verwijdert alleen de taakkoppeling van de projectgebaseerde prijsopgaveregel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

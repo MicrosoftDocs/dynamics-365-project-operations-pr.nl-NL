@@ -32,3 +32,6 @@ In Dynamics 365 Project Service Automation versie 3.0 zijn de weergaven voor Tij
 Voorheen werden de agenda- en rasterweergaven voor Tijd en onkosten geïmplementeerd als DHTMLX-besturingselementen. De onderdelen die zijn gerelateerd aan die implementatie van de agenda- en rasterweergaven, zijn nu verouderd (afgeschaft).
 
 Zie voor de volledige lijst met afgeschafte resources [Afgeschafte webresources in Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

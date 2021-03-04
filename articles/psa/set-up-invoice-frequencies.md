@@ -51,3 +51,6 @@ Factuurfrequenties in de [!INCLUDE[pn_project_service_auto](../includes/pn-proje
   
 ### <a name="see-also"></a>Zie ook  
  [Project Service configureren](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

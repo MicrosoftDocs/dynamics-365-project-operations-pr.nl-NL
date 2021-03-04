@@ -57,3 +57,6 @@ Plan uw vakantie of verlof op vrijwel dezelfde manier als hoe u de tijd voor een
   
 ### <a name="see-also"></a>Zie ook  
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

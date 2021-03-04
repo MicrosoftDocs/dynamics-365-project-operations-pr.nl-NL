@@ -52,3 +52,6 @@ Voer de volgende stappen uit om de invoegtoepassingen bij te werken en opnieuw t
 7. Selecteer **OK** om de pagina te sluiten en selecteer vervolgens **Stap bijwerken**.
 8. Herhaal stap 2 tot 7 voor de tweede invoegtoepassing, **PreOperationQuoteLineDetail**. Werk voor deze invoegtoepassing de stap **Update msdyn_quotelinetransaction** bij.
 9. Sluit **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

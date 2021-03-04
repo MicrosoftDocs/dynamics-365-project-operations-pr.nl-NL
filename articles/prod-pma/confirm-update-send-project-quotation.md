@@ -57,3 +57,6 @@ Als u een bestaande projectofferte wilt wijzigen, moet de offertestatus **Gemaak
 
 > [!NOTE]
 > U kunt een projectofferte niet wijzigen nadat de status is gewijzigd in **Verzonden**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

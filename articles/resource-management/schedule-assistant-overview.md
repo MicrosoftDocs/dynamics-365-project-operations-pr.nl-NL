@@ -57,3 +57,6 @@ Het filterpaneel toont werkgerelateerde opties, waaronder:
 -   Bedrijf voor resources
 -   Resourcetypen
 -   Geprefereerde resources
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

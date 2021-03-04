@@ -30,3 +30,6 @@ Wanneer een productgebaseerde contractregel wordt gemaakt voor een catalogusprod
 Met kosten per eenheid op een productgebaseerde contractregel zijn verschillende productkosten voor elke verkoop van een eenheid mogelijk. Hoewel dit niet altijd nodig is, zijn er bepaalde scenario's waarin de kosten van het product door de leverancier kunnen worden verdisconteerd voor de klant. Bekijk het volgende scenario:
 
 Fabrikam Robotics installeert robotarmen voor de assemblagelijnen van Adatum Corporation. Fabrikam biedt installatiediensten, maar de robotarmen zijn van Trey Research. Als de installatie van robotarmen bij Adatum Corporation een nieuwe verticale markt opent voor Trey Research, kan een speciale korting voor deze deal worden gegeven aan Fabrikam. In dit geval maakt Fabrikam een productgebaseerde contractregel voor Robotic Arms. Voor dit contract worden kosten per eenheid ingevoerd. De kosten verschillen van de kosten van robotarmen van Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

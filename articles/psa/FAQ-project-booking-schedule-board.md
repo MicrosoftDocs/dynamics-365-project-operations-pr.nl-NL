@@ -91,3 +91,6 @@ Voer de volgende stappen uit om te boeken via een nieuwe resourcevereiste.
 
 4. Nu de resource is geboekt, moet u taken handmatig toewijzen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

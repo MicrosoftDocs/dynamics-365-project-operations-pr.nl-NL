@@ -28,3 +28,6 @@ Er zijn twee methoden die u kunt gebruiken om met de persoonlijke onkosten van e
   - **Betaald door bedrijf**: uw organisatie betaalt de volledige rekening voor de zakelijke creditcard en incasseert deze vervolgens op de rekening van de werknemer voor persoonlijke onkosten.
 
 U kunt de methode selecteren die uw organisatie gebruikt op de pagina **Parameters onkostenbeheer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

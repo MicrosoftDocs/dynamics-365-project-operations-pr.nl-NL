@@ -344,3 +344,6 @@ Als u taaktoewijzingen voor een resource hebt, maar geen boekingen, gaat u naar 
 ![Dialoogvenster Boeking uitbreiden](media/Resource-Management-image58.png)
 
 De projectmanager of resourcemanager kan vervolgens het planbord gebruiken om situaties te beheersen waarin een resource boekingen heeft die zijn of haar capaciteit te boven gaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

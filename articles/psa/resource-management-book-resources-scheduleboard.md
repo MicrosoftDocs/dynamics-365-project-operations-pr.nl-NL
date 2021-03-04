@@ -53,3 +53,6 @@ Voordat u vanaf het planbord kunt boeken, moet u resourcevereisten maken of gene
 De vereiste wordt vervuld met de geselecteerde resource. In het deelvenster **Reserveringsvereisten** ziet u dat de vereiste is bijgewerkt en de resource wordt weergegeven als geboekt voor het project.
 
 ![Resource is geboekt voor het project](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

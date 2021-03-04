@@ -127,3 +127,6 @@ Volg deze stappen om een nieuwe structuur voor werkspecificatie te maken met Mic
 8.  Selecteer de **agenda** die moet worden gebruikt voor het toewijzen van resources.
 
 11. Klik op **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

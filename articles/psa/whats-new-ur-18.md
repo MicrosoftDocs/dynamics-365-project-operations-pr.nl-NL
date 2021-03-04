@@ -63,3 +63,6 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
 **Sales**
 
 - Opgelost: wanneer tijdsvermeldingen opnieuw worden goedgekeurd (**Goedkeuren > Annuleren >** opnieuw goedkeuren), wordt een dubbele niet-toerekenbare werkelijke waarde gemaakt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

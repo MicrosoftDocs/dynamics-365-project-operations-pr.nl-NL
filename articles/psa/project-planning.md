@@ -52,3 +52,6 @@ De volgende onderwerpen bevatten informatie die projectmanagers kunnen gebruiken
 - [Projectsjablonen](project-templates.md)
 - [Projectfasen](project-stages.md)
 - [Projectinstellingen](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

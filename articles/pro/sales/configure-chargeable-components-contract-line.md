@@ -79,3 +79,6 @@ Een schatting of een werkelijke waarde die is gemaakt voor onkosten, wordt allee
 | Geen            | Ja              | Geheel project | Kan niet worden ingesteld   | Niet-toerekenbaar | Facturering voor een werkelijke waarde van Tijd: **Niet beschikbaar**</br> Factureringstype voor een werkelijke waarde van Onkosten: **Niet-toerekenbaar**     |
 | Ja           | Geen               | Geheel project | Toerekenbaar     | Kan niet worden ingesteld   | Facturering voor een werkelijke waarde van Tijd: **Toerekenbaar** </br> Factureringstype voor een werkelijke waarde van Onkosten: **Niet beschikbaar**        |
 | Ja           | Geen               | Geheel project | Niet-toerekenbaar | Kan niet worden ingesteld   | Facturering voor een werkelijke waarde van Tijd: **Niet-toerekenbaar** </br>Factureringstype voor een werkelijke waarde van Onkosten: **Niet beschikbaar**   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

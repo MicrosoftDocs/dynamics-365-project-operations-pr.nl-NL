@@ -31,3 +31,6 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 De entiteit **Werkelijke waarden** heeft veel velden die kunnen worden gebruikt als prijsdimensies voor prijzen op basis van resources. Eén algemeen veld is bijvoorbeeld **Boekbare resource**. Voor kleinere bedrijven met minder dan 20-30 factureerbare resources zijn resourcespecifieke factuur- en kostentarieven mogelijk een eenvoudigere benadering. Als het aantal factureerbare werknemers echter toeneemt, kan dit echter onrealistisch worden. De resourcekosten en factuurtarieven variëren naarmate resources worden bevorderd, meer ervaring opdoen of andere vaardigheden verwerven. 
 
 Een ander voorbeeld is transactiecategorie. Klanten en uitvoerders hebben de transactiecategorie gebruikt voor het classificeren van werk en voor het bepalen van de prijs en kosten op basis van de werkcategorie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

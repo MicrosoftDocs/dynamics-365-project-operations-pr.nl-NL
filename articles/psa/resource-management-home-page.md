@@ -41,3 +41,6 @@ Resources zijn de belangrijkste activa van een serviceverlenende organisatie. De
 - [Vereisten zacht boeken](resource-management-softbook-requirements.md)
 - [Vaardigheids- en deskundigheidsmodellen](resource-management-skills-proficiency.md)
 - [Veelgestelde vragen over resourcebeheer](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

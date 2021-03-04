@@ -68,3 +68,6 @@ In de weergave **Vereffening** kan de projectmanager de boekingen en toewijzinge
 > [!NOTE]
 > Als u een taak verplaatst waarvoor u zelf de contouren hebt ingesteld, worden de contouren niet behouden. De contouren worden opnieuw gegenereerd op basis van de projectagenda voor wijzigingen in werkuren en sluitingsperioden. Dit is zo ontworpen. Het systeem is namelijk niet op de hoogte van de bedoeling van de oorspronkelijke contour en kan niet bepalen of het zinvol is om die contour te behouden in een nieuwe periode. Omdat boekingen en toewijzingen niet verbonden zijn, behouden de boekingen de oorspronkelijke boekingscontouren. In dit geval moet u annuleren en opnieuw boeken in de nieuwe toewijzingscontour.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

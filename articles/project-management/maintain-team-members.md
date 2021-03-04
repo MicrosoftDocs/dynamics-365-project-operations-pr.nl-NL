@@ -42,3 +42,6 @@ Wanneer u een selectie maakt, wordt de resource toegevoegd aan het projectteam e
 U kunt de functie voor uitgebreid boeken van het tabblad **Afstemming** of het **planbord** gebruiken om de capaciteit van de resource voor het project te boeken.
 
 Nadat een teamlid is geboekt voor uw project, kunt u **Boekingen bijhouden** of het **Planbord** rechtstreeks gebruiken om hun boekingen te beheren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

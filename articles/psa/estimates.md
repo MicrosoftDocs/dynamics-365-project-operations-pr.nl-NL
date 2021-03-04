@@ -106,3 +106,6 @@ Als u een aangepast veld hebt toegevoegd voor de prijsopgaveregeldetails en de w
 
 8. Herhaal stap 1 tot en met 7 voor de tweede invoegtoepassing.
 9. Sluit PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Als u zich wilt aanmelden bij Dynamics 365-apps moet u de volgende informatie va
   
 ### <a name="see-also"></a>Zie ook  
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

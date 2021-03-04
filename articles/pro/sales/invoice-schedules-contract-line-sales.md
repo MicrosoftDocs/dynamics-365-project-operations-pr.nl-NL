@@ -74,3 +74,6 @@ Mijlpalen met een vaste prijs kunnen handmatig worden gegenereerd als ze niet pe
 | Belastingen | Snelle invoer | Het belastingbedrag dat is toegepast op de mijlpaal. | Dit wordt opgenomen in de mijlpaal van de projectcontractregel en de factuur. |
 
 4. Selecteer **Opslaan en sluiten**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

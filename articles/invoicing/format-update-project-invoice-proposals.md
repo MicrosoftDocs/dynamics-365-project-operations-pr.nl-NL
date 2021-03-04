@@ -143,3 +143,6 @@ Schakel om de factuur te bekijken voordat u deze boekt het selectievakje **Boeke
 Naast via de pagina **Factuurvoorstel** kunnen factuurvoorstellen ook worden geboekt door de periodieke taak uit te voeren, **Factuurvoorstellen boeken**. Ga voor deze taak naar **Projectbeheer en boekhouding** > **Periodiek** > **Projectfacturen** > **Factuurvoorstellen boeken**.
 
 Deze pagina toont alle factuurvoorstellen die klaar zijn om geboekt te worden. U kunt het boeken van factuurvoorstellen plannen door **Batch** te selecteren. Stel de **Batchverwerkingsparameter** in op **Ja** en stel de herhaling van batchverwerking in door **Herhaling** te selecteren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

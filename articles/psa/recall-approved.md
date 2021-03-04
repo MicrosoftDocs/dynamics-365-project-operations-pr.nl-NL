@@ -107,3 +107,6 @@ In de volgende afbeelding ziet u de wijzigingen die zich bij goedgekeurde tijdsv
 In de volgende afbeelding worden de wijzigingen weergegeven die zich bij goedgekeurde onkostenposten voordoen wanneer ze worden ingetrokken.
 
 ![Statusovergangen van onkostenposten](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

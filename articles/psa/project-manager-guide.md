@@ -95,3 +95,6 @@ Deze handleiding levert de informatie die nodig is om projecten te maken en te b
  [Resourcemanager-handleiding](../psa/resource-manager-guide.md)   
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

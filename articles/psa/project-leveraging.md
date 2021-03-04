@@ -54,3 +54,6 @@ U kunt de werkinspanning en de planningsschattingen definiëren met behulp van d
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Schattingen importeren van een project in een prijsopgave
 
 Nadat u projectschattingen hebt gedefinieerd, kunt u deze importeren in de prijsopgaveregel. Selecteer op de pagina **Details van prijsopgaveregel** de optie **Importeren uit schatting** op het lint om projectschattingen op het niveau van transactietype, rol of taak samen te vatten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

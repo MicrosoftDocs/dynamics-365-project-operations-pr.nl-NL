@@ -37,3 +37,6 @@ Gebruik dit implementatietype als u Project Operations gaat gebruiken voor de vo
 - Een geïntegreerd systeem dat interne en factureerbare projecten beheert voor planningen en financiële gegevens, van projectverkoop tot facturering.
 - Enterprise Resource Planning (ERP)/financieel boekhoudsysteem van derden om te integreren met Project Operations.
 - Een systeem van derden om te werken met omzetbelastingen, wisselkoersen, onkostenvergoedingen en niet-projectkosten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

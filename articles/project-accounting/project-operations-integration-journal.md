@@ -55,3 +55,6 @@ Alleen de volgende boekhoudkenmerken kunnen worden bijgewerkt in de Project Oper
 Integratiejournaalregels kunnen worden verwijderd, maar niet-geboekte regels worden opnieuw in het journaal ingevoegd nadat u het periodieke proces **Importeren uit verzameltabel** hebt uitgevoerd.
 
 Wanneer u het integratiejournaal boekt, worden een projectsubadministratie en grootboektransacties gecreëerd. Deze worden later gebruikt bij klantfacturering, opbrengstentoerekening en financiële rapportage.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

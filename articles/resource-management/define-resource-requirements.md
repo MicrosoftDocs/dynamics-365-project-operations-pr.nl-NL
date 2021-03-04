@@ -26,3 +26,5 @@ Resourcevereisten worden door de projectmanager gedefinieerd om de resources vas
 3.  Selecteer het teamlid op het tabblad **Teamlid** en selecteer vervolgens de optie **Vereiste genereren**.
 
 Zie voor informatie over het wijzigen van de resourcevereiste [Resourcevereistedetails bijwerken](define-resource-requirements.md) om de resourcevereiste te wijzigen.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

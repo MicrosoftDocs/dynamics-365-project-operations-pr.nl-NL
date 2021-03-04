@@ -112,3 +112,6 @@ Nr. Planningsschattingen kunnen momenteel alleen in uren worden uitgevoerd en ku
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kunnen eenheden en eenhedengroepen worden bewerkt, verwijderd en toegevoegd?
 Ja. Met uitzondering van eenhedengroep **Tijd** en de eenheid **Uur** kunnen alle eenheden worden verwijderd of bewerkt en kunnen er nieuwe eenheden worden toegevoegd. In PSA kunnen de eenhedengroep **Tijd** en de eenheid **Uur** niet worden verwijderd. Ze kunnen echter wel worden bijgewerkt met een vertaalde tekst voor het veld **Naam**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

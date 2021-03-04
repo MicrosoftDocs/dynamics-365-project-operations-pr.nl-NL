@@ -28,3 +28,6 @@ ms.locfileid: "4960016"
 Een *dagvergoeding* is een toelage die wordt betaald aan een werknemer die voor zijn werk reist. In Onkostenbeheer kunt u dagvergoedingsregels maken voor verschillende reissituaties. Dagtarieven kunnen worden gebaseerd op de tijd van het jaar, de reislocatie of beide. Wanneer u een dagvergoedingsregel maakt, kunt u opgeven dat een percentage van het dagvergoedingstarief wordt ingehouden als een werknemer gratis maaltijden of diensten ontvangt. U kunt ook een minimum en maximum aantal uren instellen dat het dagtarief van toepassing kan zijn op de reis van een werknemer.
 
 De berekening van een totaal dagvergoedingsbedrag wordt gebaseerd op de begin- en einddatums die u kunt instellen op de pagina **Dagvergoedingen**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

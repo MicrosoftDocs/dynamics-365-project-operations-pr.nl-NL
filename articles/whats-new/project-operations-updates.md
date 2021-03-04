@@ -77,3 +77,6 @@ Beoogde releasedatums kunnen worden gewijzigd. Voor meer informatie raadpleegt u
 | --- | --- |
 | 10.0.17 | 19 maart 2021 |
 | 10.0.18 | 16 april 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

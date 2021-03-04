@@ -58,3 +58,6 @@ Extra hulp is beschikbaar als taakgidsen. Om toegang te krijgen tot taakgidsen s
 ### <a name="videos"></a>Video's
 
 Bekijk de instructievideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

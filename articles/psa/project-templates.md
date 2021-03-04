@@ -69,3 +69,6 @@ Wanneer u meerdere projectschattingsregels kopieert, worden de prijslijsten bijg
 ### <a name="copying-a-project-team"></a>Een projectteam kopiëren
 
 Wanneer een projectteam van een projectsjabloon naar een project wordt gekopieerd, worden de algemene resources gekopieerd, samen met de vaardigheden en deskundigheden die in de sjabloon zijn gedefinieerd. Algemene resourcetoewijzingen worden ook onderhouden, net zoals in de projectsjabloon. Benoemde resources worden niet ondersteund in projectsjablonen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

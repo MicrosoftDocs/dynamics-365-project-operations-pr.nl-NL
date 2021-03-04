@@ -54,3 +54,6 @@ In dit onderwerp wordt uitgelegd hoe u standaardkosten voor arbeid en onkosten v
 22. Voer een getal in het veld **Prijzen** in. De werkelijke verkoopprijs, die wordt toegepast wanneer een werknemer transacties invoert in een onkostenjournaal, is de verkoopprijs met het hoogste detailniveau. Als bijvoorbeeld zowel een algemene als een werknemerspecifieke verkoopprijs zijn ingesteld, wordt de werknemerspecifieke verkoopprijs gebruikt.  
 23. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

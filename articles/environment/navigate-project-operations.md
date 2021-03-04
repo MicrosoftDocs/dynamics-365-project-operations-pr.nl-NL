@@ -38,3 +38,6 @@ Selecteer **Aanmelden** > **Aanmelden bij omgeving** om naar de module **Project
 
 > [!NOTE]
 > U kunt Project Operations in Common Data Service en de module **Projectbeheer en boekhouding** rechtstreeks openen door hun respectieve URL's te gebruiken. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

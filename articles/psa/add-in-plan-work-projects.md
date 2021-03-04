@@ -242,3 +242,6 @@ In de volgende tabel wordt beschreven hoe entiteitsgegevens voor projecttaakafha
 
 ### <a name="additional-resources"></a>Aanvullende bronnen
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

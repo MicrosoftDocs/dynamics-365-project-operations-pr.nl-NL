@@ -44,3 +44,6 @@ Nadat een budget- of budgetherziening is toegewezen, kunt u de toewijzingsbedrag
 10. Als de toewijzing is zoals u dat wilt, klikt u op Indienen op de pagina Projectbudget om het budget of de budgetherzieningen naar de goedkeuringsworkflow te verzenden.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

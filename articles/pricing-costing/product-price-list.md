@@ -58,3 +58,6 @@ In de entiteiten Verkoopkans, Prijsopgave en Projectcontract wordt de volgende v
 Standaard worden in het veld **Product** op de prijsopgaveregel alle actieve producten in de productprijslijst van de prijsopgave vermeld. Als een product is gedeactiveerd, of als het een conceptproduct is, wordt het product niet weergegeven, zelfs niet als het in de prijslijst staat. 
 
 Productcatalogusregels worden toegevoegd als factuurregels op de eerste factuur die voor een projectcontract wordt gemaakt. Op een conceptfactuur kunnen deze factuurregels worden verwijderd. In dat geval worden de regels op een volgende factuur weergegeven totdat ze worden gefactureerd of totdat de factuur naar de klant wordt verzonden. U kunt geen deelhoeveelheid van een productfactuurregel factureren. Wanneer de productregels uit het projectcontract worden gefactureerd, worden werkelijke waarden gemaakt. Deze werkelijke waarden zijn echter niet gekoppeld aan de gerelateerde projectentiteit. Met andere woorden: productgebaseerde projectcontractregels zijn onafhankelijk van elk projectgebaseerd gebruik. Het materiaalverbruik van projecten wordt niet bijgehouden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

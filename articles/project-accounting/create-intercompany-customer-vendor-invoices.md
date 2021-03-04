@@ -61,3 +61,6 @@ U kunt meerdere intercompany-facturen tegelijk aanmaken voor alle lenende rechts
 ## <a name="post-the-intercompany-vendor-invoice"></a>De intercompany-leveranciersfactuur boeken
 
 Een projectaccountant in de lenende rechtspersoon kan openstaande intercompany-leveranciersfacturen beoordelen wanneer de corresponderende intercompany-klantfactuur wordt geboekt. Ga in Finance in de lenende rechtspersoon naar **Leveranciers** > **Facturen** > **Leveranciersfactuur in behandeling**. Het factuurnummer in behandeling komt overeen met het factuurnummer van de intercompany-klant. Controleer of de factuur correct is en boek vervolgens de factuur. Door een intercompany-leveranciersfactuur te boeken, worden een projectsubadministratie en een grootboektransactie gemaakt die de transactiekosten in de lenende rechtspersoon weerspiegelen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

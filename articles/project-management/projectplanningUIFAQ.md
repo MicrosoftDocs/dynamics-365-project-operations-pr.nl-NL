@@ -106,3 +106,6 @@ Wanneer een of meer updates worden aangebracht in de structuur voor werkspecific
   - Project Operations-systeem
   - Projectsysteem
   - Twee keer wegschrijven in Project Operations (deze rol is vereist als u het scenario op basis van resource/ niet-voorradige artikelen van project Operations implementeert.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

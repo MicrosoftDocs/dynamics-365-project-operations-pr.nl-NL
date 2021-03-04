@@ -105,3 +105,6 @@ In Dynamics 365 worden rollups van bedragen in verschillende valuta's automatisc
 | Onkosten           | Niet-gefactureerde verkoop   | 17 juni | Stijn  | Autohuur           | 1     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Om de totale niet-gefactureerde verkoopwaarde voor het project te berekenen, kunt u een rollupveld voor het veld **Bedrag** maken voor alle gerelateerde niet-gefactureerde werkelijke verkoopwaarden. Het rollupveld is een constructie van Dynamics 365 die snelle formules voor gerelateerde records mogelijk maakt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

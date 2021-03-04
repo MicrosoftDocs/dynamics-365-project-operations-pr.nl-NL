@@ -45,3 +45,6 @@ Nadat u een sjabloon voor de werkuren hebt gemaakt, moet u deze toewijzen aan re
   
 ### <a name="see-also"></a>Zie ook  
  [Resources configureren](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

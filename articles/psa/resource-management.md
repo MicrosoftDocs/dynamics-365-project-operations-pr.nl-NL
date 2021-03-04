@@ -53,3 +53,6 @@ U kunt mensen aan uw project toewijzen met een team van algemene of benoemde res
 - [Benoemde resources boeken op basis van resourcevereisten](book-named-resource.md)
 - [Een resourceaanvraag indienen](submit-resource-request.md)
 - [Een voorgestelde projectresource in een resourceaanvraag accepteren of afwijzen](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Maak een account voor elke klant waar u voor werkt, of u nu een offerte maakt vo
   
 ### <a name="see-also"></a>Zie ook  
  [Accountmanager-handleiding](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

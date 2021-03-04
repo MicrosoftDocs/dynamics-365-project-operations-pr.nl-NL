@@ -198,3 +198,6 @@ Een gefactureerde werkelijke verkoop voor het mijlpaalbedrag voor de oorspronkel
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

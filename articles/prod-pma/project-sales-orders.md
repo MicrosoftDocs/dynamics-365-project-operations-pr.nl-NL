@@ -41,3 +41,6 @@ U kunt op twee manieren projectgebaseerde verkooporders maken:
 - Ga naar het project zelf. Selecteer in het actievenster **Beheren > Artikeltaken > Verkooporder**. De projectinformatie wordt standaard gebruikt in de verkooporder van het project. Als het projectcontract meer dan één financieringsbron heeft, moet u de financieringsbron selecteren om de klant voor de verkooporder in te stellen. Als er maar één financieringsbron voor het project is, wordt de klant automatisch ingesteld.
 - Ga naar de lijstpagina **Alle verkooporders** en maak een nieuwe verkooporder. U moet het project voor de verkooporder selecteren. Nadat het project is geselecteerd, wordt de klant gekozen uit de financieringsbron of moet u de financieringsbron selecteren als het projectcontract meerdere financieringsbronnen heeft.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

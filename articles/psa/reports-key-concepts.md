@@ -48,3 +48,6 @@ In de volgende tabel zijn de belangrijkste concepten gedefinieerd die in de app 
 | Contour                    | Taak, vereiste of toewijzingsuren, zoals die zijn opgesplitst in een dagelijkse distributie. Een taak van vijf dagen en 40 uur kan bijvoorbeeld worden uitgevoerd in acht uur per dag gedurende vijf dagen. |
 | De weergave Afstemming        | Een weergave waarin de boekingen en toewijzingen voor elk projectteamlid worden weergegeven. In deze weergave kan de projectbeheerder zoeken naar eventuele discrepanties tussen boekingen en toewijzingen en corrigerende maatregelen nemen als er een discrepantie optreedt. |
 | werkuren                 | Een entiteit die wordt gebruikt om resourcecapaciteit en werk- en niet-werkuren te identificeren. Deze entiteit wordt ook wel de resourceagenda genoemd. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

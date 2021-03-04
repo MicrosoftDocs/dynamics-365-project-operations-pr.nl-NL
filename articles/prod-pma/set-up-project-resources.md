@@ -75,3 +75,6 @@ Nadat de voorgaande taken zijn voltooid, kunt u naar behoefte de volgende taken 
 - Resourceaanvragen afhandelen.
 - Een bemande resource aanvragen vanuit een WBS.
 - Resources voor een project zonder dat u een bemande resource hoeft aan te vragen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

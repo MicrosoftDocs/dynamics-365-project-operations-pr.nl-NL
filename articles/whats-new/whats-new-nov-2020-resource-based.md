@@ -68,3 +68,6 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 
 ### <a name="regulatory-updates"></a>Wijzigingen in regelgeving
 Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

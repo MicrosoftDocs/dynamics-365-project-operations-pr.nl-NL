@@ -49,3 +49,6 @@ Als u een projectplanning wilt maken, maakt u een sjabloon voor een projectkalen
 8. Voer in het dialoogvenster **Werksjabloon** een naam voor de werksjabloon in en selecteer **Toepassen**. 
 
 U kunt nu de werksjabloon aan een sjabloon voor een projectkalender koppelen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

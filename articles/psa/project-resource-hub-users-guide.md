@@ -105,3 +105,6 @@ Voer in ieder uw - uren op in weekblad-of de frequentie wordt aangevraagd door d
  [Overzicht van Project Service](../psa/overview.md)   
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

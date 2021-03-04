@@ -257,3 +257,6 @@ De volgende afbeelding is nadat aangepaste prijslijsten zijn gemaakt.
 
 > [!NOTE]
 > Er kan een korte vertraging optreden tussen het klikken u op **Aangepaste prijzen maken** en het moment waarop de aangepaste prijslijst wordt gemaakt. We raden u aan het raster te vernieuwen in plaats van meerdere keren te klikken. Er is een aangepaste prijslijst gemaakt als de naam van de bijbehorende prijslijst de naam van de prijsopgave of de naam van het projectcontract bevat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Wanneer u resterende budgetbedragen verwerkt, kunt u transacties in het grootboe
 5. Selecteer voor elk project dat u wilt verwerken de optie aan het begin van de regel voor het project. 
 6. Selecteer **Verwerken** om de resterende budgetbedragen voor de geselecteerde projecten over te boeken naar het geselecteerde fiscaal jaar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

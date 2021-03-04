@@ -26,3 +26,6 @@ Voor informatie over de fixes in deze update logt u in op Lifecycle Services (LC
 ## <a name="regulatory-updates"></a>Wijzigingen in regelgeving
 
 Voor informatie over updates in regelgeving voor Dynamics 365 Finance and Operations-apps leest u [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

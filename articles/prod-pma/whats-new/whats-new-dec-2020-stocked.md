@@ -142,3 +142,6 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 ## <a name="regulatory-updates"></a>Wijzigingen in regelgeving
 
 Ga voor informatie over updates in regelgeving voor Dynamics 365 Finance naar [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij Lifecycle Services (LCS) en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

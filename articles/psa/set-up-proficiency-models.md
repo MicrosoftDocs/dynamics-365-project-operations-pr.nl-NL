@@ -53,3 +53,6 @@ Nu u de vaardigheden voor de projecten van uw klanten hebt toegevoegd, hebt u ee
   
 ### <a name="see-also"></a>Zie ook  
  [Resources configureren](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

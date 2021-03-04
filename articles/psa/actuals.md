@@ -330,3 +330,6 @@ In PSA worden de financiële transacties vastgelegd die tijdens een project plaa
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

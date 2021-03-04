@@ -62,3 +62,6 @@ Android zal compatibel zijn met platformupdate 16, zodra deze beschikbaar komt.
 13. Optioneel: voer extra urenstaatregels in.
 
 14. Wanneer u klaar bent met het invoeren van de urenstaatregels, selecteert u de actie **Werkstroom** \> **Indienen** om uw urenstaat in te dienen bij het werkstroomgoedkeuringsproces.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

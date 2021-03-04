@@ -87,3 +87,6 @@ Ga als volgt te werk wanneer u een zacht geboekte teamlidresource in een hard ge
 2. Wanneer het planbord wordt geopend, vouwt u de resource uit om de boekingen weer te geven. De boeking wordt gemarkeerd als Zacht.
 3. Klik met de rechtermuisknop op de boeking en selecteer onder Status wijzigen de optie Hard boeken en vervolgens Hard. De boekingsstatus is nu Hard.
 4. Wanneer u het planbord sluit, ziet u dat de uren voor de resource van Zacht in Hard zijn gewijzigd in het raster van het teamlid. U kunt de resource nu aan taken toewijzen (als de hard geboekte uren en de inspanningsuren van de taak voor toewijzing overeenkomen). Als u de stappen in procedure 3 hierboven hebt uitgevoerd en de status van de zacht geboekte boekbare resource in hard wijzigt, wordt het algemene teamlid verwijderd uit het team.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

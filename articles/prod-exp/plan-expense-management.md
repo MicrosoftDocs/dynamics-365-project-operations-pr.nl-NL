@@ -160,3 +160,6 @@ Door beleid voor onkostendeclaraties op te stellen, kunt u uw organisatie helpen
 - Wanneer verloopt het beleid?
 - Wat is de beleidsregel?
 - Wat is het resultaat van de beleidsregel?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Het voorschot in Project Operations is pas beschikbaar voor gebruik als dit aan 
 | --- | --- | --- |
 | Beschikbaar bedrag | Het bedrag dat beschikbaar is om te worden gebruikt op de voorschot- of vooruitbetalingsrecord. | Totdat het voorschot of de vooruitbetaling is gefactureerd, kan het niet worden gebruikt, wat betekent dat het beschikbare bedrag nul zal zijn. |
 | Gebruikt bedrag | Het bedrag dat al is gebruikt voor het voorschot of de vooruitbetaling. | Een voorschot of vooruitbetaling kan gedeeltelijk op een factuur worden afgestemd met de werkelijke kosten, waarbij een deel wordt gemarkeerd als al gebruikt of verbruikt. De rest van het voorschot of de vooruitbetaling is beschikbaar om op een toekomstige factuur af te stemmen met de werkelijke kosten. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Voor een projectcontract wordt de volgende prioriteitsvolgorde gebruikt om autom
 Wanneer een projectprijslijst standaard wordt ingevoerd, controleert het systeem of de valuta overeenkomt met de valuta van de klant en of de standaardprijslijsten die zijn ingevoerd, de context **Verkoop** hebben.
 
 U kunt meerdere projectprijslijsten koppelen aan de entiteiten Klant, Verkoopkans, Prijsopgave en Projectcontract. Deze mogelijkheid ondersteunt datumspecifieke standaardprijzen voor een langlopend projectcontract, waarbij u mogelijk meer dan één prijslijst nodig hebt voor prijsupdates die worden veroorzaakt door inflatie. Als de prijslijsten die u aan de entiteit Klant, Verkoopkans, Prijsopgave of Projectcontract koppelt echter overlappende geldigheidsdatums hebben, zijn de standaardprijzen mogelijk onjuist. Daarom moet u ervoor zorgen dat projectprijslijsten met overlappende geldigheidsdatums niet zijn gekoppeld aan deze entiteiten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

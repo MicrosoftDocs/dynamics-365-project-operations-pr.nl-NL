@@ -124,3 +124,6 @@ De volgende afbeelding toont een voorbeeld van de toewijzing van sjabloontaken i
 > De toewijzing toont de veldinformatie die wordt gesynchroniseerd van Project Service Automation naar Finance.
 
 [![Sjabloontoewijzing van Project Service Automation naar Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

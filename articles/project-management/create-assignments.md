@@ -42,3 +42,6 @@ U kunt het zoekvak in de **resourcekiezer** gebruiken om alle boekbare resources
 1. Navigeer vanuit het taakraster, het planbord of de tijdlijn naar de cel **Toegewezen aan**.
 2. Begin met het typen van een naam in het zoekvak. De zoekresultaten voor de naam worden weergegeven in de **resourceselectie** onder **Overige resources**.
 3. Selecteer de resource die u aan de taak wilt toewijzen of selecteer de naam van de resource onder **Andere teamresources**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Wanneer u met de entiteit **Werkelijke waarde** werkt, is het belangrijk dat u b
 In de entiteitsrecords **Transactieoorsprong** wordt de oorsprong van de record **Werkelijke waarde** vastgelegd en in de record **Transactieverbinding** de gerelateerde records voor de record **Werkelijke waarde**. Bovendien bevat de record **Werkelijke waarde** verwijzingen naar het project, het projectcontract (de order), de boekbare resource en de klant.
 
 ![Diagram met transactieverbinding, oorsprong en werkelijke relaties](media/PS-Reporting-image6.png "Diagram met transactieverbinding, oorsprong en werkelijke relaties")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ U kunt ook op de koppeling **Resourcevereiste** in het teamraster klikken om de 
 
 ![Resourcevereiste](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Als u projectprognoses gebruikt, kunt u modellen identificeren als submodellen. 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

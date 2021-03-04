@@ -47,3 +47,6 @@ De projecten van uw klant behoeven ongetwijfeld een aantal verschillende vaardig
   
 ### <a name="see-also"></a>Zie ook  
  [Resources configureren](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

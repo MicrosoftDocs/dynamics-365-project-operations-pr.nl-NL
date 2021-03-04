@@ -44,3 +44,6 @@ Deze taakgids laat zien hoe u een transactie op een project aanpast. U kunt proj
 13. Markeer de geselecteerde rij in de lijst. 
 14. Voer een getal in het veld Kostprijs in. 
 15. Klik op Boeken. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

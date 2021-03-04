@@ -52,3 +52,6 @@ U kunt elk van deze prijslijsten gebruiken en de prijzen voor arbeid (rolprijs) 
 Bij een projectcontract wordt de projectprijs altijd standaard ingesteld als een aangepaste prijslijst met de naam van het contract en de aangemaakte datum-tijdstempel toegevoegd aan de naam. Dit geldt ongeacht of het contract is gemaakt toen de offerte werd gewonnen of dat het contract helemaal opnieuw is gemaakt. Indien nodig kunt u deze koppeling met de aangepaste prijslijst verwijderen en in plaats daarvan een standaardprijslijst aan het projectcontract koppelen.
 
 Wanneer u een standaardprijslijst koppelt aan de projectprijslijsten in de offerte of het contract, hebben eventuele wijzigingen in de prijzen in de prijslijst invloed op alle offertes en contracten die de prijslijst gebruiken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

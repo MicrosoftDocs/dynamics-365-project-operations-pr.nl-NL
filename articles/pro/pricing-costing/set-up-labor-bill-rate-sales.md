@@ -55,3 +55,6 @@ Voor een ontwikkelaar van Fabrikam India die aan een Amerikaans project werkt, w
     | Developer | Fabrikam US | $150 |
 
 3. Voeg de verkoopprijslijst **Fabrikam Amerikaanse factureringstarieven** toe aan de projectprijslijst van het projectcontract of aan een bepaald account.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
