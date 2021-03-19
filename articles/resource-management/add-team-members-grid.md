@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121527"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280077"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Teamleden toevoegen vanuit het raster Teamlid
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Dynamics 365 Project Operations bevat een dashboard voor resourcebeheer dat een visueel overzicht biedt van de vraag naar resources en het aantal bestede uren van resources in de hele organisatie. U kunt de grafieken op dit dashboard gebruiken om de volgende informatie te visualiseren:
+Dynamics 365 Project Operations bevat een dashboard voor resourcebeheerders dat een visueel overzicht biedt van de vraag naar resources en het aantal bestede uren van resources in de hele organisatie. U kunt de grafieken op dit dashboard gebruiken om de volgende informatie te visualiseren:
 
 - **Resourcevraag**: in de grafiek **Actieve resourceaanvragen** worden de resourcesaanvragen weergegeven die zijn ingediend. De resources worden gecombineerd per rol of project.
 - **Niet-ingediende resourcevraag**: in de grafiek **Niet-toegewezen resourcevraag** worden alle resourcevereisten weergegeven waarvoor geen aanvraag is ingediend. Zo krijgen resourcemanagers een beeld van de vraag die nog niet vastligt en waarvoor mogelijk een resourceaanvraag zal worden ingediend.

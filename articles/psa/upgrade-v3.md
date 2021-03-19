@@ -1,5 +1,5 @@
 ---
-title: Overwegingen voor de upgrade van Microsoft Dynamics 365 Project Service Automation, versie 2.x of 1.x, naar versie 3
+title: Overwegingen bij upgraden - Microsoft Dynamics 365 Project Service Automation versie 2.x of 1.x naar versie 3
 description: Dit onderwerp bevat informatie over de overwegingen voor het upgraden van Project Service Automation versie 2.x of 1.x naar versie 3.
 manager: kfend
 ms.prod: ''
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144150"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281652"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Overwegingen voor de upgrade van PSA-versie 2.x of 1.x naar versie 3
 

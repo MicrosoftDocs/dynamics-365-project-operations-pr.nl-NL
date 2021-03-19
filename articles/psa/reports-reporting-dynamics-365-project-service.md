@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147692"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283272"
 ---
 # <a name="reporting-home-page"></a>Startpagina Rapportage
 
@@ -31,7 +31,7 @@ ms.locfileid: "5147692"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Met Microsoft Dynamics 365 Project Service Automation kunnen op projecten gebaseerde organisaties de bedrijfsactiviteiten efficiënt beheren. Bij elk project moeten teamleden de verkoopkansen beheren, prijsopgaves beheren en het werk plannen, resources aan de projecten toewijzen, het werk beheren aan de hand van het plan, de facturering voor het werk verzorgen en vervolgens het werk uitvoeren om het project te voltooien. De mogelijkheid om te rapporteren over activiteiten is van essentieel belang voor het bepalen van de status van de organisatie en het nemen van eventuele corrigerende maatregelen die zijn vereist. PSA gebruikt de rapportagemethoden en -technologieën van Microsoft Dynamics 365 voor alle rapportages. Meer informatie over de rapportagemogelijkheden vindt u in [Handleiding voor het schrijven van rapporten voor Dynamics 365 Customer Engagement (on-premises), versie 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Met Microsoft Microsoft Dynamics 365 Project Service Automation kunnen op projecten gebaseerde organisaties hun bedrijfsactiviteiten efficiënt beheren. Bij elk project moeten teamleden de verkoopkansen beheren, prijsopgaves beheren en het werk plannen, resources aan de projecten toewijzen, het werk beheren aan de hand van het plan, de facturering voor het werk verzorgen en vervolgens het werk uitvoeren om het project te voltooien. De mogelijkheid om te rapporteren over activiteiten is van essentieel belang voor het bepalen van de status van de organisatie en het nemen van eventuele corrigerende maatregelen die zijn vereist. PSA gebruikt de rapportagemethoden en -technologieën van Microsoft Dynamics 365 voor alle rapportages. Meer informatie over de rapportagemogelijkheden vindt u in [Handleiding voor het schrijven van rapporten voor Dynamics 365 Customer Engagement (on-premises), versie 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Wizard Rapport
 

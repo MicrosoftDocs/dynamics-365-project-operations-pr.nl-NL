@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147107"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280662"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, updaterelease 20, v3
 
@@ -42,7 +42,7 @@ De volgende problemen zijn opgelost:
 
 - Het importeren van projectteamleden met een toewijzingsmethode waarvoor uren nodig zijn, resulteert in een onduidelijk foutbericht wanneer de opgegeven uren nul zijn.
 - Gebruikers ontvangen een onjuiste fout wanneer het maximale aantal tekens is ingevoerd in het veld **Omschrijving** voor een projecttaak.
-- De pagina **Microsoft Dynamics 365 Project Service Automation-invoegtoepassing downloaden** verwijst naar de Engelse downloadpagina wanneer de taalinstellingen van de gebruiker zijn ingesteld op Japans.
+- De pagina **Invoegtoepassing Microsoft Dynamics 365 Project Service Automation downloaden** verwijst door naar de Engelse downloadpagina wanneer de taalinstellingen van de gebruiker zijn ingesteld op Japans.
 - Als er een serverfout optreedt, blijft het synchronisatielabel op het tabblad **Schema** van het formulier **Projecten** soms bestaan.
 - Bij het wijzigen van een taak worden redundante taakupdates naar de server gestuurd.
 
