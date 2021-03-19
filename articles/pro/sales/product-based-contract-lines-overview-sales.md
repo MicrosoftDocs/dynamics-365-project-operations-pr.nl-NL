@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177865"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272652"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Overzicht van productgebaseerde contractregels - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-U kunt op product gebaseerde contractregels maken in Dynamics 365 Project Operations. Productgebaseerde contractregels kunnen handmatig gemaakte regels zijn of items uit de productcatalogus.
+U kunt productgebaseerde contractregels maken in Dynamics 365 Project Operations. Productgebaseerde contractregels kunnen handmatig gemaakte regels zijn of items uit de productcatalogus.
 
 ## <a name="product-catalog"></a>Productcatalogus
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d0d8309fcb4300e33ed2f5933259f99ad7e0d6a
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180411"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273531"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Een schatting maken voor een projectgebaseerde contractregel - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-In Dynamics 365 Project Operations heeft een projectgebaseerde contractregel details die helpen bij het schatten van de kosten en potentiële inkomsten van het werk dat nodig is om de contractregel te leveren.
+In Dynamics 365 Project Operations bevat een projectgebaseerde contractregel details die helpen bij het schatten van de kosten en potentiële inkomsten van het werk dat nodig is om de contractregel te leveren.
 
 Om een schatting te maken voor een projectgebaseerde contractregel gaat u naar het tabblad **Contractregeldetails** op de projectgebaseerde **Contractregel**.  Er zijn twee manieren om een schatting te maken op een projectgebaseerde contractregel:
 

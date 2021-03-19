@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175975"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273012"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Projectprijslijsten in projectprijsopgaven beheren - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Projectprijsopgaven zijn ontworpen om verkoopprijslijsten met meerdere ingangsdatums te ondersteunen. Met Dynamics 365 Project Operations wordt een nieuwe bijbehorende entiteit met de naam **Prijslijsten voor projecten** toegevoegd. Deze entiteit heeft een 1-op-veel-relatie met een projectprijsopgave.
+Projectprijsopgaven zijn ontworpen om verkoopprijslijsten met meerdere ingangsdatums te ondersteunen. In Dynamics 365 Project Operations is een nieuwe gekoppelde entiteit genaamd **Prijslijsten voor projecten** toegevoegd. Deze entiteit heeft een 1-op-veel-relatie met een projectprijsopgave.
 
 Projectprijslijsten worden gebruikt om prijzen op te geven voor tijd- en onkostentransacties voor een project. Als een offerte een of meer projectprijslijsten heeft, worden deze prijslijsten gebruikt om tijd- en onkostenramingen en werkelijke waarden te bepalen voor projecten die aan de prijsopgave zijn gekoppeld via de prijsopgaveregel.
 

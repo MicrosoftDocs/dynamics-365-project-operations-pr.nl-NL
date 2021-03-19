@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180941"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272427"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Overzichtsgegevens voor een projectprijsopgave - lite
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
 In dit artikel wordt uitgelegd welke informatie van toepassing is op een projectprijsopgave. Dit omvat de instellingen die van invloed zijn op alle prijsopgaveregels en informatie over de prijsopgave die is samengevat voor alle regelitems om de KPI's van de projectprijsopgave te sturen.
 
-De volgende tabel bevat een overzicht met de informatievelden voor projectprijsopgaven die uniek zijn voor Dynamics 365 Project Operations of die belangrijke veranderingen bevatten ten opzichte van Dynamics 365 Sales.
+De volgende tabel bevat de samenvattende informatievelden voor een projectofferte die uniek zijn voor Dynamics 365 Project Operations of enkele belangrijke gedragsveranderingen hebben voor prijsopgaven van Dynamics 365 Sales.
 
 | **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |

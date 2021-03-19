@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181026"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272697"
 ---
 # <a name="opportunity-header---lite"></a>Verkoopkanskoptekst - lite
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
 De header van de verkoopkans bevat de algemene informatie over een projectgebaseerde deal die van toepassing is op alle regels van de projectgebaseerde verkoopkans.
 
-Projectgebaseerde verkoopkansen in Dynamics 365 Project Operations zijn uitbreidingen van verkoopkansen in Dynamics 365 Sales. Deze uitbreidingen bieden aanvullende functionaliteit die specifiek is en vereist voor projectgebaseerde verkoopkansen. Deze extensies kunnen nieuwe velden en lintacties bevatten die beschikbaar zijn in projectgebaseerde verkoopkansen. Mogelijk merkt u dat sommige velden, functionaliteit en standaardlogica die beschikbaar zijn in Sales, niet beschikbaar zijn in Project Operations.
+Projectmatige verkoopkansen in Dynamics 365 Project Operations zijn uitbreidingen van verkoopkansen in Dynamics 365 Sales. Deze uitbreidingen bieden aanvullende functionaliteit die specifiek is en vereist voor projectgebaseerde verkoopkansen. Deze extensies kunnen nieuwe velden en lintacties bevatten die beschikbaar zijn in projectgebaseerde verkoopkansen. Mogelijk merkt u dat sommige velden, functionaliteit en standaardlogica die beschikbaar zijn in Sales, niet beschikbaar zijn in Project Operations.
 
 De volgende tabel bevat de velden in een projectgebaseerde verkoopkans die uniek zijn voor Project Operations of die een aantal belangrijke gedragsveranderingen vertonen ten opzichte van verkoopkansen in Sales.
 

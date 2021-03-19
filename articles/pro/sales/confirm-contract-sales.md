@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128277"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273822"
 ---
 # <a name="confirm-a-project-contract"></a>Een projectcontract bevestigen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Een projectcontract in Dynamics 365 Project Operations kan actief zijn met een reden van **Bevestigd**, of gesloten met een reden van **Verloren**. Wanneer u een projectcontract bevestigt, wordt de status bijgewerkt van **Concept** naar **Actief** en is de reden van de status **Bevestigd**. Een actief of gesloten contract kan niet worden bewerkt of heropend. 
+Een projectcontract in Dynamics 365 Project Operations kan actief zijn met een reden **Bevestigd** of afgesloten met een reden **Verloren**. Wanneer u een projectcontract bevestigt, wordt de status bijgewerkt van **Concept** naar **Actief** en is de reden van de status **Bevestigd**. Een actief of gesloten contract kan niet worden bewerkt of heropend. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Financiële gevolgen van het bevestigen van een projectcontract
 
@@ -34,7 +34,7 @@ Wanneer u een projectcontract als verloren sluit, wordt de contractstatus bijgew
 Als het projectcontract dat als verloren is gesloten, verwijst naar een project op de bijbehorende regels, wordt dat project ook gemarkeerd als gesloten. Alle resourceboekingen worden vanaf die dag geannuleerd. Eventuele niet-gefactureerde werkelijke verkoopcijfers op het projectcontract die nog niet op een factuur staan, worden teruggedraaid.
 
 > [!NOTE]
-> In Dynamics 365 Project Operations heeft het sluiten van een projectcontract als verloren geen invloed op die status van de gekoppelde verkoopkans. De verkoopkans blijft open en moet handmatig worden gesloten.
+> In Dynamics 365 Project Operations heeft het als verloren afsluiten van een projectcontract geen invloed op die status van de bijbehorende verkoopkans. De verkoopkans blijft open en moet handmatig worden gesloten.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

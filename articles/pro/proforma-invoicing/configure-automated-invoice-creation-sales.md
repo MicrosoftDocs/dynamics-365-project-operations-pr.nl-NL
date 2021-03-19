@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176560"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274317"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Automatisch maken van facturen configureren - lite
  
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-U kunt het automatisch maken van facturen in Dynamics 365 Project Operations configureren. Er wordt een concept van de pro-formafactuur gemaakt op basis van het factuurschema voor elk projectcontract en elke contractregel. Factuurschema´s worden op contractregelniveau geconfigureerd. Elke regel in een contract kan een afzonderlijk factuurschema hebben of hetzelfde factuurschema kan op elke regel van het contract worden opgenomen.
+U kunt het automatisch maken van facturen configureren in Dynamics 365 Project Operations. Er wordt een concept van de pro-formafactuur gemaakt op basis van het factuurschema voor elk projectcontract en elke contractregel. Factuurschema´s worden op contractregelniveau geconfigureerd. Elke regel in een contract kan een afzonderlijk factuurschema hebben of hetzelfde factuurschema kan op elke regel van het contract worden opgenomen.
 
 Als u een factuur maakt, wordt altijd ten minste één factuur per projectcontract gemaakt. In sommige gevallen kunnen er meerdere facturen worden gemaakt.
 

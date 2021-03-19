@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130932"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275577"
 ---
 # <a name="default-price-lists"></a>Standaardprijslijsten
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 ## <a name="sales-price-lists"></a>Verkoopprijslijsten
 
-Elke projectprijsopgave en elk projectcontract in Dynamics 365 Project Operations bevat een standaardverkoopprijslijst. 
+Elke projectofferte en elk contract in Dynamics 365 Project Operations bevat een standaard verkoopprijslijst. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Prijslijsten standaard instellen op projectprijsopgaven
 Het volgende proces wordt voltooid om te bepalen welke prijslijst standaard moet worden gebruikt voor een projectprijsopgave:

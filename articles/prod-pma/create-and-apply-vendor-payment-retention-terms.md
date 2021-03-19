@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074701"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270942"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Inhoudingstermijnen voor leveranciersbetalingen maken en toepassen
 
@@ -41,9 +41,9 @@ Gebruik de volgende stappen om inhoudingstermijnen voor leveranciersbetalingen i
 2. Selecteer **Nieuw** om een nieuwe inhoudingstermijn voor leveranciers toe te voegen. De waarde **Regel-ID** voor de nieuwe termijn wordt automatisch ingevoerd. 
 3. Voer een korte beschrijving in het veld **Omschrijving** in en selecteer op het sneltabblad **Termijnen** **Regel toevoegen** om termijnwaarden in te voeren voor het volgende:
 
-   - **Percentage geleverde eenheden** : voer een voltooiingspercentage voor de termijn in. Bedragen worden automatisch ingehouden op leveranciersfacturen totdat de projectfase van voltooiing gelijk is aan het opgegeven percentage. Als u bijvoorbeeld 50,00 invoert, worden bedragen ingehouden totdat het project voor 50 procent is voltooid.
-   - **Percentage om in te houden** : voer een percentage van het leveranciersfactuurbedrag in dat moet worden ingehouden. Als u bijvoorbeeld 10,00 invoert, wordt 10 procent van het bedrag op een leveranciersfactuur ingehouden totdat het project het voltooiingspercentage bereikt dat is ingesteld in het veld **Percentage geleverde eenheden**.
-   - **Percentage om vrij te geven** : selecteer **Regel toevoegen** om een percentage in te voeren van eerder ingehouden bedragen die moeten worden vrijgegeven voor het geselecteerde voltooiingsniveau van het project.
+   - **Percentage geleverde eenheden**: voer een voltooiingspercentage voor de termijn in. Bedragen worden automatisch ingehouden op leveranciersfacturen totdat de projectfase van voltooiing gelijk is aan het opgegeven percentage. Als u bijvoorbeeld 50,00 invoert, worden bedragen ingehouden totdat het project voor 50 procent is voltooid.
+   - **Percentage om in te houden**: voer een percentage van het leveranciersfactuurbedrag in dat moet worden ingehouden. Als u bijvoorbeeld 10,00 invoert, wordt 10 procent van het bedrag op een leveranciersfactuur ingehouden totdat het project het voltooiingspercentage bereikt dat is ingesteld in het veld **Percentage geleverde eenheden**.
+   - **Percentage om vrij te geven**: selecteer **Regel toevoegen** om een percentage in te voeren van eerder ingehouden bedragen die moeten worden vrijgegeven voor het geselecteerde voltooiingsniveau van het project.
 
 > [!NOTE]
 > Als u meer dan één mijlpaal hebt voor verschillende voltooiingsniveaus van een project, voert u voor elke inhoudingsregel een afzonderlijke inhoudingstermijnregel voor leveranciers in. Met elke regel kan een ander inhoudingspercentage en een ander vrijgavepercentage worden opgegeven voor elk toegewezen voltooiingsniveau van het project.
@@ -56,9 +56,9 @@ Nadat u de inhoudingstermijnen voor een leverancier hebt ingesteld, kunt u de te
 2. Selecteer **Regel toevoegen** op het sneltabblad **Leveranciersovereenkomsten**.
 3. Selecteer in het veld **Rekeningcode** een van de volgende opties: 
 
-   - **Tabel** : de inhoudingstermijnen voor leveranciers zijn van toepassing op één leverancier.
-   - **Groep** : de inhoudingstermijnen voor leveranciers zijn van toepassing op alle leveranciers in een leveranciersgroep.
-   - **Alle** : de inhoudingstermijnen voor leveranciers zijn van toepassing op alle leveranciers.
+   - **Tabel**: de inhoudingstermijnen voor leveranciers zijn van toepassing op één leverancier.
+   - **Groep**: de inhoudingstermijnen voor leveranciers zijn van toepassing op alle leveranciers in een leveranciersgroep.
+   - **Alle**: de inhoudingstermijnen voor leveranciers zijn van toepassing op alle leveranciers.
 
 4. Selecteer in het veld **Leverancier/Leveranciersgroep** de leverancier of leveranciersgroep waarop de inhoudingstermijnen voor leveranciers van toepassing zijn. Als u **Alle** hebt gekozen in de vorige stap, is dit veld niet beschikbaar.
 5. Selecteer in het veld **Inhoudingstermijnen voor leveranciers** de inhoudingstermijnen die u in de vorige procedure hebt gemaakt.

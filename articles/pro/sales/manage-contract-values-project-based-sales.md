@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7ec8973df1def3f707603019cdd45147423c1ae3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 3b0ff564c2cf9bc5681e14efbfa7983d6959c155
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180636"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273282"
 ---
 # <a name="work-with-projectbased-contract-lines---lite"></a>Werken met projectgebaseerde contractregels - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Projectgebaseerde contractregels in Dynamics 365 Project Operations zijn ontworpen om de schattings- en factureringsovereenkomsten te bevatten voor specifieke componenten van projectwerk aan een opdracht. De structuur van een projectgebaseerde contractregel wordt voor projectschattingen en factureringsscenario's uitgebreid met de volgende concepten:
+Projectgebaseerde contractregels in Dynamics 365 Project Operations zijn ontworpen om de schattings- en factureringsovereenkomsten te bevatten voor specifieke onderdelen van projectwerk bij een opdracht. De structuur van een projectgebaseerde contractregel wordt voor projectschattingen en factureringsscenario's uitgebreid met de volgende concepten:
 
 - Factureringsmethode
 - Project- en taaktoewijzing

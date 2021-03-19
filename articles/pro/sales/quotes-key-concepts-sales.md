@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178000"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272382"
 ---
 # <a name="quotes---key-concepts---lite"></a>Belangrijke concepten voor prijsopgaven - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
 
-Dit zijn belangrijke concepten waarvan u op de hoogte moet zijn voordat u projectprijsopgaven gaat gebruiken in Dynamics 365 Project Operations:
+Hieronder volgen belangrijke concepten waarvan u op de hoogte moet zijn voordat u projectprijsopgaven gaat gebruiken in Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Contracterende eenheid
 

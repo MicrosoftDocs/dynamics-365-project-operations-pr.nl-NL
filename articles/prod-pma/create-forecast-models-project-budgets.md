@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a3b9d3c154a85b50536a67ae0eb45d9b4f25f15
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074700"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271032"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Prognosemodellen voor projectbudgetten maken 
 
@@ -42,8 +42,8 @@ In dit onderwerp wordt beschreven hoe u een prognosemodel maakt voor resterende 
 6. Selecteer in het veld **Budgettype** een van de volgende modeltypen in:
 
    - **Oorspronkelijk budget** : gebruik de oorspronkelijke budgetbedragen die zijn vastgelegd toen het oorspronkelijke budget werd gemaakt en goedgekeurd.
-   - **Resterend budget** : gebruik de resterende budgetbedragen tijdens de looptijd van het project. De saldi in dit prognosemodel worden verminderd met werkelijke transacties en verhoogd of verlaagd met budgetherzieningen.
-   - **Overbrengen** : gebruik de overdrachtsbudgetbedragen voor het project. Overbrengen is een optioneel proces dat kan worden uitgevoerd om ongebruikte budgetbedragen van het ene boekjaar naar het andere over te brengen.
+   - **Resterend budget**: gebruik de resterende budgetbedragen tijdens de looptijd van het project. De saldi in dit prognosemodel worden verminderd met werkelijke transacties en verhoogd of verlaagd met budgetherzieningen.
+   - **Overbrengen**: gebruik de overdrachtsbudgetbedragen voor het project. Overbrengen is een optioneel proces dat kan worden uitgevoerd om ongebruikte budgetbedragen van het ene boekjaar naar het andere over te brengen.
 
 7. Stel indien nodig de volgende opties in:
 

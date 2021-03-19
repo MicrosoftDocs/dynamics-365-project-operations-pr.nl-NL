@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 605bf2a578528117a6ef70614a8e5ff5a3fc300c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180591"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274767"
 ---
 # <a name="set-up-labor-cost-rates"></a>Tarieven voor loonkosten instellen
 
@@ -40,7 +40,7 @@ De volgende tabel bevat enkele van de velden die belangrijk zijn bij het aanmake
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Prijzen verrekenen en kosten voor resources buiten uw divisie of rechtspersoon
 
-In projectgebaseerde bedrijven is het gebruikelijk om werknemers van verschillende rechtspersoon of divisies voor projecten in te zetten. Een project kan worden uitgevoerd door één rechtspersoon, maar de werknemers of consultants die aan het project werken, kunnen afkomstig zijn uit dezelfde rechtspersoon of uit een andere, of er kan een combinatie van beide zijn. In Dynamics 365 Project Operations is de rechtspersoon die eigenaar is van de levering van het project het **Bedrijf dat eigenaar is** en de divisie die eigenaar is van de levering is de **Contracterende eenheid**. Andere rechtspersonen die resources leveren zijn de **Resourcebedrijven** en divisies die resources leveren zijn de **Resource-eenheden**. In de meeste landen zijn bedrijven verplicht ervoor te zorgen dat de rechtspersoon of divisie die de resources levert, de kosten van de resources in rekening brengen bij het bedrijf dat eigenaar is en de contracterende eenheid.
+In projectgebaseerde bedrijven is het gebruikelijk om werknemers van verschillende rechtspersoon of divisies voor projecten in te zetten. Een project kan worden uitgevoerd door één rechtspersoon, maar de werknemers of consultants die aan het project werken, kunnen afkomstig zijn uit dezelfde rechtspersoon of uit een andere, of er kan een combinatie van beide zijn. In Dynamics 365 Project Operations is de juridische entiteit die eigenaar is van de oplevering van het project het **Bedrijf dat eigenaar is** en de divisie die eigenaar is van de levering is de **Contracterende eenheid**. Andere rechtspersonen die resources leveren zijn de **Resourcebedrijven** en divisies die resources leveren zijn de **Resource-eenheden**. In de meeste landen zijn bedrijven verplicht ervoor te zorgen dat de rechtspersoon of divisie die de resources levert, de kosten van de resources in rekening brengen bij het bedrijf dat eigenaar is en de contracterende eenheid.
 
 De Fabrikam-onderneming moet er bijvoorbeeld voor zorgen dat Fabrikam India-Robotics heeft onderhandeld over een kostentariefkaart met Fabrikam US-Robotics of Fabrikam UK-Robotics.
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074618"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270987"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementeer aangepaste velden voor de mobiele Microsoft Dynamics 365 Project Timesheet-app op iOS en Android
 
@@ -61,11 +61,11 @@ De eigenschap **FieldBaseType** voor het object **TsTimesheetCustom** bepaalt he
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Als de eigenschap **stringOptions** niet is opgegeven voor het object **TSTimesheetCustomField** , wordt een vrij tekstveld aan de gebruiker verstrekt.
+- Als de eigenschap **stringOptions** niet is opgegeven voor het object **TSTimesheetCustomField**, wordt een vrij tekstveld aan de gebruiker verstrekt.
 
     De eigenschap **stringLength** kan worden gebruikt om de maximale tekenreekslengte in te stellen die gebruikers kunnen invoeren.
 
-- Als de eigenschap **stringOptions** wordt verstrekt voor het object **TSTimesheetCustomField** , zijn die lijstelementen de enige waarden die gebruikers kunnen selecteren met behulp van optieknoppen (keuzerondjes).
+- Als de eigenschap **stringOptions** wordt verstrekt voor het object **TSTimesheetCustomField**, zijn die lijstelementen de enige waarden die gebruikers kunnen selecteren met behulp van optieknoppen (keuzerondjes).
 
     In dit geval kan het tekenreeksveld fungeren als een opsommingswaarde voor gebruikersinvoer. Als u de waarde in de database wilt opslaan als een enum, wijst u de tekenreekswaarde handmatig opnieuw toe aan de enum-waarde voordat u opslaat in de database met behulp van een opdrachtenreeks (zie de sectie "Opdrachtenreeks gebruiken voor de klasse TSTimesheetEntryService om een urenstaatvermelding uit de app opnieuw op te slaan in de database" verderop in dit onderwerp voor een voorbeeld).
 
@@ -125,31 +125,31 @@ Deze eigenschap bepaalt de volgorde waarin de aangepaste velden in de app worden
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Voor velden van het type **Boolean** , geeft deze eigenschap de booleaanse waarde van het veld door tussen de server en de app.
+Voor velden van het type **Boolean**, geeft deze eigenschap de booleaanse waarde van het veld door tussen de server en de app.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Voor velden van het type **GUID** , geeft deze eigenschap de GUID-waarde (Globally Unique Identifier) van het veld door tussen de server en de app.
+Voor velden van het type **GUID**, geeft deze eigenschap de GUID-waarde (Globally Unique Identifier) van het veld door tussen de server en de app.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Voor velden van het type **Int64** , geeft deze eigenschap de int64-waarde van het veld door tussen de server en de app.
+Voor velden van het type **Int64**, geeft deze eigenschap de int64-waarde van het veld door tussen de server en de app.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Voor velden van het type **Int** , geeft deze eigenschap de int-waarde van het veld door tussen de server en de app.
+Voor velden van het type **Int**, geeft deze eigenschap de int-waarde van het veld door tussen de server en de app.
 
 ### <a name="realvalue-real"></a>realValue (real)
 
-Voor velden van het type **Real** , geeft deze eigenschap de reële waarde van het veld door tussen de server en de app.
+Voor velden van het type **Real**, geeft deze eigenschap de reële waarde van het veld door tussen de server en de app.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Voor velden van het type **String** , geeft deze eigenschap de tekenreekswaarde van het veld door tussen de server en de app. Het wordt ook gebruikt voor velden van het type **Real** die zijn opgemaakt als valuta. Voor die velden wordt de eigenschap gebruikt om de valutacode door te geven aan de app.
+Voor velden van het type **String**, geeft deze eigenschap de tekenreekswaarde van het veld door tussen de server en de app. Het wordt ook gebruikt voor velden van het type **Real** die zijn opgemaakt als valuta. Voor die velden wordt de eigenschap gebruikt om de valutacode door te geven aan de app.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
-Voor velden van het type **Date** , geeft deze eigenschap de datumwaarde van het veld door tussen de server en de app.
+Voor velden van het type **Date**, geeft deze eigenschap de datumwaarde van het veld door tussen de server en de app.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Een aangepast veld weergeven en opslaan in de sectie voor het invoeren van de urenstaat
 
@@ -179,9 +179,9 @@ Hieronder wordt een schermopname weergegeven van de toepassingsobjectstructuur i
 
 Deze code regelt de weergave-instellingen voor het veld in de app. Het bepaalt bijvoorbeeld het type veld, het label, of het veld verplicht is en in welke sectie het veld verschijnt.
 
-Het volgende voorbeeld toont een tekenreeksveld voor tijdinvoer. Dit veld heeft twee opties, **Eerste optie** en **Tweede optie** , die beschikbaar zijn via optieknoppen (keuzerondjes). Het veld in de app is gekoppeld aan het veld **TestLineString** dat wordt toegevoegd aan de tabel TSTimesheetLine.
+Het volgende voorbeeld toont een tekenreeksveld voor tijdinvoer. Dit veld heeft twee opties, **Eerste optie** en **Tweede optie**, die beschikbaar zijn via optieknoppen (keuzerondjes). Het veld in de app is gekoppeld aan het veld **TestLineString** dat wordt toegevoegd aan de tabel TSTimesheetLine.
 
-Let op het gebruik van de methode **TSTimesheetCustomField::newFromMetatdata()** om de initialisatie van de aangepaste veldeigenschappen te vereenvoudigen: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** en **numberOfDecimals**. U kunt deze parameters ook handmatig instellen, als u dat wilt.
+Let op het gebruik van de methode **TSTimesheetCustomField::newFromMetatdata()** om de initialisatie van de aangepaste veldeigenschappen te vereenvoudigen: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** en **numberOfDecimals**. U kunt deze parameters ook handmatig instellen, als u dat wilt.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Als u een aangepast veld bij normaal gebruik weer wilt opslaan in de database, m
 - De methode **populateTimesheetWeekFromEntry** kan ook worden uitgebreid als het aangepaste veld dat is toegewezen aan het object **TSTimesheetEntry** moet terugschrijven naar de databasetabel TSTimesheetLineweek.
 
 > [!NOTE]
-> In het volgende voorbeeld wordt de waarde **firstOption** of **secondOption** die de gebruiker in de database selecteert opgeslagen als een onbewerkte tekenreekswaarde. Als het databaseveld een veld is van het type **Enum** , kunnen die waarden handmatig worden toegewezen aan een enum-waarde en vervolgens worden opgeslagen in een enum-veld in de databasetabel.
+> In het volgende voorbeeld wordt de waarde **firstOption** of **secondOption** die de gebruiker in de database selecteert opgeslagen als een onbewerkte tekenreekswaarde. Als het databaseveld een veld is van het type **Enum**, kunnen die waarden handmatig worden toegewezen aan een enum-waarde en vervolgens worden opgeslagen in een enum-veld in de databasetabel.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ De bestaande logica voor urenstaatfunctionaliteit op databaseniveau zal nog stee
 
 - Als **validateWrite** voor de tabel TSTimesheetLine **false** retourneert tijdens het opslaan van een urenstaatregel, wordt een foutmelding weergegeven in de mobiele app.
 - Als **validateSubmit** voor de tabel TSTimesheetTable **false** retourneert tijdens het indienen van de urenstaat in de app, wordt een foutmelding weergegeven aan de gebruiker.
-- Logica die velden invult (bijvoorbeeld **Regeleigenschap** ) tijdens de methode **insert** voor de tabel TSTimesheetLine wordt nog steeds uitgevoerd.
+- Logica die velden invult (bijvoorbeeld **Regeleigenschap**) tijdens de methode **insert** voor de tabel TSTimesheetLine wordt nog steeds uitgevoerd.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Kant-en-klare velden verbergen en markeren als alleen-lezen via configuratie
 

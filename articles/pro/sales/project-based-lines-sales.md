@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180996"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272517"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Projectgebaseerde verkoopkansregels - lite
 
@@ -27,7 +27,7 @@ Hieronder staan de velden op een projectgebaseerde verkoopkansregel:
 
 | **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
-| Producttype | Tabblad Algemeen (verborgen) | Selecteer een van de volgende opties:</br>- Projectgebaseerde service (alleen beschikbaar als Dynamics 365 Project Operations is geïnstalleerd)</br>- Product (alleen beschikbaar als Project Operations en Dynamics 365 Sales zijn geïnstalleerd) | De waarde van dit veld is ingesteld op **Projectgebaseerde service** wanneer u een projectgebaseerde verkoopkansregel maakt vanuit het projectgebaseerde regelraster van de verkoopkans. <br> Als u deze waarde wijzigt of overschrijft, wordt de projectfunctionaliteit niet ingeschakeld voor uw projectgebaseerde regelitems. |
+| Producttype | Tabblad Algemeen (verborgen) | Selecteer een van de volgende opties:</br>- Projectgebaseerde service (alleen beschikbaar wanneer Dynamics 365 Project Operations is geinstalleerd)</br>- Product (alleen beschikbaar als Project Operations en Dynamics 365 Sales zijn geïnstalleerd) | De waarde van dit veld is ingesteld op **Projectgebaseerde service** wanneer u een projectgebaseerde verkoopkansregel maakt vanuit het projectgebaseerde regelraster van de verkoopkans. <br> Als u deze waarde wijzigt of overschrijft, wordt de projectfunctionaliteit niet ingeschakeld voor uw projectgebaseerde regelitems. |
 | Kans | Tabblad Algemeen | Dit veld is alleen-lezen en verwijst naar de bovenliggende verkoopkansrecord waartoe dit regelitem behoort. | Er is geen downstreamimpact van dit veld. |
 | Meetcriterium | Tabblad Algemeen | Dit bewerkbare tekstveld kan worden gebruikt om een korte identiteit aan het regelitem te geven. | Deze waarde wordt overgedragen naar de prijsopgaveregel wanneer u een prijsopgave maakt vanuit deze verkoopkans. |
 | Klantbudget | Tabblad Algemeen | Dit bewerkbare valutaveld kan worden gebruikt om het bedrag bij te houden dat de klant bereid is te besteden voor dit regelitem. | Deze waarde wordt overgedragen naar het bijbehorende veld op de prijsopgaveregel wanneer u een prijsopgave maakt vanuit deze verkoopkans. |

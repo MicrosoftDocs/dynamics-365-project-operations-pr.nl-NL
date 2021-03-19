@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180276"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274902"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Kosten- en verkooptarieven voor onkosten instellen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-U kunt kosten en verkoopprijzen instellen voor transactiecategorieën instellen in Dynamics 365 Project Operations. Omdat de kosten- en verkoopprijzen zijn ontworpen voor Onkosten, moet elke transactiecategorie waarin deze zijn opgenomen ook worden ingesteld als een onkostencategorie. Deze opzet zorgt voor nauwkeurigheid in downstreamfunctionaliteit. Kosten en verkoopprijzen voor transactiecategorieën kunnen slechts in één valuta worden vermeld, namelijk de valuta in de prijslijstkop.
+U kunt kosten en verkoopprijzen instellen voor transactiecategorieën in Dynamics 365 Project Operations. Omdat de kosten- en verkoopprijzen zijn ontworpen voor Onkosten, moet elke transactiecategorie waarin deze zijn opgenomen ook worden ingesteld als een onkostencategorie. Deze opzet zorgt voor nauwkeurigheid in downstreamfunctionaliteit. Kosten en verkoopprijzen voor transactiecategorieën kunnen slechts in één valuta worden vermeld, namelijk de valuta in de prijslijstkop.
 
 Voer de volgende stappen uit om kosten en verkooptarieven voor transactiecategorieën in te stellen. 
 

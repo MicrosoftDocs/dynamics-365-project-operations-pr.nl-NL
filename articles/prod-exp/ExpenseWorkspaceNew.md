@@ -1,6 +1,6 @@
 ---
 title: Opnieuw ontworpen onkostendeclaraties
-description: Dit onderwerp bevat informatie over de opnieuw ontworpen ervaring voor het invoeren van onkostendeclaraties in Microsoft Dynamics 365 Finance. De nieuwe ervaring vereenvoudigt het proces van het invullen van onkostendeclaraties en verkort de tijd die nodig is.
+description: Dit onderwerp biedt informatie over de opnieuw ontworpen ervaring voor het invoeren van onkostennota's.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960241"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271977"
 ---
 # <a name="redesigned-expense-reports"></a>Opnieuw ontworpen onkostendeclaraties
 
@@ -40,12 +40,6 @@ Om de nieuwe ervaring in te schakelen, gebruikt u de werkruimte **Functiebeheer*
 - Er wordt een nieuw menu-item voor de zichtbaarheid van onkostenvelden toegevoegd.
 - Er worden geen bestaande menu-items voor onkostennota's (de bestaande pagina) of onkostennotavelden verwijderd.
 - Via werkstromen en goedkeuringen komt u nog steeds uit bij de bestaande pagina met onkostennota's.
-
-## <a name="getting-started-video-for-new-users"></a>Aan de slag-video's voor nieuwe gebruikers
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-De video [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (hierboven weergegeven) is opgenomen in de [Finance and Operations-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) op YouTube.
 
 ## <a name="new-features"></a>Nieuwe functies
 

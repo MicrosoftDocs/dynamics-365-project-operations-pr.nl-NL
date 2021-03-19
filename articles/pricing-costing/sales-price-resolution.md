@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119547"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274947"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Verkoopprijzen voor schattingen en werkelijke waarden omzetten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Wanneer verkoopprijzen op schattingen en werkelijke waarden worden omgezet in Dynamics 365 Project Operations, gebruikt het systeem eerst de datum en valuta van de gerelateerde projectprijsopgave of het projectcontract om de verkoopprijslijst om te zetten. Nadat de verkoopprijslijst is omgezet, wordt het verkoop- of factuurtarief omgezet.
+Wanneer verkoopprijzen voor schattingen en werkelijke waarden worden opgelost in Dynamics 365 Project Operations, gebruikt het systeem eerst de datum en valuta van de gerelateerde projectprijsopgave of contract om de verkoopprijslijst op te lossen. Nadat de verkoopprijslijst is omgezet, wordt het verkoop- of factuurtarief omgezet.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Verkooptarieven omzetten voor regels met werkelijke waarden en schattingen voor tijd
 

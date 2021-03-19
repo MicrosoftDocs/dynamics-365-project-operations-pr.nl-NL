@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074699"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270717"
 ---
 # <a name="create-a-new-project"></a>Een nieuw project maken
 
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om een nieuw project te maken.
 
 1. Selecteer op de pagina **Werknemers** in de lijst **Werknemers** de record voor de werknemer voor wie u eerder competenties hebt ingesteld en open de werknemerrecord.
 2. Ga naar het actievenster op het tabblad **Project** en selecteer in de groep **Instelling** de optie **Projecten toewijzen**.
-3. Filter op de pagina **Projectopdrachten voor resourcevalidatie** , op het tabblad **Projecten** , in het veld **Het project toevoegen aan geselecteerde projecten** , op het project **XYZ-upgrade fase 2**.
+3. Filter op de pagina **Projectopdrachten voor resourcevalidatie**, op het tabblad **Projecten**, in het veld **Het project toevoegen aan geselecteerde projecten**, op het project **XYZ-upgrade fase 2**.
 4. Selecteer in het deelvenster **Resterende projecten** een project en selecteer vervolgens de pijlknop om het toe te voegen aan het deelvenster **Geselecteerde projecten**.
 
 U kunt desgewenst ook categorieën aan een resource toewijzen. Het categorietype is **Kosten** of **Omzet**. Het categorietype wordt bepaald door uw organisatie. Als er geen categorieën zijn toegewezen aan een resource, zoekt Finance de standaardcategorie voor uurprijzen voor kosten en omzet.
