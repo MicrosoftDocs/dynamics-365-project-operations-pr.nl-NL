@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123867"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279492"
 ---
 # <a name="resource-management-key-concepts"></a>Belangrijke concepten voor resourcebeheer
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Resources zijn de belangrijkste activa van een serviceverlenende organisatie. De mogelijkheid om de juiste resources op het juiste moment te vinden, deze resources te boeken voor projecten en ze optimaal in te zetten, helpt de organisatie om haar inkomstendoelen en klanttevredenheidsdoelen te behalen. Met de functionaliteit voor het toewijzen van resources aan projecten in Dynamics 365 Project Operations kunt u:
+Resources zijn de belangrijkste activa van een serviceverlenende organisatie. De mogelijkheid om de juiste resources op het juiste moment te vinden, deze resources te boeken voor projecten en ze optimaal in te zetten, helpt de organisatie om haar inkomstendoelen en klanttevredenheidsdoelen te behalen. Met de functionaliteit voor het toewijzen van resources aan projecten in Dynamics 365 Project Operations kunt u de volgende taken uitvoeren:
 
 - Projectteams vormen door beschikbare en gekwalificeerde resources te boeken.
 - Algemene teamlidrecords maken en hun rollen en de organisatie-eenheid van de resource definiëren.

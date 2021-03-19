@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180231"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277557"
 ---
 # <a name="project-quote-settings"></a>Instellingen voor projectprijsopgaven
 
@@ -22,7 +22,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 In dit artikel wordt uitgelegd welke informatie van toepassing is op een projectprijsopgave. Dit omvat de instellingen die van invloed zijn op alle prijsopgaveregels en informatie over de prijsopgave die is samengevat voor alle regelitems om de KPI's van de projectprijsopgave te sturen.
 
-De volgende tabel bevat een overzicht met de informatievelden voor projectprijsopgaven die uniek zijn voor Dynamics 365 Project Operations of die belangrijke veranderingen bevatten ten opzichte van Dynamics 365 Sales.
+De volgende tabel bevat de samenvattende informatievelden voor een projectofferte die uniek zijn voor Dynamics 365 Project Operations of enkele belangrijke gedragsveranderingen hebben voor prijsopgaven van Dynamics 365 Sales.
 
 | **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |

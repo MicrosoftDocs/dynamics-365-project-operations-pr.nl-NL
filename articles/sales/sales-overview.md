@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177595"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277377"
 ---
 # <a name="sales-process-overview"></a>Overzicht van verkoopproces
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-De verkoopprocessen die worden gebruikt in een projectgebaseerde organisatie verschillen van de verkoopprocessen die worden gebruikt in een productgebaseerde organisatie. Dit verschil treedt op omdat de verkoopcycli voor projectgebaseerde organisaties langer zijn en aangepaste schattingstechnieken vereisen voor het analyseren en maken van prijsopgaven voor elke deal. Dynamics 365 Project Operations maakt gebruik van een aantal van de volgende functies die in een verkoopproces worden gebruikt:
+De verkoopprocessen die worden gebruikt in een projectgebaseerde organisatie verschillen van de verkoopprocessen die worden gebruikt in een productgebaseerde organisatie. Dit verschil treedt op omdat de verkoopcycli voor projectgebaseerde organisaties langer zijn en aangepaste schattingstechnieken vereisen voor het analyseren en maken van prijsopgaven voor elke deal. Dynamics 365 Project Operations gebruikt enkele van de volgende functies die worden gebruikt in een verkoopproces:
 
 - Een leadrecord wordt gebruikt om het verkoopproces bij te houden.
 - Kwalificerende potentiële klanten worden bijgehouden als verkoopkansen.

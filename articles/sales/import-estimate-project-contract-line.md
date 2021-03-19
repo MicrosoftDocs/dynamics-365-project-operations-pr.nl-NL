@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126387"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278367"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Een schatting importeren in een projectgebaseerde contractregel
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-In Dynamics 365 Project Operations kunt u schattingen uit een project importeren naar een projectgebaseerde contractregel.
+In Dynamics 365 Project Operations kunt u schattingen uit een project importeren in een projectgebaseerde contractregel.
 
 1. Controleer of het veld **Project** op de projectgebaseerde contractregel is ingevuld.
 2. Selecteer op het tabblad **Contractregeldetails** in het subraster **Importeren uit projectschatting**. Er wordt een dialoogvenster met samenvattingsopties geopend. De beschikbare samenvattingsopties zijn **Transactieklasse**, **Categorie**, **Rol** en **Projecttaak**. Op basis van de selecties voor samenvatting wordt de schatting uit het project voor alle transactieklassen op deze contractregel gekopieerd. 

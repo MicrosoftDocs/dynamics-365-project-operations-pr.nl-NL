@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181986"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277872"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Meerdere klanten in een projectprijsopgave beheren
 
@@ -23,7 +23,7 @@ Projectprijsopgaven ondersteunen het scenario voor een voorstel met meerdere kla
 
 Alle klanten voor prijsopgave op het tabblad **Klanten** van de projectprijsopgave zijn standaard de klanten van de **nieuwe** projectgebaseerde prijsopgaveregels die zijn gemaakt voor de prijsopgave. Eventuele bestaande projectgebaseerde prijsopgaveregels nemen geen nieuwe klantrecords voor prijsopgaven over die daarna zijn gemaakt.
 
-Klanten voor de prijsopgave en de prijsopgaveregels kunnen op elk moment worden toegevoegd, bijgewerkt of verwijderd voordat de prijsopgave wordt geaccepteerd. Een geldige klant op de prijsopgave moet zijn ingesteld als klant in het Bedrijf dat eigenaar is of als Rechtspersoon op de pagina **Klanten**. Rechtspersonen zijn instelling in de **Projectmanagement en financiële administratie** van Dynamics 365 Project Operations en worden beschikbaar gesteld als Bedrijven in de modules **Projectverkoop en levering** van Project Operations.
+Klanten voor de prijsopgave en de prijsopgaveregels kunnen op elk moment worden toegevoegd, bijgewerkt of verwijderd voordat de prijsopgave wordt geaccepteerd. Een geldige klant op de prijsopgave moet zijn ingesteld als klant in het Bedrijf dat eigenaar is of als Rechtspersoon op de pagina **Klanten**. Rechtspersonen worden ingesteld in de module **Projectbeheer en financiële administratie** van Dynamics 365 Project Operations en zijn beschikbaar als Bedrijven in de modules **Projectverkoop en Levering** van Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Concept van een primaire klant
 

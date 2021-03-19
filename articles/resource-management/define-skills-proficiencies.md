@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d1ef50a3aa297ef439b54d37de629414ca66c820
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124767"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279672"
 ---
 # <a name="define-skills-and-proficiencies"></a>Vaardigheden en deskundigheden definiëren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Vaardigheden zijn resourcekenmerken die worden gedeeld tussen Dynamics 365 Project Operations en (indien aanwezig) Dynamics 365 Field Service. 
+Vaardigheden zijn resourcekenmerken die worden gedeeld tussen Dynamics 365 Project Operations en Dynamics 365 Field Service (indien aanwezig). 
 
 - Voor onderhoud van de opslagplaats van vaardigheden in Project Operations gaat u naar **Resources** \> **Resourcevaardigheden**. 
 
