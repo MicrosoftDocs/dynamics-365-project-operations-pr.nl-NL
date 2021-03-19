@@ -1,27 +1,27 @@
 ---
 title: Een project kopiëren
-description: Dit onderwerp biedt informatie over het kopiëren van projecten in Dynamics 365 Project Operations.
+description: In dit onderwerp krijgt u informatie over het kopiëren van projecten in Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131787"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479513"
 ---
 # <a name="copy-a-project"></a>Een project kopiëren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Met Dynamics 365 Project Operations kunt u snel nieuwe projecten maken door **Project kopiëren** in het formulier **Projecten** te selecteren. Als u een project wilt kopiëren, opent u het project dat u wilt kopiëren en selecteert u vervolgens **Project kopiëren**. Met de actie kopieert u het volgende:
+Met Dynamics 365 Project Operations kunt u snel nieuwe projecten bouwen door **Project kopiëren** te selecteren op het formulier **Projecten**. Als u een project wilt kopiëren, opent u het project dat u wilt kopiëren en selecteert u vervolgens **Project kopiëren**. Met de actie kopieert u het volgende:
 
-- Projecteigenschappen
+- Projecteigenschappen (de geschatte begindatum wordt gekopieerd vanuit het bronproject)
 - De structuur voor werkspecificatie
 - Projectteamleden
 - Projectschattingen

@@ -1,9 +1,9 @@
 ---
 title: Opnieuw ontworpen onkostennota's
-description: Dit onderwerp biedt informatie over de opnieuw ontworpen ervaring voor het invoeren van onkostennota's.
+description: In dit onderwerp wordt de opnieuw ontworpen en opnieuw vormgegeven ervaring voor het invoeren van onkostendeclaraties uitgelegd.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122787"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499710"
 ---
 # <a name="expense-reports-reimagined"></a>Opnieuw ontworpen onkostennota's
 
@@ -59,25 +59,22 @@ De video [Expense experience in Dynamics 365 for Finance and Operations](https:/
 | Minder berichten in de berichtbalk| Het aantal Infolog-berichten is verminderd en er is geprobeerd om in veel gevallen te voorkomen dat dubbele berichten verschijnen. |
 | Gemeenschappelijke acties zijn gegroepeerd | De interface is opgeruimd door de toevoeging van een nieuwe actieknop voor de meeste gangbare acties op regelniveau en de toevoeging van een knop met beletselteken (...) voor koptekst- en andere minder gebruikte acties. |
 | Nieuwe werkruimte om de zichtbaarheid te vergroten | Een nieuwe werkruimte met functies en koppelingen waarmee gebruikers naar verschillende gebieden kunnen gaan. |
-| Bestaande onkosten en betalingsbewijzen toevoegen tijdens het maken van onkosten | Wanneer u onkostennota's maakt, kunt u alle of geselecteerde onkosten en betalingsbewijzen toevoegen. |
+| Bestaande onkosten en betalingsbewijzen toevoegen tijdens het maken van onkosten | Wanneer u onkostennota's maakt, kunt u alle onkosten toevoegen of niet-gekoppelde onkosten selecteren. Niet-gekoppelde onkosten zijn onkosten die zijn geïmporteerd uit de creditcardfeed van het bedrijf of onkosten die handmatig zijn gemaakt door de gebruiker maar niet zijn toegevoegd aan een onkostennota.|
 | Wisselkoerscalculator | Er is een wisselkoerscalculator toegevoegd waarmee u de wisselkoers kunt berekenen voor contante transacties in meerdere valuta's. |
 | Onkostenregels opslaan en toevoegen | De knoppen **Opslaan** en **Nieuw** zijn beschikbaar wanneer er nieuwe onkosten worden ingevoerd, zodat u snel onkostenregels kunt invoeren. |
 | Beter inzicht in opgesplitste en gespecificeerde regels | Gespecificeerde en gesplitste regels worden rechtstreeks aan de lijst met onkosten toegevoegd om de zichtbaarheid te vergroten en u te helpen gemakkelijk te bepalen of er fouten zijn. |
 | Betalingsbewijzen weergeven tijdens specificatie | Betalingsbewijzen kunnen worden weergeven tijdens specificatie. |
+| Selectie contant voorschot | Selecteer een of meer contante voorschotten voor het uitvoeren van één onkostentransactie. |
+| Saldo contant voorschot | Bekijk het saldo van het contante voorschot in realtime wanneer u een onkostenpost maakt tegen goedgekeurde en betaalde contante voorschotten. |
 
 De eerste release is gericht op scenario's voor het invoeren van onkosten. Elk beoordelings- of goedkeuringsscenario voor onkostennota's blijft de bestaande pagina voor de invoer van onkostennota's gebruiken.
 
-De volgende functies zijn aanwezig op de bestaande pagina, maar nog niet op de nieuwe pagina. Deze functies worden in de volgende releases opnieuw geïntroduceerd:
+De volgende functies worden niet ondersteund in de werkruimte voor opnieuw ontworpen onkostennota's:
 
-- Goedkeuringen
-- Goedkeuringen van leveranciers en de mogelijkheid om de boekhouding te bewerken
-- Meerdere toegangspunten
 - Integratie van reiskosten
-- Gegevensentiteit voor zichtbaarheid van onkostenveld
-- Invoer voor dagonkosten
-- Werkstroom op regelniveau
+- Per diem onkostenpost
 - Ondersteuning voor tijdelijke fiatteur
-- Geavanceerde specificatie
+- Mogelijkheid om de werkstroomgeschiedenis weer te geven
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

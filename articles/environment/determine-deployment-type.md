@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401212"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479558"
 ---
 # <a name="determine-your-deployment-type"></a>Het type implementatie bepalen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 > [!IMPORTANT]
-> Nadat u de licentie hebt aangeschaft, begint u hier om het beste implementatiemodel van Dynamics 365 Project Operations te bepalen met behulp van de [begeleide installatiestroom](https://aka.ms/provisionprojectoperations).
+> Nadat u de licentie hebt aangeschaft, begint u hier om het beste implementatiemodel van Dynamics 365 Project Operations te bepalen met de [Begeleide installatiestroom](https://aka.ms/provisionprojectoperations).
 > Nadat u de begeleide installatiestroom hebt voltooid, wordt u naar de juiste beheerportal geleid om uw installatie te voltooien. Zie de implementatiedetails om de installatie te voltooien.
 
 
@@ -31,6 +31,9 @@ Project Operations omvat de mogelijkheden die bij Project Service Automation wor
 
 Bestaande klanten van Finance die de functionaliteit Projectbeheer en financiële administratie gebruiken, kunnen deze gewoon blijven gebruiken. Zie [Project Operations voor scenario's op basis van voorradige artikelen/productieorders](#pma).
 
+
+## <a name="deployment-regions"></a>Implementatieregio's
+Zie [Geografische beschikbaarheid voor Dynamics 365 en Power Platform-rapport](https://dynamics.microsoft.com/en-us/geographic-availability/) om te bepalen welke regio's de implementatie van Project Operations ondersteunen. Selecteer **Rapport weergeven** en vouw **Dynamics 365> Operations-apps > Dynamics 365 Project Operations** uit om de ondersteunde regio's te bekijken.
 
 ## <a name="deployment-types"></a>Implementatietypen
 Project Operations ondersteunt meerdere implementatieopties om aan uw vereisten te voldoen. Of u nu een nieuwe of bestaande Dynamics 365-klant bent, Project Operations kan uw behoeften ondersteunen.

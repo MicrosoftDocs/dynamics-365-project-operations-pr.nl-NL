@@ -3,17 +3,17 @@ title: Gedrag van UI voor tijdinvoer
 description: Dit onderwerp bevat informatie over het gedrag van de UI voor tijdinvoer.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124497"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499608"
 ---
 # <a name="time-entry-ui-behavior"></a>Gedrag van UI voor tijdinvoer
 
@@ -21,6 +21,19 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 
 Het raster **Wekelijkse tijdinvoer** is een aangepast besturingselement met de hoofdsecties **Dimensies** en **Duur**.
+
+## <a name="keyboard-shortcuts"></a>Sneltoetsen
+| Actie        | Snelkoppeling                  |
+|------------   |------------------------   |
+| Nieuw:           | Alt + Shift + n           |
+| Rij kopiëren      | Alt + Shift + c           |
+| Vermelding bewerken    | Alt + Shift + e           |
+| Rij bewerken      | Alt + Shift + Ctrl + e    |
+| Vermelding openen    | Alt + Shift + o           |
+| Verzenden        | Alt + Shift + s           |
+| Intrekken        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Week kopiëren     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimensies
 De sectie **Dimensies** bevat alle dimensies waarvoor tijd kan worden ingevoerd. De volgende dimensies worden standaard ondersteund:
