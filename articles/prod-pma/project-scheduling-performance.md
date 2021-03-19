@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074547"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289003"
 ---
 # <a name="project-resource-scheduling-performance"></a>Prestaties van projectresourceplanning
 
@@ -34,7 +34,7 @@ ms.locfileid: "4074547"
 Prestatieproblemen met betrekking tot resourceplanning kunnen optreden wanneer het om duizenden projecten gaat. Om de prestaties van de resourceplanning te verbeteren, is er een functie beschikbaar waarmee gebruikers het resourcebeschikbaarheidsformulier sneller kunnen starten. Met name wordt hiermee het synchronisatieproces van de resourcecapaciteit overgeslagen en wordt de tabel **ResprojectResource** gebruikt om het zoeken naar resources te versnellen. Houd er rekening mee dat de tabel **ResRollup** wordt niet meer gebruikt.
 
 > [!IMPORTANT]
-> Als er een afhankelijkheidsrelatie is met het synchronisatieproces van de resourcecapaciteit of de tabel **ResprojectResource** , gebruik deze functie dan niet.
+> Als er een afhankelijkheidsrelatie is met het synchronisatieproces van de resourcecapaciteit of de tabel **ResprojectResource**, gebruik deze functie dan niet.
 
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Prestatieverbeteringen van resourceplanning inschakelen
 Voer de volgende stappen uit om prestatieverbeteringen voor resourceplanning in te schakelen.
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om prestatieverbeteringen voor resourceplanning in 
  > [!NOTE]
  > Hiermee worden algemene gegevens gegenereerd voor de tabel **ResCalendarCapacity** voor alle bedrijven in uw omgeving, dus de batchtaak hoeft maar in één rechtspersoon te worden uitgevoerd. De gegevens in deze batchtaak zijn nodig om de resourcecapaciteit te berekenen via de bijbehorende kalender.
 
-8. Ga naar **Projectmanagement en financiële administratie** > **Periodiek** > **Projectresources** > **Projectresources invullen voor alle bedrijven** en selecteer vervolgens **OK**. Dit is het gegevensupgradescript voor algemene gegevens in de tabellen **ResProjectResource** , **ResCalendarDateTimeRange** en **ResEffectiveDateTimeRange**. Waarden voor het veld **PSAPRojSchedRole.RootActivity** worden ook bijgewerkt. Als dit niet wordt uitgevoerd, ontvangt u een waarschuwing wanneer u bewerkingen voor resourceplanning probeert uit te voeren.
+8. Ga naar **Projectmanagement en financiële administratie** > **Periodiek** > **Projectresources** > **Projectresources invullen voor alle bedrijven** en selecteer vervolgens **OK**. Dit is het gegevensupgradescript voor algemene gegevens in de tabellen **ResProjectResource**, **ResCalendarDateTimeRange** en **ResEffectiveDateTimeRange**. Waarden voor het veld **PSAPRojSchedRole.RootActivity** worden ook bijgewerkt. Als dit niet wordt uitgevoerd, ontvangt u een waarschuwing wanneer u bewerkingen voor resourceplanning probeert uit te voeren.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Prestatieverbeteringen van resourceplanning uitschakelen
 

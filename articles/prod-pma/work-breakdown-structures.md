@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074539"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287952"
 ---
 # <a name="work-breakdown-structures-overview"></a>Overzicht van structuren voor werkspecificatie
 
@@ -50,7 +50,7 @@ Als u de volledige planningsmogelijkheden van de WBS-functies wilt gebruiken, vo
 
 1.  Stel een standaardagenda en een projectagenda in:
     1.  Klik op **Projectmanagement en financiële administratie** &gt; **Instelling** &gt; **Parameters voor Projectmanagement en financiële administratie** &gt; **Planning**. Geef in het veld **Standaardwerkagenda** een standaardagenda op. Dit wordt de standaardwerkagenda voor elk nieuw project dat wordt gemaakt.
-    2.  U kunt de standaardagenda voor een specifiek project wijzigen. Klik op de detailpagina van het project en vervolgens op het sneltabblad **Projectteam en planning** , werk het veld **Planningsagenda** bij door een andere agenda te selecteren.
+    2.  U kunt de standaardagenda voor een specifiek project wijzigen. Klik op de detailpagina van het project en vervolgens op het sneltabblad **Projectteam en planning**, werk het veld **Planningsagenda** bij door een andere agenda te selecteren.
 
 2.  Stel standaardwerkdagen en werktijden in. De agenda die u instelt als werkagenda voor uw project wordt in de WBS gebruikt om de volgende informatie te bepalen:
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122337"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287727"
 ---
 # <a name="manage-the-billing-backlog"></a>Achterstallige facturen beheren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Dynamics 365 Project Operations heeft twee speciale weergaven waarin u kunt werken met achterstallige facturen en deze kunt beheren. Deze weergaven zijn **Mijlpalen met een vaste prijs** en **Achterstand voor facturering van tijd en materiaal**. Als u een weergave wilt selecteren, selecteert u in het gebied **Verkoop** van Project Operations op de linkernavigatiepagina **Facturering**. De koppelingen naar achterstand in facturering worden daar opgeslagen.
+Dynamics 365 Project Operations heeft twee speciale weergaven om de achterstand in facturering te helpen beheren. Deze weergaven zijn **Mijlpalen met een vaste prijs** en **Achterstand voor facturering van tijd en materiaal**. Als u een weergave wilt selecteren, selecteert u in het gebied **Verkoop** van Project Operations op de linkernavigatiepagina **Facturering**. De koppelingen naar achterstand in facturering worden daar opgeslagen.
 
 ## <a name="fixed-price-milestones"></a>Mijlpalen voor vaste prijs
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074737"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288823"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobiele toepassing voor projecturenstaten
 
@@ -76,7 +76,7 @@ Selecteer in het veld **Project** het project waarvoor u tijd invoert. Het veld 
 
 De zoekopdrachten voor klanten en projecten maken zoeken in zowel klanten als projecten mogelijk.
 
-Selecteer informatie in de velden **Categorie** , **Activiteit** , **Regeleigenschap** , **Omzetbelastinggroep** en **Btw-groep artikel** zoals vereist. Deze velden kunnen worden overschreven.
+Selecteer informatie in de velden **Categorie**, **Activiteit**, **Regeleigenschap**, **Omzetbelastinggroep** en **Btw-groep artikel** zoals vereist. Deze velden kunnen worden overschreven.
 
 Het veld **Regeleigenschap** wordt ingesteld op een standaardwaarde, gebaseerd op parameters voor projectmanagement en financiële administratie. Wanneer de project/categorie en categorie/resourceparameters zijn ingeschakeld, wordt de waarde voor **Regeleigenschap** ingesteld op de standaardwaarde die u voor deze validatie hebt gedefinieerd. Als de project/categorie en categorie/resourceparameters niet zijn ingeschakeld, wordt de waarde voor **Regeleigenschap** standaard ingesteld volgens het veld **Standaardregeleigenschap inschakelen** op de pagina **Parameters voor projectmanagement en financiële administratie**. De waarde voor **Regeleigenschap** kan worden overschreven.
 
@@ -95,7 +95,7 @@ Klik op **Indienen** om de urenstaat naar de goedkeuringsworkflow te verzenden.
 
 ## <a name="review-timesheets"></a>Urenstaten controleren
 
-Een lijst met de urenstaten die moeten worden gecontroleerd, is beschikbaar in het menu. Deze optie is alleen beschikbaar als u bent aangewezen als werkstroomgoedkeurder. Zowel koptekst- als regelgoedkeuring worden ondersteund. Goedkeuring op regelniveau biedt de mogelijkheid om een of meer regels voor goedkeuring te markeren. Klik na het controleren van de urenstaatinformatie op **Goedkeuren** , **Delegeren** of **Terugkeren** om de werkstroom voort te zetten.
+Een lijst met de urenstaten die moeten worden gecontroleerd, is beschikbaar in het menu. Deze optie is alleen beschikbaar als u bent aangewezen als werkstroomgoedkeurder. Zowel koptekst- als regelgoedkeuring worden ondersteund. Goedkeuring op regelniveau biedt de mogelijkheid om een of meer regels voor goedkeuring te markeren. Klik na het controleren van de urenstaatinformatie op **Goedkeuren**, **Delegeren** of **Terugkeren** om de werkstroom voort te zetten.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

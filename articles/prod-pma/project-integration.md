@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074625"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289318"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client-integratie
 
@@ -122,7 +122,7 @@ Volg deze stappen om een nieuwe structuur voor werkspecificatie te maken met Mic
 
 6.  Voer de **projectnaam** in.
 
-7.  Selecteer het **projecttype** , de **projectgroep** en de **projectcontract-id**. U kunt ook een nieuw projectcontract maken door op **Nieuw** te klikken.
+7.  Selecteer het **projecttype**, de **projectgroep** en de **projectcontract-id**. U kunt ook een nieuw projectcontract maken door op **Nieuw** te klikken.
 
 8.  Selecteer de **agenda** die moet worden gebruikt voor het toewijzen van resources.
 

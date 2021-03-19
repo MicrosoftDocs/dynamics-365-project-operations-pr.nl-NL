@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074745"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289363"
 ---
 # <a name="project-grants"></a>Projectsubsidies
 
@@ -50,21 +50,21 @@ U kunt een subsidie aanmaken door alle details in een nieuw record in te voeren,
 
     De volgende lijst beschrijft de informatie die wordt gespecificeerd op elk sneltabblad van de pagina met subsidiedetails:
 
-    - **Algemeen** : voer de naam, de status, de beschrijving, het doel en het bedrag van de subsidie in.
-    - **Contactgegevens** : voer details in over personeelsleden, de afdeling die de subsidie beheert en de subsidieontvanger of organisatiebron van de subsidie. U kunt ook aangeven of uw organisatie een doorgeefentiteit is die de subsidie ontvangt en deze vervolgens doorgeeft aan een andere ontvanger. Selecteer **Toevoegen** om contactgegevens toe te voegen, zoals telefoonnummers en e-mailadressen voor de organisatie die de subsidie verstrekt.
-    - **Datums en deadlines** : vul datums in die betrekking hebben op de subsidie en de subsidieaanvraag. Voorbeelden zijn de vervaldatum van de aanvraag, de datum van indiening en de datum waarop de subsidie wordt goedgekeurd of afgewezen.
-    - **Bijbehorende projecten en projectcontracten** : u kunt alleen informatie op dit sneltabblad invoeren als het veld **Subsidiestatus** op het sneltabblad **Algemeen** is ingesteld op **Actief** of **Toegekend**. Selecteer een van de volgende opties om de gerelateerde taak te voltooien:
+    - **Algemeen**: voer de naam, de status, de beschrijving, het doel en het bedrag van de subsidie in.
+    - **Contactgegevens**: voer details in over personeelsleden, de afdeling die de subsidie beheert en de subsidieontvanger of organisatiebron van de subsidie. U kunt ook aangeven of uw organisatie een doorgeefentiteit is die de subsidie ontvangt en deze vervolgens doorgeeft aan een andere ontvanger. Selecteer **Toevoegen** om contactgegevens toe te voegen, zoals telefoonnummers en e-mailadressen voor de organisatie die de subsidie verstrekt.
+    - **Datums en deadlines**: vul datums in die betrekking hebben op de subsidie en de subsidieaanvraag. Voorbeelden zijn de vervaldatum van de aanvraag, de datum van indiening en de datum waarop de subsidie wordt goedgekeurd of afgewezen.
+    - **Bijbehorende projecten en projectcontracten**: u kunt alleen informatie op dit sneltabblad invoeren als het veld **Subsidiestatus** op het sneltabblad **Algemeen** is ingesteld op **Actief** of **Toegekend**. Selecteer een van de volgende opties om de gerelateerde taak te voltooien:
 
-        - **Financieringsbron toevoegen** : voeg een nieuwe financieringsbron toe voor de subsidie. U kunt nu alle details invoeren of u kunt de standaardinformatie gebruiken en deze later bijwerken.
-        - **Projectcontract toevoegen** : toevoegen of bijwerken van projectcontractinformatie.
-        - **Project toevoegen** : projectdetails toevoegen of bijwerken.
+        - **Financieringsbron toevoegen**: voeg een nieuwe financieringsbron toe voor de subsidie. U kunt nu alle details invoeren of u kunt de standaardinformatie gebruiken en deze later bijwerken.
+        - **Projectcontract toevoegen**: toevoegen of bijwerken van projectcontractinformatie.
+        - **Project toevoegen**: projectdetails toevoegen of bijwerken.
 
-    - **Instellen** : voer details in over het afstemmen van de financiering, als deze informatie vereist is. Veel organisaties die subsidies toekennen, eisen dat ontvangers een bepaald bedrag van hun eigen geld of middelen uitgeven, dat overeenkomt met het bedrag dat in de subsidie wordt toegekend. In het veld **Lokaal project of tracking-id** kunt u een id invoeren die verschilt van de project-id.
+    - **Instellen**: voer details in over het afstemmen van de financiering, als deze informatie vereist is. Veel organisaties die subsidies toekennen, eisen dat ontvangers een bepaald bedrag van hun eigen geld of middelen uitgeven, dat overeenkomt met het bedrag dat in de subsidie wordt toegekend. In het veld **Lokaal project of tracking-id** kunt u een id invoeren die verschilt van de project-id.
 
         > [!NOTE]
         > Als een deel van de subsidie aan een andere organisatie wordt toegekend, stelt u de optie **Subontvanger** in op **Ja**. Voor subsidies die in de Verenigde Staten worden toegekend, kunt u aangeven of een subsidie zal worden toegekend onder een staatsmandaat of een federaal mandaat.
 
-    - **Opnamegegevens** : informatie toevoegen of bijwerken over hoe vaak subsidiegelden kunnen worden opgenomen, gefactureerd of uitgegeven.
+    - **Opnamegegevens**: informatie toevoegen of bijwerken over hoe vaak subsidiegelden kunnen worden opgenomen, gefactureerd of uitgegeven.
 
 ## <a name="create-a-new-grant-from-a-copy"></a>Een nieuwe subsidie maken op basis van een kopie
 

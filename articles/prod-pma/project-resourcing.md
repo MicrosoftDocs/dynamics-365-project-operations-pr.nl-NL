@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074550"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289093"
 ---
 # <a name="project-resourcing-home-page"></a>Startpagina projectresources
 
@@ -49,7 +49,7 @@ De volgende onderwerpen bieden informatie over de taken die moeten worden voltoo
 - [Projectresources opzetten](set-up-project-resources.md)
 - [Resourcecompetenties beheren](manage-resource-competencies.md)
 - [Een nieuw project maken](create-new-project.md)
-- [Op rollen gebaseerde prijsstelling instellen](set-up-role-based-pricing.md)
+- [Op rollen gebaseerde prijzen instellen](set-up-role-based-pricing.md)
 - [Een projectteam maken](create-project-team.md)
 - [Resourcecapaciteit synchroniseren](synchronize-resource-capacity.md)
 - [Prestaties van projectresourceplanning](project-scheduling-performance.md)

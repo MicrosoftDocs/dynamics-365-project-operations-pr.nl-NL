@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074697"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289723"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Projectbudgetten transporteren aan het einde van het fiscale jaar
 
@@ -57,11 +57,11 @@ Wanneer u resterende budgetbedragen verwerkt, kunt u transacties in het grootboe
 
 1.  Selecteer **Projectmanagement en financiële administratie** > **Periodiek** > **Budgetten** > **Budgetten overboeken**. 
 2. Selecteer op de pagina **Overdrachtsproces voor projectbudget** de optie **Jaareinde** en schakel vervolgens **Overdracht resterende projectbudgetbedragen** en **Budgetregisterboekingen in het grootboek maken** in. 
-3. Op het tabblad **Parameters** , in de veldgroep **Projectparameters** selecteert u het volgende:
+3. Op het tabblad **Parameters**, in de veldgroep **Projectparameters** selecteert u het volgende:
 
-   - **Projectbudgetjaar** : selecteer het begin van het fiscaal jaar waarvoor u het resterende budgetbedrag wilt zien. 
-   - **Winst en verlies** : maak winst- en verliestransacties in het grootboek. 
-   -  **OHW** : maak OHW-transacties in het grootboek.
+   - **Projectbudgetjaar**: selecteer het begin van het fiscaal jaar waarvoor u het resterende budgetbedrag wilt zien. 
+   - **Winst en verlies**: maak winst- en verliestransacties in het grootboek. 
+   -  **OHW**: maak OHW-transacties in het grootboek.
    -  **Salaris** : maak salaristoewijzingstransacties in het grootboek. 
 
 5. Vul de volgende informatie in de veldgroep **Grootboek** in: 

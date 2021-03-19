@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074736"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288733"
 ---
 # <a name="set-up-project-resources"></a>Projectresources opzetten
 
@@ -41,7 +41,7 @@ In de volgende procedures wordt uitgelegd hoe u een werknemer instelt als projec
 2. Selecteer in het actievenster de optie **Project** &gt; **Instelling** &gt; **Project instellen**.
 3. Selecteer een agenda en sluit vervolgens de pagina.
 
-U kunt ook standaardprojecten voor een resource specificeren als een soort toewijzing vooraf. Toewijzingen vooraf kunnen worden gebruikt wanneer de resourcemanager of projectmanager van tevoren weet aan welke projecten de resource zal werken. Toewijzingen vooraf kunnen ook plaatsvinden op verzoek van een projectsponsor of klant. Als u een project vooraf wilt toewijzen, gaat u naar de pagina **Projecten toewijzen** , tabblad **Projecten** en selecteert u het juiste project in de lijst **Resterende projecten**.
+U kunt ook standaardprojecten voor een resource specificeren als een soort toewijzing vooraf. Toewijzingen vooraf kunnen worden gebruikt wanneer de resourcemanager of projectmanager van tevoren weet aan welke projecten de resource zal werken. Toewijzingen vooraf kunnen ook plaatsvinden op verzoek van een projectsponsor of klant. Als u een project vooraf wilt toewijzen, gaat u naar de pagina **Projecten toewijzen**, tabblad **Projecten** en selecteert u het juiste project in de lijst **Resterende projecten**.
 
 ## <a name="set-up-an-intercompany-resource"></a>Een intercompany-resource instellen
 
@@ -55,11 +55,11 @@ Wanneer u een werknemer instelt als intercompany-resource, moet u de instellinge
 4. Selecteer **Nieuw** op de pagina **Verrekenprijs**.
 5. Selecteer het juiste bedrijf in het veld **Lenende rechtspersoon**.
 6. Als u aan het lenende bedrijf alleen de resource wilt uitlenen die u aan het begin van deze sectie in het veld **Resource** hebt gemaakt, selecteert u e naam van de resource die u hebt gemaakt. Als u alle resources in het uitlenende bedrijf ter beschikking wilt stellen aan het lenende bedrijf, laat u het veld **Resource** leeg.
-7. Stel op de pagina **Parameters voor Projectmanagement en financiële administratie** , op het tabblad **Intercompany** , de optie **Intercompany-resourceplanning en urenstaten inschakelen** in op **Ja**.
+7. Stel op de pagina **Parameters voor Projectmanagement en financiële administratie**, op het tabblad **Intercompany**, de optie **Intercompany-resourceplanning en urenstaten inschakelen** in op **Ja**.
 
 ### <a name="in-the-borrowing-company"></a>In het lenende bedrijf
 
-- Voer op de pagina **Lijst met resources** , in het zoekfilter de naam in van de resource die u voor het uitlenende bedrijf hebt gemaakt, om te controleren of de naam is opgenomen in de resourcelijst voor het lenende bedrijf.
+- Voer op de pagina **Lijst met resources**, in het zoekfilter de naam in van de resource die u voor het uitlenende bedrijf hebt gemaakt, om te controleren of de naam is opgenomen in de resourcelijst voor het lenende bedrijf.
 
 ## <a name="request-project-resources"></a>Aanvragen van projectresources
 Met de functionaliteit voor het plannen van projectresources kunnen resourcemanagers alleen bemande resources verdelen over opdrachten of projecten. Als u deze functionaliteit wilt inschakelen, voert u de volgende taken uit of controleert u of deze zijn voltooid:

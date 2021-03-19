@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074543"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288584"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Betalen bij betaling instellen en gebruiken voor leveranciersbetalingen
 
@@ -52,9 +52,9 @@ Wanneer u Betalen bij betaling-voorwaarden voor een project instelt, geeft u als
 3. Selecteer **Regel toevoegen** op het sneltabblad **Leveranciersovereenkomsten**.
 3. Selecteer in het veld **Rekeningcode** een van de volgende opties:
 
-    - **Tabel** : de Betalen bij betaling-voorwaarden voor leveranciers zijn van toepassing op één leverancier.
-    - **Groep** : de Betalen bij betaling-voorwaarden voor leveranciers zijn van toepassing op alle leveranciers in een leveranciersgroep.
-    - **Alle** : de Betalen bij betaling-voorwaarden voor leveranciers zijn van toepassing op alle leveranciers.
+    - **Tabel**: de Betalen bij betaling-voorwaarden voor leveranciers zijn van toepassing op één leverancier.
+    - **Groep**: de Betalen bij betaling-voorwaarden voor leveranciers zijn van toepassing op alle leveranciers in een leveranciersgroep.
+    - **Alle**: de Betalen bij betaling-voorwaarden voor leveranciers zijn van toepassing op alle leveranciers.
 
 4. Als u **Tabel** of **Groep** hebt gekozen in de vorige stap, selecteert u in het veld **Leverancier/leveranciersgroep** de leverancier of leveranciersgroep waarop de Betalen bij betaling-voorwaarden van toepassing zijn. Als u **Alle** hebt gekozen in de vorige stap, kan het veld **Leverancier/leveranciersgroep** niet worden bewerkt.
 5. Als er inhoudingsvoorwaarden voor leveranciers zijn ingesteld voor de leverancier in het project, selecteert u in het veld **Inhoudingsvoorwaarden voor leveranciers** de regel-id voor de inhoudingsvoorwaarden.

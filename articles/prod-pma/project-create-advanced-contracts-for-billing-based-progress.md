@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074693"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289498"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Geavanceerde contracten maken voor facturering op basis van voortgang
 [!include [banner](../includes/banner.md)]
@@ -66,7 +66,7 @@ Gebruik deze procedure om een projectcontract te creëren voor een project met e
     - **Name**
     - **Type financiering**
     - **Financieringsbron**
-    - **Verkoopvaluta** : standaard wordt deze valuta gebruikt voor klantfacturen die aan het projectcontract zijn gekoppeld. U kunt de verkoopvaluta echter op een specifieke klantfactuur wijzigen.
+    - **Verkoopvaluta**: standaard wordt deze valuta gebruikt voor klantfacturen die aan het projectcontract zijn gekoppeld. U kunt de verkoopvaluta echter op een specifieke klantfactuur wijzigen.
 
 4. Selecteer **OK**. De informatie wordt gekopieerd naar de koptekst van de pagina **Projectcontracten**.
 5. Vul op de pagina **Projectcontracten** vul de rest van de vereiste informatie voor het project in.
@@ -88,7 +88,7 @@ Budgetcategorieën worden gebruikt om automatisch de factuurbedragen te berekene
 
 1. Ga naar **Projectmanagement en financiële administratie** \> **Projecten** \> **Alle projecten**.
 2. Selecteer en open op de pagina **Alle projecten** het gewenste project.
-3. Op de pagina **Projecten** , in het actievenster, op het tabblad **Plan** , in de groep **Begroting** selecteert u **Projectbudget**.
+3. Op de pagina **Projecten**, in het actievenster, op het tabblad **Plan**, in de groep **Begroting** selecteert u **Projectbudget**.
 4. Voer op de pagina **Projectbudget** de geschatte kosten in voor elke categorie in het project.
 
 ## <a name="create-billing-rules-for-progress-billings"></a>Factureringsregels maken voor voortgangsfacturen

@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074548"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288958"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Uitgavenoverzicht van onderzoek naar federale subsidies
 
@@ -53,16 +53,16 @@ U moet de CFDA-nummers instellen die kunnen worden toegevoegd aan subsidies en o
 1. Ga naar **Projectmanagement en financiële administratie \> Instellen \> Subsidies \> CFDA-nummers**.
 2. Selecteer **Nieuw** als u een CFDA-nummer wilt maken.
 3. Voer in de kolom **Nummer** het CFDA-nummer in.
-4. Druk de **Tab** -toets.
+4. Druk de **Tab**-toets.
 5. Voer in de kolom **Beschrijving** de CFDA-titel in.
-6. Druk de **Tab** -toets.
+6. Druk de **Tab**-toets.
 7. Optioneel: voeg in het veld **Programmacluster** de juiste CFDA-cluster toe.
 8. Selecteer **Opslaan** om uw wijzigingen op te slaan.
 
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Stel in voor welke subsidies moet worden gerapporteerd in het onderzoek naar het uitgavenoverzicht van federale subsidies
 
 1. Ga naar **Projectmanagement en financiële administratie \> Subsidies \> Subsidies** en selecteer een bestaande subsidie.
-2. Wijs op het sneltabblad **Instellen** in het veld **Catalog of Federal Domestic Assistance** het CFDA-nummer toe. Het CFDA-nummer van de subsidie bepaalt de CFDA-cluster voor rapportage.
+2. Wijs op het sneltabblad **Instellen** in het veld **Catalog of Federal Domestic Assistance** het CFDA-nummer toe. Het CFDA-nummer van de subsidie bepaalt de CFDA-cluster voor rapportage.
 3. Voer op het sneltabblad **Contactgegevens** de gegevens in van de subsidieverstrekker door deze stappen te volgen:
 
     1. Voer in het veld **Subsidieontvanger** de klant in die verantwoordelijk is voor de subsidie. Voor een bestaande subsidie is deze informatie mogelijk al ingevoerd.
@@ -79,14 +79,14 @@ De federale overheid financiert een infrastructuurproject voor een staat. De fed
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Subsidies uitsluiten van SEFA-rapportage op basis van het type subsidie
 
-1. Ga naar **Projectmanagement en financiële administratie \> Instellen \> Subsidies \> Subsidietypes**.
-2. Schakel op het sneltabblad **Standaardinformatie** het selectievakje **Uitsluiten van uitgavenoverzicht van federale subsidies** in.
+1. Ga naar **Projectmanagement en financiële administratie \> Instellen \> Subsidies \> Subsidietypes**.
+2. Schakel op het sneltabblad **Standaardinformatie** het selectievakje **Uitsluiten van uitgavenoverzicht van federale subsidies** in.
 3. Selecteer **Opslaan** om uw wijzigingen op te slaan.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Het onderzoek naar het uitgavenoverzicht van federale subsidies uitvoeren
 
 1. Ga naar **Projectmanagement en financiële administratie \> Rapporten en informatieverzoeken \> Informatieverzoek voor subsidies \> Uitgavenoverzicht van federale subsidies**.
-2. Volg deze stappen in de sectie **Parameters** :
+2. Volg deze stappen in de sectie **Parameters**:
 
     1. Selecteer in het veld **Datuminterval** de code voor het datuminterval. Of bepaal het datuminterval in de velden **Begindatum** en **Einddatum**.
     2. Optioneel: als u alleen gefactureerde transacties als omzet in de aanvraag wilt opnemen, stelt u de optie **Alleen gefactureerde omzet opnemen** in op **Ja**.

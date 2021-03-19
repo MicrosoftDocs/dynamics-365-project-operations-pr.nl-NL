@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074707"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289768"
 ---
 # <a name="project-management-and-accounting-overview"></a>Overzicht van projectmanagement en financiële administratie
 
@@ -205,7 +205,7 @@ U kunt artikelen uit de bedrijfsvoorraad bestellen voor verbruik bij een project
 
 De manier waarop u artikelen bestelt, is afhankelijk van waar u ze bestelt:
 
--   Als u artikelen uit de voorraad van het bedrijf wilt bestellen, moet u de bestelling invoeren als artikelvereiste. Als u de pagina **Artikelvereisten** gebruikt, kunt u de vereiste zo instellen dat u artikelen als deelleveringen ontvangt. Daarom kunt u het verbruik van een aantal artikelen uitstellen totdat de artikelen nodig zijn.
+-   Als u artikelen uit de voorraad van het bedrijf wilt bestellen, moet u de bestelling invoeren als artikelvereiste. Als u de pagina **Artikelvereisten** gebruikt, kunt u de vereiste zo instellen dat u artikelen als deelleveringen ontvangt. Daarom kunt u het verbruik van een aantal artikelen uitstellen totdat de artikelen nodig zijn.
 -   Als u artikelen van een externe leverancier wilt bestellen, moet u de order als inkooporder maken op de pagina **Inkooporder**.
 
 > [!NOTE] 
@@ -300,7 +300,7 @@ Op basis van uw instellingen kunt u prognoses opstellen voor de instroom van kas
 -   **Projectdatum:** 5 maart 2012.
 -   **Factuurdatum:** 31 maart 2012. Deze datum wordt bepaald op basis van factuurfrequentie. Voor dit voorbeeld stelt u de factuurfrequentie in op de huidige maand. Daarom worden alle transacties die in de maand maart worden geboekt, op de laatste dag van de maand gefactureerd.
 -   **Vervaldatum:** 14 april 2012. Deze datum wordt bepaald op basis van de betalingsvoorwaarden die voor het project zijn vastgesteld. Voor dit voorbeeld hebt u een betalingstermijn van 14 dagen geselecteerd. Daarom worden 14 dagen toegevoegd aan de factuurdatum om op een vervaldatum van 14 april 2012 uit te komen.
--   **Verwachte betalingsdatum verkoop:** 27 april 2012. Deze datum wordt berekend door het aantal dagen in het veld **Algemene bufferdagen** op de pagina **Parameters voor Projectmanagement en financiële administratie** toe te voegen aan het aantal dagen in het veld **Individuele bufferdagen** op de pagina **Projectcontracten** en vervolgens het totaal toe te voegen aan het aantal dagen in het veld **Vervaldatum**. In dit voorbeeld hebt u **3** ingevoerd in het veld **Algemene bufferdagen** en **10** in het veld **Individuele bufferdagen**. Daarom worden 13 dagen toegevoegd aan de vervaldatum om op een verwachte betalingsdatum voor verkoop van 27 april 2012 uit te komen.
+-   **Verwachte betalingsdatum verkoop:** 27 april 2012. Deze datum wordt berekend door het aantal dagen in het veld **Algemene bufferdagen** op de pagina **Parameters voor Projectmanagement en financiële administratie** toe te voegen aan het aantal dagen in het veld **Individuele bufferdagen** op de pagina **Projectcontracten** en vervolgens het totaal toe te voegen aan het aantal dagen in het veld **Vervaldatum**. In dit voorbeeld hebt u **3** ingevoerd in het veld **Algemene bufferdagen** en **10** in het veld **Individuele bufferdagen**. Daarom worden 13 dagen toegevoegd aan de vervaldatum om op een verwachte betalingsdatum voor verkoop van 27 april 2012 uit te komen.
 
 De algemene bufferdagen kunnen de individuele bufferdagen vervangen of worden toegevoegd aan de individuele bufferdagen:
 
@@ -323,9 +323,9 @@ Op basis van de dagen die zijn gedefinieerd, kan de betalingsdatum van de kosten
 
 De projectdatum van de transactie is bijvoorbeeld 5 maart 2012 en de volgende betalingsvoorwaarden zijn vastgesteld:
 
--   **Uren:** huidige maand ( **M** )
--   **Onkosten:** 14 dagen ( **D14** )
--   **Artikelen:** 30 dagen ( **D30** )
+-   **Uren:** huidige maand (**M**)
+-   **Onkosten:** 14 dagen (**D14**)
+-   **Artikelen:** 30 dagen (**D30**)
 
 Op basis van deze instellingen is hier de betalingsdatum van de kosten voor elk transactietype:
 
@@ -364,14 +364,14 @@ U kunt de kosten die uw organisatie maakt tijdens een project volgen op de pagin
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>De resterende gebudgetteerde bedragen bekijken
 
-Als **Resterend budget** is geselecteerd als de kostenbeheersingsmethode op de pagina **Parameters voor Projectmanagement en financiële administratie** , worden op de pagina **Kostenbeheersing** kosten berekend die niet als werkelijk zijn geboekt of als toegezegd zijn gemarkeerd. Met name de bedragen op het tabblad **Algemeen** in het onderste deelvenster van de pagina **Kostenbeheersing** worden op de volgende manieren berekend:
+Als **Resterend budget** is geselecteerd als de kostenbeheersingsmethode op de pagina **Parameters voor Projectmanagement en financiële administratie**, worden op de pagina **Kostenbeheersing** kosten berekend die niet als werkelijk zijn geboekt of als toegezegd zijn gemarkeerd. Met name de bedragen op het tabblad **Algemeen** in het onderste deelvenster van de pagina **Kostenbeheersing** worden op de volgende manieren berekend:
 
 -   **Werkelijke kosten** - Het totale bedrag dat aan het project is besteed voor de geselecteerde kostenregel. Het werkelijke kostenbedrag wordt berekend op de pagina **Grootboekupdates**.
 -   **Toegezegde kosten** - Het extra bedrag aan kosten waartoe de rechtspersoon zich heeft verbonden. De specifieke toegezegde kostenbedragen worden berekend op de pagina **Toegezegde kosten**.
 -   **Resterend budget** - Het bedrag van het oorspronkelijk gebudgetteerde bedrag dat nog beschikbaar is voor de geselecteerde kostenregel. Het resterende budgetbedrag wordt berekend op de pagina **Preview grootboek**.
 -   **Totale kosten** - De som van de werkelijke kosten, toegezegde kosten en resterende budgetbedragen.
 
-Op de pagina **Kostenbeheersing** , op het tabblad **Afwijking** kunt u een vergelijking bekijken tussen de totale verwachte kosten en het oorspronkelijke budget. Deze vergelijking laat eventuele verschillen tussen deze bedragen zien. Daarom kunt u zien waar de gegevens niet overeenkomen. De afwijkingsbedragen worden op de volgende manieren berekend:
+Op de pagina **Kostenbeheersing**, op het tabblad **Afwijking** kunt u een vergelijking bekijken tussen de totale verwachte kosten en het oorspronkelijke budget. Deze vergelijking laat eventuele verschillen tussen deze bedragen zien. Daarom kunt u zien waar de gegevens niet overeenkomen. De afwijkingsbedragen worden op de volgende manieren berekend:
 
 -   **Oorspronkelijk budget** - Het bedrag dat oorspronkelijk was begroot voor de geselecteerde kostenregel. Het oorspronkelijke budgetbedrag wordt berekend op de pagina **Preview grootboek**.
 -   **Totale kosten** - De som van de werkelijke kosten, toegezegde kosten en resterend budget, zoals gerapporteerd op het tabblad **Algemeen**.
@@ -381,7 +381,7 @@ Op de pagina **Kostenbeheersing** , op het tabblad **Afwijking** kunt u een verg
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>De totale gebudgetteerde bedragen bekijken
 
-Als **Totaal budget** is geselecteerd als de kostenbeheersingsmethode op de pagina **Parameters voor Projectmanagemen t en financiële administratie** , worden op de pagina **Kostenbeheersing** de werkelijke kosten en de totale kosten van het project berekend om u te helpen eventuele verschillen tussen de twee te ontdekken. Met name op de pagina **Kostenbeheersing** worden de bedragen in de kolommen in het onderste deelvenster van het tabblad **Algemeen** op de volgende manieren berekend:
+Als **Totaal budget** is geselecteerd als de kostenbeheersingsmethode op de pagina **Parameters voor Projectmanagemen t en financiële administratie**, worden op de pagina **Kostenbeheersing** de werkelijke kosten en de totale kosten van het project berekend om u te helpen eventuele verschillen tussen de twee te ontdekken. Met name op de pagina **Kostenbeheersing** worden de bedragen in de kolommen in het onderste deelvenster van het tabblad **Algemeen** op de volgende manieren berekend:
 
 -   **Totale gebudgetteerde kosten** - Het totale gebudgetteerde bedrag voor de geselecteerde kostenregel.
 -   **Werkelijke kosten** - Het totale bedrag aan gemaakte kosten voor het project tot heden voor de geselecteerde kostenregels.
@@ -432,7 +432,7 @@ U kunt een projectoverzicht opstellen om een snelle momentopname van de voortgan
 -   Projectdatum/grootboekdatum
 -   Informatie
 
-Nadat het overzicht is berekend, kunt u de volgende informatie bekijken op de verschillende tabbladen op de pagina **Projectoverzichten** :
+Nadat het overzicht is berekend, kunt u de volgende informatie bekijken op de verschillende tabbladen op de pagina **Projectoverzichten**:
 
 -   **Algemeen** - Algemene informatie over de elementaire winst- en verliesstructuur van het project.
 -   **Winst en verlies** - Informatie over opgebouwde inkomsten.
