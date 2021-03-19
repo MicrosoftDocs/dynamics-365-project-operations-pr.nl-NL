@@ -18,29 +18,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a0a12840f7f53cab0e81a5d3764d5c1a9d4df6a3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: da7371a050ae6962d7081ff7bd28e2c3ae6f623a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149042"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275127"
 ---
-# <a name="resource-management-guide"></a><span data-ttu-id="05abe-103">Handleiding resourcemanagent</span><span class="sxs-lookup"><span data-stu-id="05abe-103">Resource management guide</span></span>
+# <a name="resource-management-guide"></a><span data-ttu-id="a6906-103">Handleiding resourcemanagent</span><span class="sxs-lookup"><span data-stu-id="a6906-103">Resource management guide</span></span>
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="05abe-104">De PDF-koppeling die voorheen in dit onderwerp was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="05abe-104">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="a6906-104">De PDF-koppeling die voorheen in dit onderwerp was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="a6906-104">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="05abe-105">Startpagina voor resourcebeheer</span><span class="sxs-lookup"><span data-stu-id="05abe-105">Resource management home page</span></span>](../resource-management-home-page.md)
-- [<span data-ttu-id="05abe-106">Belangrijke concepten</span><span class="sxs-lookup"><span data-stu-id="05abe-106">Key concepts</span></span>](../reports-key-concepts.md)
-- [<span data-ttu-id="05abe-107">Resourceaanvragen vervullen</span><span class="sxs-lookup"><span data-stu-id="05abe-107">Fulfilling resource requests</span></span>](../resource-management-fulfill-requests.md)
-- [<span data-ttu-id="05abe-108">Resources voorstellen</span><span class="sxs-lookup"><span data-stu-id="05abe-108">Proposing resources</span></span>](../resource-management-propose-resources.md)
-- [<span data-ttu-id="05abe-109">Resources boeken</span><span class="sxs-lookup"><span data-stu-id="05abe-109">Booking resources</span></span>](../resource-management-book-resources-scheduleboard.md)
-- [<span data-ttu-id="05abe-110">Vereisten zacht boeken</span><span class="sxs-lookup"><span data-stu-id="05abe-110">Soft-book requirements</span></span>](../resource-management-softbook-requirements.md)
-- [<span data-ttu-id="05abe-111">Vaardigheids- en deskundigheidsmodellen</span><span class="sxs-lookup"><span data-stu-id="05abe-111">Skills and proficiency models</span></span>](../resource-management-skills-proficiency.md)
-- [<span data-ttu-id="05abe-112">Veelgestelde vragen over resourcebeheer</span><span class="sxs-lookup"><span data-stu-id="05abe-112">Resource management FAQ</span></span>](../resource-management-faq.md)
+- [<span data-ttu-id="a6906-105">Startpagina voor resourcebeheer</span><span class="sxs-lookup"><span data-stu-id="a6906-105">Resource management home page</span></span>](../resource-management-home-page.md)
+- [<span data-ttu-id="a6906-106">Belangrijke concepten</span><span class="sxs-lookup"><span data-stu-id="a6906-106">Key concepts</span></span>](../reports-key-concepts.md)
+- [<span data-ttu-id="a6906-107">Resourceaanvragen vervullen</span><span class="sxs-lookup"><span data-stu-id="a6906-107">Fulfilling resource requests</span></span>](../resource-management-fulfill-requests.md)
+- [<span data-ttu-id="a6906-108">Resources voorstellen</span><span class="sxs-lookup"><span data-stu-id="a6906-108">Proposing resources</span></span>](../resource-management-propose-resources.md)
+- [<span data-ttu-id="a6906-109">Resources boeken</span><span class="sxs-lookup"><span data-stu-id="a6906-109">Booking resources</span></span>](../resource-management-book-resources-scheduleboard.md)
+- [<span data-ttu-id="a6906-110">Vereisten zacht boeken</span><span class="sxs-lookup"><span data-stu-id="a6906-110">Soft-book requirements</span></span>](../resource-management-softbook-requirements.md)
+- [<span data-ttu-id="a6906-111">Vaardigheids- en deskundigheidsmodellen</span><span class="sxs-lookup"><span data-stu-id="a6906-111">Skills and proficiency models</span></span>](../resource-management-skills-proficiency.md)
+- [<span data-ttu-id="a6906-112">Veelgestelde vragen over resourcebeheer</span><span class="sxs-lookup"><span data-stu-id="a6906-112">Resource management FAQ</span></span>](../resource-management-faq.md)
 
 > [!NOTE]
-> <span data-ttu-id="05abe-113">Dit onderwerp wordt verwijderd in een toekomstige documentatie-update.</span><span class="sxs-lookup"><span data-stu-id="05abe-113">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="a6906-113">Dit onderwerp wordt verwijderd in een toekomstige documentatie-update.</span><span class="sxs-lookup"><span data-stu-id="a6906-113">This topic will be removed in a future documentation update.</span></span> 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
