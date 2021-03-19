@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131697"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287052"
 ---
 # <a name="expense-estimates"></a>Onkostenschattingen
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Naast resourcegebaseerde bronnen kunnen projectmanagers in Dynamics 365 Project Operations projectgebaseerde onkosten voor elk project definiëren. Elk onkostenitem kan worden gekoppeld aan een specifieke projecttaak of onkostencategorie. Onkostencategorieën worden doorgaans op organisatieniveau gedefinieerd. De prijzen voor elke onkostencategorie worden doorgaans gedefinieerd in de volgende hiërarchie:
+Behalve het definiëren van op resources gebaseerde schattingen, stelt Dynamics 365 Project Operations projectmanagers in staat om projectgebaseerde onkosten voor elk project te definiëren. Elk onkostenitem kan worden gekoppeld aan een specifieke projecttaak of onkostencategorie. Onkostencategorieën worden doorgaans op organisatieniveau gedefinieerd. De prijzen voor elke onkostencategorie worden doorgaans gedefinieerd in de volgende hiërarchie:
 
 - Organisatie
 - Klant

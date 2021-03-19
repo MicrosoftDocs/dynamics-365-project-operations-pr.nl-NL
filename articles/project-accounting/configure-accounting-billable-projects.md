@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131967"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287637"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Boekhouding configureren voor factureerbare projecten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Dynamics 365 Project Operations ondersteunt verschillende boekhoudopties voor factureerbare projecten die tijd- en materiaaltransacties en transacties met een vaste prijs bevatten.
+Dynamics 365 Project Operations ondersteunt verschillende boekhoudopties voor factureerbare projecten, waaronder tijd en materiaal en transacties met een vaste prijs.
 
 - **Tijd- en materiaaltransacties** : deze transacties worden gefactureerd naarmate het werk vordert op basis van het verbruik van uren, onkosten, artikelen of vergoedingen voor het project. Deze transactiekosten kunnen worden vergeleken met de opbrengsten van elke transactie en het project wordt gefactureerd naarmate het werk vordert. Projectopbrengsten kunnen ook worden verzameld op het moment dat de transactie plaatsvindt. Tijdens de facturering wordt omzet herkend en wordt, indien van toepassing, verzamelde omzet teruggeboekt.
 - **Transacties met een vaste prijs**: deze transacties worden gefactureerd volgens een factureringsschema dat is gebaseerd op het projectcontract. Omzet voor transacties met een vaste prijs kan worden verwerkt bij facturering of periodiek worden berekend en geboekt volgens de methode **Voltooid contract** of **Voltooid percentage**.

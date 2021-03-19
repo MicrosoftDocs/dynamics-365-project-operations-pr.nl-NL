@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133316"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287232"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integratiejournaal in Project Operations
 
@@ -30,7 +30,7 @@ Records in het Project Operations-integratiejournaal worden gemaakt met behulp v
 Wanneer het periodieke proces wordt uitgevoerd, worden alle werkelijke waarden gevonden die nog niet zijn toegevoegd aan het Project Operations-integratiejournaal. Er wordt een journaalregel aangemaakt voor elke daadwerkelijke transactie.
 Het systeem groepeert dagboekregels in afzonderlijke dagboeken op basis van de waarde die is geselecteerd in het veld **Periode-eenheid in het Project Operations-integratiejournaal** (**Finance** > **Projectbeheer en financiële administratie** > **Instellen** > **Projectbeheer en boekhoudparameters**, **Project Operations op het tabblad Dynamics 365 Customer Engagement**). Mogelijke waarden voor dit veld zijn:
 
-  - _*Dagen**: werkelijke waarden zijn gegroepeerd op transactiedatum. Voor elke dag wordt een apart dagboek aangemaakt.
+  - **Dagen**: werkelijke waarden zijn gegroepeerd op transactiedatum. Voor elke dag wordt een apart dagboek aangemaakt.
   - **Maanden**: werkelijke waarden zijn gegroepeerd per kalendermaand. Voor elke maand wordt een apart dagboek aangemaakt.
   - **Jaren**: werkelijke waarden zijn gegroepeerd per kalenderjaar. Voor elk jaar wordt een apart dagboek aangemaakt.
   - **Alles**: alle werkelijke transacties worden in hetzelfde integratiejournaal opgenomen. Als het journaal niet beschikbaar is wanneer het periodieke proces wordt uitgevoerd, bijvoorbeeld als het journaal bezig is met het boeken van transacties, wordt een nieuw journaal aangemaakt.
