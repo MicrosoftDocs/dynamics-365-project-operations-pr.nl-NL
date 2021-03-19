@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175885"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290038"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Aanmelden voor een preview-abonnement - lite 
 
-In dit onderwerp wordt beschreven hoe u zich kunt abonneren op het partneraanbod voor een preview, en hoe u Dynamics 365 Project Operations Lite kunt implementeren, van deal tot pro-formafacturering.
+In dit onderwerp wordt uitgelegd hoe u zich abonneert op de preview-partneraanbieding en Dynamics 365 Project Operations Lite-implementatie - van deal tot proforma-facturering implementeert.
 
 > [!NOTE]
 > Dit proces zal veranderen in komende releases van Project Operations.
@@ -42,7 +42,7 @@ Wanneer u een goedkeuring voor een [preview-aanvraag](https://forms.office.com/F
 
 Voordat u begint, moet u ervoor zorgen dat u bent aangemeld bij een browser met de werkaccount van de gebruiker in de gewenste tenant voor de preview van Project Operations.
 
-1. Wissel de eerste aanbiedingscode in, **Dynamics 365 Project Operations (CRM) - proefversie van preview** door deze in de browser-URL te plakken.
+1. Wissel de eerste aanbiedingscode **Dynamics 365 Project Operations (CRM) - proefversie voor preview** in door de in de browser-URL te plakken.
 
 ![Aanbieding inwisselen](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Herhaal dezelfde stappen als bij de eerste aanbiedingscode. Zorg ervoor dat u de
 
 ![Licenties toewijzen](./media/15AssignLicenses.png)
 
-3. Controleer of de licenties **Dynamics 365 Project Operations (CRM) - preview** en **Office 365 Project Operations - preview** zijn geselecteerd. 
+3. Controleer of de **Dynamics 365 Project Operations (CRM) Preview**- en **Office 365 Project Operations - Preview**-licenties zijn geselecteerd. 
 4. Selecteer **Wijzigingen opslaan**.
 
 ## <a name="create-a-new-cds-environment"></a>Een nieuwe CDS-omgeving maken
