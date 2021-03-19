@@ -18,43 +18,46 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f67254267e1d6f5db3a1cdf4b9c0f4d44226a4f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 55e94386ec086e369ec4e9df9f94572580d72325
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143912"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281202"
 ---
-# <a name="view-and-send-invoices-project-service"></a><span data-ttu-id="c5d64-103">Facturen weergeven en verzenden (Project Service)</span><span class="sxs-lookup"><span data-stu-id="c5d64-103">View and send invoices (Project Service)</span></span>
+# <a name="view-and-send-invoices-project-service"></a><span data-ttu-id="33d27-103">Facturen weergeven en verzenden (Project Service)</span><span class="sxs-lookup"><span data-stu-id="33d27-103">View and send invoices (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="c5d64-104">Wanneer u een project maakt, stelt u de frequentie in om facturen te genereren.</span><span class="sxs-lookup"><span data-stu-id="c5d64-104">When you create a project, you set the frequency to generate invoices.</span></span> <span data-ttu-id="c5d64-105">U kunt facturen weergeven en bekijken voordat u deze naar uw klanten verzendt.</span><span class="sxs-lookup"><span data-stu-id="c5d64-105">You can view and review invoices before you send them to your customers.</span></span>  
+<span data-ttu-id="33d27-104">Wanneer u een project maakt, stelt u de frequentie in om facturen te genereren.</span><span class="sxs-lookup"><span data-stu-id="33d27-104">When you create a project, you set the frequency to generate invoices.</span></span> <span data-ttu-id="33d27-105">U kunt facturen weergeven en bekijken voordat u deze naar uw klanten verzendt.</span><span class="sxs-lookup"><span data-stu-id="33d27-105">You can view and review invoices before you send them to your customers.</span></span>  
   
-1.  <span data-ttu-id="c5d64-106">Ga naar **Project Service > Facturen**.</span><span class="sxs-lookup"><span data-stu-id="c5d64-106">Go to **Project Service > Invoices**.</span></span>  
+1.  <span data-ttu-id="33d27-106">Ga naar **Project Service > Facturen**.</span><span class="sxs-lookup"><span data-stu-id="33d27-106">Go to **Project Service > Invoices**.</span></span>  
   
-2.  <span data-ttu-id="c5d64-107">Klik op de factuur die u wilt controleren.</span><span class="sxs-lookup"><span data-stu-id="c5d64-107">Click the invoice you want to review.</span></span>  
+2.  <span data-ttu-id="33d27-107">Klik op de factuur die u wilt controleren.</span><span class="sxs-lookup"><span data-stu-id="33d27-107">Click the invoice you want to review.</span></span>  
   
-3.  <span data-ttu-id="c5d64-108">Breng zo nodig wijzigingen aan.</span><span class="sxs-lookup"><span data-stu-id="c5d64-108">Make any changes as necessary.</span></span> <span data-ttu-id="c5d64-109">Als u deze wijzigingen hebt aangebracht, klikt u op **Herberekenen**.</span><span class="sxs-lookup"><span data-stu-id="c5d64-109">When you’re done making changes, click **Recalculate**.</span></span>  
+3.  <span data-ttu-id="33d27-108">Breng zo nodig wijzigingen aan.</span><span class="sxs-lookup"><span data-stu-id="33d27-108">Make any changes as necessary.</span></span> <span data-ttu-id="33d27-109">Als u deze wijzigingen hebt aangebracht, klikt u op **Herberekenen**.</span><span class="sxs-lookup"><span data-stu-id="33d27-109">When you’re done making changes, click **Recalculate**.</span></span>  
   
-4.  <span data-ttu-id="c5d64-110">Wanneer u klaar bent om de factuur te verzenden, klikt u op **Verzenden naar klant**.</span><span class="sxs-lookup"><span data-stu-id="c5d64-110">When you’re ready to send the invoice, click **Send to Customer**.</span></span>  
+4.  <span data-ttu-id="33d27-110">Wanneer u klaar bent om de factuur te verzenden, klikt u op **Verzenden naar klant**.</span><span class="sxs-lookup"><span data-stu-id="33d27-110">When you’re ready to send the invoice, click **Send to Customer**.</span></span>  
   
-5.  <span data-ttu-id="c5d64-111">Zodra de klant de factuur heeft betaald, klikt u op **Factuur markeren als Betaald**.</span><span class="sxs-lookup"><span data-stu-id="c5d64-111">Once the customer has paid the invoice, click **Mark Invoice as Paid**.</span></span>  
+5.  <span data-ttu-id="33d27-111">Zodra de klant de factuur heeft betaald, klikt u op **Factuur markeren als Betaald**.</span><span class="sxs-lookup"><span data-stu-id="33d27-111">Once the customer has paid the invoice, click **Mark Invoice as Paid**.</span></span>  
   
-## <a name="manually-invoice-a-contract"></a><span data-ttu-id="c5d64-112">Een contract handmatig factureren</span><span class="sxs-lookup"><span data-stu-id="c5d64-112">Manually invoice a contract</span></span>  
- <span data-ttu-id="c5d64-113">U kunt een project handmatig factureren in plaats van het automatisch te factureren.</span><span class="sxs-lookup"><span data-stu-id="c5d64-113">You can manually invoice a project instead of invoicing it automatically.</span></span>  
+## <a name="manually-invoice-a-contract"></a><span data-ttu-id="33d27-112">Een contract handmatig factureren</span><span class="sxs-lookup"><span data-stu-id="33d27-112">Manually invoice a contract</span></span>  
+ <span data-ttu-id="33d27-113">U kunt een project handmatig factureren in plaats van het automatisch te factureren.</span><span class="sxs-lookup"><span data-stu-id="33d27-113">You can manually invoice a project instead of invoicing it automatically.</span></span>  
   
-1.  <span data-ttu-id="c5d64-114">Ga naar **Project Service > Projecten**.</span><span class="sxs-lookup"><span data-stu-id="c5d64-114">Go to **Project Service > Projects**.</span></span>  
+1.  <span data-ttu-id="33d27-114">Ga naar **Project Service > Projecten**.</span><span class="sxs-lookup"><span data-stu-id="33d27-114">Go to **Project Service > Projects**.</span></span>  
   
-2.  <span data-ttu-id="c5d64-115">Klik op het project dat u wilt factureren.</span><span class="sxs-lookup"><span data-stu-id="c5d64-115">Click the project you want to invoice.</span></span>  
+2.  <span data-ttu-id="33d27-115">Klik op het project dat u wilt factureren.</span><span class="sxs-lookup"><span data-stu-id="33d27-115">Click the project you want to invoice.</span></span>  
   
-3.  <span data-ttu-id="c5d64-116">Klik op **Verkoop** en klik vervolgens op **Factuur**.</span><span class="sxs-lookup"><span data-stu-id="c5d64-116">Click **Sales** and then click **Invoice**.</span></span>  
+3.  <span data-ttu-id="33d27-116">Klik op **Verkoop** en klik vervolgens op **Factuur**.</span><span class="sxs-lookup"><span data-stu-id="33d27-116">Click **Sales** and then click **Invoice**.</span></span>  
   
-4.  <span data-ttu-id="c5d64-117">Selecteer de parameters voor de transacties die u wilt factureren, waaronder uiterste datum, type van te factureren item, eenheid en mijlpaal.</span><span class="sxs-lookup"><span data-stu-id="c5d64-117">Select the parameters for the transactions you want to invoice, including cutoff date, type of item to invoice, unit, and milestone.</span></span> <span data-ttu-id="c5d64-118">Wanneer u de parameters hebt geselecteerd, klikt u op **Volgende**.</span><span class="sxs-lookup"><span data-stu-id="c5d64-118">When you’re done selecting the parameters, click **Next**.</span></span>  
+4.  <span data-ttu-id="33d27-117">Selecteer de parameters voor de transacties die u wilt factureren, waaronder uiterste datum, type van te factureren item, eenheid en mijlpaal.</span><span class="sxs-lookup"><span data-stu-id="33d27-117">Select the parameters for the transactions you want to invoice, including cutoff date, type of item to invoice, unit, and milestone.</span></span> <span data-ttu-id="33d27-118">Wanneer u de parameters hebt geselecteerd, klikt u op **Volgende**.</span><span class="sxs-lookup"><span data-stu-id="33d27-118">When you’re done selecting the parameters, click **Next**.</span></span>  
   
-5.  <span data-ttu-id="c5d64-119">Klik op **Voltooien**.</span><span class="sxs-lookup"><span data-stu-id="c5d64-119">Click **Finish**.</span></span>  
+5.  <span data-ttu-id="33d27-119">Klik op **Voltooien**.</span><span class="sxs-lookup"><span data-stu-id="33d27-119">Click **Finish**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="c5d64-120">Zie ook</span><span class="sxs-lookup"><span data-stu-id="c5d64-120">See Also</span></span>  
- [<span data-ttu-id="c5d64-121">Projectmanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="c5d64-121">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="33d27-120">Zie ook</span><span class="sxs-lookup"><span data-stu-id="33d27-120">See Also</span></span>  
+ [<span data-ttu-id="33d27-121">Projectmanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="33d27-121">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

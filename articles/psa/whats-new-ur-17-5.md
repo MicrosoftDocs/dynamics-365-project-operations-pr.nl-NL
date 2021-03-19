@@ -17,30 +17,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd4142176258820f4718f457ca8610f19f584a32
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4243a325d1614e571f1e8e35e99792c8febf4fad
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280842"
 ---
-# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="6e8b3-103">Project Service Automation, updaterelease 17.5, v3</span><span class="sxs-lookup"><span data-stu-id="6e8b3-103">Project Service Automation Update Release 17.5, V3</span></span>
+# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="6a22e-103">Project Service Automation, updaterelease 17.5, v3</span><span class="sxs-lookup"><span data-stu-id="6a22e-103">Project Service Automation Update Release 17.5, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="6e8b3-104">Met genoegen kondigen we de nieuwste update aan voor de toepassing Project Service Automation voor Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="6e8b3-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="6e8b3-105">Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid.</span><span class="sxs-lookup"><span data-stu-id="6e8b3-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="6e8b3-106">Deze versie is compatibel met Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="6e8b3-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="6e8b3-107">Als u deze release wilt bijwerken, gaat u online naar het Beheercentrum voor Dynamics 365 en naar de pagina Oplossingen om de update te installeren.</span><span class="sxs-lookup"><span data-stu-id="6e8b3-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="6e8b3-108">Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="6e8b3-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="6a22e-104">Met genoegen kondigen we de nieuwste update aan voor de toepassing Project Service Automation voor Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="6a22e-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="6a22e-105">Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid.</span><span class="sxs-lookup"><span data-stu-id="6a22e-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="6a22e-106">Deze versie is compatibel met Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="6a22e-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="6a22e-107">Als u deze release wilt bijwerken, gaat u online naar het Beheercentrum voor Dynamics 365 en naar de pagina Oplossingen om de update te installeren.</span><span class="sxs-lookup"><span data-stu-id="6a22e-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="6a22e-108">Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="6a22e-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="6e8b3-109">In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw of gewijzigd zijn voor v3, updaterelease 17.5.</span><span class="sxs-lookup"><span data-stu-id="6e8b3-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="6e8b3-110">Deze versie heeft het buildnummer V3.10.7.32 en is algemeen beschikbaar via een zelf-update vanaf maart 2020.</span><span class="sxs-lookup"><span data-stu-id="6e8b3-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
-
-
-## <a name="update-release-175"></a><span data-ttu-id="6e8b3-111">Updaterelease 17.5</span><span class="sxs-lookup"><span data-stu-id="6e8b3-111">Update Release 17.5</span></span>
-
-### <a name="bug-fixes"></a><span data-ttu-id="6e8b3-112">Bugfixes</span><span class="sxs-lookup"><span data-stu-id="6e8b3-112">Bug fixes</span></span>
+<span data-ttu-id="6a22e-109">In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw of gewijzigd zijn voor v3, updaterelease 17.5.</span><span class="sxs-lookup"><span data-stu-id="6a22e-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="6a22e-110">Deze versie heeft het buildnummer V3.10.7.32 en is algemeen beschikbaar via een zelf-update vanaf maart 2020.</span><span class="sxs-lookup"><span data-stu-id="6a22e-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
 
 
-<span data-ttu-id="6e8b3-113">**Projectbeheer**</span><span class="sxs-lookup"><span data-stu-id="6e8b3-113">**Project Management**</span></span>
+## <a name="update-release-175"></a><span data-ttu-id="6a22e-111">Updaterelease 17.5</span><span class="sxs-lookup"><span data-stu-id="6a22e-111">Update Release 17.5</span></span>
 
-- <span data-ttu-id="6e8b3-114">Opgelost: problemen met serversynchronisatie opgelost, die zich voordoen bij langdurige taken.</span><span class="sxs-lookup"><span data-stu-id="6e8b3-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
-- <span data-ttu-id="6e8b3-115">Opgelost: 24-uurs werkuursjablonen gewijzigd die onterecht een extra dag aan taken toevoegen.</span><span class="sxs-lookup"><span data-stu-id="6e8b3-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
-- <span data-ttu-id="6e8b3-116">Opgelost: +13 GMT-werkuursjablonen gewijzigd die taken onterecht één dag naar voren verschuiven.</span><span class="sxs-lookup"><span data-stu-id="6e8b3-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="6a22e-112">Bugfixes</span><span class="sxs-lookup"><span data-stu-id="6a22e-112">Bug fixes</span></span>
 
+
+<span data-ttu-id="6a22e-113">**Projectbeheer**</span><span class="sxs-lookup"><span data-stu-id="6a22e-113">**Project Management**</span></span>
+
+- <span data-ttu-id="6a22e-114">Opgelost: problemen met serversynchronisatie opgelost, die zich voordoen bij langdurige taken.</span><span class="sxs-lookup"><span data-stu-id="6a22e-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
+- <span data-ttu-id="6a22e-115">Opgelost: 24-uurs werkuursjablonen gewijzigd die onterecht een extra dag aan taken toevoegen.</span><span class="sxs-lookup"><span data-stu-id="6a22e-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
+- <span data-ttu-id="6a22e-116">Opgelost: +13 GMT-werkuursjablonen gewijzigd die taken onterecht één dag naar voren verschuiven.</span><span class="sxs-lookup"><span data-stu-id="6a22e-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
