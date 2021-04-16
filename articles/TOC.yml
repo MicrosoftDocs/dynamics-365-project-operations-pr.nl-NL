@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Nieuwe functies
       items:
+        - name: April 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Maart 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Februari 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -64,7 +66,7 @@
           items:
             - name: Overzicht van projectgebaseerde verkoopkansen beheren
               href: sales/manage-project-based-opportunities.md
-            - name: Instellingen voor projectgebaseerde verkoopkans
+            - name: Koptekstdetails voor projectgebaseerde verkoopkansen
               href: sales/opportunity-header.md
             - name: Projectgebaseerde verkoopkansregels
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: Overzicht van projectprijsopgaven beheren
               href: pro/sales/manage-quotes-sales.md
-            - name: Concepten voor projectprijsopgaven
+            - name: Unieke concepten voor projectgebaseerde prijsopgaven
               href: sales/quotes-key-concepts.md
-            - name: Instellingen voor projectprijsopgaven
+            - name: Koptekstdetails voor projectgebaseerde prijsopgaven
               href: sales/quote-values-budget-limits-contract.md
             - name: Meerdere klanten in een projectprijsopgave beheren
               href: sales/manage-multiple-customers-quote.md
             - name: Projectprijslijsten in een prijsopgave beheren
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Projectgebaseerde prijsopgaveregels
               items:
                 - name: Overzicht van projectgebaseerde prijsopgaveregels
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Meerdere klanten in projectgebaseerde prijsopgaveregels beheren
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Projecten en taken toewijzen aan projectgebaseerde prijsopgaveregels
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Toerekenbare componenten voor projectgebaseerde prijsopgaveregels configureren
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: De toerekenbare componenten van een projectprijsopgaveregel configureren
                   href: sales/configure-chargeable-quoteline.md
-                - name: Schattingen maken op een prijsopgaveregel
+                - name: Een schatting voor een projectprijsopgaveregel maken
                   href: sales/create-estimate-quote-line.md
                 - name: Schattingen uit een project importeren in een projectgebaseerde prijsopgaveregel
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Overzicht van projectcontracten beheren
               href: pro/sales/manage-contracts-sales.md
-            - name: Concepten voor projectcontracten
+            - name: Unieke concepten voor projectgebaseerde contracten
               href: sales/contracts-key-concepts.md
-            - name: Instellingen voor projectcontracten
+            - name: Koptekstdetails voor projectgebaseerde contracten
               href: sales/project-contract-settings.md
             - name: Projectprijslijsten in projectcontracten beheren
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: Projectgebaseerde contractregels
               items:
                 - name: Overzicht van projectgebaseerde contractregels
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Meerdere klanten in projectgebaseerde contractregels beheren
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Toerekenbare componenten van een projectgebaseerde contractregel configureren
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Een schatting maken voor een projectgebaseerde contractregel
+                - name: Projecten en taken toewijzen op een projectcontractregel
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Toerekenbare componenten voor een projectcontractregel configureren
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Een schatting maken voor een projectcontractregel
                   href: sales/create-estimate-contract-line.md
                 - name: Schattingen uit een project importeren in een projectgebaseerde contractregel
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Een projectcontract bevestigen
               href: pro/sales/confirm-contract-sales.md
-            - name: Een projectcontract kopiëren
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Vooruitbetalingen en voorschotten
               items:
                 - name: Vooruitbetalingen en op voorschot gebaseerde contracten
@@ -146,16 +152,16 @@
       items:
         - name: Prijslijst instellen
           items:
-            - name: Prijslijsten instellen
+            - name: Prijslijstdefinitie
               href: pricing-costing/price-list-setup.md
-            - name: Productprijslijsten
-              href: pricing-costing/product-price-list.md
-            - name: Factureringstarieven voor arbeid instellen
+            - name: Tarieven voor de facturering van arbeid instellen
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Tarieven voor loonkosten instellen
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Kosten- en verkooptarieven voor onkosten instellen
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Kosten- en verkooptarieven voor materialen instellen
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Standaardwaarden en overschrijvingen
           items:
             - name: Standaardprijslijsten
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: Prijslijsten kopiëren
               href: pricing-costing/copy-price-lists.md
+            - name: Prijslijsten deactiveren
+              href: pricing-costing/deactivatepricelists.md
         - name: Prijsdimensies
           items:
             - name: Overzicht van prijsdimensies
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Toewijzingen maken
               href: project-management/create-assignments.md
-        - name: Ramingsprojecten
+        - name: Financiële schattingen voor projecten
           items:
-            - name: Overzicht van ramingsprojecten
+            - name: Concepten voor financiële schattingen
               href: project-management/estimating-projects-overview.md
-            - name: Resourceschattingen
+            - name: Financiële schattingen voor resourcetijd in projecten
               href: project-management/resource-estimates.md
-            - name: Onkostenramingen maken
+            - name: Financiële schattingen voor onkosten in projecten
               href: project-management/create-expense-estimates.md
-        - name: Projecttracering
+            - name: Financiële schattingen voor materialen in projecten
+              href: project-management/create-material-estimate.md
+        - name: Project bijhouden
           items:
-            - name: Overzicht van projecttracering
+            - name: Projectinspanning bijhouden
               href: project-management/project-tracking-overview.md
+            - name: Arbeidskosten bijhouden voor projecten
+              href: project-management/project-cost-tracking.md
+            - name: Arbeidsinkomsten bijhouden voor projecten
+              href: project-management/project-sales-tracking.md
             - name: Schatting bij voltooiing bijwerken
               href: project-management/update-completed-estimate.md
         - name: Projectteamleden
@@ -248,6 +262,8 @@
           items:
             - name: Projectsjablonen ontwikkelen met Project kopiëren
               href: project-management/dev-copy-project.md
+            - name: Plannings-API's gebruiken (openbare preview)
+              href: project-management/schedule-api-preview.md
     - name: Resourcebeheer
       items:
         - name: Belangrijke concepten
@@ -366,6 +382,10 @@
           items:
             - name: Btw-afschrijving
               href: expense/vat-recovery.md
+    - name: Materiaalgebruik
+      items:
+        - name: Materiaalgebruik voor projecten en projecttaken registreren
+          href: material/material-usage-log.md
     - name: Goedkeuringen
       items:
         - name: Overzicht van goedkeuringen
@@ -378,6 +398,8 @@
       items:
         - name: Overzicht van werkelijke waarden
           href: actuals/actuals-overview.md
+        - name: Werkelijke waarden koppelen aan oorspronkelijke records
+          href: actuals/linkingactuals.md
         - name: Correctiejournalen
           items:
             - name: Correctiejournalen maken en bevestigen
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Pro-formafacturering
           items:
-            - name: Achterstallige facturen voor project beheren
+            - name: Projectgebaseerde achterstallige facturen beheren
               href: proforma-invoicing/manage-billing-backlog.md
             - name: De niet-overschrijdingsstatus en validaties beheren
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Handmatig een pro-formaprojectfactuur maken
+            - name: Projectgebaseerde pro-formafacturen
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Een pro-formaprojectfactuur beheren
+            - name: Een projectgebaseerde pro-formafactuur beheren
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Een voorschot of een vooruitbetaling factureren
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Een pro-formaprojectfactuur bevestigen
+            - name: Een projectgebaseerde pro-formafactuur bevestigen
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Automatisering van projectfactuur configureren
+            - name: Projectgebaseerde correctiefacturen maken
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Automatisering van projectgebaseerde facturen configureren
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Projectboekhouding
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Nieuwe functies
       items:
+        - name: Nieuw in april 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Nieuw in maart 2021 - lite-implementatie
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: Nieuw in februari 2021 - lite-implementatie
@@ -486,7 +512,7 @@
           items:
             - name: Overzicht van projectverkoopkansen
               href: sales/manage-project-based-opportunities.md
-            - name: Instellingen voor projectverkoopkansen
+            - name: Koptekstdetails voor projectverkoopkansen
               href: pro/sales/opportunity-header-sales.md
             - name: Productgebaseerde verkoopkansregels beheren
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: Overzicht van projectgebaseerde prijsopgaven
               href: pro/sales/manage-quotes-sales.md
-            - name: Concepten voor projectprijsopgaven
+            - name: Unieke concepten voor projectprijsopgaven
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Instellingen voor projectprijsopgaven
+            - name: Koptekstdetails voor projectprijsopgaven
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Meerdere klanten in projectprijsopgaven
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: Overzicht van projectgebaseerde contracten
               href: pro/sales/manage-contracts-sales.md
-            - name: Concepten voor projectcontract
+            - name: Unieke concepten voor projectcontracten
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Instellingen voor projectcontracten
+            - name: Koptekstdetails voor projectcontracten
               href: pro/sales/project-contract-settings-sales.md
             - name: Meerdere klanten in projectcontracten
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: Prijslijst instellen
           items:
-            - name: Prijslijsten instellen
+            - name: Prijslijstdefinitie
               href: pricing-costing/price-list-setup.md
-            - name: Verkoopprijslijst instellen
-              href: pricing-costing/sales-price-list-setup.md
-            - name: Factureringstarieven voor arbeid instellen - lite
+            - name: Productprijslijsten instellen
+              href: pricing-costing/product-price-list.md
+            - name: Factureringstarieven voor arbeid instellen
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: Tarieven voor loonkosten instellen - lite
+            - name: Kostentarieven voor arbeid instellen
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: Kosten- en verkooptarieven voor catalogusproducten instellen - lite
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Kosten- en verkooptarieven voor onkosten instellen
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Kosten- en verkooptarieven voor materialen instellen
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Standaardwaarden en overschrijvingen
           items:
             - name: Standaardprijslijsten
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Verkoopprijslijsten voor project overschrijven
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Kostprijzen voor schattingen en werkelijke waarden omzetten - lite
+            - name: Kostprijzen voor projectschattingen en werkelijke waarden omzetten
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Verkoopprijzen voor schattingen en werkelijke waarden omzetten - lite
+            - name: Verkoopprijzen voor projectschattingen en werkelijke waarden omzetten
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Prijslijsten kopiëren
               href: pricing-costing/copy-price-lists.md
+            - name: Projectprijslijsten deactiveren
+              href: pricing-costing/deactivatepricelists.md
         - name: Prijsdimensies
           items:
             - name: Overzicht van prijsdimensies
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Toewijzingen maken
               href: project-management/create-assignments.md
-        - name: Ramingsprojecten
+        - name: Financiële schattingen voor projecten
           items:
-            - name: Overzicht van ramingsprojecten
+            - name: Concepten voor financiële schattingen
               href: project-management/estimating-projects-overview.md
-            - name: Resourceschattingen
+            - name: Financiële schattingen voor resourcetijd in projecten
               href: project-management/resource-estimates.md
-            - name: Onkostenramingen maken
+            - name: Financiële schattingen voor onkosten in projecten
               href: project-management/create-expense-estimates.md
-        - name: Projecttracering
+            - name: Financiële schattingen voor materialen in projecten
+              href: project-management/create-material-estimate.md
+        - name: Project bijhouden
           items:
-            - name: Overzicht van projecttracering
+            - name: Projectinspanning bijhouden
               href: project-management/project-tracking-overview.md
+            - name: Arbeidskosten bijhouden voor projecten
+              href: project-management/project-cost-tracking.md
+            - name: Arbeidsinkomsten bijhouden voor projecten
+              href: project-management/project-sales-tracking.md
             - name: Schatting bij voltooiing bijwerken
               href: project-management/update-completed-estimate.md
         - name: Projectteamleden
@@ -694,6 +728,8 @@
           items:
             - name: Projectsjablonen ontwikkelen met Project kopiëren
               href: project-management/dev-copy-project.md
+            - name: Plannings-API's gebruiken (openbare preview)
+              href: project-management/schedule-api-preview.md
     - name: Resourcebeheer
       items:
         - name: Belangrijke concepten
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: Onkostenpost (Lite)
           href: expense/basic-expense.md
+    - name: Materiaalgebruik
+      items:
+        - name: Materiaalgebruik voor projecten en projecttaken registreren
+          href: material/material-usage-log.md
     - name: Goedkeuringen
       items:
         - name: Overzicht van goedkeuringen
@@ -780,6 +820,8 @@
       items:
         - name: Overzicht van werkelijke waarden
           href: actuals/actuals-overview.md
+        - name: Werkelijke waarden koppelen aan oorspronkelijke records
+          href: actuals/linkingactuals.md
         - name: Correctiejournalen
           items:
             - name: Correctiejournalen maken en bevestigen
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: De niet-overschrijdingsstatus en validaties beheren
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Handmatig een pro-formaprojectfactuur maken
+        - name: Pro-formaprojectfacturen
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Een pro-formaprojectfactuur beheren
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: Nieuwe functies
       items:
+        - name: Nieuwe functies van maart 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Nieuwe functies van januari 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: Nieuwe functies van december 2020 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Projectfacturering
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Prestaties van projectfactuurvoorstellen
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Projectcontracten
       href: prod-pma/project-contracts.md
     - name: Geavanceerde contracten maken voor facturering op basis van voortgang
@@ -952,6 +998,10 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 30, V3'
+          href: psa/whats-new-ur-30.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 29.5 Hotfix, V3'
+          href: psa/whats-new-ur-29-5.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 29, V3'
           href: psa/whats-new-ur-29.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 28.6 Hotfix, V3'
