@@ -3,17 +3,17 @@ title: Kosten- en verkooptarieven voor onkosten instellen
 description: Dit onderwerp bevat informatie over het instellen van kosten en verkooptarieven voor transactie- en onkostencategorieën.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274902"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877214"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Kosten- en verkooptarieven voor onkosten instellen
 
@@ -23,9 +23,10 @@ U kunt kosten en verkoopprijzen instellen voor transactiecategorieën in Dynamic
 
 Voer de volgende stappen uit om kosten en verkooptarieven voor transactiecategorieën in te stellen. 
 
-1. Maak een prijslijst op basis van de prijslijstkop. 
-2. Selecteer bij **Categorieprijzen** in het subrastermenu **+ Nieuwe categorieprijs**. 
-3. Voer op de pagina **Snelle invoer** de transactiecategorie en eenheid in waarvoor u de nieuwe prijs maakt.
+1. Ga naar **Verkoop** > **Klanten** > **Prijslijsten**​.
+2. Selecteer **Nieuw** als u een nieuwe prijslijst wilt maken. 
+3. Selecteer bij **Categorieprijzen** in het subrastermenu **Nieuwe categorieprijs**. 
+4. Voer op de pagina **Snelle invoer** de transactiecategorie en eenheid in waarvoor u de nieuwe prijs maakt.
 
 De volgende tabel bevat de velden op het tabblad **Algemeen** en de pagina **Snelle invoer** van een categorieprijsregel waarmee u rekening moet houden wanneer u categorieprijzen maakt op een verkoop- of kostprijslijst.
 

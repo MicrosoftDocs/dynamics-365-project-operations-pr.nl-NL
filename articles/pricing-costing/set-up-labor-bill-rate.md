@@ -3,17 +3,17 @@ title: Factureringstarieven voor arbeid instellen
 description: Dit onderwerp bevat informatie over het instellen van factureringstarieven voor arbeid in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274812"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877394"
 ---
 # <a name="set-up-labor-bill-rates"></a>Factureringstarieven voor arbeid instellen
 
@@ -21,8 +21,8 @@ _ **Van toepassing op:** Project Operations voor scenario's op basis van resourc
 
 Elke prijslijst heeft een reeks rolprijzen of loonkosten die gelden voor de context en vanaf de ingangsdatum die is opgenomen in de prijslijstkop. Factureringstarieven voor tijd in Dynamics 365 Project Operations kunnen worden ingesteld in slechts één valuta, namelijk de valuta in de kop Prijslijst.
 
-1. Voor het instellen van factuurtarieven voor arbeid voor een verkoopprijslijst, maakt u een prijslijst op basis van de prijslijstkop. 
-2. Selecteer op het tabblad **Rolprijzen** in het subraster **+Nieuwe rolprijs**. 
+1. Als u tarieven voor de facturering van arbeid wilt instellen voor een verkoopprijslijst, gaat u naar **Verkoop** > **Klanten** > **Prijslijsten** en selecteert u **Nieuw** om een nieuwe prijslijst te maken. 
+2. Selecteer op het tabblad **Rolprijzen** in het subraster **Nieuwe rolprijs**. 
 3. Voer in het deelvenster **Snelle invoer** de combinatie van rol en organisatie-eenheid in waarvoor u het factuurtarief moet instellen.
 
    De volgende tabel bevat de velden op het tabblad **Algemeen** en deelvenster **Snelle invoer** van een rolprijsregel waarmee u rekening moet houden wanneer u rolprijzen maakt op een verkoopprijslijst:

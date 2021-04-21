@@ -1,23 +1,23 @@
 ---
-title: Correctiefacturen voor project
-description: Dit onderwerp biedt informatie over het maken en bevestigen van correctiefacturen in Project Operations.
+title: Projectgebaseerde correctiefacturen maken
+description: Dit onderwerp biedt informatie over correctiefacturen in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866585"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788846"
 ---
-# <a name="corrective-project-invoices"></a>Correctiefacturen voor project
+# <a name="create-corrective-project-based-invoices"></a>Projectgebaseerde correctiefacturen maken 
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
 Een bevestigde projectfactuur kan worden gecorrigeerd om wijzigingen of tegoeden te verwerken, zoals overeengekomen met de klant en de projectmanager.
 
@@ -26,18 +26,17 @@ Als u wijzigingen wilt aanbrengen in een bevestigde factuur, opent u de bevestig
 > [!NOTE]
 > Deze selectie is alleen beschikbaar als een projectfactuur is bevestigd.
 
-Er wordt een nieuwe conceptfactuur gemaakt op basis van de bevestigde factuur. Alle factuurregeldetails van de eerder bevestigde factuur worden naar het nieuwe concept gekopieerd. Hieronder volgen enkele van de belangrijkste punten die u moet weten over de regeldetails van de nieuwe gecorrigeerde factuur:
+Er wordt een nieuwe conceptfactuur gemaakt op basis van de bevestigde factuur. Alle factuurregeldetails van de eerder bevestigde factuur worden naar het nieuwe concept gekopieerd. Hieronder volgen enkele belangrijke punten om u meer inzicht te geven in de regeldetails op de nieuwe gecorrigeerde factuur:
 
-- Alle hoeveelheden worden bijgewerkt naar nul. Er wordt vanuit gegaan dat alle gefactureerde artikelen volledig worden gecrediteerd. Indien nodig kunt u deze hoeveelheden handmatig bijwerken om de hoeveelheid weer te geven die wordt gefactureerd, en niet de hoeveelheid die wordt gecrediteerd. Op basis van de hoeveelheid die u invoert, wordt de gecrediteerde hoeveelheid berekend. Dit bedrag wordt weergegeven in de werkelijke waarden die worden gemaakt wanneer de gecorrigeerde factuur wordt bevestigd. Als u wijzigingen aanbrengt in het belastingbedrag, moet u het juiste belastingbedrag invoeren en niet het belastingbedrag dat wordt gecrediteerd.
-- Eerder bevestigde productgebaseerde contractregels worden niet gekopieerd. Het verwerken van correcties in een productgebaseerde projectfactuur wordt niet ondersteund.
+- Alle hoeveelheden worden bijgewerkt naar nul. Hierbij wordt ervan uitgegaan dat alle gefactureerde artikelen volledig zijn gecrediteerd. Indien nodig kunt u deze hoeveelheden handmatig bijwerken om de hoeveelheid weer te geven die wordt gefactureerd, en niet de hoeveelheid die wordt gecrediteerd. Op basis van de hoeveelheid die u invoert, wordt de gecrediteerde hoeveelheid berekend. Dit bedrag wordt weergegeven in de werkelijke waarden die worden gemaakt wanneer de gecorrigeerde factuur wordt bevestigd. Als u wijzigingen aanbrengt in het belastingbedrag, moet u het juiste belastingbedrag invoeren en niet het belastingbedrag dat wordt gecrediteerd.
 - Mijlpaalcorrecties worden altijd verwerkt als volledige tegoeden.
 - Voorschot- of vooruitbetalingsbedragen kunnen worden gecorrigeerd als de klant voor een onjuist bedrag is gefactureerd.
 - Afstemmingen van voorschotten en vooruitbetalingen kunnen worden gecorrigeerd als een onjuist bedrag is gebruikt om af te stemmen met de kosten op een eerder bevestigde factuur.
 
 > [!IMPORTANT]
-> Voor factuurregeldetails die correcties zijn voor andere reeds gefactureerde kosten, is het veld **Correctie** ingesteld op **Ja**. Facturen met gecorrigeerde factuurregeldetails hebben een veld met de naam **Heeft correcties** dat ook is ingesteld op **Ja**.
+> Voor factuurregeldetails die correcties zijn voor andere reeds gefactureerde kosten is het veld **Correctie** ingesteld op **Ja**​. Facturen met gecorrigeerde factuurregeldetails hebben een veld met de naam **Heeft correcties** dat ook is ingesteld op **Ja**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Werkelijke waarden die worden gemaakt wanneer een correctiefactuur wordt bevestigd
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Werkelijke waarden die bij bevestiging van een correctiefactuur worden gemaakt
 
 De volgende tabel biedt een overzicht van de werkelijke waarden die worden gemaakt wanneer een correctiefactuur wordt bevestigd.
 
@@ -214,51 +213,6 @@ Een nieuwe werkelijke waarde voor niet-gefactureerde verkoop die toerekenbaar is
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Het volledige krediet van een eerder gefactureerde materiaaltransactie factureren.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Een gefactureerde terugboeking voor de hoeveelheid en het bedrag in de oorspronkelijke factuurregeldetails voor materiaal.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Een nieuwe niet-gefactureerde werkelijke verkoopwaarde voor de hoeveelheid en het bedrag in de oorspronkelijke factuurregeldetails voor materiaal.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Het gedeeltelijke krediet voor een materiaaltransactie factureren.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Een gefactureerde terugboeking voor de hoeveelheid en het gefactureerde bedrag in de oorspronkelijke factuurregeldetails voor materiaal.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Een nieuwe niet-gefactureerde werkelijke verkoopwaarde die toerekenbaar is voor de hoeveelheid en het bedrag in de bewerkte factuurregeldetails, een terugboeking hiervan en een equivalente gefactureerde werkelijke verkoopwaarde.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Een nieuwe werkelijke waarde voor niet-gefactureerde verkoop die toerekenbaar is voor de resterende hoeveelheid en het resterende bedrag na aftrek van de gecorrigeerde cijfers op de factuurregeldetails.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Facturering van het volledige tegoed van een eerder gefactureerde kostentransactie.
                 </p>
             </td>
@@ -319,20 +273,9 @@ Facturering van het gedeeltelijke tegoed van een eerder gefactureerde mijlpaal.
                 <p>
 Niet ondersteund </p>
             </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Tegoeden en correcties van een eerder gefactureerde productgebaseerde contractregel.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Niet ondersteund </p>
-            </td>
-        </tr>
+        </tr>        
     </tbody>
 </table>
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,27 @@
 ---
-title: Projectprijslijsten in projectprijsopgaven beheren - lite
-description: Dit onderwerp biedt informatie over het werken met projectprijslijsten in prijsopgaven. (Sales)
+title: Projectprijslijsten in projectprijsopgaven beheren
+description: Dit onderwerp biedt informatie over het werken met projectprijslijsten in prijsopgaven.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273012"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858602"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Projectprijslijsten in projectprijsopgaven beheren - lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Projectprijslijsten in projectprijsopgaven beheren 
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
 Projectprijsopgaven zijn ontworpen om verkoopprijslijsten met meerdere ingangsdatums te ondersteunen. In Dynamics 365 Project Operations is een nieuwe gekoppelde entiteit genaamd **Prijslijsten voor projecten** toegevoegd. Deze entiteit heeft een 1-op-veel-relatie met een projectprijsopgave.
 
-Projectprijslijsten worden gebruikt om prijzen op te geven voor tijd- en onkostentransacties voor een project. Als een offerte een of meer projectprijslijsten heeft, worden deze prijslijsten gebruikt om tijd- en onkostenramingen en werkelijke waarden te bepalen voor projecten die aan de prijsopgave zijn gekoppeld via de prijsopgaveregel.
+Projectprijslijsten worden gebruikt om de prijs te bepalen voor tijd-, materiaal- en onkostentransacties voor een project. Als een prijsopgave een of meer projectprijslijsten bevat, worden deze prijslijsten gebruikt om de prijs van tijd, materiaal, onkostenschattingen en werkelijke waarden te bepalen voor projecten die via de prijsopgaveregel aan de prijsopgave zijn gekoppeld.
 
 Als er geen projectprijslijsten op een projectprijsopgave staan, ontvangt u een waarschuwing. Hierin staat dat omdat er geen projectprijslijsten zijn, uw geschatte en werkelijke projectwerkzaamheden en uitgaven niet worden beprijsd. In plaats daarvan hebben ze een prijs van nul (0) voor verkoopwaarden.
 

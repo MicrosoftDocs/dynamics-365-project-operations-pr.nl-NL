@@ -3,19 +3,19 @@ title: Voorschot
 description: Dit onderwerp biedt informatie over (kas)voorschotten.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276702"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715554"
 ---
 # <a name="cash-advance"></a>Voorschot
 
@@ -60,7 +60,22 @@ De volgende procedure wordt doorgaans voltooid door een accountant of een gebrui
 
 Wanneer u een onkostendeclaratie maakt en indient voor het kasvoorschot dat u al hebt ontvangen, worden de onkosten automatisch verrekend met dat voorschot. Als uw kasvoorschot groter is dan het afgeschreven bedrag, moet u het saldo aan het bedrijf retourneren met behulp van de onkostencategorie **Contant geld retourneren**. Als het door het bedrijf betaalde kasvoorschot lager is dan het bedrag dat u hebt uitgegeven, moet het bedrijf u het saldo terugbetalen. 
 
-### <a name="example"></a>Voorbeeld
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Voorschotten selecteren die van toepassing zijn op uw uitgaven
+Voordat u een onkostennota indient, kunt u het voorschot selecteren dat overeenkomt met de onkostentransacties in het rapport. Als u deze functionaliteit wilt gebruiken, moeten de volgende twee functies zijn ingeschakeld via de werkruimte **Functiebeheer**:
+
+  - Opnieuw ontworpen onkostennota's
+  - Mogelijkheid om voorschotten toe te wijzen aan onkostenregels
+ 
+ Als deze functies zijn ingeschakeld:
+ 
+  - U kunt voor elke onkostennota een of meer voorschotten toevoegen.
+  - Het beschikbare saldo van een voorschot is in realtime zichtbaar wanneer een onkostennota wordt opgeslagen. Zo kunt u onkostentransacties verwerken en tegelijkertijd contante transacties retourneren.
+  - U kunt voor één onkostentransactie meerdere voorschotten selecteren.
+  - Afstemmingsgegevens voor voorschotten zijn beschikbaar met behulp van een query. 
+ 
+Als u deze functies niet gebruikt, blijft de functionaliteit hetzelfde, waarbij bestaande voorschotten automatisch worden verlaagd als er onkosten worden ingediend.
+
+### <a name="example"></a>Voorbeeld 
 U bent van plan om van Seattle naar New York City te reizen voor een conferentie. U maakt een aanvraag voor een kasvoorschot aan voor 3000,00 USD op basis van de geschatte kosten van het conferentieticket, vluchten, hotel, maaltijden en taxi. Dit wordt niet betaald, tenzij uw manager deze aanvraag goedkeurt. Nadat uw manager akkoord is gegaan, wordt het gevraagde kasvoorschot als USD 3000,00 USD op uw bankrekening gestort. Vervolgens woont u het congres bij. Na uw reis merkt u dat de totale uitgaven slechts USD 2790,00 bedroegen. Selecteer **Contant geld** in het veld **Betalingswijze** en dien uw onkosten voor 2790,00 USD in. Uw ingediende onkostenbedrag wordt automatisch verrekend met het kasvoorschot van USD 3000,00 dat aan u is uitgeleend. U bent nu een saldo van 210,00 USD (3000,00 - 2790,00) verschuldigd, dat u aan het bedrijf kunt retourneren met de onkostencategorie **Retouren kas**.
 
 

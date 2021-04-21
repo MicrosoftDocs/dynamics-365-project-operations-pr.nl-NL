@@ -3,41 +3,62 @@ title: Achterstallige facturen beheren
 description: Dit onderwerp bevat informatie over hoe u de achterstand in facturering in Project Operations kunt weergeven en ermee kunt werken.
 author: rumant
 manager: Annbe
-ms.date: 10/20/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e428b551a755220cee67d54b2e63dd7a3c2ca393
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287727"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866771"
 ---
-# <a name="manage-the-billing-backlog"></a>Achterstallige facturen beheren
+# <a name="manage-billing-backlog"></a>Achterstallige facturen beheren
 
-_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
+_ **Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 
-Dynamics 365 Project Operations heeft twee speciale weergaven om de achterstand in facturering te helpen beheren. Deze weergaven zijn **Mijlpalen met een vaste prijs** en **Achterstand voor facturering van tijd en materiaal**. Als u een weergave wilt selecteren, selecteert u in het gebied **Verkoop** van Project Operations op de linkernavigatiepagina **Facturering**. De koppelingen naar achterstand in facturering worden daar opgeslagen.
+Dynamics 365 Project Operations heeft speciale weergaven om de achterstand in facturering te helpen beheren. Om de achterstand in facturering te beheren, selecteert u de koppelingen in het gebied **Verkoop**, onder **Facturering**. 
+
+De volgende weergaven zijn beschikbaar:
+
+- Vooruitbetalingen en voorschotten
+- Beschikbare vooruitbetalingen en voorschotten
+- Mijlpalen voor vaste prijs
+- Backlog voor facturering van tijd en materiaal
+
+## <a name="retainers-and-advances"></a>Vooruitbetalingen en voorschotten
+
+In de weergave **Vooruitbetalingen en voorschotten** worden de vooruitbetalingen en voorschotten voor alle projectcontracten weergegeven. Nadat een vooruitbetaling of voorschot is gefactureerd, komt het bedrag van het voorschot beschikbaar voor gebruik.
+
+## <a name="available-retainers-and-advances"></a>Beschikbare vooruitbetalingen en voorschotten
+
+In de weergave **Beschikbare vooruitbetalingen en voorschotten** worden alle beschikbare vooruitbetalingen en voorschotten voor alle projectcontracten weergegeven. Nadat een vooruitbetaling of voorschot is gefactureerd, komt het bedrag van het voorschot beschikbaar voor gebruik en wordt het toegevoegd aan de lijst. Als het bedrag van de vooruitbetaling of het voorschot volledig is opgebruikt, wordt het van de lijst verwijderd.
 
 ## <a name="fixed-price-milestones"></a>Mijlpalen voor vaste prijs
 
-In deze weergave worden alle mijlpalen met een vaste prijs voor alle projectcontractregels in het systeem weergegeven. Een of meerdere mijlpalen kunnen worden gemarkeerd als **Gereed voor facturering** of **Niet gereed voor facturering** vanuit deze weergave. Wanneer u een mijlpaal markeert als **Gereed voor facturering**, wordt de mijlpaal beschikbaar voor een conceptfactuur.
+In de weergave **Mijlpalen voor vaste prijs** worden alle mijlpalen met een vaste prijs voor alle projectcontractregels weergegeven. Vanuit deze weergave kunnen enkele of meerdere mijlpalen worden gemarkeerd als **Gereed voor facturering** of **Niet gereed voor facturering**.​ Als een mijlpaal wordt gemarkeerd als **Gereed voor facturering**, wordt deze beschikbaar voor een conceptfactuur.
 
-Wanneer contractregels voor meerdere klanten een factureringsmethode met een vaste prijs hebben, wordt er voor elke klant één mijlpaal op de contractregel gemaakt. De gebruiker maakt een mijlpaal en die mijlpaal wordt intern opgesplitst in klant=specifieke mijlpaalrecords, volgens de factureringspercentagesplitsing die voor elke klant op de contractregel is gedefinieerd. In de weergave **Mijlpalen met een vaste prijs** ziet u afzonderlijke klantspecifieke mijlpaalrecords. Elk van deze mijlpaalrecords kan worden gemarkeerd als **Gereed voor facturering** vanuit deze weergave. Wanneer een of meer van de gerelateerde mijlpaalsplitsingen zijn gemarkeerd als **Gereed voor facturering**, verandert de status van de koptekst in **In uitvoering** van **Niet gestart**. Wanneer alle mijlpaalsplitsingen zijn gefactureerd, wordt de mijlpaalstatus van de koptekst **Voltooid**.
+Wanneer contractregels voor meerdere klanten een factureringsmethode tegen een vaste prijs hebben, wordt voor elke klant een mijlpaal op de contractregel gecreëerd. Een mijlpaal kan worden gecreëerd en vervolgens worden opgesplitst in individuele klantspecifieke mijlpaalrecords. Deze splitsing is intern en in overeenstemming met het percentage voor factureringssplitsing dat voor elke klant op de contractregel is gedefinieerd. In de weergave **Mijlpalen voor vaste prijs** ziet u de individuele klantspecifieke mijlpaalrecords. Elk van deze mijlpaalrecords kan worden gemarkeerd als **Gereed voor facturering** vanuit deze weergave. Als een of meer van de gerelateerde opgesplitste mijlpalen zijn gemarkeerd als **Gereed voor facturering**, wordt de koptekststatus van **Niet gestart** bijgewerkt naar **In uitvoering**​. Wanneer alle opgesplitste mijlpalen zijn gefactureerd, wordt de mijlpaalstatus van de koptekst bijgewerkt naar **Voltooid**​.
 
-In deze weergave wordt een mijlpaal op een conceptfactuur weergegeven met een factureringsstatus van **Klantfactuur gemaakt**. Wanneer de conceptfactuur wordt bevestigd, wordt de factureringsstatus in deze record bijgewerkt naar **Factuur geboekt**. Het wordt afgeraden deze statuswaarde bij te werken met behulp van aangepaste code. Project Operations werkt niet correct als deze statuswaarden worden bijgewerkt met aangepaste code.
+In deze weergave wordt een mijlpaal op een conceptfactuur weergegeven met een factureringsstatus van **Klantfactuur gemaakt**. Wanneer de conceptfactuur wordt bevestigd, wordt de factureringsstatus in de record bijgewerkt naar **Klantfactuur geboekt**. 
+
+> [!NOTE] 
+> Werk deze statuswaarde niet bij met aangepaste code. Project Operations werken niet correct wanneer deze statuswaarden worden bijgewerkt met aangepaste code.
 
 ## <a name="time-and-material-billing-backlog"></a>Backlog voor facturering van tijd en materiaal
 
-Deze weergave bevat alle niet-gefactureerde werkelijke waarden voor verkoop die niet zijn gefactureerd voor alle projectcontracten in het systeem. Een of meer werkelijke niet-gefactureerde verkoopwaarden kunnen worden gemarkeerd als **Gereed voor facturering** of **Niet gereed voor facturering** vanuit deze weergave. Als een werkelijke niet-gefactureerde verkoopwaarde wordt gemarkeerd als **Gereed voor facturering**, wordt deze beschikbaar om op een conceptfactuur te worden geplaatst.
+De weergave **Achterstallige facturering van tijd en materiaal** toont alle niet-gefactureerde werkelijke verkoopcijfers voor alle projectcontracten in het systeem die niet zijn gefactureerd. Een of meer werkelijke niet-gefactureerde verkoopwaarden kunnen worden gemarkeerd als **Gereed voor facturering** of **Niet gereed voor facturering** vanuit deze weergave. Als een werkelijke niet-gefactureerde verkoopwaarde wordt gemarkeerd als **Gereed voor facturering**, wordt deze beschikbaar om op een conceptfactuur te worden geplaatst.
 
-Niet-gefactureerde werkelijke verkoopwaarden met de status **Niet te overschrijden** ingesteld op **Mislukt** kunnen niet worden gemarkeerd als **Gereed voor facturering**. Als deze werkelijke waarden als zodanig moeten worden gemarkeerd, stelt u de status opnieuw in op andere werkelijke waarden op de contractregel die zijn vastgelegd, en evalueert u vervolgens de status **Niet te overschrijden**.
+Niet-gefactureerde werkelijke verkoopcijfers met een **Niet-overschrijdingsstatus** van **Mislukt** kan niet worden gemarkeerd als **Gereed voor facturering**. Als de werkelijke waarden moeten worden gemarkeerd als **Gereed voor facturering**, stelt u de status voor vastgelegde andere werkelijke waarden op de contractregel opnieuw in en evalueert u de **niet-overschrijdingsstatus** opnieuw.
 
-In het geval van contractregels met meerdere klanten die een factureringsmethode voor tijd en materiaal hebben, wordt wanneer tijd en onkosten worden goedgekeurd, een niet-gefactureerde werkelijke verkoopwaarde gemaakt voor elke klant op de contractregel volgens de factureringspercentagesplitsing die voor elke klant op de contractregel is gedefinieerd. In de weergave **Achterstand in facturering voor tijd en materiaal** ziet u deze afzonderlijke klantspecifieke niet-gefactureerde werkelijke verkoopwaarden. Al deze records van niet-gefactureerde werkelijke verkoopwaarden kunnen worden gemarkeerd als **Gereed voor facturering** vanuit deze weergave.
+Als contractregels voor meerdere klanten een factureringsmethode voor tijd en materiaal hebben, wordt, wanneer tijd en onkosten zijn goedgekeurd, één niet-gefactureerde werkelijke verkoop voor elke klant op de contractregel gemaakt volgens de percentagesplitsing voor facturering die voor elk van de klanten is gedefinieerd. In de weergave **Achterstallige facturering van tijd en materiaal** ziet u deze individuele klantspecifieke niet-gefactureerde werkelijke verkoopcijfers. Al deze records van niet-gefactureerde werkelijke verkoopwaarden kunnen worden gemarkeerd als **Gereed voor facturering** vanuit deze weergave.
 
-In deze weergave wordt een niet-gefactureerde werkelijke verkoopwaarde weergegeven met een **Factureringsstatus** van **Klantfactuur gemaakt**. Wanneer de conceptfactuur wordt bevestigd, wordt de factureringsstatus in deze record bijgewerkt naar **Klantfactuur geboekt**. Het wordt afgeraden deze statuswaarde met behulp van aangepaste code bij te werken wanneer het deze status heeft. Project Operations werkt niet correct als deze statuswaarden worden bijgewerkt met aangepaste code.
+Een niet-gefactureerde werkelijke verkoopwaarde in een conceptfactuur wordt in deze weergave weergegeven met de factureringsstatus **Klantfactuur gemaakt**​. Wanneer de conceptfactuur wordt bevestigd, wordt de factureringsstatus in deze record bijgewerkt naar **Klantfactuur geboekt**. 
+
+> [!NOTE] 
+> Werk deze statuswaarde niet bij met aangepaste code. Project Operations werken niet correct wanneer deze statuswaarden worden bijgewerkt met aangepaste code.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

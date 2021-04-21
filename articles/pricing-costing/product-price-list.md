@@ -3,7 +3,7 @@ title: Productprijslijsten
 description: Dit onderwerp bevat informatie over de prijslijsten voor het bepalen van catalogusprijzen die worden gebruikt voor projectprijsopgaven en -contracten.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275352"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877484"
 ---
 # <a name="product-price-lists"></a>Productprijslijsten
 
-_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Prijslijsten en prijslijstitem-entiteiten ondersteunen productcatalogusprijzen. Deze functionaliteit wordt voornamelijk gebruikt voor op een catalogus gebaseerde regels in projectprijsopgaven en projectcontracten.
-
-Voor projectgebaseerde regels vertegenwoordigt een contract de deal nadat deze is gesloten. Omdat het onderhandelingsproces gewoonlijk voorafgaat aan het sluiten van de deal, wordt de prijs die aan de prijsopgave is gekoppeld, altijd ongewijzigd naar een nieuwe prijslijst gekopieerd en aan het contract gekoppeld. Deze nieuwe prijslijst kan niet buiten het bereik van het contract worden gewijzigd. Deze beperking helpt bij het beschermen van de tariefkaart die is onderhandeld op basis van prijswijzigingen die in de hoofdprijslijst voorkomen.
+ In Project Operations bieden **productprijslijsten** en gerelateerde entiteiten voor prijslijstitems functionaliteit voor het prijzen van producten op productgebaseerde prijsopgave- en contractregels. Voor producten die in projecten worden gebruikt, worden de prijslijstartikelrecords voor projectprijslijsten gebruikt. 
 
 Producten moeten zo worden ingesteld dat hiervoor standaardkosten en standaardprijslijsten in de productcatalogus aanwezig zijn. Gebruik de lijstprijs, standaardkosten en huidige kosten om de standaardkosten en standaardlijstprijzen te configureren. De standaardlijstprijzen worden alleen op een prijsopgaveregel of projectcontractregel gebruikt als het systeem geen prijslijstregel voor dat product kan vinden in de productprijslijst voor de prijsopgave of het projectcontract.
 
@@ -40,9 +38,7 @@ De kostprijs van productcatalogusregels kan tussen prijsopgaven worden gewijzigd
 
 U kunt producten uit een productcatalogus toevoegen aan verschillende prijslijsten. Prijslijstregels voor producten verwijzen altijd naar een specifieke eenheid. Prijzen voor een product in prijslijstitems kunnen worden geconfigureerd als een valutabedrag. Deze prijzen kunnen ook worden geconfigureerd als een functie van de catalogusprijs, huidige kosten of standaardkosten.
 
-Er worden verschillende afrondingsopties ondersteund wanneer prijzen worden geconfigureerd als een functie van de catalogusprijs, standaardkosten of huidige kosten. U kunt niet alleen gebruikmaken van meerdere prijsbepalingsmethoden en afrondingsopties, maar u kunt ook kortingslijsten koppelen aan prijslijstitems. 
-
-Wanneer u een nieuwe aangepaste prijslijst voor een prijsopgave maakt door **Aangepaste prijzen maken** te selecteren op de pagina **Prijsopgave voor projecten**, wordt er een kopie gemaakt van de prijslijst en wordt het veld **Entiteit** in de koptekst van de nieuwe prijslijst ingesteld op **Verkoopentiteit**. Aan de naam van de nieuwe prijslijst worden de naam van de prijsopgave en een timestamp toegevoegd. U kunt ook de naam van de nieuwe prijslijst en de naam van de prijsopgave in aangepaste werkstromen gebruiken om extra controles en goedkeuringen te activeren voor prijsopgaven waarin aangepaste prijzen worden gebruikt.
+De prijsfunctionaliteit ondersteunt verschillende afrondingsopties wanneer productprijzen worden geconfigureerd als een functie van de catalogusprijs, standaardkosten of huidige kosten. U kunt niet alleen gebruikmaken van meerdere prijsbepalingsmethoden en afrondingsopties, maar u kunt ook kortingslijsten koppelen aan prijslijstitems. 
 
  
 ## <a name="default-product-price-list"></a>Standaardproductprijslijst
@@ -57,7 +53,7 @@ In de entiteiten Verkoopkans, Prijsopgave en Projectcontract wordt de volgende v
 
 Standaard worden in het veld **Product** op de prijsopgaveregel alle actieve producten in de productprijslijst van de prijsopgave vermeld. Als een product is gedeactiveerd, of als het een conceptproduct is, wordt het product niet weergegeven, zelfs niet als het in de prijslijst staat. 
 
-Productcatalogusregels worden toegevoegd als factuurregels op de eerste factuur die voor een projectcontract wordt gemaakt. Op een conceptfactuur kunnen deze factuurregels worden verwijderd. In dat geval worden de regels op een volgende factuur weergegeven totdat ze worden gefactureerd of totdat de factuur naar de klant wordt verzonden. U kunt geen deelhoeveelheid van een productfactuurregel factureren. Wanneer de productregels uit het projectcontract worden gefactureerd, worden werkelijke waarden gemaakt. Deze werkelijke waarden zijn echter niet gekoppeld aan de gerelateerde projectentiteit. Met andere woorden: productgebaseerde projectcontractregels zijn onafhankelijk van elk projectgebaseerd gebruik. Het materiaalverbruik van projecten wordt niet bijgehouden.
+Productcatalogusregels worden toegevoegd als factuurregels op de eerste factuur die voor een projectcontract wordt gemaakt. Op een conceptfactuur kunnen deze factuurregels worden verwijderd. In dat geval worden de regels op een volgende factuur weergegeven totdat ze worden gefactureerd of totdat de factuur naar de klant wordt verzonden. U kunt geen deelhoeveelheid van een productfactuurregel factureren. Wanneer de productregels uit het projectcontract worden gefactureerd, worden werkelijke waarden gemaakt. Deze werkelijke waarden zijn echter niet gekoppeld aan de gerelateerde projectentiteit. Met andere woorden: productgebaseerde projectcontractregels zijn onafhankelijk van elk projectgebaseerd gebruik. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

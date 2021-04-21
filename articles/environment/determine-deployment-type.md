@@ -3,17 +3,17 @@ title: Het type implementatie bepalen
 description: Dit onderwerp biedt informatie waarmee u het juiste implementatietype van projectactiviteiten voor uw bedrijf kunt bepalen.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479558"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663588"
 ---
 # <a name="determine-your-deployment-type"></a>Het type implementatie bepalen
 
@@ -44,9 +44,9 @@ Onze [vragenlijst voor implementaties](https://aka.ms/provisionprojectoperations
 - [Project Operations voor scenario's op basis van resources/niet-voorradige artikelen](#integrated)
 - [Project Operations voor scenario's op basis van voorradige artikelen/productieorders](#pma)
 
-Project Operations ondersteunt scenario's op basis van voorradige artikelen/productieorders en scenario's op basis van niet-voorradige artikelen/resources in dezelfde omgeving via configuraties op rechtspersoonsniveau. Contoso kan bijvoorbeeld de mogelijkheden voor voorradige artikelen/productieorder gebruiken in de productiefaciliteit in de VS (rechtspersoon = Contoso Manufacturing, Verenigde Staten). Contoso kan de mogelijkheden voor niet-voorradige artikelen/resource gebruiken in hun servicefaciliteit voor Contoso Robotics Arms in het VK (rechtspersoon = Contoso Robotics Verenigd Koninkrijk).
+Project Operations ondersteunt scenario's op basis van voorradige artikelen/productieorders en scenario's op basis van niet-voorradige artikelen/resources in dezelfde omgeving via configuraties op rechtspersoonsniveau. Contoso kan bijvoorbeeld gebruikmaken van de mogelijkheden voor voorraad/productieorders in hun Amerikaanse productiefaciliteit (Rechtspersoon = Contoso Manufacturing United States). Contoso kan de mogelijkheden op basis van niet-voorradige artikelen/resources in hun servicefaciliteit Contoso Robotics Arms in het VK (rechtspersoon = Contoso Robotics United Kingdom) gebruiken.
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Vereenvoudigde implementatie - van deal tot pro-formafacturering
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite-implementatie - van deal tot pro-formafacturering
 
 De Lite-implementatie omvat de volgende mogelijkheden:
 
@@ -56,7 +56,7 @@ De Lite-implementatie omvat de volgende mogelijkheden:
 - Geïntegreerd resourcebeheer
 - Tijden bijhouden
 - Basisonkosten
-- Pro-forma- en klantgerichte facturering 
+- Pro-formafacturering voor beoordeling en bewerkingen van de projectmanager 
 
 #### <a name="deployment-steps"></a>Installatiestappen
 Bepaal het beste implementatiemodel van Project Operations met behulp van de [vragenlijst voor implementaties](https://aka.ms/provisionprojectoperations).
@@ -94,7 +94,7 @@ Zie voor deze implementatie [Aanmelden voor preview-abonnementen](resource-sign-
 - Volledige facturering
 - Omzetverantwoording
 - Productieorders
-- Ondersteuning voor materiaal
+- Ondersteuning voor voorradig materiaal met inventaris
 
 #### <a name="deployment-steps"></a>Installatiestappen
 Bepaal het beste implementatiemodel van Project Operations met behulp van de [vragenlijst voor implementaties](https://aka.ms/provisionprojectoperations).

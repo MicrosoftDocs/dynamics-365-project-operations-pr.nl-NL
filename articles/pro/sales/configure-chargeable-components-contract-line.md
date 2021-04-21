@@ -1,5 +1,5 @@
 ---
-title: Toerekenbare componenten van een projectgebaseerde contractregel configureren - lite
+title: Toerekenbare componenten van een projectgebaseerde contractregel configureren
 description: Dit onderwerp bevat informatie over het toevoegen van niet-toerekenbare onderdelen aan contractregels in Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273912"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858467"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Toerekenbare componenten van een projectgebaseerde contractregel configureren - lite
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Toerekenbare componenten van een projectgebaseerde contractregel configureren
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering, Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
 Een projectgebaseerde contractregel heeft *opgenomen* onderdelen en *toerekenbare* onderdelen.
 
@@ -62,23 +62,582 @@ Het factureringstype van een transactiecategorie kan worden geconfigureerd op he
 
 ### <a name="resolve-chargeability"></a>Toerekenbaarheid oplossen
 
-Een schatting of een werkelijke waarde die is gemaakt voor tijd, wordt alleen als toerekenbaar beschouwd als **Tijd** is opgenomen op de contractregel, en als **Taak** en **Rol** zijn geconfigureerd als toerekenbaar op de contractregel.
+Een schatting of werkelijke waarde gemaakt voor tijd wordt alleen als toerekenbaar beschouwd als:
 
-Een schatting of een werkelijke waarde die is gemaakt voor onkosten, wordt alleen als toerekenbaar beschouwd als **Onkosten** is opgenomen op de contractregel, en als de categorieën **Taak** en **Transactie** zijn geconfigureerd als toerekenbaar op de contractregel.
+   - **Tijd** is opgenomen op de contractregel.
+   - **Rol** is geconfigureerd als toerekenbaar op de contractregel.
+   - **Opgenomen taken** is ingesteld op **Geselecteerde taken** op de contractregel.
+ 
+ Als deze drie dingen van toepassing zijn, is de taak geconfigureerd als toerekenbaar. 
+
+Een schatting of werkelijke waarde gemaakt voor onkosten wordt alleen als toerekenbaar beschouwd als:
+
+   - **Onkosten** is opgenomen op de contractregel.
+   - **Transactiecategorie** is geconfigureerd als toerekenbaar op de contractregel.
+   - **Opgenomen taken** is ingesteld op **Geselecteerde taak** op de contractregel.
+  
+ Als deze drie dingen van toepassing zijn, is de **taak** geconfigureerd als toerekenbaar. 
+
+Een schatting of werkelijke waarde gemaakt voor materiaal wordt alleen als toerekenbaar beschouwd als:
+
+   - **Materialen** is opgenomen op de contractregel.
+   - **Opgenomen taken** is ingesteld op **Geselecteerde taken** op de contractregel
+
+Als deze twee dingen van toepassing zijn, is de **taak** geconfigureerd als toerekenbaar. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Bevat Tijd</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Bevat Onkosten</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Bevat materialen</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Opgenomen taken</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>- Rol</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Categorie</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Opdracht</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Impact op toerekenbaarheid</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Geheel project </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: <strong>Toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde van onkosten: <strong>Toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor werkelijke materiaalwaarde: <strong>Toerekenbaar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Alleen geselecteerde taken </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: <strong>Toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde van onkosten: <strong>Toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor werkelijke materiaalwaarde: <strong>Toerekenbaar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Alleen geselecteerde taken </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde van Onkosten: Toerekenbaar </p>
+                <p>
+Factureringstype op werkelijke materiaalwaarde: Toerekenbaar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Alleen geselecteerde taken </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor materiaal: <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Alleen geselecteerde taken </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor materiaal: <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Alleen geselecteerde taken </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype op werkelijke materiaalwaarde: Toerekenbaar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Geen</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Geheel project </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: <strong>Niet beschikbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde van Onkosten: Toerekenbaar </p>
+                <p>
+Factureringstype op werkelijke materiaalwaarde: Toerekenbaar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Geen</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Geheel project </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: <strong>Niet beschikbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype op werkelijke materiaalwaarde: Toerekenbaar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Geen</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Geheel project </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: Toerekenbaar </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet beschikbaar</strong>
+                </p>
+                <p>
+Factureringstype op werkelijke materiaalwaarde: Toerekenbaar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Geen</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Geheel project </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet beschikbaar</strong>
+                </p>
+                <p>
+Factureringstype op werkelijke materiaalwaarde: Toerekenbaar </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Geen</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Geheel project </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Toerekenbaar </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: Toerekenbaar </p>
+                <p>
+Factureringstype voor een werkelijke waarde van Onkosten: Toerekenbaar </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor materiaal: <strong>Niet beschikbaar</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Ja </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Geen</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Geheel project </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Niet-toerekenbaar</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Kan niet worden ingesteld </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet-toerekenbaar</strong>
+                </p>
+                <p>
+Factureringstype voor een werkelijke waarde voor materiaal: <strong>Niet beschikbaar</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Bevat Tijd | Bevat Onkosten | Bevat Taken | - Rol           | Categorie       | Opdracht                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Ja           | Ja              | Geheel project | Toerekenbaar     | Toerekenbaar     | Facturering voor een werkelijke waarde van Tijd: **Toerekenbaar** </br> Factureringstype voor een werkelijke waarde van Onkosten: **Toerekenbaar**           |
-| Ja           | Ja              | Geselecteerde taken | Toerekenbaar     | Toerekenbaar     | Facturering voor een werkelijke waarde van Tijd: **Toerekenbaar** </br> Factureringstype voor een werkelijke waarde van Onkosten: **Toerekenbaar**           |
-| Ja           | Ja              | Geselecteerde taken | Niet-toerekenbaar | Toerekenbaar     | Facturering voor een werkelijke waarde van Tijd: **Niet-toerekenbaar** </br> Factureringstype voor een werkelijke waarde van Onkosten: **Toerekenbaar**       |
-| Ja           | Ja              | Geselecteerde taken | Toerekenbaar     | Toerekenbaar     | Facturering voor een werkelijke waarde van Tijd: **Niet-toerekenbaar** </br> Factureringstype voor een werkelijke waarde van Onkosten: **Niet-toerekenbaar** |
-| Ja           | Ja              | Geselecteerde taken | Niet-toerekenbaar | Toerekenbaar     | Facturering voor een werkelijke waarde van Tijd: **Niet-toerekenbaar** </br> Factureringstype voor een werkelijke waarde van Onkosten: **Niet-toerekenbaar** |
-| Ja           | Ja              | Geselecteerde taken | Niet-toerekenbaar | Niet-toerekenbaar | Facturering voor een werkelijke waarde van Tijd: **Niet-toerekenbaar** </br> Factureringstype voor een werkelijke waarde van Onkosten: **Niet-toerekenbaar** |
-| Geen            | Ja              | Geheel project | Kan niet worden ingesteld   | Toerekenbaar     | Facturering voor een werkelijke waarde van Tijd: **Niet beschikbaar**</br>Factureringstype voor een werkelijke waarde van Onkosten: **Toerekenbaar**          |
-| Geen            | Ja              | Geheel project | Kan niet worden ingesteld   | Niet-toerekenbaar | Facturering voor een werkelijke waarde van Tijd: **Niet beschikbaar**</br> Factureringstype voor een werkelijke waarde van Onkosten: **Niet-toerekenbaar**     |
-| Ja           | Geen               | Geheel project | Toerekenbaar     | Kan niet worden ingesteld   | Facturering voor een werkelijke waarde van Tijd: **Toerekenbaar** </br> Factureringstype voor een werkelijke waarde van Onkosten: **Niet beschikbaar**        |
-| Ja           | Geen               | Geheel project | Niet-toerekenbaar | Kan niet worden ingesteld   | Facturering voor een werkelijke waarde van Tijd: **Niet-toerekenbaar** </br>Factureringstype voor een werkelijke waarde van Onkosten: **Niet beschikbaar**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

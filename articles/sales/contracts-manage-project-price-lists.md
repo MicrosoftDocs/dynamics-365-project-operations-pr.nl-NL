@@ -3,17 +3,17 @@ title: Projectprijslijsten in projectcontracten beheren
 description: Dit onderwerp bevat informatie over het beheren van projectprijslijsten in projectcontracten.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278592"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858557"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Projectprijslijsten in projectcontracten beheren
 
@@ -21,13 +21,13 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Projectcontracten in Dynamics 365 Project Operations zijn ontworpen om verkoopprijslijsten met meerdere ingangsdatums te ondersteunen voor een contract. Project Operations bevat een nieuwe gekoppelde entiteit genaamd **Projectprijslijsten**. Deze entiteit heeft een een-op-veel-relatie met een projectcontract.
 
-Projectprijslijsten worden gebruikt om prijzen op te geven voor tijd- en onkostentransacties voor een project. Wanneer een contract een of meer projectprijslijsten heeft, worden deze prijslijsten gebruikt om prijzen te berekenen voor tijd- en onkostenramingen en werkelijke waarden voor projecten die via de contractregel aan het contract zijn gekoppeld.
+Projectprijslijsten worden gebruikt om de prijs te bepalen voor tijd-, materiaal- en onkostentransacties voor een project. Als een contract een of meer projectprijslijsten bevat, worden deze prijslijsten gebruikt om de prijs van tijd, materiaal, onkostenschattingen en werkelijke waarden te bepalen voor projecten die via de contractregel aan het contract zijn gekoppeld.
 
-Als er geen projectprijslijsten op een projectcontract staan, ziet u een waarschuwingsbericht dat er geen projectprijslijsten zijn en wordt er geen prijs vastgesteld voor uw schattingen, werkelijke projecttaken en onkosten. Er is geen prijs voor verkoopwaarden.
+Als er geen projectprijslijsten in een projectcontract zijn opgenomen, ziet u een waarschuwingsbericht dat er geen projectprijslijsten zijn en worden uw geregistreerde schattingen, werkelijke projectwerk, materiaal en uitgaven niet geprijsd. Er is geen prijs voor verkoopwaarden.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Een projectprijslijst aan een projectcontract koppelen of ontkoppelen
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Maak of koppel een specifieke prijslijst voor het schatten van projectgebaseerd werk en onkosten
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Een specifieke prijslijst voor het schatten van projectgebaseerd werk, materiaal en onkosten maken of koppelen
 
 1. Selecteer in het projectcontract het tabblad **Projectprijslijsten**.
 2. Selecteer in het subraster **+ Nieuwe projectprijslijst toevoegen**.
@@ -52,7 +52,7 @@ Als er geen projectprijslijsten op een projectcontract staan, ziet u een waarsch
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Projectprijslijsten automatisch als standaardinstelling voor een contract opgeven
 
-Een projectprijslijst kan worden ingesteld als de standaardlijst op een projectcontract. Zo zorgt u dat alle contracten in uw organisatie altijd beginnen met een standaardprijslijst voor die prijsperiode.
+Een projectprijslijst kan worden ingesteld als de standaardprojectprijslijst. Deze opzet zorgt ervoor dat alle contracten in uw organisatie altijd beginnen met een standaardprojectprijslijst voor die prijsperiode.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Standaardwaarde voor de organisatie instellen voor projectprijslijsten
 

@@ -1,21 +1,21 @@
 ---
-title: Een pro-formafactuur beheren - lite
-description: Dit onderwerp bevat informatie over het werken met pro-formafacturen.
+title: Een pro-formaprojectfactuur beheren
+description: Dit onderwerp biedt informatie over het gebruik van pro-formaprojectfacturen.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2146e62bddc4a6286fa303ff2cc2c5622ea3133c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274017"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866900"
 ---
-# <a name="manage-a-proforma-invoice---lite"></a>Een pro-formafactuur beheren - lite
+# <a name="manage-a-proforma-project-invoice"></a>Een pro-formaprojectfactuur beheren 
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -69,9 +69,9 @@ In Project Operations is er altijd één factuurregel voor elke projectcontractr
 
 Elke factuurregel in een projectfactuur bevat factuurregeldetails. Deze regeldetails zijn gerelateerd aan de niet-gefactureerde werkelijke verkoopcijfers en mijlpalen die betrekking hebben op de contractregel waarnaar wordt verwezen door de factuurregel. Al deze transacties zijn gemarkeerd **Gereed voor facturering**.
 
-Voor de regel **Tijd- en materiaalfactuur** worden factuurregeldetails gegroepeerd in **Toerekenbaar**, **Niet-toerekenbaar** en **Gratis** op de pagina **Factuurregel**. **Toerekenbare factuurregel** details worden toegevoegd aan het totaal van de factuurregel. **Gratis** en **Niet-toerekenbare werkelijke waarden** worden niet toegevoegd aan het totaal van de factuurregel.
+Voor een regel **Tijd- en materiaalfactuur** worden factuurregeldetails gegroepeerd in **Toerekenbaar**, **Niet-toerekenbaar** en **Gratis** op de pagina **Factuurregel**. **Toerekenbare factuurregel** details worden toegevoegd aan het totaal van de factuurregel. **Gratis** en **Niet-toerekenbare werkelijke waarden** worden niet opgeteld bij het totaal van de factuurregel.
 
-Voor de regel **Factuur met vaste prijs** worden factuurregeldetails gemaakt op basis van mijlpalen die zijn gemarkeerd als **Gereed voor facturering** op de gerelateerde contractregel. Nadat de factuurregeldetails zijn gemaakt op basis van een mijlpaal, wordt de factureringsstatus van de mijlpaal bijgewerkt naar **Klantfactuur gemaakt**.
+Voor een regel **Factuur met vaste prijs** worden factuurregeldetails gemaakt op basis van mijlpalen die zijn gemarkeerd als **Gereed voor facturering** op de gerelateerde contractregel. Nadat de factuurregeldetails zijn gemaakt op basis van een mijlpaal, wordt de factureringsstatus van de mijlpaal bijgewerkt naar **Klantfactuur gemaakt**.
 
 ### <a name="edit-invoice-line-details"></a>Factuurregeldetails bewerken
 
@@ -98,8 +98,12 @@ De volgende velden zijn beschikbaar in factuurregeldetails die worden ondersteun
 | **Belastingen** | Standaard ingesteld op basis van de werkelijke bronwaarden. Het veld kan door de gebruiker worden bewerkt | Het veld kan door de gebruiker worden bewerkt bij het maken van een nieuw factuurregeldetail zonder ondersteunende werkelijke waarden. |
 | **Berekend bedrag** | Een berekend veld, berekend als **Bedrag + belasting**. Een alleen-lezen veld dat niet kan worden bewerkt. | &nbsp; |
 | **Factureringstype** | Standaard ingesteld op basis van de werkelijke bronwaarden. Het veld kan door de gebruiker worden bewerkt. | Als u **Toerekenbaar** selecteert, wordt de regel toegevoegd aan het totaal van de factuurregel. Met de opties **Gratis** en **Niet-toerekenbaar** wordt deze uitgesloten van het totaal van de factuurregel. |
+| **Product selecteren** | Dit veld wordt standaard ingesteld op basis van de bron voor de werkelijke waarde en is alleen-lezen. | Wanneer u een nieuw factuurregeldetail maakt zonder een ondersteunende werkelijke waarde, kan dit veld worden bewerkt. |
+| **Product** | Dit veld wordt standaard ingesteld op basis van de bron voor de werkelijke waarde en is alleen-lezen. | Wanneer u een nieuw factuurregeldetail maakt zonder een ondersteunende werkelijke waarde, kan dit veld worden bewerkt als het veld **Product selecteren** is ingesteld op **Bestaand product**​. |
+| **Productnaam** | Dit veld wordt standaard ingesteld op basis van de bron voor de werkelijke waarde en is alleen-lezen. | Voor een nieuw factuurregeldetail, waar de product-id is geselecteerd uit de catalogus, wordt dit veld ingesteld op de productnaam. Voor een toe te voegen product wordt het veld ingesteld op de toe te voegen naam. |
+| **Beschrijving van toe te voegen product** | Dit veld wordt standaard ingesteld op basis van de bron voor de werkelijke waarde en is alleen-lezen. | Wanneer u een nieuw factuurregeldetail maakt zonder een ondersteunende werkelijke waarde, kunt u een beschrijving voor het toe te voegen product toevoegen. |
 | **Transactietype** | Standaard ingesteld op basis van de werkelijke bronwaarden. Een alleen-lezen veld dat niet kan worden bewerkt. | Wordt standaard ingesteld op **Gefactureerde verkoop** en vergrendeld bij het maken van een nieuw **Factuurregeldetail** zonder ondersteunende werkelijke waarden.  |
-| **Transactieklasse** | Standaard ingesteld op basis van de werkelijke bronwaarden. Een alleen-lezen veld dat niet kan worden bewerkt. | Wordt standaard ingesteld als de gebruiker kiest om een factuurregeldetail voor **Tijd**, **Onkosten** of **Vergoeding** te maken waarbij ook een nieuw **Factuurregeldetail** wordt gemaakt zonder ondersteunende werkelijke waarden. Vergrendeld voor bewerking. |
+| **Transactieklasse** | Standaard ingesteld op basis van de werkelijke bronwaarden. Een alleen-lezen veld dat niet kan worden bewerkt. | Dit veld wordt standaard ingesteld op basis van of de gebruiker ervoor kiest om een factuurregeldetail van het type **Tijd**, **Onkosten**, **Materiaal** of **Vergoeding** te maken terwijl er ook een nieuw **factuurregeldetail** zonder een ondersteunende werkelijke waarde wordt gemaakt. Vergrendeld voor bewerking. |
 
 De volgende velden zijn beschikbaar in factuurregeldetails die worden ondersteund door een mijlpaal:
 

@@ -1,22 +1,22 @@
 ---
-title: Kostprijzen voor schattingen en werkelijke waarden omzetten - lite
-description: Dit onderwerp bevat informatie over hoe kostprijzen voor schattingen en werkelijke waarden worden herleid.
+title: Kostprijzen voor projectschattingen en werkelijke waarden omzetten
+description: Dit onderwerp geeft informatie over hoe kostprijzen in projectschattingen en werkelijke waarden worden omgezet.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274543"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877259"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Kostprijzen voor schattingen en werkelijke waarden omzetten - lite
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Kostprijzen voor projectschattingen en werkelijke waarden omzetten 
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -36,6 +36,12 @@ Nadat een kostprijslijst is herleid, worden de velden **Rol** en **Resource-eenh
 Schattingsregels voor Onkosten verwijzen naar de details van de prijsopgave- en contractregels voor onkosten en de schattingsregels voor onkosten in een project.
 
 Nadat een kostprijslijst is herleid, gebruikt het systeem een combinatie van de velden **Categorie** en **Eenheid** op de onkostenschattingsregel die moeten worden vergeleken met de regels voor **Categorieprijs** op de herleide prijslijst. Als een categorieprijsregel wordt gevonden met een kostentarief voor de combinatie van **Categorie** en **Eenheid**, wordt het kostentarief standaard ingesteld. Als het systeem de waarden voor **Categorie** en **Eenheid** niet kan vergelijken, of als het een overeenkomende categorieprijsregel kan vinden, maar de prijsmethode niet **Prijs per eenheid** is, wordt het kostentarief standaard nul (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Kostentarieven voor werkelijke en schattingsregels voor materiaal omzetten
+
+Schattingsregels voor materiaal verwijzen naar de prijsopgave- en contractregeldetails voor materialen en de materiaalschattingsregels voor een project.
+
+Nadat een kostprijslijst is omgezet, gebruikt het systeem een combinatie van de velden **Product** en **Eenheid** op de schattingsregel voor een materiaalschatting die vervolgens wordt vergeleken met de regels **Prijslijstitems** van de omgezette prijslijst. Als het systeem een productprijsregel vindt met een kostentarief voor de combinatie van de velden **Product** en **Eenheid**, wordt het kostentarief standaard ingesteld. Als de waarden voor **Product** en **Eenheid** niet kunnen worden vergeleken of als er geen overeenkomende prijslijstartikelregel kan worden gevonden, maar de prijsmethode is gebaseerd op Standaardkosten of Huidige kosten en geen van beide is gedefinieerd voor het product, worden de eenheidskosten standaard ingesteld op nul.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

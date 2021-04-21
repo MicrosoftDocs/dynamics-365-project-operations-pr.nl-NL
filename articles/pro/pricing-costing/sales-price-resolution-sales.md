@@ -1,21 +1,21 @@
 ---
-title: Verkoopprijzen voor schattingen en werkelijke waarden omzetten - lite
-description: Dit onderwerp bevat informatie over het omzetten van verkoopprijzen voor schattingen en werkelijke waarden.
+title: Verkoopprijzen voor projectschattingen en werkelijke waarden omzetten
+description: Dit onderwerp geeft informatie over hoe verkoopprijzen in projectschattingen en werkelijke waarden worden omgezet.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274497"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877350"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Verkoopprijzen voor schattingen en werkelijke waarden omzetten - lite
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Verkoopprijzen voor projectschattingen en werkelijke waarden omzetten
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -55,5 +55,14 @@ Nadat een prijslijst voor verkopen is omgezet, voert het systeem de volgende sta
 
 4. Als het systeem de veldwaarden **Categorie** en **Eenheid** niet kan afstemmen, wordt het verkooptarief standaard op nul (0) ingesteld.
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Verkooptarieven voor werkelijke en schattingsregels voor materiaal omzetten
+
+In Project Operations worden schattingsregels voor materiaal gebruikt ter aanduiding van de prijsopgave- en contractregeldetails voor materialen en de materiaalschattingsregels voor het project.
+
+Nadat een prijslijst voor verkopen is omgezet, voert het systeem de volgende stappen uit om de verkoopprijs per eenheid te standaardiseren.
+
+1. Het systeem gebruikt de combinatie van de velden **Product** en **Eenheid** op de schattingsregel voor materiaal dat moet worden vergeleken met de prijslijstartikelregels in de prijslijst die is omgezet.
+2. Als een prijslijstartikelregel met een verkooptarief voor de combinatie van **Product** en **Eenheid** wordt gevonden en de prijsmethode is **Valutabedrag**, dan wordt de verkoopprijs gebruikt die is opgegeven op de prijslijstregel.
+3. Als de waarden voor **Product** en **Eenheid** niet overeenkomen, wordt het verkooptarief standaard ingesteld op nul.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

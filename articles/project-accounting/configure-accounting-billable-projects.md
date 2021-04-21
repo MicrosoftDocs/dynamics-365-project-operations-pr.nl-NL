@@ -3,17 +3,17 @@ title: Boekhouding configureren voor factureerbare projecten
 description: Dit onderwerp biedt informatie over de boekhoudingsopties voor factureerbare projecten.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287637"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858647"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Boekhouding configureren voor factureerbare projecten
 
@@ -58,13 +58,25 @@ Voer de volgende stappen uit om een nieuw profiel voor projectkosten en -inkomst
 
          - **Saldo**: bij het boeken van het Project Operations-integratiejournaal worden de onkostentransactiekosten gedebiteerd van het grootboekrekeningtype *OHW - kostprijs*, zoals gedefinieerd op het tabblad **Kosten** van de pagina **Instellingen voor boeking in grootboek** en gecrediteerd aan de tegenrekening op de journaalregel. Standaardtegenrekeningen voor onkosten worden gedefinieerd in **Projectmanagement en financiële administratie** > **Instellingen** \> **Boeken** \> **Standaardtegenrekening voor onkosten**. De accountant gebruikt de functie **Kosten boeken** om deze kosten periodiek van de saldorekening naar de winst- en verliesrekening te verplaatsen.
         - **Wint en verlies**: bij het boeken van het Project Operations-integratiejournaal worden de onkostentransactiekosten gedebiteerd van het grootboekrekeningtype *Kosten*, zoals gedefinieerd op het tabblad **Kosten** van de pagina **Instellingen voor boeking in grootboek** en gecrediteerd aan de tegenrekening op de journaalregel. Standaardtegenrekeningen voor onkosten worden gedefinieerd in **Projectmanagement en financiële administratie** \> **Instellingen** \> **Boeken** \> **Standaardtegenrekening voor onkosten**.
+      
+    - **Kosten boeken - artikel**​:
+
+         - **Saldo**: bij het boeken van het Project Operations-integratiejournaal worden de artikeltransactiekosten afgeschreven van het grootboekrekeningtype *OHW - Kostenwaarde - artikel* zoals gedefinieerd op het tabblad **Kosten** op de pagina **Boekingsinstellingen voor grootboek** en bijgeschreven op de volgende rekening:
+    
+              - Voor gebruik van documenttype: rekening **Kosten - artikel** in **Boekingsinstellingen voor grootboekboek**​.  
+              - Voor aankoop van documenttype: **Integratierekening voor inkoop** in **Projectbeheer en boekhoudkundige parameters**​.
+           De accountant gebruikt de functie **Kosten boeken** om deze kosten periodiek van de saldorekening naar de winst- en verliesrekening te verplaatsen.
+        - **Winst en verlies**: bij het boeken van het Project Operations-integratiejournaal worden de artikeltransactiekosten afgeschreven van het grootboekrekeningtype *Kosten* zoals gedefinieerd op het tabblad **Kosten** op de pagina **Boekingsinstellingen voor grootboek** en bijgeschreven op de volgende rekening:
+         
+             - Voor gebruik van documenttype: rekening **Kosten - artikel** in **Boekingsinstellingen voor grootboekboek**​.  
+             - Voor aankoop van documenttype: **Integratierekening voor inkoop** in **Projectbeheer en boekhoudkundige parameters**​.
        
     - **Bij facturering op rekening**:
 
         - **Saldo** : bij het boeken van het Project-factuurvoorstel wordt een transactie op rekening (factureringsmijlpaal) gecrediteerd naar het grootboekrekeningtype *OHW gefactureerd - op rekening*, zoals gedefinieerd op het tabblad **Omzet** op de pagina **Instellingen voor boeking in grootboek** en gedebiteerd van de klantsaldorekening.
          - **Winst en verlies** : bij het boeken van het Project-factuurvoorstel wordt een transactie op rekening (factureringsmijlpaal) gecrediteerd naar het grootboekrekeningtype *Gefactureerde omzet - op rekening*, zoals gedefinieerd op het tabblad **Omzet** op de pagina **Instellingen voor boeking in grootboek** en gedebiteerd van de klantsaldorekening. Klantsaldorekeningen worden gedefinieerd in **Debiteuren** \> **Instellingen** \> **Boekingsprofielen voor klanten**.
 
-   Wanneer u de boekingsprofielen definieert voor factureringsmethoden voor tijd en materiaal, hebt u de mogelijkheid om omzet te genereren per transactietype (uur, onkosten en kosten). Als **Omzet toerekenen** is ingesteld op **Ja**, worden niet-gefactureerde verkooptransacties in het Project Operations-integratiejournaal geregistreerd in het grootboek. De verkoopwaarde wordt gedebiteerd van de **OHW - verkoopwaarderekening** en gecrediteerd naar de rekening **Verzamelde omzet - verkoopwaarde** die is ingesteld op de pagina **Instellingen voor boeking in grootboek** op het tabblad **Omzet**. 
+   Wanneer u de boekingsprofielen definieert voor factureringsmethoden voor tijd en materiaal, hebt u de mogelijkheid om inkomsten te genereren per transactietype (uur, onkosten, artikel en vergoeding). Als **Omzet toerekenen** is ingesteld op **Ja**, worden niet-gefactureerde verkooptransacties in het Project Operations-integratiejournaal geregistreerd in het grootboek. De verkoopwaarde wordt gedebiteerd van de **OHW - verkoopwaarderekening** en gecrediteerd naar de rekening **Verzamelde omzet - verkoopwaarde** die is ingesteld op de pagina **Instellingen voor boeking in grootboek** op het tabblad **Omzet**. 
   
   > [!NOTE]
   > De optie **Omzet toerekenen** is alleen beschikbaar als het betreffende transactietype **Kosten** wordt geboekt naar de winst- en verliesrekening.

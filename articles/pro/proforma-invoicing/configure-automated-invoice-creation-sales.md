@@ -1,29 +1,27 @@
 ---
-title: Automatisch maken van facturen configureren - lite
-description: Dit onderwerp bevat informatie over het configureren van het automatisch maken van pro-formafacturen.
+title: Het automatisch maken van facturen instellen
+description: Dit onderwerp biedt informatie over het instellen en configureren van de automatische aanmaak van pro-formafacturen.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274317"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866811"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Automatisch maken van facturen configureren - lite
+# <a name="set-up-automatic-invoice-creation"></a>Het automatisch maken van facturen instellen 
  
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering, Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
 U kunt het automatisch maken van facturen configureren in Dynamics 365 Project Operations. Er wordt een concept van de pro-formafactuur gemaakt op basis van het factuurschema voor elk projectcontract en elke contractregel. Factuurschema´s worden op contractregelniveau geconfigureerd. Elke regel in een contract kan een afzonderlijk factuurschema hebben of hetzelfde factuurschema kan op elke regel van het contract worden opgenomen.
 
-Als u een factuur maakt, wordt altijd ten minste één factuur per projectcontract gemaakt. In sommige gevallen kunnen er meerdere facturen worden gemaakt.
-
-Als het contract bijvoorbeeld meerdere klanten heeft, wordt hetzelfde aantal facturen gemaakt als het aantal klanten dat factureerbare transacties heeft die moeten worden gefactureerd voor dat projectcontract.
+Als u een factuur maakt, wordt altijd ten minste één factuur per projectcontract gemaakt. In sommige gevallen kunnen er meerdere facturen worden gemaakt. Als het contract bijvoorbeeld meerdere klanten heeft, wordt hetzelfde aantal facturen gemaakt als het aantal klanten dat factureerbare transacties heeft die moeten worden gefactureerd voor dat projectcontract.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Hoe transacties worden opgenomen in een factuur 
 

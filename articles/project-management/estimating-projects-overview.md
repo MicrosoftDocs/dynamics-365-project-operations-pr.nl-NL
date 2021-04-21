@@ -1,31 +1,41 @@
 ---
-title: Overzicht van ramingsprojecten
-description: Dit onderwerp bevat informatie over schattingen in Dynamics 365 Project Operations.
-author: ruhercul
+title: Concepten voor financiële schattingen
+description: Dit onderwerp biedt informatie over financiële schattingen van projecten in Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286872"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701730"
 ---
-# <a name="estimate-projects-overview"></a>Overzicht van ramingsprojecten
+# <a name="financial-estimation-concepts"></a>Concepten voor financiële schattingen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
+In Dynamics 365 Project Operations kunt u uw projecten in twee fasen financieel schatten: 
+1. Tijdens de voorverkoopfase voordat de deal wordt binnengehaald. 
+2. Tijdens de uitvoeringsfase nadat het projectcontract is gemaakt. 
+
+U kunt een financiële schatting maken voor projectgebaseerd werk met behulp van een van de volgende drie pagina's:
+- De pagina **Offerteregel**, via de prijsopgaveregeldetails.  
+- De pagina **Projectcontractregel**, via de contractregeldetails. 
+- De pagina **Project**, via het tabblad **Taken** of **Onkostenschattingen**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Een projectprijsopgave gebruiken om een schatting te maken
 Voor een projectgebaseerde prijsopgave kunt u de entiteit **Detail van prijsopgaveregel** gebruiken om het werk te schatten dat nodig is om een project te leveren. U kunt die schatting vervolgens delen met de klant.
 
 Projectgebaseerde prijsopgaveregels kunnen geen, enkele of vele prijsopgaveregeldetails bevatten. Prijsopgaveregeldetails worden gebruikt om tijd, onkosten of tarieven te schatten. In Microsoft Dynamics 365 Project Operations zijn materiaalschattingen in prijsopgaveregeldetails niet toegestaan. Dit worden transactieklassen genoemd. Geschatte belastingbedragen kunnen ook worden ingevoerd voor een transactieklasse.
 
 Naast transactieklassen bevatten prijsopgaveregeldetails een transactietype. Er worden twee transactietypen ondersteund voor prijsopgaveregeldetails: **Kosten** en **Projectcontract**.
 
-## <a name="estimate-by-using-a-contract"></a>Schatting op basis van een contract
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Een projectcontract gebruiken om een schatting te maken
 
 Als u een prijsopgave hebt gebruikt bij het maken van een projectgebaseerd contract, wordt uw schatting voor elke prijsopgaveregel in de prijsopgave naar het projectcontract gekopieerd. De structuur van een projectcontract is als de structuur van de projectprijsopgave met regels, regeldetails en factuurschema's.
 
@@ -35,23 +45,17 @@ Contractregeldetails kunnen worden gebruikt om tijd, onkosten of tarieven te sch
 
 Materiaalschattingen zijn niet toegestaan in contractregeldetails.
 
-De processen die worden ondersteund in een projectcontract zijn het maken en bevestigen van facturen. Bij het maken van een factuur wordt een concept gemaakt van een projectgebaseerde factuur die alle niet-gefactureerde werkelijke verkoopwaarden tot de huidige datum bevat.
+## <a name="use-a-project-to-create-an-estimate"></a>Een project gebruiken om een schatting te maken 
 
-Bij bevestiging wordt het contract alleen-lezen en wordt de status van **Concept** in **Bevestigd** gewijzigd. Deze actie kan niet ongedaan worden gemaakt. Omdat deze actie permanent is, kunt u voor een contract de status **Concept** het beste behouden.
-
-De enige verschillen tussen conceptcontracten en bevestigde contracten zijn de status en het feit dat conceptcontracten wel kunnen worden bewerkt en bevestigde contracten niet. Zowel voor conceptcontracten als voor bevestigde contracten kunnen facturen worden gemaakt en werkelijke waarden worden bijgehouden.
-
-Project Operations ondersteunt geen wijzigingsorders voor contracten of projecten.
-
-## <a name="estimating-projects"></a>Projecten schatten
-
-U kunt schattingen voor tijd en onkosten maken voor projecten. In Project Operations is het niet mogelijk om schattingen voor materialen of kosten te maken voor projecten.
+U kunt schattingen voor tijd en onkosten maken voor projecten. Project Operations ondersteunt geen schattingen van materialen of vergoedingen voor projecten.
 
 Tijdschattingen worden gegenereerd wanneer u een taak maakt en de kenmerken identificeert van een algemene resource die nodig is om de taak uit te voeren. Tijdschattingen worden gegenereerd op basis van planningstaken. Tijdschattingen worden niet gemaakt als u algemene teamleden buiten de context van de planning maakt.
 
-Onkostenschattingen kunnen worden ingevoerd in het raster op de pagina **Schattingen**.
+Onkostenschattingen kunnen worden ingevoerd in het raster op de pagina **Onkostenschattingen**.
 
-## <a name="understanding-estimation"></a>Schattingen begrijpen
+Het maken van een schatting voor een project wordt als best practice beschouwd omdat u bottom-up gedetailleerde schattingen voor arbeid of tijd en onkosten kunt maken voor elke taak in het projectplan. U kunt deze gedetailleerde schatting vervolgens gebruiken om schattingen voor elke prijsopgaveregel te maken en een meer geloofwaardige prijsopgave voor de klant op te bouwen. Wanneer u met het projectplan een gedetailleerde schatting op de prijsopgaveregel importeert of maakt, worden de verkoop- en kostenwaarde van deze schattingen in Project Operations geïmporteerd. Na het importeren kunt u de winstgevendheid, marges en haalbaarheidsstatistieken voor de projectprijsopgave bekijken.
+
+## <a name="understanding-estimates"></a>Schattingen begrijpen
 
 Gebruik de volgende tabel als richtlijn voor het begrijpen van de bedrijfslogica in de schattingsfase.
 
