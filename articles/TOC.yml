@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: De integratie van Project Operations per rechtspersoon configureren
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Integratie van dubbel schrijven configureren
+          items:
+            - name: Overzicht van integratie van dubbel schrijven
+              href: environment/resource-dual-write-overview.md
+            - name: Toewijzingsversies van dubbel wegschrijven voor Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Integratie van instellings- en configuratiegegevens in Project Operations
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Integratie van projectschattingen en werkelijke waarden
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Integratie van projectfacturen
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Integratie van onkostenbeheer
+              href: environment/resource-dual-write-expense.md
+            - name: Integratie van leveranciersfacturen
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Nieuwe functies
       items:
         - name: April 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Projectkalenders definiëren
           href: project-management/define-project-calendars.md
+        - name: Planningsmodi
+          href: project-management/scheduling-modes.md
         - name: Een project bijwerken
           href: project-management/update-project.md
         - name: Een project kopiëren
@@ -404,6 +422,12 @@
           items:
             - name: Correctiejournalen maken en bevestigen
               href: actuals/create-confirm-correction-journals.md
+    - name: Inkoop
+      items:
+        - name: Niet-voorradige materialen en in behandeling zijnde leveranciersfacturen configureren
+          href: procurement/configure-materials-nonstocked.md
+        - name: Niet-voorradige materialen voor projecten aanschaffen via in behandeling zijnde leveranciersfacturen
+          href: procurement/pending-vendor-invoices.md
     - name: Facturering
       items:
         - name: Overzicht van factureringsproces
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Automatisering van projectgebaseerde facturen configureren
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Projectfactuurvoorstellen beheren
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Projectboekhouding
       items:
         - name: Standaardwaarden voor financiële dimensies
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Projectkalenders definiëren
           href: project-management/define-project-calendars.md
+        - name: Planningsmodi
+          hreF: project-management/scheduling-modes.md
         - name: Een project bijwerken
           href: project-management/update-project.md
         - name: Een project kopiëren
@@ -848,6 +876,8 @@
   items:
     - name: Nieuwe functies
       items:
+        - name: Nieuwe functies van april 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Nieuwe functies van maart 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Nieuwe functies van januari 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
@@ -871,9 +901,9 @@
     - name: Betalen bij betaling instellen en gebruiken voor leveranciersbetalingen
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Toerekening van inkoopontvangsten aan projectkosten
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Projectfacturering
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Prestaties van projectfactuurvoorstellen
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Projectcontracten
@@ -998,6 +1028,8 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 30, V3'
           href: psa/whats-new-ur-30.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 29.5 Hotfix, V3'
@@ -1327,7 +1359,7 @@
             - name: Gebruik van resources weergeven
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Projectmanager-handleiding
           items:
             - name: Projectmanager-handleiding (Project Service)
