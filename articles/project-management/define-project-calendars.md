@@ -1,9 +1,9 @@
 ---
 title: Projectkalenders definiëren
-description: Dit onderwerp bevat informatie over het gebruik van een projectkalender om de projectplanning bij te houden.
+description: Dit onderwerp biedt informatie over hoe u een agendasjabloon op een project kunt toepassen om de projectplanning bij te houden.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286962"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981294"
 ---
 # <a name="define-project-calendars"></a>Projectkalenders definiëren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Als u een projectplanning wilt maken, maakt u een sjabloon voor een projectkalender waarin het aantal werkuren per dag en eventuele sluitingsdagen van het bedrijf worden aangegeven. Als u een sjabloon voor een projectkalender wilt maken, koppelt u een werksjabloon aan het veld **Kalendersjabloon** voor het project. Voer deze stappen uit om een werksjabloon te maken.
+Als u een project wilt maken en beheren, moet u een agendasjabloon op het project toepassen. De agendasjabloon definieert de volgende projectkenmerken:
 
-1. Selecteer in het linkernavigatievenster de optie **Resources**. 
-2. Open op de lijstpagina **Resources** een gebruikersrecord en selecteer vervolgens **Werkuren weergeven**.
+- Werkuren, inclusief begin- en eindtijd
+- Werkdagen
+- Agenda-uitzonderingen zoals niet-werkdagen
 
-  > [!NOTE]
-  > Zorg ervoor dat u pop-ups op de browserpagina toestaat. Op deze manier kunt u de werkuren zien die voor de resource zijn ingesteld.
-  
-3. Selecteer op het tabblad **Maandweergave** de optie **Instellen**. Er wordt een lijst met drie opties weergegeven: 
+De agendasjabloon die op een project wordt toegepast, is een kopie van de agendasjabloon die is gedefinieerd in de instellingen van uw organisatie.
 
-  - Nieuwe weekplanning
-  - Werkplanning voor één dag
-  - Verlof
+> [!NOTE]
+> Als u de agendasjabloon wijzigt, worden die wijzigingen niet doorgevoerd in de werktijden van het project. Als u de werktijden van het project wilt wijzigen, moet een nieuwe sjabloon worden toegepast.
 
-4. Selecteer **Nieuwe weekplanning** en stel vervolgens de opties voor deze resourceplanning in. U kunt een terugkerende weekplanning, parameters voor dagelijkse uren, sluitingsdagen van het bedrijf en meer instellen.
-5. Stel het datumbereik in, selecteer **Opslaan** en selecteer vervolgens **Sluiten**. 
-6. Ga terug naar de lijstpagina **Resources** en selecteer de resource waarvoor u de werkuren wilt instellen. 
-7. Selecteer **Agenda instellen als** om de werksjabloon in te stellen. 
-8. Voer in het dialoogvenster **Werksjabloon** een naam voor de werksjabloon in en selecteer **Toepassen**. 
+Als u een agendasjabloon voor uw organisatie wilt maken, zijn er twee belangrijke vereisten:
+
+- Definieer de gewenste werkuren van de sjabloon met behulp van een nieuwe of bestaande boekbare resource.
+- Maak een nieuwe agendasjabloon en koppel de sjabloon aan de boekbare resource.
+
+**De werkuren van de sjabloon definiëren**
+
+1. Ga naar **Resources** \> **Resources**.
+2. Maak een nieuwe resource om naar te verwijzen in de agendasjabloon of selecteer een bestaande resource.
+3. Selecteer het tabblad **Werkuren** van de resource en voer de instructies uit in [Werkuren instellen voor een resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) om de agendaregels te configureren.
+
+**Een nieuwe agendasjabloon maken**
+
+1. Ga naar **Instellingen** \> **Agendasjabloon**.
+2. Selecteer **Nieuw** en voer een naam, beschrijving en sjabloonresource in.
+
+> [!NOTE]
+> Wanneer in een agendasjabloon naar een resource wordt verwezen, wordt een kopie van de agenda van de resource aan de agendasjabloon gekoppeld. Als de werkuren van de gekopieerde sjabloon veranderen, worden die wijzigingen niet doorgevoerd in de agendasjabloon.
 
 U kunt nu de werksjabloon aan een sjabloon voor een projectkalender koppelen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
