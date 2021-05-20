@@ -18,71 +18,71 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282642"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951428"
 ---
-# <a name="schedule-resources-for-a-project-project-service"></a><span data-ttu-id="e7a14-103">Resources plannen voor een project (Project Service)</span><span class="sxs-lookup"><span data-stu-id="e7a14-103">Schedule resources for a project (Project Service)</span></span>
+# <a name="schedule-resources-for-a-project-project-service"></a><span data-ttu-id="8f46c-103">Resources plannen voor een project (Project Service)</span><span class="sxs-lookup"><span data-stu-id="8f46c-103">Schedule resources for a project (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="e7a14-104">U kunt de beschikbaarheid van de resource weergeven om een algemeen overzicht te krijgen van hoe uw resources worden geboekt, of u kunt de weergave met vaardigheden, team, de locatie, en andere opties filteren.</span><span class="sxs-lookup"><span data-stu-id="e7a14-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
+<span data-ttu-id="8f46c-104">U kunt de beschikbaarheid van de resource weergeven om een algemeen overzicht te krijgen van hoe uw resources worden geboekt, of u kunt de weergave met vaardigheden, team, de locatie, en andere opties filteren.</span><span class="sxs-lookup"><span data-stu-id="8f46c-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
   
-<span data-ttu-id="e7a14-105">Het planbord geeft de lijst met resources en hun beschikbaarheid weer.</span><span class="sxs-lookup"><span data-stu-id="e7a14-105">The schedule board shows list of resources and their availability.</span></span> <span data-ttu-id="e7a14-106">Selecteer een weergavemodus om beschikbaarheid weer te geven op **Uren**, **Dag**, **Week** of **Maand**.</span><span class="sxs-lookup"><span data-stu-id="e7a14-106">Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.</span></span>  
+<span data-ttu-id="8f46c-105">Het planbord geeft de lijst met resources en hun beschikbaarheid weer.</span><span class="sxs-lookup"><span data-stu-id="8f46c-105">The schedule board shows list of resources and their availability.</span></span> <span data-ttu-id="8f46c-106">Selecteer een weergavemodus om beschikbaarheid weer te geven op **Uren**, **Dag**, **Week** of **Maand**.</span><span class="sxs-lookup"><span data-stu-id="8f46c-106">Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.</span></span>  
   
-<span data-ttu-id="e7a14-107">Voordat u het planbord gebruikt, moet u dit configureren.</span><span class="sxs-lookup"><span data-stu-id="e7a14-107">Before you use the schedule board, it’s important to set it up.</span></span> <span data-ttu-id="e7a14-108">Zie [Configureer het planningsbord (Field Service, Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="e7a14-108">For more information, see [Configure the schedule board (Field Service or Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).</span></span>
+<span data-ttu-id="8f46c-107">Voordat u het planbord gebruikt, moet u dit configureren.</span><span class="sxs-lookup"><span data-stu-id="8f46c-107">Before you use the schedule board, it’s important to set it up.</span></span> <span data-ttu-id="8f46c-108">Zie [Configureer het planningsbord (Field Service, Project Service Automation)](/dynamics365/field-service/configure-schedule-board) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="8f46c-108">For more information, see [Configure the schedule board (Field Service or Project Service Automation)](/dynamics365/field-service/configure-schedule-board).</span></span>
   
-<span data-ttu-id="e7a14-109">Als u een oudere versie gebruikt, raadpleegt u voor resourcebeschikbaarheid [De beschikbaarheid van resources weergeven](../psa/view-resource-availability.md).</span><span class="sxs-lookup"><span data-stu-id="e7a14-109">If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).</span></span>  
+<span data-ttu-id="8f46c-109">Als u een oudere versie gebruikt, raadpleegt u voor resourcebeschikbaarheid [De beschikbaarheid van resources weergeven](../psa/view-resource-availability.md).</span><span class="sxs-lookup"><span data-stu-id="8f46c-109">If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).</span></span>  
 
 > [!IMPORTANT]
->  <span data-ttu-id="e7a14-110">Als u de boekingsfunctionaliteit, geo-coding en locatieservices van het planbord wilt gebruiken, moet u de kaarten inschakelen.</span><span class="sxs-lookup"><span data-stu-id="e7a14-110">To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.</span></span>  
+>  <span data-ttu-id="8f46c-110">Als u de boekingsfunctionaliteit, geo-coding en locatieservices van het planbord wilt gebruiken, moet u de kaarten inschakelen.</span><span class="sxs-lookup"><span data-stu-id="8f46c-110">To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.</span></span>  
 > 
-> 1. <span data-ttu-id="e7a14-111">Selecteer in het hoofdmenu **Resourceplanning** > **Beheer**.</span><span class="sxs-lookup"><span data-stu-id="e7a14-111">On the main menu, select **Resource Scheduling** > **Administration**.</span></span>  
-> 2. <span data-ttu-id="e7a14-112">Klik op **Planningsparameters**.</span><span class="sxs-lookup"><span data-stu-id="e7a14-112">Click **Scheduling parameters**.</span></span>  
-> 3. <span data-ttu-id="e7a14-113">Open de record en schuif omlaag naar de sectie **Resource Scheduling Optimization**.</span><span class="sxs-lookup"><span data-stu-id="e7a14-113">Open record and scroll down to the **Resource Scheduling Optimization** section.</span></span>  
-> 4. <span data-ttu-id="e7a14-114">Kies in het veld **Verbinden met Kaarten** de waarde **Ja**.</span><span class="sxs-lookup"><span data-stu-id="e7a14-114">On the **Connect to Maps** field, choose **Yes**.</span></span>  
-> 5. <span data-ttu-id="e7a14-115">Accepteer de voorwaarden en sla de record op.</span><span class="sxs-lookup"><span data-stu-id="e7a14-115">Accept terms and save the record.</span></span>  
-> 6. <span data-ttu-id="e7a14-116">Selecteer in het hoofdmenu **Project Service** > **Planbord**.</span><span class="sxs-lookup"><span data-stu-id="e7a14-116">On the main menu, select **Project Service** > **Schedule board**.</span></span> <span data-ttu-id="e7a14-117">Vanaf dit punt zijn er verschillende manieren om een boekingsvereiste handmatig te plannen.</span><span class="sxs-lookup"><span data-stu-id="e7a14-117">From here, there are several ways to manually schedule a booking requirement.</span></span> <span data-ttu-id="e7a14-118">Kies de methode die voor u het beste is.</span><span class="sxs-lookup"><span data-stu-id="e7a14-118">Choose the method that works for you.</span></span>
+> 1. <span data-ttu-id="8f46c-111">Selecteer in het hoofdmenu **Resourceplanning** > **Beheer**.</span><span class="sxs-lookup"><span data-stu-id="8f46c-111">On the main menu, select **Resource Scheduling** > **Administration**.</span></span>  
+> 2. <span data-ttu-id="8f46c-112">Klik op **Planningsparameters**.</span><span class="sxs-lookup"><span data-stu-id="8f46c-112">Click **Scheduling parameters**.</span></span>  
+> 3. <span data-ttu-id="8f46c-113">Open de record en schuif omlaag naar de sectie **Resource Scheduling Optimization**.</span><span class="sxs-lookup"><span data-stu-id="8f46c-113">Open record and scroll down to the **Resource Scheduling Optimization** section.</span></span>  
+> 4. <span data-ttu-id="8f46c-114">Kies in het veld **Verbinden met Kaarten** de waarde **Ja**.</span><span class="sxs-lookup"><span data-stu-id="8f46c-114">On the **Connect to Maps** field, choose **Yes**.</span></span>  
+> 5. <span data-ttu-id="8f46c-115">Accepteer de voorwaarden en sla de record op.</span><span class="sxs-lookup"><span data-stu-id="8f46c-115">Accept terms and save the record.</span></span>  
+> 6. <span data-ttu-id="8f46c-116">Selecteer in het hoofdmenu **Project Service** > **Planbord**.</span><span class="sxs-lookup"><span data-stu-id="8f46c-116">On the main menu, select **Project Service** > **Schedule board**.</span></span> <span data-ttu-id="8f46c-117">Vanaf dit punt zijn er verschillende manieren om een boekingsvereiste handmatig te plannen.</span><span class="sxs-lookup"><span data-stu-id="8f46c-117">From here, there are several ways to manually schedule a booking requirement.</span></span> <span data-ttu-id="8f46c-118">Kies de methode die voor u het beste is.</span><span class="sxs-lookup"><span data-stu-id="8f46c-118">Choose the method that works for you.</span></span>
   
-## <a name="find-available-resources"></a><span data-ttu-id="e7a14-119">Beschikbare resources zoeken</span><span class="sxs-lookup"><span data-stu-id="e7a14-119">Find available resources</span></span>
+## <a name="find-available-resources"></a><span data-ttu-id="8f46c-119">Beschikbare resources zoeken</span><span class="sxs-lookup"><span data-stu-id="8f46c-119">Find available resources</span></span>
 
-1.  <span data-ttu-id="e7a14-120">Klik in de lijst **Boekingsvereisten** met de rechtermuisknop op een ongeplande boeking en kies een van de volgende:</span><span class="sxs-lookup"><span data-stu-id="e7a14-120">From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:</span></span>  
+1.  <span data-ttu-id="8f46c-120">Klik in de lijst **Boekingsvereisten** met de rechtermuisknop op een ongeplande boeking en kies een van de volgende:</span><span class="sxs-lookup"><span data-stu-id="8f46c-120">From the **Booking Requirement** list, right-click an unscheduled booking and choose one of the following:</span></span>  
   
-- <span data-ttu-id="e7a14-121">Kies **Beschikbaarheid zoeken - Huidige resources** om beschikbare resources te zoeken in de lijst met resources in het planbord.</span><span class="sxs-lookup"><span data-stu-id="e7a14-121">Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.</span></span>  
-- <span data-ttu-id="e7a14-122">Kies **Beschikbaarheid zoeken - Alle resources** om beschikbare resources te zoeken onder de resources in het systeem.</span><span class="sxs-lookup"><span data-stu-id="e7a14-122">Choose **Find availability - All Resources**, to find an available resource from resources in the system</span></span>  
+- <span data-ttu-id="8f46c-121">Kies **Beschikbaarheid zoeken - Huidige resources** om beschikbare resources te zoeken in de lijst met resources in het planbord.</span><span class="sxs-lookup"><span data-stu-id="8f46c-121">Choose **Find availability - Current Resources** to find an available resource from the list on the schedule board.</span></span>  
+- <span data-ttu-id="8f46c-122">Kies **Beschikbaarheid zoeken - Alle resources** om beschikbare resources te zoeken onder de resources in het systeem.</span><span class="sxs-lookup"><span data-stu-id="8f46c-122">Choose **Find availability - All Resources**, to find an available resource from resources in the system</span></span>  
    > [!NOTE]
-   >  <span data-ttu-id="e7a14-123">Wanneer u dit doet, tonen de filters de opties voor de geselecteerde boekingsvereisten.</span><span class="sxs-lookup"><span data-stu-id="e7a14-123">When you do this, the filters will show options for the selected booking requirement.</span></span>  
+   >  <span data-ttu-id="8f46c-123">Wanneer u dit doet, tonen de filters de opties voor de geselecteerde boekingsvereisten.</span><span class="sxs-lookup"><span data-stu-id="8f46c-123">When you do this, the filters will show options for the selected booking requirement.</span></span>  
   
-2. <span data-ttu-id="e7a14-124">Als u een beschikbaar tijdvak ziet, klikt u met de rechtermuisknop op het tijdvak in het planbord en kiest u **Hier boeken**.</span><span class="sxs-lookup"><span data-stu-id="e7a14-124">When you see an available slot, right-click the time slot on the schedule board and choose **Book Here**.</span></span> <span data-ttu-id="e7a14-125">U kunt ook de boekingsvereiste verslepen en in het beschikbare tijdvak neerzetten.</span><span class="sxs-lookup"><span data-stu-id="e7a14-125">Or, drag and drop the booking requirement to the available time slot.</span></span>  
+2. <span data-ttu-id="8f46c-124">Als u een beschikbaar tijdvak ziet, klikt u met de rechtermuisknop op het tijdvak in het planbord en kiest u **Hier boeken**.</span><span class="sxs-lookup"><span data-stu-id="8f46c-124">When you see an available slot, right-click the time slot on the schedule board and choose **Book Here**.</span></span> <span data-ttu-id="8f46c-125">U kunt ook de boekingsvereiste verslepen en in het beschikbare tijdvak neerzetten.</span><span class="sxs-lookup"><span data-stu-id="8f46c-125">Or, drag and drop the booking requirement to the available time slot.</span></span>  
   
 
-## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a><span data-ttu-id="e7a14-126">Een resource boeken met de dagweergave en nog niet-volgeboekte personen vinden</span><span class="sxs-lookup"><span data-stu-id="e7a14-126">Book a resource using the daily view and find who’s under-booked</span></span>
+## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a><span data-ttu-id="8f46c-126">Een resource boeken met de dagweergave en nog niet-volgeboekte personen vinden</span><span class="sxs-lookup"><span data-stu-id="8f46c-126">Book a resource using the daily view and find who’s under-booked</span></span>
   
-1.  <span data-ttu-id="e7a14-127">Selecteer **Weergavemodus** in het planbord en selecteer **Dagen**.</span><span class="sxs-lookup"><span data-stu-id="e7a14-127">On the schedule board, select **View Mode** and select **Days**.</span></span>  
+1.  <span data-ttu-id="8f46c-127">Selecteer **Weergavemodus** in het planbord en selecteer **Dagen**.</span><span class="sxs-lookup"><span data-stu-id="8f46c-127">On the schedule board, select **View Mode** and select **Days**.</span></span>  
   
-    <span data-ttu-id="e7a14-128">Dit opent een rasterweergave waarin is weergegeven hoeveel uur per dag een resource is geboekt en op welke dagen ze beschikbaar zijn.</span><span class="sxs-lookup"><span data-stu-id="e7a14-128">This shows a grid view of how many hours a resource is booked per day and which days they are free.</span></span>  
+    <span data-ttu-id="8f46c-128">Dit opent een rasterweergave waarin is weergegeven hoeveel uur per dag een resource is geboekt en op welke dagen ze beschikbaar zijn.</span><span class="sxs-lookup"><span data-stu-id="8f46c-128">This shows a grid view of how many hours a resource is booked per day and which days they are free.</span></span>  
   
-2.  <span data-ttu-id="e7a14-129">Klik op de naam van de resource die u wilt boeken en selecteer vervolgens **Boeken**.</span><span class="sxs-lookup"><span data-stu-id="e7a14-129">Click the name of the resource you want to book, and then select **Book**.</span></span>  
+2.  <span data-ttu-id="8f46c-129">Klik op de naam van de resource die u wilt boeken en selecteer vervolgens **Boeken**.</span><span class="sxs-lookup"><span data-stu-id="8f46c-129">Click the name of the resource you want to book, and then select **Book**.</span></span>  
   
-3.  <span data-ttu-id="e7a14-130">Klik in het dialoogvenster **Resourceboekingen (maken)**, kies het project waarvoor u de resource wilt boeken samen met de boekingsmethode en de start- en eindtijden.</span><span class="sxs-lookup"><span data-stu-id="e7a14-130">On the **Resource booking (create)** dialog box, choose the project that you want to book the resource for along with booking method and start and end times.</span></span>  
+3.  <span data-ttu-id="8f46c-130">Klik in het dialoogvenster **Resourceboekingen (maken)**, kies het project waarvoor u de resource wilt boeken samen met de boekingsmethode en de start- en eindtijden.</span><span class="sxs-lookup"><span data-stu-id="8f46c-130">On the **Resource booking (create)** dialog box, choose the project that you want to book the resource for along with booking method and start and end times.</span></span>  
   
-4.  <span data-ttu-id="e7a14-131">Selecteer **Boeken** als u klaar bent.</span><span class="sxs-lookup"><span data-stu-id="e7a14-131">When you’re done, select **Book**.</span></span>  
+4.  <span data-ttu-id="8f46c-131">Selecteer **Boeken** als u klaar bent.</span><span class="sxs-lookup"><span data-stu-id="8f46c-131">When you’re done, select **Book**.</span></span>  
   
-## <a name="view-to-the-schedule-board"></a><span data-ttu-id="e7a14-132">Weergeven op het planbord</span><span class="sxs-lookup"><span data-stu-id="e7a14-132">View to the schedule board</span></span>
+## <a name="view-to-the-schedule-board"></a><span data-ttu-id="8f46c-132">Weergeven op het planbord</span><span class="sxs-lookup"><span data-stu-id="8f46c-132">View to the schedule board</span></span>
   
-1.  <span data-ttu-id="e7a14-133">Selecteer een niet-geplande boekingsvereiste in de lijst onderaan de pagina.</span><span class="sxs-lookup"><span data-stu-id="e7a14-133">Select an unscheduled booking requirement from the list at the bottom.</span></span>  
+1.  <span data-ttu-id="8f46c-133">Selecteer een niet-geplande boekingsvereiste in de lijst onderaan de pagina.</span><span class="sxs-lookup"><span data-stu-id="8f46c-133">Select an unscheduled booking requirement from the list at the bottom.</span></span>  
   
-2.  <span data-ttu-id="e7a14-134">Sleep de boekingsvereiste naar een beschikbare resource/tijdvak op het planbord.</span><span class="sxs-lookup"><span data-stu-id="e7a14-134">Drag the booking requirement to an available resource/time slot on the schedule board.</span></span>  
+2.  <span data-ttu-id="8f46c-134">Sleep de boekingsvereiste naar een beschikbare resource/tijdvak op het planbord.</span><span class="sxs-lookup"><span data-stu-id="8f46c-134">Drag the booking requirement to an available resource/time slot on the schedule board.</span></span>  
   
-3.  <span data-ttu-id="e7a14-135">Selecteer **Boeken** als u klaar bent.</span><span class="sxs-lookup"><span data-stu-id="e7a14-135">When you're done, select **Book**.</span></span>  
+3.  <span data-ttu-id="8f46c-135">Selecteer **Boeken** als u klaar bent.</span><span class="sxs-lookup"><span data-stu-id="8f46c-135">When you're done, select **Book**.</span></span>  
   
-### <a name="additional-resources"></a><span data-ttu-id="e7a14-136">Aanvullende bronnen</span><span class="sxs-lookup"><span data-stu-id="e7a14-136">Additional resources</span></span>  
- [<span data-ttu-id="e7a14-137">Resourcemanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="e7a14-137">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
+### <a name="additional-resources"></a><span data-ttu-id="8f46c-136">Aanvullende bronnen</span><span class="sxs-lookup"><span data-stu-id="8f46c-136">Additional resources</span></span>  
+ [<span data-ttu-id="8f46c-137">Resourcemanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="8f46c-137">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
