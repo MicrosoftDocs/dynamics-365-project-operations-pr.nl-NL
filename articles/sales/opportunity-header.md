@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7357e9a8c8c6294c0a395a80287bb7eeb5c47d85
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664083"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948278"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Koptekstdetails voor projectgebaseerde verkoopkansen
 
@@ -35,7 +35,7 @@ De volgende tabel bevat de velden in een projectgebaseerde verkoopkans die uniek
 | Accountmanager | Tabblad Algemeen | De naam van de accountmanager voor deze projectgebaseerde verkoopkans. | De accountmanager is verantwoordelijk voor het beheren van de relatie met de klant tot aan de afronding van dit project. De contracterende eenheid wordt standaard ingesteld op basis van de record met boekbare resources die is gekoppeld aan de accountmanager. |
 | Contracterende eenheid | Tabblad Algemeen | De organisatie-eenheid die verantwoordelijk is voor de oplevering van het project of de projecten die bij deze deal horen. | De contracterende eenheid is de divisie van het bedrijf dat de projecten zal voltooien nadat de deal is gesloten. Elke contracterende eenheid heeft een valuta en deze valuta wordt gebruikt om de geschatte en werkelijke kosten te rapporteren die tijdens het project zijn gemaakt. |
 
-Voor alle andere velden en secties op het tabblad **Samenvatting** van de verkoopkans raadpleegt u [Verkoopkansen maken of bewerken (Verkoop en Verkoophub)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+Voor alle andere velden en secties op het tabblad **Samenvatting** van de verkoopkans raadpleegt u [Verkoopkansen maken of bewerken (Verkoop en Verkoophub)](/dynamics365/sales-enterprise/create-edit-opportunity-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

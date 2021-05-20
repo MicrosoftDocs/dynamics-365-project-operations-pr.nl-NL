@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278052"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947873"
 ---
 # <a name="manage-leads"></a>Leads beheren
 
@@ -55,7 +55,7 @@ Potentiële klanten waarvoor de waarde **Type** is ingesteld op **Werkgebaseerd*
 - Een contactpersoonrecord die aan het account wordt gekoppeld op basis van de waarden in de velden **Voornaam** en **Achternaam** voor de potentiële klant.
 - Een projectgebaseerde verkoopkans met het veld **Type** ingesteld op **Werkgebaseerd**.
 
-Zie [Potentiële klanten kwalificeren of converteren](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales) voor meer informatie over in aanmerking komende potentiële klanten.
+Zie [Potentiële klanten kwalificeren of converteren](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales) voor meer informatie over in aanmerking komende potentiële klanten.
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Kwalificatie van potentiële klant en informatie over rechtspersonen 
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287232"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948324"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integratiejournaal in Project Operations
 
@@ -38,7 +38,7 @@ Het systeem groepeert dagboekregels in afzonderlijke dagboeken op basis van de w
 Journaalregels worden gemaakt op basis van de werkelijke waarden van het project. De volgende lijst bevat enkele van de meer opvallende standaard- en transformatieregels:
 
   - Elke feitelijke projecttransactie heeft een regel in het Project Operations-integratiejournaal. Kosten en niet-gefactureerde verkooptransacties voor het factureringstype voor tijd en materiaal worden op afzonderlijke regels weergegeven.
-  - Het veld **Datum** staat voor de datum van de transactie. Het veld **Boekhouddatum** geeft de datum waarop de transactie in het grootboek is geregistreerd. Als de boekingsdatum in een [afgesloten financiële periode](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) valt en de parameter **Boekhouddatum automatisch instellen op openstaande grootboekperiode** is ingesteld op het tabblad **Financieel** van de pagina **Projectbeheer en boekhoudparameters**, zal het systeem de boekhouddatum van de transactie aanpassen aan de eerste datum in de volgende openstaande periode.
+  - Het veld **Datum** staat voor de datum van de transactie. Het veld **Boekhouddatum** geeft de datum waarop de transactie in het grootboek is geregistreerd. Als de boekingsdatum in een [afgesloten financiële periode](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) valt en de parameter **Boekhouddatum automatisch instellen op openstaande grootboekperiode** is ingesteld op het tabblad **Financieel** van de pagina **Projectbeheer en boekhoudparameters**, zal het systeem de boekhouddatum van de transactie aanpassen aan de eerste datum in de volgende openstaande periode.
   - Het veld **Boekstuk** geeft het boekstuknummer weer voor elke daadwerkelijke transactie. De nummerreeks van het boekstuk wordt gedefinieerd op het tabblad **Nummerreeksen** op de pagina **Projectbeheer en boekhoudparameters**. Elke regel krijgt een nieuw nummer toegewezen. Nadat het boekstuk is geboekt, kunt u zien hoe kosten en niet-gefactureerde verkooptransacties samenhangen door **Gerelateerde boekstukken** te selecteren op de pagina **Vouchertransactie**.
   - In het veld **Categorie** wordt een projecttransactie weergegeven en standaardwaarden op basis van de transactiecategorie voor de gerelateerde werkelijke projectwaarde.
     - Als **Transactiecategorie** is ingesteld in de werkelijke projectwaarde en een gerelateerde **Projectcategorie** bestaat in een bepaalde rechtspersoon, wordt de categorie standaard ingesteld op deze projectcategorie.

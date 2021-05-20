@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4c2cd4c5d4dfbb95398932d432864cf0d4d5d54d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276837"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948458"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Aanmelden voor preview-abonnementen op Project Operations voor scenario's voor resources/niet-voorradige artikelen
 
@@ -92,7 +92,7 @@ Om deze taak te voltooien volgt u de stappen in het onderwerp [Een Azure-abonnem
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementeer een Finance-demo-omgeving met Project Operations voor scenario's met resources/niet-voorradige artikelen
 
-Volg de richtlijnen in het onderwerp [Een nieuwe omgeving inrichten](resource-provision-new-environment.md) om de implementatie te voltooien. Gebruik het implementatietype [demo-omgeving](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) voor preview. 
+Volg de richtlijnen in het onderwerp [Een nieuwe omgeving inrichten](resource-provision-new-environment.md) om de implementatie te voltooien. Gebruik het implementatietype [demo-omgeving](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) voor preview. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Gegevens voor CDS-installatie en configuratie installeren
 

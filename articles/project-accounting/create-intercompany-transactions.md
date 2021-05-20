@@ -3,17 +3,17 @@ title: Intercompany-transacties maken
 description: Dit onderwerp bevat informatie over het maken van intercompany-transacties.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287412"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880442"
 ---
 # <a name="create-intercompany-transactions"></a>Intercompany-transacties maken
 
@@ -94,7 +94,7 @@ Elsje Hulsegge, ontwikkelaar werkzaam bij GBPM, registreert 10 uur werk voor een
     Deze niet-gefactureerde verkoop is nu klaar voor facturering. De factuur voor de klant Adventure Works kan indien nodig financieel worden geboekt.
 
 10. Log in als **GBPM**-accountant. Open het Finance-exemplaar van Project Operations en open het bedrijf **GBPM**. 
-11. Ga naar **Projectbeheer en boekhouding** > **Periodiek** > **Project Operations op Customer Engagement** > **Importeren uit fasering** en voer het periodieke proces uit om het Project Operations-integratiejournaal te vullen.
+11. Ga naar **Projectmanagement en boekhouding** > **Periodiek** > **Project Operations-integratie** > **Importeren uit opslagtabel** en voer het periodieke proces uit om het Project Operations-integratiejournaal in te vullen.
 12. Ga naar **Projectbeheer en boekhouding** > **Journalen** > **Project Operations-integratiejournaal** en bekijk de regels. Het systeem maakt de volgende regels.
 
     | **Transactietype** | **Prijs** | **Transactievaluta** | **Bedrag** |

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 12708a9b847f1f87ee0f5f45688adf48638d709f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8270214d47f712cdb0942991b0ffb5baff64cbfb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291883"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948008"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van februari 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -53,7 +53,7 @@ Ga voor meer informatie over projectbeheer en boekhouding in Dynamics 365 Financ
 
 ## <a name="regulatory-updates"></a>Wijzigingen in regelgeving
 
-Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij Lifecycle Services (LCS) en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij Lifecycle Services (LCS) en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

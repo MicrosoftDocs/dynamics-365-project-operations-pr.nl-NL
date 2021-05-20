@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283767"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948131"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Gebruikershandleiding voor Hub voor projectresources
 
@@ -48,7 +48,7 @@ Er zijn twee soorten [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-d
 ## <a name="install-the-mobile-app"></a>De mobiele app installeren
 Voordat u de app Hub voor projectresources gebruikt, moet u de mobiele app op uw apparaat installeren. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installeer Dynamics 365 voor telefoons en tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installeer Dynamics 365 voor telefoons en tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Basisnavigatie
 1.  Wanneer u zich aanmeldt bij de mobiele app, ziet u de pagina Mijn apps met een lijst met apps waartoe u toegang hebt. 
@@ -99,7 +99,7 @@ Voer in ieder uw - uren op in weekblad-of de frequentie wordt aangevraagd door d
 5. Ga verder met het invoeren van uw onkosten voor die week. Als u klaar bent en alles er correct uitziet, tik **Indienen** aan. Een manager kan het verlof controleren en goedkeuren.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Algemene informatie over het gebruik van de mobiele app 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Basiskennis van mobiel](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Basiskennis van mobiel](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Zie ook  
  [Overzicht van Project Service](../psa/overview.md)   

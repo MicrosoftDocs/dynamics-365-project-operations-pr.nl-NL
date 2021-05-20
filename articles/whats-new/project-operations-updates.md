@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877529"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948233"
 ---
 # <a name="project-operations-updates"></a>Updates voor Project Operations
 
@@ -49,23 +49,23 @@ Updates voor Project Operations in Dataverse-omgeving zijn maandelijks beschikba
 | Station   | Regio        | Huidige versie | Volgende versie | Algemeen beschikbaar |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Eerste versie |  4.9.0.221       | N.t.b.     | 23-apr-21           |
+|   &nbsp;  | Eerste versie |  4.9.0.221       | N.t.b.     | 30-apr-21           |
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Zuid-Amerika |  4.9.0.221       | N.t.b.     | 23-apr-21           |
-|    &nbsp; | Canada        |  4.9.0.221       | N.t.b.     | 23-apr-21           |
-|   &nbsp;  | India         |  4.9.0.221       | N.t.b.     | 23-apr-21           |
-|   &nbsp;  | Frankrijk         |  4.9.0.221       | N.t.b.     | 23-apr-21           |
-|   &nbsp;  | Verenigde Arabische Emiraten         |  4.9.0.221       | N.t.b.     | 23-apr-21           |
-|   &nbsp;  | Zuid-Afrika         |  4.9.0.221       | N.t.b.     | 23-apr-21           |
+|   &nbsp;  | Zuid-Amerika |  4.9.0.221       | N.t.b.     | 30-apr-21           |
+|    &nbsp; | Canada        |  4.9.0.221       | N.t.b.     | 30-apr-21           |
+|   &nbsp;  | India         |  4.9.0.221       | N.t.b.     | 30-apr-21           |
+|   &nbsp;  | Frankrijk         |  4.9.0.221       | N.t.b.     | 30-apr-21           |
+|   &nbsp;  | Verenigde Arabische Emiraten         |  4.9.0.221       | N.t.b.     | 30-apr-21           |
+|   &nbsp;  | Zuid-Afrika         |  4.9.0.221       | N.t.b.     | 30-apr-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.9.0.221       | N.t.b.     | 30-apr-21           |
-|   &nbsp;  | Azië-Pacific  |  4.9.0.221       | N.t.b.     | 30-apr-21           |
-|   &nbsp;  | Groot-Brittannië |  4.9.0.221       | N.t.b.     | 30-apr-21           |
-|   &nbsp;  | Oceanië       |  4.9.0.221       | N.t.b.     | 30-apr-21           |
+|   &nbsp;  | Japan         |  4.9.0.221       | N.t.b.     | 07-mei-21           |
+|   &nbsp;  | Azië-Pacific  |  4.9.0.221       | N.t.b.     | 07-mei-21           |
+|   &nbsp;  | Groot-Brittannië |  4.9.0.221       | N.t.b.     | 07-mei-21           |
+|   &nbsp;  | Oceanië       |  4.9.0.221       | N.t.b.     | 07-mei-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.8.0.92       | 4.9.0.221     | 16-apr-21           |
+|   &nbsp;  | Europa        |  4.9.0.221       | N.t.b.     | 14-mei-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Noord-Amerika |  4.8.0.92       | 4.9.0.221     | 23-apr-21           |
+|   &nbsp;  | Noord-Amerika |  4.9.0.221       | N.t.b.     | 21-mei-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Releaseplanning voor Projectbeheer en boekhouding in de omgeving met Finance and Operations-apps
 
@@ -73,15 +73,15 @@ Updates voor Projectbeheer en boekhouding worden acht keer per jaar uitgebracht.
 
 | Ondersteunde release | Algemeen beschikbaar (zelfupdate) |
 | --- | --- |
+| 10.0.18 | 16 april 2021 |
 | 10.0.17 | 19 maart 2021 |
 | 10.0.16 | 22 januari 2021 |
 
 
-Beoogde releasedatums kunnen worden gewijzigd. Voor meer informatie raadpleegt u [Beschikbaarheid van service-updates](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Beoogde releasedatums kunnen worden gewijzigd. Voor meer informatie raadpleegt u [Beschikbaarheid van service-updates](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Beoogde releasedatum | Algemeen beschikbaar (zelfupdate) |
 | --- | --- |
-| 10.0.18 | 16 april 2021 |
 | 10.0.19 | 18 juni 2021 |
 | 10.0.20 | 16 juli 2021 |
 

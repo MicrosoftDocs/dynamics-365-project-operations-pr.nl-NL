@@ -3,18 +3,18 @@ title: Nieuw in april 2021 - Project Operations voor scenario's op basis van res
 description: Deze onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de april 2021-release van Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867987"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935468"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuw in april 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -33,8 +33,26 @@ In deze versie zijn de volgende functies opgenomen:
   - Schatten en prijzen van niet-voorradige materialen tijdens de verkoopcyclus voor een project. Zie voor meer informatie [Kosten- en verkooptarieven voor catalogusproducten instellen - lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Het gebruik van niet-voorradige materialen volgen tijdens de levering van het project. Zie [Materiaalgebruik voor projecten en projecttaken registreren](../material/material-usage-log.md) voor meer informatie.
   - Facturering van gebruikte niet-voorradige materiaalkosten. Zie [Achterstallige facturen beheren](../proforma-invoicing/manage-billing-backlog.md) voor meer informatie.
+  - Zie [Niet-voorradige materialen en in behandeling zijnde leveranciersfacturen configureren](../procurement/configure-materials-nonstocked.md) voor informatie over het configureren van deze functie
 - Taakgebaseerde facturering: de mogelijkheid toegevoegd om projecttaken te koppelen aan projectcontractregels, waardoor ze worden onderworpen aan dezelfde factureringsmethode, factuurfrequentie en klanten als die op de contractregel. Deze koppeling zorgt voor nauwkeurige facturering, boekhouding, schattingen van inkomsten en de erkenning om in overeenstemming met deze opzet te werken aan projecttaken.
 - Met nieuwe API's in Dynamics 365 Dataverse kunnen bewerkingen voor maken, bijwerken en verwijderen worden uitgevoerd met **planningsentiteiten**. Zie [Plannings-API's gebruiken om bewerkingen uit te voeren met planningsentiteiten](../project-management/schedule-api-preview.md) voor meer informatie.
+
+## <a name="project-operations-dual-write-maps-updates"></a>Updates van kaarten voor twee keer wegschrijven in Project Operations
+
+De volgende lijst toont de kaarten voor twee keer wegschrijven die zijn gewijzigd of toegevoegd in de release van Project Operations van april 2021.
+
+| **Entiteitstoewijzing** | **Bijgewerkte versie** | **Opmerkingen** |
+| --- | --- | --- |
+| Werkelijke waarden voor integratie van Project Operations (msdyn\_actuals) | 1.0.0.14 | Kaart aangepast om werkelijke waarden voor materiaalprojecten te synchroniseren. |
+| Entiteit voor onkostenramingen van Project Operations-integratie (msdyn\_estimateslines) | 1.0.0.2 | Synchronisatie van projectcontractregels toegevoegd aan Finance and Operations-apps voor taakgebaseerde factureringsondersteuning. |
+| Entiteit voor tijdramingen van Project Operations-integratie (msdyn\_resourceassignments) | 1.0.0.5 | Synchronisatie van projectcontractregels toegevoegd aan Finance and Operations-apps voor taakgebaseerde factureringsondersteuning. |
+| Project Operations-integratietabel voor materiaalschattingen (msdyn\_estimatelines) | 1.0.0.0 | Nieuwe tabeltoewijzing om materiaalschattingen te synchroniseren tussen Dataverse en Finance and Operations-apps. |
+| Entiteit voor exporteren van leverancierfacturen in Project Operations-integratieprojecten (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nieuwe tabeltoewijzing om kopteksten van leveranciersfacturen te synchroniseren tussen Finance and Operations-apps en Dataverse. |
+| Entiteit voor exporteren van leverancierfactuurregels in Project Operations-integratieprojecten (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nieuwe tabeltoewijzing om leveranciersfactuurregels te synchroniseren tussen Finance and Operations-apps en Dataverse. |
+
+U moet altijd de meest recente versie van de kaart in uw omgeving uitvoeren en alle gerelateerde tabeltoewijzingen inschakelen terwijl u uw Project Operations Dataverse-oplossing en uw versie van de Finance and Operations-oplossing bijwerkt. Bepaalde functies en mogelijkheden werken mogelijk niet correct als niet de meest recente versie van de kaart is geactiveerd. U kunt de actieve versie van de kaart zien in de kolom **Versie** op de pagina **Twee keer wegschrijven**. U kunt een nieuwe versie van de kaart activeren door **Versies van tabeltoewijzing** te selecteren, de meest recente versie te kiezen en vervolgens de geselecteerde versie op te slaan. Als u een kant-en-klare tabeltoewijzing hebt aangepast, past u de wijzigingen opnieuw toe. Zie [Beheer van de toepassingslevenscyclus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) voor meer informatie.
+
+Als u een probleem ondervindt bij het starten van de kaart, volgt u de instructies in de sectgie [Probleem met ontbrekende tabelkolommen op kaarten](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) van de gids voor probleemoplossing voor Twee keer wegschrijven.
 
 ## <a name="quality-updates"></a>Kwaliteitsupdates
 
@@ -67,7 +85,7 @@ In deze versie zijn de volgende functies opgenomen:
 
 | **Functiegebied** | **Referentienummer** | **Kwaliteitsupdate** |
 | --- | --- | --- |
-| Projectbeheer en boekhouding | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Eliminatie met omgekeerde schatting werkt niet in **Periodiek**​.  |
+| Projectbeheer en boekhouding | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Schrapping van omgekeerde schatting werkt niet in de sectie **Periodiek**.  |
 | Projectbeheer en boekhouding | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Met de functie **Boekhoudkundige aanpassing** ontstaat een probleem met grootboekrekeningen waarvoor **Handmatige invoer niet toestaan** is geselecteerd. |
 | Projectbeheer en boekhouding | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Er is bedrijfslogica toegevoegd om correctiefacturen te verwerken, inclusief voorschotbedrag of toegepast voorschotbedrag. |
 | Projectbeheer en boekhouding | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Bij het boeken van OHW-verkoopwaarde bij intercompany-projectfacturering wordt een onverwachte rekening gekozen. |

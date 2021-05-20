@@ -3,17 +3,17 @@ title: Een Azure-abonnement toevoegen aan een LCS-project
 description: Dit onderwerp biedt informatie over hoe u uw Azure-abonnement kunt verbinden met een LCS-project.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289903"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880532"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Een Azure-abonnement toevoegen aan een LCS-project
 
@@ -62,7 +62,7 @@ De autorisatie is nu voltooid.
 3. In het veld **Configureer om Azure Resource Manager te gebruiken** selecteert u **Ja**.
 4. Zorg ervoor dat het AAD-tenantdomein van het Azure-abonnement overeenkomt met het Azure-abonnement dat eigenaar is van het gebruikte domein en selecteer **Volgende**.
 5. Selecteer in het scherm **Microsoft Azure instellen** **Volgende** om te bevestigen. Als u op dit scherm een foutmelding krijgt, gaat u terug naar de sectie [Dynamics Deployment Services toegang geven tot uw Azure-abonnement](#provide) in dit onderwerp en voltooi alle stappen.
-6. Download het Azure Management Certificate naar een lokale map op uw computer en upload het vervolgens naar Azure Management Portal via **Instellingen** > **Beheercertificaten**. Met dit certificaat kan LCS namens u communiceren met Azure. U kunt deze stap overslaan als uw gebruiker toegang heeft tot het abonnement.
+6. Download het Azure Management Certificate naar een lokale map op uw computer. Vraag uw Azure-abonnementsbeheerder om het certificaat te uploaden naar Azure Management Portal door het abonnement te selecteren en naar **Instellingen** > **Beheercertificaten** te gaan. Met dit certificaat kan LCS namens u communiceren met Azure. U kunt deze stap overslaan als uw gebruiker toegang heeft tot het abonnement.
 7. Selecteer **Volgende**.
 8. Selecteer de Azure-regio waarin u wilt implementeren en selecteer een datacenter bij de locatie waar u dit systeem wilt gebruiken.
 9.  Selecteer **Verbinding maken**.
