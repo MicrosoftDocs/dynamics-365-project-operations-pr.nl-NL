@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276792"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951203"
 ---
 # <a name="security-model"></a>Beveiligingsmodel
 
@@ -58,7 +58,7 @@ Groepen staan de projectmachtigingen toe en ondersteunen samenwerkingsonderdelen
 
 Project Operations creëert geen groep door middel van impliciete actie en doet dit alleen door de expliciete actie van groepen.
 
-Groepslid zoeken in het dialoogvenster **Groepsbeheer** is beperkt tot degenen die zijn ingesteld als onderdeel van de beveiligingsgroep van de omgeving. Zie voor meer informatie [Gebruikerstoegang tot omgevingen controleren: beveiligingsgroepen en licenties](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Groepslid zoeken in het dialoogvenster **Groepsbeheer** is beperkt tot degenen die zijn ingesteld als onderdeel van de beveiligingsgroep van de omgeving. Zie voor meer informatie [Gebruikerstoegang tot omgevingen controleren: beveiligingsgroepen en licenties](/power-platform/admin/control-user-access).
 
 ![Groepsmodus](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ Groepslid zoeken in het dialoogvenster **Groepsbeheer** is beperkt tot degenen d
 ## <a name="deployment-recommendation"></a>Aanbevelingen voor gebruik
 Naarmate het Office-groepssamenwerkingsmodel evolueert, wordt functionaliteit toegevoegd voor meer gedetailleerde tijdscontrole. Klanten die Project Operations nu implementeren, kunnen het beste een traditioneel Microsoft Dynamics 365-beveiligingsmodel toepassen.
 
-Voor meer informatie raadpleegt u [Beveiliging in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+Voor meer informatie raadpleegt u [Beveiliging in Common Data Service](/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Beveiliging in Project Operations en Microsoft Dynamics 365 Finance
 Project Operations bevat de volgende rollen:
@@ -78,7 +78,7 @@ Project Operations bevat de volgende rollen:
 - Projectmanager
 - Projectboekhouder
 
-Zie [Rolgebaseerde beveiliging](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security) voor meer informatie over beveiliging in Finance.
+Zie [Rolgebaseerde beveiliging](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security) voor meer informatie over beveiliging in Finance.
 
 
 

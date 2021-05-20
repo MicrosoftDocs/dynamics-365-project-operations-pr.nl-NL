@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272832"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949718"
 ---
 # <a name="manage-leads---lite"></a>Potentiële klanten beheren - lite
 
@@ -55,7 +55,7 @@ Potentiële klanten waarvoor de waarde **Type** is ingesteld op **Werkgebaseerd*
 - Een contactpersoonrecord die aan het account wordt gekoppeld op basis van de waarden in de velden **Voornaam** en **Achternaam** voor de potentiële klant.
 - Een projectgebaseerde verkoopkans met het veld **Type** ingesteld op **Werkgebaseerd**.
 
-Zie [Potentiële klanten kwalificeren of converteren](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales) voor meer informatie over in aanmerking komende potentiële klanten.
+Zie [Potentiële klanten kwalificeren of converteren](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales) voor meer informatie over in aanmerking komende potentiële klanten.
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Bedrijfsprocesstroom voor projectgebaseerde deals
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282282"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951383"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Aanmelden bij Project Service Automation
 
@@ -39,7 +39,7 @@ Als u zich wilt aanmelden bij Dynamics 365-apps moet u de volgende informatie va
   
 - Uw wachtwoord  
   
-  U hebt deze gegevens waarschijnlijk ontvangen in een e-mailbericht van uw beheerder. Als u niet al deze gegevens hebt, of als u problemen ondervindt bij het aanmelden, raadpleeg dan [Uw beheerder of ondersteuningsmedewerker zoeken](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  U hebt deze gegevens waarschijnlijk ontvangen in een e-mailbericht van uw beheerder. Als u niet al deze gegevens hebt, of als u problemen ondervindt bij het aanmelden, raadpleeg dan [Uw beheerder of ondersteuningsmedewerker zoeken](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Uw persoonlijke opties instellen zodat e-mailberichten namens u kunnen worden verzonden  
  U moet uw e-mailinstellingen configureren om anderen toe te staan e-mailberichten namens u te verzenden, zodat [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] voor u e-mailberichten kan verzenden wanneer u tijd en kosten hebt die moeten worden goedgekeurd of projecten die moeten worden aangemeld.  

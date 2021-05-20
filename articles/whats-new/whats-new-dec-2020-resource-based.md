@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291928"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951023"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van december 2020 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -108,7 +108,7 @@ In deze versie zijn de volgende functies opgenomen:
 | Reizen en onkosten                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | De werkstroom voor het automatisch boeken van onkostendeclaraties is voltooid, maar de factuur is niet geboekt                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Wijzigingen in regelgeving
-Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

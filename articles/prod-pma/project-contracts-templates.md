@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289588"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950393"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren naar Finance 
 
@@ -109,8 +109,8 @@ Wanneer de integratieoplossing voor Project Service Automation met Finance wordt
 ## <a name="prerequisites-and-mapping-setup"></a>Vereisten en toewijzingsinstellingen
 
 - Voordat synchronisatie van projectcontracten en projecten kan plaatsvinden, moet u accounts synchroniseren.
-- Voeg in uw verbindingsset een integratiesleutelveldtoewijzing toe voor **msdyn\_organizationalunits** naar **msdyn\_name \[Naam\]**. Mogelijk moet u eerst een project aan de verbindingsset toevoegen. Zie [Gegevens integreren in Common Data Service voor apps](https://docs.microsoft.com/powerapps/administrator/data-integrator) voor meer informatie.
-- Voeg in uw verbindingsset een integratiesleutelveldtoewijzing toe voor **msdyn\_projects** naar **msdynce\_projectnumber \[Projectnummer\]**. Mogelijk moet u eerst een project aan de verbindingsset toevoegen. Zie [Gegevens integreren in Common Data Service voor apps](https://docs.microsoft.com/powerapps/administrator/data-integrator) voor meer informatie.
+- Voeg in uw verbindingsset een integratiesleutelveldtoewijzing toe voor **msdyn\_organizationalunits** naar **msdyn\_name \[Naam\]**. Mogelijk moet u eerst een project aan de verbindingsset toevoegen. Zie [Gegevens integreren in Common Data Service voor apps](/powerapps/administrator/data-integrator) voor meer informatie.
+- Voeg in uw verbindingsset een integratiesleutelveldtoewijzing toe voor **msdyn\_projects** naar **msdynce\_projectnumber \[Projectnummer\]**. Mogelijk moet u eerst een project aan de verbindingsset toevoegen. Zie [Gegevens integreren in Common Data Service voor apps](/powerapps/administrator/data-integrator) voor meer informatie.
 - **SourceDataID** voor projectcontracten en projecten kunnen worden bijgewerkt naar een andere waarde of worden verwijderd uit de toewijzing. De standaardsjabloonwaarde is **Project Service Automation**.
 - De toewijzing **PaymentTerms** moet worden bijgewerkt zodat deze de geldige betalingsvoorwaarden in Finance weerspiegelt. U kunt ook de toewijzing uit de projecttaak verwijderen. De standaardwaardetoewijzing heeft standaardwaarden voor demogegevens. De volgende tabel toont de waarden in Project Service Automation.
 
@@ -131,7 +131,7 @@ Gebruik Microsoft Power Query voor Excel om gegevens te filteren als aan de volg
 Volg deze richtlijnen als u Power Query moet gebruiken:
 
 - De sjabloon Projecten en contracten (PSA naar Fin en Ops) heeft een standaardfilter dat alleen verkooporders van het type **Werkitem (msdyn\_ordertype = 192350001)** bevat. Dit filter helpt te garanderen dat er geen projectcontracten worden gemaakt voor verkooporders in Finance. Als u uw eigen sjabloon maakt, moet u dit filter toevoegen.
-- Maak een Power Query-filter dat alleen de contractorganisaties bevat die moeten worden gesynchroniseerd met de rechtspersoon van de integratieverbindingsset. Projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso US moeten bijvoorbeeld worden gesynchroniseerd met de rechtspersoon USSI, maar projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso Global moeten worden gesynchroniseerd met de rechtspersoon USMF. Als u dit filter niet toevoegt aan uw taaktoewijzing, worden alle projectcontracten gesynchroniseerd met de rechtspersoon die is gedefinieerd voor de verbindingsset, ongeacht de contractorganisatie.
+- Maak een Power Query-filter dat alleen de contractorganisaties bevat die moeten worden gesynchroniseerd met de rechtspersoon van de integratieverbindingsset. Bijvoorbeeld projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso US moeten worden gesynchroniseerd met de rechtspersoon USSI, maar projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso Global moeten worden gesynchroniseerd met de rechtspersoon USMF. Als u dit filter niet toevoegt aan uw taaktoewijzing, worden alle projectcontracten gesynchroniseerd met de rechtspersoon die is gedefinieerd voor de verbindingsset, ongeacht de contractorganisatie.
 
 ## <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
 

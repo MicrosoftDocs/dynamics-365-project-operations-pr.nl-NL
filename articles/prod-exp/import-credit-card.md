@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c434356c08e8490931bd60ea5b10fe2706cb0f51
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271572"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951068"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Creditcardtransacties importeren en onderhouden
 
 Onkostengerelateerde creditcardtransacties kunnen zo worden ingesteld dat ze automatisch volgens een terugkerende planning worden geïmporteerd. U kunt de transacties ook handmatig importeren als u ze nodig hebt. De creditcardtransacties worden geïmporteerd via de gegevensentiteit Creditcardtransacties.
 
-Zie [Gegevensentiteiten](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities) voor meer informatie over gegevensentiteiten.
+Zie [Gegevensentiteiten](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities) voor meer informatie over gegevensentiteiten.
 
 ## <a name="import-credit-card-transactions"></a>Creditcardtransacties importeren
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284172"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949628"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Wat is Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ Daarnaast voor een betere bewaking en controle van de kosten voor projectgebasee
 ## <a name="whats-new-in-psa"></a>Nieuwe functies in PSA
 Het team kondigt vol trots onze meest recente updates aan. Deze lopen uiteen van verbeteringen in de gebruikersinterface, het oplossen van bugs en het toevoegen van belangrijke nieuwe functies en mogelijkheden. U vroeg, wij hebben geluisterd.
 
-Bekijk de [opmerkingen bij de release van oktober 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) als u meer wilt weten over onze meest recente verbeteringen en aanvullingen.
+Bekijk de [opmerkingen bij de release van oktober 2019](/dynamics365-release-plan/2019wave2/index) als u meer wilt weten over onze meest recente verbeteringen en aanvullingen.
 
 ### <a name="in-development"></a>In ontwikkeling
-Ga naar [Dynamics 365: plan voor releasewave 1 van 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index) om te zien wat we voor de nabije toekomst hebben gepland.
+Ga naar [Dynamics 365: plan voor releasewave 1 van 2020](/dynamics365-release-plan/2020wave1/index) om te zien wat we voor de nabije toekomst hebben gepland.
 
 ## <a name="get-help-with-psa-version-3x"></a>Hulp krijgen bij PSA versie 3.x
 Bent u op zoek naar resources om uw implementatie te helpen plannen? Bekijk dan deze downloadbare handleidingen.

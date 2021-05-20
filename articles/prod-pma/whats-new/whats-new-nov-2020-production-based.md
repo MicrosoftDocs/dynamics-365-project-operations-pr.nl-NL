@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 28b967ddb6bec9fcc1be099e6ab218f38640a14c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31640ba6d91831d75ca21b7938a50e4b431d759f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287997"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950753"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Nieuwe functies van november 2020 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
 
@@ -25,7 +25,7 @@ Voor informatie over de fixes in deze update logt u in op Lifecycle Services (LC
 
 ## <a name="regulatory-updates"></a>Wijzigingen in regelgeving
 
-Voor informatie over updates in regelgeving voor Dynamics 365 Finance and Operations-apps leest u [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+Voor informatie over updates in regelgeving voor Dynamics 365 Finance and Operations-apps leest u [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

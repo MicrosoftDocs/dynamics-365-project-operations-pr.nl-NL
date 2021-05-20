@@ -3,17 +3,17 @@ title: Projectfactuurvoorstellen beheren
 description: Dit onderwerp biedt informatie over het verwerken van klantgerichte facturen met Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275847"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950708"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projectfactuurvoorstellen beheren
 
@@ -80,7 +80,8 @@ De waarden voor **BTW-groep** en **BTW-groep voor item** worden standaard overge
     - **Klant** zal altijd standaard de BTW-groep voor facturering van de klant zijn.
     - Met **Zoeken** doorzoekt u alle entiteiten in deze lijst en selecteert u de eerste beschikbare waarde. Zoeken begint met de entiteit **Project**, dan de entiteit **Projectcontract** en vervolgens de entiteit **Klant**.
 
-- **BTW-groep voor mijlpaalitem met vaste prijs** wordt gebruikt om de waarde standaard naar het veld **BTW-groep item** over te dragen.
+- **Btw-groep voor mijlpaalartikel met vaste prijs** wordt gebruikt als de standaardwaarde in het veld **Artikel btw-groep** voor de factureringsmijlpaal. De accountant kan deze waarde bekijken en wijzigen op de pagina **Transacties op rekening**. Het systeem gebruikt de waarde van de transactie op rekening bij het maken van een voorstelregel voor een projectfactuur.
+ 
 
 ### <a name="financial-dimensions"></a>Financiële dimensies
 
@@ -132,7 +133,7 @@ De pagina **Factuurvoorstellen opmaken** maakt het mogelijk om aangepaste groepe
 
 Afdrukbeheer gebruikt verschillende rapportbestanden voor afdrukken, opgeven van bestemmingen en het aanpassen van de voettekst voor de factuur. Afdrukbeheer kan worden ingesteld op moduleniveau, maar deze instellingen kunnen worden overschreven voor een specifiek klant-, contract- of factuurvoorstel. Om toegang te krijgen tot deze functie op de pagina **Projectfactuurvoorstel** selecteert u **Afdrukken** > **Afdrukbeheer**.
 
-De instellingen voor afdrukbeheer worden weergegeven als een boomstructuur, waarbij op elk knooppuntniveau de beschikbare documenten worden weergegeven die kunnen worden aangepast. U kunt aangepaste afdrukken toewijzen op module-, klant-, contract- of factuurvoorsteldocumentniveau. Om de originele documentafdruk te wijzigen, vouwt u het gewenste knooppunt uit en selecteert u **Origineel item**. Selecteer in het veld **Rapportindeling** de rapportindeling die voor het afdrukken moet worden gebruikt. U kunt aangepaste rapportindelingen gebruiken met [Raamwerk voor zakelijk documentbeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+De instellingen voor afdrukbeheer worden weergegeven als een boomstructuur, waarbij op elk knooppuntniveau de beschikbare documenten worden weergegeven die kunnen worden aangepast. U kunt aangepaste afdrukken toewijzen op module-, klant-, contract- of factuurvoorsteldocumentniveau. Om de originele documentafdruk te wijzigen, vouwt u het gewenste knooppunt uit en selecteert u **Origineel item**. Selecteer in het veld **Rapportindeling** de rapportindeling die voor het afdrukken moet worden gebruikt. U kunt aangepaste rapportindelingen gebruiken met [Raamwerk voor zakelijk documentbeheer](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Factuurvoorstellen boeken
 

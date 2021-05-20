@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272022"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950473"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobiele werkruimte voor onkostenbeheer
 
@@ -58,7 +58,7 @@ U kunt ook de volgende functies gebruiken:
 De vereisten verschillen, afhankelijk van de versie die is geïmplementeerd voor uw organisatie.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Vereisten als u Dynamics 365 Finance gebruikt 
-Als Finance is geïmplementeerd voor uw organisatie, moet het systeembeheerder de mobiele werkruimte **Onkostenbeheer** publiceren. Zie [Mobiele werkruimten publiceren](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace) voor instructies.
+Als Finance is geïmplementeerd voor uw organisatie, moet het systeembeheerder de mobiele werkruimte **Onkostenbeheer** publiceren. Zie [Mobiele werkruimten publiceren](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace) voor instructies.
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie 1611 met platformupdate 3 of hoger gebruikt
 Als versie 1611 met platformupdate 3 of hoger is geïmplementeerd voor uw organisatie, moet de systeembeheerder aan de volgende vereisten voldoen. 
@@ -77,16 +77,16 @@ Als versie 1611 met platformupdate 3 of hoger is geïmplementeerd voor uw organi
 <td>Systeembeheerder</td>
 <td>KB 4019015 is een X++-update of een metagegevenshotfix die de mobiele werkruimte <strong>Onkostenbeheer</strong> bevat. Als de systeembeheerder KB 4019015 wil implementeren, moeten deze stappen worden uitgevoerd.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Download de metagegevenshotfix vanuit Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Installeer de metagegevenshotfix</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Maak een implementeerbaar pakket</a> dat de modellen <strong>ApplicationSuite</strong> en <strong>ExpenseMobile</strong> bevat en upload vervolgens het implementeerbare pakket naar LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Pas het implementeerbare pakket toe</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Download de metagegevenshotfix vanuit Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Installeer de metagegevenshotfix</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Maak een implementeerbaar pakket</a> dat de modellen <strong>ApplicationSuite</strong> en <strong>ExpenseMobile</strong> bevat en upload vervolgens het implementeerbare pakket naar LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Pas het implementeerbare pakket toe</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publiceer de mobiele werkruimte <strong>Onkostenbeheer</strong>.</td>
 <td>Systeembeheerder</td>
-<td>Zie <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Een mobiele werkruimte publiceren</a>.</td>
+<td>Zie <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Een mobiele werkruimte publiceren</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Snel betalingsbewijzen vastleggen met behulp van de mobiele werkruimte Onkostenbeheer
 1. Open op uw mobiele apparaat de werkruimte **Onkostenbeheer**.
 2. Selecteer **Snel onkosten invoeren**.
-3. Selecteer de categorie voor de onkosten. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 items geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
+3. Selecteer de categorie voor de onkosten. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 items geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
 4. Voer de transactiedatum van de onkosten in.
 5. Optioneel: voer de winkel in voor de onkosten.
 6. Voer het bedrag van de onkosten in.
-7. Selecteer de valuta van de onkosten in. U ziet een lijst van valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden 400 valuta geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op valuta of schakel over naar zoeken op naam.
+7. Selecteer de valuta van de onkosten in. U ziet een lijst van valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden 400 valuta geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op valuta of schakel over naar zoeken op naam.
 8. Selecteer **Foto nemen** of **Afbeelding kiezen**.
 9. Volg een van deze stappen:
 
@@ -163,11 +163,11 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 7. Selecteer een of meer onkosten in de lijst.
 8. Selecteer **Gereed**.
 9. Als u nieuwe onkosten aan een onkostennota wilt toevoegen, selecteert u **Nieuwe onkosten**.
-10. Selecteer de categorie voor de onkosten. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 items geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
+10. Selecteer de categorie voor de onkosten. U ziet een lijst van onkostencategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 items geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw categorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op onkostencategorie of schakel over naar zoeken op onkostentype.
 11. Optioneel: voer de winkel in voor de onkosten.
 12. Voer de transactiedatum van de onkosten in.
 13. Voer het bedrag van de onkosten in.
-14. Selecteer de valuta van de onkosten in. U ziet een lijst van valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden 400 valuta geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op valuta of schakel over naar zoeken op naam.
+14. Selecteer de valuta van de onkosten in. U ziet een lijst van valutacodes die in uw app zijn geladen voor offline gebruik. Standaard worden 400 valuta geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw valuta niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op valuta of schakel over naar zoeken op naam.
 15. Selecteer **Gereed**.
 16. Als u meer details aan de onkosten wilt toevoegen, selecteert u **Meer details toevoegen**. Welke velden beschikbaar zijn, is afhankelijk van de configuratie van het onkostenbeheer voor uw bedrijf.
 17. Als het bedrijfsbeleid een betalingsbewijs voor de onkosten vereist, selecteert u **Betalingsbewijzen** en volgt u deze stappen:
@@ -213,12 +213,12 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 
         - Als u **Vorige gasten** hebt geselecteerd, volgt u deze stappen:
 
-            1. Selecteer een of meer vorige gasten in de lijst. U ziet een lijst met vorige gasten die u hebt toegevoegd aan vorige onkostennota's die in uw app zijn geladen voor offline gebruik. Standaard worden 50 items geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw vorige gast niet in de lijst staat, selecteert u **Zoeken** om de gast online te zoeken. Zoek op naam of schakel over naar zoeken op organisatie, land/regio of functie.
+            1. Selecteer een of meer vorige gasten in de lijst. U ziet een lijst met vorige gasten die u hebt toegevoegd aan vorige onkostennota's die in uw app zijn geladen voor offline gebruik. Standaard worden 50 items geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw vorige gast niet in de lijst staat, selecteert u **Zoeken** om de gast online te zoeken. Zoek op naam of schakel over naar zoeken op organisatie, land/regio of functie.
             2. Selecteer **Gereed**.
 
         - Als u **Collega's** hebt geselecteerd, volgt u deze stappen:
 
-            1. Selecteer een of meer collega's in de lijst. U ziet een lijst van collega's die in uw app zijn geladen voor offline gebruik. Standaard worden 50 items geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw collega niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op naam of schakel over naar zoeken op bedrijf of functie.
+            1. Selecteer een of meer collega's in de lijst. U ziet een lijst van collega's die in uw app zijn geladen voor offline gebruik. Standaard worden 50 items geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw collega niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op naam of schakel over naar zoeken op bedrijf of functie.
             2. Selecteer **Gereed**.
 
     3. Selecteer de knop **Vorige** om terug te keren naar de onkostendetails.
@@ -227,7 +227,7 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 
     1. Selecteer de eerste datum die u wilt specificeren.
     2. Selecteer **Specificatie toevoegen**.
-    3. Selecteer de subcategorie voor de onkostenspecificatie. U ziet een lijst van onkostensubcategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 items geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw subcategorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op naam van de onkostensubcategorie.
+    3. Selecteer de subcategorie voor de onkostenspecificatie. U ziet een lijst van onkostensubcategorieën die in uw app zijn geladen voor offline gebruik. Standaard worden 50 items geladen, maar een ontwikkelaar kan dit aantal wijzigen. Ontwikkelaars wordt aangeraden [Mobiel platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) te lezen voor meer informatie. Als uw subcategorie niet in de lijst staat, selecteert u **Zoeken** om online te zoeken. Zoek op naam van de onkostensubcategorie.
     4. Voer het transactiebedrag in voor de specificatie.
     5. Bewerk indien nodig de transactiedatum.
     6. Selecteer **Gereed**.

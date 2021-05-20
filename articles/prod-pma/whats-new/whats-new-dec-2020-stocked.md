@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288132"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950213"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nieuwe of gewijzigde functies in Project Operations, december 2020 voor scenario's op basis van voorradige artikelen/productieorders
 
@@ -141,7 +141,7 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 
 ## <a name="regulatory-updates"></a>Wijzigingen in regelgeving
 
-Ga voor informatie over updates in regelgeving voor Dynamics 365 Finance naar [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij Lifecycle Services (LCS) en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+Ga voor informatie over updates in regelgeving voor Dynamics 365 Finance naar [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij Lifecycle Services (LCS) en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

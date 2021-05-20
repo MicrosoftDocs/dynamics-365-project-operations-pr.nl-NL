@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27eede55e01dd1437dfc480741922ed9d617bff
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2db1c2cd34a2b99ac8e0cc88c34bac804bbafdb6
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271842"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949763"
 ---
 # <a name="expense-management-overview"></a>Overzicht van Onkostenbeheer
 
@@ -37,7 +37,7 @@ Zie [Onkostenbeheer configureren](plan-expense-management.md) voor meer informat
 
 ### <a name="whats-new-and-in-development"></a>Nieuwe functies en functies in ontwikkeling
 
-Om te zien welke nieuwe functies er zijn gepland, raadpleegt u [Microsoft Dynamics 365 release-plannen](https://go.microsoft.com/fwlink/?linkid=2010158).
+Om te zien welke nieuwe functies er zijn gepland, raadpleegt u [Microsoft Dynamics 365 release-plannen](/dynamics365/release-plans/).
 
 #### <a name="expense-report-entry"></a>Invoer van onkostendeclaraties
 

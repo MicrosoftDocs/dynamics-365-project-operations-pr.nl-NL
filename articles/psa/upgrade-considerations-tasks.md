@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281742"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951338"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Upgradeoverwegingen voor de structuur voor werkspecificatie
 
@@ -34,20 +34,20 @@ Dit onderwerp bevat informatie over het upgraden van de structuur voor werkspeci
 ## <a name="key-entities"></a>Belangrijke entiteiten
 Voor een correcte structuur voor werkspecificatie die al is geladen met resources, zijn de volgende entiteiten vereist:
 
-- [Project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Projecttaak](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Resourcetoewijzingen](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Projecttaakafhankelijkheid](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Boekbare resources](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Projecttaak](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Resourcetoewijzingen](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Projecttaakafhankelijkheid](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Boekbare resources](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Als u een structuur voor werkspecificatie wilt definiëren die is geladen voor een resource, moet u de volgende stappen uitvoeren:
 
-1. Maak een nieuw project. Zie [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project) voor meer informatie over het maken van een nieuw project.
-2. Maak een of meer taken. Zie [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask) voor meer informatie over het maken van een nieuwe taak.
-3. Definieer de taakafhankelijkheden. Meer informatie vindt u in [Afhankelijkheid van projecttaken](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Wijs projectteamleden toe aan het project. Zie [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam) voor meer informatie.
-5. Wijs projectteamleden toe aan de taken. Zie [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment) voor meer informatie.
+1. Maak een nieuw project. Zie [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project) voor meer informatie over het maken van een nieuw project.
+2. Maak een of meer taken. Zie [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask) voor meer informatie over het maken van een nieuwe taak.
+3. Definieer de taakafhankelijkheden. Meer informatie vindt u in [Afhankelijkheid van projecttaken](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Wijs projectteamleden toe aan het project. Zie [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam) voor meer informatie.
+5. Wijs projectteamleden toe aan de taken. Zie [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment) voor meer informatie.
 
 ## <a name="project-team-relationships"></a>Relaties van projectteams
 

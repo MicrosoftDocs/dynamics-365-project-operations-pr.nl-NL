@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275082"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950573"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installatie van voorbeeldgegevens voor de Project Service-toepassing
 
@@ -149,7 +149,7 @@ Het pakket met demogegevens vereist zes gebruikers. Ga als volgt te werk om het 
 
 5. De agenda van de eerste gebruiker (in de code **userstocreateandconfigure**) wordt gebruikt om de werkuren voor alle boekbare resources bij het importeren van demogegevens in te vullen. Navigeer naar **Instellingen** > **Beveiliging** > **Gebruikers**, zoek uw gebruiker "Spencer Low" en open de optie "Werkuren". Bewerk de bestaande werkuren en selecteer de optie **De hele terugkerende weekplanning van begin tot eind**. Controleer of de **Werkuren zijn ingesteld op 8 tot 17 uur (9 uur), van maandag tot en met vrijdag en met de tijdzone ingesteld op Pacific Time (VS en Canada)**. Dit is noodzakelijk om ervoor te zorgen dat het project- en planbord er uitzien zoals verwacht.
 
-**Aanbeveling:** overweeg nu een back-up van uw organisatie te maken, voor het geval dat u naar het beginpunt moet herstellen als tijdens de installatie van de voorbeeldgegevens iets misgaat. Zie [Back-up van exemplaren maken en deze terugzetten](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances) voor meer informatie.
+**Aanbeveling:** overweeg nu een back-up van uw organisatie te maken, voor het geval dat u naar het beginpunt moet herstellen als tijdens de installatie van de voorbeeldgegevens iets misgaat. Zie [Back-up van exemplaren maken en deze terugzetten](/dynamics365/customer-engagement/admin/backup-restore-instances) voor meer informatie.
 
 ## <a name="run-the-package-deployer"></a>De Package Deployer uitvoeren
 
