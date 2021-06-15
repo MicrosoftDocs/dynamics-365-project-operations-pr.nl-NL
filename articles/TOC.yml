@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nieuwe functies
       items:
+        - name: Mei 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Maart 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Onkostencategorieën instellen
               href: expense/set-up-expense-categories.md
+            - name: Kilometerstand instellen met kilometertariefniveaus
+              href: expense/set-up-mileage.md
         - name: Persoonlijke onkosten
           href: expense/personal-expenses-expense-report.md
         - name: Intercompany-onkosten
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Nieuwe functies
       items:
+        - name: Nieuw in mei 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Nieuw in april 2021 - lite-implementatie
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Nieuw in maart 2021 - lite-implementatie
@@ -1028,6 +1034,8 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 30, V3'
@@ -1264,8 +1272,10 @@
               href: psa/time-entries.md
             - name: Agenda met tijdsvermeldingen
               href: psa/time-entry-calendar.md
-            - name: Wekelijkse tijdinvoer aanpassen
+            - name: Wekelijkse tijdsvermeldingen aanpassen
               href: psa/time-entry-extensibility-v3.md
+            - name: Goedkeuringssets
+              href: psa/approval-set.md
     - name: Veelgestelde vragen en problemen oplossen (3.x)
       items:
         - name: Waarom wordt de prijs standaard op nul gezet voor de werkelijke kostenwaarden op basis van onkosten?
