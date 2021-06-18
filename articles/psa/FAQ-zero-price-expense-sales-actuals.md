@@ -2,9 +2,7 @@
 title: Waarom wordt de prijs standaard op nul gezet voor de werkelijke verkoopwaarden op basis van onkosten?
 description: Met de volgende drie controles kunt u vaststellen waarom de prijs standaard op 0 wordt gezet voor werkelijke verkoopwaarden op basis van onkosten.
 author: rumant
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bd474d7c0cd64262fdb21d6269efa781b6dc31f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92b507d8e5605c01f1a9235233b3cd2885070749
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285871"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993005"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Waarom wordt de prijs standaard op nul gezet voor de werkelijke verkoopwaarden op basis van onkosten?
 

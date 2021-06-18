@@ -2,18 +2,16 @@
 title: Projectcategorieën configureren
 description: In dit onderwerp krijgt u informatie over het instellen van projectcategorieën.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287502"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995165"
 ---
 # <a name="configure-project-categories"></a>Projectcategorieën configureren
 
@@ -29,7 +27,7 @@ Transactiecategorieën vormen de basisgroepering voor projecttransacties. Binnen
 
 ## <a name="transaction-categories"></a>Transactiecategorieën
 
-Transactiecategorieën vertegenwoordigen de basisgroepering voor projecttransacties en zijn niet specifiek gerelateerd aan een bedrijf of transactietype. Contoso Robotics gebruikt bijvoorbeeld de transactiecategorieën Ontwerp, Reizen, Installatie en Service om projecttransacties te groeperen.
+Transactiecategorieën vertegenwoordigen de basisgroepering voor projecttransacties en zijn niet specifiek gerelateerd aan een bedrijf of transactietype. Contoso Robotics gebruikt bijvoorbeeld ontwerp-, reis-, installatie- en servicetransactiecategorieën om projecttransacties te groeperen.
 
 Transactiecategorieën worden gedefinieerd in de Project Operations-module. 
 1. Ga naar **Instellingen** \> **Transactiecategorieën** om het formulier te openen. 

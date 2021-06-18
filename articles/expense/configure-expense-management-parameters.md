@@ -2,18 +2,16 @@
 title: Parameters voor onkostenbeheer configureren
 description: In dit onderwerp worden de parameters beschreven die het algemene gedrag in Onkostenbeheer bepalen.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 93cb95ffc0348a1ad1905fbf308477d18e589185
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1e1181467c51384c4de7dcda2de29ed531360a0a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276657"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995435"
 ---
 # <a name="configure-expense-management-parameters"></a>Parameters voor onkostenbeheer configureren
 

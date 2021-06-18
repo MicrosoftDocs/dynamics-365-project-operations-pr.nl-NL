@@ -2,19 +2,17 @@
 title: Niet-voorradig materiaal en in behandeling zijnde leveranciersfacturen configureren
 description: In dit onderwerp wordt uitgelegd hoe u niet-voorradig materiaal en in behandeling zijnde leveranciersfacturen kunt inschakelen.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880635"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993905"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Niet-voorradig materiaal en in behandeling zijnde leveranciersfacturen configureren
 
@@ -61,11 +59,11 @@ Als u standaarddemogegevens gebruikt, moet u mogelijk ook de volgende entiteitst
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Werkstroom activeren om accounts te maken op basis van leveranciersentiteit
 
-De indelingsoplossing voor twee keer wegschrijven biedt [hoofdintegratie voor leveranciers](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Als voorwaarde voor deze functie moeten leveranciersgegevens worden gemaakt in de entiteit **Accounts**. Activeer een sjabloonwerkstroomproces om leveranciers te maken in de tabel **Accounts** zoals beschreven in [Schakelen tussen leveranciersontwerpen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+De indelingsoplossing voor twee keer wegschrijven biedt [hoofdintegratie voor leveranciers](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Als voorwaarde voor deze functie moeten leveranciersgegevens worden gemaakt in de entiteit **Accounts**. Activeer een sjabloonwerkstroomproces om leveranciers te maken in de tabel **Accounts** zoals beschreven in [Schakelen tussen leveranciersontwerpen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Te maken producten instellen als actief
 
-Niet-voorradig materiaal moet worden geconfigureerd als **Vrijgegeven producten** in Finance. De indelingsoplossing voor twee keer wegschrijven biedt een kant-en-klare [integratie van vrijgegeven producten naar Dataverse-productcatalogus](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Standaard worden producten van Finance gesynchroniseerd met Dataverse in een conceptstatus. U kunt het product met een actieve status synchroniseren, zodat het direct kan worden gebruikt in materiaalgebruiksdocumenten of in behandeling zijnde leveranciersfacturen, gaat u naar **Systeem** > **Beheer** > **Systeembeheer** > **Systeeminstellingen** en stelt u op het tabblad **Verkoop** de optie **Producten maken met status actief** in op **Ja**.
+Niet-voorradig materiaal moet worden geconfigureerd als **Vrijgegeven producten** in Finance. De indelingsoplossing voor twee keer wegschrijven biedt een kant-en-klare [integratie van vrijgegeven producten naar Dataverse-productcatalogus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Standaard worden producten van Finance gesynchroniseerd met Dataverse in een conceptstatus. U kunt het product met een actieve status synchroniseren, zodat het direct kan worden gebruikt in materiaalgebruiksdocumenten of in behandeling zijnde leveranciersfacturen, gaat u naar **Systeem** > **Beheer** > **Systeembeheer** > **Systeeminstellingen** en stelt u op het tabblad **Verkoop** de optie **Producten maken met status actief** in op **Ja**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Vereisten configureren in Finance
 
