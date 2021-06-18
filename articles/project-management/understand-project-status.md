@@ -2,33 +2,31 @@
 title: De projectstatus begrijpen
 description: Dit onderwerp biedt informatie over de status die is toegewezen aan projecten in Dynamics 365 Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fc9b107507008fd2381d3669552d754d2c867a7f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad8c012b93bc65595dca33df1770562916c557e0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286467"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993410"
 ---
-# <a name="understand-project-status"></a><span data-ttu-id="49fec-103">De projectstatus begrijpen</span><span class="sxs-lookup"><span data-stu-id="49fec-103">Understand project status</span></span>
+# <a name="understand-project-status"></a><span data-ttu-id="0eb92-103">De projectstatus begrijpen</span><span class="sxs-lookup"><span data-stu-id="0eb92-103">Understand project status</span></span>
 
-<span data-ttu-id="49fec-104">_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_</span><span class="sxs-lookup"><span data-stu-id="49fec-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
-
-
-<span data-ttu-id="49fec-105">De sectie **Status** op de pagina **Projectentiteit** geeft een samenvatting van het project op basis van kosten en inspanning.</span><span class="sxs-lookup"><span data-stu-id="49fec-105">The **Status** section on the **Project Entity** page provides a summary of a project's health based upon cost and effort.</span></span>
+<span data-ttu-id="0eb92-104">_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_</span><span class="sxs-lookup"><span data-stu-id="0eb92-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-## <a name="status-summary-fields"></a><span data-ttu-id="49fec-106">Statusoverzichtsvelden</span><span class="sxs-lookup"><span data-stu-id="49fec-106">Status summary fields</span></span>
+<span data-ttu-id="0eb92-105">De sectie **Status** op de pagina **Projectentiteit** geeft een samenvatting van het project op basis van kosten en inspanning.</span><span class="sxs-lookup"><span data-stu-id="0eb92-105">The **Status** section on the **Project Entity** page provides a summary of a project's health based upon cost and effort.</span></span>
 
-- <span data-ttu-id="49fec-107">Het veld **Algehele projectstatus** is een veld dat kan worden bewerkt en waarin de algehele status van het project wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="49fec-107">The **Overall project status** field is an editable field that shows the overall status of the project.</span></span> <span data-ttu-id="49fec-108">Voor dit veld worden kleurcodes, zoals groen, geel en rood, gebruikt om een toenemend risico aan te geven.</span><span class="sxs-lookup"><span data-stu-id="49fec-108">This field uses color-coding, such as green, yellow, and red, to indicate increasing risk.</span></span> 
-- <span data-ttu-id="49fec-109">In het veld **Opmerkingen** kan de projectmanager specifieke opmerkingen over de status invoeren.</span><span class="sxs-lookup"><span data-stu-id="49fec-109">The **Comments** field lets the project manager enter specific comments about the status.</span></span> 
-- <span data-ttu-id="49fec-110">Het veld **Status bijgewerkt op** kan niet worden bewerkt.</span><span class="sxs-lookup"><span data-stu-id="49fec-110">The **Status updated on** field isn't editable.</span></span> <span data-ttu-id="49fec-111">De waarde in dit veld is een tijdstempel die aangeeft wanneer de status voor het laatst is bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="49fec-111">The value in this field is a timestamp that indicates when the status was last updated.</span></span>
-- <span data-ttu-id="49fec-112">De velden **Planningsprestaties** en **Kostenprestaties** worden ingesteld vanuit het volgraster.</span><span class="sxs-lookup"><span data-stu-id="49fec-112">The **Schedule performance** and **Cost performance** fields are set from the tracking grid.</span></span> <span data-ttu-id="49fec-113">Wanneer de planning en kostenvariantie voor het hoofdknooppunt in de weergave **Inspanningen bijhouden** positief zijn, kunt u deze velden bijwerken naar **Voor**.</span><span class="sxs-lookup"><span data-stu-id="49fec-113">When the schedule and cost variance for the root node in the **Effort tracking** view are positive, these fields are updated to **Ahead**.</span></span> <span data-ttu-id="49fec-114">Wanneer de planning en kostenvariantie voor het hoofdknooppunt negatief zijn, worden deze velden ingesteld op **Achter**.</span><span class="sxs-lookup"><span data-stu-id="49fec-114">When the schedule and cost variance for the root node are negative, these fields are set to **Behind**.</span></span>
+
+## <a name="status-summary-fields"></a><span data-ttu-id="0eb92-106">Statusoverzichtsvelden</span><span class="sxs-lookup"><span data-stu-id="0eb92-106">Status summary fields</span></span>
+
+- <span data-ttu-id="0eb92-107">Het veld **Algehele projectstatus** is een veld dat kan worden bewerkt en waarin de algehele status van het project wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="0eb92-107">The **Overall project status** field is an editable field that shows the overall status of the project.</span></span> <span data-ttu-id="0eb92-108">Voor dit veld worden kleurcodes, zoals groen, geel en rood, gebruikt om een toenemend risico aan te geven.</span><span class="sxs-lookup"><span data-stu-id="0eb92-108">This field uses color-coding, such as green, yellow, and red, to indicate increasing risk.</span></span> 
+- <span data-ttu-id="0eb92-109">In het veld **Opmerkingen** kan de projectmanager specifieke opmerkingen over de status invoeren.</span><span class="sxs-lookup"><span data-stu-id="0eb92-109">The **Comments** field lets the project manager enter specific comments about the status.</span></span> 
+- <span data-ttu-id="0eb92-110">Het veld **Status bijgewerkt op** kan niet worden bewerkt.</span><span class="sxs-lookup"><span data-stu-id="0eb92-110">The **Status updated on** field isn't editable.</span></span> <span data-ttu-id="0eb92-111">De waarde in dit veld is een tijdstempel die aangeeft wanneer de status voor het laatst is bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="0eb92-111">The value in this field is a timestamp that indicates when the status was last updated.</span></span>
+- <span data-ttu-id="0eb92-112">De velden **Planningsprestaties** en **Kostenprestaties** worden ingesteld vanuit het volgraster.</span><span class="sxs-lookup"><span data-stu-id="0eb92-112">The **Schedule performance** and **Cost performance** fields are set from the tracking grid.</span></span> <span data-ttu-id="0eb92-113">Wanneer de planning en kostenvariantie voor het hoofdknooppunt in de weergave **Inspanningen bijhouden** positief zijn, kunt u deze velden bijwerken naar **Voor**.</span><span class="sxs-lookup"><span data-stu-id="0eb92-113">When the schedule and cost variance for the root node in the **Effort tracking** view are positive, these fields are updated to **Ahead**.</span></span> <span data-ttu-id="0eb92-114">Wanneer de planning en kostenvariantie voor het hoofdknooppunt negatief zijn, worden deze velden ingesteld op **Achter**.</span><span class="sxs-lookup"><span data-stu-id="0eb92-114">When the schedule and cost variance for the root node are negative, these fields are set to **Behind**.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
