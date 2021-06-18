@@ -2,18 +2,16 @@
 title: Gedrag van UI voor tijdinvoer
 description: Dit onderwerp bevat informatie over het gedrag van de UI voor tijdinvoer.
 author: stsporen
-manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 0cb62231eb3b387b610b7510023994dce66b1cc9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499608"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995885"
 ---
 # <a name="time-entry-ui-behavior"></a>Gedrag van UI voor tijdinvoer
 

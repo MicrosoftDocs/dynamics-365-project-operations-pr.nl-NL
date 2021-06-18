@@ -2,8 +2,6 @@
 title: Een werkurensjabloon maken
 description: In dit onderwerp wordt beschreven hoe u een werkurensjabloon kunt maken in Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981249"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997190"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Een werkurensjabloon maken (Project Service)
 
@@ -51,7 +49,7 @@ Als u een agendasjabloon voor uw organisatie wilt maken, zijn er twee belangrijk
 
 1. Ga naar **Resources** \> **Resources**.
 2. Maak een nieuwe resource om naar te verwijzen in de agendasjabloon of selecteer een bestaande resource.
-3. Selecteer het tabblad **Werkuren** van de resource en voer de instructies uit in [Werkuren instellen voor een resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) om de agendaregels te configureren.
+3. Selecteer het tabblad **Werkuren** van de resource en voer de instructies uit in [Werkuren instellen voor een resource](/dynamics365/field-service/set-work-hours-resource.md) om de agendaregels te configureren.
 
 **Een nieuwe agendasjabloon maken**
 
