@@ -2,18 +2,16 @@
 title: Intercompany-facturering configureren
 description: Dit onderwerp bevat informatie en voorbeelden over het configureren van intercompany-facturering voor projecten.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bb39e212d00f8874254d4255f310217cdf46eb5a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9894a405403d4faeb2f02387b03c77a40a6cea3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949673"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001150"
 ---
 # <a name="configure-intercompany-invoicing"></a>Intercompany-facturering configureren
 

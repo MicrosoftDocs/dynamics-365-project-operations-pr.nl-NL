@@ -2,18 +2,16 @@
 title: Configuratiegegevens in Common Data Service instellen en toepassen
 description: Dit onderwerp bevat informatie over het instellen en toepassen van configuratiegegevens in Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289813"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001285"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configuratiegegevens in Common Data Service instellen en toepassen 
 
@@ -33,7 +31,7 @@ Voordat u begint met het configureren van gegevens in Common Data Service (CDS),
 
 ## <a name="install-setup-and-configuration-data"></a>Gegevens voor installatie en configuratie installeren
 
-1. Download, deblokkeer en extraheer het [Installatie- en configuratiegegevenspakket](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Download, deblokkeer en extraheer het [Installatie- en configuratiegegevenspakket](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Navigeer naar de uitgepakte map en voer het uitvoerbare bestand *DataMigrationUtility* uit.
 3. Op pagina 1 van de wizard Common Data Service Configuratiemigratie (CMT) selecteert u **Gegevens importeren** en vervolgens **Doorgaan**.
 
@@ -57,13 +55,20 @@ Voordat u begint met het configureren van gegevens in Common Data Service (CDS),
 ![Gegevens importeren](./media/5ImportData.png)
 
 10. Het importeren duurt ongeveer twee tot tien minuten, afhankelijk van uw netwerksnelheid. Sluit de CMT-wizard nadat het importeren is voltooid. 
-11. Controleer uw organisatie op gegevens in de volgende 19 entiteiten:
+11. Controleer uw organisatie op gegevens in de volgende 26 entiteiten:
 
   - Valuta
+  - Rekeningschema
+  - Fiscale kalender
+  - Typen valutawisselkoers
+  - Betalingsdag
+  - Betalingsschema
+  - Betalingsvoorwaarde
   - Organisatie-eenheid
   - Contact
   - Belastinggroep
   - Klantengroep
+  - Leveranciersgroep
   - Eenheid
   - Eenhedengroep
   - Prijslijst
@@ -127,7 +132,7 @@ Voordat u begint met het configureren van gegevens in Common Data Service (CDS),
 12. Werk de volgende velden bij:
 
  - **Standaardbedrijf**: USPM
- - **Standaard organisatie-eenheid**: Contoso Robotics Global
+ - **Standaardorganisatie-eenheid**: Contoso Robotics Global
  - **Factuurfrequentie**: zevende en laatste dag
  - **Werkuursjabloon**: ga naar de sjabloon die u hebt gemaakt.
 

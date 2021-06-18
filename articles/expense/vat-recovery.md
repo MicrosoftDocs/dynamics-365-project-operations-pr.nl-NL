@@ -2,18 +2,16 @@
 title: Btw-terugvordering in Onkostenbeheer
 description: In dit onderwerp wordt uitgelegd hoe u terugbetalingen kunt ontvangen voor bepaalde btw-transacties.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1c7bd2cb3b200ef3be735484d4e831a7a5793d58
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a840c808a76c96dd5f9dfb863c230801718c203c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275937"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001690"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Btw-terugvordering in Onkostenbeheer
 
@@ -35,25 +33,25 @@ Nadat aan de vereisten is voldaan, moeten de volgende stappen worden voltooid om
 4. Verzend de gegevens over de btw-teruggave naar de derde leverancier om de internationale terugvorderingsaangifte in te dienen.
 5. Verwerk de kosten voor de binnenlandse btw-terugvordering.
 
-De volgende secties bevatten voorbeelden die laten zien hoe Contoso-medewerkers deze stappen voltooien.
+De volgende gedeelten bevatten voorbeelden die laten zien hoe Contoso-medewerkers elke stap uitvoeren.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Voer belastinggegevens in over de creditcardtransacties om de in aanmerking komende btw-teruggaven te identificeren
 
-Nancy, een verkoopvertegenwoordiger van Contoso die in de Verenigde Staten is gevestigd, is onlangs teruggekeerd van een verkoopreis naar het Verenigd Koninkrijk. Tijdens de reis maakte Nancy wat persoonlijke creditcardkosten voor maaltijden. Nancy moet nu een onkostendeclaratie maken om de onkosten af te stemmen.
+Nancy, een Contoso-verkoopmedewerker die is gevestigd in de Verenigde Staten en onlangs is teruggekeerd van een werkreis naar het Verenigd Koninkrijk. Tijdens de reis maakte Nancy wat persoonlijke creditcardkosten voor maaltijden. Nancy moet nu een onkostendeclaratie maken om de onkosten af te stemmen.
 
 Wanneer Nancy informatie invoert op de onkostendeclaratie, selecteert ze **Verenigd Koninkrijk** in het veld **Land/regio** op de pagina **Onkostendeclaratie bewerken**. De lijst met btw-groepen wordt vervolgens gefilterd, zodat alleen de groepen worden weergegeven die van toepassing zijn op het Verenigd Koninkrijk. Nancy selecteert de btw-groep **Verenigd Koninkrijk 001** en selecteert vervolgens de omzetbelastingsgroep voor het artikel **Maaltijden**. Vervolgens voegt Nancy een nieuwe transactie toe voor accommodatie. Omdat er slechts één btw-groep is en één omzetbelastingsgroep voor artikelen voor accommodatie in het Verenigd Koninkrijk, wordt deze informatie automatisch ingevuld op de onkostendeclaratie van Nancy.
 
-Volgens het beleid van Contoso moet er voor alle onkosten een overeenkomend kwitantie zijn. Wanneer Nancy de onkostendeclaratie opslaat, ontvangt ze daarom een bericht waarin staat dat ze een kwitantie moet bijvoegen voor elke transactie die ze op haar onkostendeclaratie heeft vermeld. Nancy controleert of ze een digitale afbeelding van elke transactiebon heeft toegevoegd aan haar onkostendeclaratie en stuurt deze vervolgens ter goedkeuring in. Vervolgens stuurt ze de papieren bonnen naar het backoffice-verwerkingsteam. Dit team stuurt de gegevens voor de btw-teruggave naar de derde leverancier die internationale btw-terugvorderingsaangiften voor Contoso indient.
+Volgens het beleid van Contoso moeten alle onkosten een bijbehorend ontvangstbewijs hebben. Wanneer Nancy de onkostendeclaratie opslaat, ontvangt ze daarom een bericht waarin staat dat ze een kwitantie moet bijvoegen voor elke transactie die ze op haar onkostendeclaratie heeft vermeld. Nancy controleert of ze een digitale afbeelding van elke transactiebon heeft toegevoegd aan haar onkostendeclaratie en stuurt deze vervolgens ter goedkeuring in. Vervolgens stuurt ze de papieren bonnen naar het backoffice-verwerkingsteam. Dit team stuurt de btw-terugvorderingsgegevens naar de externe leverancier die internationale btw-terugvorderingsaangiften indient voor Contoso.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Belastinggegevens controleren en een onkostendeclaratie boeken
 
-Voordat April, de coördinator bij de crediteurenadministratie voor Contoso, een onkostendeclaratie kan boeken, zij moet alle ontbrekende belastinggegevens invoeren. Ze opent de pagina **Details van onkostendeclaratie** en ziet Nancy's goedgekeurde onkostendeclaratie. April opent vervolgens de onkostendeclaratie om de details van de transacties te bekijken. Ze ziet dat Nancy geen btw-groep voor een van de transacties heeft ingevoerd. Omdat deze informatie niet wordt verstrekt, kan April de onkostendeclaratie niet boeken. Daarom kijkt ze op de pagina **Belastingconfiguraties** in Onkostenbeheer en zoekt ze de juiste omzetbelastingsgroep van het artikel voor land/regio en het transactietype. April kan nu de onkostendeclaratie naar het grootboek boeken.
+Voordat April, de coördinator van de afdeling Crediteuren van Contoso, een onkostendeclaratie kan boeken, moet ze alle ontbrekende belastinggegevens invoeren. Ze opent de pagina **Details van onkostendeclaratie** en ziet Nancy's goedgekeurde onkostendeclaratie. April opent vervolgens de onkostendeclaratie om de details van de transacties te bekijken. Ze ziet dat Nancy geen btw-groep voor een van de transacties heeft ingevoerd. Omdat deze informatie niet wordt verstrekt, kan April de onkostendeclaratie niet boeken. Daarom kijkt ze op de pagina **Belastingconfiguraties** in Onkostenbeheer en zoekt ze de juiste omzetbelastingsgroep van het artikel voor land/regio en het transactietype. April kan nu de onkostendeclaratie naar het grootboek boeken.
 
 Wanneer April de onkostendeclaratie boekt, wordt een werkitem voor de btw-teruggave aangemaakt. Dit werkitem wordt toegewezen aan een lid van het backoffice-verwerkingsteam. April ontvangt een bericht met de bevestiging dat de boeking is gelukt. Dit bericht vermeldt ook het aantal btw-transacties dat is geïdentificeerd voor terugvordering.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Onkosten verwerken die in aanmerking komen voor internationale btw-teruggave
 
-Arnie, een lid van het backoffice-verwerkingsteam van Contoso, is verantwoordelijk voor het controleren of alle vereiste informatie voor btw-terugvordering is opgenomen in onkostendeclaraties. Hij opent de pagina **Terugvordering van belasting op onkosten** en selecteert de onkostendeclaratie die Nancy heeft ingediend. Arnie controleert vervolgens of alle vereiste kwitanties zijn bijgevoegd en of de juiste btw-groep en btw-codes voor artikelen zijn ingevoerd.
+Arnie, een lid van het back-office verwerkingsteam van Contoso, is ervoor verantwoordelijk te controleren of alle vereiste informatie voor btw-terugvordering is opgenomen in onkostendeclaraties. Hij opent de pagina **Terugvordering van belasting op onkosten** en selecteert de onkostendeclaratie die Nancy heeft ingediend. Arnie controleert vervolgens of alle vereiste kwitanties zijn bijgevoegd en of de juiste btw-groep en btw-codes voor artikelen zijn ingevoerd.
 
 Wanneer Arnie de papieren kwitanties van Nancy ontvangt, verifieert hij ze met de digitale ontvangstbewijzen en verandert vervolgens de status van de onkostendeclaratie in **Klaar voor terugvordering**.
 
