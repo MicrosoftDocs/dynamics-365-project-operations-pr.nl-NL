@@ -2,8 +2,6 @@
 title: Benoemde, boekbare resources boeken voor een projectteam en taken toewijzen
 description: Dit onderwerp bevat informatie over hoe u benoemde resources voor projectteams kunt boeken en hen aan taken kunt toewijzen.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6169f2bdc107e63d666fb32d34f531fd5d472c2f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e0f3957936e699fb2a9f570b9789924c55e12cc2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291433"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009340"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Benoemde, boekbare resources boeken voor een projectteam en taken toewijzen 
 

@@ -2,12 +2,10 @@
 title: Startpagina voor prijs- en kostendimensies
 description: Dit onderwerp biedt een overzicht van prijsdimensies.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284127"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009250"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startpagina voor prijs- en kostendimensies
 
@@ -65,18 +63,18 @@ In het volgende voorbeeld worden de factureringstarieven weergegeven die zijn in
 
 **Voorbeeld van factureringstarieven**
 
-| Rol        | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
+| - Rol        | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Ontwikkelaar   | Contoso US  |Hour | 200|USD     |
-| Ontwikkelaar   | Contoso India |Hour|   112|USD     |
+| Ontwikkelaar   | Contoso VS  |Uur | 200|USD     |
+| Ontwikkelaar   | Contoso India |Uur|   112|USD     |
 
 
 **Voorbeeld van kostentarieven**
 
 | Salarisbandbreedte     | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mijn bedrijf_Bandbreedte1 | Contoso US  |Hour | 145|USD     |
-| Mijn bedrijf_Bandbreedte2 | Contoso India |Hour|   67|USD     |
+| Mijn bedrijf_Bandbreedte1 | Contoso VS  |Uur | 145|USD     |
+| Mijn bedrijf_Bandbreedte2 | Contoso India |Uur|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

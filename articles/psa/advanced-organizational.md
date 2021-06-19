@@ -2,8 +2,6 @@
 title: Organisatie-eenheden
 description: Dit onderwerp bevat informatie over organisatie-eenheden in Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291658"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009610"
 ---
 # <a name="organizational-units"></a>Organisatie-eenheden 
 
@@ -98,7 +96,7 @@ Een organisatie-eenheid is een interne groep of divisie in het bedrijf die koste
 
 Contoso, Ltd. heeft twee ontwikkelingscentra: Contoso US en Contoso India. De kosten van resources verschillen sterk tussen deze twee ontwikkelingscentra.
 
-Contoso verkoopt zijn IT-Services in veel internationale markten, zoals Latijns-Amerika, Noord-Amerika, Azië en Stille Oceaan, West-Europa en het Midden-Oosten. Factuurtarieven voor dezelfde projectrollen kunnen sterk variëren in deze markten.
+Contoso verkoopt de IT-Services in veel internationale markten, zoals Latijns-Amerika, Noord-Amerika, Azië en Stille Oceaan, West-Europa en het Midden-Oosten. Factuurtarieven voor dezelfde projectrollen kunnen sterk variëren in deze markten.
 
 Contoso US en Contoso India moeten worden ingesteld als organisatie-eenheden en elke organisatie-eenheid moet een eigen kostprijslijst hebben. Azië en Stille Oceaan, Latijns-Amerika, Noord-Amerika, West-Europa en het Midden-Oosten moeten worden ingesteld als verkooprayons en elk verkooprayon moet een eigen verkoopprijslijst hebben.
 
@@ -124,7 +122,7 @@ Nr. In de huidige versie van PSA zijn organisatie-eenheden niet hiërarchisch. D
 Wanneer u een complexe hiërarchie met kostencentra, divisies, factureringskantoren en dergelijke enzovoort hebt, stelt u de bladbladknooppunten van die hiërarchie in als afzonderlijke organisatie-eenheden.
 In het volgende voorbeeld ziet u een typische hiërarchie:
 
-**Contoso India**
+**ContosoIndia**
 
   - SAP 
 
