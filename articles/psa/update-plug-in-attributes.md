@@ -2,11 +2,9 @@
 title: Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen
 description: Dit onderwerp bevat informatie over het bijwerken van kenmerken van invoegtoepassingen voor prijsdimensies.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,57 +14,57 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 958646c9e06a15e265bc0caa8b0f3eb9f79fc347
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281787"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012805"
 ---
-# <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a><span data-ttu-id="3712c-103">Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen</span><span class="sxs-lookup"><span data-stu-id="3712c-103">Update plug-in attributes to include new pricing dimensions</span></span>
+# <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a><span data-ttu-id="807c5-103">Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen</span><span class="sxs-lookup"><span data-stu-id="807c5-103">Update plug-in attributes to include new pricing dimensions</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> <span data-ttu-id="3712c-104">Als u de functies voor prijsopgaven en contracten van de Project Service Automation (PSA) niet gebruikt, kunt u dit onderwerp overslaan.</span><span class="sxs-lookup"><span data-stu-id="3712c-104">If you are not using the Project Service Automation (PSA) Quoting and Contracting features, you can skip this topic.</span></span>
+> <span data-ttu-id="807c5-104">Als u de functies voor prijsopgaven en contracten van de Project Service Automation (PSA) niet gebruikt, kunt u dit onderwerp overslaan.</span><span class="sxs-lookup"><span data-stu-id="807c5-104">If you are not using the Project Service Automation (PSA) Quoting and Contracting features, you can skip this topic.</span></span>
 
-<span data-ttu-id="3712c-105">Er wordt in dit onderwerp vanuit gegaan dat u de procedures hebt voltooid in de onderwerpen [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md), [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](field-references.md) en [Aangepaste velden instellen als prijsdimensies](set-up-pricing-dimensions.md).</span><span class="sxs-lookup"><span data-stu-id="3712c-105">This topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md), [Add custom fields to price setup and transactional entities](field-references.md), and [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md).</span></span> <span data-ttu-id="3712c-106">Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar dit onderwerp.</span><span class="sxs-lookup"><span data-stu-id="3712c-106">If you haven't completed those procedures, go back and complete them and then return to this topic.</span></span>
+<span data-ttu-id="807c5-105">Er wordt in dit onderwerp vanuit gegaan dat u de procedures hebt voltooid in de onderwerpen [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md), [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](field-references.md) en [Aangepaste velden instellen als prijsdimensies](set-up-pricing-dimensions.md).</span><span class="sxs-lookup"><span data-stu-id="807c5-105">This topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md), [Add custom fields to price setup and transactional entities](field-references.md), and [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md).</span></span> <span data-ttu-id="807c5-106">Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar dit onderwerp.</span><span class="sxs-lookup"><span data-stu-id="807c5-106">If you haven't completed those procedures, go back and complete them and then return to this topic.</span></span>
 
-<span data-ttu-id="3712c-107">Wanneer details voor een prijsopgaveregel zijn gemaakt op de pagina **Prijsopgaveregel** voor een project, maakt het systeem twee schattingsregels op de achtergrond, één regel voor de kostenzijde van de schatting en één voor verkoopzijde.</span><span class="sxs-lookup"><span data-stu-id="3712c-107">When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines in the background -- one line for the cost side of the estimate and one for sales side.</span></span> <span data-ttu-id="3712c-108">Dit is hetzelfde voor projectcontractregels.</span><span class="sxs-lookup"><span data-stu-id="3712c-108">This is the same  for project contract lines.</span></span>
+<span data-ttu-id="807c5-107">Wanneer details voor een prijsopgaveregel zijn gemaakt op de pagina **Prijsopgaveregel** voor een project, maakt het systeem twee schattingsregels op de achtergrond, één regel voor de kostenzijde van de schatting en één voor verkoopzijde.</span><span class="sxs-lookup"><span data-stu-id="807c5-107">When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines in the background -- one line for the cost side of the estimate and one for sales side.</span></span> <span data-ttu-id="807c5-108">Dit is hetzelfde voor projectcontractregels.</span><span class="sxs-lookup"><span data-stu-id="807c5-108">This is the same  for project contract lines.</span></span>
 
-<span data-ttu-id="3712c-109">Wanneer u een wijziging aanbrengt in de hoeveelheid of een veld aan de kostenzijde, wordt die wijziging doorgegeven aan de verkoopzijde.</span><span class="sxs-lookup"><span data-stu-id="3712c-109">When you make a change to the quantity or a field on the cost side, that change is propagated to the sales side.</span></span> <span data-ttu-id="3712c-110">Dit is mogelijk vanwege de volgende invoegtoepassingen die opnieuw moeten worden geregistreerd na een wijziging in de prijsdimensies.</span><span class="sxs-lookup"><span data-stu-id="3712c-110">This is possible because of the following plug-ins that must be re-registered after a change to pricing dimensions.</span></span>
+<span data-ttu-id="807c5-109">Wanneer u een wijziging aanbrengt in de hoeveelheid of een veld aan de kostenzijde, wordt die wijziging doorgegeven aan de verkoopzijde.</span><span class="sxs-lookup"><span data-stu-id="807c5-109">When you make a change to the quantity or a field on the cost side, that change is propagated to the sales side.</span></span> <span data-ttu-id="807c5-110">Dit is mogelijk vanwege de volgende invoegtoepassingen die opnieuw moeten worden geregistreerd na een wijziging in de prijsdimensies.</span><span class="sxs-lookup"><span data-stu-id="807c5-110">This is possible because of the following plug-ins that must be re-registered after a change to pricing dimensions.</span></span>
 
-- <span data-ttu-id="3712c-111">PreOperationContractLineDetailUpdate - Updates **msdyn_orderlinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="3712c-111">PreOperationContractLineDetailUpdate - Updates **msdyn_orderlinetransaction**.</span></span>
-- <span data-ttu-id="3712c-112">PreOperationQuoteLineDetailUpdate - Updates **msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="3712c-112">PreOperationQuoteLineDetailUpdate - Updates **msdyn_quotelinetransaction**.</span></span>
+- <span data-ttu-id="807c5-111">PreOperationContractLineDetailUpdate - Updates **msdyn_orderlinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="807c5-111">PreOperationContractLineDetailUpdate - Updates **msdyn_orderlinetransaction**.</span></span>
+- <span data-ttu-id="807c5-112">PreOperationQuoteLineDetailUpdate - Updates **msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="807c5-112">PreOperationQuoteLineDetailUpdate - Updates **msdyn_quotelinetransaction**.</span></span>
 
-<span data-ttu-id="3712c-113">In de volgende stappen wordt het proces van het registreren van de invoegtoepassingen uitgelegd.</span><span class="sxs-lookup"><span data-stu-id="3712c-113">The following steps walk you through the process of registering the plug-ins.</span></span>
+<span data-ttu-id="807c5-113">In de volgende stappen wordt het proces van het registreren van de invoegtoepassingen uitgelegd.</span><span class="sxs-lookup"><span data-stu-id="807c5-113">The following steps walk you through the process of registering the plug-ins.</span></span>
 
-1. <span data-ttu-id="3712c-114">Open **PluginRegistrationTool** en maak verbinding met uw online-exemplaar.</span><span class="sxs-lookup"><span data-stu-id="3712c-114">Open the **PluginRegistrationTool** and connect to your online instance.</span></span>
-2. <span data-ttu-id="3712c-115">Klik op **Zoeken** en zoek de invoegtoepassing om bij te werken.</span><span class="sxs-lookup"><span data-stu-id="3712c-115">Click **Search** and search for the plug-in to be updated.</span></span>
+1. <span data-ttu-id="807c5-114">Open **PluginRegistrationTool** en maak verbinding met uw online-exemplaar.</span><span class="sxs-lookup"><span data-stu-id="807c5-114">Open the **PluginRegistrationTool** and connect to your online instance.</span></span>
+2. <span data-ttu-id="807c5-115">Klik op **Zoeken** en zoek de invoegtoepassing om bij te werken.</span><span class="sxs-lookup"><span data-stu-id="807c5-115">Click **Search** and search for the plug-in to be updated.</span></span>
 
  ![Schermopname van de zoekstructuur](media/PRT-1.png)
 
-3. <span data-ttu-id="3712c-117">Nadat de invoegtoepassing is gevonden, selecteert u deze en klikt u op **Selecteren op hoofdformulier**.</span><span class="sxs-lookup"><span data-stu-id="3712c-117">After the plug-in is found, select it and then click **Select on Main Form**.</span></span>
+3. <span data-ttu-id="807c5-117">Nadat de invoegtoepassing is gevonden, selecteert u deze en klikt u op **Selecteren op hoofdformulier**.</span><span class="sxs-lookup"><span data-stu-id="807c5-117">After the plug-in is found, select it and then click **Select on Main Form**.</span></span>
 
-4. <span data-ttu-id="3712c-118">Selecteer de stap van de invoegtoepassing, klik met de rechtermuisknop en selecteer **Bijwerken**.</span><span class="sxs-lookup"><span data-stu-id="3712c-118">Select the step of the plug-in to be updated, right-click, and then select **Update**.</span></span>
+4. <span data-ttu-id="807c5-118">Selecteer de stap van de invoegtoepassing, klik met de rechtermuisknop en selecteer **Bijwerken**.</span><span class="sxs-lookup"><span data-stu-id="807c5-118">Select the step of the plug-in to be updated, right-click, and then select **Update**.</span></span>
 
  ![Schermopname van de invoegtoepassing dit moet worden bijgewerkt](media/PRT-2.png)
  
-5. <span data-ttu-id="3712c-120">Klik in het venster Bijwerken op het beletselteken (**...**) in de filterkenmerken.</span><span class="sxs-lookup"><span data-stu-id="3712c-120">In the update window, click the ellipsis (**...**) in the filtering attributes.</span></span>
+5. <span data-ttu-id="807c5-120">Klik in het venster Bijwerken op het beletselteken (**...**) in de filterkenmerken.</span><span class="sxs-lookup"><span data-stu-id="807c5-120">In the update window, click the ellipsis (**...**) in the filtering attributes.</span></span>
 
  ![Schermopname van de configuratiegegevens voor Bestaande stap bijwerken](media/PRT-3.png)
  
-6. <span data-ttu-id="3712c-122">Selecteer de selectievakjes met prijskenmerken.</span><span class="sxs-lookup"><span data-stu-id="3712c-122">Select the pricing attribute check boxes.</span></span>
+6. <span data-ttu-id="807c5-122">Selecteer de selectievakjes met prijskenmerken.</span><span class="sxs-lookup"><span data-stu-id="807c5-122">Select the pricing attribute check boxes.</span></span>
 
  ![Schermopname met het ingeschakelde selectievakje voor prijskenmerken](media/PRT-4.png)
 
-7. <span data-ttu-id="3712c-124">Klik op **OK** om de pagina te sluiten en selecteer vervolgens **Stap bijwerken**.</span><span class="sxs-lookup"><span data-stu-id="3712c-124">Click **OK** to close the page and then select **Update Step**.</span></span>
+7. <span data-ttu-id="807c5-124">Klik op **OK** om de pagina te sluiten en selecteer vervolgens **Stap bijwerken**.</span><span class="sxs-lookup"><span data-stu-id="807c5-124">Click **OK** to close the page and then select **Update Step**.</span></span>
 
  ![Schermopname met de knop "Stap bijwerken"](media/PRT-5.png)
  
-8. <span data-ttu-id="3712c-126">Herhaal dit proces voor de tweede invoegtoepassing **PreOperationQuoteLineDetail - update van msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="3712c-126">Repeat this process for the second plug-in, **PreOperationQuoteLineDetail - Update of msdyn_quotelinetransaction**.</span></span>
+8. <span data-ttu-id="807c5-126">Herhaal dit proces voor de tweede invoegtoepassing **PreOperationQuoteLineDetail - update van msdyn_quotelinetransaction**.</span><span class="sxs-lookup"><span data-stu-id="807c5-126">Repeat this process for the second plug-in, **PreOperationQuoteLineDetail - Update of msdyn_quotelinetransaction**.</span></span>
 
-9. <span data-ttu-id="3712c-127">Sluit het registratiehulpprogramma.</span><span class="sxs-lookup"><span data-stu-id="3712c-127">Close the plug-in registration tool.</span></span>
+9. <span data-ttu-id="807c5-127">Sluit het registratiehulpprogramma.</span><span class="sxs-lookup"><span data-stu-id="807c5-127">Close the plug-in registration tool.</span></span>
 
 
 
