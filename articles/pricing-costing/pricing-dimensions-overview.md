@@ -2,19 +2,17 @@
 title: Overzicht van prijsdimensies
 description: Dit onderwerp bevat informatie over prijsdimensies in Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275397"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004975"
 ---
 # <a name="pricing-dimensions-overview"></a>Overzicht van prijsdimensies
 
@@ -59,18 +57,18 @@ In het volgende voorbeeld worden de factureringstarieven weergegeven die zijn in
 
 **Voorbeeld van factureringstarieven**
 
-| Rol        | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
+| - Rol        | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Ontwikkelaar   | Contoso US  |Hour | 200|USD     |
-| Ontwikkelaar   | Contoso India |Hour|   112|USD     |
+| Ontwikkelaar   | Contoso VS  |Uur | 200|USD     |
+| Ontwikkelaar   | Contoso India |Uur|   112|USD     |
 
 
 **Voorbeeld van kostentarieven**
 
 | Salarisbandbreedte     | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mijn bedrijf_Bandbreedte1 | Contoso US  |Hour | 145|USD     |
-| Mijn bedrijf_Bandbreedte2 | Contoso India |Hour|   67|USD     |
+| Mijn bedrijf_Bandbreedte1 | Contoso VS  |Uur | 145|USD     |
+| Mijn bedrijf_Bandbreedte2 | Contoso India |Uur|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
