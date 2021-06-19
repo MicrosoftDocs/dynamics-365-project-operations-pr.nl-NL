@@ -2,11 +2,9 @@
 title: Aangepaste velden instellen als prijsdimensies
 description: In dit onderwerp krijgt u informatie over het instellen van prijsdimensies met behulp van aangepaste velden.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274857"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004705"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Aangepaste velden instellen als prijsdimensies
 
@@ -77,10 +75,10 @@ Er zijn twee typen prijsdimensies:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Op locatie            |                    |Overwerk                 |15     |
 |             | Contoso India|Lokaal             |                    |Overwerk                 |10     |
-|             | Contoso US   |Lokaal             |                    |Overwerk                 |20     |
+|             | Contoso VS   |Lokaal             |                    |Overwerk                 |20     |
 
 
-Als een resource van Contoso India met een basistarief van USD 100 op locatie werkt en deze 8 uur van de reguliere werktijd en 2 uur overwerk bij de tijdsvermelding invoert, past de prijsengine het basistarief van USD 100 toe voor de 8 uur, voor een subtotaal van USD 800. Voor de 2 uur overwerk wordt een opslag van 15% toegepast op het basistarief van 100, wat een eenheidsprijs van USD 115 oplevert voor een subtotaal van USD 230.
+Als een resource van Contoso India met een basistarief van USD 100 op locatie werkt en deze 8 uur van de reguliere werktijd en 2 uur overwerk op de tijdsvermelding registreert, past de prijsengine het basistarief van 100 toe voor de 8 uur, voor een subtotaal van USD 800. Voor de 2 uur overwerk wordt een opslag van 15% toegepast op het basistarief van 100, wat een eenheidsprijs van USD 115 oplevert voor een subtotaal van USD 230.
 
 ### <a name="applicable-to-cost"></a>Van toepassing op kosten 
 Als dit is ingesteld op **Ja**, geeft dit aan dat de dimensiewaarde van de invoercontext moet worden gebruikt om de **Rolprijs** en de **Rolprijsopslag** te vergelijken bij het ophalen van de kosten- en opslagtarieven.

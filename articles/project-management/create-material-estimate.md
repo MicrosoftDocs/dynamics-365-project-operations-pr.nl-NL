@@ -2,18 +2,16 @@
 title: Financiële schattingen voor materialen in projecten
 description: Dit onderwerp biedt informatie over het definiëren of schatten van projectgebaseerde materialen.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 98e3611b2b3948aab09a3eadeac7b95b893812e9
-ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
+ms.openlocfilehash: 768da6adb83b4593a227f60182179b3036f4c040
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788845"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002680"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Financiële schattingen voor materialen in projecten
 

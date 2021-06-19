@@ -2,18 +2,16 @@
 title: Overzicht van intercompany-facturering
 description: Dit onderwerp bevat informatie en voorbeelden over intercompany-facturering voor projecten.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287322"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002635"
 ---
 # <a name="intercompany-invoicing-overview"></a>Overzicht van intercompany-facturering
 
@@ -21,7 +19,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Uw organisatie heeft mogelijk meerdere divisies, dochterondernemingen en andere rechtspersonen die producten en diensten aan elkaar leveren voor projecten. De rechtspersoon die de service of het product levert, wordt de *uitlenende rechtspersoon* genoemd. De rechtspersoon die de service of het product ontvangt, wordt de *lenende rechtspersoon* genoemd.
 
-De volgende afbeelding toont een typisch scenario waarin twee rechtspersonen, Contoso Robotics USA (de lenende rechtspersoon) en Contoso Robotics UK (de uitlenende rechtspersoon) resources delen om een project voor de klant Adventure Works te leveren. Voor dit scenario is Contoso Robotics USA gecontracteerd om het werk te leveren aan Adventure Works.
+De volgende afbeelding toont een typisch scenario waarin twee rechtspersonen, Contoso Robotics USA (de lenende rechtspersoon) en Contoso Robotics UK (de uitlenende rechtspersoon) resources deelt om een project voor de klant, Adventure Works, te leveren. Voor dit scenario is Contoso Robotics USA gecontracteerd om het werk te leveren aan Adventure Works.
 
 ![Intercompany-facturering](./media/IntercompanyScenario.png) 
 
