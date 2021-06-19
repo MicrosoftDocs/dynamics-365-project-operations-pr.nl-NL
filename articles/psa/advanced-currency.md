@@ -2,8 +2,6 @@
 title: Scenario's met meerdere valuta's (versie 3. x)
 description: Dit onderwerp biedt informatie over scenario's met meerdere valuta's.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291703"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014785"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenario's met meerdere valuta's
 
@@ -68,7 +66,7 @@ PSA breidt het concept van transactievaluta voor de kosten en verkoop op de volg
 
 ## <a name="multiple-currency-scenario"></a>Scenario met meerdere valuta's
 
-In deze sectie wordt een voorbeeld beschreven van een project dat Contoso UK levert voor de Japanse klant Fabrikam. Het scenario is als volgt ingesteld:
+In dit gedeelte wordt een voorbeeld beschreven van een project dat Contoso UK levert voor de Japanse klant Fabrikam. Het scenario is als volgt ingesteld:
 
 1. GBP en de Japanse yen (JPY) worden ingesteld onder **Instellingen** \> **Bedrijfsbeheer** \> **Valuta's**. 
 2. Een klantaccount met de naam **Fabrikam - Japan** wordt ingesteld en JPY wordt geselecteerd als de valuta voor de account.
