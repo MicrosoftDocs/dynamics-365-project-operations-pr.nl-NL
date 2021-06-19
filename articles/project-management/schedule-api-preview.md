@@ -2,18 +2,16 @@
 title: Plannings-API's gebruiken om bewerkingen uit te voeren met planningsentiteiten
 description: Dit onderwerp biedt informatie over en voorbeelden voor het gebruik van plannings-API's.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950798"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116791"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Plannings-API's gebruiken om bewerkingen uit te voeren met planningsentiteiten
 
@@ -268,7 +266,6 @@ Hieronder volgt een lijst met beperkingen en bekende problemen:
 - Elke gebruiker kan maximaal tien open **OperationSets** hebben.
 - Project Operations ondersteunt momenteel maximaal 500 totale taken in een project.
 - Momenteel zijn geen foutstatus en foutenlogboeken beschikbaar voor **OperationSet**.
-- Plannings-API's zijn in openbare preview. Het gebruik van deze API's in een productieomgeving wordt niet ondersteund door Microsoft.
 - [Limieten en grenzen voor projecten en taken](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Foutafhandeling

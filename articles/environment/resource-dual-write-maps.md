@@ -2,18 +2,16 @@
 title: Toewijzingsversies van twee keer wegschrijven voor Project Operations
 description: Dit onderwerp biedt de lijst met kaarten voor twee keer wegschrijven die zijn vereist voor Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938968"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025768"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Toewijzingsversies van twee keer wegschrijven voor Project Operations
 
@@ -36,32 +34,32 @@ De volgende kaarten zijn vereisten voor de Project Operations-oplossing. Zorg er
 
 ![Synchronisatie van grootboektoewijzing](media/DW6.png)
 
-1. Volg dezelfde stappen voor alle resterende tabeltoewijzingen die in de bovenstaande tabel worden vermeld. Schakel het selectievakje **Initiële synchronisatie** niet in bij het uitvoeren van die kaarten.
+2. Volg dezelfde stappen voor alle resterende tabeltoewijzingen die in de bovenstaande tabel worden vermeld. Schakel het selectievakje **Initiële synchronisatie** niet in bij het uitvoeren van die kaarten.
 
 ## <a name="project-operations-dual-write-maps"></a>Kaarten voor twee keer wegschrijven in Project Operations
 
-De volgende kaarten zijn vereist voor een Project Operations-oplossing.
+De volgende kaarten zijn vereist voor een Project Operations-oplossing. Toewijzingsversies van twee keer wegschrijven met Project Operations mei 2021-update, versie 4.10.0.186.
 
 | **Entiteitstoewijzing** | **Nieuwste versie** | **Initiële synchronisatie** |
 | --- | --- | --- |
 | Integratie-entiteit voor projecttransactierelaties (msdyn\_transactionconnections) | 1.0.0.0 | Niet vereist voor inrichting. |
 | Projectcontractkoppen (verkooporders) | 1.0.0.1 | Niet vereist voor inrichting. |
 | Projectcontractregels (salesorderdetails) | 1.0.0.0 | Niet vereist voor inrichting. |
-| Bron voor projectfinanciering (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | Niet vereist voor inrichting. |
+| Bron voor projectfinanciering (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Niet vereist voor inrichting. |
 | Project Operations-integratietabel voor materiaalschattingen (msdyn\_estimatelines) | 1.0.0.0 | Niet vereist voor inrichting. |
-| Projectfactuurvoorstellen V2 (facturen) | 1.0.0.2 | Niet vereist voor inrichting. |
+| Projectfactuurvoorstellen V2 (facturen) | 1.0.0.3 | Niet vereist voor inrichting. |
 | Werkelijke waarden voor integratie van Project Operations (msdyn_actuals) | 1.0.0.14 | Niet vereist voor inrichting. |
 | Mijlpalen voor de contractregel van Project Operations-integratie (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Niet vereist voor inrichting. |
 | Entiteit voor onkostenramingen van Project Operations-integratie (msdyn_estimateslines) | 1.0.0.2 | Niet vereist voor inrichting. |
 | Entiteit voor tijdramingen van Project Operations-integratie (msdyn_resourceassignments) | 1.0.0.5 | Niet vereist voor inrichting. |
-| Entiteit voor exporteren van categorieën met projectonkosten voor Project Operations-integratie (msdyn_expensecategories) | 1.0.0.2 | Niet vereist voor inrichting. |
+| Entiteit voor exporteren van categorieën met projectonkosten voor Project Operations-integratie (msdyn_expensecategories) | 1.0.0.1 | Niet vereist voor inrichting. |
 | Entiteit voor exporteren van projectkosten voor Project Operations-integratie (msdyn_expenses) | 1.0.0.2 | Niet vereist voor inrichting. |
 | Entiteit voor exporteren van leverancierfacturen in Project Operations-integratieprojecten (msdyn_projectvendorinvoices) | 1.0.0.0 | Niet vereist voor inrichting. |
-| Entiteit voor exporteren van leverancierfactuurregels in Project Operations-integratieprojecten (msdyn_projectvendorinvoicelines) | 1.0.0.0 | Niet vereist voor inrichting. |
+| Entiteit voor exporteren van leverancierfactuurregels in Project Operations-integratieprojecten (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Niet vereist voor inrichting. |
 | Rollen voor projectresources voor alle bedrijven (bookableresourcecategories) | 1.0.0.1 | Vereist een initiële synchronisatie voor de tabeltoewijzing om de resourcerollen van Projectmanager en Teamlid te synchroniseren die zijn ingevuld in de Dynamics 365 Dataverse omgeving tijdens het inrichten. Dataverse is de belangrijkste bron voor de initiële synchronisatie. |
 | Projecttaken (msdyn_projecttasks) | 1.0.0.4 | Niet vereist voor inrichting. |
 | Projecttransactiecategorieën (msdyn_transactioncategories) | 1.0.0.0 | Niet vereist voor inrichting. |
-| Projecten V2 (msdyn_projects) | 1.0.0.1 | Niet vereist voor inrichting. |
+| Projecten V2 (msdyn_projects) | 1.0.0.2 | Niet vereist voor inrichting. |
 
 Voer de volgende stappen uit om de weergegeven kaarten uit te voeren.
 

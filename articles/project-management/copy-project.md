@@ -2,30 +2,29 @@
 title: Een project kopiëren
 description: In dit onderwerp krijgt u informatie over het kopiëren van projecten in Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: c3055ab5b8c07faa2bc9167956d283e2a66029dd
+ms.sourcegitcommit: 173f2b1f4e063c440a5f78d76d456c62aadbd89e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479513"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6091248"
 ---
 # <a name="copy-a-project"></a>Een project kopiëren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Met Dynamics 365 Project Operations kunt u snel nieuwe projecten bouwen door **Project kopiëren** te selecteren op het formulier **Projecten**. Als u een project wilt kopiëren, opent u het project dat u wilt kopiëren en selecteert u vervolgens **Project kopiëren**. Met de actie kopieert u het volgende:
+Met Dynamics 365 Project Operations kunt u snel nieuwe projecten bouwen door **Project kopiëren** te selecteren op het formulier **Projecten**. Als u een project wilt kopiëren, opent u het project dat u wilt kopiëren en selecteert u vervolgens **Project kopiëren**. Met de actie wordt het volgende gekopieerd:
 
-- Projecteigenschappen (de geschatte begindatum wordt gekopieerd vanuit het bronproject)
-- De structuur voor werkspecificatie
+- Projecteigenschappen 
+- Structuur voor werkspecificatie
 - Projectteamleden
 - Projectschattingen
 - Projectonkostenschattingen
+- Materiaalschattingen project
 
 ## <a name="project-properties"></a>Projecteigenschappen
 
@@ -42,11 +41,15 @@ Wanneer het project wordt gekopieerd, worden de waarden in de volgende velden ge
 - Algehele projectstatus
 - Opmerkingen 
 - Schattingen
-- Geschatte begindatum
-- Einddatum
+- Geschatte begindatum: dit is de datum waarop het project op basis van de kopie is gemaakt.
+- Geschatte einddatum: deze datum wordt aangepast op basis van de begindatum van het nieuwe project dat op basis van de kopie is gemaakt.
 - Inspanning (uren)
 - Geschatte arbeidskosten
 - Geschatte onkosten
+- Geschatte materiaalkosten
+
+> [!NOTE]
+> Het kopiëren van het project is een langdurige operatie. Projectrecords, de bijbehorende relevante kenmerken en veel gerelateerde entiteiten worden ook gekopieerd. Vanwege de langdurige aard van de bewerking, wordt de doelprojectpagina, nadat het kopiëren is gestart, vergrendeld voor bewerking totdat de kopieerbewerking is voltooid.
 
 ## <a name="work-breakdown-structure"></a>Structuur voor werkspecificatie
 
@@ -58,7 +61,7 @@ Wanneer een projectteam wordt gekopieerd uit het bronproject, worden de algemene
 
 ## <a name="estimates"></a>Schattingen
 
-Wanneer het project wordt gekopieerd, worden zowel resource- als kostenramingsregels uit het bronproject gekopieerd. 
+Wanneer het project wordt gekopieerd, worden resource-, onkosten- en materiaalramingsregels gekopieerd uit het bronproject. 
 
 Zie voor informatie over het programmatisch openen van Project kopiëren [Projectsjablonen ontwikkelen met Project kopiëren](dev-copy-project.md).
 
