@@ -2,8 +2,6 @@
 title: Nieuwe of gewijzigde functies in Project Service Automation voor vroegtijdige toegang tot wave 1 2021, V3
 description: In dit onderwerp vindt u de functies en fixes die beschikbaar zijn in Project Service Automation voor vroegtijdige toegang tot wave 1 2021, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
 ms.topic: article
@@ -17,32 +15,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ceba31934f021b4a18766eca314d68b69dd6a8ff
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 3a11c5a033c6b7f1f4d7b5146dc8695c9e017d6e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949583"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002381"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="9a00a-103">Nieuwe of gewijzigde functies in Project Service Automation voor vroegtijdige toegang tot wave 1 2021, V3</span><span class="sxs-lookup"><span data-stu-id="9a00a-103">What's new or changed in Project Service Automation Early Access Wave 1 2021, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="53d90-103">Nieuwe of gewijzigde functies in Project Service Automation voor vroegtijdige toegang tot wave 1 2021, V3</span><span class="sxs-lookup"><span data-stu-id="53d90-103">What's new or changed in Project Service Automation Early Access Wave 1 2021, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-## <a name="project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="9a00a-104">Project Service Automation voor vroegtijdige toegang tot wave 1 2021, V3</span><span class="sxs-lookup"><span data-stu-id="9a00a-104">Project Service Automation Early Access Wave 1 2021, V3</span></span>
+## <a name="project-service-automation-early-access-wave-1-2021-v3"></a><span data-ttu-id="53d90-104">Project Service Automation voor vroegtijdige toegang tot wave 1 2021, V3</span><span class="sxs-lookup"><span data-stu-id="53d90-104">Project Service Automation Early Access Wave 1 2021, V3</span></span>
 
-<span data-ttu-id="9a00a-105">Met genoegen kondigen we de nieuwste update aan voor de toepassing Project Service Automation voor Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="9a00a-105">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="9a00a-106">Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid.</span><span class="sxs-lookup"><span data-stu-id="9a00a-106">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="9a00a-107">Deze versie is compatibel met Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="9a00a-107">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="9a00a-108">Als u deze release wilt bijwerken, gaat u online naar het Beheercentrum voor Dynamics 365 en naar de pagina Oplossingen om de update te installeren.</span><span class="sxs-lookup"><span data-stu-id="9a00a-108">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="9a00a-109">Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="9a00a-109">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="53d90-105">Met genoegen kondigen we de nieuwste update aan voor de toepassing Project Service Automation voor Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="53d90-105">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="53d90-106">Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid.</span><span class="sxs-lookup"><span data-stu-id="53d90-106">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="53d90-107">Deze versie is compatibel met Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="53d90-107">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="53d90-108">Als u deze release wilt bijwerken, gaat u online naar het Beheercentrum voor Dynamics 365 en naar de pagina Oplossingen om de update te installeren.</span><span class="sxs-lookup"><span data-stu-id="53d90-108">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="53d90-109">Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="53d90-109">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="9a00a-110">In dit onderwerp vindt u de functies en fixes die nieuw of gewijzigd zijn voor Project Service Automation V3, vroegtijdige toegang tot wave 1 2021.</span><span class="sxs-lookup"><span data-stu-id="9a00a-110">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Early Access Wave 1 2021.</span></span> <span data-ttu-id="9a00a-111">Deze versie heeft buildnummer V3.10.49.3 en is algemeen beschikbaar via een zelfupdate in februari 2021.</span><span class="sxs-lookup"><span data-stu-id="9a00a-111">This version has a build number of V3.10.49.3 and is generally available through a self-update in February 2021.</span></span>
+<span data-ttu-id="53d90-110">In dit onderwerp vindt u de functies en fixes die nieuw of gewijzigd zijn voor Project Service Automation V3, vroegtijdige toegang tot wave 1 2021.</span><span class="sxs-lookup"><span data-stu-id="53d90-110">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Early Access Wave 1 2021.</span></span> <span data-ttu-id="53d90-111">Deze versie heeft buildnummer V3.10.49.3 en is algemeen beschikbaar via een zelfupdate in februari 2021.</span><span class="sxs-lookup"><span data-stu-id="53d90-111">This version has a build number of V3.10.49.3 and is generally available through a self-update in February 2021.</span></span>
 
 
-### <a name="bug-fixes"></a><span data-ttu-id="9a00a-112">Opgeloste fouten</span><span class="sxs-lookup"><span data-stu-id="9a00a-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="53d90-112">Opgeloste fouten</span><span class="sxs-lookup"><span data-stu-id="53d90-112">Bug fixes</span></span>
 
-<span data-ttu-id="9a00a-113">**Tijd en onkosten**</span><span class="sxs-lookup"><span data-stu-id="9a00a-113">**Time and Expense**</span></span>
+<span data-ttu-id="53d90-113">**Tijd en onkosten**</span><span class="sxs-lookup"><span data-stu-id="53d90-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="9a00a-114">De volgende problemen zijn opgelost:</span><span class="sxs-lookup"><span data-stu-id="9a00a-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="53d90-114">De volgende problemen zijn opgelost:</span><span class="sxs-lookup"><span data-stu-id="53d90-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9a00a-115">Einddatums worden automatisch ingevuld wanneer een tijdsvermelding wordt gemaakt als de duur null is.</span><span class="sxs-lookup"><span data-stu-id="9a00a-115">End dates auto-populate when a time entry is created if the duration is null.</span></span>
-- <span data-ttu-id="9a00a-116">Gebruikers kunnen de taak wijzigen voor een tijdsvermelding die is goedgekeurd of ingediend.</span><span class="sxs-lookup"><span data-stu-id="9a00a-116">Users can change the task on a time entry that has been approved or submitted.</span></span>
+- <span data-ttu-id="53d90-115">Einddatums worden automatisch ingevuld wanneer een tijdsvermelding wordt gemaakt als de duur null is.</span><span class="sxs-lookup"><span data-stu-id="53d90-115">End dates auto-populate when a time entry is created if the duration is null.</span></span>
+- <span data-ttu-id="53d90-116">Gebruikers kunnen de taak wijzigen voor een tijdsvermelding die is goedgekeurd of ingediend.</span><span class="sxs-lookup"><span data-stu-id="53d90-116">Users can change the task on a time entry that has been approved or submitted.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
