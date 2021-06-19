@@ -2,8 +2,6 @@
 title: Startpagina Resources toewijzen aan projecten
 description: Dit onderwerp bevat informatie over de mogelijkheden voor resourcebeheer in PSA (Project Service Automation) voor Dynamics 365.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,41 +16,41 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7fb1e2fbe08c3b2885b690915904d172f14fdb54
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b806b111e579609092239518ebae14b1355941e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282867"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008620"
 ---
-# <a name="resourcing-projects-home-page"></a><span data-ttu-id="2dbd4-103">Startpagina Resources toewijzen aan projecten</span><span class="sxs-lookup"><span data-stu-id="2dbd4-103">Resourcing projects home page</span></span>
+# <a name="resourcing-projects-home-page"></a><span data-ttu-id="bac11-103">Startpagina Resources toewijzen aan projecten</span><span class="sxs-lookup"><span data-stu-id="bac11-103">Resourcing projects home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="2dbd4-104">Resources zijn de belangrijkste activa van een serviceverlenende organisatie.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="2dbd4-105">De mogelijkheid om de juiste resources op het juiste moment te vinden, deze resources te boeken voor projecten en ze optimaal in te zetten, helpt de organisatie om haar inkomstendoelen en klanttevredenheidsdoelen te behalen.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="2dbd4-106">Met de functionaliteit voor het toewijzen van resources aan projecten in PSA (Project Service Automation) kunt u:</span><span class="sxs-lookup"><span data-stu-id="2dbd4-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
+<span data-ttu-id="bac11-104">Resources zijn de belangrijkste activa van een serviceverlenende organisatie.</span><span class="sxs-lookup"><span data-stu-id="bac11-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="bac11-105">De mogelijkheid om de juiste resources op het juiste moment te vinden, deze resources te boeken voor projecten en ze optimaal in te zetten, helpt de organisatie om haar inkomstendoelen en klanttevredenheidsdoelen te behalen.</span><span class="sxs-lookup"><span data-stu-id="bac11-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="bac11-106">Met de functionaliteit voor het toewijzen van resources aan projecten in PSA (Project Service Automation) kunt u:</span><span class="sxs-lookup"><span data-stu-id="bac11-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
 
-- <span data-ttu-id="2dbd4-107">Projectteams vormen door beschikbare en gekwalificeerde resources te boeken.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-107">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="2dbd4-108">Algemene teamlidrecords maken en hun rollen en de organisatie-eenheid van de resource definiëren.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-108">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="2dbd4-109">Resourcevereisten voor algemene teamleden genereren op basis van hun taaktoewijzingen.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-109">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="2dbd4-110">Resources met de juiste vaardigheden vinden door de vaardigheden te identificeren die voor de resourcevraag zijn gedefinieerd en deze te vergelijken met de beschikbare vaardigheden van resources.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="2dbd4-111">Resources vervangen.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-111">Substitute resources.</span></span>
-- <span data-ttu-id="2dbd4-112">Toewijzingen in projectplanningen en resourceboekingen op elkaar afstemmen.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-112">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="2dbd4-113">Verschillen in boekingen en toewijzingen vereffenen.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-113">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="2dbd4-114">Resourceboekingen wijzigen als reactie op de aanwezigheidsstatus.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-114">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="2dbd4-115">Samenwerken met projectbeheerders en resourcebeheerders.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-115">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="2dbd4-116">De geschiedenis bekijken van het aantal bestede uren van een resource ten opzichte van een doel, waaronder een specificatie van hoe de tijd van de resources is besteed.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="2dbd4-117">Een opslagplaats voor vaardigheden en deskundigheid onderhouden.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-117">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="bac11-107">Projectteams vormen door beschikbare en gekwalificeerde resources te boeken.</span><span class="sxs-lookup"><span data-stu-id="bac11-107">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="bac11-108">Algemene teamlidrecords maken en hun rollen en de organisatie-eenheid van de resource definiëren.</span><span class="sxs-lookup"><span data-stu-id="bac11-108">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="bac11-109">Resourcevereisten voor algemene teamleden genereren op basis van hun taaktoewijzingen.</span><span class="sxs-lookup"><span data-stu-id="bac11-109">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="bac11-110">Resources met de juiste vaardigheden vinden door de vaardigheden te identificeren die voor de resourcevraag zijn gedefinieerd en deze te vergelijken met de beschikbare vaardigheden van resources.</span><span class="sxs-lookup"><span data-stu-id="bac11-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="bac11-111">Resources vervangen.</span><span class="sxs-lookup"><span data-stu-id="bac11-111">Substitute resources.</span></span>
+- <span data-ttu-id="bac11-112">Toewijzingen in projectplanningen en resourceboekingen op elkaar afstemmen.</span><span class="sxs-lookup"><span data-stu-id="bac11-112">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="bac11-113">Verschillen in boekingen en toewijzingen vereffenen.</span><span class="sxs-lookup"><span data-stu-id="bac11-113">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="bac11-114">Resourceboekingen wijzigen als reactie op de aanwezigheidsstatus.</span><span class="sxs-lookup"><span data-stu-id="bac11-114">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="bac11-115">Samenwerken met projectbeheerders en resourcebeheerders.</span><span class="sxs-lookup"><span data-stu-id="bac11-115">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="bac11-116">De geschiedenis bekijken van het aantal bestede uren van een resource ten opzichte van een doel, waaronder een specificatie van hoe de tijd van de resources is besteed.</span><span class="sxs-lookup"><span data-stu-id="bac11-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="bac11-117">Een opslagplaats voor vaardigheden en deskundigheid onderhouden.</span><span class="sxs-lookup"><span data-stu-id="bac11-117">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="2dbd4-118">U kunt mensen aan uw project toewijzen met een team van algemene of benoemde resources in PSA.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="2dbd4-119">U kunt verschillende methoden gebruiken om teamleden toe te voegen en toe te wijzen en om hun boekingen en toewijzingen te beheren.</span><span class="sxs-lookup"><span data-stu-id="2dbd4-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="2dbd4-120">Voor meer informatie raadpleegt u de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="2dbd4-120">For additional information, see the following topics:</span></span>
+<span data-ttu-id="bac11-118">U kunt mensen aan uw project toewijzen met een team van algemene of benoemde resources in PSA.</span><span class="sxs-lookup"><span data-stu-id="bac11-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="bac11-119">U kunt verschillende methoden gebruiken om teamleden toe te voegen en toe te wijzen en om hun boekingen en toewijzingen te beheren.</span><span class="sxs-lookup"><span data-stu-id="bac11-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="bac11-120">Voor meer informatie raadpleegt u de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="bac11-120">For additional information, see the following topics:</span></span>
 
-- [<span data-ttu-id="2dbd4-121">Benoemde, boekbare resources boeken voor een projectteam en taken aan ze toewijzen</span><span class="sxs-lookup"><span data-stu-id="2dbd4-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
-- [<span data-ttu-id="2dbd4-122">Algemene, boekbare resources toewijzen aan een taak en resourcevereisten genereren</span><span class="sxs-lookup"><span data-stu-id="2dbd4-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
-- [<span data-ttu-id="2dbd4-123">Benoemde resources boeken op basis van resourcevereisten</span><span class="sxs-lookup"><span data-stu-id="2dbd4-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
-- [<span data-ttu-id="2dbd4-124">Een resourceaanvraag indienen</span><span class="sxs-lookup"><span data-stu-id="2dbd4-124">Submit a resource request</span></span>](submit-resource-request.md)
-- [<span data-ttu-id="2dbd4-125">Een voorgestelde projectresource in een resourceaanvraag accepteren of afwijzen</span><span class="sxs-lookup"><span data-stu-id="2dbd4-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
+- [<span data-ttu-id="bac11-121">Benoemde, boekbare resources boeken voor een projectteam en taken aan ze toewijzen</span><span class="sxs-lookup"><span data-stu-id="bac11-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
+- [<span data-ttu-id="bac11-122">Algemene, boekbare resources toewijzen aan een taak en resourcevereisten genereren</span><span class="sxs-lookup"><span data-stu-id="bac11-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
+- [<span data-ttu-id="bac11-123">Benoemde resources boeken op basis van resourcevereisten</span><span class="sxs-lookup"><span data-stu-id="bac11-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
+- [<span data-ttu-id="bac11-124">Een resourceaanvraag indienen</span><span class="sxs-lookup"><span data-stu-id="bac11-124">Submit a resource request</span></span>](submit-resource-request.md)
+- [<span data-ttu-id="bac11-125">Een voorgestelde projectresource in een resourceaanvraag accepteren of afwijzen</span><span class="sxs-lookup"><span data-stu-id="bac11-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
