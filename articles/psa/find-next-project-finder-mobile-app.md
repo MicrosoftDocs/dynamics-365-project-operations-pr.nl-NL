@@ -2,8 +2,6 @@
 title: Uw volgende project zoeken met de app Project Finder Mobile
 description: Informatie over uw volgende project zoeken met de app Project Finder Mobile voor Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,37 +16,37 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c15be8d9884c31298f996477c732c542fce65fcc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275262"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007495"
 ---
-# <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a><span data-ttu-id="4ba72-103">U volgende project zoeken met de app Project Finder Mobile (Project Service)</span><span class="sxs-lookup"><span data-stu-id="4ba72-103">Find your next project with the Project Finder Mobile app (Project Service)</span></span>
+# <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a><span data-ttu-id="11f39-103">U volgende project zoeken met de app Project Finder Mobile (Project Service)</span><span class="sxs-lookup"><span data-stu-id="11f39-103">Find your next project with the Project Finder Mobile app (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="4ba72-104">Met de app Project Finder Mobile op uw [!INCLUDE[tn_iphone](../includes/tn-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] -telefoon of [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] kunt u projecten opzoeken en u aanmelden voor de projecten die het beste passen bij uw vaardighedenset en interessen.</span><span class="sxs-lookup"><span data-stu-id="4ba72-104">With the Project Finder Mobile app on your [!INCLUDE[tn_iphone](../includes/tn-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] phone, or [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)], you can look up projects and sign up for ones that best meet your skill set and interests.</span></span> <span data-ttu-id="4ba72-105">U kunt uw vaardigheids- en deskundigheidsniveaus ook met de app bijwerken.</span><span class="sxs-lookup"><span data-stu-id="4ba72-105">You can also update your skills and proficiency levels with the app.</span></span>  
+<span data-ttu-id="11f39-104">Met de app Project Finder Mobile op uw [!INCLUDE[tn_iphone](../includes/tn-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] -telefoon of [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] kunt u projecten opzoeken en u aanmelden voor de projecten die het beste passen bij uw vaardighedenset en interessen.</span><span class="sxs-lookup"><span data-stu-id="11f39-104">With the Project Finder Mobile app on your [!INCLUDE[tn_iphone](../includes/tn-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] phone, or [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)], you can look up projects and sign up for ones that best meet your skill set and interests.</span></span> <span data-ttu-id="11f39-105">U kunt uw vaardigheids- en deskundigheidsniveaus ook met de app bijwerken.</span><span class="sxs-lookup"><span data-stu-id="11f39-105">You can also update your skills and proficiency levels with the app.</span></span>  
   
- <span data-ttu-id="4ba72-106">Wanneer u de app voor de eerste keer start, moet u de URL voor uw [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-systeem, uw gebruikers-ID en uw wachtwoord invoeren.</span><span class="sxs-lookup"><span data-stu-id="4ba72-106">When you first start the app, you'll need to enter the URL for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system, your user ID, and your password.</span></span> <span data-ttu-id="4ba72-107">Als u deze gegevens niet hebt, neemt u contact op met uw [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-beheerder.</span><span class="sxs-lookup"><span data-stu-id="4ba72-107">If you don't have this information,  contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator.</span></span>  
+ <span data-ttu-id="11f39-106">Wanneer u de app voor de eerste keer start, moet u de URL voor uw [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-systeem, uw gebruikers-ID en uw wachtwoord invoeren.</span><span class="sxs-lookup"><span data-stu-id="11f39-106">When you first start the app, you'll need to enter the URL for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system, your user ID, and your password.</span></span> <span data-ttu-id="11f39-107">Als u deze gegevens niet hebt, neemt u contact op met uw [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-beheerder.</span><span class="sxs-lookup"><span data-stu-id="11f39-107">If you don't have this information,  contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator.</span></span>  
   
-## <a name="find-a-project"></a><span data-ttu-id="4ba72-108">Een project zoeken</span><span class="sxs-lookup"><span data-stu-id="4ba72-108">Find a project</span></span>  
- <span data-ttu-id="4ba72-109">De app Project Finder Mobile bevat een lijst met projecten die zijn gerangschikt op basis van de mate waarin uw vaardigheids- en deskundigheidsniveaus overeenkomen met die van het project.</span><span class="sxs-lookup"><span data-stu-id="4ba72-109">The Project Finder Mobile app shows a list of projects ranked according to how well your skills and proficiency levels match the required skills and proficiency levels for the project.</span></span> <span data-ttu-id="4ba72-110">De projecten die het beste bij u passen, worden boven in de lijst weergegeven.</span><span class="sxs-lookup"><span data-stu-id="4ba72-110">The projects that are the best fit for you appear at the top of the list.</span></span> <span data-ttu-id="4ba72-111">Met een aangevinkt vakje onder de projecttitel wordt aangegeven dat uw vaardigheden voldoen aan of beter zijn dan de vereisten voor het project.</span><span class="sxs-lookup"><span data-stu-id="4ba72-111">A checked box under the project title indicates your skills meet or exceed the requirements for the project.</span></span>  
+## <a name="find-a-project"></a><span data-ttu-id="11f39-108">Een project zoeken</span><span class="sxs-lookup"><span data-stu-id="11f39-108">Find a project</span></span>  
+ <span data-ttu-id="11f39-109">De app Project Finder Mobile bevat een lijst met projecten die zijn gerangschikt op basis van de mate waarin uw vaardigheids- en deskundigheidsniveaus overeenkomen met die van het project.</span><span class="sxs-lookup"><span data-stu-id="11f39-109">The Project Finder Mobile app shows a list of projects ranked according to how well your skills and proficiency levels match the required skills and proficiency levels for the project.</span></span> <span data-ttu-id="11f39-110">De projecten die het beste bij u passen, worden boven in de lijst weergegeven.</span><span class="sxs-lookup"><span data-stu-id="11f39-110">The projects that are the best fit for you appear at the top of the list.</span></span> <span data-ttu-id="11f39-111">Met een aangevinkt vakje onder de projecttitel wordt aangegeven dat uw vaardigheden voldoen aan of beter zijn dan de vereisten voor het project.</span><span class="sxs-lookup"><span data-stu-id="11f39-111">A checked box under the project title indicates your skills meet or exceed the requirements for the project.</span></span>  
   
- <span data-ttu-id="4ba72-112">Tik op de pijl rechts van het project waarin u bent geïnteresseerd om meer details te bekijken en om u ervoor aan te melden.</span><span class="sxs-lookup"><span data-stu-id="4ba72-112">Tap the arrow to the right of the project you're interested in to see more details and sign up for it.</span></span>  
+ <span data-ttu-id="11f39-112">Tik op de pijl rechts van het project waarin u bent geïnteresseerd om meer details te bekijken en om u ervoor aan te melden.</span><span class="sxs-lookup"><span data-stu-id="11f39-112">Tap the arrow to the right of the project you're interested in to see more details and sign up for it.</span></span>  
   
- <span data-ttu-id="4ba72-113">![Lijst met projecten die overeenkomen met vaardigheden in de mobiele toepassing Project Finder](../psa/media/project-service-project-finder-list.png "Lijst met projecten die overeenkomen met vaardigheden in de mobiele toepassing Project Finder")</span><span class="sxs-lookup"><span data-stu-id="4ba72-113">![List of projects matching skills in the Project Finder Mobile app](../psa/media/project-service-project-finder-list.png "List of projects matching skills in the Project Finder Mobile app")</span></span>  
+ <span data-ttu-id="11f39-113">![Lijst met projecten die overeenkomen met vaardigheden in de mobiele toepassing Project Finder](../psa/media/project-service-project-finder-list.png "Lijst met projecten die overeenkomen met vaardigheden in de mobiele toepassing Project Finder")</span><span class="sxs-lookup"><span data-stu-id="11f39-113">![List of projects matching skills in the Project Finder Mobile app](../psa/media/project-service-project-finder-list.png "List of projects matching skills in the Project Finder Mobile app")</span></span>  
   
-## <a name="update-your-skills"></a><span data-ttu-id="4ba72-114">Uw vaardigheden bijwerken</span><span class="sxs-lookup"><span data-stu-id="4ba72-114">Update your skills</span></span>  
- <span data-ttu-id="4ba72-115">Tik op de profielknop rechtsonder in het scherm om uw vaardigheids- en deskundigheidsniveaus bij te werken.</span><span class="sxs-lookup"><span data-stu-id="4ba72-115">Tap the profile button on the bottom right of the screen to update your skills and proficiency levels.</span></span>  
+## <a name="update-your-skills"></a><span data-ttu-id="11f39-114">Uw vaardigheden bijwerken</span><span class="sxs-lookup"><span data-stu-id="11f39-114">Update your skills</span></span>  
+ <span data-ttu-id="11f39-115">Tik op de profielknop rechtsonder in het scherm om uw vaardigheids- en deskundigheidsniveaus bij te werken.</span><span class="sxs-lookup"><span data-stu-id="11f39-115">Tap the profile button on the bottom right of the screen to update your skills and proficiency levels.</span></span>  
   
- <span data-ttu-id="4ba72-116">![Knop Profiel in de mobiele toepassing Project Finder](../psa/media/project-service-project-finder-profile.png "Knop Profiel in de mobiele toepassing Project Finder")</span><span class="sxs-lookup"><span data-stu-id="4ba72-116">![Profile button in the Project Finder Mobile app](../psa/media/project-service-project-finder-profile.png "Profile button in the Project Finder Mobile app")</span></span>  
+ <span data-ttu-id="11f39-116">![Knop Profiel in de mobiele toepassing Project Finder](../psa/media/project-service-project-finder-profile.png "Knop Profiel in de mobiele toepassing Project Finder")</span><span class="sxs-lookup"><span data-stu-id="11f39-116">![Profile button in the Project Finder Mobile app](../psa/media/project-service-project-finder-profile.png "Profile button in the Project Finder Mobile app")</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="4ba72-117">Zie ook</span><span class="sxs-lookup"><span data-stu-id="4ba72-117">See Also</span></span>  
- [<span data-ttu-id="4ba72-118">Handleiding Tijd, kosten, en samenwerken</span><span class="sxs-lookup"><span data-stu-id="4ba72-118">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="11f39-117">Zie ook</span><span class="sxs-lookup"><span data-stu-id="11f39-117">See Also</span></span>  
+ [<span data-ttu-id="11f39-118">Handleiding Tijd, kosten, en samenwerken</span><span class="sxs-lookup"><span data-stu-id="11f39-118">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
