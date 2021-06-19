@@ -2,18 +2,16 @@
 title: Een boekbare resource gebruiken als een prijsdimensie
 description: Dit onderwerp bevat informatie over het gebruik van een boekbare resource als een prijsdimensie.
 author: Rumant
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b9fb7732f677a04272a556238b6c2acc1dcdfb9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277287"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011185"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Een boekbare resource gebruiken als een prijsdimensie
 
