@@ -4,6 +4,7 @@ description: Introductie en overzicht van Project Service
 author: stsporen
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -16,72 +17,72 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 537fa056fd0103e1a4fa05c8e66d408286ee101c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ee6fda5da83e4cb3c4910af49c33243f39fc73d7
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998540"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368920"
 ---
-# <a name="what-is-dynamics-365-project-service-automation"></a><span data-ttu-id="a8ee3-103">Wat is Dynamics 365 Project Service Automation?</span><span class="sxs-lookup"><span data-stu-id="a8ee3-103">What is Dynamics 365 Project Service Automation?</span></span>
+# <a name="what-is-dynamics-365-project-service-automation"></a><span data-ttu-id="5ddaa-103">Wat is Dynamics 365 Project Service Automation?</span><span class="sxs-lookup"><span data-stu-id="5ddaa-103">What is Dynamics 365 Project Service Automation?</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
-<span data-ttu-id="a8ee3-104">De toepassing Project Service Automation (PSA) helpt organisaties met het efficiënt bijhouden, beheren en leveren van projectgebaseerde services, van de oorspronkelijke verkoop tot aan de facturering.</span><span class="sxs-lookup"><span data-stu-id="a8ee3-104">The Project Service Automation (PSA) application helps organizations efficiently track, manage, and deliver project-based services, from the initial sale all the way to invoicing.</span></span> <span data-ttu-id="a8ee3-105">Met de app kunt u het volgende doen:</span><span class="sxs-lookup"><span data-stu-id="a8ee3-105">The app enables you to:</span></span>
+<span data-ttu-id="5ddaa-104">De toepassing Project Service Automation (PSA) helpt organisaties met het efficiënt bijhouden, beheren en leveren van projectgebaseerde services, van de oorspronkelijke verkoop tot aan de facturering.</span><span class="sxs-lookup"><span data-stu-id="5ddaa-104">The Project Service Automation (PSA) application helps organizations efficiently track, manage, and deliver project-based services, from the initial sale all the way to invoicing.</span></span> <span data-ttu-id="5ddaa-105">Met de app kunt u het volgende doen:</span><span class="sxs-lookup"><span data-stu-id="5ddaa-105">The app enables you to:</span></span>
 
-- <span data-ttu-id="a8ee3-106">Projecten plannen, schattingen en werkplanningen opstellen</span><span class="sxs-lookup"><span data-stu-id="a8ee3-106">Plan projects, and create estimates and work schedules</span></span>
-- <span data-ttu-id="a8ee3-107">Projectkosten en -opbrengsten ramen en bijhouden</span><span class="sxs-lookup"><span data-stu-id="a8ee3-107">Estimate and track project cost and revenue</span></span>
-- <span data-ttu-id="a8ee3-108">Prognoses maken van resourcevereisten voor projecten in de pipeline</span><span class="sxs-lookup"><span data-stu-id="a8ee3-108">Forecast resource requirements for projects in the pipeline</span></span>
-- <span data-ttu-id="a8ee3-109">Projectvoortgang en gemaakte kosten bijhouden</span><span class="sxs-lookup"><span data-stu-id="a8ee3-109">Track project progress and cost consumption</span></span>
-- <span data-ttu-id="a8ee3-110">Offertes, prijzen en facturering voor projecten beheren</span><span class="sxs-lookup"><span data-stu-id="a8ee3-110">Manage quoting, pricing, and billing for projects</span></span>
-- <span data-ttu-id="a8ee3-111">Resources toewijzen en beheren</span><span class="sxs-lookup"><span data-stu-id="a8ee3-111">Assign and manage resources</span></span>
-- <span data-ttu-id="a8ee3-112">Met rapporten en interactieve dashboards key performance indicators bewaken voor succesvolle projecten</span><span class="sxs-lookup"><span data-stu-id="a8ee3-112">Use reports and interactive dashboards to monitor key performance indicators for successful projects</span></span>
-- <span data-ttu-id="a8ee3-113">...en meer</span><span class="sxs-lookup"><span data-stu-id="a8ee3-113">...and more</span></span>
+- <span data-ttu-id="5ddaa-106">Projecten plannen, schattingen en werkplanningen opstellen</span><span class="sxs-lookup"><span data-stu-id="5ddaa-106">Plan projects, and create estimates and work schedules</span></span>
+- <span data-ttu-id="5ddaa-107">Projectkosten en -opbrengsten ramen en bijhouden</span><span class="sxs-lookup"><span data-stu-id="5ddaa-107">Estimate and track project cost and revenue</span></span>
+- <span data-ttu-id="5ddaa-108">Prognoses maken van resourcevereisten voor projecten in de pipeline</span><span class="sxs-lookup"><span data-stu-id="5ddaa-108">Forecast resource requirements for projects in the pipeline</span></span>
+- <span data-ttu-id="5ddaa-109">Projectvoortgang en gemaakte kosten bijhouden</span><span class="sxs-lookup"><span data-stu-id="5ddaa-109">Track project progress and cost consumption</span></span>
+- <span data-ttu-id="5ddaa-110">Offertes, prijzen en facturering voor projecten beheren</span><span class="sxs-lookup"><span data-stu-id="5ddaa-110">Manage quoting, pricing, and billing for projects</span></span>
+- <span data-ttu-id="5ddaa-111">Resources toewijzen en beheren</span><span class="sxs-lookup"><span data-stu-id="5ddaa-111">Assign and manage resources</span></span>
+- <span data-ttu-id="5ddaa-112">Met rapporten en interactieve dashboards key performance indicators bewaken voor succesvolle projecten</span><span class="sxs-lookup"><span data-stu-id="5ddaa-112">Use reports and interactive dashboards to monitor key performance indicators for successful projects</span></span>
+- <span data-ttu-id="5ddaa-113">...en meer</span><span class="sxs-lookup"><span data-stu-id="5ddaa-113">...and more</span></span>
 
-<span data-ttu-id="a8ee3-114">Daarnaast voor een betere bewaking en controle van de kosten voor projectgebaseerd werk, kunnen individuele adviseurs eenvoudig projecturen en -onkosten invoeren en bijhouden op de mobiele app of in een webbrowser.</span><span class="sxs-lookup"><span data-stu-id="a8ee3-114">In addition, to help you monitor and control costs for your project-based work, individual consultants easily enter and track project time and expenses either on mobile or using a web browser.</span></span>
+<span data-ttu-id="5ddaa-114">Daarnaast voor een betere bewaking en controle van de kosten voor projectgebaseerd werk, kunnen individuele adviseurs eenvoudig projecturen en -onkosten invoeren en bijhouden op de mobiele app of in een webbrowser.</span><span class="sxs-lookup"><span data-stu-id="5ddaa-114">In addition, to help you monitor and control costs for your project-based work, individual consultants easily enter and track project time and expenses either on mobile or using a web browser.</span></span>
 
-## <a name="whats-new-in-psa"></a><span data-ttu-id="a8ee3-115">Nieuwe functies in PSA</span><span class="sxs-lookup"><span data-stu-id="a8ee3-115">What's new in PSA</span></span>
-<span data-ttu-id="a8ee3-116">Het team kondigt vol trots onze meest recente updates aan.</span><span class="sxs-lookup"><span data-stu-id="a8ee3-116">The team is excited to announce our newest updates!</span></span> <span data-ttu-id="a8ee3-117">Deze lopen uiteen van verbeteringen in de gebruikersinterface, het oplossen van bugs en het toevoegen van belangrijke nieuwe functies en mogelijkheden.</span><span class="sxs-lookup"><span data-stu-id="a8ee3-117">Ranging from improvements to the user interface, fixing bugs, and adding important new features and capabilties.</span></span> <span data-ttu-id="a8ee3-118">U vroeg, wij hebben geluisterd.</span><span class="sxs-lookup"><span data-stu-id="a8ee3-118">You asked; we listened.</span></span>
+## <a name="whats-new-in-psa"></a><span data-ttu-id="5ddaa-115">Nieuwe functies in PSA</span><span class="sxs-lookup"><span data-stu-id="5ddaa-115">What's new in PSA</span></span>
+<span data-ttu-id="5ddaa-116">Het team kondigt vol trots onze meest recente updates aan.</span><span class="sxs-lookup"><span data-stu-id="5ddaa-116">The team is excited to announce our newest updates!</span></span> <span data-ttu-id="5ddaa-117">Deze lopen uiteen van verbeteringen in de gebruikersinterface, het oplossen van bugs en het toevoegen van belangrijke nieuwe functies en mogelijkheden.</span><span class="sxs-lookup"><span data-stu-id="5ddaa-117">Ranging from improvements to the user interface, fixing bugs, and adding important new features and capabilties.</span></span> <span data-ttu-id="5ddaa-118">U vroeg, wij hebben geluisterd.</span><span class="sxs-lookup"><span data-stu-id="5ddaa-118">You asked; we listened.</span></span>
 
-<span data-ttu-id="a8ee3-119">Bekijk de [opmerkingen bij de release van oktober 2019](/dynamics365-release-plan/2019wave2/index) als u meer wilt weten over onze meest recente verbeteringen en aanvullingen.</span><span class="sxs-lookup"><span data-stu-id="a8ee3-119">Take a look at the [October '19 Release Notes](/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.</span></span>
+<span data-ttu-id="5ddaa-119">Bekijk de [opmerkingen bij de release van oktober 2019](/dynamics365-release-plan/2019wave2/index) als u meer wilt weten over onze meest recente verbeteringen en aanvullingen.</span><span class="sxs-lookup"><span data-stu-id="5ddaa-119">Take a look at the [October '19 Release Notes](/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.</span></span>
 
-### <a name="in-development"></a><span data-ttu-id="a8ee3-120">In ontwikkeling</span><span class="sxs-lookup"><span data-stu-id="a8ee3-120">In development</span></span>
-<span data-ttu-id="a8ee3-121">Ga naar [Dynamics 365: plan voor releasewave 1 van 2020](/dynamics365-release-plan/2020wave1/index) om te zien wat we voor de nabije toekomst hebben gepland.</span><span class="sxs-lookup"><span data-stu-id="a8ee3-121">To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](/dynamics365-release-plan/2020wave1/index).</span></span>
+### <a name="in-development"></a><span data-ttu-id="5ddaa-120">In ontwikkeling</span><span class="sxs-lookup"><span data-stu-id="5ddaa-120">In development</span></span>
+<span data-ttu-id="5ddaa-121">Ga naar [Dynamics 365: plan voor releasewave 1 van 2020](/dynamics365-release-plan/2020wave1/index) om te zien wat we voor de nabije toekomst hebben gepland.</span><span class="sxs-lookup"><span data-stu-id="5ddaa-121">To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](/dynamics365-release-plan/2020wave1/index).</span></span>
 
-## <a name="get-help-with-psa-version-3x"></a><span data-ttu-id="a8ee3-122">Hulp krijgen bij PSA versie 3.x</span><span class="sxs-lookup"><span data-stu-id="a8ee3-122">Get help with PSA version 3.x</span></span>
-<span data-ttu-id="a8ee3-123">Bent u op zoek naar resources om uw implementatie te helpen plannen?</span><span class="sxs-lookup"><span data-stu-id="a8ee3-123">Looking for resources to help plan your implementation?</span></span> <span data-ttu-id="a8ee3-124">Bekijk dan deze downloadbare handleidingen.</span><span class="sxs-lookup"><span data-stu-id="a8ee3-124">Check out these downloadable guides.</span></span>
+## <a name="get-help-with-psa-version-3x"></a><span data-ttu-id="5ddaa-122">Hulp krijgen bij PSA versie 3.x</span><span class="sxs-lookup"><span data-stu-id="5ddaa-122">Get help with PSA version 3.x</span></span>
+<span data-ttu-id="5ddaa-123">Bent u op zoek naar resources om uw implementatie te helpen plannen?</span><span class="sxs-lookup"><span data-stu-id="5ddaa-123">Looking for resources to help plan your implementation?</span></span> <span data-ttu-id="5ddaa-124">Bekijk dan deze downloadbare handleidingen.</span><span class="sxs-lookup"><span data-stu-id="5ddaa-124">Check out these downloadable guides.</span></span>
 
- [<span data-ttu-id="a8ee3-125">Handleiding Project plannen en bijhouden</span><span class="sxs-lookup"><span data-stu-id="a8ee3-125">Project planning and tracking guide</span></span>](../psa/implementation-guides/project-planning-tracking.md)
+ [<span data-ttu-id="5ddaa-125">Handleiding Project plannen en bijhouden</span><span class="sxs-lookup"><span data-stu-id="5ddaa-125">Project planning and tracking guide</span></span>](../psa/implementation-guides/project-planning-tracking.md)
 
- [<span data-ttu-id="a8ee3-126">Basishandleiding offertes, prijzen en facturering</span><span class="sxs-lookup"><span data-stu-id="a8ee3-126">Basic quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/begin-quoting-pricing-billing.md)
+ [<span data-ttu-id="5ddaa-126">Basishandleiding offertes, prijzen en facturering</span><span class="sxs-lookup"><span data-stu-id="5ddaa-126">Basic quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/begin-quoting-pricing-billing.md)
 
- [<span data-ttu-id="a8ee3-127">Geavanceerde handleiding offertes, prijzen en facturering</span><span class="sxs-lookup"><span data-stu-id="a8ee3-127">Advanced quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/adv-quoting-pricing-billing.md)
+ [<span data-ttu-id="5ddaa-127">Geavanceerde handleiding offertes, prijzen en facturering</span><span class="sxs-lookup"><span data-stu-id="5ddaa-127">Advanced quoting, pricing, and billing guide</span></span>](../psa/implementation-guides/adv-quoting-pricing-billing.md)
 
- [<span data-ttu-id="a8ee3-128">Handleiding resourcemanagent</span><span class="sxs-lookup"><span data-stu-id="a8ee3-128">Resource management guide</span></span>](../psa/implementation-guides/resource-management-guide.md)
+ [<span data-ttu-id="5ddaa-128">Handleiding resourcemanagent</span><span class="sxs-lookup"><span data-stu-id="5ddaa-128">Resource management guide</span></span>](../psa/implementation-guides/resource-management-guide.md)
 
- [<span data-ttu-id="a8ee3-129">Handleiding Rapportage</span><span class="sxs-lookup"><span data-stu-id="a8ee3-129">Reporting guide</span></span>](../psa/implementation-guides/reporting-guide.md)
+ [<span data-ttu-id="5ddaa-129">Handleiding Rapportage</span><span class="sxs-lookup"><span data-stu-id="5ddaa-129">Reporting guide</span></span>](../psa/implementation-guides/reporting-guide.md)
 
- [<span data-ttu-id="a8ee3-130">Opmerkingen voor ontwikkelaars</span><span class="sxs-lookup"><span data-stu-id="a8ee3-130">Notes for developers</span></span>](../psa/developer-guides/overview-dev-notes-v3.x.md)
+ [<span data-ttu-id="5ddaa-130">Opmerkingen voor ontwikkelaars</span><span class="sxs-lookup"><span data-stu-id="5ddaa-130">Notes for developers</span></span>](../psa/developer-guides/overview-dev-notes-v3.x.md)
 
-## <a name="guidance-for-earlier-versions-app-version-2x-or-1x"></a><span data-ttu-id="a8ee3-131">Richtlijn voor eerdere versies (appversie 2.x of 1.x)</span><span class="sxs-lookup"><span data-stu-id="a8ee3-131">Guidance for earlier versions (app version 2.x or 1.x)</span></span>
- [<span data-ttu-id="a8ee3-132">Beheerdershandleiding</span><span class="sxs-lookup"><span data-stu-id="a8ee3-132">Administrator guide</span></span>](../psa/admin-guide.md)
+## <a name="guidance-for-earlier-versions-app-version-2x-or-1x"></a><span data-ttu-id="5ddaa-131">Richtlijn voor eerdere versies (appversie 2.x of 1.x)</span><span class="sxs-lookup"><span data-stu-id="5ddaa-131">Guidance for earlier versions (app version 2.x or 1.x)</span></span>
+ [<span data-ttu-id="5ddaa-132">Beheerdershandleiding</span><span class="sxs-lookup"><span data-stu-id="5ddaa-132">Administrator guide</span></span>](../psa/admin-guide.md)
 
- [<span data-ttu-id="a8ee3-133">Resourcemanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="a8ee3-133">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
+ [<span data-ttu-id="5ddaa-133">Resourcemanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="5ddaa-133">Resource manager guide</span></span>](../psa/resource-manager-guide.md)
 
- [<span data-ttu-id="a8ee3-134">Projectmanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="a8ee3-134">Project manager guide</span></span>](../psa/project-manager-guide.md)
+ [<span data-ttu-id="5ddaa-134">Projectmanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="5ddaa-134">Project manager guide</span></span>](../psa/project-manager-guide.md)
 
- [<span data-ttu-id="a8ee3-135">Accountmanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="a8ee3-135">Account manager guide</span></span>](../psa/account-manager-guide.md)
+ [<span data-ttu-id="5ddaa-135">Accountmanager-handleiding</span><span class="sxs-lookup"><span data-stu-id="5ddaa-135">Account manager guide</span></span>](../psa/account-manager-guide.md)
 
- [<span data-ttu-id="a8ee3-136">Tijd, onkosten en samenwerken</span><span class="sxs-lookup"><span data-stu-id="a8ee3-136">Time, expense, and collaboration</span></span>](../psa/time-expense-collaboration-guide.md)
+ [<span data-ttu-id="5ddaa-136">Tijd, onkosten en samenwerken</span><span class="sxs-lookup"><span data-stu-id="5ddaa-136">Time, expense, and collaboration</span></span>](../psa/time-expense-collaboration-guide.md)
 
- [<span data-ttu-id="a8ee3-137">Whitepapers (appversie 2.x of 1.x)</span><span class="sxs-lookup"><span data-stu-id="a8ee3-137">White papers (app version 2.x or 1.x)</span></span>](../psa/white-papers.md)
+ [<span data-ttu-id="5ddaa-137">Whitepapers (appversie 2.x of 1.x)</span><span class="sxs-lookup"><span data-stu-id="5ddaa-137">White papers (app version 2.x or 1.x)</span></span>](../psa/white-papers.md)
 
- [<span data-ttu-id="a8ee3-138">Opmerkingen voor ontwikkelaars (appversie 2.x)</span><span class="sxs-lookup"><span data-stu-id="a8ee3-138">Notes for developers (app version 2.x)</span></span>](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [<span data-ttu-id="5ddaa-138">Opmerkingen voor ontwikkelaars (appversie 2.x)</span><span class="sxs-lookup"><span data-stu-id="5ddaa-138">Notes for developers (app version 2.x)</span></span>](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
- ## <a name="watch-a-2-minute-overview-video"></a><span data-ttu-id="a8ee3-139">Bekijk een overzichtsvideo van 2 minuten</span><span class="sxs-lookup"><span data-stu-id="a8ee3-139">Watch a 2-minute overview video</span></span>
- <a name="heroArea"></a> <span data-ttu-id="a8ee3-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span><span class="sxs-lookup"><span data-stu-id="a8ee3-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span></span>
+ ## <a name="watch-a-2-minute-overview-video"></a><span data-ttu-id="5ddaa-139">Bekijk een overzichtsvideo van 2 minuten</span><span class="sxs-lookup"><span data-stu-id="5ddaa-139">Watch a 2-minute overview video</span></span>
+ <a name="heroArea"></a> <span data-ttu-id="5ddaa-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span><span class="sxs-lookup"><span data-stu-id="5ddaa-140">[![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)</span></span>
 
 
 

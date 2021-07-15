@@ -2,100 +2,78 @@
 title: Aanmelden voor preview-abonnementen op Project Operations voor scenario's voor resources/niet-voorradige artikelen
 description: Dit onderwerp bevat informatie over het abonneren op en inrichten van Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1b8c8982ede83191ce346e76718322d47abf0dd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da93fcf23ee3f255812842e31cb22b5d39daa963
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000430"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334821"
 ---
-# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a><span data-ttu-id="cfa77-103">Aanmelden voor preview-abonnementen op Project Operations voor scenario's voor resources/niet-voorradige artikelen</span><span class="sxs-lookup"><span data-stu-id="cfa77-103">Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios</span></span>
+# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a><span data-ttu-id="d267f-103">Aanmelden voor preview-abonnementen op Project Operations voor scenario's voor resources/niet-voorradige artikelen</span><span class="sxs-lookup"><span data-stu-id="d267f-103">Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios</span></span>
 
-<span data-ttu-id="cfa77-104">_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_</span><span class="sxs-lookup"><span data-stu-id="cfa77-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="d267f-104">_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_</span><span class="sxs-lookup"><span data-stu-id="d267f-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="cfa77-105">Dit onderwerp geeft aan hoe u zich abonneert op de preview-/partneraanbieding en hoe u de Project Operations-omgeving implementeert voor scenario's op basis van resources/niet-voorradige artikelen.</span><span class="sxs-lookup"><span data-stu-id="cfa77-105">This topic explains how to subscribe to the preview/partner offer and deploy Project Operations environment for resource/ non-stocked based scenarios.</span></span>
+<span data-ttu-id="d267f-105">In dit onderwerp wordt uitgelegd hoe u zich kunt abonneren op de proefaanbieding en hoe u de Project Operations-omgeving kunt implementeren voor scenario's op basis van resources/niet-voorradige artikelen.</span><span class="sxs-lookup"><span data-stu-id="d267f-105">This topic explains how to subscribe to the trial offer and deploy Project Operations environment for resource/non-stocked based scenarios.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="cfa77-106">Vereisten</span><span class="sxs-lookup"><span data-stu-id="cfa77-106">Prerequisites</span></span>
-
-- <span data-ttu-id="cfa77-107">U ontvangt een e-mail waarin u wordt uitgenodigd om deel te nemen aan de preview.</span><span class="sxs-lookup"><span data-stu-id="cfa77-107">You will receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="cfa77-108">U kunt een preview aanvragen op de [website van Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="cfa77-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
-- <span data-ttu-id="cfa77-109">De gebruiker die de preview implementeert, moet algemene beheerderrechten hebben voor de Azure-tenant.</span><span class="sxs-lookup"><span data-stu-id="cfa77-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
-- <span data-ttu-id="cfa77-110">Voor het implementeren van een Finance-omgeving is een geldig Azure-abonnement vereist dat per omgeving wordt gefactureerd.</span><span class="sxs-lookup"><span data-stu-id="cfa77-110">Deploying a Finance environment requires a valid Azure subscription that will be billed per environment.</span></span> <span data-ttu-id="cfa77-111">U kunt het bestaande abonnement van uw organisatie gebruiken of een [Azure-proefversie](https://azure.microsoft.com/en-us/free/) starten.</span><span class="sxs-lookup"><span data-stu-id="cfa77-111">You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/en-us/free/) to get started.</span></span> <span data-ttu-id="cfa77-112">De CDS-omgeving wordt gedurende een beperkte periode van 30 dagen gratis ter beschikking gesteld.</span><span class="sxs-lookup"><span data-stu-id="cfa77-112">The CDS environment will be provided free for a limited 30 day period.</span></span>
-
-## <a name="subscribe"></a><span data-ttu-id="cfa77-113">Abonneren</span><span class="sxs-lookup"><span data-stu-id="cfa77-113">Subscribe</span></span>
-
-<span data-ttu-id="cfa77-114">Wanneer uw [preview-aanvraag](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) wordt goedgekeurd, ontvangt u drie aanbiedingen van Microsoft per e-mail.</span><span class="sxs-lookup"><span data-stu-id="cfa77-114">When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) is approved, you will receive three offers from Microsoft by email.</span></span> <span data-ttu-id="cfa77-115">Met deze aanbiedingen kunt u de preview van Project Operations implementeren:</span><span class="sxs-lookup"><span data-stu-id="cfa77-115">These offers allow you to deploy the Project Operations Preview:</span></span>
-
-- <span data-ttu-id="cfa77-116">Dynamics 365 Project Operations (CRM) - proefversie voor preview</span><span class="sxs-lookup"><span data-stu-id="cfa77-116">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
-- <span data-ttu-id="cfa77-117">Office 365 Project Operations - proefversie voor preview</span><span class="sxs-lookup"><span data-stu-id="cfa77-117">Office 365 Project Operations - Preview Trial</span></span>
-- <span data-ttu-id="cfa77-118">Dynamics 365 Finance - proefversie voor preview</span><span class="sxs-lookup"><span data-stu-id="cfa77-118">Dynamics 365 Finance - Preview Trial</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="d267f-106">Vereisten</span><span class="sxs-lookup"><span data-stu-id="d267f-106">Prerequisites</span></span>
+- <span data-ttu-id="d267f-107">De gebruiker die de preview implementeert, moet algemene beheerderrechten hebben voor de Azure-tenant.</span><span class="sxs-lookup"><span data-stu-id="d267f-107">The user who deploys the preview must have Azure tenant global administrator rights.</span></span> <span data-ttu-id="d267f-108">U kunt een tenant maken tijdens de eerste inwisseling van de aanbieding.</span><span class="sxs-lookup"><span data-stu-id="d267f-108">You can create a tenant during the first offer redemption.</span></span> 
+- <span data-ttu-id="d267f-109">Voor het implementeren van een Finance-omgeving is een geldig Azure-abonnement vereist dat per omgeving wordt gefactureerd.</span><span class="sxs-lookup"><span data-stu-id="d267f-109">Deploying a Finance environment requires a valid Azure subscription that will be billed per environment.</span></span> <span data-ttu-id="d267f-110">U kunt het bestaande abonnement van uw organisatie gebruiken of een [Azure-proefversie](https://azure.microsoft.com/en-us/free/) starten.</span><span class="sxs-lookup"><span data-stu-id="d267f-110">You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/en-us/free/) to get started.</span></span> <span data-ttu-id="d267f-111">De CDS-omgeving wordt gedurende een beperkte periode van 30 dagen gratis ter beschikking gesteld.</span><span class="sxs-lookup"><span data-stu-id="d267f-111">The CDS environment will be provided free for a limited 30 day period.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="cfa77-119">Slechts één persoon, de tenantbeheerder, in een organisatie mag deze taak uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="cfa77-119">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="cfa77-120">Als u niet de abonnee van deze release bent, wacht dan tot uw organisatie is aangemeld en u uw gebruikersgegevens hebt ontvangen.</span><span class="sxs-lookup"><span data-stu-id="cfa77-120">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> <span data-ttu-id="d267f-112">Slechts één persoon, de tenantbeheerder, in een organisatie mag deze taak uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="d267f-112">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="d267f-113">Als u niet de abonnee van deze release bent, wacht dan tot uw organisatie is aangemeld en u uw gebruikersgegevens hebt ontvangen.</span><span class="sxs-lookup"><span data-stu-id="d267f-113">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> 
+> <span data-ttu-id="d267f-114">Proefversies zijn voor eenmalig gebruik in de tenant.</span><span class="sxs-lookup"><span data-stu-id="d267f-114">Trials are single use in the tenant.</span></span> <span data-ttu-id="d267f-115">U kunt een proefversie maar één keer uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="d267f-115">You can only run a trial one time.</span></span> <span data-ttu-id="d267f-116">We raden u aan een nieuwe tenant te maken voor de proefversie.</span><span class="sxs-lookup"><span data-stu-id="d267f-116">We recommend that you create a new tenant for the purpose of the trial.</span></span>
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="cfa77-121">Dynamics 365 Project Operations (CRM) - proefversie voor preview</span><span class="sxs-lookup"><span data-stu-id="cfa77-121">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
 
-<span data-ttu-id="cfa77-122">Voordat u begint, moet u ervoor zorgen dat u bent aangemeld bij een browser met de werkaccount van de gebruiker in de gewenste tenant voor de preview van Project Operations.</span><span class="sxs-lookup"><span data-stu-id="cfa77-122">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a><span data-ttu-id="d267f-117">Dynamics 365 Project Operations (CE) - preview-proefversie</span><span class="sxs-lookup"><span data-stu-id="d267f-117">Dynamics 365 Project Operations (CE) - Preview Trial</span></span> 
 
-1. <span data-ttu-id="cfa77-123">Wissel de eerste aanbiedingscode **Dynamics 365 Project Operations (CRM) - proefversie voor preview** in door de in de browser-URL te plakken.</span><span class="sxs-lookup"><span data-stu-id="cfa77-123">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+<span data-ttu-id="d267f-118">Voordat u begint, moet u ervoor zorgen dat u bent aangemeld bij een browser met de werkaccount van de gebruiker in de gewenste tenant voor de preview van Project Operations.</span><span class="sxs-lookup"><span data-stu-id="d267f-118">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
 
-![Aanbieding inwisselen](./media/16RedeemFirstOfferNew.png)
+1. <span data-ttu-id="d267f-119">Hier kunt u de eerste aanbiedingscode voor **Dynamics 365 Project Operations** inwisselen [Project Operations-proefversie](https://aka.ms/try-po).</span><span class="sxs-lookup"><span data-stu-id="d267f-119">Redeem the first offer code, **Dynamics 365 Project Operations** here [Project Operations Trial](https://aka.ms/try-po).</span></span>
+2. <span data-ttu-id="d267f-120">Bevestig uw order.</span><span class="sxs-lookup"><span data-stu-id="d267f-120">Confirm your order.</span></span>
 
-2. <span data-ttu-id="cfa77-125">Bevestig uw order.</span><span class="sxs-lookup"><span data-stu-id="cfa77-125">Confirm your order.</span></span>
+  <span data-ttu-id="d267f-121">U ziet dat de aanbieding voor bevestiging met succes is ingewisseld.</span><span class="sxs-lookup"><span data-stu-id="d267f-121">You will see confirmation offer was successfully redeemed.</span></span>
 
-![De order bevestigen](./media/17ConfirmOrderNew.png)
+### <a name="dynamics-365-finance-preview-trial"></a><span data-ttu-id="d267f-122">Dynamics 365 Finance-proefversie voor preview</span><span class="sxs-lookup"><span data-stu-id="d267f-122">Dynamics 365 Finance preview trial</span></span>
 
-<span data-ttu-id="cfa77-127">U ziet dat de aanbieding voor bevestiging met succes is ingewisseld.</span><span class="sxs-lookup"><span data-stu-id="cfa77-127">You will see confirmation offer was successfully redeemed.</span></span>
+<span data-ttu-id="d267f-123">Ga naar [Dynamics 365 for Finance Preview-proefversie](https://aka.ms/trypoche) en herhaal de stappen uit het vorige gedeelte met de aanbieding Aanmelden voor de cloudgehoste omgeving.</span><span class="sxs-lookup"><span data-stu-id="d267f-123">Go to [Dynamics 365 for Finance Preview Trial](https://aka.ms/trypoche) and repeat the steps from the previous section with the offer, Sign up for the Cloud Hosted Environment.</span></span>  
 
-![Bevestiging](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="cfa77-129">Office 365 Project Operations - proefversie voor preview</span><span class="sxs-lookup"><span data-stu-id="cfa77-129">Office 365 Project Operations - Preview Trial</span></span>
-
-<span data-ttu-id="cfa77-130">Herhaal dezelfde stappen als bij de eerste aanbiedingscode.</span><span class="sxs-lookup"><span data-stu-id="cfa77-130">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="cfa77-131">Zorg ervoor dat u de tweede aanbiedingscode toevoegt met dezelfde gebruikersaccount die is gebruikt bij de eerste aanbiedingscode.</span><span class="sxs-lookup"><span data-stu-id="cfa77-131">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
-
-### <a name="dynamics-365-finance-preview-trial"></a><span data-ttu-id="cfa77-132">Dynamics 365 Finance-proefversie voor preview</span><span class="sxs-lookup"><span data-stu-id="cfa77-132">Dynamics 365 Finance preview trial</span></span>
-
-<span data-ttu-id="cfa77-133">Herhaal dezelfde stappen met de laatste aanbieding uit de welkomstmail.</span><span class="sxs-lookup"><span data-stu-id="cfa77-133">Repeat the same steps with the last offer from the Welcome email.</span></span>
-
-## <a name="assign-licenses"></a><span data-ttu-id="cfa77-134">Licenties toewijzen</span><span class="sxs-lookup"><span data-stu-id="cfa77-134">Assign licenses</span></span>
+## <a name="assign-licenses"></a><span data-ttu-id="d267f-124">Licenties toewijzen</span><span class="sxs-lookup"><span data-stu-id="d267f-124">Assign licenses</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="cfa77-135">U hebt toegang als beheerder nodig tot de Microsoft 365-portal van uw organisatie om de volgende stappen te voltooien.</span><span class="sxs-lookup"><span data-stu-id="cfa77-135">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+> <span data-ttu-id="d267f-125">U hebt toegang als beheerder nodig tot de Microsoft 365-portal van uw organisatie om de volgende stappen te voltooien.</span><span class="sxs-lookup"><span data-stu-id="d267f-125">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
 
-1. <span data-ttu-id="cfa77-136">Ga naar [Microsoft 365-beheercentrum](https://portal.office.com/) om de licenties aan uw gebruikers toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="cfa77-136">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+1. <span data-ttu-id="d267f-126">Ga naar [Microsoft 365-beheercentrum](https://portal.office.com/) om de licenties aan uw gebruikers toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="d267f-126">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
 
-![Startpagina van het Beheercentrum](./media/14AdminPortal.png)
+2. <span data-ttu-id="d267f-127">Selecteer op de pagina **Actieve gebruikers** de gebruikers waaraan u een licentie wilt toewijzen.</span><span class="sxs-lookup"><span data-stu-id="d267f-127">On the **Active users** page, select the users that you want to assign a license to.</span></span>
 
-2. <span data-ttu-id="cfa77-138">Selecteer op de pagina **Actieve gebruikers** de gebruikers waaraan u een licentie wilt toewijzen.</span><span class="sxs-lookup"><span data-stu-id="cfa77-138">On the **Active users** page, select the users that you want to assign a license to.</span></span>
-
-![Licenties toewijzen](./media/15AssignLicenses.png)
-
-3. <span data-ttu-id="cfa77-140">Controleer of de licentie voor **Dynamics 365 Project Operations (CRM) Preview** en **Office 365 Project Operations - Preview** is geselecteerd en selecteer **Wijzigingen opslaan**.</span><span class="sxs-lookup"><span data-stu-id="cfa77-140">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.</span></span>
+3. <span data-ttu-id="d267f-128">Controleer of de **Dynamics 365 Project Operations**-licentie is geselecteerd en selecteer **Wijzigingen opslaan**.</span><span class="sxs-lookup"><span data-stu-id="d267f-128">Verify that the **Dynamics 365 Project Operations** license has been selected and select **Save changes**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cfa77-141">De Finance-proefaanbieding hoeft niet aan een gebruiker te worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="cfa77-141">The Finance trial offer does not need to be assigned to a user.</span></span>
+> <span data-ttu-id="d267f-129">De Finance-proefaanbieding hoeft niet aan een gebruiker te worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="d267f-129">The Finance trial offer does not need to be assigned to a user.</span></span>
 
-## <a name="start-a-new-project-in-lcs"></a><span data-ttu-id="cfa77-142">Een nieuw project in LCS starten</span><span class="sxs-lookup"><span data-stu-id="cfa77-142">Start a new project in LCS</span></span>
+## <a name="start-a-new-project-in-lcs"></a><span data-ttu-id="d267f-130">Een nieuw project in LCS starten</span><span class="sxs-lookup"><span data-stu-id="d267f-130">Start a new project in LCS</span></span>
 
-<span data-ttu-id="cfa77-143">Maak een nieuw LCS-project zoals beschreven in het onderwerp [Een nieuw project starten in LCS](create-lcs-project.md)</span><span class="sxs-lookup"><span data-stu-id="cfa77-143">Create a new LCS project as described in the topic, [Start a new project in LCS](create-lcs-project.md)</span></span>
+<span data-ttu-id="d267f-131">Maak een nieuw LCS-project zoals beschreven in het onderwerp [Een nieuw project starten in LCS](create-lcs-project.md)</span><span class="sxs-lookup"><span data-stu-id="d267f-131">Create a new LCS project as described in the topic, [Start a new project in LCS](create-lcs-project.md)</span></span>
 
-## <a name="add-an-azure-subscription-to-an-lcs-project"></a><span data-ttu-id="cfa77-144">Een Azure-abonnement toevoegen aan een LCS-project</span><span class="sxs-lookup"><span data-stu-id="cfa77-144">Add an Azure subscription to an LCS project</span></span>
+## <a name="add-an-azure-subscription-to-an-lcs-project"></a><span data-ttu-id="d267f-132">Een Azure-abonnement toevoegen aan een LCS-project</span><span class="sxs-lookup"><span data-stu-id="d267f-132">Add an Azure subscription to an LCS project</span></span>
 
-<span data-ttu-id="cfa77-145">Om deze taak te voltooien volgt u de stappen in het onderwerp [Een Azure-abonnement toevoegen aan het LCS-project](resource-add-azure-subscription-lcs-project.md).</span><span class="sxs-lookup"><span data-stu-id="cfa77-145">To complete this task, follow the steps in the topic, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).</span></span>
+<span data-ttu-id="d267f-133">Om deze taak te voltooien volgt u de stappen in het onderwerp [Een Azure-abonnement toevoegen aan het LCS-project](resource-add-azure-subscription-lcs-project.md).</span><span class="sxs-lookup"><span data-stu-id="d267f-133">To complete this task, follow the steps in the topic, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).</span></span>
 
-## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a><span data-ttu-id="cfa77-146">Implementeer een Finance-demo-omgeving met Project Operations voor scenario's met resources/niet-voorradige artikelen</span><span class="sxs-lookup"><span data-stu-id="cfa77-146">Deploy Finance demo environment with Project Operations for resource/non-stocked scenarios</span></span>
+## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a><span data-ttu-id="d267f-134">Implementeer een Finance-demo-omgeving met Project Operations voor scenario's met resources/niet-voorradige artikelen</span><span class="sxs-lookup"><span data-stu-id="d267f-134">Deploy Finance demo environment with Project Operations for resource/non-stocked scenarios</span></span>
 
-<span data-ttu-id="cfa77-147">Volg de richtlijnen in het onderwerp [Een nieuwe omgeving inrichten](resource-provision-new-environment.md) om de implementatie te voltooien.</span><span class="sxs-lookup"><span data-stu-id="cfa77-147">Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment.</span></span> <span data-ttu-id="cfa77-148">Gebruik het implementatietype [demo-omgeving](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) voor preview.</span><span class="sxs-lookup"><span data-stu-id="cfa77-148">Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview.</span></span> 
+<span data-ttu-id="d267f-135">Volg de richtlijnen in het onderwerp [Een nieuwe omgeving inrichten](resource-provision-new-environment.md) om de implementatie te voltooien.</span><span class="sxs-lookup"><span data-stu-id="d267f-135">Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment.</span></span> <span data-ttu-id="d267f-136">Gebruik het implementatietype [demo-omgeving](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) voor preview.</span><span class="sxs-lookup"><span data-stu-id="d267f-136">Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview.</span></span> 
 
-## <a name="install-cds-setup-and-configuration-data"></a><span data-ttu-id="cfa77-149">Gegevens voor CDS-installatie en configuratie installeren</span><span class="sxs-lookup"><span data-stu-id="cfa77-149">Install CDS setup and configuration data</span></span>
+## <a name="install-cds-setup-and-configuration-data"></a><span data-ttu-id="d267f-137">Gegevens voor CDS-installatie en configuratie installeren</span><span class="sxs-lookup"><span data-stu-id="d267f-137">Install CDS setup and configuration data</span></span>
 
-<span data-ttu-id="cfa77-150">Installeer CDS-installatie- en configuratiegegevens zoals beschreven in het onderwerp [Configuratiegegevens instellen en toepassen in Common Data Service](resource-apply-pro-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="cfa77-150">Install CDS setup and configuration data as described in the topic, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).</span></span>
-<span data-ttu-id="cfa77-151">Voltooi deze stap pas nadat de demo-omgeving van Finance is geïmplementeerd en de demogegevens in FO gereed zijn.</span><span class="sxs-lookup"><span data-stu-id="cfa77-151">Complete this step only after Finance demo environment is deployed and demo data in FO is ready.</span></span>
+<span data-ttu-id="d267f-138">Installeer CDS-installatie- en configuratiegegevens zoals beschreven in het onderwerp [Configuratiegegevens instellen en toepassen in Common Data Service](resource-apply-pro-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="d267f-138">Install CDS setup and configuration data as described in the topic, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).</span></span>
+<span data-ttu-id="d267f-139">Voltooi deze stap pas nadat de demo-omgeving voor Finance is geïmplementeerd en de demogegevens gereed zijn.</span><span class="sxs-lookup"><span data-stu-id="d267f-139">Complete this step only after Finance demo environment is deployed and demo data is ready.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

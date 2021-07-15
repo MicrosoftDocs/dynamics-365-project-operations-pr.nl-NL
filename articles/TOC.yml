@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Omgevingen implementeren
           items:
+            - name: Handmatig de Project Operations Dataverse-app met ondersteuning voor dubbel schrijven implementeren
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Een nieuwe omgeving inrichten
               href: environment/resource-provision-new-environment.md
             - name: Beveiligingsmodel
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nieuwe functies
       items:
+        - name: Juli 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Juni 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Mei 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: April 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -282,7 +288,7 @@
           items:
             - name: Projectsjablonen ontwikkelen met Project kopiëren
               href: project-management/dev-copy-project.md
-            - name: Plannings-API's gebruiken (openbare preview)
+            - name: Plannings-API's voor Project gebruiken (openbare preview)
               href: project-management/schedule-api-preview.md
     - name: Resourcebeheer
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Overzicht van factureringsproces
           href: invoicing/post-project-invoices.md
-        - name: Projectfactuurvoorstellen beheren
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Pro-formafacturering
           items:
             - name: Projectgebaseerde achterstallige facturen beheren
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Automatisering van projectgebaseerde facturen configureren
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Projectfactuurvoorstellen beheren
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Klantfacturering
+          items:
+            - name: Projectfactuurvoorstellen beheren
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Boekhouding corrigeren voor projectfactuurvoorstellen in conceptvorm
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Intercompany-facturering
+          items:
+            - name: Overzicht van intercompany-facturering
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Intercompany-facturering configureren
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Intercompany-transacties maken
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Intercompany-klant- en leveranciersfacturen maken
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Projectboekhouding
       items:
         - name: Standaardwaarden voor financiële dimensies
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Integratiejournaal in Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Intercompany-facturering
-          items:
-            - name: Overzicht van intercompany-facturering
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Intercompany-facturering configureren
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Intercompany-transacties maken
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Intercompany-klant- en leveranciersfacturen maken
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Omzetverantwoording
       items:
         - name: Overzicht van omzetverantwoording
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Nieuwe functies
       items:
+        - name: Nieuw in juli 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Nieuw in juni 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Nieuw in mei 2021 - lite-implementatie
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Nieuw in april 2021 - lite-implementatie
@@ -762,7 +774,7 @@
           items:
             - name: Projectsjablonen ontwikkelen met Project kopiëren
               href: project-management/dev-copy-project.md
-            - name: Plannings-API's gebruiken (openbare preview)
+            - name: Plannings-API's voor Project gebruiken (openbare preview)
               href: project-management/schedule-api-preview.md
     - name: Resourcebeheer
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Nieuwe functies
       items:
+        - name: Nieuwe functies van juli 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Nieuwe functies van mei 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Nieuwe functies van april 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Nieuwe functies van maart 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
@@ -1034,6 +1050,10 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 31, V3'
