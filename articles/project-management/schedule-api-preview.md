@@ -1,19 +1,19 @@
 ---
-title: Plannings-API's gebruiken om bewerkingen uit te voeren met planningsentiteiten
-description: Dit onderwerp biedt informatie over en voorbeelden voor het gebruik van plannings-API's.
+title: API's voor projectplanning gebruiken om bewerkingen uit te voeren met planningsentiteiten
+description: Dit onderwerp biedt informatie en voorbeelden voor het gebruik van API's voor projectplanning.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116791"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293221"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Plannings-API's gebruiken om bewerkingen uit te voeren met planningsentiteiten
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>API's voor projectplanning gebruiken om bewerkingen uit te voeren met planningsentiteiten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
@@ -22,9 +22,9 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 ## <a name="scheduling-entities"></a>Planningsentiteiten
 
-Plannings-API's bieden de mogelijkheid om bewerkingen voor maken, bijwerken en verwijderen uit te voeren met **planningsentiteiten**​. Deze entiteiten worden beheerd via de planningsengine in Project voor het web. Bewerkingen voor maken, bijwerken en verwijderen met **planningsentiteiten** waren beperkt in eerdere Dynamics 365 Project Operations-releases.
+API's voor projectplanning bieden de mogelijkheid om bewerkingen voor het maken, bijwerken en verwijderen uit te voeren met **Planningsentiteiten**. Deze entiteiten worden beheerd via de planningsengine in Project voor het web. Bewerkingen voor maken, bijwerken en verwijderen met **planningsentiteiten** waren beperkt in eerdere Dynamics 365 Project Operations-releases.
 
-De volgende tabel bevat een volledige lijst met de **planningsentiteiten**​.
+De volgende tabel bevat een volledige lijst met de entiteiten voor projectplanning.
 
 | Naam van entiteit  | Logische naam van entiteit |
 | --- | --- |
@@ -39,19 +39,19 @@ De volgende tabel bevat een volledige lijst met de **planningsentiteiten**​.
 
 OperationSet is een werkeenheidspatroon dat kan worden gebruikt wanneer meerdere verzoeken die betrekking hebben op de planning binnen een transactie moeten worden verwerkt.
 
-## <a name="schedule-apis"></a>Plannings-API's
+## <a name="project-schedule-apis"></a>API´s voor projectplanning
 
-Hier volgt een lijst met huidige plannings-API's.
+Hierna volgt een lijst met huidige API's voor projectplanning.
 
 - **msdyn_CreateprojectV1**: deze API kan worden gebruikt om een project te maken. Het project en de standaardprojectbucket worden onmiddellijk gemaakt.
 - **msdyn_CreateTeamMemberV1**: deze API kan worden gebruikt om een projectteamlid te maken. De teamlidrecord wordt onmiddellijk gemaakt.
 - **msdyn_CreateOperationSetV1**: deze API kan worden gebruikt om verschillende verzoeken te plannen die binnen een transactie moeten worden uitgevoerd.
-- **msdyn_PSSCreateV1**: deze API kan worden gebruikt om een entiteit te maken. De entiteit kan elk van de planningsentiteiten zijn die de maakbewerking ondersteunen.
-- **msdyn_PSSUpdateV1**: deze API kan worden gebruikt om een entiteit bij te werken. De entiteit kan elk van de planningsentiteiten zijn die de bijwerkbewerking ondersteunen.
-- **msdyn_PSSDeleteV1**: deze API kan worden gebruikt om een entiteit te verwijderen. De entiteit kan elk van de planningsentiteiten zijn die de verwijderbewerking ondersteunen.
+- **msdyn_PSSCreateV1**: deze API kan worden gebruikt om een entiteit te maken. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor maken ondersteunen.
+- **msdyn_PSSUpdateV1**: deze API kan worden gebruikt om een entiteit bij te werken. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor bijwerken ondersteunen.
+- **msdyn_PSSDeleteV1**: deze API kan worden gebruikt om een entiteit te verwijderen. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor verwijderen ondersteunen.
 - **msdyn_ExecuteOperationSetV1**: deze API wordt gebruikt om alle bewerkingen binnen de opgegeven bewerkingsset uit te voeren.
 
-## <a name="using-schedule-apis-with-operationset"></a>Plannings-API's gebruiken met OperationSet
+## <a name="using-project-schedule-apis-with-operationset"></a>API's voor projectplanning gebruiken met OperationSet
 
 Omdat records zowel met **CreateprojectV1** als met **CreateTeamMemberV1** direct worden gemaakt, kunnen deze API's niet rechtstreeks in de **OperationSet** worden gebruikt. U kunt de API echter gebruiken om benodigde records te maken, een **OperationSet** te maken en vervolgens deze vooraf gemaakte records in de **OperationSet** te gebruiken.
 
@@ -257,7 +257,7 @@ In de volgende tabellen worden de velden gedefinieerd die geen toegang hebben to
 ## <a name="limitations-and-known-issues"></a>Beperkingen en bekende problemen
 Hieronder volgt een lijst met beperkingen en bekende problemen:
 
-- Plannings-API's kunnen alleen worden gebruikt door **gebruikers met een Microsoft Project-licentie**. Ze kunnen niet worden gebruikt door:
+- API's voor projectplanning kunnen alleen worden gebruikt door **Gebruikers met Microsoft Project-licentie**. Ze kunnen niet worden gebruikt door:
     - Gebruikers van de toepassing
     - Systeemgebruikers
     - Integration-gebruikers
@@ -271,7 +271,7 @@ Hieronder volgt een lijst met beperkingen en bekende problemen:
 ## <a name="error-handling"></a>Foutafhandeling
 
    - Ga naar **Instellingen** \> **Integratie plannen** \> **Bewerkingssets** om fouten te bekijken die zijn gegenereerd door de bewerkingssets.
-   - Ga naar **Instellingen** \> **Integratie plannen** \> **PSS-foutlogboeken** om fouten te bekijken die zijn gegenereerd door de service voor projectplanning.
+   - Als u fouten wilt bekijken die zijn gegenereerd via de projectplanningsservice, gaat u naar **Instellingen** \> **Planningsintegratie** \> **PSS-foutenlogboeken**.
 
 ## <a name="sample-scenario"></a>Voorbeeldscenario
 

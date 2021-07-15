@@ -2,7 +2,7 @@
 title: Microsoft Project Client-integratie
 description: Het plannen en bijhouden van een projectplanning kan complex zijn, dus projectmanagers moeten tools gebruiken die hen helpen bij het beheren van deze taak. Integratie met Microsoft Project Client biedt ondersteuning voor het openen en beheren van een projectstructuur voor werkspecificatie.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999440"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269829"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client-integratie
 
@@ -126,5 +126,12 @@ Volg deze stappen om een nieuwe structuur voor werkspecificatie te maken met Mic
 
 11. Klik op **OK**.
 
+> [!NOTE]
+> De Project Client-invoegtoepassing ondersteunt de volgende tekens in de project-ID-indeling niet:
+> 
+>   - Onderstrepingsteken
+>   - Punt
+>   - Spatie
+>   - Slash
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

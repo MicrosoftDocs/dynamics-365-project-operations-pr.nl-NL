@@ -2,7 +2,7 @@
 title: Opnieuw ontworpen onkostennota's
 description: In dit onderwerp wordt de opnieuw ontworpen en opnieuw vormgegeven ervaring voor het invoeren van onkostendeclaraties uitgelegd.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995345"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6250998"
 ---
 # <a name="expense-reports-reimagined"></a>Opnieuw ontworpen onkostennota's
 
@@ -26,13 +26,13 @@ Het invoeren van onkostennota's is opnieuw ontworpen om het proces te vereenvoud
 
 - Een nieuwe werkruimte voor onkostenbeheer waarmee u toegang hebt tot de onkosten van uw gemachtigde.
 - Een nieuwe functie voor het afstemmen van betalingsbewijzen om betalingsbewijzen beter weer te geven op koptekstniveau en het proces voor het koppelen van betalingsbewijzen aan onkostenregels te vereenvoudigen.
-- Een nieuw alleen-lezen raster waarmee u veel meer onkostenregels en extra kolommen met gegevens kunt bekijken. U kunt nu alle gespecificeerde en gesplitste regels zien, samen met hun bovenliggende onkosten.
+- Een nieuw alleen-lezen raster waarmee u veel meer onkostenregels en andere kolommen met gegevens kunt bekijken. U kunt nu alle gespecificeerde en gesplitste regels zien, samen met hun bovenliggende onkosten.
 - Een vereenvoudigd deelvenster voor het bewerken van onkosten.
 - Opnieuw ontworpen fout-, waarschuwings- en beleidsberichten om de juiste context en begrip van het probleem te bieden en aan te geven hoe het probleem kan worden opgelost. We hebben verschillende berichten verwijderd die verschenen voordat gebruikers hun taken konden voltooien en de problemen konden verhelpen.
 - Een nieuwe pagina om verplichte velden, optionele velden en niet-toegestane velden op te geven. Met deze pagina kan het aantal velden worden beperkt dat moet worden ingesteld.
 - Een nieuwe vormgeving voor onkostennota's, zodat deze er niet langer uitzien alsof ze zijn ontworpen voor boekhoudkundige persona's.
 
-Om de nieuwe ervaring in te schakelen, gebruikt u de werkruimte **Functiebeheer** om de functie **Opnieuw ontworpen onkostennota's** in te schakelen. Wanneer u deze functie inschakelt, vinden de volgende acties plaats:
+Als u de nieuwe ervaring wilt inschakelen, gebruikt u de werkruimte **Functiebeheer** om de functie **Nieuw ontworpen werkruimte voor onkostennota's** in te schakelen. Wanneer u deze functie inschakelt, vinden de volgende acties plaats:
 
 - De bestaande werkruimte voor onkosten wordt vervangen door de nieuwe werkruimte.
 - Er wordt een nieuw menu-item voor de zichtbaarheid van onkostenvelden toegevoegd.
@@ -45,7 +45,7 @@ Om de nieuwe ervaring in te schakelen, gebruikt u de werkruimte **Functiebeheer*
 
 | Nieuwe functie | Beschrijving |
 |---|----|
-| Zichtbaarheid van onkostenveld | Op een nieuwe instellingenpagina kunt u aangeven welke velden moeten worden uitgeschakeld voor een organisatie, welke velden verplicht moeten zijn en welke velden worden aanbevolen. |
+| Zichtbaarheid van onkostenveld | Op een nieuwe instellingenpagina kunt u opgeven welke velden voor een organisatie moeten worden uitgeschakeld. U kunt ook opgeven welke velden verplicht moeten zijn en welke velden worden aanbevolen. |
 | Vereiste velden | Dankzij de nieuwe eenvoudige configuratie kunt u enkele velden verplicht maken zonder het beleidsframework te hoeven gebruiken. |
 | Optionele velden | Er is een tweede pagina voor optionele velden toegevoegd. Op deze manier hebben medewerkers niet het gevoel dat ze de velden moeten instellen, maar zijn de velden nog steeds goed toegankelijk. |
 | Niet-bijgevoegde betalingsbewijzen toevoegen | De mogelijkheid om niet-bijgevoegde betalingsbewijzen toe te voegen aan de onkostennota is beter zichtbaar vanuit de werkruimte en in de onkostennota. |
@@ -57,13 +57,14 @@ Om de nieuwe ervaring in te schakelen, gebruikt u de werkruimte **Functiebeheer*
 | Wisselkoerscalculator | Er is een wisselkoerscalculator toegevoegd waarmee u de wisselkoers kunt berekenen voor contante transacties in meerdere valuta's. |
 | Onkostenregels opslaan en toevoegen | De knoppen **Opslaan** en **Nieuw** zijn beschikbaar wanneer er nieuwe onkosten worden ingevoerd, zodat u snel onkostenregels kunt invoeren. |
 | Beter inzicht in opgesplitste en gespecificeerde regels | Gespecificeerde en gesplitste regels worden rechtstreeks aan de lijst met onkosten toegevoegd om de zichtbaarheid te vergroten en u te helpen gemakkelijk te bepalen of er fouten zijn. |
+| Subcategoriedetails in gespecificeerde regels weergeven | Op gespecificeerde regels van bovenliggende onkosten worden de subcategorielabels in de onkostennota weergegeven, zodat u de gedetailleerde details in één oogopslag kunt bekijken.|
 | Betalingsbewijzen weergeven tijdens specificatie | Betalingsbewijzen kunnen worden weergeven tijdens specificatie. |
 | Selectie contant voorschot | Selecteer een of meer contante voorschotten voor het uitvoeren van één onkostentransactie. |
 | Saldo contant voorschot | Bekijk het saldo van het contante voorschot in realtime wanneer u een onkostenpost maakt tegen goedgekeurde en betaalde contante voorschotten. |
 
 De eerste release is gericht op scenario's voor het invoeren van onkosten. Elk beoordelings- of goedkeuringsscenario voor onkostennota's blijft de bestaande pagina voor de invoer van onkostennota's gebruiken.
 
-De volgende functies worden niet ondersteund in de werkruimte voor opnieuw ontworpen onkostennota's:
+De volgende functies worden niet ondersteund in de opnieuw ontworpen werkruimte voor onkostennota´s, maar zijn gepland voor toekomstige releases: 
 
 - Integratie van reiskosten
 - Per diem onkostenpost

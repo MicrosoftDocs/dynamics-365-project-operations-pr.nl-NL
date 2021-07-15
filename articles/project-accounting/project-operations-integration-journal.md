@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007135"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304250"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integratiejournaal in Project Operations
 
@@ -26,7 +26,7 @@ Met tijd- en onkostenboekingen maakt u **werkelijke** transacties die de operati
 Records in het Project Operations-integratiejournaal worden gemaakt met behulp van het periodieke proces **Importeren uit opslagtabel**. U kunt dit proces uitvoeren via **Dynamics 365 Finance** > **Projectbeheer en financiële administratie** > **Periodiek** > **Integratie van projectoperaties** > **Importeren uit opslagtabel**. U kunt het proces interactief uitvoeren of het proces zo configureren dat het op de achtergrond wordt uitgevoerd.
 
 Wanneer het periodieke proces wordt uitgevoerd, worden alle werkelijke waarden gevonden die nog niet zijn toegevoegd aan het Project Operations-integratiejournaal. Er wordt een journaalregel aangemaakt voor elke daadwerkelijke transactie.
-Het systeem groepeert dagboekregels in afzonderlijke dagboeken op basis van de waarde die is geselecteerd in het veld **Periode-eenheid in het Project Operations-integratiejournaal** (**Finance** > **Projectbeheer en financiële administratie** > **Instellen** > **Projectbeheer en boekhoudparameters**, **Project Operations op het tabblad Dynamics 365 Customer Engagement**). Mogelijke waarden voor dit veld zijn:
+Journaalregels worden in afzonderlijke journalen gegroepeerd op basis van de waarde die is geselecteerd in het veld **Periode-eenheid in journaal van Project Operations-integratie** (tabblad **Finance** > **Projectbeheer en financiële administratie** > **Instellen** > **Parameters voor projectbeheer en financiële administratie**, **Project Operations in Dynamics 365 Customer Engagement**). Mogelijke waarden voor dit veld zijn:
 
   - **Dagen**: werkelijke waarden zijn gegroepeerd op transactiedatum. Voor elke dag wordt een apart dagboek aangemaakt.
   - **Maanden**: werkelijke waarden zijn gegroepeerd per kalendermaand. Voor elke maand wordt een apart dagboek aangemaakt.
