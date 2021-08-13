@@ -1,8 +1,8 @@
 ---
 title: Intercompany-onkosten
 description: Dit onderwerp biedt informatie over het gebruik van intercompany-onkosten om de onkosten van een werkrol toe te wijzen aan de rechtspersoon waarvoor het werk is uitgevoerd.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005065"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001200"
 ---
 # <a name="intercompany-expenses"></a>Intercompany-onkosten
 
@@ -34,5 +34,17 @@ Voordat een werkrol intercompany-onkosten kan maken en indienen, moet u intercom
 Voordat u in uw onkostendeclaratie belastinggroepen kunt gebruiken die aan de uitlenende rechtspersoon (bron) zijn gekoppeld in plaats van aan de lenende rechtspersoon (bestemming), moet u de functionaliteit inschakelen in de btw-instellingen van het grootboek. Wanneer de parameter **Rechtspersoon voor intercompany-belastingboeking** is ingesteld op **Bron** en **Regels voor btw-heffing toepassen** is ingesteld op **Nee** wordt de belastingcombinatie voor de uitlenende rechtspersoon gebruikt. Als dezelfde parameter is ingesteld op **Doel**, wordt de belastingcombinatie voor lenende rechtspersoon gebruikt. Voor rechtspersonen in de Verenigde Staten moet wanneer de parameter is ingesteld op **Bron**, het veld **Te ontvangen verkoopbelasting** ook worden geconfigureerd op de nieuwe pagina **Boekingsgroepen grootboek**. Het boekhoudsysteem gebruikt de informatie uit dit veld voor het invoeren van belastinggerelateerde financiële administratie.   
 Het gedrag is consistent voor onkostenregels die met of zonder een project zijn geboekt.  
 
+## <a name="new-expense-expression-builder"></a>Nieuwe opbouwfunctie voor onkostenexpressies
+
+De nieuwe opbouwfunctie voor onkostenexpressie lost problemen op met intercompany-onkostenscenario's die gebruikmaken van projecten. Deze functie zorgt ervoor dat, wanneer u een intercompany-onkosten maakt, het onkostenbeleid correct wordt gevalideerd ten opzichte van het project dat op de onkostenregel is geselecteerd, en dat de onkostennota met succes kan worden ingediend.
+
+Om de functie voor het maken van onkostenexpressies te laten werken, moet deze zijn ingeschakeld. Bovendien moet het onkostenbeleid met een project-id worden ingesteld.
+
+Als u al beleidsregels hebt geconfigureerd waarmee de project-id op de onkostenregel wordt gevalideerd, moet u deze beleidsregels intrekken. U kunt de functie vervolgens inschakelen en het beleid opnieuw configureren.
+
+Volg deze stappen om de functie in te schakelen.
+
+1. Ga naar **Werkruimten** \> **Functiebeheer**.
+2. Selecteer in de lijst **De nieuwe opbouwfunctie voor onkostenexpressie lost problemen op met intercompany-onkostenscenario's die gebruikmaken van projecten**. Selecteer vervolgens **Nu inschakelen**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

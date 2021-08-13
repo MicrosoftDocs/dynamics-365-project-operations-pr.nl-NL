@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996250"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Een boekbare resource gebruiken als een prijsdimensie
 
@@ -64,18 +64,18 @@ De prijsdimensierecord voor **msydn_bookableresource** moet op de hoogte worden 
 1. Dubbelklik op de rij in het raster **Prijsdimensies** om de dimensiepagina van **msdyn_bookableresource** te openen.
 2. Selecteer op de dimensiepagina op het tabblad **Gerelateerd** de optie **Veldnamen voor prijsdimensies**.
 
-  ![Het tabblad Veldnamen voor prijsdimensies](media/PD-fieldname.png)
+  ![Het tabblad Veldnamen voor prijsdimensies.](media/PD-fieldname.png)
 
 3. Selecteer in de gekoppelde weergave die wordt geopend **Veldnaam voor nieuwe prijsdimensie toevoegen**.
 
-  ![Veldnamen voor nieuwe prijsdimensies toevoegen](media/Add-NewPD-fieldname.png)
+  ![Veldnamen voor nieuwe prijsdimensies toevoegen.](media/Add-NewPD-fieldname.png)
 
   Hiermee opent u de pagina **Veldnaam voor nieuwe prijsdimensie** voor **msdyn_bookableresource**. 
 
 4. Op de pagina **Nieuwe veldnaam voor prijsdimensie** voegt u **msdyn_projectteam** toe aan **Logische naam van entiteit**.
 5. Voeg **msdyn_bookableresourceid** toe aan **Veldnaam**.
 
- ![Het formulier Veldnaam voor nieuwe prijsdimensie](media/PD-fieldname-Added.png)
+ ![Het formulier Veldnaam voor nieuwe prijsdimensie.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

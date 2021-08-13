@@ -6,12 +6,12 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3b403d9432720a4fe2f9b818600a00e250ea918
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000115"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994585"
 ---
 # <a name="navigate-project-operations"></a>Navigeren in Project Operations
 
@@ -28,11 +28,11 @@ Nadat u Project Operations hebt ingericht zoals beschreven in dit onderwerp, heb
 
 Gebruik de omgevingsnaam in de sectie **Common Data Service-omgevingsnaam** om naar Project Operations in een CDS-omgeving te navigeren. 
 
-  ![Common Data Service-omgevingsnaam](./media/environment-name.PNG)
+  ![Common Data Service-omgevingsnaam.](./media/environment-name.PNG)
 
 Selecteer **Aanmelden** > **Aanmelden bij omgeving** om naar de module **Projectbeheer en boekhouding** in Finance te gaan.  
 
-   ![Aanmelden bij Finance](./media/environment-login.PNG)
+   ![Aanmelden bij Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > U kunt Project Operations in Common Data Service en de module **Projectbeheer en boekhouding** rechtstreeks openen door hun respectieve URL's te gebruiken. 

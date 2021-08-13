@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998000"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996835"
 ---
 # <a name="fulfilling-resource-requests"></a>Resourceaanvragen vervullen
 
@@ -33,15 +33,15 @@ Resourcevereisten kunnen als resourceaanvragen worden verzonden naar de resource
 
 Resourceaanvragen worden weergegeven als een lijst in de weergave **Actieve resourceaanvragen**.
 
-> ![Lijst met resourceaanvragen](media/Resource-Management-image59.png)
+> ![Lijst met resourceaanvragen.](media/Resource-Management-image59.png)
 
 Om een aanvraag te vervullen, selecteert u deze in de lijst en vervolgens **Resources zoeken**. U kunt ook dubbelklikken op een rij om de aanvraag te openen. Selecteer vervolgens het tabblad **Resourcevereisten** om de vereisten voor die aanvraag weer te geven. Om te beginnen met het vervullen van de aanvraag selecteert u **Resources zoeken**.
 
-> ![Details van resourceaanvraag](media/Resource-Management-image60.png)
+> ![Details van resourceaanvraag.](media/Resource-Management-image60.png)
 
 De Planningsassistent wordt weergegeven en wordt gefilterd op de vereisten. Selecteer de resource en selecteer **Boeken**.
 
-> ![Resource geselecteerd](media/Resource-Management-image61.png)
+> ![Resource geselecteerd.](media/Resource-Management-image61.png)
 
 Het algemene teamlid wordt vervangen door de hardgeboekte, benoemde resource op het projectteam en de taaktoewijzingen in de projectplanning.
 

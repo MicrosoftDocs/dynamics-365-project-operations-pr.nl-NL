@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998315"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996925"
 ---
 # <a name="project-settings"></a>Projectinstellingen
 
@@ -45,9 +45,9 @@ Als u een projectplanning wilt maken, maakt u een sjabloon voor een projectagend
 
   - Nieuwe weekplanning
   - Werkplanning voor één dag
-  - Vrije tijd
+  - Verlof
 
-> ![Instellingsopties](media/project-13.png)
+> ![Instellingsopties.](media/project-13.png)
 
 4. Selecteer **Nieuwe weekplanning** en stel vervolgens de opties voor deze resourceplanning in. U kunt een terugkerende weekplanning, parameters voor dagelijkse uren, sluitingsdagen van het bedrijf en meer instellen.
 5. Stel het datumbereik in, selecteer **Opslaan** en klik vervolgens op **Sluiten**. 

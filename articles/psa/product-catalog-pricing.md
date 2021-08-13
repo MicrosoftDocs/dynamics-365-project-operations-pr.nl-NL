@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009205"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000165"
 ---
 # <a name="product-catalog-pricing"></a>Productcatalogusprijzen bepalen 
 
@@ -44,7 +44,7 @@ U kunt producten uit een productcatalogus toevoegen aan verschillende prijslijst
 
 Er worden verschillende afrondingsopties ondersteund wanneer prijzen worden geconfigureerd als een functie van de catalogusprijs, standaardkosten of huidige kosten. U kunt niet alleen gebruikmaken van meerdere prijsbepalingsmethoden en afrondingsopties, maar u kunt ook kortingslijsten koppelen aan prijslijstitems. 
 
-> ![Producten uit een catalogus aan verschillende prijslijsten toevoegen](media/basic-guide-16.png)
+> ![Producten uit een catalogus aan verschillende prijslijsten toevoegen.](media/basic-guide-16.png)
 
 Wanneer u een nieuwe aangepaste prijslijst voor een prijsopgave maakt door **Aangepaste prijzen maken** te selecteren op de pagina **Prijsopgave voor projecten**, wordt er in PSA een kopie gemaakt van de prijslijst en wordt het veld **Entiteit** in de header van de nieuwe prijslijst ingesteld op **Verkoopentiteit**. Aan de naam van de nieuwe prijslijst worden de naam van de prijsopgave en een timestamp toegevoegd. U kunt ook de naam van de nieuwe prijslijst en de naam van de prijsopgave in aangepaste werkstromen gebruiken om extra controles en goedkeuringen te activeren voor prijsopgaven waarin aangepaste prijzen worden gebruikt.
 

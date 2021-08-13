@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b067f900fa49bba04536b49600dbe80a2167f707
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997820"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998500"
 ---
 # <a name="manage-resources"></a>Resources beheren
 
@@ -58,34 +58,34 @@ Volg deze stappen om vereiste vaardigheden op te geven van een algemene resource
 
 1. Ga op de pagina **Projecten** naar het tabblad **Team** en selecteer **Nieuw** om een algemene resource te boeken.
 
-    ![Algemene resource die is geboekt voor het team](media/Resource-Management-image9.png)
+    ![Algemene resource die is geboekt voor het team.](media/Resource-Management-image9.png)
 
 2. Ga in de weergave **Alle teamleden** naar de kolom **Resourcevereiste** en selecteer de koppeling om vereiste vaardigheden voor de algemene resource toe te voegen.
 
-    ![Koppeling voor vereisten](media/Resource-Management-image10.png)
+    ![Koppeling voor vereisten.](media/Resource-Management-image10.png)
 
 3. Ga op de pagina **Resourcevereiste** die verschijnt, naar het raster **Vaardigheden**, selecteer het beletselteken (**...**) en selecteer vervolgens de optie **Nieuw vereistekenmerk toevoegen** om de vereiste vaardigheden voor uw ontwikkelaar toe te voegen.
 
-    ![Opdracht Nieuw vereistekenmerk toevoegen](media/Resource-Management-image11.png)
+    ![Opdracht Nieuw vereistekenmerk toevoegen.](media/Resource-Management-image11.png)
 
 4. Ga in het dialoogvenster **Snelle invoer: Vereistekenmerk** dat wordt weergegeven, naar het veld **Kenmerk** en selecteer de vereiste vaardigheid. Selecteer vervolgens in het veld **Beoordelingswaarde** het vaardigheidsniveau voor die vaardigheid. Stel tot slot in het veld **Resourcevereiste** de vereiste in op bronresources van organisatie-eenheden of zelfs benoemde resources. Als u klaar bent, selecteert u **Opslaan**.
 
-    ![Dialoogvenster Snelle invoer: Vereistekenmerk](media/Resource-Management-image12.png)
+    ![Dialoogvenster Snelle invoer: Vereistekenmerk.](media/Resource-Management-image12.png)
 
 5. Selecteer op de pagina **Resourcevereiste** de optie **Boeken** om aan de resourcevereiste te voldoen.
 
-    ![Knop Boeken op de pagina Resourcevereiste](media/Resource-Management-image13.png)
+    ![Knop Boeken op de pagina Resourcevereiste.](media/Resource-Management-image13.png)
 
     U ook de algemene resource selecteren in het raster **Alle teamleden** en vervolgens **Boeken** selecteren.
 
-    ![Knop Boeken boven het raster Alle teamleden](media/Resource-Management-image14.png)
+    ![Knop Boeken boven het raster Alle teamleden.](media/Resource-Management-image14.png)
 
     > [!NOTE]
     > In dit voorbeeld zijn er 40 vereiste uren, maar geen werkelijke geboekte uren, omdat algemene resources geen boekingen hebben. Bovendien zijn er geen toegewezen uren, omdat de algemene resource rechtstreeks aan het team is toegevoegd. Deze is niet toegevoegd met behulp van een taaktoewijzing.
 
     Op de pagina **Planningsassistent** kunt u beschikbare resources filteren op de vereisten die zijn opgegeven voor de resourcevereiste. Resources worden gesorteerd op basis van de sorteerparameters die zijn opgegeven op het planbord.
 
-    ![Pagina Planningsassistent](media/Resource-Management-image15.png)
+    ![Pagina Planningsassistent.](media/Resource-Management-image15.png)
 
     Hier zijn enkele filters die vaak worden gebruikt:
 
@@ -95,23 +95,23 @@ Volg deze stappen om vereiste vaardigheden op te geven van een algemene resource
 
 6. Als u niet tevreden bent over de resultaten van de eerste zoekopdracht naar vereisten, kunt u de filtercriteria wijzigen. Vouw het deelvenster **Filterweergave** aan de linkerkant uit en selecteer vervolgens **Zoeken** om extra resources te zoeken.
 
-    ![Deelvenster Filterweergave](media/Resource-Management-image16.png)
+    ![Deelvenster Filterweergave.](media/Resource-Management-image16.png)
 
 7. Selecteer **Sorteren** om de manier waarop de resultaten worden gesorteerd, te wijzigen.
 
-    ![Opdracht Sorteren](media/Resource-Management-image17.png)
+    ![Opdracht Sorteren.](media/Resource-Management-image17.png)
 
 8. Selecteer resources op basis van de vraag die is opgegeven voor de vereiste, zoals aangegeven boven aan het raster. U kunt de selectie van cellen in het raster ongedaan maken en de resourcecapaciteit open laten. Er kan slechts één resource tegelijk als geboekt worden geselecteerd.
 
 9. Selecteer **Boeken** om de geselecteerde resource te boeken en laat het planbord open, zodat u extra resources kunt selecteren. U kunt ook **Boeken en afsluiten** selecteren om de geselecteerde resource te boeken en het planbord te sluiten.
 
-    ![Te boeken resource](media/Resource-Management-image19.png)
+    ![Te boeken resource.](media/Resource-Management-image19.png)
 
     U ontvangt een melding over geboekte uren. De vraagindicatoren laten zien in hoeverre aan de boekingsvereiste is voldaan en hoeveel er overblijft. U kunt ook zien hoeveel van de capaciteit van de geselecteerde resource is verbruikt. Selecteer **Uitvouwen** om meer details over resourceboekingen weer te geven.
 
 9. Ga terug naar de weergave **Alle teamleden**. In het raster ziet u dat de algemene resource is vervangen door de benoemde resource en dat er 40 uur wordt weergegeven als geboekt voor die resource.
 
-    ![Bijgewerkt raster Alle teamleden](media/Resource-Management-image20.png)
+    ![Bijgewerkt raster Alle teamleden.](media/Resource-Management-image20.png)
 
     > [!NOTE]
     > Er worden geen toegewezen uren weergegeven omdat deze rechtstreeks in het team zijn geboekt. Ze zijn niet geboekt met een taaktoewijzing.
@@ -122,72 +122,72 @@ In PSA kunt u taken maken en daar vervolgens algemene resources aan toewijzen. O
 
 1. Ga naar de pagina **Projecten** en selecteer op het tabblad **Planning** de optie **Toevoegen** om een taak te maken.
 
-    ![Nieuwe taak gemaakt](media/Resource-Management-image21.png)
+    ![Nieuwe taak gemaakt.](media/Resource-Management-image21.png)
 
 2. Selecteer het veld **Resources** het symbool van de **resourcekiezer**. De resourcekiezer verschijnt en hierin worden de bestaande teamleden voor het project weergegeven.
 
-    ![Resourcekiezer](media/Resource-Management-image22.png)
+    ![Resourcekiezer.](media/Resource-Management-image22.png)
 
 3. Voer de naam van de nieuwe algemene resource in en selecteer vervolgens **Maken**.
 
-    ![Naam van een nieuwe algemene resource die is ingevoerd](media/Resource-Management-image23.png)
+    ![Naam van een nieuwe algemene resource die is ingevoerd.](media/Resource-Management-image23.png)
 
 4. Ga in het dialoogvenster **Snelle invoer: Projectteamlid** dat wordt weergegeven, naar het veld **Rol** en selecteer de rol voor de algemene resource. Selecteer in het veld **Resource-eenheid** de organisatie-eenheid voor de algemene resource. Selecteer vervolgens **Opslaan**.
 
-    ![Het dialoogvenster Snelle invoer: Projectteamlid](media/Resource-Management-image24.png)
+    ![Het dialoogvenster Snelle invoer: Projectteamlid.](media/Resource-Management-image24.png)
 
     Het algemene teamlid wordt nu toegewezen aan de taak.
 
-    ![Algemeen teamlid toegewezen aan de taak](media/Resource-Management-image25.png)
+    ![Algemeen teamlid toegewezen aan de taak.](media/Resource-Management-image25.png)
 
     Op het tabblad **Team** ziet u het nieuwe algemene teamlid. U ziet dat er alleen uren aan het teamlid zijn toegewezen. Deze uren zijn de som van alle taken die aan het algemene teamlid zijn toegewezen. Het algemene teamlid heeft nog geen vereiste uren of een resourcevereiste.
 
-    ![Algemeen teamlid op het tabblad Team](media/Resource-Management-image26.png)
+    ![Algemeen teamlid op het tabblad Team.](media/Resource-Management-image26.png)
 
 5. U kunt het algemene teamlid nu toewijzen aan andere taken met behulp van de resourcekiezer.
 
-    ![Algemeen teamlid in de resourcekiezer](media/Resource-Management-image27.png)
+    ![Algemeen teamlid in de resourcekiezer.](media/Resource-Management-image27.png)
 
     Wanneer u klaar bent met het toewijzen van de algemene resource aan taken, kunt u een resourcevereiste voor de algemene resource genereren.
 
 5. Selecteer de algemene resource op het tabblad **Team** en selecteer vervolgens de optie **Vereiste genereren**.
 
-    ![Opdracht Vereiste genereren](media/Resource-Management-image28.png)
+    ![Opdracht Vereiste genereren.](media/Resource-Management-image28.png)
 
     Wanneer de vereiste is gegenereerd, heeft het algemene teamlid vereiste uren en een koppeling voor de resourcevereiste.
 
-    ![Koppeling voor de resourcevereiste](media/Resource-Management-image29.png)
+    ![Koppeling voor de resourcevereiste.](media/Resource-Management-image29.png)
 
     Nadat u een benoemde resource hebt geboekt, wordt de algemene resource verwijderd uit het team en vervangen door de benoemde resource.
 
-    ![Algemene resource vervangen door de benoemde resource](media/Resource-Management-image30.png)
+    ![Algemene resource vervangen door de benoemde resource.](media/Resource-Management-image30.png)
 
     Op het tabblad **Planning** worden de algemene resourcetoewijzingen verwijderd en vervangen door de benoemde resource.
 
-    ![Algemene resourcetoewijzingen vervangen door de benoemde resource op het tabblad Planning](media/Resource-Management-image31.png)
+    ![Algemene resourcetoewijzingen vervangen door de benoemde resource op het tabblad Planning.](media/Resource-Management-image31.png)
 
     > [!NOTE]
     > Dit gedrag treedt alleen op wanneer een benoemde resource volledig is geboekt voor de algemene resourcevereiste. Wanneer een benoemde resource de algemene resourcevereiste slechts gedeeltelijk vervangt of meerdere benoemde resources de algemene resourcevereiste vervangen, blijft de algemene resource toegewezen aan de taak.
 
     In de volgende afbeelding is een taak van 80 uur gepland voor de duur van vijf dagen (16 uur per dag gedurende vijf dagen) en toegewezen aan de algemene resource met de naam **Functioneel.**
 
-    ![Vijfdaagse taak van tachtig uur toegewezen aan de algemene resource Functioneel](media/Resource-Management-image32.png)
+    ![Vijfdaagse taak van tachtig uur toegewezen aan de algemene resource Functioneel.](media/Resource-Management-image32.png)
 
     Wanneer u de vereiste genereert, is dit voor 80 uur gedurende vijf dagen.
 
-    ![Vereiste gegenereerd voor 80 uur gedurende vijf dagen](media/Resource-Management-image33.png)
+    ![Vereiste gegenereerd voor 80 uur gedurende vijf dagen.](media/Resource-Management-image33.png)
 
     Omdat de beschikbare resources slechts acht uur per dag werken, zijn er twee resources nodig om aan de vereiste te voldoen.
 
-    ![Tweede resource](media/Resource-Management-image35.png)
+    ![Tweede resource.](media/Resource-Management-image35.png)
 
     Op het tabblad **Team** ziet u nu dat de algemene resource geen vereiste uren heeft, maar dat de toegewezen uren nog steeds worden weergegeven samen met de twee benoemde resources die nodig zijn om te taak uit te voeren.
 
-    ![Twee benoemde resources op het tabblad Team](media/Resource-Management-image36.png)
+    ![Twee benoemde resources op het tabblad Team.](media/Resource-Management-image36.png)
 
     Op het tabblad **Planning** blijft de algemene resource toegewezen aan de taak.
 
-    ![Algemene resources op het tabblad Planning](media/Resource-Management-image37.png)
+    ![Algemene resources op het tabblad Planning.](media/Resource-Management-image37.png)
 
 PSA wijst niet beide resources toe aan de taak, omdat dit gedrag een minder voorspelbare planning oplevert. In dit eenvoudige voorbeeld is het eenvoudig om de uren gelijk te verdelen over twee resources. In complexere scenario's waarbij meerdere taken en meerdere resources betrokken zijn, zou PSA echter aannames moeten doen over hoe het de boekingen die binnenkomen, voor meerdere resources voor meerdere taken zou moeten toewijzen.
 
@@ -219,13 +219,13 @@ Nadat u een algemene of benoemde resource aan een projectteam hebt toegevoegd, k
 
 1. Ga naar de pagina **Projecten**, selecteer op het tabblad **Team** een teamlid en selecteer vervolgens **Boekingen bijhouden**.
 
-    ![Planbord dat is geopend voor het geselecteerde teamlid](media/Resource-Management-image40.png)
+    ![Planbord dat is geopend voor het geselecteerde teamlid.](media/Resource-Management-image40.png)
 
     Het planbord verschijnt en hierop worden de boekingen van het projectteamlid weergegeven. Vouw de record van het teamlid uit om de uren weer te geven die zijn geboekt voor dit project en andere projecten die de capaciteit van het teamlid verbruiken.
 
 2. Selecteer en sleep de boeking om deze langer of korter te maken. Het dialoogvenster **Resourceboeking maken** wordt weergegeven waarin u de boeking kunt aanpassen.
 
-    ![Dialoogvenster Resourceboeking maken](media/Resource-Management-image41.png)
+    ![Dialoogvenster Resourceboeking maken.](media/Resource-Management-image41.png)
 
 3. Klik met de rechtermuisknop op de boeking. Vervolgens kunt u het snelmenu gebruiken om de volgende acties uit te voeren:
 
@@ -237,7 +237,7 @@ Nadat u een algemene of benoemde resource aan een projectteam hebt toegevoegd, k
 
 U kunt elke standaard- of aangepaste boekingsstatus wijzigen.
 
-![Opdracht Status wijzigen](media/Resource-Management-image42.png)
+![Opdracht Status wijzigen.](media/Resource-Management-image42.png)
 
 De volgende statussen zijn in PSA opgenomen:
 
@@ -257,25 +257,25 @@ Resourceaanvragen worden gebruikt door een resourcemanager om ervoor te zorgen d
 
 Wanneer een resourcevereiste wordt gegenereerd, kan een projectmanager een resourceaanvraag voor een algemene resource indienen door de resource te selecteren en vervolgens **Aanvraag verzenden** te selecteren.
 
-![Knop Aanvraag verzenden](media/Resource-Management-image45.png)
+![Knop Aanvraag verzenden.](media/Resource-Management-image45.png)
 
 Opmerkingen over de resource kunnen worden verstrekt aan de resourcemanager die de aanvraag afhandelt. Nadat de aanvraag is ingediend, wordt het veld **Status** voor het teamlid gewijzigd in **Ingediend**.
 
-![Optionele opmerkingen invoeren](media/Resource-Management-image46.png)
+![Optionele opmerkingen invoeren.](media/Resource-Management-image46.png)
 
 Wanneer de resourcemanager de aanvraag afhandelt, wordt het algemene teamlid vervangen door de benoemde resource in het raster **Alle teamleden**.
 
-![Algemeen teamlid wordt vervangen door de benoemde resource in het raster Alle teamleden](media/Resource-Management-image47.png)
+![Algemeen teamlid wordt vervangen door de benoemde resource in het raster Alle teamleden.](media/Resource-Management-image47.png)
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>Een resourcevoorstel gebruiken voor resourceaanvragen
 
 Een resourcemanager kan een resource rechtstreeks boeken, maar kan in plaats daarvan ook een resourcevoorstel doen aan de projectmanager. Een resourcemanager kan deze optie gebruiken wanneer er geen exacte overeenkomst voor de vereisten beschikbaar is. Wanneer een resourcemanager een resource voorstelt, ziet de projectmanager dat het veld **Status** voor het algemene teamlid is gewijzigd in **Moet worden geëvalueerd**.
 
-![De status van het algemene teamlid is gewijzigd in Moet worden geëvalueerd](media/Resource-Management-image48.png)
+![De status van het algemene teamlid is gewijzigd in Moet worden geëvalueerd.](media/Resource-Management-image48.png)
 
 Als u de voorgestelde resource wilt weergeven in combinatie met een visualisatie van het effect van de boeking in het voorstel, dubbelklikt u op het teamlid dat de status **Moet worden geëvalueerd** heeft. Selecteer vervolgens het tabblad **Voorgestelde resources**.
 
-![Tabblad Voorgestelde resources](media/Resource-Management-image49.png)
+![Tabblad Voorgestelde resources.](media/Resource-Management-image49.png)
 
 Selecteer **Alle voorstellen accepteren** om alle voorgestelde resources te accepteren of **Alle voorstellen weigeren** om ze af te wijzen. Als u de voorgestelde resources accepteert, worden ze hard geboekt voor het project als teamleden en vervangen ze de algemene resources.
 
@@ -289,30 +289,30 @@ Soms moet een projectmanager een geboekt teamlid vervangen in een project.
 1. Ga naar de pagina **Projecten**, selecteer op het tabblad **Team** de resource die moet worden vervangen en selecteer vervolgens **Boekingen bijhouden**.
 2. Vouw de resource uit om de projecten weer te geven waaraan deze is toegewezen.
 
-    ![Uitgevouwen resource om toegewezen projecten weer te geven](media/Resource-Management-image50.png)
+    ![Uitgevouwen resource om toegewezen projecten weer te geven.](media/Resource-Management-image50.png)
 
 3. Klik met de rechtermuisknop op het project en selecteer vervolgens **Resource vervangen**.
 4. Als u de resource kent die de huidige resource moet vervangen, selecteert of typt u de naam en selecteert u vervolgens de optie **Opnieuw toewijzen**.
 
-    ![Een vervangende resource opgeven](media/Resource-Management-image51.png)
+    ![Een vervangende resource opgeven.](media/Resource-Management-image51.png)
 
     U kunt ook de volgende stappen nemen om te zoeken naar een resource:
 
     1. Selecteer **Vervanging zoeken**.
 
-        ![Zoeken naar een vervangende resource](media/Resource-Management-image52.png)
+        ![Zoeken naar een vervangende resource.](media/Resource-Management-image52.png)
 
         De planningsassistent retourneert een lijst met beschikbare vervangende resources. In de planningsassistent kunt u de beschikbare resources verder filteren om een geschikte vervanger te vinden.
 
-        ![Lijst met beschikbare vervangende resources](media/Resource-Management-image53.png)
+        ![Lijst met beschikbare vervangende resources.](media/Resource-Management-image53.png)
 
     2. Als u de resource wilt vervangen, selecteert u de gewenste resource en selecteert u vervolgens **Vervangen**.
 
-        ![Geselecteerde vervangende resource](media/Resource-Management-image54.png)
+        ![Geselecteerde vervangende resource.](media/Resource-Management-image54.png)
 
     In de boekingen en toewijzingen wordt de bestaande resource vervangen door de nieuwe resource.
 
-    ![Boekingen en toewijzingen waarin de bestaande resource is vervangen door de nieuwe resource](media/Resource-Management-image55.png)
+    ![Boekingen en toewijzingen waarin de bestaande resource is vervangen door de nieuwe resource.](media/Resource-Management-image55.png)
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>Boekingen en toewijzingen van teamleden afstemmen
 
@@ -320,7 +320,7 @@ Voor teamleden zijn boekingen en toewijzingen op losse wijze gekoppeld. Met ande
 
 PSA heeft een tabblad **Afstemming** waarop projectmanagers boekingen van teamleden en hun toewijzingen voor projectteams kunnen afstemmen.
 
-![Tabblad Afstemming](media/Resource-Management-image56.png)
+![Tabblad Afstemming.](media/Resource-Management-image56.png)
 
 Op het tabblad **Afstemming** worden boekingen en toewijzingen weergegeven tot aan het niveau van de afzonderlijke taaktoewijzing voor elk teamlid. Er worden uren weergegeven in cellen die tijdsperioden vertegenwoordigen van maanden tot dagen.
 
@@ -335,11 +335,11 @@ In sommige gevallen, wanneer u de tijd weergeeft op een hoger niveau dan het dag
 
 Wanneer u tijd op hogere niveaus weergeeft, hebben cellen op het tabblad **Afstemming** een indicator om u erop te wijzen dat er verschillen zijn op lagere niveaus. Door in een cel te dubbelklikken, kunt u inzoomen om het verschil te bekijken. U kunt vervolgens met de rechtermuisknop klikken om uit te zoomen. Door een resource te selecteren en vervolgens op het besturingselement **Volgende verschil** op de rasterwerkbalk te klikken, gaat u naar het volgende verschil tussen boekingen en toewijzingen voor die resource. Vervolgens kunt u het besturingselement **Vorige verschil** gebruiken om terug te gaan. U kunt ook de verschil-indicatoren en het navigatiegedrag uitschakelen onder **Instellingen**.
 
-![Verschil-indicator](media/Resource-Management-image57.png)
+![Verschilindicator.](media/Resource-Management-image57.png)
 
 Als u taaktoewijzingen voor een resource hebt, maar geen boekingen, gaat u naar de pagina **Projecten** en selecteert u op het tabblad **Afstemming** het tekort aan boekingen en selecteert u vervolgens **Boeking uitbreiden**. Het dialoogvenster **Boeking uitbreiden** verschijnt en hierin wordt de boeking weergegeven die nodig is om het tekort van de resource aan te vullen. Ook worden de bestaande boekingen van de resource in alle projecten of andere planbare entiteiten weergegeven. Als u **OK** selecteert om de boeking voor de resource te maken, ongeacht de beschikbaarheid van die resource, kan er overboeking ontstaan.
 
-![Dialoogvenster Boeking uitbreiden](media/Resource-Management-image58.png)
+![Dialoogvenster Boeking uitbreiden.](media/Resource-Management-image58.png)
 
 De projectmanager of resourcemanager kan vervolgens het planbord gebruiken om situaties te beheersen waarin een resource boekingen heeft die zijn of haar capaciteit te boven gaan.
 

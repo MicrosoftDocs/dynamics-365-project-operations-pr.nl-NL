@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014910"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995440"
 ---
 # <a name="quotes-and-quote-lines"></a>Prijsopgaven en prijsopgaveregels
 
@@ -84,7 +84,7 @@ De prijsopgaven en facturen van professionele dienstverleners bevatten doorgaans
 
 Aan elke prijsopgaveregel kunnen een of meer van deze transactieclassificaties worden gekoppeld. Nadat de prijsopgave is geaccepteerd, wordt de toewijzing tussen transactieclassificatie en prijsopgaveregel overgebracht naar de contractregel.
  
-> ![Schermafbeelding van het toewijzen van transactietypen aan prijsopgave- en contractregels](media/basic-guide-5.png)
+> ![Schermopname van het toewijzen van transactietypen aan prijsopgave- en contractregels.](media/basic-guide-5.png)
   
 Een prijsopgave kan bijvoorbeeld de volgende twee prijsopgaveregels bevatten: 
 - Advieswerk dat gebruikmaakt van een factureringsmethode Tijd- en materiaalverbruik, waarbij tijd- en tarieftransactieclassificaties van toepassing zijn. Alle tijd- en tarieftransacties voor het voorbeeldproject **Dynamics AX -implementatie** worden bijvoorbeeld aan de klant gefactureerd op basis van het tijd- en materiaalverbruik. 

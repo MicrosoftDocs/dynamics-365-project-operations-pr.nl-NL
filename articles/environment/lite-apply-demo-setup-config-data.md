@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997145"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993280"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Demogegevens voor installatie en configuratie toepassen voor Project Operations - lite 
 
@@ -30,24 +30,24 @@ Voordat u met de configuratie begint, moet u een Common Data Service-omgeving (C
 2. Navigeer naar de map *ProjOpsSampleSetupData - CE: alleen CMT* en voer het uitvoerbare bestand *GegevensmigratieUtility* uit.
 3. Op pagina 1 van de wizard Common Data Service Configuratiemigratie (CMT) selecteert u **Gegevens importeren** en vervolgens **Doorgaan**.
 
-    ![Configuratiemigratie](./media/1ConfigurationMigration.png)
+    ![Configuratiemigratie.](./media/1ConfigurationMigration.png)
 
 4. Selecteer op pagina 2 van de CMT-wizard **Microsoft 365** als **Implementatietype**.
 5. Schakel de selectievakjes **Een lijst met beschikbare organisaties weergeven** en **Geavanceerd weergeven** in.
 6. Selecteer de regio van uw tenant, voer uw inloggegevens in en selecteer **Login**.
 
-   ![Configuratie inloggen](./media/2ConfigurationSignin.png)
+   ![Configuratie inloggen.](./media/2ConfigurationSignin.png)
 
 7. Selecteer op pagina 3 uit de lijst met organisaties op de tenant de organisatie waarin u de demogegevens wilt importeren en selecteer **Login**.
 8. Selecteer op pagina 4 het zipbestand *SampleSetupAndConfigData* in de uitgepakte map *ProjOpsSampleSetupData - CE: alleen CMT*.
 
-   ![Zipbestand](./media/3ZipFile.png)
+   ![Zipbestand.](./media/3ZipFile.png)
 
-   ![Een bestand selecteren](./media/4SelectAFile.png)
+   ![Een bestand selecteren.](./media/4SelectAFile.png)
 
 9. Selecteer nadat het zipbestand is geselecteerd **Gegevens importeren**.
 
-   ![Gegevens importeren](./media/5ImportData.png)
+   ![Gegevens importeren.](./media/5ImportData.png)
 
 10. Het importeren duurt ongeveer twee tot tien minuten, afhankelijk van uw netwerksnelheid. Sluit de CMT-wizard nadat het importeren is voltooid. 
 11. Controleer uw organisatie op gegevens in de volgende 18 entiteiten:
@@ -71,7 +71,7 @@ Voordat u met de configuratie begint, moet u een Common Data Service-omgeving (C
     -   Toewijzing van categorie met boekbare resources
     -   Kenmerk van boekbare resources
 
-    ![Import voltooid](./media/6CompleteImport.png)
+    ![Import voltooien.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

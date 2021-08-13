@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007990"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995215"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Nieuwe aangepaste-entiteitformulieren toevoegen (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Volg deze stappen om een aangepaste versie van het formulier **Projectgegevens**
     - Exporteer het formulier **Mijn projectgegevens** als onderdeel van een onbeheerde oplossing en zoek de waarde **formId** op in het bestand customization.xml van de geëxporteerde oplossing.
     - Open het formulier **Mijn projectgegevens** in de formuliereneditor en zoek vervolgens naar de GUID (Globally Unique Identifier) naast de parameter **fromId** in de URL, zoals wordt weergegeven in de volgende afbeelding.
 
-    ![De waarde formId van het nieuwe formulier in de URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![De waarde formId van het nieuwe formulier in de URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Maak een toewijzing van **msdyn\_ordertype** voor de waarde **formId** door de webresource msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js te bewerken. Verwijder de code uit de resource en vervang deze door de volgende code.
 

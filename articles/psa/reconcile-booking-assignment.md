@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008890"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995125"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Boekingen en toewijzingen afstemmen
 
@@ -51,11 +51,11 @@ In sommige gevallen, wanneer het veld **Tijdschaal** is ingesteld op een niveau 
 
 Wanneer u tijd op hogere niveaus weergeeft, wordt op het tabblad **Afstemming** een celindicator weergegeven om u erop te wijzen dat er verschillen zijn op lagere tijdniveaus. In de volgende afbeelding wordt bijvoorbeeld een celindicator weergegeven in de cel voor de maand oktober 2018 voor de resource met de naam Josephine Beukema. Daarom kunt u zien dat, zelfs als de resourceboekingen en toewijzingen gelijk zijn wanneer ze worden samengevoegd op het niveau van **Maand**, ze niet overeenkomen op lagere niveaus.
 
-![Niet-overeenkomende boekingen en toewijzingen op maandelijks niveau](media/reconcile-assignments-01.JPG)
+![Niet-overeenkomende boekingen en toewijzingen op maandelijks niveau.](media/reconcile-assignments-01.JPG)
 
 Dubbelklik op een cel om in te zoomen op het volgende lagere niveau en het verschil te bekijken. Als u bijvoorbeeld dubbelklikt op het verschil in oktober 2018 voor Josephine Beukema, geeft u de details weer op het niveau **Week**. Vervolgens ziet u dat de resource boekingen van 16 uur heeft, maar geen toewijzingen in de eerste twee weken van oktober en toewijzingen van 16 uur, maar geen boekingen in de derde week van oktober.
 
-![Niet-overeenkomende boekingen en toewijzingen op wekelijks niveau](media/reconcile-assignments-02.JPG)
+![Niet-overeenkomende boekingen en toewijzingen op wekelijks niveau.](media/reconcile-assignments-02.JPG)
 
 U kunt met de rechtermuisknop op een cel klikken om naar het volgende hogere niveau uit te zoomen. U kunt de celindicator ook uitschakelen door de knop **Instellingen** te selecteren. 
 
@@ -68,13 +68,13 @@ Om te zorgen voor nauwkeurige en voorspelbare resultaten bij gebruik van Boeking
 
 - De gebruiker moet de tijdzone van zijn apparaat instellen op de tijdzone die is gedefinieerd in de Persoonlijke instellingen van uw systeem.
  
-  ![Tijdzone-instellingen in Windows 10](media/reconcile-assignments-03.png)
+  ![Tijdzone-instellingen in Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Tijdzone-instellingen in Persoonlijke instellingen](media/reconcile-assignments-04.png)
+  ![Tijdzone-instellingen in Persoonlijke instellingen.](media/reconcile-assignments-04.png)
  
 - De boekbare resource moet ten minste één minuut werktijd hebben die overlapt met de contouren waarmee de aangevraagde uitbreiding wordt gedefinieerd. In het volgende voorbeeld ziet u bijvoorbeeld beoordelingsresources met werkuren die vallen tussen 09:00 en 19:00 uur. 
 
-  ![Vergelijking van resourcecontouren](media/reconcile-assignments-05.png)
+  ![Vergelijking van resourcecontouren.](media/reconcile-assignments-05.png)
 
 In de onderstaande tabel ziet u het volgende:
 
@@ -83,22 +83,22 @@ In de onderstaande tabel ziet u het volgende:
 - Resource B: Deze resource bevindt zich in een andere tijdzone dan het project en begint daarom om 07:00 uur in de eigen tijdzone. De boekingen beginnen echter om 09:00 uur, omdat dit de vroegste starttijd van de toewijzingscontour is.
 - Resources C en D: De resources bevinden zich ook ieder in een andere tijdzone, en hun tijdzones verschillen ook van het project. Hun boekingen beginnen niet eerder dan hun respectieve beschikbare starttijden.
 
-|Entiteit  |Agenda  |
+|Entity  |Agenda  |
 |-|-|
-|Sjabloon van projectagenda   | ![projectagenda](media/reconcile-assignments-06.png) |
-|Resource A  | ![Agenda van resource A](media/reconcile-assignments-06.png) |
-|Resource B  |  ![Agenda van resource B](media/reconcile-assignments-07.png) |
-|Resource C  |  ![Agenda van resource C](media/reconcile-assignments-08.png) |
-|Resource D  | ![Agenda van resource D](media/reconcile-assignments-09.png)  |
+|Sjabloon van projectagenda   | ![projectagenda.](media/reconcile-assignments-06.png) |
+|Resource A  | ![Agenda van resource A.](media/reconcile-assignments-06.png) |
+|Resource B  |  ![Agenda van resource B.](media/reconcile-assignments-07.png) |
+|Resource C  |  ![Agenda van resource C.](media/reconcile-assignments-08.png) |
+|Resource D  | ![Agenda van resource D.](media/reconcile-assignments-09.png)  |
  
 Wanneer u naar de afstemmingsweergave navigeert, worden de resourcetoewijzingen en de bijbehorende boekingstekorten weergegeven.
- ![Afstemmingsweergave vóór uitbreiding](media/reconcile-assignments-10.png)
+ ![Afstemmingsweergave vóór uitbreiding.](media/reconcile-assignments-10.png)
 
 De functionaliteit Boeking uitbreiden wordt uitgevoerd op elke resource en de boekingen worden daadwerkelijk uitgebreid voor elke resource. Dit komt omdat de werkuren van elke resource overlappen met de contouren van het tekort.
- ![Afstemmingsweergave na uitbreiding van de boeking](media/reconcile-assignments-11.png) 
+ ![Afstemmingsweergave na uitbreiding van de boeking.](media/reconcile-assignments-11.png) 
 
 Als we de details van de boekingen echter nader bekijken, zien we verschillen in de starttijd van de boekingen. De boekingen starten niet eerder dan de starttijd van de toewijzingscontour en niet eerder dan de beschikbare starttijd van de resource.
- ![Nieuwe boekingen van de resources in het planbord](media/reconcile-assignments-12.png)
+ ![Nieuwe boekingen van de resources in het planbord.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004525"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994495"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Een prijsdimensie uitschakelen
 
@@ -32,7 +32,7 @@ Het uitschakelen van een prijsdimensie, ongeacht of deze standaard of aangepast 
 
 Als u dit echter doet, krijgt u mogelijk de foutbericht: **De prijsdimensie kan niet worden bijgewerkt of verwijderd als er gekoppelde prijsrecords zijn.**
 
-![Fout in bedrijfsproces mogelijk bij het uitschakelen van een prijsdimensie](media/Business-Process-Error.png)
+![Fout in bedrijfsproces mogelijk bij het uitschakelen van een prijsdimensie.](media/Business-Process-Error.png)
 
 Dit foutbericht geeft aan dat er prijsrecords zijn die eerder zijn ingesteld voor de dimensie die wordt uitgeschakeld. Alle records met **Rolprijs** en **Opslag voor rolprijs** die naar een dimensie verwijzen, moeten worden verwijderd voordat de toepasbaarheid van de dimensie kan worden ingesteld op **Nee**. Deze regel is zowel van toepassing op de standaard prijsdimensies als eventuele aangepaste prijsdimensies die u hebt gemaakt. De reden voor deze validatie is dat elke **Rolprijs** record een unieke combinatie van dimensies moet hebben. Op een prijslijst met de naam **Amerikaanse kostentarieven2018**, hebt u bijvoorbeeld de volgende rijen voor **Rolprijs**. 
 

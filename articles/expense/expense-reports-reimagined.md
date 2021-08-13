@@ -2,7 +2,7 @@
 title: Opnieuw ontworpen onkostennota's
 description: In dit onderwerp wordt de opnieuw ontworpen en opnieuw vormgegeven ervaring voor het invoeren van onkostendeclaraties uitgelegd.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6250998"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997825"
 ---
 # <a name="expense-reports-reimagined"></a>Opnieuw ontworpen onkostennota's
 
@@ -57,12 +57,13 @@ Als u de nieuwe ervaring wilt inschakelen, gebruikt u de werkruimte **Functiebeh
 | Wisselkoerscalculator | Er is een wisselkoerscalculator toegevoegd waarmee u de wisselkoers kunt berekenen voor contante transacties in meerdere valuta's. |
 | Onkostenregels opslaan en toevoegen | De knoppen **Opslaan** en **Nieuw** zijn beschikbaar wanneer er nieuwe onkosten worden ingevoerd, zodat u snel onkostenregels kunt invoeren. |
 | Beter inzicht in opgesplitste en gespecificeerde regels | Gespecificeerde en gesplitste regels worden rechtstreeks aan de lijst met onkosten toegevoegd om de zichtbaarheid te vergroten en u te helpen gemakkelijk te bepalen of er fouten zijn. |
-| Subcategoriedetails in gespecificeerde regels weergeven | Op gespecificeerde regels van bovenliggende onkosten worden de subcategorielabels in de onkostennota weergegeven, zodat u de gedetailleerde details in één oogopslag kunt bekijken.|
+| Subcategoriedetails in gespecificeerde regels weergeven | Gespecificeerde regels van een bovenliggende uitgave tonen de subcategorielabels op de onkostennota. Met de specificatie kunt u de gedetailleerde details in één oogopslag bekijken.|
 | Betalingsbewijzen weergeven tijdens specificatie | Betalingsbewijzen kunnen worden weergeven tijdens specificatie. |
 | Selectie contant voorschot | Selecteer een of meer contante voorschotten voor het uitvoeren van één onkostentransactie. |
 | Saldo contant voorschot | Bekijk het saldo van het contante voorschot in realtime wanneer u een onkostenpost maakt tegen goedgekeurde en betaalde contante voorschotten. |
 
 De eerste release is gericht op scenario's voor het invoeren van onkosten. Elk beoordelings- of goedkeuringsscenario voor onkostennota's blijft de bestaande pagina voor de invoer van onkostennota's gebruiken.
+
 
 De volgende functies worden niet ondersteund in de opnieuw ontworpen werkruimte voor onkostennota´s, maar zijn gepland voor toekomstige releases: 
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014965"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000570"
 ---
 # <a name="project-pricing"></a>Projectprijzen 
 
@@ -46,7 +46,7 @@ De entiteit Prijslijst heeft drie gerelateerde tabellen waarin prijzen worden op
   - **Prijs voor transactiecategorie**: in deze tabel worden prijzen per transactiecategorie opgeslagen en deze tabel wordt gebruikt om prijzen voor onkostencategorieën in te stellen.
   - **Prijslijstitems**: in deze tabel worden prijzen voor catalogusproducten opgeslagen.
 
-> ![Prijzen configureren met een prijslijst](media/basic-guide-12.png)
+> ![Prijzen configureren met een prijslijst.](media/basic-guide-12.png)
  
 De prijslijst is een tariefkaart. Een tariefkaart is een combinatie van de entiteit Prijslijst en gerelateerde rijen in de tabellen Rolprijs, Prijs voor transactiecategorie en Prijslijstitems.
 
@@ -58,7 +58,7 @@ Voor de tijd van personeel wordt doorgaans een prijsopgave gemaakt op basis van 
 
 De eenhedengroep **Tijd** wordt gemaakt wanneer PSA is geïnstalleerd. Deze heeft als standaardeenheid **Uur**. U kunt de kenmerken van de eenhedengroep **Tijd** of de eenheid **Uur** niet verwijderen, hernoemen of bewerken. U kunt echter wel andere eenheden toevoegen aan de eenhedengroep **Tijd**. Als u de eenhedengroep **Tijd** of de eenheid **Uur** probeert te verwijderen, kan dit fouten in de PSA-bedrijfslogica veroorzaken.
 
-> ![Prijzen per rol configureren](media/basic-guide-13.png)
+> ![Prijzen per rol configureren.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transactiecategorieën en onkostencategorieën
 
@@ -68,7 +68,7 @@ Reis- en andere onkosten die projectconsultants maken, worden meestal aan de kla
 - **Opslagpercentage**: het percentage over de werkelijke kosten wordt gefactureerd aan de klant. 
 - **Prijs per eenheid**: er wordt een factureringsprijs ingesteld voor elke eenheid van de onkostencategorie. Het bedrag dat wordt gefactureerd aan de klant wordt berekend op basis van het aantal onkosteneenheden dat de consultant rapporteert. Bij Gereden kilometers wordt de prijsstellingsmethode Prijs per eenheid gebruikt. De onkostencategorie Gereden kilometers kan bijvoorbeeld worden geconfigureerd voor 30 euro per dag of 2 euro per kilometer. Wanneer een consultant het aantal gereden kilometers voor een project rapporteert, wordt het factuurbedrag berekend op basis van het aantal kilometers dat de consultant heeft gerapporteerd.
 
-> ![Prijzen voor onkostencategorieën configureren](media/basic-guide-14.png)
+> ![Prijzen voor onkostencategorieën configureren.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prijzen en overschrijvingen van projectverkopen
 
@@ -114,7 +114,7 @@ Voor een prijsopgave kunt u echter een hoofdprijslijst gebruiken. U kunt ook een
 
 Wanneer u een aangepaste projectprijslijst maakt, worden alleen de projectonderdelen van de prijslijst gekopieerd. Met andere woorden, er wordt een nieuwe prijslijst gemaakt als een kopie van de bestaande projectprijslijst die is gekoppeld aan de prijsopgave en deze nieuwe prijslijst heeft alleen gerelateerde rolprijzen en transactiecategorieprijzen.
 
-> ![Aangepaste prijzen voor een projectcontract weergeven en configureren](media/basic-guide-15.png)
+> ![Aangepaste prijzen voor een projectcontract weergeven en configureren.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Kosten bijhouden
 

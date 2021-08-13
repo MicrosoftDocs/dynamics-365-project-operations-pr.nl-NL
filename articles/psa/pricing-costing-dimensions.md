@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368875"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998455"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startpagina voor prijs- en kostendimensies
 
@@ -41,7 +41,7 @@ Gezien de typische aard van deze kenmerken van het werk en de mensen die nodig z
 
 PSA wordt geleverd met een standaardset prijsdimensies. U kunt deze bekijken door naar **Project Service** > **Parameters** te gaan. Controleer in de parameterrecord op het tabblad **Op bedrag gebaseerde prijsdimensies** of voor de rol **msdyn_resourcecategory** en de resource-organisatie-eenheid **msdyn_organizationalunit** de velden **Van toepassing op verkoop** en **Van toepassing op kosten** op **Ja** zijn ingesteld. Dit stelt u in staat om de prijs en kosten voor elke combinatie van rol en organisatie-eenheid in te stellen.
 
-![Schermopname van Project Service-parameters waarin 'Van toepassing op verkoop' is gemarkeerd](media/PS-OOB-parameters.png)
+![Schermopname van Project Service-parameters waarin 'Van toepassing op verkoop' is gemarkeerd.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Als u de kant-en-klare velden van rol en organisatie-eenheid hebt gebruikt als prijsdimensies vóór versie 3 van PSA, is er geen waarneembare wijziging. U kunt Project Service blijven gebruiken zoals u dat gewend was. 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014830"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000750"
 ---
 # <a name="recording-actuals"></a>Werkelijke waarden vastleggen 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014830"
 
 Alle financiële transacties die tijdens een project plaatsvinden, worden vastgelegd. Deze transacties worden geregistreerd als **werkelijke waarden**. In de volgende tabel ziet u de verschillende typen werkelijke waarden die worden gemaakt, afhankelijk van of het project een project op basis van tijd- en materiaalverbruik, een project met een vaste prijs of een intern project is en of dit zich in de pre-salesfase bevindt.
 
-> ![Tabel waarin wordt weergegeven hoe werkelijke waarden worden vastgelegd](media/advanced-table2.png)
+> ![Tabel waarin wordt weergegeven hoe werkelijke waarden worden vastgelegd.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

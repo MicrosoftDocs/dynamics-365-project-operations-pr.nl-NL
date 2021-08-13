@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002770"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995800"
 ---
 # <a name="intercompany-invoicing"></a>Intercompany-facturering
 
@@ -33,7 +33,7 @@ Uw organisatie heeft mogelijk meerdere divisies, dochterondernemingen en andere 
 
 De volgende afbeelding toont een typisch scenario waarin twee rechtspersonen, SI FR (de lenende rechtspersoon) en SI USA (de uitlenende rechtspersoon) resoources delen om een project voor klant A te leveren. Voor dit scenario is SI FR gecontracteerd om het werk aan klant A te leveren. 
 
-[![Voorbeeld van intercompany-facturering](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Voorbeeld van intercompany-facturering.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Het doel is om kostenbeheersing, omzetverantwoording, belastingen en verrekenprijs voor intercompany-projecttransacties flexibeler en krachtiger te maken. Daarnaast worden de volgende mogelijkheden geboden:
 

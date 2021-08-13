@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996560"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993235"
 ---
 # <a name="project-invoice-integration"></a>Integratie van projectfacturen
 
@@ -20,7 +20,7 @@ Dit onderwerp biedt informatie over integratie voor klantfacturering via twee ke
 
 In Project Operations beheert de projectmanager de achterstand in projectfacturering en maakt een pro-formafactuur voor de klant in Microsoft Dataverse. Op basis van deze pro-formafactuur maakt de klantenadministrateur of projectaccountant een klantgerichte factuur aan. Integratie van twee keer wegschrijven zorgt ervoor dat de pro-formafactuurgegevens worden gesynchroniseerd met Finance and Operations-apps. Nadat de klantgerichte factuur is geboekt, werkt het systeem de relevante werkelijke projectwaarden bij in Dataverse met de boekhoudkundige details. De volgende afbeelding geeft een conceptueel overzicht op hoofdlijnen van deze integratie.
 
-   ![Integratie van projectfacturen](./media/DW5Invoicing.png)
+   ![Integratie van projectfacturen.](./media/DW5Invoicing.png)
 
 Nadat de projectmanager de pro-formafactuur heeft bevestigd in Dataverse, wordt de kopinformatie van de pro-formafactuur gesynchroniseerd met Finance and Operations-apps met behulp van de tabeltoewijzing voor twee keer wegschrijven **Projectfactuurvoorstel V2 (facturen)**. Dit is een eenrichtingsintegratie van Dataverse met Finance and Operations-apps. Het maken of verwijderen van projectfactuurvoorstellen rechtstreeks in Finance and Operations-apps wordt niet ondersteund.
 
