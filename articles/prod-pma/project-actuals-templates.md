@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999890"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988105"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Wwerkelijke projectgegevens rechtstreeks vanuit Project Service Automation naar het projectintegratiejournaal synchroniseren om te boeken in Finance and Operations
 
@@ -42,7 +42,7 @@ De integratieoplossing van Project Service Automation naar Finance gebruikt de f
 
 De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Project Service Automation en Finance.
 
-[![Gegevensstroom voor integratie van Project Service Automation met Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Gegevensstroom voor integratie van Project Service Automation met Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Werkelijke projectwaarden vanuit Project Service Automation
 
@@ -93,9 +93,9 @@ U kunt de ingevoegde voorwaardelijke kolom bijwerken in de sjabloon door op de p
 
 De volgende afbeeldingen tonen een voorbeeld van de toewijzing van sjabloontaken in Gegevensintegratie. De toewijzing toont de veldinformatie die wordt gesynchroniseerd van Project Service Automation naar Finance.
 
-[![Sjabloontoewijzing - Werkelijk](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Sjabloontoewijzing - Werkelijk.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Sjabloontoewijzing - transactieverbindingen](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Sjabloontoewijzing - transactieverbindingen.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importeren uit faseringstabel na integratie vanuit Project Service Automation
 
@@ -135,9 +135,9 @@ In de sjabloon voor het bijwerken van werkelijke projectwaarden moet u Microsoft
 
 De volgende afbeeldingen laten voorbeelden zien van de toewijzingen van sjabloontaken in Gegevensintegratie. De toewijzing toont de veldinformatie die wordt gesynchroniseerd van Finance naar Project Service Automation.
 
-[![Sjabloontoewijzing - update werkelijk](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Sjabloontoewijzing - update werkelijk.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Sjabloontoewijzing - update transactie](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Sjabloontoewijzing - update transactie.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998945"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992425"
 ---
 # <a name="create-custom-fields-and-entities"></a>Aangepaste velden en entiteiten maken 
 
@@ -43,7 +43,7 @@ Een prijsdimensie kan een optieset of een entiteit zijn. Beide moeten worden gem
 2. Selecteer in Oplossingenverkenner in het linkernavigatiedeelvenster **Entiteiten**.
 3. Klik op **Nieuw** om een nieuwe entiteit met de naam **Standaardtitel** te maken. Geef de overige vereiste gegevens op en klik vervolgens op **Opslaan**.
 
-> ![Definitie van entiteit Standaardtitel](media/Standard-Title-entity-definition.png)
+> ![Definitie van entiteit Standaardtitel.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Op optieset gebaseerde dimensies 
@@ -54,9 +54,9 @@ U twee op optiesets gebaseerde dimensies maken. Gebruik **Werklocatie van resour
 2. Selecteer in Oplossingenverkenner in het linkernavigatiedeelvenster de optie **Optiesets**. 
 3. Klik op **Nieuw** om een nieuwe optieset te maken, voer de resterende vereiste informatie in en klik vervolgens op **Opslaan**.
 
-> ![Op optieset gebaseerde prijsdimensie met de naam Werklocatie van resource ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Op optieset gebaseerde prijsdimensie met de naam Werklocatie van resource.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Op optieset gebaseerde prijsdimensie met de naam Werkuren van resource ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Op optieset gebaseerde prijsdimensie met de naam Werkuren van resource.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Gegevens maken voor op entiteiten gebaseerde dimensies
@@ -68,7 +68,7 @@ U kunt gegevens voor op entiteiten gebaseerde dimensies handmatig maken of met b
 3. Sluit het formulier. 
 4. Herhaal stap 1-3 om een andere standaardtitel te maken voor Hoofdsysteemtechnicus.
 
-> ![Voorbeeldgegevens voor de entiteit Standaardtitel ](media/ST-data.png)
+> ![Voorbeeldgegevens voor de entiteit Standaardtitel.](media/ST-data.png)
 
 
 

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012085"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988960"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Boekbare resource gebruiken als een prijsdimensie
 
@@ -62,18 +62,18 @@ Voor een boekbare resource heeft de entiteit **Projectteamleden** een iets ander
 1. Dubbelklik hiervoor op de rij in het raster **Prijsdimensies** om de dimensiepagina van **msdyn_bookableresource** te openen.
 2. Klik op de dimensiepagina op het tabblad **Gerelateerd** op **Veldnamen voor prijsdimensies**.
 
- ![Het tabblad Veldnamen voor prijsdimensies](media/PD-fieldname.png)
+ ![Het tabblad Veldnamen voor prijsdimensies.](media/PD-fieldname.png)
 
 4. Klik in de gekoppelde weergave die wordt geopend op **Veldnaam voor nieuwe prijsdimensie toevoegen**.
 
- ![Veldnamen voor nieuwe prijsdimensies toevoegen](media/Add-NewPD-fieldname.png)
+ ![Veldnamen voor nieuwe prijsdimensies toevoegen.](media/Add-NewPD-fieldname.png)
 
 
 Hiermee opent u de pagina **Veldnaam voor nieuwe prijsdimensie** voor **msdyn_bookableresource**. 
 
 5. Voeg **msdyn_projectteam** toe aan het veld **Logische naam van entiteit** en **msdyn_bookableresourceid** aan het veld **Veldnaam**. Sla de record op.
 
- ![Het formulier Veldnaam voor nieuwe prijsdimensie](media/PD-fieldname-Added.png)
+ ![Het formulier Veldnaam voor nieuwe prijsdimensie.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

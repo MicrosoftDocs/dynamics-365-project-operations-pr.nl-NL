@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009925"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989545"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Mobiele werkruimte Projecttijdinvoer
 
@@ -94,7 +94,7 @@ De mobiele app Finance and Operations downloaden en installeren:
 3.  Wanneer u zich voor het eerst aanmeldt, wordt u om uw gebruikersnaam en wachtwoord gevraagd. Voer uw referenties in.
 4.  Nadat u zich hebt aangemeld, worden de beschikbare werkruimten voor uw bedrijf weergegeven. Merk op dat als uw systeembeheerder later een nieuwe werkruimte publiceert, u de lijst met mobiele werkruimten moet vernieuwen.
 
-[![Slepen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Slepen om te vernieuwen.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Tijd invoeren met de mobiele werkruimte Projecttijdinvoer
 1.  Selecteer op uw mobiele apparaat de werkruimte **Projecttijdinvoer**.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006235"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985945"
 ---
 # <a name="create-a-new-project"></a>Een nieuw project maken
 
@@ -51,7 +51,7 @@ U kunt desgewenst ook categorieën aan een resource toewijzen. Het categorietype
 
 Een projectmanager kan de functionaliteit voor het toewijzen van resources aan projecten gebruiken om de rollen te creëren die nodig zijn voor het project. Rollen kunnen worden gebruikt als bevestigde resources nog onbekend zijn bij het reserveren van resources. Rollen kunnen tijdelijk worden gereserveerd als geplande resources, zodat u kunt doorgaan met de projectplanningsfasen.
 
-[![Voorbeeld van een rol](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Voorbeeld van een rol.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Scenario:** Contoso is ingehuurd om een tijd- en materiaalproject te voltooien dat een goedgekeurd projectcharter heeft. De junior projectmanager is nog bezig met het afronden van het bereik van het project. De resourcemanager identificeert momenteel specifieke resources die zullen worden gereserveerd om aan het nieuwe project te werken. Vanwege de cruciale aard van het project heeft de projectsponsor de senior projectmanager gevraagd een van de rollen op zich te nemen. De resourcemanager moet de nieuwe resource verwerven en de rol in het systeem definiëren voor het geval de junior projectmanager de resourcegegevens nodig heeft tijdens de projectplanning.
 

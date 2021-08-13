@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012805"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988780"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen
 
@@ -42,25 +42,25 @@ In de volgende stappen wordt het proces van het registreren van de invoegtoepass
 1. Open **PluginRegistrationTool** en maak verbinding met uw online-exemplaar.
 2. Klik op **Zoeken** en zoek de invoegtoepassing om bij te werken.
 
- ![Schermopname van de zoekstructuur](media/PRT-1.png)
+ ![Schermopname van de zoekstructuur.](media/PRT-1.png)
 
 3. Nadat de invoegtoepassing is gevonden, selecteert u deze en klikt u op **Selecteren op hoofdformulier**.
 
 4. Selecteer de stap van de invoegtoepassing, klik met de rechtermuisknop en selecteer **Bijwerken**.
 
- ![Schermopname van de invoegtoepassing dit moet worden bijgewerkt](media/PRT-2.png)
+ ![Schermopname van de invoegtoepassing dit moet worden bijgewerkt.](media/PRT-2.png)
  
 5. Klik in het venster Bijwerken op het beletselteken (**...**) in de filterkenmerken.
 
- ![Schermopname van de configuratiegegevens voor Bestaande stap bijwerken](media/PRT-3.png)
+ ![Schermopname van de configuratiegegevens voor Bestaande stap bijwerken.](media/PRT-3.png)
  
 6. Selecteer de selectievakjes met prijskenmerken.
 
- ![Schermopname met het ingeschakelde selectievakje voor prijskenmerken](media/PRT-4.png)
+ ![Schermopname met het ingeschakelde selectievakje voor prijskenmerken.](media/PRT-4.png)
 
 7. Klik op **OK** om de pagina te sluiten en selecteer vervolgens **Stap bijwerken**.
 
- ![Schermopname met de knop "Stap bijwerken"](media/PRT-5.png)
+ ![Schermopname met de knop "Stap bijwerken".](media/PRT-5.png)
  
 8. Herhaal dit proces voor de tweede invoegtoepassing **PreOperationQuoteLineDetail - update van msdyn_quotelinetransaction**.
 

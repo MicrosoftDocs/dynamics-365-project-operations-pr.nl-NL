@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334776"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991525"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Aanmelden voor een preview-abonnement - lite 
 
@@ -52,16 +52,16 @@ Voordat u begint, moet u ervoor zorgen dat u bent aangemeld bij een browser met 
 
 1. Richt een nieuwe Dataverse-implementatieomgeving voor Project Operations in aan de hand van de instructies in het onderwerp [Dataverse-implementatiemodel](lite-deployment.md). Zorg ervoor dat u **Proefversie (op basis van abonnement)** gebruikt als u het omgevingstype selecteert.
 
-  ![Nieuwe omgeving](./media/19CreateEnvironment.png)
+  ![Nieuwe omgeving.](./media/19CreateEnvironment.png)
 
 2. Selecteer de instelling **Dynamics 365-apps inschakelen** en laat **Deze apps automatisch implementeren** leeg.  
 3. Selecteer **Opslaan** om de omgeving te maken.
 
-  ![Database toevoegen](./media/20CreateEnvironment1.png)
+  ![Database toevoegen.](./media/20CreateEnvironment1.png)
 
 4. Nadat de omgeving is gemaakt, installeert u de oplossing **Microsoft Dynamics 365 Project Operations**. 
 
-![Oplossing installeren](./media/21InstallSolution.png)
+![Oplossing installeren.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-configuratie installeren en demogegevens instellen
 

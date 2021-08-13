@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000610"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986665"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Een Azure-abonnement toevoegen aan een LCS-project
 
@@ -23,35 +23,35 @@ Gehoste cloudomgevingen moeten worden geïmplementeerd met een bestaand Azure-ab
 
 1. Selecteer in uw LCS-project in de sectie **Omgevingen** de optie **Microsoft Azure-instellingen**.
 
-![Instellingen voor Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Instellingen voor Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Op de pagina **Projectinstellingen** op het tabblad **Azure-connectors** selecteert u **Autoriseren**. Hierdoor kunnen omgevingen worden ingezet voor dit project.
 
-![Azure-connectors](./media/2AzureConnectors.png)
+![Azure-connectors.](./media/2AzureConnectors.png)
 
 3. Selecteer opnieuw **Autoriseren** voor toestemming van de beheerder.
 
-![Beheerderstoestemming verlenen](./media/3GrantAdminConsent.png)
+![Beheerderstoestemming verlenen.](./media/3GrantAdminConsent.png)
 
 4. Accepteer het machtigingenverzoek.
 
-![Machtigingsverzoek accepteren](./media/4AcceptPermissionRequest.png)
+![Machtigingsverzoek accepteren.](./media/4AcceptPermissionRequest.png)
 
 De autorisatie is nu voltooid. 
 
-![Autorisatie geslaagd](./media/5AuthorizationComplete.png)
+![Autorisatie geslaagd.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Dynamics Deployment Services toegang geven tot uw Azure-abonnement
 
 1. Ga naar [Facturering Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) en selecteer uw abonnement. Dynamics Deployment Services heeft toegang nodig tot dit abonnement om omgevingen te kunnen implementeren.
 
-![Details van Azure-abonnement](./media/6AzureSubscription.png)
+![Details van Azure-abonnement.](./media/6AzureSubscription.png)
 
 2. Selecteer **Toegangsbeheer (IAM)** in het navigatiedeelvenster en selecteer vervolgens **Roltoewijzing toevoegen**.
 3. Selecteer in de schuifregelaar aan de rechterkant **Rol van inzender** en zoek en selecteer in de weergegeven lijst **Dynamics Deployment Services**. 
 4. Selecteer **Opslaan**.
 
-![Toegang tot abonnement](./media/7SubscriptionAccess.png)
+![Toegang tot abonnement.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Een abonnementsconnector toevoegen aan een LCS-project
 

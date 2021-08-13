@@ -832,6 +832,16 @@
           items:
             - name: Overzicht van bestede uren van resource
               href: resource-management/resource-utilization-overview.md
+    - name: Onderaannemingsbeheer in Project Operations
+      items:
+        - name: Overzicht van het beheren van subcontracten
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Belangrijke concepten bij onderaanneming
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Leveranciers en projectprijslijsten beheren
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Onderaannemers als boekbare resources
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Tijd
       items:
         - name: Overzicht van tijd
@@ -1050,6 +1060,8 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 32.5, V3'

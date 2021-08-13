@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007270"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985540"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installatie van voorbeeldgegevens voor de Project Service-toepassing
 
@@ -86,7 +86,7 @@ U dient ervoor te zorgen dat de computer verbonden blijft met een netwerk en er 
 De schermbeveiligingsfunctie van de computer moet zijn uitgeschakeld. Anders gaan sessiereferenties voor de installatie mogelijk verloren als de schermbeveiliging wordt ingeschakeld (tenzij u uw sessie actief houdt gedurende de hele procedure).
 
 > [!div class="mx-imgBorder"]
-> ![Schermafbeelding van schermbeveiligingsinstellingen, met schermbeveiliging uitgeschakeld](media/sample-data-1.png)
+> ![Schermopname van schermbeveiligingsinstellingen, met schermbeveiliging uitgeschakeld.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Downloaden en uitpakken
 
@@ -142,7 +142,7 @@ Het pakket met demogegevens vereist zes gebruikers. Ga als volgt te werk om het 
 3. Open **PkgFolder** en zoek en open **ImportUserMapFile.xml**. Werk de velden **New=** bij met de e-mailadressen van overeenkomstige gebruikers in uw systeem.
 
    > [!div class="mx-imgBorder"]
-   > ![Schermafbeelding van UserMapFile](media/sample-data-7.png)
+   > ![Schermopname van UserMapFile.](media/sample-data-7.png)
 
 4. Als uw gebruiker met de volledige naam "Spencer Low" een andere gebruikers-id heeft dan **"spencerl"**, moet u een extra bestand bijwerken. Open **DemoDataPreImportConfig.xml** en zoek de code **userstocreateandconfigure**. Werk de code **\<login\>** bij met de aanmeld-id (hoofdlettergevoelig). 
 
@@ -172,7 +172,7 @@ Het pakket met demogegevens vereist zes gebruikers. Ga als volgt te werk om het 
 5. Selecteer **Volgende** totdat u het dialoogvenster **Demogegevens instellen** ziet.
 
    > [!div class="mx-imgBorder"]
-   > ![Schermafbeelding van het statusvenster van het installatieprogramma voor de voorbeeldgegevens](media/sample-data-3.png)
+   > ![Schermopname van het statusvenster van het installatieprogramma voor de voorbeeldgegevens.](media/sample-data-3.png)
 
 6. Houd er, voordat u verdergaat, rekening mee dat het installeren van voorbeeldgegevens tot één uur kan vergen (normaliter is dit ongeveer 10 minuten). U moet ervoor zorgen dat de computer ingeschakeld en verbonden met een netwerk blijft gedurende het installatieproces en dat uw sessie actief blijft.   
 
@@ -191,10 +191,10 @@ Nadat de voorbeeldgegevens volledig zijn geladen, meldt u zich aan als gebruiker
 - Als de toepassing Field Service is geïnstalleerd, gaat u naar **Project Service** > **Instellingen** > **Prijslijsten**. Controleer of er factuurtarieven en kostentarieven bestaan. Ga naar **Field Service** > **Instellingen** > **Prijslijsten** en controleer of er factuurtarieven en kostentarieven bestaan, met de juiste valuta, voor elk land of elke regio in de gegevensset.
 
   > [!div class="mx-imgBorder"]
-  > ![Schermafbeelding van actieve prijslijsten](media/sample-data-4.png)
+  > ![Schermopname van actieve prijslijsten.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Schermafbeelding van actieve organisatie-eenheden](media/sample-data-5.png)
+  > ![Schermopname van actieve organisatie-eenheden.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Technische notities
 
@@ -295,7 +295,7 @@ Als u de werkuren voor voorbeelden van boekbare resources wilt wijzigen, gaat u 
 Selecteer een gebruiker (bijvoorbeeld Marinus Wolthuis) en wijzig de werktijden van Marinus in de uren die u wilt toepassen op meerdere gebruikers. Ga naar **Universal Resource Scheduling** > **Instellingen** > **Werkurensjablonen** en bewerk het record **Standaardwerksjabloon**. Selecteer in het veld **Sjabloonresource** een gebruiker met de werkuren die u wilt toepassen op andere resources. Ga naar **Universal Resource Scheduling** > **Planning** > **Resources** > **Actieve, boekbare bronnen**. Selecteer de resources die u wilt wijzigen en selecteer vervolgens **Agenda instellen**. Selecteer in de vervolgkeuzelijst **Werksjabloon** de sjabloon **Standaardwerkuren** of een andere sjabloon met de juiste sjabloonresource. Als u naar het planbord gaat, ziet u dat de resources nu bijgewerkte werkuren hebben.
 
 > [!div class="mx-imgBorder"]
-> ![Schermafbeelding van actieve boekbare resources](media/sample-data-6.png)
+> ![Schermopname van actieve boekbare resources.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

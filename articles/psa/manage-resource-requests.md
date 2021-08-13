@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015010"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985135"
 ---
 # <a name="manage-resource-requests-project-service"></a>Resourceaanvragen beheren (Project Service)
 
@@ -43,7 +43,7 @@ De account- en projectmanagers vragen regelmatig resources aan voor hun projecte
   
    -   Klik **Filteren** om het **Filteren** - deelvenster weer te geven, waarmee u de resultaten per organisatie-eenheid, rol, vaardigheid, of andere kenmerken kunt filteren.  
   
-       ![Het scherm Resourceaanvragen in Project Service](../psa/media/project-service-resource-request-screen.png "Het scherm Resourceaanvragen in Project Service")  
+       ![Het scherm Resourceaanvragen in Project Service.](../psa/media/project-service-resource-request-screen.png "Het scherm Resourceaanvragen in Project Service")  
   
 3. Selecteer in de kalender voor de resource die u wilt boeken de tijdsperiode om de resource te boeken en klik vervolgens op **Boeken** om de resource te boeken of **Boeking voorstellen** om een boeking voor te stellen en de aanvrager deze goed te laten goedkeuren. Als u een resource boekt, kunt u hard of zacht boeken.  
   

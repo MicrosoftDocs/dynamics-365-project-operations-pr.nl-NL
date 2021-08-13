@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007495"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990761"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>U volgende project zoeken met de app Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ Met de app Project Finder Mobile op uw [!INCLUDE[tn_iphone](../includes/tn-iphon
   
  Tik op de pijl rechts van het project waarin u bent geïnteresseerd om meer details te bekijken en om u ervoor aan te melden.  
   
- ![Lijst met projecten die overeenkomen met vaardigheden in de mobiele toepassing Project Finder](../psa/media/project-service-project-finder-list.png "Lijst met projecten die overeenkomen met vaardigheden in de mobiele toepassing Project Finder")  
+ ![Lijst met projecten die overeenkomen met vaardigheden in Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Lijst met projecten die overeenkomen met vaardigheden in de mobiele toepassing Project Finder")  
   
 ## <a name="update-your-skills"></a>Uw vaardigheden bijwerken  
  Tik op de profielknop rechtsonder in het scherm om uw vaardigheids- en deskundigheidsniveaus bij te werken.  
   
- ![Knop Profiel in de mobiele toepassing Project Finder](../psa/media/project-service-project-finder-profile.png "Knop Profiel in de mobiele toepassing Project Finder")  
+ ![Knop Profiel in Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Knop Profiel in de mobiele toepassing Project Finder")  
   
 ### <a name="see-also"></a>Zie ook  
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007585"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992380"
 ---
 # <a name="estimates"></a>Schattingen
 
@@ -83,24 +83,24 @@ Als u een aangepast veld hebt toegevoegd voor de prijsopgaveregeldetails en de w
 1. Open PluginRegistrationTool en maak verbinding met uw online-exemplaar.
 2. Selecteer **Zoeken** en zoek de invoegtoepassing om bij te werken.
 
-    ![Dialoogvenster Zoekstructuur](media/basic-guide-19.png)
+    ![Dialoogvenster Zoekstructuur.](media/basic-guide-19.png)
 
 3. Selecteer de invoegtoepassing en selecteer vervolgens op de hoofdpagina **Selecteren**.
 4. Selecteer de stap van de invoegtoepassing die moet worden bijgewerkt, klik met de rechtermuisknop en selecteer **Bijwerken**.
 
-    ![Een stap in de invoegtoepassing selecteren](media/basic-guide-20.png)
+    ![Een stap in de invoegtoepassing selecteren.](media/basic-guide-20.png)
 
 5. Selecteer in het dialoogvenster **Bestaande stap bijwerken** in het veld **Filterkenmerken** de ellipsknop (**...**):
  
-    ![Het dialoogvenster Bestaande stap bijwerken](media/basic-guide-21.png)
+    ![Het dialoogvenster Bestaande stap bijwerken.](media/basic-guide-21.png)
 
 6. Schakel in het dialoogvenster **Kenmerken selecteren** selectievakjes voor aangepaste kenmerken in.
 
-    ![Het dialoogvenster Kenmerken selecteren](media/basic-guide-22.png)
+    ![Het dialoogvenster Kenmerken selecteren.](media/basic-guide-22.png)
 
 7. Selecteer **OK** om het dialoogvenster te sluiten en selecteer vervolgens **Stap bijwerken**.
  
-    ![De knop Stap bijwerken](media/basic-guide-23.png)
+    ![De knop Stap bijwerken.](media/basic-guide-23.png)
 
 8. Herhaal stap 1 tot en met 7 voor de tweede invoegtoepassing.
 9. Sluit PluginRegistrationTool.

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013165"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984956"
 ---
 # <a name="submitting-a-resource-request"></a>Een resourceaanvraag indienen
 
@@ -34,7 +34,7 @@ U kunt een gegenereerde resourcevereiste indienen als een resourceaanvraag. De a
 1. Klik in Project Service Automation (PSA) op de pagina **Projecten** op het tabblad **Team** om een lijst met te boeken resources weer te geven. 
 2. Selecteer de algemene resource met een resourcevereiste in de lijst en klik vervolgens op **Aanvraag verzenden**.
 
-![Een resourceaanvraag indienen](media/RM-how-to-18.png)
+![Een resourceaanvraag indienen.](media/RM-how-to-18.png)
 
 De aanvraagstatus van het algemene teamlid wordt gewijzigd in **Ingediend**.
 

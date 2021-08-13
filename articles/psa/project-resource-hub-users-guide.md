@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009070"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987250"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Gebruikershandleiding voor Hub voor projectresources
 
@@ -49,31 +49,31 @@ Voordat u de app Hub voor projectresources gebruikt, moet u de mobiele app op uw
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installeer Dynamics 365 voor telefoons en tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Basisnavigatie
-1.  Wanneer u zich aanmeldt bij de mobiele app, ziet u de pagina Mijn apps met een lijst met apps waartoe u toegang hebt. 
+1.  Wanneer u zich aanmeldt bij de mobiele app, ziet u de pagina MyApps met een lijst met apps waartoe u toegang hebt. 
 2.  Kies **hub voor projectresources**.
 
-![Een app kiezen](media/chooseApp_1.png "Een app kiezen")
+![Kies een app.](media/chooseApp_1.png "Een app kiezen")
 
 **De navigatiebalk**
 
-Gebruik de navigatiebalk om naar uw werkgebied te gaan, een nieuwe record te maken, te zoeken of andere taken uit te voeren. U kunt toegang krijgen tot meer opdrachten door te tikken op de knop ![Meer](media/MoreButton.png "Knop Meer")
+Gebruik de navigatiebalk om naar uw werkgebied te gaan, een nieuwe record te maken, te zoeken of andere taken uit te voeren. Als u toegang wilt krijgen tot meer opdrachten, tikt u op de ![knop Meer.](media/MoreButton.png "Knop Meer")
 
-![Navigatiebalk](media/NavBar_2.png "Navigatiebalk")
+![Navigatiebalk.](media/NavBar_2.png "Navigatiebalk")
 
 **Favorieten en recent gebruikte records**
 
 De gedeelten Favorieten en Recent gebruikt bieden snelle toegang tot uw records, weergaven en dashboards. 
 
-- Voor toegang tot deze secties tikt u op de knop **Menu** ![Knop Menu](media/MenuButton.png "Menuknop") op de navigatiebalk en tikt u vervolgens op de knop **Favorieten en recent** ![Fav-knop](media/FavButton.png "Fav-knop").
+- Als u toegang wilt krijgen tot deze secties, tikt u op de knop **Menu** ![Menu-knop.](media/MenuButton.png "Menuknop") op de navigatiebalk en tikt u vervolgens op de knop **Favorieten en recente** ![Fav-knop](media/FavButton.png "Fav-knop").
 
 - U kunt een item vastmaken als favoriet door in de lijst **Recent gebruikt** op de speld te tikken. Hiermee wordt het item vastgemaakt en naar Favorieten verplaatst.
 
-  ![Favorieten en Recente items](media/Favs_3.png "Favorieten en Recente items")
+  ![Favorieten en recente items.](media/Favs_3.png "Favorieten en Recente items")
  
 ## <a name="enter-time"></a>Uren invoeren
 Voer in ieder uw - uren op in weekblad-of de frequentie wordt aangevraagd door de manager-uw clients te garanderen worden gefactureerd en u wordt correct gecrediteerd.
 
-1. Tik op de knop Menu ![Knop Menu](media/MenuButton.png "Menuknop") en tik vervolgens op **Tijdvermeldingen**. Dit toont uw agenda.
+1. Tik op de knop Menu ![Menu-knop.](media/MenuButton.png "Menuknop") en tik vervolgens op **Tijdinvoer**. Dit toont uw agenda.
 
 2. Om uw agenda voor vorige of volgende week weer te geven, tikt u de knop **Vorige** of **Volgende** aan. Tik **Vandaag** aan om naar de huidige week terug te gaan.
 

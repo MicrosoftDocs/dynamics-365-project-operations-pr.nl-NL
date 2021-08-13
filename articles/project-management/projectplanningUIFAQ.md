@@ -2,17 +2,17 @@
 title: Problemen oplossen met het werken in het taakraster
 description: Dit onderwerp biedt informatie over het oplossen van problemen, die nodig is bij het werken in het taakraster.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213394"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989095"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problemen oplossen met het werken in het taakraster 
 
@@ -24,7 +24,7 @@ In dit onderwerp wordt beschreven hoe u problemen kunt oplossen die u kunt tegen
 
 Project Operations vereist dat cookies van derden worden ingeschakeld om de structuur voor werkspecificatie weer te geven. Wanneer cookies van derden niet zijn ingeschakeld, ziet u in plaats van taken een lege pagina wanneer u het tabblad **Taken** selecteert op de pagina **Project**.
 
-![Leeg tabblad wanneer cookies van derden niet zijn ingeschakeld](media/blankschedule.png)
+![Leeg tabblad wanneer cookies van derden niet zijn ingeschakeld.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Oplossing
@@ -52,11 +52,22 @@ Voor Microsoft Edge of Google Chrome-browsers, beschrijven de volgende procedure
 Project Operations vereist dat een projectparameter verwijst naar het PEX-eindpunt. Dit eindpunt is vereist om te communiceren met de service die wordt gebruikt om de structuur voor werkspecificatie weer te geven. Als de parameter niet is ingeschakeld, ontvangt u de fout 'De projectparameter is niet geldig'. 
 
 ### <a name="workaround"></a>Oplossing
- ![Het veld PEX-eindpunt op de projectparameter](media/projectparameter.png)
 
 1. Voeg het veld **PEX-eindpunt** toe aan de pagina **Projectparameters**.
-2. Werk het veld bij met de volgende waarde: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Verwijder het veld uit de pagina **Projectparameters**.
+2. Identificeer het producttype dat u gebruikt. Deze waarde wordt gebruikt wanneer de PEX-eindpunt is ingesteld. Bij het ophalen is het producttype al gedefinieerd in de PEX-eindpunt. Bewaar die waarde. 
+   
+    ![Het veld PEX-eindpunt op de projectparameter.](media/pex-endpoint.png)
+
+3. Werk het veld bij met de volgende waarde: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Producttype                         | Typeparameter |
+   |--------------------------------------|----------------|
+   | Project for the Web in standaardorganisatie   | type=0         |
+   | Project for the Web in CDS-organisatie | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Verwijder het veld uit de pagina **Projectparameters**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Bevoegdheden voor Project for the Web
 
@@ -67,7 +78,7 @@ Project Operations is afhankelijk van een externe planningsservice. De service v
 
 1. Ga naar **Instellingen > Beveiliging > Gebruikers > Toepassingsgebruikers**.  
 
-   ![Toepassingslezer](media/applicationuser.jpg)
+   ![Toepassingslezer.](media/applicationuser.jpg)
    
 2. Dubbelklik op de toepassingsgebruikersrecord om het volgende te controleren:
 
@@ -76,7 +87,7 @@ Project Operations is afhankelijk van een externe planningsservice. De service v
  
 3. Als deze gebruiker niet bestaat, kunt uw een nieuwe gebruikersrecord maken. Selecteer **Nieuwe gebruikers**. Wijzig het inschrijfformulier in **Toepassingsgebruiker** en voeg vervolgens de **Toepassings-id** toe.
 
-   ![Gegevens van toepassingsgebruiker](media/applicationuserdetails.jpg)
+   ![Gegevens van toepassingsgebruiker.](media/applicationuserdetails.jpg)
 
 4. Controleer of de gebruiker de juiste licentie heeft gekregen en of de service is ingeschakeld in de gegevens van de serviceplannen van de licentie.
 5. Controleer of de gebruiker project.microsoft.com kan openen.

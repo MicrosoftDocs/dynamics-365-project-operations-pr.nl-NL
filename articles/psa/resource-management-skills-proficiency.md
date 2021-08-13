@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008665"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990490"
 ---
 # <a name="skills-and-proficiency-models"></a>Vaardigheids- en deskundigheidsmodellen
 
@@ -33,7 +33,7 @@ Vaardigheden zijn resourcekenmerken die worden gedeeld tussen Dynamics 365 Proje
 
 Voor onderhoud van de opslagplaats van vaardigheden in Project Service Automation gaat u naar **Resources** \> **Resourcevaardigheden**. 
 
-> ![Resourcevaardigheden](media/Resource-Management-image84.png)
+> ![Resourcevaardigheden.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Resources beoordelen met deskundigheidsmodellen
 
@@ -43,7 +43,7 @@ Vaardigheden voor resources worden beoordeeld door middel van deskundigheidsmode
 2. Geef in het nieuwe beoordelingsmodel de minimale beoordelingswaarde, de maximale beoordelingswaarde en de entiteit op die wordt beoordeeld.
 3. In het subraster **Beoordelingswaarden** kunt u de verschillende beoordelingswaarden definiëren, van het minimum tot het maximum.
 
-> ![Minimale en maximale beoordelingen gedefinieerd](media/Resource-Management-image85.png)
+> ![Minimale en maximale beoordelingen gedefinieerd.](media/Resource-Management-image85.png)
 
 Deze beoordelingswaarden worden weergegeven in de filters **Resourcevereisten**, **Planbord** en **Planningsassistent**.
 

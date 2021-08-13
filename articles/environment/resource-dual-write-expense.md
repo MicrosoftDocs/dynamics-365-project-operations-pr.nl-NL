@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999980"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986575"
 ---
 # <a name="expense-management-integration"></a>Integratie van onkostenbeheer
 
@@ -28,7 +28,7 @@ Bij een volledige onkostenimplementatie worden onkostencategorieën gemaakt en o
 2. Ga in Finance naar **Onkostenbeheer** > **Instellingen** > **Gedeelde categorieën** en selecteer een gedeelde categorie met een transactieklasse **Onkosten**. Stel de parameter **Kan worden gebruikt in Onkosten** in op **Waar** en definieer het te gebruiken onkostentype.
 3. Maak met behulp van deze gedeelde categorierecord een nieuwe onkostencategorie door naar **Onkostenbeheer** > **Instellingen** > **Onkostencategorieën** te gaan en **Nieuw** te selecteren. Wanneer de record is opgeslagen, gebruikt twee keer wegschrijven de tabeltoewijzing **Exportentiteit voor projectonkostencategorieën voor integratie van Project Operations (msdyn\_expensecategories)** om deze record te synchroniseren met Dataverse.
 
-  ![Integratie van onkostencategorieën](./media/DW6ExpenseCategories.png)
+  ![Integratie van onkostencategorieën.](./media/DW6ExpenseCategories.png)
 
 Onkostencategorieën in Finance and Operations-apps zijn specifiek voor het bedrijf of de rechtspersoon. Er zijn afzonderlijke, corresponderende, rechtspersoonspecifieke records in Dataverse. Wanneer een projectmanager een kostenschatting maakt, kan deze geen onkostencategorieën selecteren die zijn gemaakt voor een project dat eigendom is van een ander bedrijf dan het bedrijf dat eigenaar is van het project waaraan hij of zij werkt. 
 
@@ -40,7 +40,7 @@ Onkostendeclaraties worden gemaakt en goedgekeurd in Finance and Operations-apps
   - Twee keer wegschrijven synchroniseert naar Dataverse via tabeltoewijzing **Exportentiteit voor projectonkosten voor integratie van Project Operations (msdyn\_expenses)**.
   - Btw-subgrootboek, subgrootboek voor leveranciers en andere financiële boekingen worden geregistreerd zoals van toepassing op het moment dat de onkostendeclaratie wordt geboekt.
 
-  ![Integratie van onkostendeclaraties](./media/DW6ExpenseReports.png)
+  ![Integratie van onkostendeclaraties.](./media/DW6ExpenseReports.png)
 
 Wanneer een record wordt weggeschreven naar de entiteit **Onkosten** in Dataverse, activeert het systeem het geautomatiseerde goedkeuringsproces van de record. Indien nodig kan de status van het geautomatiseerde goedkeuringsproces worden bekeken in Dataverse door naar **Geavanceerde instellingen** > **Systeem** > **Systeemtaken** te gaan. Nadat de goedkeuring is voltooid, worden records voor onkostentransactieklassen gemaakt in de entiteit **Werkelijke waarden**.
 

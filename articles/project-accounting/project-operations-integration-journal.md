@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304250"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987925"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integratiejournaal in Project Operations
 
@@ -19,7 +19,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Met tijd- en onkostenboekingen maakt u **werkelijke** transacties die de operationele weergave van het voltooide werk voor een project vertegenwoordigen. Dynamics 365 Project Operations biedt accountants een tool om transacties te beoordelen en de kenmerken van de financiële administratie naar behoefte aan te passen. Nadat de controle en aanpassingen zijn voltooid, worden de transacties geboekt naar de subadministratie en het grootboek van het project. Een accountant kan deze werkzaamheden uitvoeren met behulp van het **Project Operations-integratiejournaal** (**Dynamics 365 Finance** > **Projectbeheer en financiële administratie** > **Journalen** > **Project Operations-integratiejournaal**).
 
-![Integratiejournaalstroom](./media/IntegrationJournal.png)
+![Integratiejournaalstroom.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Records maken in het integratiejournaal in Project Operations
 
