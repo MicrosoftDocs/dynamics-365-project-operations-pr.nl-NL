@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433512"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008040"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van juli 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433512"
 
 Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
-   - Project Operations in Microsoft Dataverse-omgeving versie 4.12.0.148.
+   - Project Operations in Microsoft Dataverse-omgeving versie 4.12.0.148 or 4.12.0.152.
    - Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving, versie 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>In deze versie zijn de volgende functies opgenomen
@@ -79,7 +79,7 @@ Als u een probleem ondervindt bij het starten van de toewijzing, volgt u de inst
 | Algemeen                       | 2296857              | Voortgangstracering voor langlopende taken.                                                                                                                                                                        |
 | Algemeen                       | 2253682              | De oplossing voor twee keer wegschrijven van Project Operations mag niet worden geïnstalleerd wanneer de kernoplossing voor twee keer wegschrijven is geïnstalleerd in een omgeving zonder de indelingsoplossing voor twee keer wegschrijven.                                                |
 | Algemeen                       | 2316420              | De inrichting van de kern van Project Service mislukt als de business unit van de toepassingsgebruiker wordt gewijzigd.                                                                                                                     |
-
+| Algemeen                       | 2376405              | Probleem met door uitgevers aangestuurde update opgelost (kwaliteitsupdate is beschikbaar in versie 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Projectbeheer en financiële administratie in Dynamics 365 Finance
 
 | Functiegebied                      | Referentienummer | Kwaliteitsupdate                                                                                                                                                                                                                                                                                                                |

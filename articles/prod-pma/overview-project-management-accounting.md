@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369685"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007500"
 ---
 # <a name="project-management-and-accounting-overview"></a>Overzicht van projectmanagement en financiële administratie
 
@@ -34,14 +34,14 @@ Een project is een groep activiteiten die is ontworpen om een dienst te verlenen
 ## <a name="projects-across-industries"></a>Projecten in verschillende branches
 De functionaliteit voor projectmanagement en financiële administratie kan in meerdere branches worden gebruikt, zoals in de volgende afbeelding wordt getoond.
 
-[![Projecten in verschillende branches](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projecten in verschillende branches.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 In een callcenter kan een ticket worden gebruikt om de reeks acties te beschrijven die nodig zijn om een aanvraag op te lossen. Adviesbureaus, zoals management- of technische adviesorganisaties of reclamebureaus, noemen hun activiteiten projecten. In marketing vertegenwoordigt een campagne een reeks werk die moet worden geleverd. Bij productie op projectbasis heeft een productieorder betrekking op de verschillende werkzaamheden die moeten worden uitgevoerd om een aantal eindproducten te vervaardigen. Welke naam er ook voor wordt gebruikt, bij deze projecten zijn resources, planningen en kosten betrokken en de functionaliteit voor projectmanagement en financiële administratie kan helpen bij de planning, uitvoering en analyse van deze projecten.
 
 ## <a name="project-phases"></a>Projectfasen
 Hoewel de volgende processtroom is gericht op externe projecten, of projecten die voor een of meer klanten worden voltooid, is de functionaliteit ook van toepassing op interne projecten met alleen kosten. 
 
-![3 fasen van een project](./media/3-stages-of-a-project.png) 
+![3 fasen van een project.](./media/3-stages-of-a-project.png) 
 
 Zoals te zien is in de voorgaande afbeelding, kunnen projectmanagement en financiële administratie worden onderverdeeld in drie fasen:
 
@@ -50,7 +50,7 @@ Zoals te zien is in de voorgaande afbeelding, kunnen projectmanagement en financ
 3.  Analyseren
 
 ## <a name="initiate-the-project"></a>Het project opstarten
-Tijdens het opstarten van een project vinden verschillende sleutelprocessen plaats. U kunt een projectofferte gebruiken om de geschatte arbeid, kosten en hoeveelheid materialen aan de klant te communiceren. U kunt de factureringstermijnen, limieten en afspraken vastleggen in een projectcontract. U kunt een structuur voor werkspecificatie (WBS) gebruiken om het werk te plannen en in te schatten. U kunt prognoses en budgetten opstellen om de projectuitvoering te begeleiden. De volgende afbeelding toont de structuur van een project.[![projectstructuur](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Tijdens het opstarten van een project vinden verschillende sleutelprocessen plaats. U kunt een projectofferte gebruiken om de geschatte arbeid, kosten en hoeveelheid materialen aan de klant te communiceren. U kunt de factureringstermijnen, limieten en afspraken vastleggen in een projectcontract. U kunt een structuur voor werkspecificatie (WBS) gebruiken om het werk te plannen en in te schatten. U kunt prognoses en budgetten opstellen om de projectuitvoering te begeleiden. De volgende afbeelding toont de structuur van een project.[![projectstructuur.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Een projectofferte maken
 

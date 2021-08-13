@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369010"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003765"
 ---
 # <a name="invoicing-process-overview"></a>Overzicht van factuurverwerking
 
@@ -20,7 +20,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Project Operations voor scenario's op basis van resources/niet-voorradige artikelen bieden uitgebreide mogelijkheden die zijn afgestemd op de behoeften van zowel de projectmanager als de debiteurenadministrateur/projectaccountant. Voor het facturatieproces beheert de projectmanager de achterstand in projectfacturering en maakt de debiteurenadministrateur/projectaccountant een conform en nauwkeurig klantgericht factuurdocument.
 
-![Stroomschema voor facturering](./media/invoicing-flow.png)
+![Stroomschema voor facturering.](./media/invoicing-flow.png)
 
 De projectcontractregel definieert de factureringsmethode voor gekoppelde projecttransacties. Wanneer de projectmanager tijd- en onkostentransacties goedkeurt, registreert het systeem de transacties in de entiteit **Werkelijke projectwaarden** en stuurt de informatie naar de module **Projectbeheer en boekhouding** in Dynamics 365 Finance. De projectaccountant beoordeelt en boekt vervolgens de records met behulp van het [Project Operations integratiejournaal](../project-accounting/project-operations-integration-journal.md). Dit journaal bevat belangrijke boekhoudkundige details voor de werkelijke projectcijfers, zoals facturering, btw-groep, btw-groep voor factureringsitems en financiële dimensies.
 

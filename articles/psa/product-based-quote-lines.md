@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998495"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008580"
 ---
 # <a name="product-based-quote-lines"></a>Productgebaseerde prijsopgaveregels
 
@@ -58,7 +58,7 @@ Als u dit veld instelt op **Prijs negeren**, wordt er in Dynamics 365 geen stand
 
 Nadat u PSA hebt geïnstalleerd, worden standaardverkoopprijzen ingevoerd op de productgebaseerde regels van een prijsopgave. Het veld **Prijzen** wordt vervolgens ingesteld op **Prijzen negeren**, zodat u de standaardprijs op de prijsopgaveregels kunt bewerken.
 
-> ![Het negeren van prijzen instellen](media/basic-guide-10.png)
+> ![Het negeren van prijzen instellen.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Hoeveelheidsfactoren voor producten
 
@@ -78,7 +78,7 @@ Dynamics 365 kan bijvoorbeeld de volgende eigenschappen hebben:
 
 De eigenschappen **Aantal gebruikers** en **Aantal maanden** kunnen worden gemarkeerd als hoeveelheidsfactoren door de eigenschappen van de productregel te bewerken. 
 
-> ![Het markeren van Aantal gebruikers en Aantal maanden als kwaliteitsfactoren](media/basic-guide-11.png)
+> ![Het markeren van Aantal gebruikers en Aantal maanden als kwaliteitsfactoren.](media/basic-guide-11.png)
  
 
 

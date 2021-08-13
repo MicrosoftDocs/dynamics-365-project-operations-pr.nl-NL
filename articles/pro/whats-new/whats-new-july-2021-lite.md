@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433647"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009210"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Nieuwe functies juli 2021 - Project Operations Lite-implementatie
 
@@ -20,7 +20,7 @@ _Van toepassing op: Lite-implementatie - van deal tot pro-formafacturering_
 
 Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
-  - Project Operations in Dataverse-omgeving, versie 4.12.0.148.
+  - Project Operations in Dataverse-omgeving versie 4.12.0.148 or 4.12.0.152.
 
 ## <a name="quality-updates"></a>Kwaliteitsupdates
 | **Functiegebied**              | **Referentienummer** | **Kwaliteitsupdate**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 | Algemeen                       | 2296857              | Voortgangstracering voor langlopende taken.                                                                                                                                                                        |
 | Algemeen                       | 2253682              | De oplossing voor twee keer wegschrijven van Project Operations mag niet worden geïnstalleerd wanneer de kernoplossing voor twee keer wegschrijven is geïnstalleerd in een omgeving zonder de indelingsoplossing voor twee keer wegschrijven.                                                |
 | Algemeen                       | 2316420              | De inrichting van de kern van Project Service mislukt als de business unit van de toepassingsgebruiker wordt gewijzigd.                                                                                                                     |
+| Algemeen                       | 2376405              | Probleem met door uitgevers aangestuurde update opgelost (kwaliteitsupdate is beschikbaar in versie 4.12.0.152)                                                                                                                     |

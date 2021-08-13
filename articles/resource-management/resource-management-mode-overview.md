@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367885"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008220"
 ---
 # <a name="resource-management-modes-overview"></a>Overzicht van resourcebeheermodi
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations ondersteunt twee modi zodat u de algehele boekin
 ## <a name="central-mode"></a>Centrale modus
 Voor organisaties die de toewijzing van resources aan projecten centraal regelen, vormt de modus Centraal een manier waarmee projectmanagers resourcevereisten op projectniveau kunnen definiëren. Het voldoen aan de resourcevereisten wordt gedelegeerd aan een resourcemanager. Projectmanagers kunnen resources accepteren of weigeren die door de resourcemanager worden voorgesteld.
 
-![Centrale modus](./media/resource-management-central.png)
+![Centrale modus.](./media/resource-management-central.png)
 
 Om resources te beheren met de Centrale modus, zie:
 
@@ -37,7 +37,7 @@ Om resources te beheren met de Centrale modus, zie:
 ## <a name="hybrid-mode"></a>Hybride modus
 In organisaties die flexibiliteit bij de toewijzing van resources nodig hebben, kunnen in de hybride modus zowel projectmanagers als resourcemanagers resources boeken.
 
-![Hybride modus](./media/resource-management-hybrid.png)
+![Hybride modus.](./media/resource-management-hybrid.png)
 
 Naast het ondersteunde proces in de centrale modus vindt u in de volgende onderwerpen informatie om alle andere ondersteunde boekingsstromen in de hybride modus te beheren:
 

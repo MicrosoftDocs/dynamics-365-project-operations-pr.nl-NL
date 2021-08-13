@@ -2,7 +2,7 @@
 title: Updatereleaseschema voor Project Service 3.x
 description: Dit onderwerp biedt informatie over de beschikbare en aankomende releases van Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.reviewer: kfend
 ms.prod: ''
 ms.suite: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 332e1f97816145da00e1fcff9c293414578d6b29
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334866"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024822"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Updatereleaseschema voor Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "6334866"
 
 | Oplossing  | Nieuwste versie |
 |-------|----|
-| Project Service Automation    | 3.10.54.98 |
+| Project Service Automation    | 3.10.55.38 |
 | Invoegtoepassing voor Project Service Automation-bureaublad                | 3.15          |
 
 Meer informatie over updates voor Project Service vindt u in [Releaseplannen voor Dynamics 365](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ Meer informatie over updates voor Project Service vindt u in [Releaseplannen voo
 | Station  | Regio | Huidige versie | Volgende versie |  Geplande datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>Eerste versie</i> | [3.10.54.98](whats-new-ur-33.md) | N.t.b. | 28 juli 2021
+| | <i>Eerste versie</i> | [3.10.55.38](whats-new-ur-34.md) | N.t.b. | 27 augustus 2021
 |<strong>Station 2</strong> | |  |  | |
-| | <i>Zuid-Amerika</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juli 2021
-| | <i>Canada</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juli 2021
-| | <i>India</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juli 2021
-| | <i>Frankrijk</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juli 2021
-| | <i>Verenigde Arabische Emiraten</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juli 2021
-| | <i>Zuid-Afrika</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juli 2021
-| | <i>Duitsland</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juli 2021
-| | <i>Zwitserland</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 juli 2021
+| | <i>Zuid-Amerika</i> | [3.10.55.38](whats-new-ur-34.md) | N.t.b. | 03 september 2021
+| | <i>Canada</i> | [3.10.55.38](whats-new-ur-34.md) | N.t.b. | 03 september 2021
+| | <i>India</i> | [3.10.55.38](whats-new-ur-34.md) | N.t.b. | 03 september 2021
+| | <i>Frankrijk</i> | [3.10.55.38](whats-new-ur-34.md) | N.t.b. | 03 september 2021
+| | <i>Verenigde Arabische Emiraten</i> | [3.10.55.38](whats-new-ur-34.md) | N.t.b. | 03 september 2021
+| | <i>Zuid-Afrika</i> | [3.10.55.38](whats-new-ur-34.md) | N.t.b. | 03 september 2021
+| | <i>Duitsland</i> | [3.10.55.38](whats-new-ur-34.md) | N.t.b. | 03 september 2021
+| | <i>Zwitserland</i> | [3.10.55.38](whats-new-ur-34.md) | N.t.b. | 03 september 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 juli 2021
-| | <i>Azië en Stille Oceaan</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 juli 2021
-| | <i>Groot-Brittannië</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 juli 2021
-| | <i>Oceanië</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 juli 2021
+| | <i>Japan</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 augustus 2021
+| | <i>Azië en Stille Oceaan</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 augustus 2021
+| | <i>Groot-Brittannië</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 augustus 2021
+| | <i>Oceanië</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 augustus 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 23 juli 2021
+| | <i>Europa</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 20 augustus 2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Noord-Amerika</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 juli 2021
+| | <i>Noord-Amerika</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 augustus 2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 juli 2021
-| | <i>Speciale schaalgroepen</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 06 augustus 2021
+| | <i>Government Community Cloud</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 augustus 2021
+| | <i>Speciale schaalgroepen</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 03 september 2021
 
 >[!Note]
 > - Datums in alle regio's behalve Government Community Cloud (GCC) geven aan wanneer de volgende automatische update plaatsvindt. Datums in GCC geven de beschikbaarheid van de versie aan; op dit moment is er geen automatische update voor deze regio's.

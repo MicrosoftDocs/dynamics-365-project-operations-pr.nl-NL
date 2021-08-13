@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999035"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007410"
 ---
 # <a name="manage-resource-competencies"></a>Resourcecompetenties beheren
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999035"
 
 Resourcecompetenties vormen een essentieel onderdeel van resourcebeheer. Competenties kunnen als basis worden gebruikt om resources te bepalen die over de juiste balans tussen vaardigheden, opleiding, certificering en projectervaring beschikken. U dient deze informatie voor elke resource in te stellen en deze regelmatig bij te werken. Op deze manier kunt u de mogelijkheden maximaliseren wanneer specifieke resourcecompetenties worden afgestemd tijdens de toewijzing van projectresources.
 
-[![Voorbeelden van vaardigheden, certificeringen, opleiding en projectervaring](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Voorbeelden van vaardigheden, certificeringen, opleiding en projectervaring.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 In de volgende procedures wordt uitgelegd hoe u enkele van de competenties voor een resource instelt.
 

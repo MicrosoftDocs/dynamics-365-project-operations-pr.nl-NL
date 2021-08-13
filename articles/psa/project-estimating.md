@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009160"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002550"
 ---
 # <a name="project-costs-and-revenue"></a>Projectkosten en -opbrengsten
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009160"
 
 Projectschattingen bieden de financiële weergave voor werk dat wordt geschat en gepland in de projectplanning. Op het tabblad **Schattingen** op de pagina **Projecten** ziet u welke impact het door u geplande werk heeft op de kosten en de omzet. Het tabblad biedt ook informatie over vele vooraf gedefinieerde dimensies. 
 
-> ![Tabblad Schattingen](media/project-5.png)
+> ![Tabblad Schattingen.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Kosten en verkoopwaarden van het project
 
@@ -66,13 +66,13 @@ Als het systeem geen prijs voor de rol vindt, wordt de verkoopprijs op de schatt
 
 Het tabblad **Schattingen** heeft een rasterweergave waarin schattingsregels worden weergegeven. Het raster bevat kolommen voor de eenheid, de totale kostprijs en de totale verkoopprijs, zoals in de volgende afbeelding wordt weergegeven. 
 
-> ![Rasterweergave op het tabblad Schattingen](media/project-6.png)
+> ![Rasterweergave op het tabblad Schattingen.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Weergave van projectschattingen tijdgebonden
 
 De tijdgebonden weergave van projectschattingen toont de schattingsgegevens uit de rasterweergave op de tijdlijn, in een tijdschaal die u selecteert. Standaard worden de schattingsgegevens rond de dimensie **Rol** gedraaid.
 
-> ![Tijdgebonden weergave voor projectschattingen](media/project-7.png)
+> ![Tijdgebonden weergave voor projectschattingen.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Geschatte inspanning toewijzen op basis van de taakmodus
 

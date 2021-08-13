@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025768"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003810"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Toewijzingsversies van twee keer wegschrijven voor Project Operations
 
@@ -32,7 +32,7 @@ De volgende kaarten zijn vereisten voor de Project Operations-oplossing. Zorg er
 
 1. Selecteer in de lijst met toewijzingen de toewijzing **(msdyn\_ledgers)** met alle vereisten en schakel het selectievakje **Initiële synchronisatie** in. Selecteer in het veld **Model voor initiële synchronisatie** de optie **Finance and Operations-apps** voor zowel grootboekkaarten als alle vereiste kaarten. Selecteer **Uitvoeren**.
 
-![Synchronisatie van grootboektoewijzing](media/DW6.png)
+![Synchronisatie van grootboektoewijzing.](media/DW6.png)
 
 2. Volg dezelfde stappen voor alle resterende tabeltoewijzingen die in de bovenstaande tabel worden vermeld. Schakel het selectievakje **Initiële synchronisatie** niet in bij het uitvoeren van die kaarten.
 
@@ -65,7 +65,7 @@ Voer de volgende stappen uit om de weergegeven kaarten uit te voeren.
 
 1. Schakel de Project-resourcerollen in voor de tabeltoewijzing **alle bedrijven (bookableresourcecategories)** aangezien deze map de initiële synchronisatie vereist. Selecteer in het veld **Model voor initiële synchronisatie** het veld **Common Data Service**. 
 
- ![Synchronisatie van de tabeltoewijzing voor resourcerollen](media/6ResourceInitialSync.jpg)
+ ![Synchronisatie van de tabeltoewijzing voor resourcerollen.](media/6ResourceInitialSync.jpg)
 
  Wacht tot de status van de kaart **Actief** is voordat u naar de volgende stap gaat.
 
