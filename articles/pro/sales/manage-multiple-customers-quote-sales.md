@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001650"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440771"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Meerdere klanten in projectprijsopgaven beheren - lite
 
@@ -37,7 +37,7 @@ Een prijsopgaveklant kan worden gemaakt, bijgewerkt of verwijderd via het tabbla
 
 | **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
-| Account | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Geeft een overzicht van alle actieve accounts. Dit veld is vergrendeld nadat de record is gemaakt. Als u wilt bijwerken, verwijdert u de record en maakt u deze opnieuw. Als u werkelijke gegevens hebt vastgelegd of als de record van de klant van de prijsopgave een primaire klant is, mag u de record verwijderen. | Prijsopgaveklanten worden gekopieerd als prijsopgaveregelklanten wanneer een prijsopgaveregel wordt aangemaakt. Prijsopgaveklanten worden ook gekopieerd naar de projectcontractklanten wanneer een prijsopgave wordt geaccepteerd. |
+| Account | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Geeft een overzicht van alle actieve accounts. Dit veld is vergrendeld nadat de record is gemaakt. Als u wilt bijwerken, verwijdert u de record en maakt u deze opnieuw. Als u werkelijke waarden hebt vastgelegd, of als de klantenrecord van de prijsopgave een primaire klant is, mag u de record niet verwijderen. | Prijsopgaveklanten worden gekopieerd als prijsopgaveregelklanten wanneer een prijsopgaveregel wordt aangemaakt. Prijsopgaveklanten worden ook gekopieerd naar de projectcontractklanten wanneer een prijsopgave wordt geaccepteerd. |
 | Gesplitst percentage facturering | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Geven het percentage aan van elke niet-gefactureerde verkooptransactie die aan deze prijsopgaveklant wordt toegewezen. | Gekopieerd naar nieuwe prijsopgaveregels en projectcontractklanten. |
 | Naam van de contactpersoon voor de factuur | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Dit is een tekstveld dat wordt gebruikt om de contactpersoon voor de factuur voor deze klant aan te geven. Deze zijn standaard ingesteld uit de gerelateerde accountrecord | Worden gekopieerd naar projectcontractklanten wanneer een prijsopgave wordt geaccepteerd en op zijn beurt naar het veld Naam van de contactpersoon voor de factuur die voor deze klant wordt gegenereerd. |
 | Naam voor factuur | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Dit is een tekstveld dat wordt gebruikt om de contactpersoon voor de factuur voor deze klant aan te geven. | Wordt gekopieerd naar projectcontractklanten wanneer een prijsopgave wordt geaccepteerd en op zijn beurt naar het veld **Naam van de contactpersoon voor de factuur** die voor deze klant wordt gegenereerd. |

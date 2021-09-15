@@ -4,6 +4,8 @@
   items:
     - name: Het type implementatie bepalen
       href: environment/determine-deployment-type.md
+    - name: Aanmelden voor proefversies van Project Operations
+      href: environment/admin-trials.md
     - name: Updates voor Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nieuwe functies
       items:
+        - name: Augustus 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juli 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Juni 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -418,6 +422,8 @@
       items:
         - name: Overzicht van goedkeuringen
           href: approvals/approvals-overview.md
+        - name: Goedkeuringssets
+          href: approvals/approval-sets.md
         - name: Opmerkingen van de ontwikkelaar
           items:
             - name: Opmerkingen van de ontwikkelaar voor goedkeuringen
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Nieuwe functies
       items:
+        - name: Nieuw in versie voor vroege toegang van wave 2 voor 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nieuw in augustus 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Nieuw in juli 2021 - lite-implementatie
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Nieuw in juni 2021 - lite-implementatie
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Onderaannemingsbeheer in Project Operations
       items:
-        - name: Overzicht van het beheren van subcontracten
+        - name: Onderaannemingsbeheer in Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Onderaanneming in versie voor vroege toegang van oktober 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Belangrijke concepten bij onderaanneming
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Leveranciers en projectprijslijsten beheren
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Onderaannemers als boekbare resources
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Koptekstdetails voor subcontracten
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Subcontractregels voor tijd
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Subcontractregels voor onkosten
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Subcontractregels voor producten
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Resources voor subcontractregels
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Mijlpalen voor subcontractregels
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Tijd
       items:
         - name: Overzicht van tijd
@@ -868,6 +892,8 @@
       items:
         - name: Overzicht van goedkeuringen
           href: approvals/approvals-overview.md
+        - name: Goedkeuringssets
+          href: approvals/approval-sets.md
         - name: Opmerkingen van de ontwikkelaar
           items:
             - name: Opmerkingen van de ontwikkelaar voor goedkeuringen
@@ -1060,6 +1086,8 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Wekelijkse tijdsvermeldingen aanpassen
               href: psa/time-entry-extensibility-v3.md
-            - name: Goedkeuringssets
+            - name: Goedkeuringssets in Project Service Automation
               href: psa/approval-set.md
     - name: Veelgestelde vragen en problemen oplossen (3.x)
       items:
