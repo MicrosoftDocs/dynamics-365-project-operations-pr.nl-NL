@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Nieuwe functies
       items:
+        - name: Oktober 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: September 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Augustus 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Juli 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -292,7 +296,7 @@
           items:
             - name: Projectsjablonen ontwikkelen met Project kopiëren
               href: project-management/dev-copy-project.md
-            - name: Plannings-API's voor Project gebruiken (openbare preview)
+            - name: API's voor projectplanning gebruiken
               href: project-management/schedule-api-preview.md
     - name: Resourcebeheer
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Niet-voorradige materialen voor projecten aanschaffen via in behandeling zijnde leveranciersfacturen
           href: procurement/pending-vendor-invoices.md
+        - name: Niet-voorradige materialen bestellen voor projecten met behulp van projectinkooporders
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Leveranciersretentie
+          items:
+            - name: Overzicht van leveranciersretentie
+              href: procurement/vendor-retention-overview.md
+            - name: Leveranciersretentie instellen
+              href: procurement/set-up-vendor-retention.md
     - name: Facturering
       items:
         - name: Overzicht van factureringsproces
@@ -528,6 +540,10 @@
       items:
         - name: Nieuw in versie voor vroege toegang van wave 2 voor 2021 - lite-implementatie
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nieuw in oktober 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Nieuw in september 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Nieuw in augustus 2021 - lite-implementatie
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Nieuw in juli 2021 - lite-implementatie
@@ -784,7 +800,7 @@
           items:
             - name: Projectsjablonen ontwikkelen met Project kopiëren
               href: project-management/dev-copy-project.md
-            - name: Plannings-API's voor Project gebruiken (openbare preview)
+            - name: API's voor projectplanning gebruiken
               href: project-management/schedule-api-preview.md
     - name: Resourcebeheer
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Subcontractregels voor tijd
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Subcontractregels voor onkosten
+        - name: Subcontractregels voor onkostencategorieën
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Subcontractregels voor producten
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 34, V3'
