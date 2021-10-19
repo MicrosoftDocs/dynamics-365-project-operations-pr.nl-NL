@@ -2,16 +2,16 @@
 title: Koptekstdetails voor subcontracten
 description: In dit wordt de functionaliteit uitgelegd die wordt geboden in de koptekst voor subcontracten in Project Operations.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 49158af1a430033db3a5db57a840512c45bc17e2
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323635"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501320"
 ---
 # <a name="header-details-for-subcontracts"></a>Koptekstdetails voor subcontracten
 
@@ -28,26 +28,24 @@ Voer de volgende stappen uit om een subcontract te maken.
 1. Selecteer in het navigatievenster de optie **Subcontracten** en selecteer op de pagina **Subcontract** de optie **Nieuw**.
 2. Geef de vereiste informatie op en selecteer vervolgens **Opslaan**.
 
-    De volgende tabel bevat informatie over de velden op de koptekstpagina Subcontract.
+    De volgende tabel bevat informatie over de velden op de pagina **Koptekst subcontract**.
 
-    | **Veld** | **Beschrijving** |
-    | --- | --- | 
-    | Meetcriterium | De naam van het subcontract. |
-    | Beschrijving | Een korte beschrijving van services en producten die worden gekocht in het subcontract. |
-    | Verkoper | De naam van het bedrijf waarvan de producten en diensten worden gekocht. Deze accountrecord heeft het relatietype **Verkoper** of **Leverancier**. |
-    | Datum subcontract | De datum waarop het subcontract is gemaakt. |
-    | Reden van status  | De status van het subcontract. |
-    | Valuta | De valuta waarin producten en diensten worden gekocht. De waarde in dit veld is standaard afkomstig van de leveranciersrekening, maar kan worden gewijzigd. Projectprijslijsten die worden gebruikt voor de prijsstelling van producten en diensten in het subcontract moeten in deze valuta zijn. Prijslijsten in een andere valuta kunnen niet aan het subcontract worden gekoppeld. De kosten van producten en diensten die in dit subcontract zijn gemaakt, worden in deze valuta voor het project geboekt. |
-    | Contracterende eenheid | De afdeling van het bedrijf die een koop- of een subcontractovereenkomst aangaat met de leverancier. |
-    | Betalingsvoorwaarden | De betalingsvoorwaarden op de leveranciersfacturen die zijn uitgegeven voor dit subcontract. De waarde in dit veld is standaard afkomstig van de leveranciersrekeningrecord. |
-    | Betalingsadres | Het adres waarnaar de betaling op leveranciersfacturen naartoe wordt gestuurd. De waarde in dit veld is standaard afkomstig van de leveranciersrekeningrecord. |
-    | Naam voor factuur | De naam van de persoon of afdeling in het bedrijf van de leverancier die de factuur verzendt. De waarde in dit veld komt standaard uit de leveranciersaccountrecord en wordt gebruikt als de naam van de primaire contactpersoon op leveranciersfacturen die voor dit subcontract zijn gemaakt. |
-    | Factuuradres | Het adres dat wordt gebruikt op facturen van deze leverancier. De waarde in dit veld is standaard afkomstig van de leveranciersrekeningrecord. Dit adres wordt ook gebruikt als het factuurafzenderadres op leveranciersfacturen die voor dit subcontract zijn gemaakt. |
-    | Subtotaal | Als een subcontract geen regels bevat, voert u in dit veld een waarde in die het ordersubtotaal vóór belastingen aangeeft. Als het subcontract regels heeft, is dit veld alleen-lezen. Het weergegeven bedrag is het subtotaalbedrag van alle regels in het subcontract. |
-    | Totale belasting | Als een subcontract geen regels bevat, voert u in dit veld een waarde in voor de belastingen in dit subcontract. Als het subcontract regels heeft, is dit veld alleen-lezen. Het weergegeven bedrag is het totaal van het belastingbedrag van alle regels in het subcontract. |
-    | Totale bedrag |  Dit berekende veld toont het totale bedrag van de subcontract, inclusief belastingen.  |
-    | Bevestigde datum | De datum waarop het subcontract is bevestigd.  |
-    | Aangevraagd door | De waarde in dit veld is standaard de naam van de gebruiker die het subcontract maakt. Deze waarde kan worden gewijzigd door de maker van het subcontract om de persoon aan te duiden namens wie het subcontract wordt gemaakt.  |
-    | Leveranciersaccountmanager | De naam van de primaire contactpersoon van de leveranciersrekening. De waarde in dit veld is standaard afkomstig van de leveranciersrekeningrecord. Deze veldwaarde kan door de gebruiker worden gewijzigd om een andere contactpersoon te selecteren als de accountmanager van de leverancier van het subcontract. E-mailwaarschuwingen en prijsonderhandelingen kunnen door deze contactpersoon worden geconfigureerd en verzonden. |
-
-
+    | Veld | Beschrijving |Functionele impact |
+    |---|------|---| 
+    | Meetcriterium | De naam van het subcontract. | In alle vervolgkeuzelijsten voor subcontracten wordt de naam van het subcontract vermeld in de eerste kolom om u te helpen bij het identificeren van het subcontract. | 
+    | Beschrijving | Een korte beschrijving van services en producten die worden gekocht in het subcontract. | Geen |
+    | Verkoper | De naam van het bedrijf waarvan de producten en diensten worden gekocht. Deze accountrecord heeft het relatietype **Verkoper** of **Leverancier**. | Op basis van de geselecteerde leverancier worden automatisch standaardwaarden ingevoerd voor de volgende velden:<br/> **• Valuta** </br> **• Prijslijsten** </br> **• Betalingsvoorwaarden**</br> **• Betalingsadres**</br> **• Factuuradres**</br> **• Naam voor factuur** </br>**• Leveranciersaccountmanager**|
+    | Datum subcontract | De datum waarop het subcontract is gemaakt. | De datum van het subcontract wordt gebruikt om de juiste inkoopprijslijst te selecteren uit de prijslijsten die aan de gerelateerde leverancier zijn gekoppeld of uit de projectparameters. |
+    | Reden van status | De status van het subcontract. | De status bepaalt waar het subcontract zich in het bedrijfsproces bevindt en of het kan worden bewerkt. <br/>Tot de waarden behoren:<br>• **Concept**: het subcontract kan worden bewerkt. U kunt alleen subcontracten bewerken met de status **Concept**.<br/>• **Bevestigd**: de onderhandeling met de verkoper is afgerond en het subcontract is goedgekeurd voor levering. <br/>• **Gesloten**: de levering volgens het subcontract is voltooid.<br/>• **Geannuleerd**: het subcontract is geannuleerd en er is geen levering gepland.  | 
+    | Valuta | De valuta waarin producten en services worden gekocht. De standaardwaarde wordt automatisch ingevoerd vanuit het leveranciersaccount, maar kan worden gewijzigd. | De valuta van het subcontract wordt gebruikt om de inkoopprijslijst te selecteren uit de prijslijsten die aan de gerelateerde leverancier zijn gekoppeld of uit de projectparameters. Prijslijsten in een andere valuta kunnen niet aan het subcontract worden gekoppeld. De kosten van tijd, uitgaven en materialen die leveranciersresources uit dit subcontract leveren, worden in deze valuta vastgelegd voor het project. Nadat de subcontractrecord is opgeslagen, kan de valuta op het subcontract niet meer worden gewijzigd.|
+    | Contracterende eenheid | De afdeling van het bedrijf die een koop- of een subcontractovereenkomst aangaat met de leverancier. | Geen |
+    | Betalingsvoorwaarden | De betalingsvoorwaarden op leveranciersfacturen die zijn uitgegeven voor dit subcontract. De standaardwaarde wordt automatisch ingevoerd vanuit de leveranciersaccountrecord. | Betalingscondities uit het subcontract worden gekopieerd naar alle leveranciersfacturen die betrekking hebben op dit subcontract. Betalingsvoorwaarden kunnen worden bijgewerkt als het subcontract de status **Concept** heeft. | 
+    | Betalingsadres | Het adres van de leverancier waarnaar de betalingen moeten worden verzonden. De standaardwaarde wordt automatisch ingevoerd vanuit de leveranciersaccountrecord. | Het betalingsadres van het subcontract wordt als betalingsadres gekopieerd naar alle leveranciersfacturen die voor dit subcontract worden gemaakt. Het betalingsadres kan worden bijgewerkt als het subcontract de status **Concept** heeft.|
+    | Naam voor factuur | De naam van de persoon of afdeling in het bedrijf van de leverancier die de factuur verzendt. De standaardwaarde wordt automatisch ingevoerd vanuit de leveranciersaccountrecord. | De waarde bij **Naam voor factuur** uit het subcontract wordt gekopieerd naar alle leveranciersfacturen die betrekking hebben op dit subcontract. Dit veld kan worden bijgewerkt als het subcontract de status **Concept** heeft.|
+    | Factuuradres | Het adres dat wordt gebruikt op facturen van de leverancier. De standaardwaarde wordt automatisch ingevoerd vanuit de leveranciersaccountrecord. | Dit adres is het "factuur van"-adres op leveranciersfacturen die voor dit subcontract zijn gemaakt. |
+    | Subtotaal | Als een subcontract geen regels heeft, voert u het subtotaal van de order vóór belastingen in. Als het subcontract regels heeft, is dit veld alleen-lezen. Het weergegeven bedrag is het subtotaalbedrag van alle regels op het subcontract. | Geen |
+    | Totale belasting | Als een subcontract geen regels heeft, voert u de totale belastingen voor dit subcontract in. Als het subcontract regels heeft, is dit veld alleen-lezen. Het weergegeven bedrag is de som van het belastingbedrag van alle regels op het subcontract. | Geen |
+    | Totale bedrag | Dit berekende veld toont het totale bedrag van de subcontract, inclusief belastingen. | Geen |
+    | Bevestigde datum | De datum waarop het subcontract is bevestigd. | Geen |
+    | Aangevraagd door | Dit veld is standaard ingesteld op de naam van de gebruiker die het subcontract maakt. De maker van het subcontract kan de waarde echter wijzigen om de persoon aan te geven voor wie hij het subcontract maakt. | Geen |
+    | Leveranciersaccountmanager | De naam van de primaire contactpersoon van de leveranciersrekening. De standaardwaarde wordt automatisch ingevoerd vanuit de leveranciersaccountrecord. U kunt een andere contactpersoon selecteren als de leveranciersaccountmanager van het subcontract. | U kunt e-mailwaarschuwingen instellen om de contactpersoon op de hoogte te stellen wanneer er wijzigingen worden aangebracht in het subcontract als gevolg van prijsonderhandelingen. |

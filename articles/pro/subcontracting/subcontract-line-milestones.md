@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323770"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558496"
 ---
 # <a name="subcontract-line-milestones"></a>Mijlpalen voor subcontractregels
 
@@ -50,15 +50,15 @@ Mijlpalen met een vaste prijs op een subcontractregel kunnen handmatig worden ge
 3. Selecteer op het tabblad **Mijlpalen voor subcontractregels** in het subraster **+ Nieuwe mijlpaal voor subcontractregels**.
 4. Voer op de pagina **Nieuwe mijlpaal voor subcontractregels** de vereiste informatie in op basis van de volgende tabel.
 
-    | Veld | Beschrijving |
-    | --- | --- |
-    | Naam van mijlpaal | De naam van de mijlpaal. |
-    | Beschrijving | Een beschrijving van de mijlpaal.  |
-    | Datum van mijlpaal | De datum waarop het proces voor het automatisch aanmaken van facturen moet zoeken naar de status van deze mijlpaal om deze in overweging te nemen voor facturering. Deze waarde wordt opgenomen op de leveranciersfactuurregel bij facturering voor dit subcontract. |
-    | Hoeveelheid | Het bedrag of de waarde van de mijlpaal die aan de klant wordt gefactureerd. Deze waarde wordt opgenomen op de leveranciersfactuurregel bij facturering voor dit subcontract. |
-    | Belastingen | Het belastingbedrag dat is toegepast op de mijlpaal. Deze waarde wordt opgenomen op de leveranciersfactuurregel bij facturering voor dit subcontract. |
-    | Bedrag na belasting | Dit alleen-lezen veld dat wordt berekend als bedrag + belasting. Deze waarde wordt opgenomen op de leveranciersfactuurregel bij facturering voor dit subcontract. |
-    | Factuurstatus | Wanneer de mijlpaal wordt gemaakt, wordt deze status altijd ingesteld op **Niet gereed voor facturering**.  Wanneer de status **Gereed voor facturering**, wordt deze mijlpaal opgenomen in de leveranciersfactuur. |
+    | Veld | Beschrijving |Functionele impact|
+    | --- | --- |----------------------|
+    | Naam van mijlpaal | De naam van de mijlpaal. |Dit wordt weergegeven als de eerste kolom in alle zoekopdrachten op basis van mijlpalen voor subcontractregels. De leveranciersfactuurregel die op basis van deze mijlpaal wordt gemaakt, gebruikt ook de naam van de mijlpaal van de subcontractregel als de standaardnaam van de leveranciersfactuurregel.|
+    | Beschrijving | Een beschrijving van de mijlpaal. |De leveranciersfactuurregel die op basis van deze mijlpaal wordt gemaakt, gebruikt ook de beschrijving van de mijlpaal van de subcontractregel als de standaardbeschrijving van de leveranciersfactuurregel.|
+    | Datum van mijlpaal | De datum waarop het proces voor het automatisch aanmaken van facturen moet zoeken naar de status van deze mijlpaal om deze in overweging te nemen voor facturering.| Deze waarde wordt gebruikt als de standaarddatum van de leveranciersfactuurregel bij facturering van deze subcontractregel. |
+    | Hoeveelheid | Het bedrag of de waarde van de mijlpaal die aan de klant wordt gefactureerd. |Deze waarde wordt gebruikt als het standaardbedrag op de leveranciersfactuurregel bij facturering van deze subcontractregel. |
+    | Belastingen | Het belastingbedrag dat is toegepast op de mijlpaal.| Deze waarde wordt gebruikt als het standaardbelastingbedrag op de leveranciersfactuurregel bij facturering van deze subcontractregel. |
+    | Bedrag na belasting | Dit alleen-lezen veld wordt berekend als Bedrag + Btw.|Deze waarde wordt gebruikt als de standaardwaarde op de leveranciersfactuurregel bij facturering van deze subcontractregel. |
+    | Factuurstatus | Wanneer de mijlpaal wordt gemaakt, wordt deze status altijd ingesteld op **Niet gereed voor facturering**.|  Wanneer de status **Gereed voor facturering**, wordt deze mijlpaal opgenomen in de leveranciersfactuur. |
 
 5. Selecteer **Opslaan en sluiten**.
 

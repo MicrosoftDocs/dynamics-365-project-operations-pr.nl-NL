@@ -2,16 +2,16 @@
 title: Aanmelden voor proefversie van Project Operations
 description: Dit onderwerp bevat informatie over het implementeren van een proefversie van Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418451"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599207"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Aanmelden voor proefversie van Project Operations 
 
@@ -85,15 +85,9 @@ Voordat u begint, meldt u zich aan via een browser met de gebruikerswerkaccount 
 
    Nadat de inrichting is gestart, wordt u omgeleid naar de omgevingslijst in het Power Platform-beheercentrum. Terwijl de inrichting wordt uitgevoerd, is de status van uw omgeving **PreparingInstance**.
  
-  Als de inrichting is voltooid, is de status van uw omgeving **Gereed**.
+  Wanneer de inrichting is voltooid, is de status van uw omgeving **Gereed**. Het inrichten van de omgeving omvat het implementeren van demogegevens.
  
-4.  Wanneer de inrichting is voltooid, selecteert u de betreffende Microsoft Dataverse-URL en de URL's van de Finance and Operations-apps om de implementatie te valideren.
-
-## <a name="demo-data-installation"></a>Installatie van demogegevens
-
-Gebruik de volgende koppelingen om toegang te krijgen tot demogegevenspakketten voor niet-voorradige materialen als Lite-implementatiescenario's. 
-- [Demogegevens voor niet-voorradig materiaal](resource-apply-pro-setup-config-data.md)
-- [Lite-demogegevens](lite-apply-demo-setup-config-data.md)
+4.  Selecteer de respectievelijke URL voor Microsoft Dataverse en de URL's voor Finance and Operations-apps om de implementatie te valideren.
 
 ## <a name="configuring-dual-write"></a>Twee keer wegschrijven configureren
 Configureer uw toewijzingen voor Twee keer wegschrijven voor niet-voorradige materiaalimplementaties. Zie voor meer informatie [Toewijzingsversies van dubbel wegschrijven voor Project Operations](resource-dual-write-maps.md).

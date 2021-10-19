@@ -2,17 +2,17 @@
 title: Niet-voorradige materialen aanschaffen via een in behandeling zijnde leveranciersfactuur
 description: In dit onderwerp wordt uitgelegd hoe u in behandeling zijnde leveranciersfacturen registreert.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009030"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547283"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Niet-voorradige materialen aanschaffen via een in behandeling zijnde leveranciersfactuur
 
@@ -20,7 +20,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Als een bedrijf niet-voorradig materiaal voor een project aanschaft, kunnen de kosten direct op het project worden geboekt. 
 
-Stel bijvoorbeeld dat Contoso Robotics US een vernieuwingsproject voor apparatuur uitvoert en softwarelicenties nodig heeft. Deze licenties worden aangeschaft bij een externe leverancier.  Met behulp van Dynamics 365 Finance registreert de crediteurenadministrateur een in behandeling zijnde leveranciersfactuur en rekent de licentiekosten rechtstreeks toe aan het vernieuwingsproject voor apparatuur. 
+Contoso Robotics US voert bijvoorbeeld een vernieuwingsproject voor apparatuur uit en heeft softwarelicenties nodig. Deze licenties worden aangeschaft bij een externe leverancier.  Met behulp van Dynamics 365 Finance registreert de crediteurenadministrateur een in behandeling zijnde leveranciersfactuur en rekent de licentiekosten rechtstreeks toe aan het vernieuwingsproject voor apparatuur. 
 
 > [!IMPORTANT]
 > Voordat u de functionaliteit gebruikt die in dit onderwerp wordt beschreven, moet u de vereiste configuraties bekijken en toepassen. Zie [Niet-voorradige materialen en in behandeling zijnde leveranciersfacturen inschakelen](configure-materials-nonstocked.md) voor meer informatie. 
@@ -45,4 +45,5 @@ In behandeling zijnde leveranciersfacturen kunnen worden geregistreerd op de pag
     - Het saldo van de leverancier.
     - Het bedrag aan omzetbelasting.
     - De kosten voor het project worden geboekt op het inkoopintegratieaccount.
-    - De daadwerkelijke transactie van het project in Dataverse. Deze transactie wordt verder verwerkt met behulp van het [Project Operations Integration-journaal](../project-accounting/project-operations-integration-journal.md). Als dit journaal wordt geboekt, wordt het bedrag van het inkoopintegratieaccount verplaatst naar het projectkostenaccount.
+    - De werkelijke kostentransactie van het project in Dataverse.  Deze transactie wordt verder verwerkt met behulp van het [Project Operations Integration-journaal](../project-accounting/project-operations-integration-journal.md). Als dit journaal wordt geboekt, wordt het bedrag van het inkoopintegratieaccount verplaatst naar het projectkostenaccount. 
+    - Aankopen die worden gefactureerd aan de projectklant met behulp van de factureringsmethode voor tijd en materialen. Daarnaast worden nog niet-gefactureerde verkooptransacties voor de aankopen gemaakt in Dataverse. De productprijslijst in Dataverse wordt gebruikt voor de verkoopprijzen en bedragen voor niet-gefactureerde verkooptransacties.

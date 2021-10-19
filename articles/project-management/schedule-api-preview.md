@@ -2,23 +2,22 @@
 title: API's voor projectplanning gebruiken om bewerkingen uit te voeren met planningsentiteiten
 description: Dit onderwerp biedt informatie en voorbeelden voor het gebruik van API's voor projectplanning.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008760"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487679"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>API's voor projectplanning gebruiken om bewerkingen uit te voeren met planningsentiteiten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-> [!IMPORTANT] 
-> Enkele of alle functionaliteiten die in dit onderwerp worden vermeld, is beschikbaar als onderdeel van een preview-versie. De inhoud en functionaliteit zijn aan verandering onderhevig. 
+
 
 ## <a name="scheduling-entities"></a>Planningsentiteiten
 

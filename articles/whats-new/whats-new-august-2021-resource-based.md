@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323455"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501365"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van augustus 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -31,7 +31,7 @@ In deze versie zijn de volgende functies opgenomen:
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Updates van kaarten voor twee keer wegschrijven in Project Operations
 
-Er zijn geen updates voor toewijzingen van Twee keer wegschrijven in Project Operations in deze release. 
+Er zijn geen updates voor toewijzingen van twee keer wegschrijven in Project Operations in deze release.
 
 Zie [Toewijzingsversies van twee keer wegschrijven voor Project Operations](../environment/resource-dual-write-maps.md) voor een actuele lijst en versies van toewijzingen van twee keer wegschrijven voor Project Operations.
 

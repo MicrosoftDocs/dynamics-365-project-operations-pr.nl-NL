@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c0ddc39638ae9830eacc57f3e1def75aa36e6553
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323680"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558541"
 ---
 # <a name="subcontract-lines-for-products"></a>Subcontractregels voor producten
 
@@ -30,25 +30,25 @@ Voer de volgende stappen uit om een subcontractregel te maken voor producten in 
 
 De volgende tabel biedt informatie over de velden op de pagina's **Subcontractregeldetails** en **Snelle invoer** omdat deze relevant zijn voor het kopen van producten.
 
-| Veld | Beschrijving |
-| ----- | ----------- |
-| Meetcriterium | De naam van de subcontractregel. |
-| Beschrijving | Een korte beschrijving van producten die worden besteld op de subcontractregel. |
-| Type lijn | Deze veldwaarde is standaard **Op hoeveelheid gebaseerd**. |
-| Factureringsmethode |  De factureringsmethode van de subcontractregel. Een op mijlpalen gebaseerd factuurschema is beschikbaar voor factureringsmethoden met een vaste prijs. |
-| Transactieklasse | Deze veldwaarde is standaard **Tijd**. Om subcontractregels voor het aankopen van producten te maken, selecteert u in het veld **Transactieklasse** de optie **Materiaal**. Deze selectie geeft aan dat de subcontractregel wordt gebruikt om de inkoop van producten voor projecten vast te leggen. |
-| Product selecteren | Geef op of het product dat wordt gekocht in de productcatalogus wordt onderhouden of een inschrijfproduct is. |
-| Product | Selecteer een actief product in de catalogus. Dit veld is alleen beschikbaar als **Product selecteren** is ingesteld op **Bestaand**. |
-| Toe te voegen product | Voer de naam van het toe te voegen product in. Dit veld is alleen beschikbaar als **Product selecteren** is ingesteld op **Toevoegen**.  |
-| Aangevraagde leveringsdatum | Selecteer de gewenste leverdatum voor de producten. Deze datum wordt ook gebruikt om een projectprijslijst te kiezen uit de projectprijslijsten die bij het subcontract zijn gevoegd. De kosten van het product op de subcontractregel zijn dan afkomstig uit die prijslijst. |
-| Leveringsdatum volgens contract | Selecteer de datum waarop de producten volgens het contract worden geleverd.  |
-| Bestelde hoeveelheid | Voer de hoeveelheid van het product in dat van de leverancier wordt gekocht. Als een projectmanager te veel van deze hoeveelheid gebruikt, volgt er een waarschuwing. |
-| Eenhedengroep | Deze waarde wordt alleen standaard ingesteld voor catalogusproducten. Wanneer **Product** en **Aangevraagde leveringsdatum** beide zijn geselecteerd, kiest het systeem de toepasselijke prijslijst op basis van de leveringsdatum. De gerelateerde prijslijstitems worden opgevraagd voor het overeenkomende product. De eenheids- en eenheidsgroepwaarden zijn standaard afkomstig uit de instellingen in de prijslijstitemrecord. |
-| Eenheid | Deze waarde is standaard afkomstig uit de eenheidsinstelling in de prijslijstitemrecord. U kunt deze indien nodig wijzigen in een andere eenheid. De combinatie van product en eenheid wordt gebruikt om standaard de eenheidsprijs op de subcontractregel voor bestaande catalogusproducten te bepalen. |
-| Prijs per eenheid | De eenheidsprijs wordt standaard ingesteld op basis van de combinatie van product en eenheid uit de prijslijstitems gerelateerd aan de projectprijslijst die van toepassing is op de gevraagde leveringsdatum van de subcontractregel.  |
-| Subtotaal | Dit alleen-lezen veld wordt berekend als Aantal x Eenheidsprijs als in beide velden waarden zijn ingevoerd. Als de velden **Hoeveelheid** en/of **Eenheidsprijs** leeg zijn, kunt u handmatig een waarde invoeren.  |
-| Omzetbelasting | Voer de waarde voor omzetbelasting in. |
-| Totale bedrag | Dit berekende veld toont het totale bedrag van de subcontractregel, inclusief belastingen. De waarde in dit veld wordt berekend als subtotaal + belasting. |
+| Veld | Beschrijving | Functionele impact|
+| ----- | ----------- | ----------- |
+| Meetcriterium | Naam van de subcontractregel om te helpen bij identificatie. |Dit wordt weergegeven als de eerste kolom in alle zoekopdrachten op basis van subcontractregels.
+| Beschrijving | Een korte beschrijving van producten die worden besteld op de subcontractregel. | Geen |
+| Type lijn | Dit veld heeft de standaardwaarde **Op hoeveelheid gebaseerd**. |Geen |
+| Factureringsmethode | Dit is een optieset die de twee belangrijkste contractmodellen vertegenwoordigt die worden ondersteund door Project Operations: **Vaste prijs** en **Tijd- en materiaalverbruik**. | Op basis van de geselecteerd factureringsmethode wordt een op mijlpalen gebaseerd factuurschema beschikbaar gesteld voor subcontractregels met de factureringsmethode Vaste prijs. |
+| Transactieklasse |Dit veld heeft **Tijd** als standaardwaarde. Als u subcontractregels wilt maken voor het aankopen van producten, stelt u het veld **Transactieklasse** in op **Materiaal**.  | Dit geeft aan dat de subcontractregel wordt gebruikt om de inkoop vast te leggen van producten die voor projecten worden gebruikt. |
+| Product selecteren | Geef op of het product dat wordt gekocht in de productcatalogus wordt onderhouden of een inschrijfproduct is. |Geen |
+| Product | Selecteer een actief product in de catalogus. Dit veld is alleen beschikbaar als **Product selecteren** is ingesteld op **Bestaand**. |De combinatie van **Product** en **Eenheid** wordt standaard gebruikt of berekend voor de eenheidsprijs voor de subcontractregel.
+| Toe te voegen product | Voer de naam van het toe te voegen product in. Dit veld is alleen beschikbaar als **Product selecteren** is ingesteld op **Toevoegen**.  |Bij toe te voegen producten wordt de inkoopprijs niet automatisch ingevuld.|
+| Aangevraagde leveringsdatum | Voer de gewenste leverdatum voor de producten in.| Deze datum wordt ook gebruikt om een projectprijslijst te kiezen uit de projectprijslijsten die bij het subcontract zijn gevoegd. De kosten van het product op de subcontractregel zijn dan afkomstig uit die prijslijst. |
+| Leveringsdatum volgens contract | Voer de datum in waarop de producten volgens contract moeten worden geleverd.  |Geen|
+| Bestelde hoeveelheid | Voer de hoeveelheid van het product in dat van de leverancier wordt gekocht.| Dit wordt gebruikt om waarschuwingen weer te geven wanneer een projectmanager een te grote hoeveelheid aanschaft.|
+| Eenhedengroep | Deze waarde wordt alleen standaard ingesteld voor catalogusproducten. |Wanneer **Product** en **Aangevraagde leveringsdatum** beide zijn geselecteerd, kiest het systeem de toepasselijke prijslijst op basis van de leveringsdatum. De gerelateerde prijslijstitems worden opgevraagd voor het overeenkomende product. De eenheids- en eenheidsgroepwaarden zijn standaard afkomstig uit de instellingen in de prijslijstitemrecord. |
+| Eenheid | Deze waarde is standaard ingesteld op de eenheid die is ingesteld voor de prijslijstitemrecord. U kunt deze indien nodig wijzigen in een andere eenheid.| De combinatie van product en eenheid wordt gebruikt om standaard de eenheidsprijs op de subcontractregel voor bestaande catalogusproducten te bepalen. |
+| Prijs per eenheid | De eenheidsprijs wordt standaard ingesteld op basis van de combinatie van product en eenheid uit de prijslijstitems gerelateerd aan de projectprijslijst die van toepassing is op de gevraagde leveringsdatum van de subcontractregel.  |Geen |
+| Subtotaal | Dit alleen-lezen veld wordt berekend als Aantal x Eenheidsprijs als in beide velden waarden zijn ingevoerd. Als de velden **Hoeveelheid** en/of **Eenheidsprijs** leeg zijn, kunt u handmatig een waarde invoeren.  |Geen |
+| Omzetbelasting | Voer de waarde voor omzetbelasting in. |Geen |
+| Totale bedrag | Dit berekende veld toont het totale bedrag van de subcontractregel, inclusief belastingen. De waarde in dit veld wordt berekend als Subtotaal + Belasting. |Geen |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

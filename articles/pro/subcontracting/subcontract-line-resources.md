@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48440f82170bde7f0a0a45f8f9849d688b232949
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 4a929b985a51ab49d3e34ce4a5c277af4c05c216
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323365"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558451"
 ---
 # <a name="subcontract-line-resources"></a>Resources voor subcontractregels
 
@@ -28,18 +28,18 @@ Voer de volgende stappen uit om resources voor subcontractregels te maken.
 1. Selecteer in het navigatievenster de optie **Subcontracten** en open het subcontract waarmee u wilt werken.
 2. Open de subcontractregel voor tijd waarop u leveranciersresources wilt opgeven.
 3. Selecteer op het tabblad **Resources voor subcontractregels** in het subraster **+ Nieuwe resource voor subcontractregels**.
-4. Voer op de pagina **Nieuwe mijlpaal voor subcontractregels** de vereiste informatie in en selecteer **Opslaan en sluiten**.
+4. Voer op de pagina **Resource voor nieuwe subcontractregel** de vereiste informatie in en selecteer vervolgens **Opslaan en sluiten**.
 
 In de volgende tabel worden de velden in de resource voor subcontractregels uitgelegd.
 
-| Veld |  Beschrijving |
-| ----- | ------------ |
-| Boekbare resource | Selecteer een boekbare resource van het type Contractmedewerker die u als resource op de subcontractregel wilt gebruiken. Als u nog geen boekbare resource voor de contractmedewerker hebt gemaakt, laat u dit veld leeg. Er wordt een boekbare resource gemaakt wanneer u de record opslaat.  |
-| Contact | Als het veld **Boekbare resource** leeg is, kunt u uw subcontractregelresource maken van een bestaande contactpersoon. Gebruik de zoekfunctie om de lijst met actieve contactpersonen in het systeem te bekijken. Selecteer een contactpersoon voor de leverancier van dit subcontract. De contactpersoon die u selecteert, wordt gevalideerd wanneer u de record opslaat. Als de geselecteerde contactpersoon geen geldige contactpersoon is, wordt uw record niet opgeslagen. Als er geen boekbare resource is voor de geselecteerde contactpersoon, wordt door het systeem een boekbare resource gemaakt voor de geselecteerde contactpersoon voordat de subcontractregelresource wordt gemaakt. |
-| Gebruiker | Als het veld **Boekbare resource** leeg is, kunt u een subcontractregelresource maken door een actieve contactpersoon te selecteren. Gebruik de zoekfunctie om de lijst met actieve gebruikers in het systeem te bekijken. Als er geen boekbare resource is voor de geselecteerde gebruiker, wordt door het systeem een boekbare resource gemaakt voor de geselecteerde gebruiker voordat de subcontractregelresource wordt gemaakt. |
-| Begindatum | De datum waarop de toewijzing van de onderaannemer begint. Als deze resource is geboekt voor een periode die vóór dit datumbereik valt, wordt er een waarschuwing weergegeven. |
-| Einddatum | De datum waarop de toewijzing van de onderaannemer eindigt. Als deze resource is geboekt voor een periode die na dit datumbereik valt, wordt er een waarschuwing weergegeven. |
-| Inspanning | Het totale aantal werkuren dat de onderaannemer aan deze subcontractregel besteedt. Er wordt een waarschuwing weergegeven als deze resource wordt geboekt voor ander werk dan is toegewezen in dit subcontract. |
+| Veld | Beschrijving | Functionele impact |
+| ----- | ----------- | ----------------- |
+| Boekbare resource | Selecteer een boekbare resource van het type **Contractmedewerker** die u als resource op de subcontractregel wilt gebruiken.| Als u geen boekbare resource voor de contractmedewerker hebt gemaakt, laat u dit veld leeg. Er wordt een boekbare resource gemaakt wanneer u de record opslaat.  |
+| Contact | U kunt uw subcontractregelresource maken op basis van een bestaande contactpersoon. Gebruik de zoekfunctie om de lijst met actieve contactpersonen in het systeem te bekijken. Selecteer een contactpersoon voor de leverancier van dit subcontract. Als de contactpersoon die u hebt geselecteerd geen geldige contactpersoon is voor de leverancier in het subcontract, wordt de resourcerecord van de subcontractregel niet opgeslagen.| Als er geen boekbare resource is voor de geselecteerde contactpersoon, wordt door het systeem een boekbare resource gemaakt voor de geselecteerde contactpersoon voordat de subcontractregelresource wordt gemaakt. |
+| Gebruiker | U kunt een resource voor een subcontractregel maken door een actieve gebruiker te selecteren. Gebruik de zoekfunctie om de lijst met actieve gebruikers in het systeem te bekijken.| Als er geen boekbare resource is voor de geselecteerde gebruiker, wordt door het systeem een boekbare resource gemaakt voor de geselecteerde gebruiker voordat de subcontractregelresource wordt gemaakt. |
+| Begindatum | De datum waarop de toewijzing van de onderaannemer begint.| Als deze resource is geboekt voor een periode die vóór dit datumbereik valt, wordt er een waarschuwing weergegeven. |
+| Einddatum | De datum waarop de toewijzing van de onderaannemer eindigt.| Als deze resource is geboekt voor een periode die na dit datumbereik valt, wordt er een waarschuwing weergegeven. |
+| Inspanning | Het totale aantal inspanningsuren dat de gecontracteerde werknemer aan deze subcontractregel zal besteden.| Als deze resource wordt geboekt voorbij de inspanning die is toegewezen aan dit subcontract, wordt er een waarschuwing weergegeven. |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
