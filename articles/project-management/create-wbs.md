@@ -2,16 +2,16 @@
 title: Een structuur voor werkspecificatie maken
 description: In dit onderwerp wordt uitgelegd hoe u een structuur voor werkspecificatie kunt maken inclusief de basisbesturingselementen in de nieuwe planningsinterface.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998725"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655411"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Een structuur voor werkspecificatie maken
 
@@ -117,5 +117,26 @@ De taakmodus heeft geen invloed op updates die zijn aangebracht in de begin- en 
 
 Het raster **Planning** is volledig toegankelijk en kan worden gebruikt met schermlezers, zoals Verteller, JAWS of NVDA. U kunt door het rastergebied navigeren met behulp van de pijltoetsen (zoals in Microsoft Excel), u kunt de tab-toets gebruiken om de interactieve elementen van de gebruikersinterface te doorlopen en u kunt de pijl-omlaag, de Enter-toets of de spatiebalk gebruiken om de vervolgkeuzemenu's te selecteren en te openen.
 
+## <a name="project-limitations"></a>Projectbeperkingen 
+U dient zich bewust te zijn van de volgende beperkingen als u de structuur voor werkspecificatie in Project Operations gebruikt. Deze limieten gelden voor projecten en taken. Zie voor meer informatie [Project for the Web-limieten en -grenzen](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Veld**                                          |  **Limiet**           |
+|----------------------------------------------------|----------------------|
+| Maximum aantal taken voor een project                  | 500                  |
+| Maximale duur voor een project               | 3650 dagen (10 jaar) |
+| Maximum aantal resources voor een project              | 150                  |
+| Maximum aantal koppelingen (alleen opvolgend) voor een project | 600                  |
+| Maximum aantal aangepaste velden voor een project          | 10                   |
+
+**Taakbeperkingen**
+
+| **Veld**                               |   **Limiet**           |
+|-----------------------------------------|-----------------------|
+| Maximaal hiërarchieniveau                 | 10 niveaus             |
+| Maximum aantal koppelingen (opvolgend + voorgaand) | 20                    |
+| Maximale duur van bladtaak           | 1250 dagen             |
+| Maximale duur van een samenvattingstaak      | 3650 dagen (10 jaar)  |
+| Maximum aantal toegewezen resources aan een taak    | 20 resources          |
+| Ondersteunde datumbereik voor een taak         | 01-01-2000 - 31-12-2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623322"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783417"
 ---
 # <a name="project-operations-updates"></a>Updates voor Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations bestaat uit twee componenten:
 
 | Project Operations in Dataverse-omgeving | Projectbeheer en boekhouding in omgevingen met Finance and Operations-apps | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Voor scenario's op basis van resources/niet-voorradige artikelen in Project Operations raden we aan om Dual Write Orchestration-versie 2.2.2.83 of hoger te gebruiken.
 
@@ -47,23 +47,23 @@ Updates voor Project Operations in Dataverse-omgeving zijn maandelijks beschikba
 | Station | Regio | Nummer huidige versie | Automatische updates voor Lite-implementatie | Automatische updates voor implementatie van resources/niet-voorradige artikelen | Nummer volgende versie | Volgende versie algemeen beschikbaar |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eerste versie         |  4.25.0.91      | Voltooien           | Voltooien            | N.t.b.                 | 29 oktober 2021    |
+|   &nbsp;  | Eerste versie         |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 03 december 2021   |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Zuid-Amerika         |  4.25.0.91      | Voltooien           | 15 oktober 2021    | N.t.b.                 | 29 oktober 2021    |
-|   &nbsp;  | Canada                |  4.25.0.91      | Voltooien           | 15 oktober 2021    | N.t.b.                 | 29 oktober 2021    |
-|   &nbsp;  | India                 |  4.25.0.91      | Voltooien           | 15 oktober 2021    | N.t.b.                 | 29 oktober 2021    |
-|   &nbsp;  | Frankrijk                |  4.25.0.91      | Voltooien           | 15 oktober 2021    | N.t.b.                 | 29 oktober 2021    |
-|   &nbsp;  | Zuid-Afrika          |  4.25.0.91      | Voltooien           | 15 oktober 2021    | N.t.b.                 | 29 oktober 2021    |
+|   &nbsp;  | Zuid-Amerika         |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 03 december 2021   |
+|   &nbsp;  | Canada                |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 03 december 2021   |
+|   &nbsp;  | India                 |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 03 december 2021   |
+|   &nbsp;  | Frankrijk                |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 03 december 2021   |
+|   &nbsp;  | Zuid-Afrika          |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 03 december 2021   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.25.0.91      | 15 oktober 2021   | 22 oktober 2021    | N.t.b.                 | 05 november 2021   |
-|   &nbsp;  | Azië-Pacific          |  4.25.0.91      | 15 oktober 2021   | 22 oktober 2021    | N.t.b.                 | 05 november 2021   |
-|   &nbsp;  | Groot-Brittannië         |  4.25.0.91      | 15 oktober 2021   | 22 oktober 2021    | N.t.b.                 | 05 november 2021   |
-|   &nbsp;  | Oceanië               |  4.25.0.91      | 15 oktober 2021   | 22 oktober 2021    | N.t.b.                 | 05 november 2021   |
-|   &nbsp;  | Verenigde Arabische Emiraten  |  4.25.0.91      | 15 oktober 2021   | 22 oktober 2021    | N.t.b.                 | 05 november 2021   |
+|   &nbsp;  | Japan                 |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 10 december 2021   |
+|   &nbsp;  | Azië-Pacific          |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 10 december 2021   |
+|   &nbsp;  | Groot-Brittannië         |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 10 december 2021   |
+|   &nbsp;  | Oceanië               |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 10 december 2021   |
+|   &nbsp;  | Verenigde Arabische Emiraten  |  4.26.0.145     | 12 november 2021  | 19 november 2021   | N.t.b.                 | 10 december 2021   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.14.0.99      | Voltooien           | Voltooien            | 4.25.0.91           | 15 oktober 2021    |
+|   &nbsp;  | Europa                |  4.25.0.91      | Voltooien           | Voltooien            | 4.26.0.145          | 12 november 2021   |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Noord-Amerika         |  4.14.0.99      | Voltooien           | 08 oktober 2021    | 4.25.0.91           | 22 oktober 2021    |
+|   &nbsp;  | Noord-Amerika         |  4.25.0.91      | Voltooien           | Voltooien            | 4.26.0.145          | 19 november 2021   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Releaseplanning voor Projectbeheer en boekhouding in de omgeving met Finance and Operations-apps
@@ -72,14 +72,15 @@ Updates voor Projectbeheer en boekhouding worden acht keer per jaar uitgebracht.
 
 |Ondersteunde versie| Beschikbaarheid preview (PEAP) | Algemeen beschikbaar (zelfupdate) | Begindatum productie van planning automatische updates (via LCS-update-instellingen) |   Einde van service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3 september 2021      |        22 oktober 2021           |                          5 november 2021                            | 14 januari 2022   |
 |    10.0.21      |         02 augustus 2021     |           17 september 2021      |                             1 oktober 2021                          |  10 december 2021 |
-|    10.0.20      |         28 mei 2021        |           16 juli 2021           |                             30 juli 2021                            |  22 oktober 2021  |
+
 
 Beoogde releasedatums kunnen worden gewijzigd. Voor meer informatie raadpleegt u [Beschikbaarheid van service-updates](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Beoogde versie | Beschikbaarheid preview (PEAP) | Algemeen beschikbaar (zelfupdate) | Begindatum productie van planning automatische updates (via LCS-update-instellingen) |   Einde van service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3 september 2021      |          22 oktober 2021         |                           5 november 2021                           |  14 januari 2022  |
 |     10.0.23     |      15 oktober 2021       |        10 december 2021          |                          31 december 2021                           | 18 maart 2022     |
+|     10.0.24     |      3 december 2021       |        14 januari 2022           |                          4 februari 2022                            | 15 april 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

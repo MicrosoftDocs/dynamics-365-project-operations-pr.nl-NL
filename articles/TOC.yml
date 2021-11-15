@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integratie van leveranciersfacturen
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Dynamics 365 Project Operations verwijderen
+          href: environment/uninstall-project-operations.md
     - name: Nieuwe functies
       items:
         - name: Oktober 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: API's voor projectplanning gebruiken
               href: project-management/schedule-api-preview.md
+            - name: Prestaties van API's voor projectplanning
+              href: project-management/project-schedule-api-performance.md
     - name: Resourcebeheer
       items:
         - name: Belangrijke concepten
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: API's voor projectplanning gebruiken
               href: project-management/schedule-api-preview.md
+            - name: Prestaties van API's voor projectplanning
+              href: project-management/project-schedule-api-performance.md
     - name: Resourcebeheer
       items:
         - name: Belangrijke concepten
@@ -1102,6 +1108,8 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 35, V3'

@@ -2,17 +2,17 @@
 title: Nieuwe functies in oktober 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations van oktober 2021 voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
-ms.date: 10/05/2021
+ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5eb663f8b7450e4b7add6717aa717050ae94d571
-ms.sourcegitcommit: 6d9fc4dc851814664bf71729904ab4bedd85fe70
+ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
+ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606744"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753286"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies in oktober 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 

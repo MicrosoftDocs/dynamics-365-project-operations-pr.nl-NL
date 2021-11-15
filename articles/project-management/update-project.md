@@ -1,23 +1,23 @@
 ---
-title: Een project bijwerken
+title: Een project maken en bijwerken
 description: In dit onderwerp krijgt u informatie over het bijwerken van projecten in Project Operations.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b0ec03a2c4dd7bc833b22b7a93fed810b4998a2788f4ff40234e3dd163bd9eb6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000885"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678343"
 ---
-# <a name="update-a-project"></a>Een project bijwerken
+# <a name="create-and-update-a-project"></a>Een project maken en bijwerken
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Hieronder vindt u een overzicht van de velden die kunnen worden bijgewerkt voor een project nadat het is gemaakt en alle toepasselijke implicaties van de updates.
+Hier volgt een samenvatting van de velden die kunnen worden bijgewerkt voor een project nadat dit is gemaakt. Dit omvat ook eventuele toepasselijke implicaties op basis van deze updates.
 
 ## <a name="project-detail-fields"></a>Projectdetailvelden
 
@@ -25,8 +25,8 @@ Hieronder vindt u een overzicht van de velden die kunnen worden bijgewerkt voor 
 - **Beschrijving**: een overzicht van het project.
 - **Klant**: het bedrijf waaraan het project zal worden opgeleverd.
 - **Kalendersjabloon**: de werktijden van het project. Wanneer het veld wordt gewijzigd, wordt het volledige schema opnieuw berekend.
-- **Valuta**: de valuta voor het project. Dit veld wordt standaard ingesteld op basis van de valuta die is gedefinieerd in de contracterende eenheid. Wanneer de contracterende eenheid wordt bijgewerkt, wordt het veld ook bijgewerkt.
-- **Contracterende eenheid**: de organisatie-eenheid die de bedrijfsgroep of divisie vertegenwoordigt die primair verantwoordelijk is voor het sluiten van de verkoop en het beheren van de levering van arbeid en diensten aan de klant. 
+- **Valuta**: de valuta voor het project. De standaardwaarde voor dit veld is gebaseerd op de valuta die is gedefinieerd in de contracterende eenheid. Wanneer de contracterende eenheid wordt bijgewerkt, wordt het veld ook bijgewerkt.
+- **Contracterende eenheid**: de organisatie-eenheid die de bedrijfsgroep of divisie vertegenwoordigt die primair verantwoordelijk is voor het sluiten van de verkoop en het beheren van de levering van arbeid en diensten aan de klant.  Als de organisatie-eenheid van de projectmanager niet is gedefinieerd, wordt dit veld standaard ingesteld op de waarde die is gedefinieerd in de projectparameters.
 - **Projectmanager**: het projectteamlid dat de bevoegdheid heeft om tijdinvoer en onkosten te beoordelen en goed te keuren.
 
 ## <a name="estimate-fields"></a>Velden met schattingen
