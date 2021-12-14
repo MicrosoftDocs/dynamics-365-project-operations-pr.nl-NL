@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773572"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892169"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Updatereleaseschema voor Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7773572"
 
 | Oplossing  | Nieuwste versie |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
+| Project Service Automation    | 3.10.58.130 |
 | Invoegtoepassing voor Project Service Automation-bureaublad                | 3.15          |
 
 Meer informatie over updates voor Project Service vindt u in [Releaseplannen voor Dynamics 365](/dynamics365/release-plans/). 
@@ -55,18 +55,18 @@ Meer informatie over updates voor Project Service vindt u in [Releaseplannen voo
 | | <i>Duitsland</i> | [3.10.58.120](whats-new-ur-37.md) | N.t.b. | 10 december 2021
 | | <i>Zwitserland</i> | [3.10.58.120](whats-new-ur-37.md) | N.t.b. | 10 december 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 november 2021
-| | <i>Azië en Stille Oceaan</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 november 2021
-| | <i>Groot-Brittannië</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 november 2021
-| | <i>Oceanië</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 november 2021
-| | <i>Verenigde Arabische Emiraten</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 november 2021
+| | <i>Japan</i> | [3.10.58.130](whats-new-ur-37-5.md) | N.t.b. | 17 december 2021
+| | <i>Azië en Stille Oceaan</i> | [3.10.58.130](whats-new-ur-37-5.md) | N.t.b. | 17 december 2021
+| | <i>Groot-Brittannië</i> | [3.10.58.130](whats-new-ur-37-5.md) | N.t.b. | 17 december 2021
+| | <i>Oceanië</i> | [3.10.58.130](whats-new-ur-37-5.md) | N.t.b. | 17 december 2021
+| | <i>Verenigde Arabische Emiraten</i> | [3.10.58.130](whats-new-ur-37-5.md) | N.t.b. | 17 december 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19 november 2021
+| | <i>Europa</i> | [3.10.58.130](whats-new-ur-37-5.md) | N.t.b. | 07 januari 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Noord-Amerika</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 december 2021
+| | <i>Noord-Amerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | N.t.b. | 14 januari 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 december 2021
-| | <i>Speciale schaalgroepen</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10 december 2021
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | N.t.b. | 14 januari 2022
+| | <i>Speciale schaalgroepen</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10 december 2021
 
 
 

@@ -2,7 +2,7 @@
 title: Mobiele onkosten-app
 description: Dit onderwerp bevat informatie over de mobiele werkruimte Onkostenbeheer.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993190"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818177"
 ---
 # <a name="mobile-expense-app"></a>Mobiele onkosten-app
 
@@ -47,42 +47,9 @@ U kunt ook de volgende functies gebruiken:
 - Een onkostennota indienen ter goedkeuring en vergoeding.
 - Onkostennota's waarvoor u een toegewezen fiatteur bent, goedkeuren of afwijzen.
 
-## <a name="prerequisites"></a>Vereisten
-De vereisten verschillen, afhankelijk van de versie die is geïmplementeerd voor uw organisatie.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Vereisten als u Dynamics 365 Finance gebruikt
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Vereisten als u Dynamics 365 Finance gebruikt 
 Als Finance is geïmplementeerd voor uw organisatie, moet het systeembeheerder de mobiele werkruimte **Onkostenbeheer** publiceren. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Vereisten als u versie 1611 met platformupdate 3 of hoger gebruikt
-Als versie 1611 met platformupdate 3 of hoger is geïmplementeerd voor uw organisatie, moet de systeembeheerder aan de volgende vereisten voldoen. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Vereisten</th>
-<th>- Rol</th>
-<th>Beschrijving</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implementeer KB 4019015.</td>
-<td>Systeembeheerder</td>
-<td>KB 4019015 is een X++-update of een metagegevenshotfix die de mobiele werkruimte <strong>Onkostenbeheer</strong> bevat. Als de systeembeheerder KB 4019015 wil implementeren, moeten deze stappen worden uitgevoerd.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download updates van Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installeer de metagegevenshotfix</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Maak een implementeerbaar pakket</a> dat de modellen <strong>ApplicationSuite</strong> en <strong>ExpenseMobile</strong> bevat en upload vervolgens het implementeerbare pakket naar LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Pas het implementeerbare pakket toe</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Publiceer de mobiele werkruimte <strong>Onkostenbeheer</strong>.</td>
-<td>Systeembeheerder</td>
-<td>Zie <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Een mobiele werkruimte publiceren</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>De mobiele app Dynamics 365 Unified Ops downloaden en installeren
 De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
@@ -103,11 +70,11 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 3. Selecteer **Foto nemen** of **Afbeelding kiezen**.
 4. Volg een van deze stappen:
 
-   - Als u **Foto nemen** hebt geselecteerd, volgt u deze stappen:
+    - Als u **Foto nemen** hebt geselecteerd, volgt u deze stappen:
 
-      1. U gaat automatisch naar naar de camera van uw mobiele apparaat, zodat u een foto kunt maken van het betalingsbewijs. 
-      2. Als u klaar bent met het maken van een foto, selecteert u **OK** om de foto te accepteren.
-      3. Optioneel: voer een naam in voor de foto en voer eventuele opmerkingen in.
+        1. U gaat automatisch naar naar de camera van uw mobiele apparaat, zodat u een foto kunt maken van het betalingsbewijs. 
+        2. Als u klaar bent met het maken van een foto, selecteert u **OK** om de foto te accepteren.
+        3. Optioneel: voer een naam in voor de foto en voer eventuele opmerkingen in.
 
     - Als u **Afbeelding kiezen** hebt geselecteerd, volgt u deze stappen:
 
@@ -133,20 +100,20 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 
 10. Selecteer **Gereed**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Een onkostennota goedkeuren met behulp van de mobiele werkruimte Onkostenbeheer (als u de update van juli 2017 gebruikt)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Een onkostennota goedkeuren met behulp van de mobiele werkruimte voor Onkostenbeheer
 
 1. Open op uw mobiele apparaat de werkruimte **Onkostenbeheer**.
 2. Bij **Goedkeuringen voor onkosten** wordt het aantal onkostennota's weergegeven die ter goedkeuring aan u zijn toegewezen. Het aantal wordt ongeveer elke 30 minuten bijgewerkt. Selecteer **Goedkeuringen voor onkosten**.
 
     De lijst van onkostennota's die ter goedkeuring aan u zijn toegewezen, wordt weergegeven.
-    
+
 3. Selecteer een onkostennota om de onkostendetails ervan te bekijken.
 4. Selecteer de onkosten om de details ervan te bekijken. De informatie die voor bepaalde kosten wordt weergegeven, bestaat onder andere uit een betalingsbewijs, gastgegevens en specificatiegegevens.
 5. Als u terug bent op de pagina **Onkostennota**, selecteert u de optie om de onkostennota goed te keuren of af te wijzen.
 6. Voer eventuele opmerkingen in voor de goedkeuringsactie.
 7. Selecteer **Gereed**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Een nieuwe onkostennota maken en ter goedkeuring indienen met behulp van de mobiele werkruimte Onkostenbeheer (als u de update van juli 2017 gebruikt)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Een nieuwe onkostennota maken en ter goedkeuring indienen met de mobiele werkruimte voor onkostenbeheer
 
 1. Open op uw mobiele apparaat de werkruimte **Onkostenbeheer**.
 2. Selecteer **Onkosten invoeren**.
@@ -184,12 +151,12 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
                     1. Selecteer een afbeelding in de lijst.
                     2. Optioneel: voer een naam in voor de afbeelding en voer eventuele opmerkingen in.
 
-            3.  Selecteer **Gereed**.
+            3. Selecteer **Gereed**.
 
         - Als u **Betalingsbewijs bijvoegen** hebt geselecteerd, volgt u deze stappen:
 
-            1.  Selecteer een of meer afbeeldingen in de lijst.
-            2.  Selecteer **Gereed**.
+            1. Selecteer een of meer afbeeldingen in de lijst.
+            2. Selecteer **Gereed**.
 
     3. Selecteer de knop **Vorige** om terug te keren naar de onkostendetails.
 
@@ -231,9 +198,34 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 
 20. Selecteer de knop **Vorige** om terug te keren naar de pagina **Onkostennota**.
 21. Herhaal de voorgaande stappen totdat u klaar bent met het toevoegen van alle onkosten.
-22. Selecteer **Indienen**.
+22. Selecteer **Verzenden**.
 23. Voer eventuele opmerkingen in voor de fiatteur.
 24. Selecteer **Gereed**.
 
+## <a name="frequently-asked-questions"></a>Veelgestelde vragen
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Waarom voert de mobiele app voor onkosten de betalingswijze niet standaard in?
+
+Organisaties kunnen de instelling voor **Standaard betalingswijze** voor elke onkostencategorie aanpassen wanneer deze wordt gemaakt. Bovendien kunt u wanneer u betalingswijzes instelt het veld **Standaard betalingswijze** instellen op **Alleen importeren**.
+
+Wanneer **Alleen importeren** is ingeschakeld voor een betalingswijze, wordt de betalingswijze niet standaard ingevoerd. Het veld blijft leeg in onkostencategorieën waar deze betalingswijze is ingesteld. Dit gedrag is consistent binnen zowel de webervaring als de mobiele ervaring.
+    
+Wanneer **Alleen importeren** niet is ingeschakeld voor een betalingswijze, wordt de ingestelde waarde standaard ingevoerd voor onkostencategorieën waar deze betalingswijze wordt ingesteld. Er is echter een bekend probleem waarbij de standaardwaarde niet wordt ingevoerd in de mobiele app voor onkosten. U kunt dit probleem omzeilen door handmatig een betalingswijze te selecteren voordat u de onkostennota opslaat. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Waarom kan ik geen financiële dimensies toevoegen of bewerken in de mobiele app voor onkosten?
+
+Het invoeren van dimensies en verdelingen wordt niet ondersteund. Om deze beperking te omzeilen, kunt u deze velden standaard laten instellen in de mobiele app door de standaard financiële dimensies per project of werknemer in te stellen.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Waarom zie ik soms een synchronisatiefout in de mobiele app voor onkosten?
+
+Als de onkostenregels niet voldoen aan de beleidsvereisten en de gebruiker de onkostennota indient zonder te reageren op de beleidswaarschuwing, worden de mobiele gegevens niet gesynchroniseerd met de server en treedt er een synchronisatiefout op. Alle onkostennota's die worden ingediend nadat een synchronisatiefout is opgetreden, blijven in de status mislukt en veroorzaken meer synchronisatiefouten. De enige manier om deze situatie op te lossen, is door de synchronisatiemeldingen handmatig te verwijderen. Dit probleem is verholpen door het indienen van onkostennota's te stoppen wanneer beleidswaarschuwingen niet zijn verholpen, zodat synchronisatiefouten worden vermeden.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Waarom wordt project- en categorievalidatie niet correct weergegeven in de mobiele app voor onkosten?
+
+Deze validatie wordt momenteel niet ondersteund. Ondersteuning hiervoor wordt in de toekomst echter mogelijk wel toegevoegd. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Welke documenttypen worden ondersteund in de mobiele app voor onkosten?
+
+De mobiele app voor onkosten ondersteunt alleen afbeeldingen. De app ondersteunt momenteel geen pdf-bestanden of andere documenten.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

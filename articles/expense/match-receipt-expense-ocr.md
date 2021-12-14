@@ -2,7 +2,7 @@
 title: Een betalingsbewijs vastleggen via OCR
 description: Dit onderwerp bevat informatie over de OCR-verwerking (optische tekenherkenning) voor betalingsbewijzen.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007725"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798034"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Een betalingsbewijs vastleggen via OCR
 
@@ -85,7 +85,18 @@ Nee, Microsoft heeft een algemeen Machine Learning-model gebouwd voor zijn servi
 
 **Waar is deze functie beschikbaar en waar vindt de gegevensverwerking plaats?**
 
-Momenteel worden de Verenigde Staten ondersteund.
+De beschikbaarheid van deze functie in verschillende regio's wordt vermeld in de onderstaande tabel. Als uw regio momenteel niet wordt ondersteund, dient u een verzoek in om prioriteit te geven aan de beschikbaarheid van de OCR-service in uw regio. 
+
+| Regio | Ondersteund                         |
+|--------|-----------------------------------|
+| USA    | Ja                               |
+| CAN    | Ja                               |
+| VK     | Ja                               |
+| AUS    | Ja                               |
+| EU     | Gedeeltelijk. Alleen Engelse betalingsbewijzen. |
+| Azië   | No                                |
+| Japan  | No                                |
+| Afrika | No                                |
 
 **Waar gaan mijn betalingsbewijzen naartoe?**
 

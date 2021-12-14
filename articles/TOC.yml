@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Nieuwe functies
       items:
+        - name: November 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Oktober 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: September 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Prestaties van API's voor projectplanning
               href: project-management/project-schedule-api-performance.md
+            - name: Logboeken voor projectplanning
+              href: project-management/schedule-api-logs.md
     - name: Resourcebeheer
       items:
         - name: Belangrijke concepten
@@ -544,6 +548,8 @@
       items:
         - name: Nieuw in versie voor vroege toegang van wave 2 voor 2021 - lite-implementatie
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nieuw in november 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Nieuw in oktober 2021 - lite-implementatie
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Nieuw in september 2021 - lite-implementatie
@@ -952,6 +958,10 @@
   items:
     - name: Nieuwe functies
       items:
+        - name: Nieuwe functies van oktober 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Nieuwe functies van september 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Nieuwe functies van juli 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Nieuwe functies van mei 2021 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
@@ -1108,6 +1118,8 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 36, V3'
