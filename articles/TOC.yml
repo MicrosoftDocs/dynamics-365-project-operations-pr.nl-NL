@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Updates voor Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Verwijderde of afgeschafte functies
+      items:
+        - name: Verwijderde of afgeschafte functies in Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
   items:
     - name: Aan de slag
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Nieuwe functies
       items:
+        - name: December 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: November 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Oktober 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Kilometerstand instellen met kilometertariefniveaus
               href: expense/set-up-mileage.md
+        - name: Kostenspecificatie
+          href: prod-exp/expense-itemization.md
         - name: Persoonlijke onkosten
           href: expense/personal-expenses-expense-report.md
         - name: Intercompany-onkosten
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Omzetschattingen beheren
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Probleemoplossing
+      items:
+        - name: Verkoopproces voor project
+          items:
+            - name: 'Fout met niet overeenstemmende valuta bij het maken van een project, contract, prijsopgave of boekbare resource'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Lite-implementatie - van deal tot pro-formafacturering
   items:
     - name: Aan de slag
@@ -548,6 +562,8 @@
       items:
         - name: Nieuw in versie voor vroege toegang van wave 2 voor 2021 - lite-implementatie
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nieuw in december 2021 - lite-implementatie
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Nieuw in november 2021 - lite-implementatie
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Nieuw in oktober 2021 - lite-implementatie
@@ -882,18 +898,32 @@
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Onderaannemers als boekbare resources
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Koptekstdetails voor subcontracten
+        - name: Koptekstdetails voor onderaanneming
           href: pro/subcontracting/subcontract-header-details.md
-        - name: Subcontractregels voor tijd
+        - name: Onderaannemingsregels voor tijd
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Subcontractregels voor onkostencategorieën
+        - name: Onderaannemingsregels voor onkostencategorieën
           href: pro/subcontracting/subcontract-line-expense.md
-        - name: Subcontractregels voor producten
+        - name: Onderaannemingsregels voor producten
           href: pro/subcontracting/subcontract-line-products.md
-        - name: Resources voor subcontractregels
+        - name: Resources voor onderaannemingsregels
           href: pro/subcontracting/subcontract-line-resources.md
-        - name: Mijlpalen voor subcontractregels
+        - name: Mijlpalen voor onderaannemingsregels
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Onderaanneming van projectteamleden
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Onderaannemingsopties van projectteamleden
+          href: pro/subcontracting/subcon-options.md
+        - name: Kostenraming van resourcetoewijzingen voor onderaanneming
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Planbord configureren om contractmedewerkers en onderaannemingscapaciteit weer te geven
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Een project bemannen met contractmedewerkers en onderaannemingscapaciteit
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registratie van tijd, kosten en materiaalgebruik voor onderaannemingscomponenten'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Statusovergangen op een onderaannemingsconttract
+          href: pro/subcontracting/subcon-states.md
     - name: Tijd
       items:
         - name: Overzicht van tijd
@@ -1118,6 +1148,8 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 37, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Handleiding Rapportage
           href: psa/implementation-guides/reporting-guide.md
+    - name: Upgrade van Project Service Automation naar Project Operations - lite
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation upgraden (appversie 3.x)
       items:
         - name: Project Service Automation upgraden
