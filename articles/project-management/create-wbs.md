@@ -2,16 +2,16 @@
 title: Een structuur voor werkspecificatie maken
 description: In dit onderwerp wordt uitgelegd hoe u een structuur voor werkspecificatie kunt maken inclusief de basisbesturingselementen in de nieuwe planningsinterface.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655411"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928609"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Een structuur voor werkspecificatie maken
 
@@ -95,7 +95,7 @@ Als beheerder kunt u aangepaste velden voor de taakentiteit definiëren. De veld
 
 ## <a name="staffing-attributes"></a>Personeelskenmerken
 
-U hebt toegang tot personeelskenmerken via het veld **Resources** in de planning. U kunt zoeken naar een bestaande resource of **Maken** selecteren en in het deelvenster **Snelle invoer** een projectteamlid toevoegen als een nieuwe resource.
+U hebt toegang tot personeelskenmerken via het veld **Resources** in de planning. U kunt zoeken naar een bestaande resource of **Maken** selecteren en in het deelvenster **Snelle invoer** een projectteamlid toevoegen als een nieuwe resource.  Wanneer u naar een resource zoekt met behulp van de resourcekiezer in het taakraster, de bordweergave of Gantt, levert de zoekopdracht bestaande projectteamleden of actieve boekbare resources op.
 
 De velden **Rol**, **Resource-eenheid** en **Naam van positie** worden gebruikt om de personeelsvereisten voor de taak te beschrijven. Deze personeelskenmerken worden samen met de taakplanning gebruikt om beschikbare resources te vinden voor het uitvoeren van deze taak.
 
@@ -127,6 +127,7 @@ U dient zich bewust te zijn van de volgende beperkingen als u de structuur voor 
 | Maximum aantal resources voor een project              | 150                  |
 | Maximum aantal koppelingen (alleen opvolgend) voor een project | 600                  |
 | Maximum aantal aangepaste velden voor een project          | 10                   |
+| Maximaal aantal controlelijstitems per taak                   | 20                   |
 
 **Taakbeperkingen**
 

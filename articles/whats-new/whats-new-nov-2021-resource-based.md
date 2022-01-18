@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827320"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942879"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van november 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -20,7 +20,7 @@ ms.locfileid: "7827320"
 
 Dit onderwerp is van toepassing op de volgende onderdelen en versies van Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in een Dataverse-omgeving versie 4.26.0.145, 4.26.0.148 en 4.26.0.150
+- Project Operations in een Dataverse-omgeving versie 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Projectbeheer en financiële administratie in een Dynamics 365 Finance-omgeving versie 10.0.22
 
 ## <a name="features-included-in-this-release"></a>In deze versie zijn de volgende functies opgenomen

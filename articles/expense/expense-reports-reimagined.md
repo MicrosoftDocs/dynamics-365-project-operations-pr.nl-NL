@@ -1,8 +1,8 @@
 ---
-title: Opnieuw ontworpen onkostennota's
+title: Opnieuw ontworpen onkostennota's (bevat video)
 description: In dit onderwerp wordt de opnieuw ontworpen en opnieuw vormgegeven ervaring voor het invoeren van onkostendeclaraties uitgelegd.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997825"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941025"
 ---
 # <a name="expense-reports-reimagined"></a>Opnieuw ontworpen onkostennota's
 
@@ -58,6 +58,7 @@ Als u de nieuwe ervaring wilt inschakelen, gebruikt u de werkruimte **Functiebeh
 | Onkostenregels opslaan en toevoegen | De knoppen **Opslaan** en **Nieuw** zijn beschikbaar wanneer er nieuwe onkosten worden ingevoerd, zodat u snel onkostenregels kunt invoeren. |
 | Beter inzicht in opgesplitste en gespecificeerde regels | Gespecificeerde en gesplitste regels worden rechtstreeks aan de lijst met onkosten toegevoegd om de zichtbaarheid te vergroten en u te helpen gemakkelijk te bepalen of er fouten zijn. |
 | Subcategoriedetails in gespecificeerde regels weergeven | Gespecificeerde regels van een bovenliggende uitgave tonen de subcategorielabels op de onkostennota. Met de specificatie kunt u de gedetailleerde details in één oogopslag bekijken.|
+|Terugkerende uitgaven snel specificeren | De opnieuw ontworpen werkruimte voor onkosten biedt de mogelijkheid om terugkerende uitgaven snel te specificeren door de subcategorie, begindatum en hoeveelheid toe te voegen. De hoeveelheid verwijst naar het aantal keren dat de kosten worden herhaald over een ononderbroken periode. |
 | Betalingsbewijzen weergeven tijdens specificatie | Betalingsbewijzen kunnen worden weergeven tijdens specificatie. |
 | Selectie contant voorschot | Selecteer een of meer contante voorschotten voor het uitvoeren van één onkostentransactie. |
 | Saldo contant voorschot | Bekijk het saldo van het contante voorschot in realtime wanneer u een onkostenpost maakt tegen goedgekeurde en betaalde contante voorschotten. |
