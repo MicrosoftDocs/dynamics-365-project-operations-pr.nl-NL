@@ -2,9 +2,11 @@
 title: Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren naar Finance
 description: In dit onderwerp worden de sjabloon en onderliggende taken beschreven die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Microsoft Dynamics 365 Project Service Automation te synchroniseren met Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001065"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764813"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren naar Finance 
 
@@ -42,7 +44,7 @@ De integratieoplossing van Project Service Automation naar Finance gebruikt de f
 
 De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Project Service Automation en Finance.
 
-[![Gegevensstroom voor integratie van Project Service Automation met Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Gegevensstroom voor integratie van Project Service Automation met Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 
@@ -107,8 +109,8 @@ Wanneer de integratieoplossing voor Project Service Automation met Finance wordt
 ## <a name="prerequisites-and-mapping-setup"></a>Vereisten en toewijzingsinstellingen
 
 - Voordat synchronisatie van projectcontracten en projecten kan plaatsvinden, moet u accounts synchroniseren.
-- Voeg in uw verbindingsset een integratiesleutelveldtoewijzing toe voor **msdyn\_organizationalunits** naar **msdyn\_name \[Naam\]**. Mogelijk moet u eerst een project aan de verbindingsset toevoegen. Zie [Gegevens integreren in Common Data Service voor apps](/powerapps/administrator/data-integrator) voor meer informatie.
-- Voeg in uw verbindingsset een integratiesleutelveldtoewijzing toe voor **msdyn\_projects** naar **msdynce\_projectnumber \[Projectnummer\]**. Mogelijk moet u eerst een project aan de verbindingsset toevoegen. Zie [Gegevens integreren in Common Data Service voor apps](/powerapps/administrator/data-integrator) voor meer informatie.
+- Voeg in uw verbindingsset een integratiesleutelveldtoewijzing toe voor **msdyn\_organizationalunits** naar **msdyn\_name \[Naam\]**. Mogelijk moet u eerst een project aan de verbindingsset toevoegen. Zie [Gegevens integreren in Common Data Service voor apps](https://docs.microsoft.com/powerapps/administrator/data-integrator) voor meer informatie.
+- Voeg in uw verbindingsset een integratiesleutelveldtoewijzing toe voor **msdyn\_projects** naar **msdynce\_projectnumber \[Projectnummer\]**. Mogelijk moet u eerst een project aan de verbindingsset toevoegen. Zie [Gegevens integreren in Common Data Service voor apps](https://docs.microsoft.com/powerapps/administrator/data-integrator) voor meer informatie.
 - **SourceDataID** voor projectcontracten en projecten kunnen worden bijgewerkt naar een andere waarde of worden verwijderd uit de toewijzing. De standaardsjabloonwaarde is **Project Service Automation**.
 - De toewijzing **PaymentTerms** moet worden bijgewerkt zodat deze de geldige betalingsvoorwaarden in Finance weerspiegelt. U kunt ook de toewijzing uit de projecttaak verwijderen. De standaardwaardetoewijzing heeft standaardwaarden voor demogegevens. De volgende tabel toont de waarden in Project Service Automation.
 
@@ -129,7 +131,7 @@ Gebruik Microsoft Power Query voor Excel om gegevens te filteren als aan de volg
 Volg deze richtlijnen als u Power Query moet gebruiken:
 
 - De sjabloon Projecten en contracten (PSA naar Fin en Ops) heeft een standaardfilter dat alleen verkooporders van het type **Werkitem (msdyn\_ordertype = 192350001)** bevat. Dit filter helpt te garanderen dat er geen projectcontracten worden gemaakt voor verkooporders in Finance. Als u uw eigen sjabloon maakt, moet u dit filter toevoegen.
-- Maak een Power Query-filter dat alleen de contractorganisaties bevat die moeten worden gesynchroniseerd met de rechtspersoon van de integratieverbindingsset. Bijvoorbeeld projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso US moeten worden gesynchroniseerd met de rechtspersoon USSI, maar projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso Global moeten worden gesynchroniseerd met de rechtspersoon USMF. Als u dit filter niet toevoegt aan uw taaktoewijzing, worden alle projectcontracten gesynchroniseerd met de rechtspersoon die is gedefinieerd voor de verbindingsset, ongeacht de contractorganisatie.
+- Maak een Power Query-filter dat alleen de contractorganisaties bevat die moeten worden gesynchroniseerd met de rechtspersoon van de integratieverbindingsset. Projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso US moeten bijvoorbeeld worden gesynchroniseerd met de rechtspersoon USSI, maar projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso Global moeten worden gesynchroniseerd met de rechtspersoon USMF. Als u dit filter niet toevoegt aan uw taaktoewijzing, worden alle projectcontracten gesynchroniseerd met de rechtspersoon die is gedefinieerd voor de verbindingsset, ongeacht de contractorganisatie.
 
 ## <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
 
@@ -140,17 +142,14 @@ Volg deze richtlijnen als u Power Query moet gebruiken:
 
 De volgende afbeeldingen laten voorbeelden zien van de toewijzingen van sjabloontaken in Gegevensintegratie. De toewijzing toont de veldinformatie die wordt gesynchroniseerd van Project Service Automation naar Finance.
 
-[![Toewijzing projectcontractsjabloon.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Toewijzing projectcontractsjabloon](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Toewijzing projectsjabloon.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Toewijzing projectsjabloon](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Toewijzing sjabloon projectcontractregels.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Toewijzing sjabloon projectcontractregels](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Toewijzing sjabloon mijlpaal projectcontractregels.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Toewijzing sjabloon mijlpaal projectcontractregels](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Toewijzing van mijlpalen voor projectcontractregels in de sjabloon Projecten en contracten (PSA 3.x naar Dynamics) - v2:
 
-[![Toewijzing mijlpaal projectcontractregels met versie twee van sjabloon.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Toewijzing mijlpaal projectcontractregels met versie twee van sjabloon](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

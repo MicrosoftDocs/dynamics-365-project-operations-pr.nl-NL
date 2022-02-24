@@ -2,16 +2,18 @@
 title: Een structuur voor werkspecificatie maken
 description: In dit onderwerp wordt uitgelegd hoe u een structuur voor werkspecificatie kunt maken inclusief de basisbesturingselementen in de nieuwe planningsinterface.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928609"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841325"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Een structuur voor werkspecificatie maken
 
@@ -91,11 +93,9 @@ De volgende tabel toont aanvullende planningskenmerken.
 | Meetcriterium | De naam van de taak. |
 | Id | De id van de taak in de structuur voor werkspecificatie. |
 
-Als beheerder kunt u aangepaste velden voor de taakentiteit definiëren. De velden kunnen echter niet worden weergegeven in het planningsraster. Als u uw aangepaste velden wilt zien, voegt u deze toe aan de detailpagina **Projecttaak**.
-
 ## <a name="staffing-attributes"></a>Personeelskenmerken
 
-U hebt toegang tot personeelskenmerken via het veld **Resources** in de planning. U kunt zoeken naar een bestaande resource of **Maken** selecteren en in het deelvenster **Snelle invoer** een projectteamlid toevoegen als een nieuwe resource.  Wanneer u naar een resource zoekt met behulp van de resourcekiezer in het taakraster, de bordweergave of Gantt, levert de zoekopdracht bestaande projectteamleden of actieve boekbare resources op.
+U hebt toegang tot personeelskenmerken via het veld **Resources** in de planning. U kunt zoeken naar een bestaande resource of **Maken** selecteren en in het deelvenster **Snelle invoer** een projectteamlid toevoegen als een nieuwe resource.
 
 De velden **Rol**, **Resource-eenheid** en **Naam van positie** worden gebruikt om de personeelsvereisten voor de taak te beschrijven. Deze personeelskenmerken worden samen met de taakplanning gebruikt om beschikbare resources te vinden voor het uitvoeren van deze taak.
 
@@ -116,28 +116,3 @@ De taakmodus heeft geen invloed op updates die zijn aangebracht in de begin- en 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Toegankelijkheid en sneltoetsen
 
 Het raster **Planning** is volledig toegankelijk en kan worden gebruikt met schermlezers, zoals Verteller, JAWS of NVDA. U kunt door het rastergebied navigeren met behulp van de pijltoetsen (zoals in Microsoft Excel), u kunt de tab-toets gebruiken om de interactieve elementen van de gebruikersinterface te doorlopen en u kunt de pijl-omlaag, de Enter-toets of de spatiebalk gebruiken om de vervolgkeuzemenu's te selecteren en te openen.
-
-## <a name="project-limitations"></a>Projectbeperkingen 
-U dient zich bewust te zijn van de volgende beperkingen als u de structuur voor werkspecificatie in Project Operations gebruikt. Deze limieten gelden voor projecten en taken. Zie voor meer informatie [Project for the Web-limieten en -grenzen](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Veld**                                          |  **Limiet**           |
-|----------------------------------------------------|----------------------|
-| Maximum aantal taken voor een project                  | 500                  |
-| Maximale duur voor een project               | 3650 dagen (10 jaar) |
-| Maximum aantal resources voor een project              | 150                  |
-| Maximum aantal koppelingen (alleen opvolgend) voor een project | 600                  |
-| Maximum aantal aangepaste velden voor een project          | 10                   |
-| Maximaal aantal controlelijstitems per taak                   | 20                   |
-
-**Taakbeperkingen**
-
-| **Veld**                               |   **Limiet**           |
-|-----------------------------------------|-----------------------|
-| Maximaal hiërarchieniveau                 | 10 niveaus             |
-| Maximum aantal koppelingen (opvolgend + voorgaand) | 20                    |
-| Maximale duur van bladtaak           | 1250 dagen             |
-| Maximale duur van een samenvattingstaak      | 3650 dagen (10 jaar)  |
-| Maximum aantal toegewezen resources aan een taak    | 20 resources          |
-| Ondersteunde datumbereik voor een taak         | 01-01-2000 - 31-12-2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

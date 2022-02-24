@@ -2,17 +2,18 @@
 title: Overzicht van planningsassistent
 description: Dit onderwerp biedt informatie over het werken met de planningsassistent om resources te boeken.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990220"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074420"
 ---
 # <a name="schedule-assistant-overview"></a>Overzicht van planningsassistent
 
@@ -24,7 +25,7 @@ Nadat geschikte resources zijn geïdentificeerd, kan de resource- of projectmana
 
 ## <a name="prerequisites"></a>Vereisten
 
-De planningsassistent is onderdeel van de Universal Resource Scheduling-oplossing. Deze oplossing is inbegrepen en geïnstalleerd met Dynamics 365 Project Operations, Dynamics 365 Field Service en Dynamics 365 Customer Service.
+De planningsassistent is onderdeel van de Universal Resource Scheduling-oplossing. Deze oplossing wordt samen met Dynamics 365 Project Operations, Dynamics 365 Field Service en Dynamics 365 Customer Service geïnstalleerd.
 
 ## <a name="matching-requirements-and-resources"></a>Afstemming van vereisten en resources
 
@@ -56,6 +57,3 @@ Het filterpaneel toont werkgerelateerde opties, waaronder:
 -   Bedrijf voor resources
 -   Resourcetypen
 -   Geprefereerde resources
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

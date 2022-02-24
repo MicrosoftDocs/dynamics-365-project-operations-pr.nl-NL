@@ -2,17 +2,18 @@
 title: Implementatieoverzicht van Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 description: Dit onderwerp bevat informatie over het implementatietype, Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009705"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365440"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Implementatieoverzicht van Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -42,6 +43,3 @@ Kies dit implementatietype als u Project Operations gaat gebruiken voor de volle
 - Vereisten voor een uitgebreide omzetbelasting- en wisselkoersengine op ondernemingsniveau om klantgerichte facturen voor projecten te genereren.
 - Een systeem conform International Financial Reporting Standards (IFRS) voor projectboekhouding en opbrengstverantwoording.
 - Toepassingen voor Finance of Supply Chain Management en integratie van projectgebaseerde transacties.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

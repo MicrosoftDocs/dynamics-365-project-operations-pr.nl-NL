@@ -2,9 +2,11 @@
 title: Projectprijslijsten in een prijsopgave beheren
 description: In dit onderwerp krijgt u informatie over de entiteit Projectprijslijst.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003900"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177190"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Projectprijslijsten in een prijsopgave beheren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Dynamics 365 Project Operations breidt de entiteit Prijslijst in Dynamics 365 Sales uit. 
+Dynamics 365 project Operations breidt de entiteit Prijslijst in Dynamics 365 Sales uit. 
 
 ## <a name="key-entities"></a>Belangrijke entiteiten
 
@@ -118,6 +120,3 @@ Net als factuurtarieven worden ook kostentarieven voor personeel ingesteld met b
     1. De kostprijslijst die aan de organisatie-eenheid is gekoppeld.
     2. De kostprijslijst die aan de Project Operations-parameters is gekoppeld. Omdat kostprijslijsten in veel verschillende valuta's kunnen worden gekoppeld aan parameters, wordt de valuta van de contracterende organisatie-eenheid van het project, het contract of de prijsopgave afgestemd op de valuta van de kostprijslijst.
     3. Voor onkosten worden de prijsmethoden Tegen kosten en Opslag over kosten niet toegepast op kostprijslijsten. Zelfs als deze prijsmethoden worden gebruikt voor kostprijslijstregels om transactiecategoriekosten in te stellen, worden deze genegeerd en wordt er geen standaardkostprijs ingevoerd.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

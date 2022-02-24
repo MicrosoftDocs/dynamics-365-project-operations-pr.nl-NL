@@ -2,10 +2,12 @@
 title: Transactiecategorie gebruiken als prijsdimensie
 description: Dit onderwerp bevat informatie over het gebruik van een transactiecategorie als een prijsdimensie.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988846"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150752"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Transactiecategorie gebruiken als prijsdimensie
 
@@ -51,6 +53,3 @@ De volgende tabel bevat een uitgebreide lijst met gebruiksklare formulieren en w
 2. Kijk op de pagina **Parameters** in het tabblad **Op bedrag gebaseerde prijsdimensies** naar het raster in het tabblad met de records in de entiteit **Prijsdimensies**.
 3. Voeg **Transactiecategorie** toe aan deze lijst en stel de velden **Van toepassing op kosten** en **Van toepassing op verkoop** in op **Ja**.
 4. Selecteer in het veld **Dimensietype** de optie **Op bedrag gebaseerd** en selecteer vervolgens de prioriteit voor **Transactiecategorie** met betrekking tot kosten en verkopen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

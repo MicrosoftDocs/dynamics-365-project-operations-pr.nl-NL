@@ -2,16 +2,18 @@
 title: Het automatisch maken van facturen configureren
 description: Dit onderwerp bevat informatie over hoe u het systeem kunt configureren om automatisch facturen te genereren.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992650"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122427"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Het automatisch maken van facturen configureren
 
@@ -43,6 +45,3 @@ De batchprocestaak voor het maken van facturen is een terugkerende taak. Als dit
 
 > [!NOTE]
 > Batchfacturering wordt alleen uitgevoerd voor projectcontractregels die zijn geconfigureerd door factuurschema's. Voor een contractregel met een factureringsmethode met een vaste prijs moeten mijlpalen zijn geconfigureerd. Voor een projectcontractregel met een factureringsmethode voor tijd en materiaal is een op datum gebaseerd factuurschema nodig. Hetzelfde geldt voor een contractregel die op een project is gebaseerd.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

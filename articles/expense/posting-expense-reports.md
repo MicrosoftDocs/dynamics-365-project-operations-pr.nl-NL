@@ -2,9 +2,11 @@
 title: Onkostennota's boeken
 description: In dit onderwerp wordt uitgelegd hoe u onkostendeclaraties boekt.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007680"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124272"
 ---
 # <a name="post-expense-reports"></a>Onkostennota's boeken
 
@@ -29,6 +31,3 @@ Als kosten op een onkostendeclaratie in rekening worden gebracht bij een ander b
 Om een onkostendeclaratie te boeken selecteert u op de pagina **Goedgekeurde onkostendeclaraties** de onkostendeclaratie en vervolgens in het actievenster **Boeken**.
 
 U kunt ook alle onkostendeclaraties in de lijst tegelijk boeken. Selecteer alle onkostendeclaraties en vervolgens **Boeken**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

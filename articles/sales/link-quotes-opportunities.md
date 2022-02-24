@@ -2,16 +2,18 @@
 title: Prijsopgaven voor projecten maken op basis van verkoopkansen
 description: In dit onderwerp krijgt u informatie over het maken van een projectprijsopgave op basis van een verkoopkans.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999625"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118107"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Prijsopgaven voor projecten maken op basis van verkoopkansen
 
@@ -54,6 +56,3 @@ Een bestaande prijsopgave kan worden gekoppeld aan een verkoopkans. Voer de volg
    Wanneer u een verkoopkans naar deze fase verplaatst, kunt u deze prijsopgave selecteren uit een lijst met prijsopgaven die aan deze verkoopkans zijn gekoppeld. Als u deze prijsopgave selecteert, geeft u aan dat u ermee verder gaat.
 
    Alle andere prijsopgaven die aan de verkoopkans zijn gekoppeld, blijven beschikbaar en actief totdat een van deze wordt geaccepteerd. U kunt het verkoopproces terug verplaatsen naar de vorige fase **Kwalificeren** en een andere prijsopgave kiezen om mee verder te gaan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

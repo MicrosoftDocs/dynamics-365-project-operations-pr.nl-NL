@@ -2,9 +2,11 @@
 title: Aangepaste velden instellen als prijsdimensies
 description: In dit onderwerp krijgt u informatie over het instellen van prijsdimensies met behulp van aangepaste velden.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003585"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650198"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Aangepaste velden instellen als prijsdimensies
 
@@ -42,11 +44,11 @@ Als u een veld wilt laten fungeren als een prijsdimensie, moet het voldoen aan d
 
 - Het is gemaakt als een rij in de tabel **Prijsdimensie**. Voeg bijvoorbeeld prijsdimensierijen toe zoals weergegeven in de volgende afbeelding. 
 
-![Rijen in Op bedrag gebaseerde prijsdimensies.](media/Amt-based-PD.png)
+![Rijen in Op bedrag gebaseerde prijsdimensies](media/Amt-based-PD.png)
 
 Werkuren van resource (**msdyn_resourceworkhours**) is toegevoegd als een op toeslag gebaseerde dimensie en is toegevoegd aan het raster op het tabblad **Op opslag gebaseerde prijsdimensie**.
 
-![Rijen in Op opslag gebaseerde prijsdimensies.](media/Markup-based-PD.png)
+![Rijen in Op opslag gebaseerde prijsdimensies](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -75,10 +77,10 @@ Er zijn twee typen prijsdimensies:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Op locatie            |                    |Overwerk                 |15     |
 |             | Contoso India|Lokaal             |                    |Overwerk                 |10     |
-|             | Contoso VS   |Lokaal             |                    |Overwerk                 |20     |
+|             | Contoso US   |Lokaal             |                    |Overwerk                 |20     |
 
 
-Als een resource van Contoso India met een basistarief van USD 100 op locatie werkt en deze 8 uur van de reguliere werktijd en 2 uur overwerk op de tijdsvermelding registreert, past de prijsengine het basistarief van 100 toe voor de 8 uur, voor een subtotaal van USD 800. Voor de 2 uur overwerk wordt een opslag van 15% toegepast op het basistarief van 100, wat een eenheidsprijs van USD 115 oplevert voor een subtotaal van USD 230.
+Als een resource van Contoso India met een basistarief van USD 100 op locatie werkt en deze 8 uur van de reguliere werktijd en 2 uur overwerk bij de tijdsvermelding invoert, past de prijsengine het basistarief van USD 100 toe voor de 8 uur, voor een subtotaal van USD 800. Voor de 2 uur overwerk wordt een opslag van 15% toegepast op het basistarief van 100, wat een eenheidsprijs van USD 115 oplevert voor een subtotaal van USD 230.
 
 ### <a name="applicable-to-cost"></a>Van toepassing op kosten 
 Als dit is ingesteld op **Ja**, geeft dit aan dat de dimensiewaarde van de invoercontext moet worden gebruikt om de **Rolprijs** en de **Rolprijsopslag** te vergelijken bij het ophalen van de kosten- en opslagtarieven.
@@ -94,6 +96,3 @@ Als u de dimensieprioriteit instelt, kan de prijsfunctie een prijs produceren, z
 
 - **Kostenprioriteit**: de waarde van de kostenprioriteit van een dimensie geeft de weging van die dimensie aan bij het vergelijken met de configuratie van kostprijzen. De waarde van **Kostenprioriteit** moet uniek zijn in alle dimensies die **van toepassing op kosten** zijn.
 - **Verkoopprioriteit**: de waarde van de verkoopprioriteit van een dimensie geeft de weging van die dimensie aan bij het vergelijken met de configuratie van verkoopprijzen of factuurtarieven. De waarde van **Verkoopprioriteit** moet uniek zijn in alle dimensies die **van toepassing op verkoop** zijn.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

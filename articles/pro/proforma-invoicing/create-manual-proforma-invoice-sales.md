@@ -1,102 +1,37 @@
 ---
-title: Pro-formaprojectfacturen
-description: Dit onderwerp biedt informatie over pro-formaprojectfacturen in Project Operations.
+title: Handmatig een pro-formafactuur maken - lite
+description: Dit onderwerp bevat informatie over het handmatig maken van pro-formafacturen in Project Operations.
 author: rumant
-ms.date: 04/06/2021
+manager: Annbe
+ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3d02728ce682781eb8816e0c2239cf62f88adfa8c5d2a0aab280be053c2a5ae6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992920"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764497"
 ---
-# <a name="proforma-project-pnvoices"></a>Pro-formaprojectfacturen
+# <a name="create-a-manual-proforma-invoice---lite"></a>Handmatig een pro-formafactuur maken - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Pro-formaprojectfacturen zijn nuttig omdat deze projectmanagers een tweede goedkeuringsniveau bieden voordat ze facturen voor klanten maken. De eerste goedkeuringsprocedure vindt plaats wanneer de tijd-, onkosten- en materiaalposten die door projectteamleden worden ingediend, worden goedgekeurd.
+In Dynamics 365 Project Operations kunnen pro-formafacturen indien nodig handmatig worden aangemaakt. U kunt handmatig een pro-formafactuur maken op de lijstpagina **Projectcontracten** of op de detailpagina **Projectcontract**.
 
-De lite-implementatie van Dynamics 365 Project Operations is niet ontworpen om klanten te genereren te genereren. De volgende lijst laat zien waarom facturen niet kunnen worden gegenereerd:
+##  <a name="project-contracts-list-page"></a>Lijstpagina Projectcontracten
 
-- Bevat geen belastinginformatie.
-- Andere valuta's kunnen niet worden omgezet in factureringsvaluta.
-- Facturen kunnen niet correct worden ingedeeld voor afdrukken.
+Selecteer op de lijstpagina **Projectcontracten** een of meer projectcontracten en maak facturen voor alle geselecteerde records.
 
-In plaats daarvan kunt u een financieel of boekhoudsysteem gebruiken om facturen voor klanten te maken waarin gebruik wordt gemaakt van de informatie uit gegenereerde factuurvoorstellen.
+Het systeem controleert welke van de geselecteerde projectcontracten een backlog heeft voor **Gereed voor facturering** die een datum heeft die vóór de datum van vandaag ligt. Op basis van deze contracten worden conceptpro-formafacturen gemaakt. Als een projectcontract meerdere klanten heeft, kan er één factuur per klant worden gemaakt en meerdere facturen per projectcontract.
 
-## <a name="creating-project-invoices"></a>Projectfacturen maken
+Alle gemaakte projectfacturen zijn beschikbaar op de pagina **Factuur** in de sectie **Facturering** van het gebied **Verkoop**.
 
-Projectfacturen kunnen een voor een of bulksgewijs worden gemaakt. U kunt ze handmatig maken of ze kunnen zo worden geconfigureerd dat ze worden gegenereerd in geautomatiseerde uitvoeringsbewerkingen.
+## <a name="project-contract-details-page"></a>Detailpagina Projectcontract
 
-### <a name="manually-create-project-invoices"></a>Handmatig projectfacturen maken 
+Een pro-formafactuur kan ook worden gemaakt op basis van de **Projectcontract**-detailpagina. Het systeem verifieert welk projectcontract een backlog voor **Gereed voor facturering** heeft die een datum heeft die vóór de datum van vandaag ligt. Op basis van deze contracten worden conceptpro-formafacturen gemaakt op basis van het aantal klanten op elke contractregel.
 
-Op de lijstpagina **Projectcontracten** kunt u afzonderlijke projectfacturen voor elk projectcontract maken of bulksgewijs facturen maken voor meerdere projectcontracten.
-
-   - Als u een factuur voor een specifiek projectcontract wilt maken, opent u op de lijstpagina **Projectcontracten** een projectcontract en selecteert u vervolgens **Factuur maken**.
-
-   Er wordt een factuur gegenereerd voor alle transacties voor het geselecteerde projectcontract met de status **Gereed voor facturering**. Deze transacties omvatten tijd, onkosten, materialen, mijlpalen, productgebaseerde contractregels en andere niet-gefactureerde verkoopjournaalregels die mogelijk zijn bevestigd.
-
-Bulksgewijs facturen maken:
-
-1. Selecteer op de lijstpagina **Projectcontracten** een of meer projectcontracten waarvoor u een factuur wilt maken en selecteer vervolgens **Projectfacturen maken**.
-2. In een waarschuwingsbericht wordt vermeld dat er mogelijk een vertraging is voordat facturen worden gemaakt. Het proces wordt ook weergegeven. Selecteer **OK** om het berichtvenster te sluiten.
-
-   Er wordt een factuur gegenereerd voor alle transacties op een contractregel met de status **Gereed voor facturering**. Deze transacties omvatten tijd, onkosten, materialen, mijlpalen, productgebaseerde contractregels en andere niet-gefactureerde verkoopjournaalregels die mogelijk zijn bevestigd.
-
-3. Als u de gegenereerde facturen wilt weergeven die zijn gegenereerd, gaat u naar **Verkoop** \> **Facturering** \> **Facturen**. U ziet één factuur voor elk projectcontract.
-
-### <a name="set-up-automated-creation-of-project-invoices"></a>Het automatisch maken van projectfacturen instellen 
-
-Volg deze stappen om een geautomatiseerde factuur-uitvoeringsbewerking te configureren.
-
-1. Ga naar **Instellingen** \> **Batchtaken**.
-2. Maak een batchtaak en noem deze taak **Facturen maken met Project Operations**. De naam van de batchtaak moet de term 'Facturen maken' bevatten.
-3. Selecteer in het veld **Taaktype** de optie **Geen**. Standaard zijn voor de frequentie de opties **Dagelijks** en **Is actief** ingesteld op **Ja**.
-4. Selecteer **Werkstroom uitvoeren**. In het dialoogvenster **Record opzoeken** ziet u de volgende werkstromen:
-
-    - Aanroeper procesuitvoering
-    - Proces uitvoeren
-    - Rolgebruik bijwerken
-
-5. Selecteer **Aanroeper procesuitvoering** en selecteer vervolgens **Toevoegen**.
-6. Selecteer in het volgende dialoogvenster de optie **OK**. Een **slaapstandwerkstroom** wordt gevolgd door een **proceswerkstroom**.
-
-    U kunt ook **Proces uitvoeren** selecteren in stap 5. Wanneer u vervolgens **OK** selecteert, wordt een **proceswerkstroom** gevolgd door een **slaapstandwerkstroom**.
-
-Met de werkstromen **Aanroeper procesuitvoering** en **Proces uitvoeren** worden facturen gemaakt. **Aanroeper procesuitvoering** roept **Proces uitvoeren** aan. **Proces uitvoeren** is de werkstroom waarmee de facturen worden gemaakt. Met deze werkstroom worden alle contractregels doorlopen waarvoor facturen moeten worden gemaakt en worden de facturen gemaakt. Voor deze werkstroom wordt gekeken naar de uitvoeringsdatums van facturen voor de contractregels om te bepalen voor welke contractregels facturen moeten worden gemaakt. Als contractregels die tot één contract behoren, dezelfde factuur-uitvoeringsdatum hebben, worden de transacties samengevoegd tot één factuur met twee factuurregels. Als er geen transacties zijn waarvoor facturen kunnen worden gemaakt, worden er geen facturen gemaakt.
-
-Nadat de werkstroom **Proces uitvoeren** is voltooid, roept deze de werkstroom **Aanroeper procesuitvoering** aan, verstrekt deze de eindtijd en wordt deze afgesloten. **Aanroeper procesuitvoering** start vervolgens een timer die 24 uur wordt uitgevoerd vanaf de opgegeven eindtijd. Als de timer heeft afgeteld tot nul, wordt **Aanroeper procesuitvoering** gesloten.
-
-De batchprocestaak voor het maken van facturen is een terugkerende taak. Als dit batchproces vaak wordt uitgevoerd, worden er meerdere exemplaren van de taak gemaakt en kunnen er fouten optreden. U moet daarom het batchproces slechts één keer starten en u moet het proces alleen opnieuw opstarten als het proces niet meer wordt uitgevoerd.
-
-> [!NOTE]
-> Batchfacturering wordt alleen uitgevoerd voor projectcontractregels die zijn geconfigureerd door factuurschema's. Voor een contractregel met een factureringsmethode met een vaste prijs moeten mijlpalen zijn geconfigureerd. Voor een projectcontractregel met een factureringsmethode voor tijd en materiaal is een op datum gebaseerd factuurschema nodig. Hetzelfde geldt voor een contractregel die op een project is gebaseerd.      
- 
-### <a name="edit-a-draft-invoice"></a>Een concept van een factuur bewerken
-
-Wanneer u een conceptfactuur voor een project maakt, worden alle niet-gefactureerde verkooptransacties die zijn gemaakt toen de tijd- en onkostenposten werden goedgekeurd, in de factuur opgehaald. U kunt de volgende correcties aanbrengen als de factuur zich nog in de conceptfase bevindt:
-
-- Factuurregeldetails verwijderen of bewerken.
-- De hoeveelheid en het factureringstype bewerken en wijzigen.
-- Rechtstreeks tijd, onkosten, materiaal en vergoedingen als transacties aan de factuur toevoegen. U kunt deze functie gebruiken als de factuurregel is toegewezen aan een contractregel die deze transactieklassen toestaat.
-
-Selecteer **Bevestigen** om een factuur te bevestigen. Deze actie Bevestigen is een eenrichtingsactie. Wanneer u **Bevestigen** selecteert, wordt de factuur alleen-lezen en worden er gefactureerde werkelijke verkoopwaarden gemaakt van elk factuurregeldetail voor elke factuurregel. Als het factuurregeldetail verwijst naar een niet-gefactureerde werkelijke verkoopwaarde, wordt de niet-gefactureerde werkelijke verkoopwaarde teruggeboekt. Alle factuurregeldetails die zijn gemaakt op basis van een vermelding van tijd, onkosten of materiaalgebruik, verwijzen naar een niet-gefactureerde werkelijke verkoopwaarde. Grootboekintegratiesystemen kunnen deze terugboeking gebruiken om onderhanden werk (OHW) voor boekhoudkundige doeleinden terug te draaien.
-
-### <a name="correct-a-confirmed-invoice"></a>Een bevestigde factuur corrigeren
-
-Bevestigde facturen kunnen worden bewerkt. Wanneer u een bevestigde factuur corrigeert, wordt er een nieuw concept van de correctiefactuur gemaakt. Omdat wordt aangenomen dat u alle transacties en hoeveelheden van de oorspronkelijke factuur wilt terugboeken, bevat deze correctiefactuur alle transacties van de oorspronkelijke factuur en zijn alle hoeveelheden op de factuur nul.
-
-Als er transacties zijn die niet hoeven te worden gecorrigeerd, kunt u deze verwijderen uit het concept van de correctiefactuur. Als u alleen een gedeeltelijke hoeveelheid wilt terugboeken of retourneren, kunt u het veld **Hoeveelheid** in de regeldetails bewerken. Als u het factuurregeldetail opent, kunt u de oorspronkelijk gefactureerde hoeveelheid bekijken. U kunt vervolgens de huidige gefactureerde hoeveelheid bewerken, zodat deze kleiner of groter is dan de oorspronkelijke gefactureerde hoeveelheid.
-
-Wanneer u een correctiefactuur bevestigt, wordt de oorspronkelijke gefactureerde werkelijke verkoopwaarde teruggeboekt en wordt er een nieuwe gefactureerde werkelijke verkoopwaarde gemaakt. Als de hoeveelheid is verlaagd, zorgt het verschil ervoor dat er een nieuwe, niet-gefactureerde werkelijke verkoopwaarde wordt gemaakt. Als de oorspronkelijke gefactureerde verkoopwaarde bijvoorbeeld voor acht uur was en het regeldetail van de correctiefactuur een gereduceerde hoeveelheid van zes uur heeft, wordt de oorspronkelijke gefactureerde verkoopregel teruggeboekt en worden er twee nieuwe werkelijke waarden gemaakt:
-
-- Een gefactureerde werkelijke verkoopwaarde voor zes uur.
-- Een niet-gefactureerde werkelijke verkoopwaarde voor de resterende twee uur. Deze transactie kan later worden gefactureerd of als niet-factureerbaar worden aangemerkt, afhankelijk van de onderhandelingen met de klant.
-
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Als er één pro-formafactuur wordt gemaakt, wordt de pagina **Factuur** geopend. Als er meerdere facturen worden aangemaakt voor dat projectcontract, opent de lijstpagina **Facturen** om alle gemaakte facturen weer te geven.

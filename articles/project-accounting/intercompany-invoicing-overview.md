@@ -2,17 +2,18 @@
 title: Overzicht van intercompany-facturering
 description: Dit onderwerp bevat informatie en voorbeelden over intercompany-facturering voor projecten.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005385"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595451"
 ---
 # <a name="intercompany-invoicing-overview"></a>Overzicht van intercompany-facturering
 
@@ -20,9 +21,9 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Uw organisatie heeft mogelijk meerdere divisies, dochterondernemingen en andere rechtspersonen die producten en diensten aan elkaar leveren voor projecten. De rechtspersoon die de service of het product levert, wordt de *uitlenende rechtspersoon* genoemd. De rechtspersoon die de service of het product ontvangt, wordt de *lenende rechtspersoon* genoemd.
 
-De volgende afbeelding toont een typisch scenario waarin twee rechtspersonen, Contoso Robotics USA (de lenende rechtspersoon) en Contoso Robotics UK (de uitlenende rechtspersoon) resources deelt om een project voor de klant, Adventure Works, te leveren. Voor dit scenario is Contoso Robotics USA gecontracteerd om het werk te leveren aan Adventure Works.
+De volgende afbeelding toont een typisch scenario waarin twee rechtspersonen, Contoso Robotics USA (de lenende rechtspersoon) en Contoso Robotics UK (de uitlenende rechtspersoon) resources delen om een project voor de klant Adventure Works te leveren. Voor dit scenario is Contoso Robotics USA gecontracteerd om het werk te leveren aan Adventure Works.
 
-![Intercompany-facturering.](./media/IntercompanyScenario.png) 
+![Intercompany-facturering](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations gebruikt de volgende stroom om intercompany-transacties te verwerken:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations gebruikt de volgende stroom om intercompany-tran
 
 Het volgende diagram illustreert de intercompany-facturering in relatie tot boekhoudkundige gebeurtenissen en verwachte boekingen naar het grootboek.
 
-![Intercompany-stroom.](./media/IntercompanyFlow.png)
+![Intercompany-stroom](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Intercompany-facturering configureren](configure-intercompany-invoicing.md)
 - [Intercompany-transacties registreren](create-intercompany-transactions.md)
 - [Intercompany-klant- en leveranciersfacturen maken](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Integratiejournaal in Project Operations
 description: Dit onderwerp geeft informatie over het werken met het Integratiejournaal in Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987925"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948324"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integratiejournaal in Project Operations
 
@@ -19,14 +21,14 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Met tijd- en onkostenboekingen maakt u **werkelijke** transacties die de operationele weergave van het voltooide werk voor een project vertegenwoordigen. Dynamics 365 Project Operations biedt accountants een tool om transacties te beoordelen en de kenmerken van de financiële administratie naar behoefte aan te passen. Nadat de controle en aanpassingen zijn voltooid, worden de transacties geboekt naar de subadministratie en het grootboek van het project. Een accountant kan deze werkzaamheden uitvoeren met behulp van het **Project Operations-integratiejournaal** (**Dynamics 365 Finance** > **Projectbeheer en financiële administratie** > **Journalen** > **Project Operations-integratiejournaal**).
 
-![Integratiejournaalstroom.](./media/IntegrationJournal.png)
+![Integratiejournaalstroom](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Records maken in het integratiejournaal in Project Operations
 
 Records in het Project Operations-integratiejournaal worden gemaakt met behulp van het periodieke proces **Importeren uit opslagtabel**. U kunt dit proces uitvoeren via **Dynamics 365 Finance** > **Projectbeheer en financiële administratie** > **Periodiek** > **Integratie van projectoperaties** > **Importeren uit opslagtabel**. U kunt het proces interactief uitvoeren of het proces zo configureren dat het op de achtergrond wordt uitgevoerd.
 
 Wanneer het periodieke proces wordt uitgevoerd, worden alle werkelijke waarden gevonden die nog niet zijn toegevoegd aan het Project Operations-integratiejournaal. Er wordt een journaalregel aangemaakt voor elke daadwerkelijke transactie.
-Journaalregels worden in afzonderlijke journalen gegroepeerd op basis van de waarde die is geselecteerd in het veld **Periode-eenheid in journaal van Project Operations-integratie** (tabblad **Finance** > **Projectbeheer en financiële administratie** > **Instellen** > **Parameters voor projectbeheer en financiële administratie**, **Project Operations in Dynamics 365 Customer Engagement**). Mogelijke waarden voor dit veld zijn:
+Het systeem groepeert dagboekregels in afzonderlijke dagboeken op basis van de waarde die is geselecteerd in het veld **Periode-eenheid in het Project Operations-integratiejournaal** (**Finance** > **Projectbeheer en financiële administratie** > **Instellen** > **Projectbeheer en boekhoudparameters**, **Project Operations op het tabblad Dynamics 365 Customer Engagement**). Mogelijke waarden voor dit veld zijn:
 
   - **Dagen**: werkelijke waarden zijn gegroepeerd op transactiedatum. Voor elke dag wordt een apart dagboek aangemaakt.
   - **Maanden**: werkelijke waarden zijn gegroepeerd per kalendermaand. Voor elke maand wordt een apart dagboek aangemaakt.

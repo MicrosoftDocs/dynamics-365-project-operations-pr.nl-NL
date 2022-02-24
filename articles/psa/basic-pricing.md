@@ -2,6 +2,8 @@
 title: Projectprijzen
 description: Dit onderwerp biedt informatie over de manier waarop prijzen werken in Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000570"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148907"
 ---
 # <a name="project-pricing"></a>Projectprijzen 
 
@@ -46,7 +48,7 @@ De entiteit Prijslijst heeft drie gerelateerde tabellen waarin prijzen worden op
   - **Prijs voor transactiecategorie**: in deze tabel worden prijzen per transactiecategorie opgeslagen en deze tabel wordt gebruikt om prijzen voor onkostencategorieën in te stellen.
   - **Prijslijstitems**: in deze tabel worden prijzen voor catalogusproducten opgeslagen.
 
-> ![Prijzen configureren met een prijslijst.](media/basic-guide-12.png)
+> ![Prijzen configureren met een prijslijst](media/basic-guide-12.png)
  
 De prijslijst is een tariefkaart. Een tariefkaart is een combinatie van de entiteit Prijslijst en gerelateerde rijen in de tabellen Rolprijs, Prijs voor transactiecategorie en Prijslijstitems.
 
@@ -58,7 +60,7 @@ Voor de tijd van personeel wordt doorgaans een prijsopgave gemaakt op basis van 
 
 De eenhedengroep **Tijd** wordt gemaakt wanneer PSA is geïnstalleerd. Deze heeft als standaardeenheid **Uur**. U kunt de kenmerken van de eenhedengroep **Tijd** of de eenheid **Uur** niet verwijderen, hernoemen of bewerken. U kunt echter wel andere eenheden toevoegen aan de eenhedengroep **Tijd**. Als u de eenhedengroep **Tijd** of de eenheid **Uur** probeert te verwijderen, kan dit fouten in de PSA-bedrijfslogica veroorzaken.
 
-> ![Prijzen per rol configureren.](media/basic-guide-13.png)
+> ![Prijzen per rol configureren](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Transactiecategorieën en onkostencategorieën
 
@@ -68,7 +70,7 @@ Reis- en andere onkosten die projectconsultants maken, worden meestal aan de kla
 - **Opslagpercentage**: het percentage over de werkelijke kosten wordt gefactureerd aan de klant. 
 - **Prijs per eenheid**: er wordt een factureringsprijs ingesteld voor elke eenheid van de onkostencategorie. Het bedrag dat wordt gefactureerd aan de klant wordt berekend op basis van het aantal onkosteneenheden dat de consultant rapporteert. Bij Gereden kilometers wordt de prijsstellingsmethode Prijs per eenheid gebruikt. De onkostencategorie Gereden kilometers kan bijvoorbeeld worden geconfigureerd voor 30 euro per dag of 2 euro per kilometer. Wanneer een consultant het aantal gereden kilometers voor een project rapporteert, wordt het factuurbedrag berekend op basis van het aantal kilometers dat de consultant heeft gerapporteerd.
 
-> ![Prijzen voor onkostencategorieën configureren.](media/basic-guide-14.png)
+> ![Prijzen voor onkostencategorieën configureren](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Prijzen en overschrijvingen van projectverkopen
 
@@ -114,7 +116,7 @@ Voor een prijsopgave kunt u echter een hoofdprijslijst gebruiken. U kunt ook een
 
 Wanneer u een aangepaste projectprijslijst maakt, worden alleen de projectonderdelen van de prijslijst gekopieerd. Met andere woorden, er wordt een nieuwe prijslijst gemaakt als een kopie van de bestaande projectprijslijst die is gekoppeld aan de prijsopgave en deze nieuwe prijslijst heeft alleen gerelateerde rolprijzen en transactiecategorieprijzen.
 
-> ![Aangepaste prijzen voor een projectcontract weergeven en configureren.](media/basic-guide-15.png)
+> ![Aangepaste prijzen voor een projectcontract weergeven en configureren](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Kosten bijhouden
 
@@ -129,6 +131,3 @@ Net als factuurtarieven worden ook kostentarieven voor personeel ingesteld met b
     1. De kostprijslijst die aan de organisatie-eenheid is gekoppeld.
     2. De kostprijslijst die aan de Project Service-parameters is gekoppeld. Omdat kostprijslijsten in veel verschillende valuta's kunnen worden gekoppeld aan Project Service-parameters, wordt in PSA de valuta van de contracterende organisatie-eenheid van het project, het contract of de prijsopgave afgestemd op de valuta van de kostprijslijst.
     3. Voor onkosten worden de prijsmethoden Tegen kosten en Opslag over kosten niet toegepast op kostprijslijsten. Zelfs als deze prijsmethoden worden gebruikt voor kostprijslijstregels om transactiecategoriekosten in te stellen, worden deze genegeerd en wordt er geen standaardkostprijs ingevoerd.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

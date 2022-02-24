@@ -2,9 +2,11 @@
 title: Geavanceerde contracten maken voor facturering op basis van voortgang
 description: In dit onderwerp wordt uitgelegd hoe u projectcontracten maakt, zodat u facturen voor klanten kunt genereren op basis van een percentage voltooid werk.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000975"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074693"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Geavanceerde contracten maken voor facturering op basis van voortgang
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ Budgetcategorieën worden gebruikt om automatisch de factuurbedragen te berekene
 8. Optioneel: wijs de factureringsregel toe aan extra projecten. Selecteer op het sneltabblad **Project** in de sectie **Beschikbare projecten** een project en selecteer vervolgens de pijl naar rechts om het project toe te voegen aan de sectie **Geselecteerde projecten**.
 9. Optioneel: bereken het percentagebedrag dat de klant inhoudt op betalingen op een factuur. Selecteer op het sneltabblad **Inhoudingstermijnen voor betalingen** de financieringsbron en vul vervolgens het veld **Inhoudingspercentage** in.
 10. Herhaal deze stappen om aanvullende factureringsregels voor het projectcontract te maken.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,19 @@
 title: Instelling en configuratie van gegevensintegratie in Project Operations
 description: Deze onderwerp biedt informatie over het instellen en configureren van 'Twee keer wegschrijven'-kaarten in Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
+ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986530"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938970"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Instelling en configuratie van gegevensintegratie in Project Operations
 
@@ -24,7 +26,7 @@ Dit onderwerp biedt informatie over integratie van twee keer wegschrijven in Pro
 
 Projectcontracten, contractregels en projecten worden gemaakt in Dataverse en gesynchroniseerd met Finance and Operations-apps voor extra financiële administratie. De records in deze entiteiten kunnen alleen worden gemaakt en verwijderd in Dataverse. Boekhoudkundige kenmerken zoals standaardwaarden voor btw-groepen en financiële dimensies kunnen echter aan deze records worden toegevoegd in de Finance and Operations-apps.
 
-  ![Concepten voor projectcontractintegratie.](./media/1ProjectContract.jpg)
+  ![Concepten voor projectcontractintegratie](./media/1ProjectContract.jpg)
 
 Potentiële klanten, verkoopkansen en prijsopgaven voor verkoop worden bijgehouden in Dataverse en niet gesynchroniseerd met Finance and Operations-apps omdat er geen stroomafwaartse financiële administratie aan deze activiteit is gekoppeld.
 
@@ -51,7 +53,7 @@ Projectcontractregels kunnen worden beoordeeld door de projectaccountant in Fina
 
 Projectcontractregels die de factureringsmethode tegen een vaste prijs gebruiken, worden gefactureerd via factureringsmijlpalen. Factureringsmijlpalen worden gesynchroniseerd om transacties op rekening te projecteren in Finance and Operations-apps met behulp van de tabeltoewijzing **Mijlpalen voor integratiecontractregels in Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integratie van factureringsmijlpalen.](./media/2Milestones.jpg)
+  ![Integratie van factureringsmijlpalen](./media/2Milestones.jpg)
 
 De accountant kan transacties op rekening bekijken en de boekhoudkundige kenmerken voor die transacties aanpassen door naar **Projectmanagement en boekhouding** > **Projectcontracten** > **Bijhouden** > **Transacties op rekening** of **Projectmanagement en boekhouding** > **Alle projecten** > **Bijhouden** > **Transacties op rekening** te gaan.
 
@@ -61,13 +63,13 @@ Wanneer u voor het eerst een factureringsmijlpaal maakt voor een bepaalde projec
 
 Projecttaken worden uitsluitend voor referentiedoeleinden gesynchroniseerd met Finance and Operations-apps via de tabeltoewijzing **Projecttaken (msdyn\_projecttasks)**. De bewerkingen voor maken, bijwerken en verwijderen worden niet ondersteund via Finance and Operations-apps.
 
-  ![Integratie van projecttaken.](./media/3Tasks.jpg)
+  ![Integratie van projecttaken](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projectresources
 
 De entiteit **Rollen van projectresources** wordt uitsluitend voor referentiedoeleinden gesynchroniseerd met Finance and Operations-apps via de tabeltoewijzing **Projectresourcerollen voor alle bedrijven (bookableresourcecategories)**. Omdat resourcerollen in Dataverse niet bedrijfsspecifiek zzijn, maakt het systeem automatisch respectievelijke bedrijfsspecifieke resourcerollenrecords aan in Finance and Operations-apps voor alle juridische entiteiten die zijn opgenomen in het integratiebereik voor twee keer wegschrijven.
 
-![Integratie van resourcerollen.](./media/5Resources.jpg)
+![Integratie van resourcerollen](./media/5Resources.jpg)
 
 Projectresources in Project Operations worden onderhouden in Dataverse en worden niet gesynchroniseerd met Finance and Operations-apps.
 
@@ -75,6 +77,6 @@ Projectresources in Project Operations worden onderhouden in Dataverse en worden
 
 Transactiecategorieën worden onderhouden in Dataverse en gesynchroniseerd met Finance and Operations-apps via de tabeltoewijzing **Projecttransactiecategorieën (msdyn\_transactioncategories)**. Nadat de transactiecategorierecord is gesynchroniseerd, maakt het systeem automatisch vier gedeelde categorierecords. Elke record komt overeen met een transactietype in Finance and Operations-apps en koppelt deze aan de transactiecategorierecord.
 
-![Integratie van transactiecategorieën.](./media/4TransactionCategories.jpg)
+![Integratie van transactiecategorieën](./media/4TransactionCategories.jpg)
 
 Het gebruik van transactiecategorieën voor schattingen en werkelijke waarden vereist dat de projectaccountant of systeembeheerder overeenkomstige projectcategorieën in elke rechtspersoon maakt. Zie [Projectcategorieën configureren](../project-accounting/configure-project-categories.md) voor meer informatie.

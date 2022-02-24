@@ -2,43 +2,43 @@
 title: Dynamics 365 Project Operations
 description: In dit onderwerp krijgt u informatie over Dynamics 365 Project Operations.
 author: stsporen
+manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.search.scope: ''
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6646379fb421796a083bc321542daef4f58dcddfc67915d68403c2a370ba90c4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988375"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120807"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations verbindt sales-, resourcing-, projectmanagement- en financiële teams in één enkele toepassing om meer deals binnen te halen, de projectlevering te versnellen en de winstgevendheid te maximaliseren.
+Microsoft Dynamics 365 Project Operations verbindt verkoop-, resourcing-, projectmanagement- en financiële teams in één enkele applicatie om meer deals binnen te halen, de levering van projecten te versnellen en de winstgevendheid te maximaliseren.
 
 -   **Leiders krijgen zakelijke inzichten** om de zichtbaarheid van alle teams, gegevens en processen te vergroten, plus AI-mogelijkheden voor betere en snellere zakelijke beslissingen.
 -   **Verkoop is ingeschakeld** om meer deals binnen te halen en de verkoopcyclus te versnellen met snelle en nauwkeurige offertes, flexibele prijzen en naadloze overgangen van schatting naar uitvoering.
--   **Resourcing is opgezet voor een optimaal** gebruik van resources door de juiste mensen, met de juiste vaardigheden, op de juiste projecten af te stemmen. Deze afstemming verbetert de kwaliteit en helpt om toppresteerders te behouden.
+-   **Resourcing is opgezet voor een optimaal** gebruik van resources door de juiste mensen, met de juiste vaardigheden, op de juiste projecten af te stemmen. Dit verbetert de kwaliteit en helpt om toppresteerders te behouden.
 -   **Projectmanagers zorgen voor versnelling** van de projectoplevering met state-of-the-art, ingebouwd projectbeheer dat vertrouwde, gebruiksvriendelijke Microsoft Project-mogelijkheden gebruikt.
 -   **Teamleden verbeteren de productiviteit**, samenwerking en zichtbaarheid met integratie met Microsoft Teams en kunnen overal tijd- en onkostendeclaraties indienen.
 -   **Finance kan de projectboekhouding vereenvoudigen** met beheer van tijd en onkosten, projectkosten, budgettering, facturering, omzetverantwoording, naleving en inzicht in de belangrijkste bedrijfsstatistieken.
 
-Project Operations is op zichzelf al krachtig, maar kan worden uitgebreid door onze klanten die meer mogelijkheden van Dynamics 365 nodig hebben. Deze mogelijkheden omvatten Marketing, Human Resources, Customer Service en meer. Of u nu de toegevoegde functionaliteit van een andere Dynamics 365-toepassing wilt of een aangepaste toepassing wilt toevoegen die is gebouwd met Power Apps, alles werkt samen en werkt zoals u verwacht, omdat ze de gemeenschappelijke basis delen van een veilige, persoonlijke en compatibele cloudoplossing.
+Project Operations is op zichzelf al krachtig, maar kan worden uitgebreid door onze klanten die extra mogelijkheden van Dynamics 365 nodig hebben. Dit omvat Marketing, Human Resources, Customer Service en meer. Of u nu de extra functionaliteit van een andere Dynamics 365-applicatie wilt of een applicatie op maat wilt toevoegen die is gebouwd met Power Apps, alles werkt samen en werkt zoals u verwacht, omdat alles de gemeenschappelijke basis deelt van een veilige, privé en compatibele cloudoplossing.
 
 Voor meer informatie raadpleegt u:
 
 - [Overzicht van Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Overzicht van releasewave 1 van 2020 voor Dynamics 365 Project Operations](/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Overzicht van releasewave 1 van Dynamics 365 Project Operations 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

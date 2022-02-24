@@ -2,9 +2,10 @@
 title: Wat is Dynamics 365 Project Service Automation?
 description: Introductie en overzicht van Project Service
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000255"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150527"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Wat is Dynamics 365 Project Service Automation?
 
@@ -46,10 +47,10 @@ Daarnaast voor een betere bewaking en controle van de kosten voor projectgebasee
 ## <a name="whats-new-in-psa"></a>Nieuwe functies in PSA
 Het team kondigt vol trots onze meest recente updates aan. Deze lopen uiteen van verbeteringen in de gebruikersinterface, het oplossen van bugs en het toevoegen van belangrijke nieuwe functies en mogelijkheden. U vroeg, wij hebben geluisterd.
 
-Bekijk de [opmerkingen bij de release van oktober 2019](/dynamics365-release-plan/2019wave2/index) als u meer wilt weten over onze meest recente verbeteringen en aanvullingen.
+Bekijk de [opmerkingen bij de release van oktober 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) als u meer wilt weten over onze meest recente verbeteringen en aanvullingen.
 
 ### <a name="in-development"></a>In ontwikkeling
-Ga naar [Dynamics 365: plan voor releasewave 1 van 2020](/dynamics365-release-plan/2020wave1/index) om te zien wat we voor de nabije toekomst hebben gepland.
+Ga naar [Dynamics 365: plan voor releasewave 1 van 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index) om te zien wat we voor de nabije toekomst hebben gepland.
 
 ## <a name="get-help-with-psa-version-3x"></a>Hulp krijgen bij PSA versie 3.x
 Bent u op zoek naar resources om uw implementatie te helpen plannen? Bekijk dan deze downloadbare handleidingen.
@@ -82,9 +83,6 @@ Bent u op zoek naar resources om uw implementatie te helpen plannen? Bekijk dan 
  [Opmerkingen voor ontwikkelaars (appversie 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Bekijk een overzichtsvideo van 2 minuten
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

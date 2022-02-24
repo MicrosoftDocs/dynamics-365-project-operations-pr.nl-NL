@@ -2,26 +2,28 @@
 title: Overzicht van projectmanagement en financiële administratie
 description: De functionaliteit voor projectmanagement en financiële administratie kan in meerdere branches worden gebruikt om een dienst te verlenen, een product te vervaardigen of een resultaat te behalen.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007500"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074707"
 ---
 # <a name="project-management-and-accounting-overview"></a>Overzicht van projectmanagement en financiële administratie
 
@@ -34,14 +36,14 @@ Een project is een groep activiteiten die is ontworpen om een dienst te verlenen
 ## <a name="projects-across-industries"></a>Projecten in verschillende branches
 De functionaliteit voor projectmanagement en financiële administratie kan in meerdere branches worden gebruikt, zoals in de volgende afbeelding wordt getoond.
 
-[![Projecten in verschillende branches.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projecten in verschillende branches](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 In een callcenter kan een ticket worden gebruikt om de reeks acties te beschrijven die nodig zijn om een aanvraag op te lossen. Adviesbureaus, zoals management- of technische adviesorganisaties of reclamebureaus, noemen hun activiteiten projecten. In marketing vertegenwoordigt een campagne een reeks werk die moet worden geleverd. Bij productie op projectbasis heeft een productieorder betrekking op de verschillende werkzaamheden die moeten worden uitgevoerd om een aantal eindproducten te vervaardigen. Welke naam er ook voor wordt gebruikt, bij deze projecten zijn resources, planningen en kosten betrokken en de functionaliteit voor projectmanagement en financiële administratie kan helpen bij de planning, uitvoering en analyse van deze projecten.
 
 ## <a name="project-phases"></a>Projectfasen
 Hoewel de volgende processtroom is gericht op externe projecten, of projecten die voor een of meer klanten worden voltooid, is de functionaliteit ook van toepassing op interne projecten met alleen kosten. 
 
-![3 fasen van een project.](./media/3-stages-of-a-project.png) 
+![3 fasen van een project](./media/3-stages-of-a-project.png) 
 
 Zoals te zien is in de voorgaande afbeelding, kunnen projectmanagement en financiële administratie worden onderverdeeld in drie fasen:
 
@@ -50,7 +52,7 @@ Zoals te zien is in de voorgaande afbeelding, kunnen projectmanagement en financ
 3.  Analyseren
 
 ## <a name="initiate-the-project"></a>Het project opstarten
-Tijdens het opstarten van een project vinden verschillende sleutelprocessen plaats. U kunt een projectofferte gebruiken om de geschatte arbeid, kosten en hoeveelheid materialen aan de klant te communiceren. U kunt de factureringstermijnen, limieten en afspraken vastleggen in een projectcontract. U kunt een structuur voor werkspecificatie (WBS) gebruiken om het werk te plannen en in te schatten. U kunt prognoses en budgetten opstellen om de projectuitvoering te begeleiden. De volgende afbeelding toont de structuur van een project.[![projectstructuur.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Tijdens het opstarten van een project vinden verschillende sleutelprocessen plaats. U kunt een projectofferte gebruiken om de geschatte arbeid, kosten en hoeveelheid materialen aan de klant te communiceren. U kunt de factureringstermijnen, limieten en afspraken vastleggen in een projectcontract. U kunt een structuur voor werkspecificatie (WBS) gebruiken om het werk te plannen en in te schatten. U kunt prognoses en budgetten opstellen om de projectuitvoering te begeleiden. De volgende afbeelding toont de structuur van een project.[![projectstructuur](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Een projectofferte maken
 
@@ -203,7 +205,7 @@ U kunt artikelen uit de bedrijfsvoorraad bestellen voor verbruik bij een project
 
 De manier waarop u artikelen bestelt, is afhankelijk van waar u ze bestelt:
 
--   Als u artikelen uit de voorraad van het bedrijf wilt bestellen, moet u de bestelling invoeren als artikelvereiste. Als u de pagina **Artikelvereisten** gebruikt, kunt u de vereiste zo instellen dat u artikelen als deelleveringen ontvangt. Daarom kunt u het verbruik van een aantal artikelen uitstellen totdat de artikelen nodig zijn.
+-   Als u artikelen uit de voorraad van het bedrijf wilt bestellen, moet u de bestelling invoeren als artikelvereiste. Als u de pagina **Artikelvereisten** gebruikt, kunt u de vereiste zo instellen dat u artikelen als deelleveringen ontvangt. Daarom kunt u het verbruik van een aantal artikelen uitstellen totdat de artikelen nodig zijn.
 -   Als u artikelen van een externe leverancier wilt bestellen, moet u de order als inkooporder maken op de pagina **Inkooporder**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ Het projecttype bepaalt welke factureringsprocedure moet worden toegepast. Allee
 Voordat u een klantfactuur voor een project maakt, kunt u een voorlopige factuur of factuurvoorstel opstellen. In een factuurvoorstel kunt u projecttransacties selecteren om op een projectfactuur op te nemen. U kunt vervolgens de factuurgegevens bekijken voordat u de projectfactuur boekt en naar de klant of een andere financieringsbron stuurt. 
 
 
-Zie [Projectfacturering](/dynamics365/finance/accounts-payable/project-invoicing) voor meer informatie over het verwerken van projectfacturen.
+Zie [Projectfacturering](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing) voor meer informatie over het verwerken van projectfacturen.
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>De kosten berekenen om een project te voltooien
@@ -298,7 +300,7 @@ Op basis van uw instellingen kunt u prognoses opstellen voor de instroom van kas
 -   **Projectdatum:** 5 maart 2012.
 -   **Factuurdatum:** 31 maart 2012. Deze datum wordt bepaald op basis van factuurfrequentie. Voor dit voorbeeld stelt u de factuurfrequentie in op de huidige maand. Daarom worden alle transacties die in de maand maart worden geboekt, op de laatste dag van de maand gefactureerd.
 -   **Vervaldatum:** 14 april 2012. Deze datum wordt bepaald op basis van de betalingsvoorwaarden die voor het project zijn vastgesteld. Voor dit voorbeeld hebt u een betalingstermijn van 14 dagen geselecteerd. Daarom worden 14 dagen toegevoegd aan de factuurdatum om op een vervaldatum van 14 april 2012 uit te komen.
--   **Verwachte betalingsdatum verkoop:** 27 april 2012. Deze datum wordt berekend door het aantal dagen in het veld **Algemene bufferdagen** op de pagina **Parameters voor Projectmanagement en financiële administratie** toe te voegen aan het aantal dagen in het veld **Individuele bufferdagen** op de pagina **Projectcontracten** en vervolgens het totaal toe te voegen aan het aantal dagen in het veld **Vervaldatum**. In dit voorbeeld hebt u **3** ingevoerd in het veld **Algemene bufferdagen** en **10** in het veld **Individuele bufferdagen**. Daarom worden 13 dagen toegevoegd aan de vervaldatum om op een verwachte betalingsdatum voor verkoop van 27 april 2012 uit te komen.
+-   **Verwachte betalingsdatum verkoop:** 27 april 2012. Deze datum wordt berekend door het aantal dagen in het veld **Algemene bufferdagen** op de pagina **Parameters voor Projectmanagement en financiële administratie** toe te voegen aan het aantal dagen in het veld **Individuele bufferdagen** op de pagina **Projectcontracten** en vervolgens het totaal toe te voegen aan het aantal dagen in het veld **Vervaldatum**. In dit voorbeeld hebt u **3** ingevoerd in het veld **Algemene bufferdagen** en **10** in het veld **Individuele bufferdagen**. Daarom worden 13 dagen toegevoegd aan de vervaldatum om op een verwachte betalingsdatum voor verkoop van 27 april 2012 uit te komen.
 
 De algemene bufferdagen kunnen de individuele bufferdagen vervangen of worden toegevoegd aan de individuele bufferdagen:
 
@@ -438,6 +440,3 @@ Nadat het overzicht is berekend, kunt u de volgende informatie bekijken op de ve
 -   **Verbruik** - Informatie over het verbruik van uren, artikelen, onkosten en salaristransacties.
 -   **Factuur** - Informatie over facturen en facturering op rekening.
 -   **Uurtarief** - De uurtarieven voor uren die naar opbrengsten- en kostenrekeningen worden geboekt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

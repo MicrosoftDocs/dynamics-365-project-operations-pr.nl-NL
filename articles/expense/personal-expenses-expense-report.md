@@ -2,17 +2,19 @@
 title: Werken met persoonlijke onkosten in een onkostendeclaratie
 description: Dit onderwerp biedt informatie over het omgaan met persoonlijke onkosten gemaakt door werknemers tijdens zakelijke reizen.
 author: suvaidya
-ms.date: 05/11/2021
+manager: tfehr
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993145"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727943"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Werken met persoonlijke onkosten in een onkostendeclaratie
 
@@ -26,15 +28,3 @@ Er zijn twee methoden die u kunt gebruiken om met de persoonlijke onkosten van e
   - **Betaald door bedrijf**: uw organisatie betaalt de volledige rekening voor de zakelijke creditcard en incasseert deze vervolgens op de rekening van de werknemer voor persoonlijke onkosten.
 
 U kunt de methode selecteren die uw organisatie gebruikt op de pagina **Parameters onkostenbeheer**.
-
-
-## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Functie voor gesplitste onkosten inschakelen wanneer het veld voor persoonlijk bedrag een waarde heeft
-
-De functie **Functie voor gesplitste onkosten inschakelen wanneer het veld voor persoonlijk bedrag een waarde heeft** is alleen van toepassing op onkostendeclaraties die zijn goedgekeurd met een werkstroom op regelniveau. Declaraties worden goedgekeurd door naar **Onkostendeclaraties verwerken** > **Onkostendeclaraties aan mij toegewezen** > **Onkostendeclaratie** te gaan. 
-
-Als u deze functie wilt inschakelen, gaat u naar **Werkruimten** > **Functiebeheer**, selecteert u **Functie voor gesplitste onkosten inschakelen wanneer het veld voor persoonlijk bedrag een waarde heeft** en selecteert u vervolgens **Nu inschakelen**. 
-
-Wanneer de functie is ingeschakeld, genereren onkostenregels die deze functionaliteit gebruiken twee regels wanneer de declaratie wordt ingediend. Er worden twee regels gegenereerd zodat de fiatteur elke regel afzonderlijk kan goedkeuren.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

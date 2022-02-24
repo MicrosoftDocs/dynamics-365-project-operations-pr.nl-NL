@@ -2,16 +2,18 @@
 title: Omzetschattingen beheren
 description: Dit onderwerp bevat informatie over het werken met omzetschattingen voorprojecten.
 author: sigitac
+manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996520"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531399"
 ---
 # <a name="manage-revenue-estimates"></a>Omzetschattingen beheren
 
@@ -88,6 +90,3 @@ De status van de schatting verandert in **Geëlimineerd**.
 Gebruik deze pagina om alle eliminaties terug te draaien met een gespecificeerde schattingsdatum en met een schattingsstatus van **Geëlimineerd**. De transactiestatus verandert nadat u de juiste velden hebt geselecteerd.
 
 Hierdoor wordt ook automatisch de projectstatus gewijzigd in **Wordt uitgevoerd** als de projectfase is voltooid. De schattingsstatus van de projectperiode verandert weer naar **Geboekt**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

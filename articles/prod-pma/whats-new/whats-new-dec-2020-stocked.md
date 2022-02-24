@@ -2,17 +2,19 @@
 title: Nieuwe functies van december 2020 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
 description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de release van december 2020 van Project Operations voor scenario's op basis van voorradige artikelen/productieorders.
 author: Yowelle
+manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008805"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727945"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nieuwe of gewijzigde functies in Project Operations, december 2020 voor scenario's op basis van voorradige artikelen/productieorders
 
@@ -139,7 +141,4 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 
 ## <a name="regulatory-updates"></a>Wijzigingen in regelgeving
 
-Ga voor informatie over updates in regelgeving voor Dynamics 365 Finance naar [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij Lifecycle Services (LCS) en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Ga voor informatie over updates in regelgeving voor Dynamics 365 Finance naar [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij Lifecycle Services (LCS) en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.

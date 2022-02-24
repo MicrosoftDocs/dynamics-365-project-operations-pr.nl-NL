@@ -2,9 +2,11 @@
 title: Betalen bij betaling instellen en gebruiken voor leveranciersbetalingen
 description: In dit onderwerp wordt uitgelegd hoe u Betalen bij betaling-voorwaarden kunt maken, zodat u gedeeltelijke leveranciersbetalingen kunt vrijgeven op basis van klantbetalingen.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008850"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074543"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Betalen bij betaling instellen en gebruiken voor leveranciersbetalingen
 
@@ -78,6 +80,3 @@ Wanneer een leverancier zijn werk aan een project voltooit en u een factuur stuu
 2. Op de pagina **Leveranciersfactuur met betaling bij betaling** voert u in het zoekveld waarden in om de leveranciersfactuur te zoeken die u wilt bekijken, en selecteert u vervolgens **Zoeken**.
 3. Op het sneltabblad **Leveranciersfactuurregels** selecteert u de regels die u wilt wijzigen.
 4. Als aan de voorwaarden voor **Betalen bij betaling** is voldaan voor de factuurregel, selecteert u **Leveranciersbetaling vrijgeven**. De optie **Betalen bij betaling** wordt uitgeschakeld en de waarde van het veld **Klaar voor betaling** wordt gewijzigd in **Ja**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

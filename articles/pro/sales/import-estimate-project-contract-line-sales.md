@@ -2,22 +2,24 @@
 title: Een schatting importeren in een projectgebaseerde contractregel - lite
 description: Dit onderwerp bevat informatie over het importeren van financiële schattingen uit een project naar een contractregel.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997240"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177460"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Een schatting importeren in een projectgebaseerde contractregel - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-In Dynamics 365 Project Operations kunt u schattingen uit een project importeren in een projectgebaseerde contractregel.
+In Dynamics 365 Project Operations kunt u schattingen uit een project importeren naar een projectgebaseerde contractregel.
 
 1. Controleer of het veld **Project** op de projectgebaseerde contractregel is ingevuld.
 2. Selecteer op het tabblad **Contractregeldetails** in het subraster **Importeren uit projectschatting**. Er wordt een dialoogvenster met samenvattingsopties geopend. De beschikbare samenvattingsopties zijn **Transactieklasse**, **Categorie**, **Rol** en **Projecttaak**.
@@ -58,6 +60,3 @@ Wanneer de gebruiker ervoor kiest om samen te vatten op **Transactieklasse**, **
 | Taak A | Vliegticket | 10/1/2020 | 4 | 400 | 1600 |
 | Taak B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Taak C | Hotel | 11/1/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

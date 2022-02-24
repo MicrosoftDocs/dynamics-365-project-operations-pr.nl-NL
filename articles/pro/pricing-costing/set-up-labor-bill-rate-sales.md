@@ -2,22 +2,24 @@
 title: Factureringstarieven voor arbeid instellen - lite
 description: Dit onderwerp bevat informatie over het instellen van factureringstarieven voor arbeid in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007590"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181175"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Factureringstarieven voor arbeid instellen - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Elke prijslijst heeft een reeks rolprijzen of loonkosten die gelden voor de context en vanaf de ingangsdatum die is opgenomen in de prijslijstkop. Factureringstarieven voor tijd in Dynamics 365 Project Operations kunnen worden ingesteld in slechts één valuta, namelijk de valuta in de kop Prijslijst.
+Elke prijslijst heeft een reeks rolprijzen of loonkosten die gelden voor de context en vanaf de ingangsdatum die is opgenomen in de prijslijstkop. Factuurtarieven voor tijd in Dynamics 365 Project Operations kunnen in slechts één valuta worden ingesteld, namelijk de valuta in de prijslijstkop.
 
 1. Voor het instellen van factuurtarieven voor arbeid voor een verkoopprijslijst, maakt u een prijslijst op basis van de prijslijstkop. 
 2. Selecteer op het tabblad **Rolprijzen** in het subraster **+Nieuwe rolprijs**. 
@@ -53,6 +55,3 @@ Voor een ontwikkelaar van Fabrikam India die aan een Amerikaans project werkt, w
     | Developer | Fabrikam US | $150 |
 
 3. Voeg de verkoopprijslijst **Fabrikam Amerikaanse factureringstarieven** toe aan de projectprijslijst van het projectcontract of aan een bepaald account.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

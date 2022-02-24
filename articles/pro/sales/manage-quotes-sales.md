@@ -2,16 +2,18 @@
 title: Projectprijsopgaven beheren
 description: In dit onderwerp krijgt u informatie over projectprijsopgaven.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001515"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177820"
 ---
 # <a name="manage-project-quotes"></a>Projectprijsopgaven beheren
 
@@ -31,6 +33,3 @@ Een lijst van alle projectprijsopgaven is te zien op de lijstpagina **Prijsopgav
 2. Gebruik de **Weergavewisselaar** om andere gefilterde weergaven van de prijsopgaven te selecteren. Met aangepaste filtercriteria kunt u uw eigen weergaven en navigatieopties configureren.
 
 Prijsopgaven kunnen worden gemaakt of verwijderd uit deze lijstpagina of detailpagina's.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Parameters voor onkostenbeheer configureren
 description: In dit onderwerp worden de parameters beschreven die het algemene gedrag in Onkostenbeheer bepalen.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007770"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121032"
 ---
 # <a name="configure-expense-management-parameters"></a>Parameters voor onkostenbeheer configureren
 
@@ -81,6 +83,3 @@ In dit onderwerp worden de parameters beschreven die het algemene gedrag in Onko
 | Anti-corruptieattest weergeven   | Selecteer deze optie om de anti-corruptietekst weer te geven wanneer een onkostennota wordt gemaakt. Specifieke onkostencategorieën kunnen vervolgens worden ingeschakeld waarvoor het anti-corruptieattest voor de onkostennota moet worden geselecteerd. Voor een geschenkcategorie gerelateerd aan de onkosten van een overheidsfunctionaris, kan bijvoorbeeld vereist zijn dat de werknemer bevestigt dat de onkosten voldoen aan het bedrijfsbeleid voor overheidsfunctionarissen. |
 | Anti-corruptiebericht voor indiener | Voer de tekst in die moet worden getoond aan een werknemer die een onkostennota maakt. Selecteer **Vertalingen** om taalspecifieke tekst in te voeren die wordt weergegeven op basis van de gebruikerstaal. |
 | Anti-corruptiebericht voor fiatteur  | Voer de tekst in die moet worden getoond aan de fiatteur wanneer een onkostennota wordt gemaakt. Selecteer **Vertalingen** om taalspecifieke tekst in te voeren die wordt weergegeven op basis van de gebruikerstaal. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Productcatalogusprijzen bepalen
 description: Dit onderwerp biedt informatie over de manier waarop productcatalogusprijzen worden bepaald in Dynamics 365 Project Service Automation (PSA).
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000165"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151202"
 ---
 # <a name="product-catalog-pricing"></a>Productcatalogusprijzen bepalen 
 
@@ -44,7 +46,7 @@ U kunt producten uit een productcatalogus toevoegen aan verschillende prijslijst
 
 Er worden verschillende afrondingsopties ondersteund wanneer prijzen worden geconfigureerd als een functie van de catalogusprijs, standaardkosten of huidige kosten. U kunt niet alleen gebruikmaken van meerdere prijsbepalingsmethoden en afrondingsopties, maar u kunt ook kortingslijsten koppelen aan prijslijstitems. 
 
-> ![Producten uit een catalogus aan verschillende prijslijsten toevoegen.](media/basic-guide-16.png)
+> ![Producten uit een catalogus aan verschillende prijslijsten toevoegen](media/basic-guide-16.png)
 
 Wanneer u een nieuwe aangepaste prijslijst voor een prijsopgave maakt door **Aangepaste prijzen maken** te selecteren op de pagina **Prijsopgave voor projecten**, wordt er in PSA een kopie gemaakt van de prijslijst en wordt het veld **Entiteit** in de header van de nieuwe prijslijst ingesteld op **Verkoopentiteit**. Aan de naam van de nieuwe prijslijst worden de naam van de prijsopgave en een timestamp toegevoegd. U kunt ook de naam van de nieuwe prijslijst en de naam van de prijsopgave in aangepaste werkstromen gebruiken om extra controles en goedkeuringen te activeren voor prijsopgaven waarin aangepaste prijzen worden gebruikt.
 
@@ -62,6 +64,3 @@ In de entiteiten Verkoopkans, Prijsopgave en Projectcontract wordt de volgende v
 Standaard worden in het veld **Product** op de prijsopgaveregel alle actieve producten in de productprijslijst van de prijsopgave vermeld. Als een product is gedeactiveerd, of als het een conceptproduct is, wordt het product niet weergegeven, zelfs niet als het in de prijslijst staat. 
 
 Productcatalogusregels worden toegevoegd als factuurregels op de eerste factuur die voor een projectcontract wordt gemaakt. Op een conceptfactuur kunnen deze factuurregels worden verwijderd. In dat geval worden de regels op een volgende factuur weergegeven totdat ze worden gefactureerd of totdat de factuur naar de klant wordt verzonden. In PSA kunt u geen deelhoeveelheid van een productfactuurregel factureren. Wanneer de productregels uit het projectcontract worden gefactureerd, worden werkelijke waarden gemaakt. Deze werkelijke waarden zijn echter niet gekoppeld aan de gerelateerde projectentiteit. Met andere woorden: productgebaseerde projectcontractregels zijn onafhankelijk van elk projectgebaseerd gebruik. In PSA wordt het materiaalverbruik van projecten niet bijgehouden.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

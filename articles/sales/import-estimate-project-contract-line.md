@@ -2,22 +2,24 @@
 title: Een schatting importeren in een projectgebaseerde contractregel
 description: Dit onderwerp bevat informatie over het importeren van schattingen uit een project naar een contractregel.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990085"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4074799"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Een schatting importeren in een projectgebaseerde contractregel
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-In Dynamics 365 Project Operations kunt u schattingen uit een project importeren in een projectgebaseerde contractregel.
+In Dynamics 365 Project Operations kunt u schattingen uit een project importeren naar een projectgebaseerde contractregel.
 
 1. Controleer of het veld **Project** op de projectgebaseerde contractregel is ingevuld.
 2. Selecteer op het tabblad **Contractregeldetails** in het subraster **Importeren uit projectschatting**. Er wordt een dialoogvenster met samenvattingsopties geopend. De beschikbare samenvattingsopties zijn **Transactieklasse**, **Categorie**, **Rol** en **Projecttaak**. Op basis van de selecties voor samenvatting wordt de schatting uit het project voor alle transactieklassen op deze contractregel gekopieerd. 
@@ -57,6 +59,3 @@ Wanneer de gebruiker ervoor kiest om samen te vatten op **Transactieklasse**, **
 | Taak A | Vliegticket | 10/1/2020 | 4 | 400 | 1600 |
 | Taak B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Taak C | Hotel | 11/1/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

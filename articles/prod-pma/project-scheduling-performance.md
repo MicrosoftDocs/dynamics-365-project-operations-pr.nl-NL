@@ -2,9 +2,11 @@
 title: Prestaties van projectresourceplanning
 description: Dit onderwerp bevat informatie over hoe de prestaties van resourceplanning bij een groot aantal projecten kunnen worden verbeterd.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074547"
 ---
 # <a name="project-resource-scheduling-performance"></a>Prestaties van projectresourceplanning
 
@@ -67,6 +69,3 @@ Voer de volgende stappen uit om prestatieverbeteringen voor resourceplanning in 
 
 > [!NOTE]
 > Hiermee worden algemene gegevens gegenereerd voor de tabel **ResRollup** voor alle bedrijven in uw omgeving, dus de batchtaak hoeft maar in één rechtspersoon te worden uitgevoerd. Deze batchtaak is vereist voor alle weergaven voor **Beschikbaarheid van resources**. Als deze batchtaak niet wordt uitgevoerd, worden de gegevens voor **ResRollup** tijdens de uitvoering gegenereerd, wat even kan duren.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

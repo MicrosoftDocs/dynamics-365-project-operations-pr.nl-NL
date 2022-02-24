@@ -2,16 +2,18 @@
 title: De toerekenbare componenten van een projectgebaseerde prijsopgaveregel configureren
 description: Dit onderwerp bevat informatie over inbegrepen, toerekenbare en niet-toerekenbare componenten op projectgebaseerde prijsopgaveregels.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003990"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642537"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>De toerekenbare componenten van een projectgebaseerde prijsopgaveregel configureren
 
@@ -51,6 +53,3 @@ Een schatting of werkelijke tijd die voor onkosten is gemaakt, wordt alleen als 
 | Geen | Ja | Kan niet worden ingesteld | Niet-toerekenbaar | Facturering voor een werkelijke waarde van tijd: Niet beschikbaar </br>Factureringstype voor een werkelijke waarde van onkosten: Niet-toerekenbaar |
 | Ja | Geen | Toerekenbaar | Kan niet worden ingesteld | Facturering voor een werkelijke waarde van tijd: Toerekenbaar </br>Factureringstype voor een werkelijke waarde van onkosten: Niet beschikbaar |
 | Ja | Geen | Niet-toerekenbaar | Kan niet worden ingesteld | Facturering voor een werkelijke waarde van tijd: Niet-toerekenbaar </br> Factureringstype voor een werkelijke waarde van onkosten: Niet beschikbaar |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

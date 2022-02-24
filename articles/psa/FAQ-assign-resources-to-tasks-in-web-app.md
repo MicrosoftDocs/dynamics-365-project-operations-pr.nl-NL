@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987700"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993285"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Hoe wijs ik een boekbare resource toe aan een taak in de webapp (Project Service-app v2.x)?
 
@@ -43,7 +43,7 @@ Met deze methode voegt u een resource aan het projectteam toe en wijst u vervolg
 3.  Selecteer de datums bij **Van** en **Tot**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Schermopname van het toevoegen van een teamlid.](media/FAQ-Resources-to-Tasks2-1.png "Schermopname van het toevoegen van een teamlid")
+    > ![Schermafbeelding van het toevoegen van een teamlid](media/FAQ-Resources-to-Tasks2-1.png "Schermafbeelding van het toevoegen van een teamlid")
  
 4.  Selecteer een van de volgende toewijzingsmethoden om de resource te boeken:
     - Met **Volledige capaciteit** boekt u de volledige capaciteit van de resource voor de opgegeven periode.
@@ -63,12 +63,12 @@ Met deze methode voegt u een resource aan het projectteam toe en wijst u vervolg
     3. Selecteer **OK**. Het teamlid wordt nu toegewezen aan de taak.
 
     > [!div class="mx-imgBorder"] 
-    > ![Schermopname van het toevoegen van resources met WBS.](media/FAQ-Resources-to-Tasks2-2.png "Schermopname van het toevoegen van resources met WBS")
+    > ![Schermafbeelding van het toevoegen van resources met WBS](media/FAQ-Resources-to-Tasks2-2.png "Schermafbeelding van het toevoegen van resources met WBS")
  
 In het raster van het teamlid wordt het totaal van de toegewezen uren voor de resource weergegeven onder Toegewezen uren. Dit is minder dan of gelijk aan de geboekte uren voor de resource. 
 
 > [!div class="mx-imgBorder"] 
-> ![Schermopname van toegewezen uren voor een resource.](media/FAQ-Resources-to-Tasks2-3.png "Schermopname van toegewezen uren voor een resource")
+> ![Schermafbeelding van toegewezen uren voor een resource](media/FAQ-Resources-to-Tasks2-3.png "Schermafbeelding van toegewezen uren voor een resource")
  
 Als de taak die u probeert toe te wijzen aan de resource na de einddatum van de resourceboekingen begint, wordt de resource niet in de vervolgkeuzelijst weergegeven.
 
@@ -92,22 +92,22 @@ Met deze methode weet u zeker dat resources voldoende boekingen hebben voor take
 4. Selecteer **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Schermopname van het gebruik van WBS om een resource toe te voegen.](media/FAQ-Resources-to-Tasks2-4.png "Schermopname van het gebruik van WBS om een resource toe te voegen")
+    > ![Schermafbeelding van het gebruik van WBS om een resource toe te voegen](media/FAQ-Resources-to-Tasks2-4.png "Schermafbeelding van het gebruik van WBS om een resource toe te voegen")
  
 Wanneer u klaar bent met het toewijzen van rollen aan de taken in de structuur voor werkspecificatie, selecteert u **Projectteam genereren**. In Project Service wordt het minimum aantal algemene teamleden op basis van de rollen, resource-eenheden en projectagenda gemaakt door de taaktoewijzingen op te tellen.
 
 > [!div class="mx-imgBorder"] 
-> ![Schermopname van het genereren van het projectteam.](media/FAQ-Resources-to-Tasks2-5.png "Schermopname van het genereren van het projectteam")
+> ![Schermafbeelding van het genereren van het projectteam](media/FAQ-Resources-to-Tasks2-5.png "Schermafbeelding van het genereren van het projectteam")
  
 In het raster voor teamleden worden resources van het type Algemene resource met de rol en positienaam weergegeven. Als twee resources voor een rol nodig zijn om het werk af te maken, maakt u met de functie Team genereren twee teamleden en kunnen deze twee op basis van de positienaam worden onderscheiden.
 
 > [!div class="mx-imgBorder"] 
-> ![Schermopname van het toevoegen van twee algemene resources.](media/FAQ-Resources-to-Tasks2-6.png "Schermopname van het toevoegen van twee algemene resources")
+> ![Schermafbeelding van het toevoegen van twee algemene resources](media/FAQ-Resources-to-Tasks2-6.png "Schermafbeelding van het toevoegen van twee algemene resources")
  
 U kunt de ondersteunende resourcevereiste voor het algemene teamlid openen door de koppeling onder Resourcevereiste te selecteren.
 
 > [!div class="mx-imgBorder"] 
-> ![Schermopname van het openen van de vereiste voor ondersteunende resource.](media/FAQ-Resources-to-Tasks2-7.png "Schermopname van het openen van de vereiste voor ondersteunende resource")
+> ![Schermafbeelding van het openen van de vereiste voor ondersteunende resource](media/FAQ-Resources-to-Tasks2-7.png "Schermafbeelding van het openen van de vereiste voor ondersteunende resource")
 
 Selecteer **Boeken** voor de algemene resource en gebruik het planbord om een echte resource te zoeken en te boeken. U kunt de vereiste voor afhandeling door een resourcemanager ook verzenden door **Aanvraag verzenden** te selecteren.
 

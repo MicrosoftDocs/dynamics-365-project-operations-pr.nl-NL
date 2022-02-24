@@ -2,17 +2,17 @@
 title: Niet-voorradig materiaal en in behandeling zijnde leveranciersfacturen configureren
 description: In dit onderwerp wordt uitgelegd hoe u niet-voorradig materiaal en in behandeling zijnde leveranciersfacturen kunt inschakelen.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003225"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993905"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Niet-voorradig materiaal en in behandeling zijnde leveranciersfacturen configureren
 
@@ -59,11 +59,11 @@ Als u standaarddemogegevens gebruikt, moet u mogelijk ook de volgende entiteitst
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Werkstroom activeren om accounts te maken op basis van leveranciersentiteit
 
-De indelingsoplossing voor twee keer wegschrijven biedt [hoofdintegratie voor leveranciers](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Als voorwaarde voor deze functie moeten leveranciersgegevens worden gemaakt in de entiteit **Accounts**. Activeer een sjabloonwerkstroomproces om leveranciers te maken in de tabel **Accounts** zoals beschreven in [Schakelen tussen leveranciersontwerpen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
+De indelingsoplossing voor twee keer wegschrijven biedt [hoofdintegratie voor leveranciers](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Als voorwaarde voor deze functie moeten leveranciersgegevens worden gemaakt in de entiteit **Accounts**. Activeer een sjabloonwerkstroomproces om leveranciers te maken in de tabel **Accounts** zoals beschreven in [Schakelen tussen leveranciersontwerpen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Te maken producten instellen als actief
 
-Niet-voorradig materiaal moet worden geconfigureerd als **Vrijgegeven producten** in Finance. De indelingsoplossing voor twee keer wegschrijven biedt een kant-en-klare [integratie van vrijgegeven producten naar Dataverse-productcatalogus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Standaard worden producten van Finance gesynchroniseerd met Dataverse in een conceptstatus. U kunt het product met een actieve status synchroniseren, zodat het direct kan worden gebruikt in materiaalgebruiksdocumenten of in behandeling zijnde leveranciersfacturen, gaat u naar **Systeem** > **Beheer** > **Systeembeheer** > **Systeeminstellingen** en stelt u op het tabblad **Verkoop** de optie **Producten maken met status actief** in op **Ja**.
+Niet-voorradig materiaal moet worden geconfigureerd als **Vrijgegeven producten** in Finance. De indelingsoplossing voor twee keer wegschrijven biedt een kant-en-klare [integratie van vrijgegeven producten naar Dataverse-productcatalogus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Standaard worden producten van Finance gesynchroniseerd met Dataverse in een conceptstatus. U kunt het product met een actieve status synchroniseren, zodat het direct kan worden gebruikt in materiaalgebruiksdocumenten of in behandeling zijnde leveranciersfacturen, gaat u naar **Systeem** > **Beheer** > **Systeembeheer** > **Systeeminstellingen** en stelt u op het tabblad **Verkoop** de optie **Producten maken met status actief** in op **Ja**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Vereisten configureren in Finance
 
@@ -88,7 +88,7 @@ In Project Operations kunt u materiaalschattingen en gebruik vastleggen voor cat
 2. Selecteer in het veld **Producttype** de optie **Artikel** en in het veld **Productsubtype** de optie **Product**.
 3. Voer het productnummer (WRITEIN) en de productnaam (toe te voegen product) in.
 4. Selecteer de artikelmodelgroep. Zorg ervoor dat voor de artikelmodelgroep die u selecteert het veld **Voorraadbeleid Voorradig product** is ingesteld op **Onwaar**.
-5. Selecteer waarden in de velde **Artikelgroep**, **Opslagdimensiegroep** en **Traceringsdimensiegroep**. Gebruik de **Opslagdimensie** alleen voor **Site** en selecteer in het veld **Traceringsdimensies** **Geen**.
+5. Selecteer waarden in de velde **Artikelgroep**, **Opslagdimensiegroep** en **Traceringsdimensiegroep**. Gebruik **Opslagdimensie** uitsluitend voor **Site** en stel geen traceringsdimensies in.
 6. Selecteer waarden in de velden **Voorraadeenheid**, **Aankoopeenheid** en **Verkoopeenheid** en sla uw wijzigingen op.
 7. Stel op het tabblad **Plan** de instellingen voor de standaardvolgorde in en stel op het tabblad **Voorraad** de standaardsite en het magazijn in.
 8. Ga naar **Projectmanagement en boekhouding** > **Instellingen** > **Projectbeheer en boekhoudkundige parameters** en open **Project Operations in Dynamics 365 Dataverse**. 

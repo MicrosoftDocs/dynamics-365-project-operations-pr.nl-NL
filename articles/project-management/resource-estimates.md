@@ -2,16 +2,18 @@
 title: Financiële schattingen voor resourcetijd in projecten
 description: Dit onderwerp biedt informatie over hoe financiële schattingen voor tijd worden berekend.
 author: rumant
+manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998680"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701820"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>Financiële schattingen voor resourcetijd in projecten
 
@@ -37,7 +39,7 @@ Een financiële schatting voor tijd in een bladknooppunttaak is de som van de fi
 
 Een financiële schatting voor tijd in een overzichts- of bovenliggende taak is de som van de financiële schattingen van alle onderliggende taken. Dit zijn de geschatte arbeidskosten voor het project. 
 
-![Resourceschattingen.](./media/navigation12.png)
+![Resourceschattingen](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Standaardwaarden voor de kostprijs van onkosten en kostenvaluta
 

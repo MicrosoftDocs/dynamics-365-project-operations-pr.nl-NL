@@ -2,16 +2,18 @@
 title: Nieuwe functies van november 2020 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de release van november 2020 van Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
+manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
+ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007950"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367259"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van november 2020 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -65,7 +67,4 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 | Projectboekhouding  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Als u de functie inschakelt, zijn meerdere contractregels niet mogelijk zonder CDS-integratie.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Wijzigingen in regelgeving
-Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.

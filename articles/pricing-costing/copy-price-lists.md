@@ -2,16 +2,18 @@
 title: Prijslijsten kopiëren
 description: Dit onderwerp bevat informatie over het kopiëren van prijslijsten in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003720"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181491"
 ---
 # <a name="copy-price-lists"></a>Prijslijsten kopiëren
 
@@ -41,6 +43,3 @@ Voer de volgende stappen uit om een kopie van de prijslijst te maken.
 1. Op de tabbladen **Rol**, **Categorie** en **Prijslijstitem** van een prijslijst, kunt u **Prijzen bijwerken** selecteren om een toeslag toe te passen voor alle prijzen in het subraster. 
 2. Voer een prijsverhoging in op de pagina van het dialoogvenster dat wordt geopend. U kunt ook een negatief prijsverhogingspercentage invoeren om prijzen met een bepaald percentage te verlagen. 
 3. Selecteer **OK** in de dialoogpagina en controleer vervolgens of de prijzen in het subraster de door u gemaakte wijzigingen weerspiegelen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

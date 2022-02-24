@@ -2,11 +2,12 @@
 title: Startpagina voor prijs- en kostendimensies
 description: Dit onderwerp biedt een overzicht van prijsdimensies.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998455"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151292"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startpagina voor prijs- en kostendimensies
 
@@ -41,7 +42,7 @@ Gezien de typische aard van deze kenmerken van het werk en de mensen die nodig z
 
 PSA wordt geleverd met een standaardset prijsdimensies. U kunt deze bekijken door naar **Project Service** > **Parameters** te gaan. Controleer in de parameterrecord op het tabblad **Op bedrag gebaseerde prijsdimensies** of voor de rol **msdyn_resourcecategory** en de resource-organisatie-eenheid **msdyn_organizationalunit** de velden **Van toepassing op verkoop** en **Van toepassing op kosten** op **Ja** zijn ingesteld. Dit stelt u in staat om de prijs en kosten voor elke combinatie van rol en organisatie-eenheid in te stellen.
 
-![Schermopname van Project Service-parameters waarin 'Van toepassing op verkoop' is gemarkeerd.](media/PS-OOB-parameters.png)
+![Schermopname van Project Service-parameters waarin 'Van toepassing op verkoop' is gemarkeerd](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Als u de kant-en-klare velden van rol en organisatie-eenheid hebt gebruikt als prijsdimensies vóór versie 3 van PSA, is er geen waarneembare wijziging. U kunt Project Service blijven gebruiken zoals u dat gewend was. 
@@ -64,18 +65,15 @@ In het volgende voorbeeld worden de factureringstarieven weergegeven die zijn in
 
 **Voorbeeld van factureringstarieven**
 
-| - Rol        | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
+| Rol        | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Ontwikkelaar   | Contoso VS  |Uur | 200|USD     |
-| Ontwikkelaar   | Contoso India |Uur|   112|USD     |
+| Ontwikkelaar   | Contoso US  |Hour | 200|USD     |
+| Ontwikkelaar   | Contoso India |Hour|   112|USD     |
 
 
 **Voorbeeld van kostentarieven**
 
 | Salarisbandbreedte     | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mijn bedrijf_Bandbreedte1 | Contoso VS  |Uur | 145|USD     |
-| Mijn bedrijf_Bandbreedte2 | Contoso India |Uur|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Mijn bedrijf_Bandbreedte1 | Contoso US  |Hour | 145|USD     |
+| Mijn bedrijf_Bandbreedte2 | Contoso India |Hour|   67|USD     |

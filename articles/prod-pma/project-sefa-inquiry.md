@@ -2,9 +2,11 @@
 title: Uitgavenoverzicht van onderzoek naar federale subsidies
 description: Dit onderwerp bevat informatie over het uitgavenoverzicht van onderzoek naar federale subsidies.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007230"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074548"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Uitgavenoverzicht van onderzoek naar federale subsidies
 
@@ -60,7 +62,7 @@ U moet de CFDA-nummers instellen die kunnen worden toegevoegd aan subsidies en o
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Stel in voor welke subsidies moet worden gerapporteerd in het onderzoek naar het uitgavenoverzicht van federale subsidies
 
 1. Ga naar **Projectmanagement en financiële administratie \> Subsidies \> Subsidies** en selecteer een bestaande subsidie.
-2. Wijs op het sneltabblad **Instellen** in het veld **Catalog of Federal Domestic Assistance** het CFDA-nummer toe. Het CFDA-nummer van de subsidie bepaalt de CFDA-cluster voor rapportage.
+2. Wijs op het sneltabblad **Instellen** in het veld **Catalog of Federal Domestic Assistance** het CFDA-nummer toe. Het CFDA-nummer van de subsidie bepaalt de CFDA-cluster voor rapportage.
 3. Voer op het sneltabblad **Contactgegevens** de gegevens in van de subsidieverstrekker door deze stappen te volgen:
 
     1. Voer in het veld **Subsidieontvanger** de klant in die verantwoordelijk is voor de subsidie. Voor een bestaande subsidie is deze informatie mogelijk al ingevoerd.
@@ -77,8 +79,8 @@ De federale overheid financiert een infrastructuurproject voor een staat. De fed
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Subsidies uitsluiten van SEFA-rapportage op basis van het type subsidie
 
-1. Ga naar **Projectmanagement en financiële administratie \> Instellen \> Subsidies \> Subsidietypes**.
-2. Schakel op het sneltabblad **Standaardinformatie** het selectievakje **Uitsluiten van uitgavenoverzicht van federale subsidies** in.
+1. Ga naar **Projectmanagement en financiële administratie \> Instellen \> Subsidies \> Subsidietypes**.
+2. Schakel op het sneltabblad **Standaardinformatie** het selectievakje **Uitsluiten van uitgavenoverzicht van federale subsidies** in.
 3. Selecteer **Opslaan** om uw wijzigingen op te slaan.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Het onderzoek naar het uitgavenoverzicht van federale subsidies uitvoeren
@@ -102,6 +104,3 @@ Het onderzoek naar het uitgavenoverzicht van federale subsidies omvat de volgend
 - Catalog of Federal Domestic Assistance
 - Betalingsbewijzen
 - Uitgaven
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

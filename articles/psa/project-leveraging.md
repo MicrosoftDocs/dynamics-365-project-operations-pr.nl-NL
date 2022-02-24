@@ -2,6 +2,8 @@
 title: Verkoopschattingen en projecten
 description: Dit onderwerp bevat informatie over hoe u kunt profiteren van de planning en schattingen in het verkoopproces.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995170"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148367"
 ---
 # <a name="sales-estimates-and-projects"></a>Verkoopschattingen en projecten
 
@@ -35,11 +37,11 @@ Tijdens het verkoopproces kunt u verkoopschattingen maken door een project aan e
 
 Wanneer u een op een project gebaseerde prijsopgaveregel maakt, kunt u een nieuw project maken of een bestaand project koppelen op de pagina **Prijsopgaveregel**. 
 
-> ![Prijsopgaveregelformulier.](media/project-8.png)
+> ![Prijsopgaveregelformulier](media/project-8.png)
  
 Wanneer u een nieuw project maakt op basis van de details van de prijsopgaveregel, kunt u gebruikmaken van projectsjablonen. Projectsjablonen zijn modelprojecten die standaardprojectplannen en financiële schattingen vertegenwoordigen die typisch zijn voor een organisatie. Ze kunnen ook kopieën van projectplannen en schattingen van eerdere projecten vertegenwoordigen.
 
-> ![Details van prijsopgaveregel.](media/project-9.png)
+> ![Prijsopgaveregeldetails](media/project-9.png)
   
 Wanneer u het project maakt op basis van de prijsopgave, wordt het project automatisch gekoppeld aan de prijsopgaveregel.
 
@@ -52,6 +54,3 @@ U kunt de werkinspanning en de planningsschattingen definiëren met behulp van d
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Schattingen importeren van een project in een prijsopgave
 
 Nadat u projectschattingen hebt gedefinieerd, kunt u deze importeren in de prijsopgaveregel. Selecteer op de pagina **Details van prijsopgaveregel** de optie **Importeren uit schatting** op het lint om projectschattingen op het niveau van transactietype, rol of taak samen te vatten.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

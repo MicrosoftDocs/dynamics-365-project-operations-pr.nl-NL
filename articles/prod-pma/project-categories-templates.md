@@ -2,9 +2,11 @@
 title: Projectuitgavencategorieën synchroniseren tussen Finance and Operations en Project Service Automation
 description: In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om onkostencategorieën voor projecten te synchroniseren tussen Microsoft Dynamics 365 Finance en Dynamics 365 Project Service Automation.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001110"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074703"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projectuitgavencategorieën synchroniseren tussen Finance and Operations en Project Service Automation
 
@@ -56,7 +58,7 @@ Bij het beheer van de projectonkostencategorieën in Project Service Automation,
 
 De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Project Service Automation en Finance.
 
-[![Gegevensstroom voor integratie van Project Service Automation met Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Gegevensstroom voor integratie van Project Service Automation met Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Synchronisatie van projectonkostencategorieën van Finance naar Project Service Automation
 
@@ -93,7 +95,7 @@ Wanneer u synchroniseert met Project Service Automation, moet u Microsoft Power 
 
 De volgende afbeelding toont een voorbeeld van de toewijzing van sjabloontaken in Gegevensintegratie. De toewijzing toont de veldinformatie die wordt gesynchroniseerd van Finance naar Project Service Automation.
 
-[![Sjabloontoewijzing van projectonkostencategorie naar Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Sjabloontoewijzing van projectonkostencategorie naar Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Synchronisatie van projectonkostencategorieën van Project Service Automation naar Finance
 
@@ -121,7 +123,4 @@ De volgende afbeelding toont een voorbeeld van de toewijzing van sjabloontaken i
 > [!NOTE]
 > De toewijzing toont de veldinformatie die wordt gesynchroniseerd van Project Service Automation naar Finance.
 
-[![Sjabloontoewijzing van Project Service Automation naar Finance.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Sjabloontoewijzing van Project Service Automation naar Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)

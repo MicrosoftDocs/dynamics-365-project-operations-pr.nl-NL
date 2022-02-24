@@ -2,16 +2,18 @@
 title: Boeken voor een project
 description: Dit onderwerp bevat informatie over hoe u een resources voor een project boekt.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994900"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131067"
 ---
 # <a name="book-to-a-project"></a>Boeken voor een project
 
@@ -64,6 +66,3 @@ Als projectmanager moet u mogelijk een resource naar een project boeken, maar ke
 
 > [!NOTE]
 > Met deze methode maakt u geen boekingen voor de resource. In plaats daarvan wordt de resource toegevoegd aan het team. Nadat het teamlid aan het project is toegevoegd, kan de projectmanager de opties voor boekingen onderhouden en verlengen gebruiken om de vereiste boekingen aan de resource toe te voegen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

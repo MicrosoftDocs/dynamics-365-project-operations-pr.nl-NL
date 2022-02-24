@@ -2,22 +2,24 @@
 title: Prijslijsten instellen
 description: Dit onderwerp bevat informatie over het instellen van kostprijs- en verkoopprijslijsten.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009480"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180186"
 ---
 # <a name="set-up-price-lists"></a>Prijslijsten instellen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Prijslijsten in Dynamics 365 Project Operations vertegenwoordigen een catalogus van tarieven. In de tarieven worden kosten-, verkoop- en factureringstarieven uitgedrukt. Afhankelijk van of de prijslijst kostentarieven of verkoop- en factuurtarieven uitdrukt, is de context van de prijslijst **Verkoop** of **Kosten**.
+Prijslijsten in Dynamics 365 Project Operations vertegenwoordigen een catalogus met tarieven. In de tarieven worden kosten-, verkoop- en factureringstarieven uitgedrukt. Afhankelijk van of de prijslijst kostentarieven of verkoop- en factuurtarieven uitdrukt, is de context van de prijslijst **Verkoop** of **Kosten**.
 
 De volgende uitbreidingen zijn specifiek voor Project Operations en worden toegepast op prijslijsten vanuit Dynamics 365 Sales.
 
@@ -38,6 +40,3 @@ De volgende tabel bevat de velden op het tabblad **Algemeen** van een prijslijst
 | Valuta | Tabblad **Algemeen** en formulieren **Snelle invoer** | Dit veld wordt gebruikt voor de standaardvaluta van elke rol, categorie of prijslijstartikelregel die samenhangt met deze prijslijst. | Voor **Verkoop** kunnen prijslijsten, rollen, categorieën of prijslijstartikelregels niet in een andere valuta dan deze valuta worden gemaakt. Voor **Kost** prijslijsten kunt u een rolprijsregel in elke valuta aanmaken. De valuta die hier wordt gedefinieerd, wordt als standaard gebruikt. De gebruikersinstellingen voor gerelateerde rolprijzen kunnen deze waarde overschrijven om het instellen van loonkosten in elke valuta mogelijk te maken. Categoriekostentarieven en prijslijstartikelkosten kunnen alleen worden ingesteld in de hier gedefinieerde valuta. |
 | Tijdseenheid | Tabblad **Algemeen** en formulieren **Snelle invoer** | Dit veld wordt gebruikt voor de standaard tijdseenheid van elke rolregel die samenhangt met deze prijslijst. | Deze veldwaarde wordt alleen gebruikt bij het instellen van de gerelateerde rolprijs. In prijslijsten voor **Kosten** en **Verkoop** kunt u een rolprijsregel in elke tijdseenheid aanmaken. De tijdseenheid die hier wordt gedefinieerd, wordt als standaard gebruikt. De gebruikersinstellingen voor gerelateerde rolprijzen kunnen deze waarde overschrijven om het instellen van loonkosten en factuurtarieven in elke tijdseenheid mogelijk te maken. |
 | Beschrijving | Tabblad **Algemeen** en formulieren **Snelle invoer** | Dit is een tekstveld waarmee u een beschrijving van meerdere regels kunt opgeven voor de prijslijst. | Dit veld wordt weergegeven in de **Gekoppelde** weergaven van de prijslijst in verschillende entiteiten die gerelateerde prijslijsten hebben. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Projectcontracten kopiëren - lite
 description: Dit onderwerp bevat informatie over het kopiëren van projectcontracten in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006015"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181401"
 ---
 # <a name="copy-project-contracts---lite"></a>Projectcontracten kopiëren - lite
 
@@ -43,6 +45,3 @@ De volgende informatie wordt niet gekopieerd van het **Broncontract** naar het *
   - Budgetgegevens van klanten
 
 Omdat deze informatie specifiek is voor elk contract, worden deze velden en records niet gekopieerd. Contractregels voor projecten en producten, schattingen van contractregeldetails en niet te overschrijden waarden op contractniveau worden gekopieerd. Standaardinstellingen voor prijzen en kosten zijn afhankelijk van de selectie van het veld **Prijzen kopiëren** op de dialoogvensterpagina **Parameters kopiëren**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

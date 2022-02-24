@@ -2,16 +2,18 @@
 title: Periodetypen
 description: Dit onderwerp bevat informatie over het instellen van periodetypen voor omzetschattingen.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998770"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531401"
 ---
 # <a name="period-types"></a>Periodetypen
 
@@ -32,6 +34,3 @@ Voer de volgende stappen uit om periodetypen te maken en ermee te werken:
 4. Selecteer de periodetyperecord en selecteer vervolgens **Perioden genereren** om perioden voor het periodetype te creëren. Op basis van de periodefrequentie die u hebt geselecteerd, hebt u wellicht de mogelijkheid om een startdatum of het aantal te genereren perioden op te geven.
 5. Selecteer **Perioden** om gegenereerde perioden te bekijken.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

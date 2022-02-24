@@ -2,6 +2,8 @@
 title: Handleiding Tijd, onkosten en samenwerken
 description: Een handleiding voor tijd, kosten en samenwerking voor Project Service
 author: revathiMuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0333445594cd8c02e14ba93e0ff3e9d8da50afd85ab90810762c415b53018ccb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 06f5e6c64a15a79a3ed6501cad8653adbbbd5be9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004710"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150122"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Handleiding Tijd, Kosten en Samenwerking (Project Service)
 
@@ -71,6 +73,3 @@ Klik op een koppeling voor meer informatie over wat u met [!INCLUDE[pn_project_s
  [Accountmanager-handleiding](../psa/account-manager-guide.md)   
  [Projectmanager-handleiding](../psa/project-manager-guide.md)   
  [Resourcemanager-handleiding](../psa/resource-manager-guide.md)   
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Prestaties van projectfactuurvoorstellen
 description: Dit onderwerp biedt informatie over prestatieverbeteringen voor projectfactuurvoorstellen.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005700"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920296"
 ---
 # <a name="project-invoice-proposal-performance"></a>Prestaties van projectfactuurvoorstellen
 
@@ -44,6 +46,4 @@ Voer de volgende stappen uit om de functie voor prestatieverbetering van project
 3.  Vernieuw de browser.
 
 > [!NOTE]
-> Factuurvoorstelprestaties kunnen niet worden toegepast wanneer factureringsregels zijn ingeschakeld.
-> 
-> Tijdens het batchproces om factuurvoorstellen te maken, splitst het aantal subtakende taken in een maximum aantal op basis van het aantal contracten met factureerbare transacties, ongeacht wat u hebt ingevoerd. Als u bijvoorbeeld **3** invoert voor het aantal subtaken voor het maken van factuurvoorstellen in batch en er zijn slechts twee contracten met factureerbare transacties, worden er slechts twee subtaken gemaakt.
+> De prestaties van factuurvoorstellen kunnen niet worden toegepast wanneer factureringsregels zijn ingeschakeld of als er batchprocessen worden uitgevoerd.

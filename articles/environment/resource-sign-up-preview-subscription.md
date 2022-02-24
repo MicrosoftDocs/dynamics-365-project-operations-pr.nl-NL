@@ -2,16 +2,18 @@
 title: Aanmelden voor preview-abonnementen op Project Operations voor scenario's voor resources/niet-voorradige artikelen
 description: Dit onderwerp bevat informatie over het abonneren op en inrichten van Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323410"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948458"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Aanmelden voor preview-abonnementen op Project Operations voor scenario's voor resources/niet-voorradige artikelen
 
@@ -19,30 +21,48 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u zich kunt abonneren op de proefaanbieding en hoe u de Project Operations-omgeving kunt implementeren voor scenario's op basis van resources/niet-voorradige artikelen.
+Dit onderwerp geeft aan hoe u zich abonneert op de preview-/partneraanbieding en hoe u de Project Operations-omgeving implementeert voor scenario's op basis van resources/niet-voorradige artikelen.
 
 ## <a name="prerequisites"></a>Vereisten
-- De gebruiker die de preview implementeert, moet algemene beheerderrechten hebben voor de Azure-tenant. U kunt een tenant maken tijdens de eerste inwisseling van de aanbieding. 
-- Voor het implementeren van een Finance-omgeving is een geldig Azure-abonnement vereist dat per omgeving wordt gefactureerd. U kunt het bestaande abonnement van uw organisatie gebruiken of een [Azure-proefversie](https://azure.microsoft.com/free/) starten. De CDS-omgeving wordt gedurende een beperkte periode van 30 dagen gratis ter beschikking gesteld.
+
+- U ontvangt een e-mail waarin u wordt uitgenodigd om deel te nemen aan de preview. U kunt een preview aanvragen op de [website van Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- De gebruiker die de preview implementeert, moet algemene beheerderrechten hebben voor de Azure-tenant.
+- Voor het implementeren van een Finance-omgeving is een geldig Azure-abonnement vereist dat per omgeving wordt gefactureerd. U kunt het bestaande abonnement van uw organisatie gebruiken of een [Azure-proefversie](https://azure.microsoft.com/en-us/free/) starten. De CDS-omgeving wordt gedurende een beperkte periode van 30 dagen gratis ter beschikking gesteld.
+
+## <a name="subscribe"></a>Abonneren
+
+Wanneer uw [preview-aanvraag](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) wordt goedgekeurd, ontvangt u drie aanbiedingen van Microsoft per e-mail. Met deze aanbiedingen kunt u de preview van Project Operations implementeren:
+
+- Dynamics 365 Project Operations (CRM) - proefversie voor preview
+- Office 365 Project Operations - proefversie voor preview
+- Dynamics 365 Finance - proefversie voor preview
 
 > [!IMPORTANT]
 > Slechts één persoon, de tenantbeheerder, in een organisatie mag deze taak uitvoeren. Als u niet de abonnee van deze release bent, wacht dan tot uw organisatie is aangemeld en u uw gebruikersgegevens hebt ontvangen.
-> 
-> Proefversies zijn voor eenmalig gebruik in de tenant. U kunt een proefversie maar één keer uitvoeren. We raden u aan een nieuwe tenant te maken voor de proefversie.
 
-
-### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - preview-proefversie 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - proefversie voor preview 
 
 Voordat u begint, moet u ervoor zorgen dat u bent aangemeld bij een browser met de werkaccount van de gebruiker in de gewenste tenant voor de preview van Project Operations.
 
-1. Hier kunt u de eerste aanbiedingscode voor **Dynamics 365 Project Operations** inwisselen [Project Operations-proefversie](https://aka.ms/try-po).
+1. Wissel de eerste aanbiedingscode **Dynamics 365 Project Operations (CRM) - proefversie voor preview** in door de in de browser-URL te plakken.
+
+![Aanbieding inwisselen](./media/16RedeemFirstOfferNew.png)
+
 2. Bevestig uw order.
 
-  U ziet dat de aanbieding voor bevestiging met succes is ingewisseld.
+![De order bevestigen](./media/17ConfirmOrderNew.png)
+
+U ziet dat de aanbieding voor bevestiging met succes is ingewisseld.
+
+![Bevestiging](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - proefversie voor preview
+
+Herhaal dezelfde stappen als bij de eerste aanbiedingscode. Zorg ervoor dat u de tweede aanbiedingscode toevoegt met dezelfde gebruikersaccount die is gebruikt bij de eerste aanbiedingscode.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance-proefversie voor preview
 
-Ga naar [Dynamics 365 for Finance Preview-proefversie](https://aka.ms/trypoche) en herhaal de stappen uit het vorige gedeelte met de aanbieding Aanmelden voor de cloudgehoste omgeving.  
+Herhaal dezelfde stappen met de laatste aanbieding uit de welkomstmail.
 
 ## <a name="assign-licenses"></a>Licenties toewijzen
 
@@ -51,9 +71,13 @@ Ga naar [Dynamics 365 for Finance Preview-proefversie](https://aka.ms/trypoche) 
 
 1. Ga naar [Microsoft 365-beheercentrum](https://portal.office.com/) om de licenties aan uw gebruikers toe te wijzen.
 
+![Startpagina van het Beheercentrum](./media/14AdminPortal.png)
+
 2. Selecteer op de pagina **Actieve gebruikers** de gebruikers waaraan u een licentie wilt toewijzen.
 
-3. Controleer of de **Dynamics 365 Project Operations**-licentie is geselecteerd en selecteer **Wijzigingen opslaan**.
+![Licenties toewijzen](./media/15AssignLicenses.png)
+
+3. Controleer of de licentie voor **Dynamics 365 Project Operations (CRM) Preview** en **Office 365 Project Operations - Preview** is geselecteerd en selecteer **Wijzigingen opslaan**.
 
 > [!NOTE]
 > De Finance-proefaanbieding hoeft niet aan een gebruiker te worden toegewezen.
@@ -73,7 +97,7 @@ Volg de richtlijnen in het onderwerp [Een nieuwe omgeving inrichten](resource-pr
 ## <a name="install-cds-setup-and-configuration-data"></a>Gegevens voor CDS-installatie en configuratie installeren
 
 Installeer CDS-installatie- en configuratiegegevens zoals beschreven in het onderwerp [Configuratiegegevens instellen en toepassen in Common Data Service](resource-apply-pro-setup-config-data.md).
-Voltooi deze stap pas nadat de demo-omgeving voor Finance is geïmplementeerd en de demogegevens gereed zijn.
+Voltooi deze stap pas nadat de demo-omgeving van Finance is geïmplementeerd en de demogegevens in FO gereed zijn.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

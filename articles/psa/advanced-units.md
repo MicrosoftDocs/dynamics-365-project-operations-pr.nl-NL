@@ -2,6 +2,8 @@
 title: Eenhedengroepen en eenheden
 description: Dit onderwerp bevat informatie over eenhedengroepen en eenheden.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987565"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145577"
 ---
 # <a name="unit-groups-and-units"></a>Eenhedengroepen en eenheden
 
@@ -44,7 +46,7 @@ Wanneer u in een eenhedengroep **Tijd** bijvoorbeeld **Uur** instelt als eerste 
 
 In de volgende afbeelding ziet u een voorbeeld van de instelling voor de eenheid **Dag**, waarbij in het veld **Hoeveelheid** het aantal uren in een dag wordt weergegeven, en de eenheid **Week**, waarbij in het veld **Hoeveelheid** het aantal dagen in een week wordt weergegeven.
 
-> ![Eenhedengroep: informatiepagina.](media/advanced-2.png)
+> ![Eenhedengroep: informatiepagina](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Eenheden en eenhedengroepen gebruiken
 
@@ -86,7 +88,7 @@ In het volgende voorbeeld ziet u hoe PSA de eenhedengroep, eenheden en conversie
 
 | Rol      | Eenhedengroep | Eenheid | Organisatie-eenheid | Prijs   |
 |-----------|------------|------|---------------------|---------|
-| Ontwikkelaar | Tijd       | Dag  | Contoso UK          | 800 GBP |
+| Ontwikkelaar | Time       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Tijdsvermelding
 
@@ -110,6 +112,3 @@ Nr. Planningsschattingen kunnen momenteel alleen in uren worden uitgevoerd en ku
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Kunnen eenheden en eenhedengroepen worden bewerkt, verwijderd en toegevoegd?
 Ja. Met uitzondering van eenhedengroep **Tijd** en de eenheid **Uur** kunnen alle eenheden worden verwijderd of bewerkt en kunnen er nieuwe eenheden worden toegevoegd. In PSA kunnen de eenhedengroep **Tijd** en de eenheid **Uur** niet worden verwijderd. Ze kunnen echter wel worden bijgewerkt met een vertaalde tekst voor het veld **Naam**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

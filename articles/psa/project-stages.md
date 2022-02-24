@@ -2,6 +2,8 @@
 title: Typen projectfasen
 description: In dit onderwerp krijgt u informatie over projectfasen.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996880"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148097"
 ---
 # <a name="project-stage-types"></a>Typen projectfasen 
 
@@ -63,6 +65,3 @@ Wanneer het werk voor het project is voltooid, kan de projectmanager de fase bij
 ## <a name="close"></a>Sluiten
 
 Wanneer alle transacties voor het project zijn vastgelegd, kan de projectmanager de fase bijwerken naar **Sluiten**. Op dat moment kunnen er geen transacties meer worden vastgelegd en wordt het project ingesteld op alleen-lezen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

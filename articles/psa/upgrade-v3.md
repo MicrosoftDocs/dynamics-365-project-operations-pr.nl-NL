@@ -1,7 +1,9 @@
 ---
-title: Overwegingen bij upgraden - Microsoft Dynamics 365 Project Service Automation versie 2.x of 1.x naar versie 3
+title: Overwegingen voor de upgrade van Microsoft Dynamics 365 Project Service Automation, versie 2.x of 1.x, naar versie 3
 description: Dit onderwerp bevat informatie over de overwegingen voor het upgraden van Project Service Automation versie 2.x of 1.x naar versie 3.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -16,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000075"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144150"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Overwegingen voor de upgrade van PSA-versie 2.x of 1.x naar versie 3
 
@@ -35,7 +37,7 @@ Zowel Dynamics 365 Project Service Automation als Dynamics 365 Field Service mak
 ## <a name="resource-assignments"></a>Resourcetoewijzingen
 In Project Service Automation versie 2 en versie 1 zijn taaktoewijzingen opgeslagen als onderliggende taken (ook wel regeltaken genoemd) in de **entiteit Taak** en indirect gerelateerd aan de entiteit **Resourcetoewijzing**. De regeltaak is zichtbaar in het toewijzingspop-upvenster in de Structuur voor werkspecificatie (WBS).
 
-![Regeltaken op de WBS in Project Service Automation versie 2 en versie 1.](media/upgrade-line-task-01.png)
+![Regeltaken op de WBS in Project Service Automation versie 2 en versie 1](media/upgrade-line-task-01.png)
 
 In versie 3 van Project Service Automation is het onderliggende schema voor het toewijzen van boekbare resources aan taken gewijzigd. De regeltaak is afgeschaft en er is een directe 1:1-relatie tussen de taak in de **Taakentiteit** en het teamlid in de entiteit **Resourcetoewijzing**. Taken die worden toegewezen aan een lid van het projectteam, worden nu rechtstreeks opgeslagen in de entiteit Resourcetoewijzing.  
 
@@ -46,26 +48,26 @@ Met de onderliggende taakentiteit konden teamleden in versie 2 en versie 1 voor 
 
 Als u een resource hebt toegewezen aan een taak buiten de standaardrol in versie 2 en versie 1, wordt bij het upgraden de benoemde resource toegewezen aan de standaardrol voor alle taaktoewijzingen, ongeacht de roltoewijzing in versie 2. Deze toewijzing resulteert in verschillen in de berekende schattingen van versie 2 of versie 1 naar versie 3 omdat schattingen worden berekend op basis van de rol van de resource en niet de regeltaaktoewijzing. In versie 2 zijn bijvoorbeeld twee taken toegewezen aan Dana Plant. De rol op de regeltaak voor taak 1 is ontwikkelaar en voor taak 2 programmamanager. Dana Plant heeft de standaardfunctie van programmamanager.
 
-![Meerdere rollen toegewezen aan één resource.](media/upgrade-multiple-roles-02.png)
+![Meerdere rollen toegewezen aan één resource](media/upgrade-multiple-roles-02.png)
 
 Omdat de rollen van ontwikkelaar en programmamanager verschillen, zijn de kosten- en verkoopschattingen als volgt:
 
-![Kostenschattingen voor resourcerollen.](media/upggrade-cost-estimates-03.png)
+![Kostenschattingen voor resourcerollen](media/upggrade-cost-estimates-03.png)
 
-![Verkoopschattingen voor resourcerollen.](media/upgrade-sales-estimates-04.png)
+![Verkoopschattingen voor resourcerollen](media/upgrade-sales-estimates-04.png)
 
 Wanneer u een upgrade uitvoert naar versie 3, worden regeltaken vervangen door resourcetoewijzingen voor de taak van het teamlid voor de boekbare resource. De toewijzing maakt gebruik van de standaardrol van de boekbare resource. In de volgende afbeelding is Dana Plant de resource die de rol van programmamanager heeft.
 
-![Resourcetoewijzingen.](media/resource-assignment-v2-05.png)
+![Resourcetoewijzingen](media/resource-assignment-v2-05.png)
 
 Omdat de schattingen zijn gebaseerd op de standaardrol voor de resource, kunnen de verkoop- en kostenschattingen veranderen. In de volgende afbeelding ziet u de rol van **Ontwikkelaar** niet meer omdat de rol nu is overgenomen van de standaardrol van de boekbare resource.
 
-![Kostenschattingen voor standaardrollen.](media/resource-assignment-cost-estimate-06.png)
-![Verkoopschatting voor standaardrollen.](media/resource-assignment-sales-estimate-07.png)
+![Kostenschattingen voor standaardrollen](media/resource-assignment-cost-estimate-06.png)
+![Verkoopschatting voor standaardrollen](media/resource-assignment-sales-estimate-07.png)
 
 Nadat de upgrade is voltooid, kunt u de rol van een teamlid bewerken in iets anders dan de toegewezen standaardwaarde. Als u echter een rol van teamleden wijzigt, wordt deze gewijzigd voor alle toegewezen taken, omdat aan teamleden niet meerdere rollen mogen worden toegewezen in versie 3.
 
-![Een resourcerol bijwerken.](media/resource-role-assignment-08.png)
+![Een resourcerol bijwerken](media/resource-role-assignment-08.png)
 
 Dit geldt ook voor regeltaken die aan benoemde resources zijn toegewezen wanneer u de organisatie-eenheid van de resource wijzigt van de standaardwaarde in een andere organisatie-eenheid. Nadat de upgrade van versie 3 is voltooid, gebruikt de toewijzing de standaardorganisatie-eenheid van de resource in plaats van de waarde die is ingesteld voor de regeltaak.
 
@@ -81,33 +83,30 @@ Voordat u begint met de upgrade, is het raadzaam dat u het team opnieuw genereer
 
 Voor taken die zijn toegewezen aan algemene teamleden die zijn gegenereerd met **Team genereren**, blijft ook na de upgrade de algemene resource bij het team en de toewijzing voor dat algemene teamlid. Het is raadzaam dat u de resourcevereiste voor het algemene teamlid genereert na de upgrade, maar voordat u een resourceaanvraag boekt of indient. Hiermee worden alle toewijzingen van organisatie-eenheden aan de algemene teamleden behouden die afwijken van de contracterende organisatie-eenheid van het project.
 
-In het project Project Z is bijvoorbeeld de eenheid van de contracterende organisatie Contoso US. In het projectplan is aan testtaken binnen de implementatiefase de rol van technisch adviseur toegewezen en is de toegewezen organisatie-eenheid Contoso India.
+In het project Z is bijvoorbeeld de eenheid van de contracterende organisatie Contoso US. In het projectplan is aan testtaken binnen de implementatiefase de rol van technisch adviseur toegewezen en is de toegewezen organisatie-eenheid is Contoso India.
 
-![Toewijzing van organisatie in implementatiefase.](media/org-unit-assignment-09.png)
+![Toewijzing van organisatie in implementatiefase](media/org-unit-assignment-09.png)
 
 Na de implementatiefase wordt de integratietesttaak toegewezen aan de rol Technisch consultant, maar wordt de organisatie ingesteld op Contoso US.  
 
-![Toewijzing van organisatie voor integratietesttaak.](media/org-unit-generate-team-10.png)
+![Toewijzing van organisatie voor integratietesttaak](media/org-unit-generate-team-10.png)
 
 Wanneer u een team voor het project genereert, worden twee algemene teamleden gemaakt vanwege de verschillende organisatie-eenheden in de taken. Aan technisch consultant 1 worden de taken van Contoso India toegewezen en technisch consultant 2 krijgt de taken van Contoso US.  
 
-![Gegenereerde algemene teamleden.](media/org-unit-assignments-multiple-resources-11.png)
+![Gegenereerde algemene teamleden](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > In Project Service Automation versie 2 en versie 1 bevat het teamlid niet de organisatie-eenheid. Deze wordt bijgehouden op de regeltaak.
 
-![Regeltaken van versie 2 en versie 1 in Project Service Automation.](media/line-tasks-12.png)
+![Regeltaken van versie 2 en versie 1 in Project Service Automation](media/line-tasks-12.png)
 
 U kunt de organisatie-eenheid bekijken in de schattingenweergave. 
 
-![Schattingen van organisatie-eenheid.](media/org-unit-estimates-view-13.png)
+![Schattingen van organisatie-eenheid](media/org-unit-estimates-view-13.png)
  
 Wanneer de upgrade is voltooid, wordt de organisatie-eenheid op de regeltaak die overeenkomt met het algemene teamlid toegevoegd aan het algemene teamlid en wordt de regeltaak verwijderd. Daarom is het raadzaam dat u voordat u een upgrade uitvoert, het team genereert of opnieuw genereert voor elk project dat algemene resources bevat.
 
-Voor taken die zijn toegewezen aan een rol met een organisatie-eenheid die verschilt van de organisatie-eenheid van het contracterende project en waarvoor geen team is gegenereerd, maakt upgraden een algemeen teamlid voor de rol, maar wordt de contracterende eenheid van het project gebruikt voor de organisatie-eenheid van het teamlid. In het voorbeeld met Project Z betekent dit dat aan de contracterende organisatie-eenheid Contoso US en de testtaken van het projectplan binnen de implementatiefase de rol technisch consultant is toegewezen voor de organisatie-eenheid die is toegewezen aan Contoso India. De integratietesttaak die is voltooid na de implementatiefase is toegewezen aan de rol technisch consultant. De organisatie-eenheid is Contoso US en er is geen team gegenereerd. Bij een upgrade wordt één algemeen teamlid gemaakt, een technisch adviseur met de toegewezen uren van alle drie taken en een organisatie-eenheid van Contoso US, de contracterende organisatie-eenheid van het project.   
+Voor taken die zijn toegewezen aan een rol met een organisatie-eenheid die verschilt van de organisatie-eenheid van het contracterende project en waarvoor geen team is gegenereerd, maakt upgraden een algemeen teamlid voor de rol, maar wordt de contracterende eenheid van het project gebruikt voor de organisatie-eenheid van het teamlid. In het voorbeeld met project Z hebben de contracterende organisatie-eenheid Contoso US en de testtaken van het projectplan binnen de implementatiefase de rol technisch consultant toegewezen gekregen voor de organisatie-eenheid die is toegewezen aan Contoso India. De integratietesttaak die is voltooid na de implementatiefase is toegewezen aan de rol technisch consultant. De organisatie-eenheid is Contoso US en er is geen team gegenereerd. Bij een upgrade wordt één algemeen teamlid gemaakt, een technisch adviseur met de toegewezen uren van alle drie taken en een organisatie-eenheid van Contoso US, de contracterende organisatie-eenheid van het project.   
  
 Het wijzigen van de standaardwaarde van de verschillende organisatie-eenheden op niet-gegenereerde teamleden is de reden waarom we u aanraden het team te genereren of opnieuw te genereren voor elk project dat vóór de upgrade algemene resources bevat, zodat de toewijzingen van de organisatie-eenheid niet verloren gaan.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

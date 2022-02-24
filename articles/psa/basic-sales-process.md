@@ -2,6 +2,8 @@
 title: verkoopprocessen
 description: Dit onderwerp geeft informatie over de standaardverkoopprocessen.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000525"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145172"
 ---
 # <a name="sales-processes"></a>verkoopprocessen
 
@@ -39,7 +41,7 @@ De verkoopprocessen die worden gebruikt in een projectgebaseerde organisatie ver
 
 In de volgende afbeelding ziet u een normaal verkoopproces in een projectgebaseerde organisatie.
 
-> ![Verkoopproces in een projectgebaseerde organisatie.](media/basic-guide-1.png)
+> ![Verkoopproces in een projectgebaseerde organisatie](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Een verkoop schatten
 De waarde van een verkoop kan worden geschat op basis van projecten die eerder zijn geleverd en de complexiteit van projecten. Voor projecten die betrekking hebben op uitbreidingen van eerdere projecten of projecten waarbij de expertise van de leverancier groot is en er bekende werksjablonen worden gebruikt, kunt u een eenvoudiger schattingsproces gebruiken. Complexere projecten hebben meestal een langer aankoopproces. Daarom zijn er meer stadia in het verkoopschattingsproces. Vroeg in het proces maakt het verkoopteam gebruik van de input van accountmanagers en deskundigen om te beginnen met het maken van een algemene schatting voor elk afzonderlijk onderdeel van het werk waarvoor een prijsopgave wordt gemaakt. Deze onderdelen van het werk worden vertegenwoordigd door prijsopgaveregels. 
@@ -50,7 +52,7 @@ U kunt meerdere prijsopgaven voor een project maken en deze groeperen onder éé
 
 U ook alternatieve prijsopgaven maken onder één entiteitstype voor verkoopkansen of het systeem zo instellen dat er een projectcontract wordt gemaakt wanneer een prijsopgave wordt binnengehaald. In dit geval kunt u een Word-document met de werkomschrijving koppelen aan de projectcontractrecord.
 
-![Een prijsopgave afsluiten om een projectcontract te maken.](media/basic-guide-2.png)
+![Een prijsopgave afsluiten om een projectcontract te maken](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Het verkoopproces configureren
 U bedrijfsprocesstromen gebruiken in Microsoft Dynamics 365 om uw verkoopproces te configureren. Bedfrijfsprocesstromen geven uw verkoopmedewerkers een begeleide visuele interface die ze kunnen gebruiken om deals voorwaarts te verplaatsen in de fasen die uw bedrijf gebruikt.
@@ -66,7 +68,7 @@ Uw bedrijf kan bijvoorbeeld de volgende zes fasen in het verkoopproces hanteren:
 
 Deze zes fasen worden vertegenwoordigd door punthaken (\>) die u selecteert om uit te vouwen in elk entiteitstype van de verkoopkans die u maakt.
 
-![Configuratie van bedrijfsprocessen in Dynamics 365.](media/basic-guide-3.png)
+![Configuratie van bedrijfsprocessen in Dynamics 365](media/basic-guide-3.png)
  
 Uw organisatie kan verschillende entiteiten voor dezelfde deal gebruiken terwijl deze zich ontwikkelt. Vroeg in het verkoopproces wordt een deal vertegenwoordigd door de entiteit Verkoopkans. Naarmate de tijd verstrijkt en er meer details opduiken, kunt u algemene schattingen gebruiken om een of meer prijsopgaven te maken. Als een van deze prijsopgaven wordt beoordeeld door interne belanghebbenden en klanten, vertegenwoordigt de entiteit Prijsopgave de deal. Nadat de klant de prijsopgave heeft aanvaard, wordt de deal vertegenwoordigd door een projectcontract of werkomschrijving. Ter ondersteuning van dit probleem zijn BPFs zo gestructureerd dat elke fase in het proces is gekoppeld aan een andere databasetabel.
 
@@ -77,7 +79,7 @@ Terwijl deals de fasen doorlopen, wordt u gevraagd de juiste entiteitsrecord te 
 > [!NOTE]
 > PSA heeft specifieke pagina's voor de entiteiten Verkoopkans, Prijsopgave, Order en Factuur. U moet Project Service-verkoopkansen, -prijsopgaven, -orders en -facturen maken met behulp van de projectinformatiepagina's voor deze entiteiten. Als u een andere pagina gebruikt om een record te maken, kunt u de record niet openen via de pagina **Projectgegevens**. Als u een record wilt openen via de pagina **Projectgegevens**, moet u de record verwijderen en opnieuw maken op de pagina **Projectgegevens**. Op de pagina **Projectgegevens** zorgt bedrijfslogica voor elk van deze entiteitstypen ervoor dat het veld **Type** van de record correct is ingesteld en dat alle verplichte concepten correct worden geïnitialiseerd.
 
-> ![Projectgegevens voor een nieuwe order.](media/basic-guide-4.png)
+> ![Projectgegevens voor een nieuwe order](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Verschillen tussen Project Service Automation en Sales
 Hoewel voor het verkoopproces in PSA de standaardmogelijkheden van het verkoopproces in Sales worden gebruikt, zijn er wel enkele belangrijke verschillen vanwege variaties in de bedrijfspraktijken van projectgebaseerde organisaties. Hieronder volgen een aantal voorbeelden:
@@ -91,6 +93,3 @@ In PSA kunt u aangebrachte revisies in een prijsopgave niet bijhouden. In plaats
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Opmerkingen en goedkeuringen van prijsopgaven en projectcontracten bijhouden
 U kunt de beoordeling en goedkeuring van prijsopgaven en projectcontracten beheren met behulp van het recordprikbord en berichten. Uw organisatie kan aangepaste workflows en invoegtoepassingen maken voor het toewijzen, omleiden, escaleren en beheren van meldingen over de revisie en goedkeuring van werkitems.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

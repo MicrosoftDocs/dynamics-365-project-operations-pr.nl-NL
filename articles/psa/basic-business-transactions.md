@@ -2,6 +2,8 @@
 title: Bedrijfstransacties
 description: Dit onderwerp biedt informatie over bedrijfstransacties.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987520"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149897"
 ---
 # <a name="business-transactions"></a>Bedrijfstransacties
 
@@ -88,7 +90,7 @@ Samen helpen Oorsprong van transactie en Transactieverbinding u relaties tussen 
 
 In het volgende voorbeeld ziet u de normale verwerking van tijdsvermeldingen in een PSA-projectlevenscyclus.
 
-> ![Tijdsvermeldingen in een Project Service-levenscyclus verwerken.](media/basic-guide-17.png)
+> ![Tijdsvermeldingen in een Project Service-levenscyclus verwerken](media/basic-guide-17.png)
  
 1. Bij het indienen van een tijdsvermelding worden twee journaalregels gemaakt: één voor kosten en één voor niet-gefactureerde verkopen.
 2. Bij de uiteindelijke goedkeuring van de tijdsvermelding worden twee werkelijke waarden gemaakt: één voor kosten en één voor niet-gefactureerde verkopen.
@@ -147,6 +149,3 @@ De volgende tabel bevat de records in de entiteit Transactieverbinding voor de v
 | Correctie van conceptfactuur       | GUID factuurregeltransactie | Vervangen          | msdyn_invoicelinetransaction | GUID gefactureerde verkoop            | Oorspronkelijk           | msdyn_actual       |
 | Factuurcorrectie bevestigen     | GUID gefactureerde verkoopterugboeking    | Omkeren          | msdyn_actual                 | GUID gefactureerde verkoop            | Oorspronkelijk           | msdyn_actual       |
 | GUID nieuwe niet-gefactureerde werkelijke verkoopwaarde | Vervangen                     | msdyn_actual       | GUID gefactureerde verkoop            | Oorspronkelijk                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

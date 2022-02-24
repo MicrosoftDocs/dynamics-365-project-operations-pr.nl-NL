@@ -2,16 +2,18 @@
 title: Een ad-hocvoorschot maken voor een contract
 description: Dit onderwerp bevat informatie over het maken van een voorschot op een contract als dat nodig is.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999130"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595950"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Een ad-hocvoorschot maken voor een contract
 
@@ -37,6 +39,3 @@ Voer de volgende stappen uit om een voorschot aan de klant te factureren.
     | **Factuurstatus** | Dit is een optie-instelling die aangeeft of dit voorschot wordt toegevoegd aan een conceptfactuur voor deze klant. De mogelijke waarden zijn:</br>- **Niet gereed voor facturering**</br>- **Gereed voor facturering** | Wanneer een voorschot of vooruitbetaling is gemarkeerd als **Gereed voor facturering**, wordt het toegevoegd als een regeltijd in een conceptfactuur. Alleen een volledig gefactureerd voorschot kan worden gebruikt om af te stemmen met projectkosten voor de volgende factuurperiode. |
 
 4. Selecteer **Opslaan en sluiten** in het dialoogvenster Snelle invoer om het voorschot of de vooruitbetaling te registreren.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

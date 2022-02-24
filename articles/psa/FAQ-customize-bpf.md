@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002955"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993140"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Het pas ik de bedrijfsprocesstroom Projectfasen aan?
 
@@ -60,11 +60,11 @@ Als een upgrade geen optie is, kunt u de bedrijfsprocesstroom Projectfasen voor 
 1. Voeg extra fasen toe aan de standaardconfiguratie terwijl u de Engelse fasenamen **Quote**, **Plan** en **Close** behoudt.
 
 
-![Schermopname van het toevoegen van fasen aan de standaardconfiguratie.](media/FAQ-Customize-BPF-1.png)
+![Schermafbeelding van het toevoegen van fasen aan de standaardconfiguratie](media/FAQ-Customize-BPF-1.png)
  
 2. Maak uw eigen bedrijfsprocesstroom en stel deze in als de primaire bedrijfsprocesstroom voor de projectentiteit. In dat geval kunt u de gewenste fasenamen instellen. Als u echter dezelfde standaardprojectfasen **Quote**, **Plan** en **Close** wilt gebruiken, moet u enkele aanpassingen doorvoeren. De meer complexe logica heeft betrekking op de sluiting van het project, die u nog wel kunt wel activeren door de projectrecord te deactiveren.
 
-![BPF-aanpassing.](media/FAQ-Customize-BPF-2.png)
+![BPF-aanpassing](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Extra overwegingen voor appversie 2.4.4.30 of eerder van Project Service of op platform 9.0
 
@@ -80,30 +80,30 @@ Ga als volgt te werk om uw eigen bedrijfsprocesstroom voor de projectentiteit te
 
 1. Ga naar **Instellingen** > **Verwerkingscentrum**. Kopieer de bedrijfsprocesstroom Projectfasen niet omdat dan ook de bedrijfslogica van Project Service wordt gekopieerd.
 
-  ![Proces maken.](media/FAQ-Customize-BPF-3.png)
+  ![Proces maken](media/FAQ-Customize-BPF-3.png)
 
 2. Gebruik de procesontwerper om de gewenste fasenamen te maken. Als u dezelfde functionaliteit als de standaardfasen voor **Quote**, **Plan** en **Close** wilt gebruiken, moet u deze maken op basis van de fasenamen van uw aangepaste bedrijfsprocesstroom.
 
-   ![Schermopname van procesontwerper om bedrijfsprocesstromen aan te passen.](media/FAQ-Customize-BPF-4.png) 
+   ![Schermafbeelding van procesontwerper om bedrijfsprocesstromen aan te passen](media/FAQ-Customize-BPF-4.png) 
 
 3. Klik in de procesontwerper op **Orderprocesstroom** om de aangepaste bedrijfsprocesstroom als primaire bedrijfsprocesstroom voor de projectentiteit in te stellen door deze boven de bedrijfsprocesstroom Projectfasen boven aan de lijst te plaatsen.
 
 
-   [Schermopname van het gebruik van Orderprocesstroom](media/FAQ-Customize-BPF-5-720.png)
+   [Schermafbeelding van het gebruik van Orderprocesstroom](media/FAQ-Customize-BPF-5-720.png)
 
 ### <a name="the-following-steps-apply-to-project-service-app-24430-or-earlier-on-the-90-platform"></a>De volgende stappen gelden voor Project Service-app 2.4.4.30 of eerder op het 9.0-platform.
 
 4. Voeg een nieuw aangepast veld aan de projectentiteit toe om de aangepaste fasen in uw aangepaste bedrijfsprocesstroom vast te leggen. U moet bedrijfslogica (invoegtoepassing/werkstroom) toevoegen om dit veld bij te werken wanneer de fase in de aangepaste bedrijfsprocesstroom wordt bijgewerkt.
 
-   ![Schermopname van het aanpassen van een projectentiteit.](media/FAQ-Customize-BPF-6-720.png)
+   ![Schermafbeelding van het aanpassen van een projectentiteit](media/FAQ-Customize-BPF-6-720.png)
 
 5. Wijzig het diagram **Project per fase** om uw nieuwe aangepaste veld voor fasen te gebruiken.
 
-   ![Schermopname van het gebruik van het diagram Project per fase.](media/FAQ-Customize-BPF-7-720.png)
+   ![Schermafbeelding van het gebruik van het diagram Project per fase](media/FAQ-Customize-BPF-7-720.png)
 
 6. Wijzig de weergaven voor de projectentiteit om uw nieuwe aangepaste veld voor fasen op te nemen.
 
-   ![Schermopname van het wijzigen van weergaven in de projectentiteit.](media/FAQ-Customize-BPF-8-720.png)
+   ![Schermafbeelding van het wijzigen van weergaven in de projectentiteit](media/FAQ-Customize-BPF-8-720.png)
 
 
 

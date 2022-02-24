@@ -2,16 +2,18 @@
 title: Navigeren in Project Operations
 description: Dit onderwerp bevat informatie over hoe u toegang krijgt tot Project Operations vanuit Lifecycle Services.
 author: sigitac
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994585"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642042"
 ---
 # <a name="navigate-project-operations"></a>Navigeren in Project Operations
 
@@ -28,14 +30,11 @@ Nadat u Project Operations hebt ingericht zoals beschreven in dit onderwerp, heb
 
 Gebruik de omgevingsnaam in de sectie **Common Data Service-omgevingsnaam** om naar Project Operations in een CDS-omgeving te navigeren. 
 
-  ![Common Data Service-omgevingsnaam.](./media/environment-name.PNG)
+  ![Common Data Service-omgevingsnaam](./media/environment-name.PNG)
 
 Selecteer **Aanmelden** > **Aanmelden bij omgeving** om naar de module **Projectbeheer en boekhouding** in Finance te gaan.  
 
-   ![Aanmelden bij Finance.](./media/environment-login.PNG)
+   ![Aanmelden bij Finance](./media/environment-login.PNG)
 
 > [!NOTE]
 > U kunt Project Operations in Common Data Service en de module **Projectbeheer en boekhouding** rechtstreeks openen door hun respectieve URL's te gebruiken. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

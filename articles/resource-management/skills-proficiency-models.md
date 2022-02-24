@@ -2,16 +2,18 @@
 title: Vaardigheden en certificeringen
 description: Dit onderwerp bevat informatie over het toevoegen van vaardigheids- en certificeringskenmerken aan resources.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990175"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128862"
 ---
 # <a name="skills-and-certifications"></a>Vaardigheden en certificeringen
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
@@ -41,5 +43,3 @@ Door kenmerken aan resourcevereisten toe te voegen, kunt u de kennis of expertis
 3. In het subraster **Vaardigheden** selecteert u **+ Nieuw vereist kenmerk toevoegen.**
 4. Zoek en selecteer de vereiste kenmerken in het deelvenster Snel maken en voeg een **Beoordelingswaarde** toe.
 5. Kies **Opslaan en sluiten**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

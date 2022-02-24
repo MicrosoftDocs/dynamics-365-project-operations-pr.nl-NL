@@ -2,16 +2,18 @@
 title: Een voorschot of een vooruitbetaling factureren
 description: Dit onderwerp bevat informatie over hoe u een voorschot of een vooruitbetaling factureert in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997465"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596186"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Een voorschot of een vooruitbetaling factureren
 
@@ -49,6 +51,3 @@ Dit is te zien in het raster **Toegepaste voorschotten en vooruitbetalingen** op
 | Gebruikt bedrag | Dit is te zien in het raster **Toegepaste voorschotten en vooruitbetalingen** op de pagina **Projectfactuur**.  | Dit alleen-lezen veld bevat de berekende waarde die samenvat hoeveel van het voorschot of de vooruitbetaling is gebruikt. | Dit veld kan aan de klant op de afgedrukte factuur worden weergegeven om het reeds gebruikte bedrag van het voorschot of de vooruitbetaling aan te geven. |
 | Berekend bedrag | Dit is te zien in het raster **Toegepaste voorschotten en vooruitbetalingen** op de pagina **Projectfactuur**.  | Dit bewerkbare veld bevat het bedrag van het voorschot dat of de vooruitbetaling die op deze projectfactuur wordt gebruikt. Dit bedrag kan niet hoger zijn dan het bedrag dat beschikbaar is in de vooruitbetaling. Dit wordt automatisch berekend als het verschil tussen de velden **Bedrag** en **Gebruikt bedrag** in het raster. U kunt deze hoeveelheid verlagen om minder te gebruiken dan wat beschikbaar is, maar u kunt de hoeveelheid niet verhogen om meer te gebruiken dan wat beschikbaar is. | Dit veld kan aan de klant op de afgedrukte factuur worden weergegeven om het op de factuur gebruikte bedrag van het voorschot of de vooruitbetaling aan te geven. |
 | Saldobedrag van voorschot. | Dit is te zien in het raster **Toegepaste voorschotten en vooruitbetalingen** op de pagina **Projectfactuur**.  | Dit alleen-lezen veld geeft de waarde aan van hoeveel van het voorschot of de vooruitbetaling er overblijft nadat de factuur is bevestigd. | Dit veld kan aan de klant op de afgedrukte factuur worden weergegeven om het bedrag aan te geven dat overblijft van dit voorschot of deze vooruitbetaling nadat de factuur is bevestigd en betaald. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

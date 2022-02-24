@@ -2,18 +2,19 @@
 title: Overzicht van prijsdimensies
 description: Dit onderwerp bevat informatie over prijsdimensies in Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001965"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650180"
 ---
 # <a name="pricing-dimensions-overview"></a>Overzicht van prijsdimensies
 
@@ -33,7 +34,7 @@ Hierdoor zijn er twee typen prijsdimensiewaarden beschikbaar:
 
 Dynamics 365 Project Operations wordt geleverd met een standaardset prijsdimensies. U kunt deze prijsdimensies bekijken door naar **Project Operations** > **Parameters** te gaan. Controleer in de parameterrecord op het tabblad **Op bedrag gebaseerde prijsdimensies** of voor de rol **msdyn_resourcecategory** en de resource-organisatie-eenheid **msdyn_organizationalunit** de velden **Van toepassing op verkoop** en **Van toepassing op kosten** op **Ja** zijn ingesteld. Als deze velden zijn ingeschakeld, kunt u de prijs en kosten voor elke combinatie van rol en organisatie-eenheid instellen.
 
-![Schermopname van Project Service-parameters waarin 'Van toepassing op verkoop' is gemarkeerd.](media/PS-OOB-parameters.png)
+![Schermopname van Project Service-parameters waarin 'Van toepassing op verkoop' is gemarkeerd](media/PS-OOB-parameters.png)
 
 Als u de prijs of kosten voor uw resources vaststelt met behulp van extra kenmerken, kunt u aangepaste velden, entiteiten en dimensies maken. Voor meer informatie raadpleegt u de volgende onderwerpen. 
   
@@ -58,18 +59,15 @@ In het volgende voorbeeld worden de factureringstarieven weergegeven die zijn in
 
 **Voorbeeld van factureringstarieven**
 
-| - Rol        | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
+| Rol        | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Ontwikkelaar   | Contoso VS  |Uur | 200|USD     |
-| Ontwikkelaar   | Contoso India |Uur|   112|USD     |
+| Ontwikkelaar   | Contoso US  |Hour | 200|USD     |
+| Ontwikkelaar   | Contoso India |Hour|   112|USD     |
 
 
 **Voorbeeld van kostentarieven**
 
 | Salarisbandbreedte     | Organisatie-eenheid    |Eenheid      |Prijs      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mijn bedrijf_Bandbreedte1 | Contoso VS  |Uur | 145|USD     |
-| Mijn bedrijf_Bandbreedte2 | Contoso India |Uur|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| Mijn bedrijf_Bandbreedte1 | Contoso US  |Hour | 145|USD     |
+| Mijn bedrijf_Bandbreedte2 | Contoso India |Hour|   67|USD     |

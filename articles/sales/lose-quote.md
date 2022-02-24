@@ -2,16 +2,18 @@
 title: Projectgebaseerde prijsopgaven kopiëren
 description: Dit onderwerp bevat informatie over hoe u projectgebaseerde prijsopgaven kopieert naar Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992155"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181806"
 ---
 # <a name="copy-project-based-quotes"></a>Projectgebaseerde prijsopgaven kopiëren
 
@@ -43,6 +45,3 @@ Wanneer u **OK** selecteert in het dialoogvenster, wordt een kopie van de projec
 > - Projectreferentie - projectgebaseerde prijsopgaveregels - budgetinformatie van de klant
 >
 >Omdat deze informatie heel specifiek is voor elke prijsopgave, worden deze velden en records niet gekopieerd. Prijsopgaveregels voor projecten en producten, schattingen op prijsopgaveregeldetails en niet-overschrijdingswaarden op prijsopgaveniveau worden gekopieerd. Standaardinstellingen voor prijzen en kosten zijn afhankelijk van de selectie van de optie **Prijzen kopiëren** in het dialoogvenster **Parameters kopiëren**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

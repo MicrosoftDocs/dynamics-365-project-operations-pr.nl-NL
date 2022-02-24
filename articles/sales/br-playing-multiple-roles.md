@@ -2,16 +2,18 @@
 title: Een schatting maken van de verkoop en kosten van projecten wanneer een boekbare resource meerdere rollen in een project vervult
 description: In dit onderwerp vindt u informatie over hoe prijsdimensies kunnen worden gebruikt om prijs- en kostenschattingen te ondersteunen voor een resource die meerdere rollen in een project vervult.
 author: rumant
+manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990130"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531403"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Een schatting maken van de verkoop en kosten van projecten wanneer een boekbare resource meerdere rollen in een project vervult 
 
@@ -104,6 +106,3 @@ Wanneer u de rij voor dat teamlidrecord uitvouwt, kunt u voor beide taken versch
 ### <a name="estimates-grid"></a>Het raster Schattingen 
 
 In het raster **Schattingen** zijn voor beide toewijzingen voor dezelfde resource verschillende prijzen opgenomen. De toewijzing voor de resource voor **Taak A** wordt geprijsd met de kenmerkwaarde **Adviserend leider** voor **Rol**. De toewijzing voor dezelfde resource voor **Taak B** wordt geprijsd met de kenmerkwaarde **Netwerktechnicus** voor **Rol**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

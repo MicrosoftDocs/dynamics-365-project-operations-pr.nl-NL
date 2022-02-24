@@ -2,16 +2,18 @@
 title: Standaardprijslijsten
 description: Dit onderwerp bevat informatie over de standaardverkoop- en kostprijslijsten in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989860"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130932"
 ---
 # <a name="default-price-lists"></a>Standaardprijslijsten
 
@@ -19,7 +21,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 ## <a name="sales-price-lists"></a>Verkoopprijslijsten
 
-Elke projectofferte en elk contract in Dynamics 365 Project Operations bevat een standaard verkoopprijslijst. 
+Elke projectprijsopgave en elk projectcontract in Dynamics 365 Project Operations bevat een standaardverkoopprijslijst. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Prijslijsten standaard instellen op projectprijsopgaven
 Het volgende proces wordt voltooid om te bepalen welke prijslijst standaard moet worden gebruikt voor een projectprijsopgave:
@@ -55,6 +57,3 @@ Kostprijslijsten worden niet standaard ingesteld op een entiteit in Project Oper
 5. Vervolgens wordt gekeken naar de datumgeldigheid van de prijslijsten die overeenkomen met de datum van de inkomende regel met schattingen of werkelijke waarden. 
 6. Als er meerdere prijslijsten zijn die van kracht zijn voor de datum op de inkomende schatting of werkelijke waarde, wordt de meest recent gemaakte prijslijst geselecteerd.
 7. Als er geen kostprijslijsten zijn gekoppeld aan de projectparameters die overeenkomen met de valuta en de ingangsdatum, wordt het kostentarief standaard ingesteld op nul (0) op de regel voor inkomende schatting of werkelijke waarde.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

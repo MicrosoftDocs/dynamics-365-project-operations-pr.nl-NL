@@ -2,10 +2,12 @@
 title: Factureren in Project Service Automation
 description: In dit onderwerp krijgt u informatie over factureren.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985495"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151382"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Factureren in Project Service Automation
 
@@ -50,7 +52,7 @@ Volg deze stap om een factuur voor een specifiek projectcontract te maken.
 
 - Open op de lijstpagina **Projectcontracten** een projectcontract en selecteer vervolgens **Factuur maken**.
 
-    ![Projectfacturen maken voor een specifiek projectcontract.](media/CreateProjectInvoicesOneByOne.png)
+    ![Projectfacturen maken voor een specifiek projectcontract](media/CreateProjectInvoicesOneByOne.png)
 
     Er wordt een factuur gegenereerd voor alle transacties voor het geselecteerde projectcontract met de status **Gereed voor facturering**. Deze transacties omvatten tijd, onkosten, mijlpalen en op producten gebaseerde contractregels.
 
@@ -58,7 +60,7 @@ Volg deze stappen om bulksgewijs facturen te maken.
 
 1. Selecteer op de lijstpagina **Projectcontracten** een of meer projectcontracten waarvoor u een factuur moet maken en selecteer vervolgens **Projectfacturen maken**.
 
-    ![Bulksgewijs projectfacturen maken.](media/CreateProjectInvoicesBulk.png)
+    ![Bulksgewijs projectfacturen maken](media/CreateProjectInvoicesBulk.png)
 
     In een waarschuwingsbericht wordt vermeld dat er mogelijk een vertraging is voordat facturen worden gemaakt. Het proces wordt ook weergegeven.
 
@@ -115,6 +117,3 @@ Wanneer u een correctiefactuur bevestigt, wordt de oorspronkelijke gefactureerde
 
 - Een gefactureerde werkelijke verkoopwaarde voor zes uur.
 - Een niet-gefactureerde werkelijke verkoopwaarde voor de resterende twee uur. Deze transactie kan later worden gefactureerd of als niet-factureerbaar worden aangemerkt, afhankelijk van de onderhandelingen met de klant.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

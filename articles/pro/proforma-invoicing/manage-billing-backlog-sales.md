@@ -1,19 +1,21 @@
 ---
-title: Achterstallige facturen voor project beheren
-description: Dit onderwerp biedt informatie over de verschillende weergaven die beschikbaar zijn om te gebruiken bij het beheren van achterstallige facturen voor projecten.
+title: Achterstallige facturen beheren - lite
+description: Dit onderwerp bevat informatie over de verschillende weergaven die beschikbaar zijn voor het beheren van de achterstand in facturering.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988285"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176965"
 ---
-# <a name="manage-project-billing-backlog"></a>Achterstallige facturen voor project beheren 
+# <a name="manage-the-billing-backlog---lite"></a>Achterstallige facturen beheren - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -58,6 +60,3 @@ Niet-gefactureerde werkelijke verkoopcijfers met een **Niet-overschrijdingsstatu
 Als contractregels voor meerdere klanten een factureringsmethode voor tijd en materiaal hebben, wordt, wanneer tijd en onkosten zijn goedgekeurd, één niet-gefactureerde werkelijke verkoop voor elke klant op de contractregel gemaakt volgens de percentagesplitsing voor facturering die voor elk van de klanten is gedefinieerd. In de weergave **Achterstallige facturering van tijd en materiaal** ziet u deze individuele klantspecifieke niet-gefactureerde werkelijke verkoopcijfers. Al deze records van niet-gefactureerde werkelijke verkoopwaarden kunnen worden gemarkeerd als **Gereed voor facturering** vanuit deze weergave.
 
 Een niet-gefactureerde werkelijke verkoopwaarde die op een conceptfactuur staat, wordt in deze weergave weergegeven met de factureringsstatus **Klantfactuur gemaakt**. Wanneer de conceptfactuur wordt bevestigd, wordt de factureringsstatus in deze record bijgewerkt naar **Klantfactuur geboekt**. Werk deze statuswaarde niet bij met aangepaste code. Project Operations werken niet correct wanneer deze statuswaarden worden bijgewerkt met aangepaste code.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

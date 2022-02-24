@@ -2,16 +2,18 @@
 title: Complexe eenheden voor productgebaseerde contractregels beheren - lite
 description: Dit onderwerp biedt informatie over het ondersteunen van de verkoop van op abonnementen gebaseerde producten.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003360"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177370"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Complexe eenheden voor productgebaseerde contractregels beheren - lite
 
@@ -44,6 +46,3 @@ Voer de volgende stappen uit om kwantiteitsfactoren te creëren op basis van pro
 7. Herhaal stap 2-6 voor alle eigenschappen die samen de hoeveelheid vormen voor de productgebaseerde contractregel.
 
 Als de hoeveelheidsfactoren zijn ingesteld en de gebruiker een contractregel voor dit product aanmaakt, wordt de hoeveelheid van de contractregel vergrendeld. De hoeveelheid wordt vervolgens berekend als een product van de eigenschapswaarden voor die contractregel.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

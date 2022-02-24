@@ -2,8 +2,10 @@
 title: Bulkcorrecties van werkelijke waarden voor goedgekeurde tijds- en onkostenvermeldingen
 description: In dit onderwerp wordt uitgelegd hoe een beheerder enkele of bulkcorrecties kan aanbrengen in eerder goedgekeurde tijds- of onkostenvermeldingen als de facturering nog niet volledig is.
 author: rumant
+manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
+ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +18,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995395"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144947"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Bulkcorrecties van werkelijke waarden voor goedgekeurde tijds- en onkostenvermeldingen
 
@@ -62,7 +64,7 @@ Voer de volgende stappen uit om enkele of meerdere tijdsvermeldingen voor een pr
 
 In de volgende afbeelding zijn er bijvoorbeeld twee regelitems met een hoeveelheid van 8,00 waarvoor afschrijvingen worden vermeld in de kolom Bedrag. Daarnaast zijn er twee regelitems met een hoeveelheid van -8,00 die gecrediteerde bedragen weergeven in de kolom Bedrag. Deze correcties resulteren in de hoeveelheid nul.
 
-![Lijst van gekoppelde weergave van werkelijke waarden.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Lijst van gekoppelde weergave van werkelijke waarden](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Correcte goedgekeurde onkostenvermeldingen
 
@@ -87,7 +89,4 @@ Voer de volgende stappen uit om een of meer onkostenvermeldingen te corrigeren.
 
 8. Controleer op het tabblad **Werkelijke waarden** op de projectpagina de **Gekoppelde weergave van werkelijke waarden**. De oorspronkelijke vermeldingen en de gecorrigeerde vermeldingen worden vermeld. In de volgende afbeelding ziet u de oorspronkelijke bedragen voor onkostenvermeldingen en de overeenkomstige gecorrigeerde bedragen voor onkostenvermeldingen. 
 
-![Werkelijke onkosten.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Werkelijke onkosten](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)

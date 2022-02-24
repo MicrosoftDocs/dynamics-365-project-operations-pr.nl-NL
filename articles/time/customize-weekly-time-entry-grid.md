@@ -2,16 +2,18 @@
 title: Tijdinvoer uitbreiden
 description: Dit onderwerp biedt informatie over de manier waarop ontwikkelaars het besturingselement voor tijdinvoer kunnen uitbreiden.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993325"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124632"
 ---
 # <a name="extending-time-entries"></a>Tijdinvoer uitbreiden
 
@@ -142,6 +144,3 @@ Gebruik validaties van invoegtoepassingen voor validaties die meer context verei
 
 ### <a name="copying-time-entries"></a>Tijdsvermeldingen kopiëren
 Gebruik de weergave **Kolommen met tijdsvermelding kopiëren** om de lijst met velden te definiëren die moeten worden gekopieerd tijdens het invoeren van tijd. **Datum** en **Duur** zijn verplichte velden en mogen niet uit de weergave worden verwijderd.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

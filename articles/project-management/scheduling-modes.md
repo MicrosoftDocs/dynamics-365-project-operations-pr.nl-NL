@@ -2,16 +2,18 @@
 title: Planningsmodi
 description: Dit onderwerp biedt informatie over planningsmodi.
 author: ruhercul
-ms.date: 05/28/2021
+manager: AnnBe
+ms.date: 05/04/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987745"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981429"
 ---
 # <a name="scheduling-modes"></a>Planningsmodi
 
@@ -23,12 +25,12 @@ Dynamics 365 Project Operations biedt organisaties de mogelijkheid om te defini�
 Er zijn drie planningsmodi beschikbaar in Project Operations:
 
   - Vaste duur (dit is de standaardmodus)
-  - Vaste inspanning (*Werk*)
+  - Vast werk
   - Vaste eenheden
 
 De waarden die worden beïnvloed door de definitie van een specifieke planningsmodus, worden bepaald door de volgende formule:
 
-  Inspanning = Duur x Eenheden
+  Inspanning (*Werk*) = Duur x Eenheden
 
 Wanneer u de planningsmodus van een project definieert, stelt u een van deze waarden in, die dan niet kunnen worden gewijzigd. Als u deze waarde als een constante aanhoudt, krijgt die waarde een prioriteit, waardoor het systeem wordt geïnformeerd dat deze niet moet worden gewijzigd wanneer de andere twee waarden veranderen. De volgende tabel bevat informatie over de gevolgen van het selecteren van een specifieke modus.
 

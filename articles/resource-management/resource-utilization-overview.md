@@ -2,17 +2,18 @@
 title: Overzicht van bestede uren van resource
 description: Dit onderwerp bevat informatie over de bestede uren van resources in Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002055"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401370"
 ---
 # <a name="resource-utilization-overview"></a>Overzicht van bestede uren van resource
 
@@ -44,6 +45,3 @@ Daarnaast moet een standaardrol worden toegewezen aan elke boekbare resource. Ga
 Op het tabblad **Project Service** kunt u ook een afzonderlijk doel voor bestede uren voor de resource instellen. De berekening van de bestede uren gebruikt vervolgens die doelwaarde om te het doel van de resource te evalueren, in plaats van het doel van de standaardrol van de resource.
 
 De bestede uren worden alleen voor een resource weergegeven als die resource goedgekeurde, factureerbare tijd heeft in de periode die wordt weergegeven in het raster.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

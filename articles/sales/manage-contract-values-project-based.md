@@ -2,20 +2,22 @@
 title: Werken met projectgebaseerde contractregels
 description: Dit onderwerp bevat informatie over projectgebaseerde contractregels.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990040"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181707"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Werken met projectgebaseerde contractregels
 
-Projectgebaseerde contractregels in Dynamics 365 Project Operations zijn ontworpen om de schattings- en factureringsovereenkomsten te bevatten voor specifieke onderdelen van projectwerk bij een opdracht. De structuur van een projectgebaseerde contractregel wordt voor projectschattingen en factureringsscenario's uitgebreid met de volgende concepten:
+Projectgebaseerde contractregels in Dynamics 365 Project Operations zijn ontworpen om de schattings- en factureringsovereenkomsten te bevatten voor specifieke componenten van projectwerk aan een opdracht. De structuur van een projectgebaseerde contractregel wordt voor projectschattingen en factureringsscenario's uitgebreid met de volgende concepten:
 
 - Factureringsmethode
 - Project- en taaktoewijzing
@@ -55,6 +57,3 @@ Regel: een project en een bepaalde transactieklasse kunnen slechts op één proj
 | C1       | CL2           | P1      | Geen           | Ja             | Geen          | Geldig           | Tijd en vergoedingen voor project P1 zijn opgenomen in CL1. Onkosten voor het P1-project zijn opgenomen in CL2. </br>   Er is geen overlap in wat op elke contractregel is opgenomen en daarom is het geldig.  |
 | C1       | CL1           | P1      | Ja          | Ja             | Ja         | Ongeldig       | In strijd met de regel. Tijd, onkosten en vergoedingen voor project P1 zijn opgenomen in de regels van twee contracten.                                                                                               |
 | CL2      | CL2           | P1      | Ja          | Ja             | Ja         | Ongeldig       | In strijd met de regel. Tijd, onkosten en vergoedingen voor project P1 zijn opgenomen in de regels van twee contracten.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

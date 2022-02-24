@@ -2,16 +2,18 @@
 title: Projectsjablonen ontwikkelen met Project kopiëren
 description: Dit onderwerp bevat informatie over het maken van projectsjablonen met de aangepaste actie Project kopiëren.
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989241"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045003"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Projectsjablonen ontwikkelen met Project kopiëren
 
@@ -42,7 +44,7 @@ Er zijn drie invoerparameters:
 - **{"clearTeamsAndAssignments":true}**: het standaardgedrag voor Project for the Web; hiermee worden alle toewijzingen en teamleden verwijderd.
 - **{"removeNamedResources":true}**: het standaardgedrag voor Project Operations; hiermee worden toewijzingen teruggezet naar algemene resources.
 
-Zie [Web-API -acties gebruiken](/powerapps/developer/common-data-service/webapi/use-web-api-actions) voor meer standaardwaarden voor acties.
+Zie [Web-API -acties gebruiken](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions) voor meer standaardwaarden voor acties.
 
 ## <a name="specify-fields-to-copy"></a>Te kopiëren velden opgeven 
 Wanneer de actie wordt aangeroepen, wordt met **Project kopiëren** de projectweergave **Projectkolommen kopiëren** gecontroleerd om te bepalen welke velden moeten worden gekopieerd wanneer het project wordt gekopieerd.
@@ -110,6 +112,3 @@ Het volgende voorbeeld laat zien hoe u de aangepaste actie **CopyProject** kunt 
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

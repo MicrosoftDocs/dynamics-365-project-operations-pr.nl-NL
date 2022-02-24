@@ -1,25 +1,29 @@
 ---
-title: Het automatisch maken van facturen instellen
-description: Dit onderwerp biedt informatie over het instellen en configureren van de automatische aanmaak van pro-formafacturen.
+title: Automatisch maken van facturen configureren - lite
+description: Dit onderwerp bevat informatie over het configureren van het automatisch maken van pro-formafacturen.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997510"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176560"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Het automatisch maken van facturen instellen 
+# <a name="configure-automatic-invoice-creation---lite"></a>Automatisch maken van facturen configureren - lite
  
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering, Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
+_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-U kunt het automatisch maken van facturen configureren in Dynamics 365 Project Operations. Er wordt een concept van de pro-formafactuur gemaakt op basis van het factuurschema voor elk projectcontract en elke contractregel. Factuurschema´s worden op contractregelniveau geconfigureerd. Elke regel in een contract kan een afzonderlijk factuurschema hebben of hetzelfde factuurschema kan op elke regel van het contract worden opgenomen.
+U kunt het automatisch maken van facturen in Dynamics 365 Project Operations configureren. Er wordt een concept van de pro-formafactuur gemaakt op basis van het factuurschema voor elk projectcontract en elke contractregel. Factuurschema´s worden op contractregelniveau geconfigureerd. Elke regel in een contract kan een afzonderlijk factuurschema hebben of hetzelfde factuurschema kan op elke regel van het contract worden opgenomen.
 
-Als u een factuur maakt, wordt altijd ten minste één factuur per projectcontract gemaakt. In sommige gevallen kunnen er meerdere facturen worden gemaakt. Als het contract bijvoorbeeld meerdere klanten heeft, wordt hetzelfde aantal facturen gemaakt als het aantal klanten dat factureerbare transacties heeft die moeten worden gefactureerd voor dat projectcontract.
+Als u een factuur maakt, wordt altijd ten minste één factuur per projectcontract gemaakt. In sommige gevallen kunnen er meerdere facturen worden gemaakt.
+
+Als het contract bijvoorbeeld meerdere klanten heeft, wordt hetzelfde aantal facturen gemaakt als het aantal klanten dat factureerbare transacties heeft die moeten worden gefactureerd voor dat projectcontract.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Hoe transacties worden opgenomen in een factuur 
 
@@ -87,6 +91,3 @@ De batchprocestaak voor het maken van facturen is een terugkerende taak. Als dit
 
 > [!NOTE]
 > Batchfacturering in Project Operations wordt alleen uitgevoerd voor projectcontractregels die zijn geconfigureerd door factuurschema's. Voor een contractregel met een factureringsmethode met een vaste prijs moeten mijlpalen zijn geconfigureerd. Voor een projectcontractregel met een factureringsmethode voor tijd en materiaal is een op datum gebaseerd factuurschema nodig.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

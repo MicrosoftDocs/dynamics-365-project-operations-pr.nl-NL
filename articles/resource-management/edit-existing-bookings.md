@@ -2,16 +2,18 @@
 title: Boekingen bewerken
 description: Dit onderwerp biedt informatie over het bijwerken en wijzigen van boekingen.
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008310"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841324"
 ---
 # <a name="edit-bookings"></a>Boekingen bewerken
 
@@ -31,6 +33,3 @@ Vanuit het raster **Teamlid** kan een projectmanager een specifieke resource mar
 ## <a name="schedule-board"></a>Planbord
 
 Vanuit het **Planbord** heeft de Resource Manager een portfolioweergave van alle boekingen binnen een organisatie. Vanuit deze weergave kan de Resource Manager bestaande boekingen uitbreiden, verkorten of verplaatsen, vergelijkbaar met de mogelijkheden die worden aangeboden in **Boekingen bijhouden**. De Resource Manager kan ook bestaande resources vervangen die aan een specifieke boeking zijn toegewezen door met de rechtermuisknop op de boeking te klikken en **Resource vervangen** te selecteren. Resource Managers kunnen ook de contouren van bestaande boekingen bewerken door met de rechtermuisknop op de boeking te klikken en **Bewerken** te selecteren.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

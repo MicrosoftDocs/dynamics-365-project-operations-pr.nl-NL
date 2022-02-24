@@ -2,6 +2,8 @@
 title: Veelgestelde vragen over resourcebeheer
 description: Dit onderwerp biedt antwoorden op veelgestelde vragen over resourcebeheer.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002370"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144362"
 ---
 # <a name="resource-management-faq"></a>Veelgestelde vragen over resourcebeheer
 
@@ -52,6 +54,3 @@ Nadat de resources zijn geboekt, selecteert u **Boekingen bijhouden** om de vere
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Wat is het verschil tussen een toewijzing en een boeking?
 
 Toewijzingen zijn de toewijzing van resources aan projecttaken in de projectplanning. De resources kunnen echte resources zijn of algemene resources. Boekingen zijn de harde of zachte toewijzing van resources aan een project. Een harde boeking verbruikt de capaciteit van een resource. In het ideale geval moeten voor echte resources de boekingen en toewijzingen overeenkomen, omdat ze niet verschillen. PSA dwingt deze overeenkomst echter niet af. In de weergave Vereffening wordt aan een projectmanager getoond waar boekingen en toewijzingen van een resource niet overeenkomen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,42 @@
 ---
-title: Pro-formafacturen
-description: Dit onderwerp biedt informatie over pro-formafacturen in Project Operations.
+title: Handmatig een pro-formafactuur maken
+description: Dit onderwerp bevat informatie over het maken van een pro-formafactuur.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995620"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128052"
 ---
-# <a name="proforma-invoices"></a>Pro-formafacturen
+# <a name="create-a-manual-proforma-invoice"></a>Handmatig een pro-formafactuur maken
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Pro-formafacturen zijn nuttig omdat deze projectmanagers een tweede goedkeuringsniveau bieden voordat ze facturen voor klanten maken. De eerste goedkeuringsprocedure vindt plaats wanneer de tijd-, onkosten- en materiaalposten die door projectteamleden worden ingediend, worden goedgekeurd. Bevestigde pro-formafacturen zijn beschikbaar in de module Projectboekhouding van Project Operations. Projectaccountants kunnen aanvullende updates uitvoeren, bijvoorbeeld voor omzetbelasting, boekhouding en de factuurindeling.
+Facturering biedt projectmanagers een tweede goedkeuringsniveau voordat ze facturen voor klanten maken. De eerste goedkeuringsprocedure vindt plaats wanneer de tijd- en onkostenposten die door projectteamleden worden ingediend, worden goedgekeurd.
 
+Dynamics 365 Project Operations is niet ontworpen om facturen voor klanten te genereren, om de volgende redenen:
+
+- Deze toepassing bevat geen belastinginformatie.
+- In deze toepassing kunnen andere valuta's niet worden geconverteerd naar de factureringsvaluta met behulp van correct geconfigureerde wisselkoersen.
+- In deze toepassing kunnen facturen niet correct worden opgemaakt, zodat ze kunnen worden afgedrukt.
+
+In plaats daarvan kunt u een financieel of boekhoudsysteem gebruiken om facturen voor klanten te maken waarin gebruik wordt gemaakt van de informatie uit gegenereerde factuurvoorstellen.
 
 ## <a name="creating-project-invoices"></a>Projectfacturen maken
 
@@ -33,7 +50,7 @@ Volg deze stap om een factuur voor een specifiek projectcontract te maken.
 
 - Open op de lijstpagina **Projectcontracten** een projectcontract en selecteer vervolgens **Factuur maken**.
 
-    Er wordt een factuur gegenereerd voor alle transacties voor het geselecteerde projectcontract met de status **Gereed voor facturering**. Deze transacties omvatten tijd, onkosten, materialen, mijlpalen en andere niet-gefactureerde verkoopjournaalregels.
+    Er wordt een factuur gegenereerd voor alle transacties voor het geselecteerde projectcontract met de status **Gereed voor facturering**. Deze transacties omvatten tijd, onkosten, mijlpalen en op producten gebaseerde contractregels.
 
 Volg deze stappen om bulksgewijs facturen te maken.
 
@@ -43,7 +60,7 @@ Volg deze stappen om bulksgewijs facturen te maken.
 
 2. Selecteer **OK** om het berichtvenster te sluiten.
 
-    Er wordt een factuur gegenereerd voor alle transacties op een contractregel met de status **Gereed voor facturering**. Deze transacties omvatten tijd, onkosten, materialen, mijlpalen en andere niet-gefactureerde verkoopjournaalregels.
+    Er wordt een factuur gegenereerd voor alle transacties op een contractregel met de status **Gereed voor facturering**. Deze transacties omvatten tijd, onkosten, mijlpalen en op producten gebaseerde contractregels.
 
 3. Als u de facturen wilt weergeven die zijn gegenereerd, gaat u naar **Verkoop** \> **Facturering** \> **Facturen**. U ziet één factuur voor elk projectcontract.
 
@@ -76,10 +93,11 @@ De batchprocestaak voor het maken van facturen is een terugkerende taak. Als dit
  
 ### <a name="edit-a-draft-invoice"></a>Een concept van een factuur bewerken
 
-Wanneer u een conceptfactuur voor een project maakt, worden alle niet-gefactureerde verkooptransacties die zijn gemaakt toen de tijd-, onkosten- en materiaalgebruiksposten werden goedgekeurd, in de factuur opgehaald. U kunt de volgende correcties aanbrengen als de factuur zich nog in de conceptfase bevindt:
+Wanneer u een conceptfactuur voor een project maakt, worden alle niet-gefactureerde verkooptransacties die zijn gemaakt toen de tijd- en onkostenposten werden goedgekeurd, in de factuur opgehaald. U kunt de volgende correcties aanbrengen als de factuur zich nog in de conceptfase bevindt:
 
 - Factuurregeldetails verwijderen of bewerken.
 - De hoeveelheid en het factureringstype bewerken en wijzigen.
+- Rechtstreeks tijd, onkosten en vergoedingen als transacties aan de factuur toevoegen. U kunt deze functie gebruiken als de factuurregel is toegewezen aan een contractregel die deze transactieklassen toestaat.
 
 Selecteer **Bevestigen** om een factuur te bevestigen. De actie Bevestigen is een eenrichtingsactie. Wanneer u **Bevestigen** selecteert, wordt van de factuur een alleen-lezenfactuur gemaakt door het systeem en worden er gefactureerde werkelijke verkoopwaarden gemaakt van elk factuurregeldetail voor elke factuurregel. Als het factuurregeldetail verwijst naar een niet-gefactureerde werkelijke verkoopwaarde, boekt het systeem ook de niet-gefactureerde werkelijke verkoopwaarde terug. (Elk factuurregeldetail dat is gemaakt op basis van een tijdsvermelding of onkostenpost, verwijst naar een niet-gefactureerde werkelijke verkoopwaarde.) Grootboek-integratiesystemen kunnen deze terugboeking gebruiken om onderhanden werk (OHW) van het project voor boekhoudkundige doeleinden terug te boeken.
 
@@ -93,6 +111,3 @@ Wanneer u een correctiefactuur bevestigt, wordt de oorspronkelijke gefactureerde
 
 - Een gefactureerde werkelijke verkoopwaarde voor zes uur.
 - Een niet-gefactureerde werkelijke verkoopwaarde voor de resterende twee uur. Deze transactie kan later worden gefactureerd of als niet-factureerbaar worden aangemerkt, afhankelijk van de onderhandelingen met de klant.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

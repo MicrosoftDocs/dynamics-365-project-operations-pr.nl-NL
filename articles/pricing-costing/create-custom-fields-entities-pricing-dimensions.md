@@ -2,9 +2,11 @@
 title: Aangepaste velden en entiteiten maken als prijsdimensies
 description: Deze onderwerp biedt informatie over het maken van aangepaste optiesets of entiteiten.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003630"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642807"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Aangepaste velden en entiteiten maken als prijsdimensies
 
@@ -44,7 +46,7 @@ Volg deze stappen om op entiteiten gebaseerde dimensies te maken:
 3. Selecteer **Nieuw** om een nieuwe entiteit met de naam **Standaardtitel** te maken. 
 4. Geef de overige vereiste gegevens op en selecteer vervolgens **Opslaan**.
 
-> ![Definitie van entiteit Standaardtitel.](media/Standard-Title-entity-definition.png)
+> ![Definitie van entiteit Standaardtitel](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Op optieset gebaseerde dimensies 
 U twee op optiesets gebaseerde dimensies maken. 
@@ -54,11 +56,11 @@ U twee op optiesets gebaseerde dimensies maken.
 
 De volgende afbeelding geeft een weergave van de dimensie **Werklocatie van resource**. 
 
-> ![Op optieset gebaseerde prijsdimensie met de naam Werklocatie van resource.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Op optieset gebaseerde prijsdimensie met de naam Werklocatie van resource](media/Option-set-PD-called-Resource-Work-Location.png)
 
 De volgende afbeelding geeft een weergave van de dimensie **Werkuren van resource**. 
 
-> ![Op optieset gebaseerde prijsdimensie met de naam Werkuren van resource.](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Op optieset gebaseerde prijsdimensie met de naam Werkuren van resource](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Ga naar **Instellingen** > **Oplossingen** en dubbelklik op **\<your organization name> prijsdimensies**. 
 2. Selecteer in Oplossingenverkenner in het linkernavigatiedeelvenster de optie **Optiesets**. 
@@ -74,7 +76,4 @@ U kunt gegevens voor op entiteiten gebaseerde dimensies handmatig maken of met b
 4. Sluit de pagina. 
 5. Herhaal stap 1-3 om een andere standaardtitel te maken voor Hoofdsysteemtechnicus.
 
-> ![Voorbeeldgegevens voor de entiteit Standaardtitel.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Voorbeeldgegevens voor de entiteit Standaardtitel](media/ST-data.png)

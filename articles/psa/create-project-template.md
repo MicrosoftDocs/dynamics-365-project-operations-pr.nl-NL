@@ -2,6 +2,8 @@
 title: Een projectsjabloon maken
 description: Informatie over een projectsjabloon maken in Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1423dfedccfdc471662581707b4441c9ed477f7c0811ccf3905af8c59f774f77
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: efc404131208e1c971cb091cf174c1f4707552f0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990850"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149357"
 ---
 # <a name="create-a-project-template-project-service"></a>Een projectsjabloon maken (Project Service)
 
@@ -60,6 +62,3 @@ Projectsjablonen besparen u tijd als uw bedrijf regelmatig op soortgelijke proje
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

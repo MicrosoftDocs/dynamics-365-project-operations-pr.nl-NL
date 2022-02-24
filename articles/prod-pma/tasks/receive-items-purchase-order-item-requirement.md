@@ -2,9 +2,11 @@
 title: Artikelen op inkooporder ontvangen vanuit artikelvereiste
 description: In dit onderwerp wordt uitgelegd hoe u artikelen op een inkooporder kunt ontvangen vanuit een artikelvereiste.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjSalesItemReq, InventItemIdLookupSimple, PurchCreateFromSalesOrder, VendAccountItemLookup, PurchTable, PurchEditLines
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: da5eff576040f20cc206800b4d4ca987d08b0185ec5364bc1efc940f85d36371
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a5b3622458da957ed150311f6ea75d5f1444d5f1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998950"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074731"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Artikelen op inkooporder ontvangen vanuit artikelvereiste
 
@@ -54,6 +56,3 @@ Deze taak maakt gebruik van de USSI-gegevensset.
 21. Typ een waarde in het veld **Productontvangst**.
 22. Selecteer **OK**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

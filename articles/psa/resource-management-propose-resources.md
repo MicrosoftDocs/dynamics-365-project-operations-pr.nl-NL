@@ -2,6 +2,8 @@
 title: Projectresources voorstellen
 description: Dit onderwerp bevat informatie over het voorstellen van projectresources.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995035"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147512"
 ---
 # <a name="propose-project-resources"></a>Projectresources voorstellen
 
@@ -32,21 +34,21 @@ Resourcemanagers kunnen een resource voorstellen aan de projectmanager door midd
 1. Selecteer in het aanvraagraster of in de aanvraag zelf **Resources zoeken**.
 2. Selecteer op de pagina **Planningsassistent** de resource en selecteer vervolgens in het deelvenster **Resourceboeking maken** in het veld **Boekingsstatus** de optie **Boeken**.
 
-    ![Voorgestelde resource geselecteerd.](media/Resource-Management-image62.png)
+    ![Voorgestelde resource geselecteerd](media/Resource-Management-image62.png)
 
 De volgende statusupdates worden uitgevoerd:
 
 - Op de pagina **Planningsassistent** worden de statusindicatoren bijgewerkt om aan te geven dat de boeking wordt voorgesteld en niet hard geboekt is.
 
-    ![Statusindicatoren voor voorgestelde boeking op de pagina Planningsassistent.](media/Resource-Management-image63.png)
+    ![Statusindicatoren voor voorgestelde boeking op de pagina Planningsassistent](media/Resource-Management-image63.png)
 
 - Op de resourceaanvraag wordt de status gewijzigd in **Moet worden geëvalueerd**.
 
-    ![Status van resourceaanvraag wordt gewijzigd in Moet worden geëvalueerd.](media/Resource-Management-image64.png)
+    ![Status van resourceaanvraag wordt gewijzigd in Moet worden geëvalueerd](media/Resource-Management-image64.png)
 
 - Op het tabblad **Team** van het project wordt de **Aanvraagstatus** van het algemene teamlid gewijzigd in **Moet worden geëvalueerd**.
 
-    ![Aanvraagstatus van algemeen teamlid op het tabblad Team gewijzigd in Moet worden geëvalueerd.](media/Resource-Management-image48.png)
+    ![Aanvraagstatus van algemeen teamlid op het tabblad Team gewijzigd in Moet worden geëvalueerd](media/Resource-Management-image48.png)
 
 De projectmanager kan het voorstel accepteren of afwijzen.
 
@@ -70,7 +72,7 @@ De volgende formules worden gebruikt om het gebruik te berekenen:
 
 De weergave **Bestede uren van resource** vindt u in het deelvenster **Resources**.
 
-![Weergave voor resourcesgebruik.](media/Resource-Management-image65.png)
+![Weergave Bestede uren van resource](media/Resource-Management-image65.png)
 
 Elke cel in het raster vertegenwoordigt het het percentage factureerbare uren van de resource in een periode, zoals een dag, week of maand. De volgende formules worden gebruikt voor de kleur van de cellen:
 
@@ -84,7 +86,7 @@ Het raster vereist dat u een doelwaarde voor bestede uren instelt voor de rol of
 
 Daarnaast moet een standaardrol worden toegewezen aan elke boekbare resource. Ga naar **Resources** \> **Resources**. Controleer op het tabblad **Project Service** of een resourerol is gedefinieerd en of het veld **Is standaard** is ingesteld op **Ja**. U kunt extra rollen toevoegen waar **Is standaard = Nee**. De rol waar **Is standaard = Ja**, wordt gebruikt voor het evalueren van de bestede uren van de resource ten opzichte van het doel voor die rol.
 
-![Standaardrol ingesteld.](media/Resource-Management-image67.png)
+![Standaardrol ingesteld](media/Resource-Management-image67.png)
 
 Op het tabblad **Project Service** kunt u ook een afzonderlijk doel voor bestede uren voor de resource instellen. De berekening van de bestede uren gebruikt vervolgens die doelwaarde om te het doel van de resource te evalueren, in plaats van het doel van de standaardrol van de resource.
 
@@ -96,21 +98,18 @@ Het is essentieel dat resourcemanagers de beschikbaarheid van resources kunnen b
 
 Werkuren van een resource worden gebruikt als basis voor het berekenen van de beschikbaarheid van een resource. Resourceboekingen verbruiken de capaciteit van de resources.
 
-![Planbord.](media/Resource-Management-image68.png)
+![Planbord](media/Resource-Management-image68.png)
 
 Het planbord gebruikt kleuren en arcering om boekingen, beschikbaarheid en overboekingen weer te geven, en ook de status van boekingen. Met een instelling in de instellingen van het planbord kunt u een legenda laten weergeven.
 
 Als er naast een individuele boekbare resource op het planbord een pijl naar rechts wordt weergegeven, kan de resource worden uitgevouwen om details weer te geven van het werk waarvoor de resource is geboekt.
 
-![Boekbare resource uitgevouwen op het planbord.](media/Resource-Management-image69.png)
+![Boekbare resource uitgevouwen op het planbord](media/Resource-Management-image69.png)
 
 Omdat Dynamics 365 Project Service Automation de Universal Resource Scheduling-engine gebruikt kunt u, als ook Dynamics 365 Field Service is geïnstalleerd, de details van resourceboekingen weergeven voor projecten, werkorders en andere entiteiten waarnaar u de planning hebt uitgebreid.
 
-![Details van resourceboekingen voor projecten en werkorders.](media/Resource-Management-image70.png)
+![Details van resourceboekingen voor projecten en werkorders](media/Resource-Management-image70.png)
 
 Als u meer details voor een individuele resource wilt weergeven, klikt u er met de rechtermuisknop op om de resourcekaart te openen.
 
-![Resourcekaart.](media/Resource-Management-image71.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Resourcekaart](media/Resource-Management-image71.png)

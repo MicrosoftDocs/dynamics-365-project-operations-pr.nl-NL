@@ -2,17 +2,19 @@
 title: Verkoopprijslijsten voor project overschrijven
 description: Dit onderwerp bevat informatie over het maken van aangepaste verkoopprijslijsten.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009570"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672225"
 ---
 # <a name="override-project-sales-price-lists"></a>Verkoopprijslijsten voor project overschrijven
 
@@ -50,6 +52,3 @@ U kunt elk van deze prijslijsten gebruiken en de prijzen voor arbeid (rolprijs) 
 Bij een projectcontract wordt de projectprijs altijd standaard ingesteld als een aangepaste prijslijst met de naam van het contract en de aangemaakte datum-tijdstempel toegevoegd aan de naam. Dit geldt ongeacht of het contract is gemaakt toen de offerte werd gewonnen of dat het contract helemaal opnieuw is gemaakt. Indien nodig kunt u deze koppeling met de aangepaste prijslijst verwijderen en in plaats daarvan een standaardprijslijst aan het projectcontract koppelen.
 
 Wanneer u een standaardprijslijst koppelt aan de projectprijslijsten in de offerte of het contract, hebben eventuele wijzigingen in de prijzen in de prijslijst invloed op alle offertes en contracten die de prijslijst gebruiken.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

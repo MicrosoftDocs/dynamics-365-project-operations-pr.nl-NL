@@ -2,17 +2,18 @@
 title: Overzicht van factuurverwerking
 description: Dit onderwerp biedt een verwerkingsoverzicht voor facturering in Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
+manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003765"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089226"
 ---
 # <a name="invoicing-process-overview"></a>Overzicht van factuurverwerking
 
@@ -20,7 +21,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Project Operations voor scenario's op basis van resources/niet-voorradige artikelen bieden uitgebreide mogelijkheden die zijn afgestemd op de behoeften van zowel de projectmanager als de debiteurenadministrateur/projectaccountant. Voor het facturatieproces beheert de projectmanager de achterstand in projectfacturering en maakt de debiteurenadministrateur/projectaccountant een conform en nauwkeurig klantgericht factuurdocument.
 
-![Stroomschema voor facturering.](./media/invoicing-flow.png)
+![Stroomschema voor facturering](./media/invoicing-flow.png)
 
 De projectcontractregel definieert de factureringsmethode voor gekoppelde projecttransacties. Wanneer de projectmanager tijd- en onkostentransacties goedkeurt, registreert het systeem de transacties in de entiteit **Werkelijke projectwaarden** en stuurt de informatie naar de module **Projectbeheer en boekhouding** in Dynamics 365 Finance. De projectaccountant beoordeelt en boekt vervolgens de records met behulp van het [Project Operations integratiejournaal](../project-accounting/project-operations-integration-journal.md). Dit journaal bevat belangrijke boekhoudkundige details voor de werkelijke projectcijfers, zoals facturering, btw-groep, btw-groep voor factureringsitems en financiële dimensies.
 
@@ -29,6 +30,3 @@ De projectmanager kan niet-gefactureerde verkooptransacties bekijken met behulp 
 U kunt [handmatig een pro-formafactuur maken](../proforma-invoicing/create-manual-proforma-invoice.md) of een [periodiek proces](../proforma-invoicing/configure-automated-invoice-creation.md) gebruiken. De projectmanager kan [een concept-pro-formafactuur aanpassen](../proforma-invoicing/manage-proforma-invoice.md) indien nodig en deze bevestigen.
 
 De bevestigde pro-formafactuur wordt verstuurd naar de module **Projectbeheer en financiële administratie** in Finance. De projectaccountant maakt het projectfactuurvoorstel op en werkt het bij, en boekt deze en drukt het document vervolgens af. Geboekte projectfacturen worden geregistreerd in het grootboek, evenals de subadministraties voor klanten en projecten.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

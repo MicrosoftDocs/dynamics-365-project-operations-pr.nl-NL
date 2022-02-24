@@ -2,22 +2,24 @@
 title: Teamleden toevoegen vanuit het raster Teamlid
 description: Dit onderwerp bevat informatie over de manier waarop u teamlidresources kunt beheren.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008400"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121527"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Teamleden toevoegen vanuit het raster Teamlid
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Dynamics 365 Project Operations bevat een dashboard voor resourcebeheerders dat een visueel overzicht biedt van de vraag naar resources en het aantal bestede uren van resources in de hele organisatie. U kunt de grafieken op dit dashboard gebruiken om de volgende informatie te visualiseren:
+Dynamics 365 Project Operations bevat een dashboard voor resourcebeheer dat een visueel overzicht biedt van de vraag naar resources en het aantal bestede uren van resources in de hele organisatie. U kunt de grafieken op dit dashboard gebruiken om de volgende informatie te visualiseren:
 
 - **Resourcevraag**: in de grafiek **Actieve resourceaanvragen** worden de resourcesaanvragen weergegeven die zijn ingediend. De resources worden gecombineerd per rol of project.
 - **Niet-ingediende resourcevraag**: in de grafiek **Niet-toegewezen resourcevraag** worden alle resourcevereisten weergegeven waarvoor geen aanvraag is ingediend. Zo krijgen resourcemanagers een beeld van de vraag die nog niet vastligt en waarvoor mogelijk een resourceaanvraag zal worden ingediend.
@@ -198,6 +200,3 @@ Wanneer u tijd op hogere niveaus weergeeft, hebben cellen op het tabblad **Afste
 Als u taaktoewijzingen voor een resource hebt, maar geen boekingen, gaat u naar het formulier **Projecten** en selecteert u op het tabblad **Afstemming** het tekort aan boekingen en selecteert u vervolgens **Boeking uitbreiden**. Het dialoogvenster **Boeking uitbreiden** verschijnt en hierin wordt de boeking weergegeven die nodig is om het tekort van de resource aan te vullen. Daarnaast worden de bestaande boekingen van de resource in alle projecten of andere planbare entiteiten weergegeven. Als u **OK** selecteert om de boeking voor de resource te maken, ongeacht de beschikbaarheid van die resource, kan er overboeking ontstaan.
 
 De projectmanager of resourcemanager kan vervolgens het planbord gebruiken om situaties te beheren waarin een resource boekingen heeft die zijn of haar capaciteit te boven gaan.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
