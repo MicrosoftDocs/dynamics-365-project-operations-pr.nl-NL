@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650043"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274722"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Een prijsdimensie uitschakelen
 
@@ -45,3 +45,6 @@ Dit foutbericht geeft aan dat er prijsrecords zijn die eerder zijn ingesteld voo
 
 
 Wanneer u **Standaardtitel** als prijsdimensie uitschakelt en de prijsengine naar een prijs zoekt, wordt alleen de waarde voor **Organisatie-eenheid** uit de invoercontext gebruikt. Als **Organisatie-eenheid** van de invoercontext “Contoso US” is, is het resultaat niet-deterministisch omdat beide rijen overeenkomen. Om dit scenario bij het maken van **Rolprijs** records te voorkomen, controleert het systeem of de combinatie van dimensies uniek is. Als de dimensie is uitgeschakeld nadat de **Rolprijs** records zijn gemaakt, kan deze beperking worden overtreden. Daarom moet u voordat u een dimensie uitschakelt, alle rijen voor **Rolprijs** en **Opslag voor rolprijs** verwijderen waarvoor die dimensiewaarde is ingevuld.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

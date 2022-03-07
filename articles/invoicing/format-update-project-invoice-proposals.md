@@ -2,18 +2,16 @@
 title: Projectfactuurvoorstellen beheren
 description: Dit onderwerp biedt informatie over het verwerken van klantgerichte facturen met Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
-manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089227"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989905"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projectfactuurvoorstellen beheren
 
@@ -80,7 +78,8 @@ De waarden voor **BTW-groep** en **BTW-groep voor item** worden standaard overge
     - **Klant** zal altijd standaard de BTW-groep voor facturering van de klant zijn.
     - Met **Zoeken** doorzoekt u alle entiteiten in deze lijst en selecteert u de eerste beschikbare waarde. Zoeken begint met de entiteit **Project**, dan de entiteit **Projectcontract** en vervolgens de entiteit **Klant**.
 
-- **BTW-groep voor mijlpaalitem met vaste prijs** wordt gebruikt om de waarde standaard naar het veld **BTW-groep item** over te dragen.
+- **Btw-groep voor mijlpaalartikel met vaste prijs** wordt gebruikt als de standaardwaarde in het veld **Artikel btw-groep** voor de factureringsmijlpaal. De accountant kan deze waarde bekijken en wijzigen op de pagina **Transacties op rekening**. Het systeem gebruikt de waarde van de transactie op rekening bij het maken van een voorstelregel voor een projectfactuur.
+ 
 
 ### <a name="financial-dimensions"></a>Financiële dimensies
 
@@ -132,7 +131,7 @@ De pagina **Factuurvoorstellen opmaken** maakt het mogelijk om aangepaste groepe
 
 Afdrukbeheer gebruikt verschillende rapportbestanden voor afdrukken, opgeven van bestemmingen en het aanpassen van de voettekst voor de factuur. Afdrukbeheer kan worden ingesteld op moduleniveau, maar deze instellingen kunnen worden overschreven voor een specifiek klant-, contract- of factuurvoorstel. Om toegang te krijgen tot deze functie op de pagina **Projectfactuurvoorstel** selecteert u **Afdrukken** > **Afdrukbeheer**.
 
-De instellingen voor afdrukbeheer worden weergegeven als een boomstructuur, waarbij op elk knooppuntniveau de beschikbare documenten worden weergegeven die kunnen worden aangepast. U kunt aangepaste afdrukken toewijzen op module-, klant-, contract- of factuurvoorsteldocumentniveau. Om de originele documentafdruk te wijzigen, vouwt u het gewenste knooppunt uit en selecteert u **Origineel item**. Selecteer in het veld **Rapportindeling** de rapportindeling die voor het afdrukken moet worden gebruikt. U kunt aangepaste rapportindelingen gebruiken met [Raamwerk voor zakelijk documentbeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+De instellingen voor afdrukbeheer worden weergegeven als een boomstructuur, waarbij op elk knooppuntniveau de beschikbare documenten worden weergegeven die kunnen worden aangepast. U kunt aangepaste afdrukken toewijzen op module-, klant-, contract- of factuurvoorsteldocumentniveau. Om de originele documentafdruk te wijzigen, vouwt u het gewenste knooppunt uit en selecteert u **Origineel item**. Selecteer in het veld **Rapportindeling** de rapportindeling die voor het afdrukken moet worden gebruikt. U kunt aangepaste rapportindelingen gebruiken met [Raamwerk voor zakelijk documentbeheer](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Factuurvoorstellen boeken
 
@@ -143,3 +142,6 @@ Schakel om de factuur te bekijken voordat u deze boekt het selectievakje **Boeke
 Naast via de pagina **Factuurvoorstel** kunnen factuurvoorstellen ook worden geboekt door de periodieke taak uit te voeren, **Factuurvoorstellen boeken**. Ga voor deze taak naar **Projectbeheer en boekhouding** > **Periodiek** > **Projectfacturen** > **Factuurvoorstellen boeken**.
 
 Deze pagina toont alle factuurvoorstellen die klaar zijn om geboekt te worden. U kunt het boeken van factuurvoorstellen plannen door **Batch** te selecteren. Stel de **Batchverwerkingsparameter** in op **Ja** en stel de herhaling van batchverwerking in door **Herhaling** te selecteren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

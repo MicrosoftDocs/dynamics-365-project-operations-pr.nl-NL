@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993635"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001470"
 ---
 # <a name="expense-management-mobile-workspace"></a>Mobiele werkruimte voor onkostenbeheer
 
@@ -100,7 +100,7 @@ De mobiele app Dynamics 365 Unified Ops downloaden en installeren:
 5. Nadat u zich hebt aangemeld, worden de beschikbare werkruimten voor uw bedrijf weergegeven. Merk op dat als uw systeembeheerder later een nieuwe werkruimte publiceert, u de lijst met mobiele werkruimten moet vernieuwen.
 
 
-[![Slepen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Slepen om te vernieuwen.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Een betalingsbewijs vastleggen met behulp van de mobiele werkruimte Onkostenbeheer
 

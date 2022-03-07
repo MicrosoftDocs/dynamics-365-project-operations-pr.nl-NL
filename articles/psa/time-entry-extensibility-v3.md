@@ -2,8 +2,6 @@
 title: Wekelijkse tijdinvoer aanpassen
 description: Dit onderwerp bevat informatie over het implementeren van aangepaste bedrijfsregels die de werkwijzen van een organisatie ondersteunen.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149627"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002280"
 ---
 # <a name="customize-weekly-time-entry"></a>Wekelijkse tijdinvoer aanpassen 
 
@@ -132,3 +130,6 @@ U moet validaties van invoegtoepassingen gebruiken voor validaties die meer cont
 
 > [!IMPORTANT] 
 > Op dit moment voorkomt een bekend probleem op de TBX-pagina's dat gebruikers informatie kunnen corrigeren en Gereed selecteren wanneer een update niet kan worden gevalideerd voor een invoegtoepassing. Als tijdelijke oplossing kunt u zakelijke regelvalidaties instellen om deze situatie zoveel mogelijk te voorkomen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

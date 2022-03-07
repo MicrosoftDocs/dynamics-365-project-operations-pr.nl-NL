@@ -2,18 +2,16 @@
 title: Dagvergoedingen
 description: Dit onderwerp geeft informatie over de dagvergoedingsregels die worden gebruikt in Onkostenbeheer.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128502"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986395"
 ---
 # <a name="per-diems"></a>Dagvergoedingen
 
@@ -31,3 +29,6 @@ Een dagvergoeding is een toelage die wordt betaald aan een werknemer die voor zi
     
 ## <a name="submit-expenses-using-per-diem"></a>Onkosten voor dagvergoedingen indienen
 Als u onkosten wilt indienen met dagvergoedingen, gebruikt u de onkostencategorie **Dagvergoeding** wanneer u een onkostendeclaratie maakt. Voer **Dagvergoeding vanaf datum**, **Dagvergoeding tot datum** en **Locatie voor dagvergoeding** in. Het bedrag wordt berekend op basis van de dagtarieven voor de geselecteerde locatie en de maaltijdvergoeding wordt berekend op basis van de tariefniveaus voor dagvergoeding.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

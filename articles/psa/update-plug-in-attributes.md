@@ -2,11 +2,9 @@
 title: Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen
 description: Dit onderwerp bevat informatie over het bijwerken van kenmerken van invoegtoepassingen voor prijsdimensies.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147062"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988780"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Kenmerken van invoegtoepassingen bijwerken om nieuwe prijsdimensies op te nemen
 
@@ -44,27 +42,30 @@ In de volgende stappen wordt het proces van het registreren van de invoegtoepass
 1. Open **PluginRegistrationTool** en maak verbinding met uw online-exemplaar.
 2. Klik op **Zoeken** en zoek de invoegtoepassing om bij te werken.
 
- ![Schermopname van de zoekstructuur](media/PRT-1.png)
+ ![Schermopname van de zoekstructuur.](media/PRT-1.png)
 
 3. Nadat de invoegtoepassing is gevonden, selecteert u deze en klikt u op **Selecteren op hoofdformulier**.
 
 4. Selecteer de stap van de invoegtoepassing, klik met de rechtermuisknop en selecteer **Bijwerken**.
 
- ![Schermopname van de invoegtoepassing dit moet worden bijgewerkt](media/PRT-2.png)
+ ![Schermopname van de invoegtoepassing dit moet worden bijgewerkt.](media/PRT-2.png)
  
 5. Klik in het venster Bijwerken op het beletselteken (**...**) in de filterkenmerken.
 
- ![Schermopname van de configuratiegegevens voor Bestaande stap bijwerken](media/PRT-3.png)
+ ![Schermopname van de configuratiegegevens voor Bestaande stap bijwerken.](media/PRT-3.png)
  
 6. Selecteer de selectievakjes met prijskenmerken.
 
- ![Schermopname met het ingeschakelde selectievakje voor prijskenmerken](media/PRT-4.png)
+ ![Schermopname met het ingeschakelde selectievakje voor prijskenmerken.](media/PRT-4.png)
 
 7. Klik op **OK** om de pagina te sluiten en selecteer vervolgens **Stap bijwerken**.
 
- ![Schermopname met de knop "Stap bijwerken"](media/PRT-5.png)
+ ![Schermopname met de knop "Stap bijwerken".](media/PRT-5.png)
  
 8. Herhaal dit proces voor de tweede invoegtoepassing **PreOperationQuoteLineDetail - update van msdyn_quotelinetransaction**.
 
 9. Sluit het registratiehulpprogramma.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

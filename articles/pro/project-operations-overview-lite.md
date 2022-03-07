@@ -2,24 +2,23 @@
 title: Overzicht van lite-implementatie
 description: Dit onderwerp bevat informatie over de lite-implementatie van Dynamics 365 Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365446"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997375"
 ---
 # <a name="lite-deployment-overview"></a>Overzicht van lite-implementatie
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Het lite-implementatietype van Dynamics 365 Project Operations bevat de volgende voorzieningen voor projectgebaseerde bedrijven:
+Het lite-implementatietype van Dynamics 365 Project Operations biedt de volgende mogelijkheden voor projectgebaseerde bedrijven:
 
 - Projectplanning met Microsoft Project voor het web
 - Multidimensionale prijzen en kostenberekening voor arbeidsmiddelen
@@ -37,3 +36,6 @@ Gebruik dit implementatietype als u Project Operations gaat gebruiken voor de vo
 - Een geïntegreerd systeem dat interne en factureerbare projecten beheert voor planningen en financiële gegevens, van projectverkoop tot facturering.
 - Enterprise Resource Planning (ERP)/financieel boekhoudsysteem van derden om te integreren met Project Operations.
 - Een systeem van derden om te werken met omzetbelastingen, wisselkoersen, onkostenvergoedingen en niet-projectkosten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Vervulling van resources voor geplande resources
 description: Dit onderwerp bevat informatie over geplande resources voor een project.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074735"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989500"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Vervulling van resources voor geplande resources
 
@@ -40,3 +38,6 @@ Een projectmanager kan de vereiste resourcerollen voor een project plannen. De r
 7. Selecteer een werknemer en selecteer vervolgens **Toewijzen**.
 8. Controleer of de regel voor **Softwareontwikkelaar 1** is verwijderd voor het project **XYZ Upgrade-project fase 2**.
 9. Controleer op het tabblad **Projectteam en planning** voor het project **XYZ-upgrade fase 2** of de werknemer die u in de vorige stap hebt geselecteerd, is toegevoegd als **Softwareontwikkelaar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

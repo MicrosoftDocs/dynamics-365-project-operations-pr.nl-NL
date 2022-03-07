@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 0fde833ad6b13fc12b733d1aa9f3bba0cfd95b2b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176470"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273063"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Meerdere klanten in projectgebaseerde prijsopgaveregels beheren - lite
 
@@ -43,3 +43,6 @@ De volgende tabel geeft de velden weer uit de klantrecord van een projectgebasee
 U kunt de percentages voor factureringssplitsing op de regel bewerken. Als de percentages voor factuursplitsing niet in totaal 100% bedragen, treedt er een fout op. Nadat u de percentages voor factuursplitsing hebt bewerkt, vernieuwt u de pagina met de prijsopgaveregel om de fout te verwijderen.
 
 Gebruik de actie voor gelijkmatig verdelen op het subraster met prijsopgaveregelklanten om factureringssplitsingen toe te wijzen aan alle klanten van de prijsopgaveregel. Als er een afrondingsfactor is, wordt die toegevoegd voor de afrondingsklant. Een van de klanten van de prijsopgaveregel wordt altijd getagd als de afrondingsklant, wat betekent dat de afrondingsvlag in de record van de prijsopgaveregelklant is ingesteld op **Ja**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Projectresources boeken door middel van het planbord
 description: Dit onderwerp biedt informatie over de manier waarop u resources kunt boeken.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144407"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998230"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Projectresources boeken door middel van het planbord
 
@@ -36,20 +34,23 @@ Voordat u vanaf het planbord kunt boeken, moet u resourcevereisten maken of gene
 1. Als het deelvenster **Boekingsvereisten** onderaan de pagina is samengevouwen, selecteert u het uitvouwbesturingselement om het uit te vouwen.
 2. Selecteer in het deelvenster **Boekingsvereisten** op het tabblad **Project** de vereiste die u wilt boeken.
 
-    ![Vereiste geselecteerd op het tabblad Project](media/Resource-Management-image73.png)
+    ![Vereiste geselecteerd op het tabblad Project.](media/Resource-Management-image73.png)
 
 3. Selecteer **Beschikbaarheid zoeken** om de te reserveren resources te filteren en de beschikbare resources weer te geven. 
 4. Selecteer een of meer resources op het planbord. 
 5. Voer in het deelvenster **Resourceboeking maken** aan de rechterkant van de pagina de boekingsgegevens in en selecteer **Boeken en afsluiten.**
 
-    ![Deelvenster Resourceboeking maken voor de geselecteerde boekbare resource](media/Resource-Management-image74.png)
+    ![Deelvenster Resourceboeking maken voor de geselecteerde boekbare resource.](media/Resource-Management-image74.png)
 
 6. Terwijl de vereiste is geselecteerd in het deelvenster **Resourceboeking maken**, selecteert u een of meer cellen van een resource om de boeking te maken.
 
-    ![Meerdere cellen geselecteerd voor een resource](media/Resource-Management-image75.png)
+    ![Meerdere cellen geselecteerd voor een resource.](media/Resource-Management-image75.png)
 
 7. Selecteer **Boeken**.
 
 De vereiste wordt vervuld met de geselecteerde resource. In het deelvenster **Reserveringsvereisten** ziet u dat de vereiste is bijgewerkt en de resource wordt weergegeven als geboekt voor het project.
 
-![Resource is geboekt voor het project](media/Resource-Management-image76.png)
+![Resource is geboekt voor het project.](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

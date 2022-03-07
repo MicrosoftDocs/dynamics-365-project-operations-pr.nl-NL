@@ -1,5 +1,5 @@
 ---
-title: Toerekenbare componenten van een projectcontractregel configureren
+title: Toerekenbare onderdelen van een projectgebaseerde contractregel configureren
 description: Dit onderwerp bevat informatie over opgenomen, toerekenbare en niet-toerekenbare onderdelen op contractregels.
 author: rumant
 manager: Annbe
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858332"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128682"
 ---
-# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Toerekenbare componenten van een projectcontractregel configureren
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Toerekenbare onderdelen van een projectgebaseerde contractregel configureren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
@@ -58,6 +58,3 @@ Een schatting of een werkelijke waarde die is gemaakt voor onkosten, wordt allee
 | Geen | Ja | Kan niet worden ingesteld | Niet-toerekenbaar | Facturering voor een werkelijke waarde van tijd: Niet beschikbaar </br>Factureringstype voor een werkelijke waarde van onkosten: Niet-toerekenbaar |
 | Ja | Geen | Toerekenbaar | Kan niet worden ingesteld | Facturering voor een werkelijke waarde van tijd: Toerekenbaar </br>Factureringstype voor een werkelijke waarde van onkosten: Niet beschikbaar |
 | Ja | Geen | Niet-toerekenbaar | Kan niet worden ingesteld | Facturering voor een werkelijke waarde van tijd: Niet-toerekenbaar </br> Factureringstype voor een werkelijke waarde van onkosten: Niet beschikbaar |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

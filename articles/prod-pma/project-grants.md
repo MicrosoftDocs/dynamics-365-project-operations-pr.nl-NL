@@ -2,11 +2,9 @@
 title: Projectsubsidies
 description: In dit onderwerp wordt uitgelegd hoe u een subsidie kunt aanmaken of wijzigen.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8e875ec086ee4c5e2ed3b16adcc6048ac8351ea7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074745"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999575"
 ---
 # <a name="project-grants"></a>Projectsubsidies
 
@@ -79,3 +77,6 @@ U kunt een subsidie aanmaken door alle details in een nieuw record in te voeren,
 2. Selecteer de subsidie die u wilt wijzigen.
 3. Ga naar het actievenster en selecteer op het tabblad **Subsidie** in de groep **Onderhouden** de optie **Bewerken**.
 4. Bekijk de details van de subsidie en breng de nodige wijzigingen aan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

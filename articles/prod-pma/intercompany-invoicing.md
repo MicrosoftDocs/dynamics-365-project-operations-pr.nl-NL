@@ -2,11 +2,9 @@
 title: Intercompany-facturering
 description: Dit artikel bevat informatie over en voorbeelden van intercompany-facturering voor projecten.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270762"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995800"
 ---
 # <a name="intercompany-invoicing"></a>Intercompany-facturering
 
@@ -35,7 +33,7 @@ Uw organisatie heeft mogelijk meerdere divisies, dochterondernemingen en andere 
 
 De volgende afbeelding toont een typisch scenario waarin twee rechtspersonen, SI FR (de lenende rechtspersoon) en SI USA (de uitlenende rechtspersoon) resoources delen om een project voor klant A te leveren. Voor dit scenario is SI FR gecontracteerd om het werk aan klant A te leveren. 
 
-[![Voorbeeld van intercompany-facturering](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Voorbeeld van intercompany-facturering.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Het doel is om kostenbeheersing, omzetverantwoording, belastingen en verrekenprijs voor intercompany-projecttransacties flexibeler en krachtiger te maken. Daarnaast worden de volgende mogelijkheden geboden:
 

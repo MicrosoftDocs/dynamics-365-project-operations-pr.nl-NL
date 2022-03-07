@@ -2,8 +2,6 @@
 title: Schattingen
 description: Dit onderwerp bevat informatie over schattingen in Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151427"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992380"
 ---
 # <a name="estimates"></a>Schattingen
 
@@ -85,24 +83,27 @@ Als u een aangepast veld hebt toegevoegd voor de prijsopgaveregeldetails en de w
 1. Open PluginRegistrationTool en maak verbinding met uw online-exemplaar.
 2. Selecteer **Zoeken** en zoek de invoegtoepassing om bij te werken.
 
-    ![Dialoogvenster Zoekstructuur](media/basic-guide-19.png)
+    ![Dialoogvenster Zoekstructuur.](media/basic-guide-19.png)
 
 3. Selecteer de invoegtoepassing en selecteer vervolgens op de hoofdpagina **Selecteren**.
 4. Selecteer de stap van de invoegtoepassing die moet worden bijgewerkt, klik met de rechtermuisknop en selecteer **Bijwerken**.
 
-    ![Een stap in de invoegtoepassing selecteren](media/basic-guide-20.png)
+    ![Een stap in de invoegtoepassing selecteren.](media/basic-guide-20.png)
 
 5. Selecteer in het dialoogvenster **Bestaande stap bijwerken** in het veld **Filterkenmerken** de ellipsknop (**...**):
  
-    ![Het dialoogvenster Bestaande stap bijwerken](media/basic-guide-21.png)
+    ![Het dialoogvenster Bestaande stap bijwerken.](media/basic-guide-21.png)
 
 6. Schakel in het dialoogvenster **Kenmerken selecteren** selectievakjes voor aangepaste kenmerken in.
 
-    ![Het dialoogvenster Kenmerken selecteren](media/basic-guide-22.png)
+    ![Het dialoogvenster Kenmerken selecteren.](media/basic-guide-22.png)
 
 7. Selecteer **OK** om het dialoogvenster te sluiten en selecteer vervolgens **Stap bijwerken**.
  
-    ![De knop Stap bijwerken](media/basic-guide-23.png)
+    ![De knop Stap bijwerken.](media/basic-guide-23.png)
 
 8. Herhaal stap 1 tot en met 7 voor de tweede invoegtoepassing.
 9. Sluit PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

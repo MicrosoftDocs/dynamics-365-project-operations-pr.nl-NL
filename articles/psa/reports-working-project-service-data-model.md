@@ -2,8 +2,6 @@
 title: Werken met het gegevensmodel van Project Service Automation
 description: Dit onderwerp legt uit hoe u werkt met het gegevensmodel.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147647"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008800"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Werken met het gegevensmodel van Project Service Automation
 
@@ -123,3 +121,6 @@ Wanneer u met de entiteit **Werkelijke waarde** werkt, is het belangrijk dat u b
 In de entiteitsrecords **Transactieoorsprong** wordt de oorsprong van de record **Werkelijke waarde** vastgelegd en in de record **Transactieverbinding** de gerelateerde records voor de record **Werkelijke waarde**. Bovendien bevat de record **Werkelijke waarde** verwijzingen naar het project, het projectcontract (de order), de boekbare resource en de klant.
 
 ![Diagram met transactieverbinding, oorsprong en werkelijke relaties](media/PS-Reporting-image6.png "Diagram met transactieverbinding, oorsprong en werkelijke relaties")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

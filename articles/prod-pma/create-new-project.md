@@ -2,11 +2,9 @@
 title: Een nieuw project maken
 description: Dit onderwerp bevat informatie over het maken van een nieuw project.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270717"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985945"
 ---
 # <a name="create-a-new-project"></a>Een nieuw project maken
 
@@ -53,9 +51,9 @@ U kunt desgewenst ook categorieën aan een resource toewijzen. Het categorietype
 
 Een projectmanager kan de functionaliteit voor het toewijzen van resources aan projecten gebruiken om de rollen te creëren die nodig zijn voor het project. Rollen kunnen worden gebruikt als bevestigde resources nog onbekend zijn bij het reserveren van resources. Rollen kunnen tijdelijk worden gereserveerd als geplande resources, zodat u kunt doorgaan met de projectplanningsfasen.
 
-[![Voorbeeld van een rol](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Voorbeeld van een rol.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenario:** Contoso is ingehuurd om een tijd- en materiaalproject uit te voeren met een goedgekeurd projectcharter. De junior projectmanager is nog bezig met het afronden van het bereik van het project. De resourcemanager identificeert momenteel specifieke resources die zullen worden gereserveerd om aan het nieuwe project te werken. Vanwege de cruciale aard van het project heeft de projectsponsor de senior projectmanager gevraagd een van de rollen op zich te nemen. De resourcemanager moet de nieuwe resource verwerven en de rol in het systeem definiëren voor het geval de junior projectmanager de resourcegegevens nodig heeft tijdens de projectplanning.
+**Scenario:** Contoso is ingehuurd om een tijd- en materiaalproject te voltooien dat een goedgekeurd projectcharter heeft. De junior projectmanager is nog bezig met het afronden van het bereik van het project. De resourcemanager identificeert momenteel specifieke resources die zullen worden gereserveerd om aan het nieuwe project te werken. Vanwege de cruciale aard van het project heeft de projectsponsor de senior projectmanager gevraagd een van de rollen op zich te nemen. De resourcemanager moet de nieuwe resource verwerven en de rol in het systeem definiëren voor het geval de junior projectmanager de resourcegegevens nodig heeft tijdens de projectplanning.
 
 De volgende stappen laten zien hoe de resourcemanager de rol van senior projectmanager kan instellen en hieraan resourcekenmerken kan koppelen. Later kan de rol worden gebruikt om te zoeken naar beschikbare resources die passen bij de vereiste resourcecompetenties.
 

@@ -2,8 +2,6 @@
 title: Projectsjablonen
 description: Dit onderwerp bevat informatie over het gebruik van projectsjablonen om snel projectinstellingen te kunnen configureren.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148052"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002505"
 ---
 # <a name="project-templates"></a>Projectsjablonen 
 
@@ -49,7 +47,7 @@ Er zijn verschillende manieren om een project te maken op basis van een projects
 
 - Wanneer u een project maakt op basis van een prijsopgave, kunt u een projectsjabloon selecteren in het dialoogvenster **Snelle invoer: Project**.
 
-> ![Het dialoogvenster Snelle invoer: Project](media/project-11.png)
+> ![Het dialoogvenster Snelle invoer: Project.](media/project-11.png)
 
 - Wanneer u een project maakt door **Nieuw project** te selecteren, wordt de pagina **Project** weergegeven voordat de record wordt opgeslagen. Selecteer in het veld **Een sjabloon kiezen** een van de vooraf gedefinieerde projectsjablonen in de organisatie.
 - Gebruik **Een project maken op basis van een sjabloon** op de pagina **Sjabloonentiteit**.
@@ -69,3 +67,6 @@ Wanneer u meerdere projectschattingsregels kopieert, worden de prijslijsten bijg
 ### <a name="copying-a-project-team"></a>Een projectteam kopiëren
 
 Wanneer een projectteam van een projectsjabloon naar een project wordt gekopieerd, worden de algemene resources gekopieerd, samen met de vaardigheden en deskundigheden die in de sjabloon zijn gedefinieerd. Algemene resourcetoewijzingen worden ook onderhouden, net zoals in de projectsjabloon. Benoemde resources worden niet ondersteund in projectsjablonen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

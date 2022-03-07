@@ -2,11 +2,9 @@
 title: Microsoft Project Client-integratie
 description: Het plannen en bijhouden van een projectplanning kan complex zijn, dus projectmanagers moeten tools gebruiken die hen helpen bij het beheren van deze taak. Integratie met Microsoft Project Client biedt ondersteuning voor het openen en beheren van een projectstructuur voor werkspecificatie.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074625"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999440"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client-integratie
 
@@ -127,3 +125,6 @@ Volg deze stappen om een nieuwe structuur voor werkspecificatie te maken met Mic
 8.  Selecteer de **agenda** die moet worden gebruikt voor het toewijzen van resources.
 
 11. Klik op **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

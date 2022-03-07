@@ -3,7 +3,7 @@ title: Resourcemanager-handleiding
 description: Een handleiding voor resourcemanagement in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 543be23d95b1b821fcdca628612d03c343fd5b06
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4a26a384dfaf6b974ed35105434152e655ff6444
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147332"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074772"
 ---
 # <a name="resource-manager-guide-project-service"></a>Resourcemanager-handleiding (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

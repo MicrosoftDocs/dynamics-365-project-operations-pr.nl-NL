@@ -2,11 +2,9 @@
 title: Creditcardintegratie instellen
 description: In dit onderwerp wordt uitgelegd hoe u kunt werken met onkostengerelateerde creditcardtransacties.
 author: suvaidya
-manager: AnnBe
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866677"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826250"
 ---
 # <a name="set-up-credit-card-integration"></a>Creditcardintegratie instellen
 
@@ -52,10 +50,18 @@ Selecteer een of meer creditcardtransacties en selecteer vervolgens **Transactie
 
 ## <a name="delete-credit-card-transactions"></a>Creditcardtransacties verwijderen 
 
-Na het importeren van creditcardtransacties moeten bepaalde transacties mogelijk worden verwijderd. Dit kan bijvoorbeeld zo zijn als de transacties duplicaten zijn of omdat de gegevens mogelijk niet correct zijn. Beheerders kunnen de functie **Creditcardtransacties verwijderen** gebruiken om creditcardtransacties te selecteren en verwijderen die **niet zijn gekoppeld** aan een onkostennota. 
+Na het importeren van creditcardtransacties moeten bepaalde transacties mogelijk worden verwijderd. Dit kan zijn omdat de transacties dubbelingen zijn of omdat de gegevens niet nauwkeurig zijn. Beheerders kunnen de functie **Creditcardtransacties verwijderen** gebruiken om creditcardtransacties te selecteren en verwijderen die **niet zijn gekoppeld** aan een onkostennota. 
 
 1. Ga naar **Periodieke taken** > **Creditcardtransacties verwijderen**.
 2. Selecteer **Filter** en geef informatie op om de op te nemen records te identificeren.
 3. Als u de records wilt verwijderen, selecteert u **OK**. 
+
+## <a name="storing-credit-card-numbers"></a>Creditcardnummers opslaan
+
+Er zijn drie opties beschikbaar voor het opslaan van creditcardnummers. Creditcardnummers worden opgeslagen op de pagina **Parameters onkostenbeheer**.
+
+- **Invoer van kaartnummer voorkomen** – Creditcardnummers worden niet opgeslagen.
+- **Hash-kaartnummers (laatste vier cijfers opslaan)** – De laatste vier cijfers van creditcardnummers worden versleuteld opgeslagen.
+- **Kaartnummers opslaan** – Creditcardnummers worden niet-versleuteld opgeslagen. Deze optie voldoet niet aan de PCI DSS (beveiligingsstandaard voor gegevens). Om ervoor te zorgen dat de organisatie blijft voldoen aan de PCI DSS-regelgeving, moeten organisatiebeheerders ervoor kiezen ofwel geen creditcardnummers op te slaan of hash-kaartnummers op te slaan.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

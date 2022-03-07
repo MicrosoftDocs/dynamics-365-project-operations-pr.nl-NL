@@ -1,8 +1,6 @@
 ---
 title: Wat is er nieuw of gewijzigd in Project Service Automation versie 3
 description: Dit onderwerp bevat informatie over wat er nieuw en gewijzigd is in Project Service Automation versie 3.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150662"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987070"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Wat is er nieuw of gewijzigd in Project Service Automation versie 3
 
@@ -38,7 +36,7 @@ Dit onderwerp bevat informatie over de wijzigingen in de gebruikersinterface (UI
 ## <a name="project-scheduling"></a>Projectplanning
 De projectplanning, die bekend stond als de structuur voor Werkspecificatie (WBS) in eerdere versies, heeft de naam planning gekregen en wordt geopend door op het tabblad **Planning** te klikken. 
 
-![Projectplanning](media/psa-schedule-01.png)
+![Projectplanning.](media/psa-schedule-01.png)
 
 De planning heeft nu een nieuwe interface voor interactie, die zowel modern als toegankelijk is. De onderliggende planningsengine voor Project Service Automation is echter niet gewijzigd. Met de bedieningsknoppen in het lint van het planningsraster kunt u op dezelfde manier met de planning werken als in de vorige versie van Project Service Automation. Aanvullende wijzigingen in de planning zijn:
 
@@ -97,22 +95,22 @@ Wanneer u de planning van het bestaande project naar voren verplaatst, gebeurt h
 ## <a name="estimates"></a>Schattingen
 Schattingen zijn opgesplitst in twee tabbladen, **Resourcetoewijzing** en **Schattingen**. Het tabblad **Resourcetoewijzing** bevat de inspanningsschattingen en toont de resourcetoewijzingen voor de taken in een tijdgebonden weergave. U kunt de schattingen bewerken op basis van wat de planningsengine heeft gegenereerd.
 
-![Het tabblad Resourcetoewijzingen met inspanningsschattingen en resourcetoewijzingen voor taken](media/resource-assignments-tab-02.png)
+![Het tabblad Resourcetoewijzingen met inspanningsschattingen en resourcetoewijzingen voor taken.](media/resource-assignments-tab-02.png)
 
 Op het tabblad **Schattingen** worden de kosten en verkoopbedragen voor resourcetoewijzingen weergegeven. De bedragen zijn alleen-lezen. De kostprijsberekening en verkoopprijzen worden nu aangestuurd vanuit de toewijzingen van teamleden in de planning. Dit betekent dat als u een taak zonder toewijzing hebt, de taak wordt weergegeven onder de niet-toegewezen bucket. Dit betekent ook dat zonder **rol**, wat een standaardprijsdimensie is, er geen geschatte kosten of verkopen zijn als u een klant of contract/prijsopgave hebt gekoppeld aan het project. 
 
-![Tabblad Schattingen met de kosten en verkoopbedragen](media/estimates-tab-03.png)
+![Tabblad Schattingen met de kosten en verkoopbedragen.](media/estimates-tab-03.png)
   
 Categorie wordt ook ondersteund voor taken in de planningsweergave. Groeperen op categorie in de tijdgebonden weergave van schattingen zorgt voor een betere ervaring, met name wanneer u ook onkostenschattingen in uw project hebt. Onkostenschattingen worden ingevoerd met behulp van een raster op een afzonderlijk tabblad. 
 
 Onkostenschattingen kunnen worden ingevoerd in het raster op het tabblad **Onkostenschattingen**. 
 
-![Tabblad Onkostenschattingen met raster met onkostenschattingen](media/expense-estimates-tab-04.png)
+![Tabblad Onkostenschattingen met raster met onkostenschattingen.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Resourcebeheer
 Project Service Automation versie 3 heeft een nieuwe Unified Client-UI en wijzigingen in de relatie tussen boekingen en toewijzingen. Daardoor is het toewijzing van personeel aan een project met algemene of echte resources drastisch anders dan in versie 2 en versie 1. De concepten van boekbare resources, zowel **werkelijk** als **algemeen**, blijven echter hetzelfde, net als teamleden, vereisten, toewijzingen en boekingen.   
 
-![Resourcekiezer gebruiken](media/resource-management-05.png)
+![Resourcekiezer gebruiken.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Een echte boekbare resource toewijzen 
 In project Service Automation versie 3 zijn boekingen en taaktoewijzingen niet zo nauw met elkaar verweven als in eerdere versies van Project Service Automation. U kunt het teamraster gebruiken om een **echt** teamlid te boeken, vergelijkbaar met de markt.
@@ -138,7 +136,7 @@ Wanneer een vereiste wordt verwerkt met meerdere resources, blijft de algemene r
 ### <a name="reconciliation"></a>Afstemming
 Het tabblad **Afstemming** geeft boekingen en alle toewijzingen weer voor elk projectteamlid. De weergave geeft de uren weer in cellen die tijdsperioden vertegenwoordigen van maanden tot dagen. In deze weergave kunnen projectmanagers boekingen van teamleden en hun toewijzingen voor hun projectteam afstemmen. Dit is handig omdat boekingen en taaktoewijzingen niet nauw zijn gekoppeld, wat meer flexibiliteit geeft bij het plannen van een project. 
 
-![Het tabblad Afstemming met boekingen en toewijzingen voor projectteamleden](media/resource-reconciliation-tab-06.png)
+![Het tabblad Afstemming met boekingen en toewijzingen voor projectteamleden.](media/resource-reconciliation-tab-06.png)
 
 Voor elke resource neemt de weergave het verschil tussen de boekingen van een teamlid en de totalisatie van hun taaktoewijzingen en worden de volgende twee verschillen weergegeven die kunnen optreden bij boekingen en toewijzingen in een project: 
 
@@ -153,19 +151,19 @@ Deze sectie bevat informatie over de wijzigingen in tijd, onkosten en goedkeurin
 ### <a name="landing-page"></a>Landingspagina
 De niet-uitbreidbare aangepaste tijdsvermelding is afgeschaft in versie 3. In plaats daarvan is er nu een uitbreidbaar en toegankelijk eigen raster. U kunt de functionaliteit voor tijdsvermelding openen via de sitemap aan de linkerkant. Met deze wijziging kunt u niet langer tijd voor één week tegelijk invoeren. In plaats daarvan moet u een tijdsvermelding maken voor elke dag in het raster. Nadat er enkele tijdsvermeldingen zijn gemaakt, kunnen gebruikers bulksgewijs tijdsvermeldingen maken met de functie **Kopiëren** die verderop in dit onderwerp wordt uitgelegd. 
 
-![Landingspagina voor tijdsvermelding](media/time-entry-landing-page-07.png)
+![Landingspagina voor tijdsvermelding.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Nieuwe tijdsvermeldingen maken 
 Klik **op** Nieuw in het lint om een pagina voor het snel maken van tijdsvermeldingen te openen waar u de duur in minuten, uren of dagen invoert. Om dit te doen typt u u, m, of d samen met de hoeveelheid.  
 
-![Snelle invoer van tijdsvermelding](media/quick-create-time-entry-08.png)
+![Snelle invoer van tijdsvermelding.](media/quick-create-time-entry-08.png)
 
 Opzoekvelden worden ondersteund door systeemweergaven. Nadat u bijvoorbeeld projectgegevens hebt ingevoerd, wordt het veld **Projecttaak** standaard ingesteld op de weergave **Mijn projecttaken openen**. Als u tijdsvermeldingen wilt maken voor taken die niet aan de gebruiker zijn toegewezen , klikt u op **Weergave wijzigen** in de zoekopdrachten selecteert u **Alle actieve projecttaken**. Nadat de tijdsvermelding is gemaakt en in het raster wordt weergegeven, kunt u alle regelwaarden rechtstreeks in het raster bewerken.  
 
 ### <a name="bulk-createcopy"></a>Bulksgewijs maken/kopiëren 
 Nadat er enkele tijdvermeldingen zijn gemaakt, kunt u de kopieerfunctionaliteit gebruiken om bulksgewijs extra tijdsvermeldingen te maken. Klik op **Kopiëren** om het dialoogvenster **Kopiëren** te openen. Stel in **Van-periode: begindatum** het datumbereik in vanaf welke tijdsperioden moet worden gekopieerd. Geef in **Tot-periode: begindatum** de datum op waarvoor tijdsvermeldingen moeten worden gemaakt. Klik op **Kopiëren** om de tijdsvermeldingen te kopiëren naar de overeenkomstige dag van de week in **Tot-periode**. De tijdsvermelding van maandag van vorige week wordt bijvoorbeeld gekopieerd naar maandag voor de week die is aangegeven in de **Tot-periode**. 
 
-![Tijdsvermeldingen in bulk kopiëren](media/bulk-copy-time-entry-09.png)
+![Tijdsvermeldingen in bulk kopiëren.](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Gegevens importeren 
 Toewijzingen en uitwisselingen volgen hetzelfde UI-patroon, zodat de gebruiker het datumbereik kan opgeven vanaf het moment dat boekingen moeten worden geïmporteerd. Vervolgens moet u expliciet de boekingen kiezen die moeten worden gekopieerd naar tijdsvermeldingen in **Concept**. In versie 3 kunt u niet meer het patroon van **Voorgestelde** tijdvermeldingen in het raster en de agenda zien.  
@@ -181,7 +179,7 @@ In versie 3 zijn we afgestapt van het aangepaste agendabesturingselement en gebr
 
 **Gegevens vastleggen in aangepaste velden in tijd- en onkostenvermeldingen en doorgeven via entiteiten die de indienings- en de goedkeurings stroom ondersteunen**:d e normale verwerking van tijdsvermeldingen wordt in het volgende diagram weergegeven.
 
-![Proces van verwerkingsstroom voor tijd](media/process-time-entries-10.png)
+![Proces van verwerkingsstroom voor tijd.](media/process-time-entries-10.png)
 
 Als bedrijfsvereisten bepalen dat voor tijd- en onkostenentiteiten aangepaste prijsdimensies moeten worden vastgelegd en dat de waarden die zijn ingesteld door een tijd- en vermeldingsresource in de aangepaste prijsdimensie, moeten worden doorgegeven via alle entiteiten in de vorige afbeelding, raadpleegt u [Aangepaste velden instellen als prijsdimensies](set-up-pricing-dimensions.md).
 
@@ -238,7 +236,7 @@ In versie 1 en 2 werd de toerekenbaarheidsinstelling voor rollen en categorieën
 
 Vanaf versie 3 wordt het instellen van de opties voor toerekenbaarheid per rol- en onkostencategorie uitgevoerd op het niveau van de prijsopgave- of contractregel. De instellingen voor prijzen zijn gescheiden van de instellingen voor toerekenbaarheid. U vindt de tabbladen **Toerekenbare rollen** en **Toerekenbare categorieën** op de pagina's **Prijsopgaveregel** en **Contractregel** zonder dat u de navigatie bovenaan hoeft te gebruiken.
 
-![Toerekenbare rollen](media/chargeable-12.png)
+![Toerekenbare rollen.](media/chargeable-12.png)
  
 De instelling van toerekenbare rollen en toerekenbare categorieën maakt ook gebruik van het standaard bewerkbare rasterbesturingselement. Voor elke rol en categorie blijven de ondersteunde opties voor factureringstype tijdens de prijsopgave- en contractfase ongewijzigd ten opzichte van eerdere versies als **Toerekenbaar** en **Niet-toerekenbaar**. **Gratis** is geen ondersteund type tijdens de prijsopgave- of contractfase. **Gratis** wordt alleen ondersteund bij tijd- of onkostengoedkeuring.  
  
@@ -249,11 +247,14 @@ Vanaf versie 3 is het maken en gebruiken van een aangepaste projectprijslijst vo
   
 De volgende afbeelding is voordat aangepaste prijslijsten zijn gemaakt.
 
-![Voor aangepaste prijslijsten](media/before-custom-price-lists-13.png)
+![Voor aangepaste prijslijsten.](media/before-custom-price-lists-13.png)
 
 De volgende afbeelding is nadat aangepaste prijslijsten zijn gemaakt.
 
-![Na aangepaste prijslijsten](media/after-custom-price-lists-14.png)
+![Na aangepaste prijslijsten.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Er kan een korte vertraging optreden tussen het klikken u op **Aangepaste prijzen maken** en het moment waarop de aangepaste prijslijst wordt gemaakt. We raden u aan het raster te vernieuwen in plaats van meerdere keren te klikken. Er is een aangepaste prijslijst gemaakt als de naam van de bijbehorende prijslijst de naam van de prijsopgave of de naam van het projectcontract bevat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

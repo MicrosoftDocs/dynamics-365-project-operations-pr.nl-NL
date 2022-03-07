@@ -2,12 +2,10 @@
 title: Een prijsdimensie uitschakelen
 description: Dit onderwerp laat zien hoe u prijsdimensies instelt in de Project Service-oplossing.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da0ac942579ba8d9b2258a011b8eeef8e64ba9c9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147287"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014290"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Een prijsdimensie uitschakelen
 
@@ -41,9 +39,12 @@ Dit foutbericht geeft aan dat er prijsrecords zijn die eerder zijn ingesteld voo
 
 | Standaardtitel         | Organisatie-eenheid    |Eenheid   |Prijs  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Systeemtechnicus|Contoso US|Hour| 100|USD|
-| Hoofdsysteemtechnicus|Contoso US|Hour| 150| USD|
+| Systeemtechnicus|Contoso VS|Uur| 100|USD|
+| Hoofdsysteemtechnicus|Contoso VS|Uur| 150| USD|
 
 
 Wanneer u **Standaardtitel** als prijsdimensie uitschakelt en de prijsengine van Project Service naar een prijs zoekt, wordt alleen de waarde voor **Organisatie-eenheid** uit de invoercontext gebruikt. Als **Organisatie-eenheid** van de invoercontext “Contoso US” is, is het resultaat niet-deterministisch omdat beide rijen overeenkomen. Om dit scenario te voorkomen controleert Project Service bij het maken van **Rolprijs** records of de combinatie van dimensies uniek is. Als de dimensie is uitgeschakeld nadat de **Rolprijs** records zijn gemaakt, kan deze beperking worden overtreden. Daarom moet u voordat u een dimensie uitschakelt, alle rijen voor **Rolprijs** en **Opslag voor rolprijs** verwijderen waarvoor die dimensiewaarde is ingevuld.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

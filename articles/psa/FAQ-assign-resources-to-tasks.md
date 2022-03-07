@@ -2,6 +2,8 @@
 title: Een resource toewijzen aan een taak
 description: Dit onderwerp biedt informatie over hoe u resources toewijst aan taken.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a348130ee5760196b2f008ea811e7a81758dd73e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993230"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125127"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Een resource toewijzen aan een taak
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Er zijn drie manieren om een resource aan een taak toe te wijzen in Microsoft Dynamics 365 Project Service Automation.
 
@@ -80,6 +80,3 @@ Resources die op deze manier worden toegewezen, worden zonder boekingen aan het 
 
 3. Selecteer de resource die u aan de taak wilt toewijzen.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

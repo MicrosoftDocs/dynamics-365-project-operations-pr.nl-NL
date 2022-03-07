@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547238"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323860"
 ---
 # <a name="subcontract-lines-for-time"></a>Subcontractregels voor tijd
 
@@ -30,22 +30,23 @@ Voer de volgende stappen uit om een subcontractregel voor tijd te maken in Proje
 
   De volgende tabel bevat informatie over de velden op de pagina's **Subcontractregel** en **Snelle invoer**.
 
-| **Veld** | **Beschrijving** | **Functionele impact** |
-| --- | --- | --- |
-| Meetcriterium | Naam van de subcontractregel om te helpen bij identificatie. | Dit wordt weergegeven als de eerste kolom in alle zoekopdrachten op basis van subcontractregels. |
-| Beschrijving | Een korte beschrijving van services die worden gekocht op de subcontractregel. |Geen |
-| Type lijn |   Dit veld heeft de standaardwaarde **Op hoeveelheid gebaseerd**.| Geen |
-| Factureringsmethode | Dit is een optieset die de twee belangrijkste contractmodellen vertegenwoordigt die worden ondersteund door Project Operations: **Vaste prijs** en **Tijd- en materiaalverbruik**. | Op basis van de geselecteerd factureringsmethode wordt een op mijlpalen gebaseerd factuurschema beschikbaar gesteld voor subcontractregels met de factureringsmethode Vaste prijs. |
-| Transactieklasse | De standaardwaarde is **Tijd**. | Dit geeft aan dat de subcontractregel wordt gebruikt om een aankoop van onderaannemerstijd vast te leggen. |
-| - Rol | Selecteer de rol van de subcontractresources waarvan de tijd wordt ingekocht. | De rol die wordt uitgevoerd door de subcontractresources is bepalend voor de kosten van de aankoop. |
-| Aangevraagd begin | Voer de datum in waarop de resources van de onderaannemer moeten beginnen met werken. | Dit wordt gebruikt om een projectprijslijst te kiezen uit de projectprijslijsten die bij het subcontract zijn gevoegd. De kosten van de rol op de subcontractregel zijn afkomstig uit die prijslijst. |
-| Aangevraagd einde | Voer de datum in waarop de toewijzing van de resource van de onderaannemer eindigt. | Dit wordt gebruikt om waarschuwingen weer te geven wanneer een projectmanager gebruikmaakt van de capaciteit voor resourcevereisten die na deze datum plaatsvinden. |
-| Bestelde hoeveelheid | Voer het aantal uren in van de rol die bij de leverancier wordt aangeschaft. | Dit wordt gebruikt om waarschuwingen weer te geven wanneer een projectmanager te veel gebruikmaakt van deze capaciteit voor resourcevereisten. |
-| Eenhedengroep | De standaardwaarde is **Eenhedengroep Tijd**, die niet kan worden gewijzigd. | Geen|
-| Eenheid | De standaard voor dit veld is de basiseenheid van uren van de **Eenhedengroep Tijd**. U kunt deze waarde wijzigen om elke eenheid van de **eenhedengroep Tijd** te kopen, zoals dag of week. | De combinatie van **Rol** en **Eenheid** wordt standaard gebruikt of berekend voor de eenheidsprijs voor de subcontractregel. |
-| Prijs per eenheid | De standaardprijs per eenheid gebruikt de combinatie van **Rol** en **Eenheid** uit de categorieprijzen die zijn gerelateerd aan de projectprijslijst, die van toepassing is op de gevraagde datum voor **Aangevraagd begin** van de subcontractregel. | Wanneer voor de toepasselijke projectprijslijst de prijs op een andere eenheid is ingesteld dan de eenheid op de subcontractregel, gebruikt het systeem de eenheidsconversie om de prijs per eenheid te berekenen. |
-| Subtotaal |    Dit is een alleen-lezen veld dat wordt berekend als Hoeveelheid x Eenheidsprijs, als zowel de waarde voor de hoeveelheid als de eenheidsprijs wordt ingevoerd. Als de velden voor hoeveelheid en/of eenheidsprijs leeg zijn, kunt u handmatig een waarde invoeren. | Geen|
-| Omzetbelasting |   Voer het bedrag aan omzetbelasting in. |Geen |
-| Totale bedrag | Het totale bedrag van de subcontractregel, inclusief belastingen. Dit veld wordt berekend als Subtotaal + Btw.|Geen |
+| **Veld** | **Beschrijving** |
+| --- | --- |
+| Meetcriterium | De naam van de subcontractregel. |
+| Beschrijving | Een korte beschrijving van services die worden gekocht op de subcontractregel. | 
+| Type lijn | Dit veld is een standaardwaarde.  |
+| Factureringsmethode | Selecteer de factureringsmethode. Op basis van de factureringsmethode van de subcontractregel waarnaar wordt verwezen, wordt een op mijlpalen gebaseerd factuurschema beschikbaar gemaakt voor de factureringsmethode met vaste prijs. |
+| Transactieklasse | Dit veld is een standaardwaarde die aangeeft of de subcontractregel wordt gebruikt om een aankoop van onderaannemerstijd vast te leggen. |
+| - Rol | De rol van de subcontractresources waarvan tijd wordt ingekocht. De rol die aan de subcontractresources is toegewezen, bepaalt de kosten van de inkoop. |
+| Aangevraagd begin | De datum waarop de resources van de onderaannemer moeten beginnen met werken. Het aangevraagde begin wordt gebruikt om een projectprijslijst te kiezen uit de projectprijslijsten die bij het subcontract zijn gevoegd. De kosten van de rol op de subcontractregel zijn dan afkomstig uit die prijslijst. |
+| Aangevraagd eind | De datum waarop de toewijzing van de resources van de onderaannemer eindigt. Deze datum wordt gebruikt om waarschuwingen weer te geven wanneer een projectmanager na deze datum gebruikmaakt van deze capaciteit voor resourcevereisten. |
+| Bestelde hoeveelheid | Het aantal roluren dat wordt ingekocht bij de leverancier. Deze waarde wordt gebruikt om waarschuwingen weer te geven wanneer een projectmanager te veel van deze capaciteit gebruikt voor resourcevereisten. |
+| Eenhedengroep | Deze veldwaarde is standaard ingesteld op de groep Tijdseenheid en kan niet worden gewijzigd.  |
+| Eenheid | Dit veld is standaard ingesteld op de basiseenheid van uren uit de groep Tijdseenheid. U kunt deze waarde wijzigen om elke eenheid van de eenheidsgroep Tijd te kopen, zoals dag of week. De combinatie van rol en eenheid wordt gebruikt om de eenheidsprijs voor de subcontractregel te berekenen. |
+| Prijs per eenheid | De eenheidsprijs wordt standaard ingesteld op basis van de combinatie van rol en eenheid uit de prijslijst die van toepassing is op de gevraagde begindatum van de subcontractregel. Wanneer voor de toepasselijke projectprijslijst de prijs op een andere eenheid is ingesteld dan de eenheid op de subcontractregel, gebruikt het systeem de eenheidsconversie om de prijs per eenheid te berekenen. |
+| Subtotaal | Dit is een alleen-lezen veld dat automatisch wordt berekend als **Aantal x Eenheidsprijs** als zowel het aantal als de eenheidsprijs is ingevoerd. Als de velden voor hoeveelheid en/of eenheidsprijs leeg zijn, kunt u handmatig een waarde invoeren. |
+| Omzetbelasting |  Voer het bedrag aan omzetbelasting in. |
+| Totale bedrag | Het totale bedrag van de subcontractregel, inclusief belastingen. |
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

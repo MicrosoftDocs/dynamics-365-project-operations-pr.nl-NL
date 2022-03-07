@@ -3,10 +3,10 @@ title: Voorgestelde resources beoordelen
 description: Dit onderwerp bevat informatie over hoe u projectresources kunt voorstellen.
 author: ruhercul
 manager: AnnBe
-ms.date: 11/05/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401167"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074531"
 ---
 # <a name="review-proposed-resources"></a>Voorgestelde resources beoordelen
 
@@ -47,6 +47,35 @@ Wanneer resourcemanagers resourceaanvragen verwerken, kunnen ze een van de volge
 - Stel minder resources voor dan nodig is. In dit scenario is de voorgestelde resourcecapaciteit minder dan de vereiste uren die de aanvrager heeft opgegeven. Wanneer de aanvrager de voorgestelde resources accepteert, wordt er daarom een niet-vervulde resourcevereiste gemaakt om de overblijvende vraag vast te leggen.
 - Boek meerdere resources om aan de vraag te voldoen, als er niet één enkele resource beschikbaar is om het werk te voltooien.
 - Boek minder resources dan vereist. In dit scenario zijn de geboekte uren minder dan de vereiste uren. Het systeem begeleidt u bij het voorstellen van resources in plaats van boekingen, zodat de aanvrager de resterende vraag kan controleren en volgen.
+
+## <a name="billable-utilization"></a>Factureerbare uren
+
+Resources kunnen een doelwaarde voor factureerbare bestede uren hebben. Dit doel voor bestede uren is gedefinieerd als een kenmerk voor de standaardrol van een resource, of is ingesteld in de record van de individuele boekbare resource. Berekeningen van bestede uren zijn gebaseerd op de werkelijke uren die resources hebben gerapporteerd door middel van goedgekeurde tijdsvermeldingen.
+
+De volgende formules worden gebruikt om het gebruik te berekenen:
+
+- Factureerbare uren = Factureerbare werkelijke uren ÷ Resourcecapaciteit
+- Niet-factureerbare uren = Werkelijke tijd met factureringstype-ID = Niet-factureerbaar, Complementair of Niet beschikbaar ÷ Resourcecapaciteit
+- Intern = Werkelijke tijd zonder verkoopcontract ÷ Resourcecapaciteit
+- Resourcecapaciteit = Werkuren van resource – Afwezig – Niet-werkdagen
+
+De weergave **Bestede uren van resource** vindt u in het deelvenster **Resources**.
+
+Elke cel in het raster vertegenwoordigt het het percentage factureerbare uren van de resource in een periode, zoals een dag, week of maand. De volgende formules worden gebruikt voor de kleur van de cellen:
+
+- **Groen:** Factureerbare bestede uren \>= doel voor Bestede uren van resource
+- **Geel:** Doel voor bestede uren - 20 \<= Factureerbare bestede uren \< doel voor Bestede uren
+- **Rood:** Factureerbare bestede uren \< doel voor bestede uren – 20
+
+Omdat de weergave **Bestede uren van resource** is gebaseerd op het planbord, kunt u met de filtermogelijkheden van het planbord uw resultaten filteren.
+
+Het raster vereist dat u een doelwaarde voor bestede uren instelt voor de rol of voor de individuele resource. Dit kunt u doen in **Resources** \> **Resourcerollen**.
+
+Daarnaast moet een standaardrol worden toegewezen aan elke boekbare resource. Ga naar **Resources** \> **Resources**. Controleer op het tabblad **Project Service** of een resourerol is gedefinieerd en of het veld **Is standaard** is ingesteld op **Ja**. U kunt extra rollen toevoegen waar **Is standaard = Nee**. De rol waar **Is standaard = Ja**, wordt gebruikt voor het evalueren van de bestede uren van de resource ten opzichte van het doel voor die rol.
+
+Op het tabblad **Project Service** kunt u ook een afzonderlijk doel voor bestede uren voor de resource instellen. De berekening van de bestede uren gebruikt vervolgens die doelwaarde om te het doel van de resource te evalueren, in plaats van het doel van de standaardrol van de resource.
+
+De bestede uren worden alleen voor een resource weergegeven als die resource goedgekeurde, factureerbare tijd heeft in de periode die wordt weergegeven in het raster.
 
 ## <a name="resource-availability"></a>Resourcebeschikbaarheid
 

@@ -2,18 +2,16 @@
 title: Een boekbare resource gebruiken als een prijsdimensie
 description: Dit onderwerp bevat informatie over het gebruik van een boekbare resource als een prijsdimensie.
 author: Rumant
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643077"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996250"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Een boekbare resource gebruiken als een prijsdimensie
 
@@ -66,15 +64,18 @@ De prijsdimensierecord voor **msydn_bookableresource** moet op de hoogte worden 
 1. Dubbelklik op de rij in het raster **Prijsdimensies** om de dimensiepagina van **msdyn_bookableresource** te openen.
 2. Selecteer op de dimensiepagina op het tabblad **Gerelateerd** de optie **Veldnamen voor prijsdimensies**.
 
-  ![Het tabblad Veldnamen voor prijsdimensies](media/PD-fieldname.png)
+  ![Het tabblad Veldnamen voor prijsdimensies.](media/PD-fieldname.png)
 
 3. Selecteer in de gekoppelde weergave die wordt geopend **Veldnaam voor nieuwe prijsdimensie toevoegen**.
 
-  ![Veldnamen voor nieuwe prijsdimensies toevoegen](media/Add-NewPD-fieldname.png)
+  ![Veldnamen voor nieuwe prijsdimensies toevoegen.](media/Add-NewPD-fieldname.png)
 
   Hiermee opent u de pagina **Veldnaam voor nieuwe prijsdimensie** voor **msdyn_bookableresource**. 
 
 4. Op de pagina **Nieuwe veldnaam voor prijsdimensie** voegt u **msdyn_projectteam** toe aan **Logische naam van entiteit**.
 5. Voeg **msdyn_bookableresourceid** toe aan **Veldnaam**.
 
- ![Het formulier Veldnaam voor nieuwe prijsdimensie](media/PD-fieldname-Added.png)
+ ![Het formulier Veldnaam voor nieuwe prijsdimensie.](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

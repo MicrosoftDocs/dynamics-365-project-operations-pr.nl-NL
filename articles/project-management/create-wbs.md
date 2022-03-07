@@ -2,18 +2,16 @@
 title: Een structuur voor werkspecificatie maken
 description: In dit onderwerp wordt uitgelegd hoe u een structuur voor werkspecificatie kunt maken inclusief de basisbesturingselementen in de nieuwe planningsinterface.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841325"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005695"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Een structuur voor werkspecificatie maken
 
@@ -93,6 +91,8 @@ De volgende tabel toont aanvullende planningskenmerken.
 | Meetcriterium | De naam van de taak. |
 | Id | De id van de taak in de structuur voor werkspecificatie. |
 
+Als beheerder kunt u aangepaste velden voor de taakentiteit definiëren. De velden kunnen echter niet worden weergegeven in het planningsraster. Als u uw aangepaste velden wilt zien, voegt u deze toe aan de detailpagina **Projecttaak**.
+
 ## <a name="staffing-attributes"></a>Personeelskenmerken
 
 U hebt toegang tot personeelskenmerken via het veld **Resources** in de planning. U kunt zoeken naar een bestaande resource of **Maken** selecteren en in het deelvenster **Snelle invoer** een projectteamlid toevoegen als een nieuwe resource.
@@ -116,3 +116,6 @@ De taakmodus heeft geen invloed op updates die zijn aangebracht in de begin- en 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Toegankelijkheid en sneltoetsen
 
 Het raster **Planning** is volledig toegankelijk en kan worden gebruikt met schermlezers, zoals Verteller, JAWS of NVDA. U kunt door het rastergebied navigeren met behulp van de pijltoetsen (zoals in Microsoft Excel), u kunt de tab-toets gebruiken om de interactieve elementen van de gebruikersinterface te doorlopen en u kunt de pijl-omlaag, de Enter-toets of de spatiebalk gebruiken om de vervolgkeuzemenu's te selecteren en te openen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

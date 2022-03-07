@@ -2,8 +2,6 @@
 title: Agenda met tijdsvermeldingen
 description: Dit onderwerp bevat informatie over het gebruiken van de agenda met tijdsvermeldingen.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3efa30f017643cbcf7baa72f8ab964091c9e4f28
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150167"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013075"
 ---
 # <a name="time-entry-calendar"></a>Agenda met tijdsvermeldingen
 
@@ -42,3 +40,6 @@ De agenda ondersteunt geen acties voor afzonderlijke agenda-items en u kunt niet
 ## <a name="extensibility"></a>-uitbreidbaarheid
 
 Op de pagina **Tijdsvermeldingen** kunt u in het tijdinvoerraster aangepaste velden toevoegen, opzoekvelden instellen en aangepaste overzichten maken. U kunt ook aangepaste bedrijfslogica instellen die is gebaseerd op de waarden die zijn geselecteerd of ingevoerd in aangepaste velden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

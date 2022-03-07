@@ -2,18 +2,16 @@
 title: Factuurschema's voor projectgebaseerde prijsopgaveregels
 description: Dit onderwerp bevat informatie over het maken van factuurschema's en mijlpalen voor prijsopgaveregels.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180816"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988600"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Factuurschema's voor projectgebaseerde prijsopgaveregels
 
@@ -68,3 +66,6 @@ Open de prijsopgaveregel met de vaste prijs waarvoor u een mijlpaal wilt maken. 
 | Factuurstatus | Snelle invoer | Wanneer een mijlpaal wordt gemaakt, wordt deze status altijd ingesteld op **Niet gereed voor facturering**. | Dit wordt doorgegeven aan de mijlpaal van de projectcontractregel en aan de factuur. |
 | Regelbedrag | Snelle invoer | Bedrag of waarde van de mijlpaal voor facturering aan de klant. | Dit wordt doorgegeven aan de mijlpaal van de projectcontractregel en aan de factuur. |
 | Belastingen | Snelle invoer | Belastingbedrag dat wordt toegepast op de mijlpaal. | Dit wordt doorgegeven aan de mijlpaal van de projectcontractregel en aan de factuur. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074707"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950438"
 ---
 # <a name="project-management-and-accounting-overview"></a>Overzicht van projectmanagement en financiële administratie
 
@@ -205,7 +205,7 @@ U kunt artikelen uit de bedrijfsvoorraad bestellen voor verbruik bij een project
 
 De manier waarop u artikelen bestelt, is afhankelijk van waar u ze bestelt:
 
--   Als u artikelen uit de voorraad van het bedrijf wilt bestellen, moet u de bestelling invoeren als artikelvereiste. Als u de pagina **Artikelvereisten** gebruikt, kunt u de vereiste zo instellen dat u artikelen als deelleveringen ontvangt. Daarom kunt u het verbruik van een aantal artikelen uitstellen totdat de artikelen nodig zijn.
+-   Als u artikelen uit de voorraad van het bedrijf wilt bestellen, moet u de bestelling invoeren als artikelvereiste. Als u de pagina **Artikelvereisten** gebruikt, kunt u de vereiste zo instellen dat u artikelen als deelleveringen ontvangt. Daarom kunt u het verbruik van een aantal artikelen uitstellen totdat de artikelen nodig zijn.
 -   Als u artikelen van een externe leverancier wilt bestellen, moet u de order als inkooporder maken op de pagina **Inkooporder**.
 
 > [!NOTE] 
@@ -227,7 +227,7 @@ Het projecttype bepaalt welke factureringsprocedure moet worden toegepast. Allee
 Voordat u een klantfactuur voor een project maakt, kunt u een voorlopige factuur of factuurvoorstel opstellen. In een factuurvoorstel kunt u projecttransacties selecteren om op een projectfactuur op te nemen. U kunt vervolgens de factuurgegevens bekijken voordat u de projectfactuur boekt en naar de klant of een andere financieringsbron stuurt. 
 
 
-Zie [Projectfacturering](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing) voor meer informatie over het verwerken van projectfacturen.
+Zie [Projectfacturering](/dynamics365/finance/accounts-payable/project-invoicing) voor meer informatie over het verwerken van projectfacturen.
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>De kosten berekenen om een project te voltooien
@@ -300,7 +300,7 @@ Op basis van uw instellingen kunt u prognoses opstellen voor de instroom van kas
 -   **Projectdatum:** 5 maart 2012.
 -   **Factuurdatum:** 31 maart 2012. Deze datum wordt bepaald op basis van factuurfrequentie. Voor dit voorbeeld stelt u de factuurfrequentie in op de huidige maand. Daarom worden alle transacties die in de maand maart worden geboekt, op de laatste dag van de maand gefactureerd.
 -   **Vervaldatum:** 14 april 2012. Deze datum wordt bepaald op basis van de betalingsvoorwaarden die voor het project zijn vastgesteld. Voor dit voorbeeld hebt u een betalingstermijn van 14 dagen geselecteerd. Daarom worden 14 dagen toegevoegd aan de factuurdatum om op een vervaldatum van 14 april 2012 uit te komen.
--   **Verwachte betalingsdatum verkoop:** 27 april 2012. Deze datum wordt berekend door het aantal dagen in het veld **Algemene bufferdagen** op de pagina **Parameters voor Projectmanagement en financiële administratie** toe te voegen aan het aantal dagen in het veld **Individuele bufferdagen** op de pagina **Projectcontracten** en vervolgens het totaal toe te voegen aan het aantal dagen in het veld **Vervaldatum**. In dit voorbeeld hebt u **3** ingevoerd in het veld **Algemene bufferdagen** en **10** in het veld **Individuele bufferdagen**. Daarom worden 13 dagen toegevoegd aan de vervaldatum om op een verwachte betalingsdatum voor verkoop van 27 april 2012 uit te komen.
+-   **Verwachte betalingsdatum verkoop:** 27 april 2012. Deze datum wordt berekend door het aantal dagen in het veld **Algemene bufferdagen** op de pagina **Parameters voor Projectmanagement en financiële administratie** toe te voegen aan het aantal dagen in het veld **Individuele bufferdagen** op de pagina **Projectcontracten** en vervolgens het totaal toe te voegen aan het aantal dagen in het veld **Vervaldatum**. In dit voorbeeld hebt u **3** ingevoerd in het veld **Algemene bufferdagen** en **10** in het veld **Individuele bufferdagen**. Daarom worden 13 dagen toegevoegd aan de vervaldatum om op een verwachte betalingsdatum voor verkoop van 27 april 2012 uit te komen.
 
 De algemene bufferdagen kunnen de individuele bufferdagen vervangen of worden toegevoegd aan de individuele bufferdagen:
 
@@ -440,3 +440,6 @@ Nadat het overzicht is berekend, kunt u de volgende informatie bekijken op de ve
 -   **Verbruik** - Informatie over het verbruik van uren, artikelen, onkosten en salaristransacties.
 -   **Factuur** - Informatie over facturen en facturering op rekening.
 -   **Uurtarief** - De uurtarieven voor uren die naar opbrengsten- en kostenrekeningen worden geboekt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

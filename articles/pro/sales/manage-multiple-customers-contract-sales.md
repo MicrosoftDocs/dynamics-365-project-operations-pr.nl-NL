@@ -2,18 +2,16 @@
 title: Meerdere klanten in projectcontracten beheren - lite
 description: Dit onderwerp bevat informatie over het beheren van meerdere klanten in projectcontracten.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181311"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001740"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Meerdere klanten in projectcontracten beheren - lite
 
@@ -52,3 +50,6 @@ Een contractklant kan worden gemaakt, bijgewerkt of verwijderd uit het tabblad *
 Percentages voor factureringssplitsing kunnen worden bewerkt met de bewerkingsfunctie op de rasterregel. Als de percentages voor factureringssplitsing niet in totaal 100 procent bedragen, krijgt u een foutmelding. Nadat u de percentages voor factureringssplitsing hebt bewerkt, vernieuwt u de pagina om de fout te negeren.
 
 U kunt ook **Gelijkmatig verdelen** selecteren in het subraster **Contractklanten** om factureringssplitsingen gelijkmatig toe te wijzen aan alle contractklanten. Als er een afrondingsfactor is, wordt deze bij de afrondingsklant opgeteld. Een van de contractklanten wordt altijd getagd als **afrondingsklant**, wat betekent dat de afrondingsvlag om het contractklantrecord is ingesteld **Ja**. Dit is doorgaans de primaire klant van het contract, maar het kan ook worden gewijzigd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

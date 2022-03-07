@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: fd7f14ce5f08356e64eda5cd3ae4f9518bb894e0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947963"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149222"
 ---
 # <a name="get-the-apps-project-service"></a>Download de apps (Project Service)
 
@@ -30,12 +30,9 @@ ms.locfileid: "5947963"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Als u de tijd en onkosten op uw mobiele apparaat wilt invoeren, [downloadt en installeert u Dynamics 365 voor telefoons en tablets](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Als u de tijd en onkosten op uw mobiele apparaat wilt invoeren, [downloadt en installeert u Dynamics 365 voor telefoons en tablets](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  U kunt ook de app Project Finder Mobile op uw telefoon gebruiken om een nieuw project te vinden om aan te werken en u ervoor aan te melden. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Uw volgende project zoeken met de app Project Finder Mobile](../psa/find-next-project-finder-mobile-app.md) 
   
 ### <a name="see-also"></a>Zie ook  
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

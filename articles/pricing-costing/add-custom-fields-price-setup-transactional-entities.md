@@ -2,11 +2,9 @@
 title: Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
 description: Dit onderwerp bevat informatie over het toevoegen van vereiste aangepaste-veldverwijzingen aan entiteiten en aan formulieren en weergaven.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: a7268eb33c80f5e35d2ef21a8f4c7ed7ba322e27
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590895"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000565"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
 
@@ -146,3 +144,6 @@ De volgende tabel bevat een uitgebreide lijst met gebruiksklare formulieren en w
 |  Werkelijk|• Informatie<br>• Actieve werkelijke waarden|• Gekoppelde weergave van werkelijke waarden|
 
 Aangepaste velden moeten mogelijk ook worden toegevoegd aan bedrijfsregels, afhankelijk van wat u hebt gedefinieerd. Eén gebruiksklaar voorbeeld is bedoeld voor de bedrijfsregel **Bewerkbaarheid van tijdsvermelding gebaseerd op status**. Deze regel bepaalt welke velden moeten worden vergrendeld wanneer de tijdsvermelding een niet-bewerkbare status heeft, zoals **Goedgekeurd.** Voeg velden aan deze bedrijfsregel toe zodat de velden zijn vergrendeld voor bewerking wanneer de tijdsvermelding een andere status heeft dan **Concept** of **Geretourneerd.**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

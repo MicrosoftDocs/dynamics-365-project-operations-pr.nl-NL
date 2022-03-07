@@ -3,24 +3,21 @@ title: Een nieuwe omgeving inrichten
 description: Dit onderwerp bevat informatie over het inrichten van een nieuwe Project Operations-omgeving.
 author: sigitac
 manager: Annbe
-ms.date: 12/11/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727784"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121167"
 ---
 # <a name="provision-a-new-environment"></a>Een nieuwe omgeving inrichten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dit onderwerp bevat informatie over het inrichten van een nieuwe Dynamics 365 Project Operations-omgeving voor scenario's op basis van resources/niet-voorradige artikelen.
 
@@ -61,15 +58,17 @@ Gebruik de volgende stappen om de geautomatiseerde inrichtingsstroom van Project
 
 ![Toestemming voor implementatie](./media/2DeploymentConsent.png)
 
-7. Optioneel - Pas demogegevens toe op de omgeving. Ga naar **Geavanceerde instellingen**, selecteer **SQL-databaseconfiguratie aanpassen** en stel **Een gegevensset opgeven voor de toepassingsdatabase** in op **Demo**.
-
-8. Vul de overige verplichte velden in de wizard in en bevestig de implementatie. De tijd die nodig is om de omgeving in te richten, is afhankelijk van het omgevingstype. Het inrichten kan tot zes uur duren.
+7. Vul de overige verplichte velden in de wizard in en bevestig de implementatie. Hoe lang het inrichten van de omgeving duurt, is afhankelijk van het type omgeving. Het inrichten kan tot zes uur duren.
 
   Nadat de implementatie met succes is voltooid, wordt de omgeving weergegeven als **Geïmplementeerd**.
 
-9. Selecteer om te bevestigen dat de omgeving met succes is geïmplementeerd **Aanmelden** en meld u aan bij de omgeving om te bevestigen.
+8. Om te bevestigen dat de omgeving is geïmplementeerd selecteert u **Aanmelden** en meldt u zich aan bij de omgeving om te bevestigen.
 
 ![Details van -omgevingen](./media/3EnvironmentDetails.png)
+
+## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Finance-demogegevens van Project Operations toepassen (optionele stap)
+
+Finance-demogegevens van Project Operations toepassen op een Cloud Hosted Environment met servicerelease 10.0.13 zoals beschreven in [dit artikel](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Updates toepassen op de Finance-omgeving
 
@@ -121,7 +120,7 @@ Het onderhouden van de omgeving kan enige tijd duren. Nadat het is voltooid, kee
 
 ![Oplossingen toepassen](./media/13ApplySolutions.png)
 
-5. Selecteer beide oplossingen, **Dynamics 365 Finance and Operations-entiteitstoewijzing voor twee keer wegschrijven** en **Dynamics 365 Project Operations-entiteitstoewijzingen voor twee keer wegschrijven** en selecteer vervolgens **Toepassen**.
+5. Selecteer beide oplossingen, **Entiteitstoewijzing voor twee keer wegschrijven in Dynamics 365 Finance and Operations** en **Entiteitstoewijzingen voor twee keer wegschrijven in Dynamics 365 Project Operations**, en selecteer vervolgens **Toepassen**.
 
 ![Oplossingen bevestigen](./media/14ConfirmSolutions.png)
 
@@ -151,21 +150,6 @@ Het vernieuwen duurt ongeveer 20 minuten. U ontvangt een melding wanneer dit is 
 
 ![Bevestiging vernieuwen](./media/19RefreshConfirmation.png)
 
-## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Beveiligingsinstellingen bijwerken in Project Operations in Dataverse
-
-1. Ga naar Project Operations in uw Dataverse-omgeving. 
-2. Ga naar **Instellingen** > **Beveiliging** > **Beveiligingsrollen**. 
-3. Selecteer op de pagina **Beveiligingsrollen** in de lijst met rollen **Twee keer wegschrijven app-gebruiker** en selecteer het tabblad **Aangepaste entiteiten**.  
-4. Controleer of de rol de machtigingen **Lezen** en **Toevoegen aan** heeft voor:
-      
-      - **Type valutawisselkoers**
-      - **Rekeningschema**
-      - **Fiscale kalender**
-      - **Grootboek**
-
-5. Ga nadat de beveiligingsrol is bijgewerkt naar **Instellingen** > **Beveiliging** > **Teams** en selecteer het standaardteam in de teamweergave **Lokale bedrijfseigenaar**.
-6. Selecteer **Rollen beheren** en controleer of de beveiligingsbevoegdheid **twee keer wegschrijven app-gebruiker** is toegepast op dit team.
-
 ## <a name="run-project-operations-dual-write-maps"></a>Toewijzingen voor twee keer wegschrijven uitvoeren in Project Operations
 
 1. Ga in uw LCS-project naar de pagina **Omgevingsdetails**.
@@ -174,10 +158,9 @@ Het vernieuwen duurt ongeveer 20 minuten. U ontvangt een melding wanneer dit is 
 
 | **Entiteitstoewijzing** | **Entiteit vernieuwen** | **Initiële synchronisatie** | **Model voor initiële synchronisatie** | **Vereisten voor uitvoeren** | **Vereisten voor initiële synchronisatie** |
 | --- | --- | --- | --- | --- | --- |
-| **Rollen voor projectresources voor alle bedrijven (bookableresourcecategories)** | Geen | Ja | Common Data Service | Geen | n.v.t. |
-| **Rechtspersonen (cdm\_companies)** | Geen | Ja | Finance and Operations-apps | Geen | n.v.t. |
-| **Grootboek (msdyn_ledgers)** | Geen | Ja | Finance and Operations-apps | Ja | Ja, Finance and Operations-apps |
-| **Werkelijke waarden voor integratie van Project Operations (msdyn\_actuals)** | Geen | No | n.v.t. | Ja | No |
+| **Rollen voor projectresources voor alle bedrijven (bookableresourcecategories)** | No | Ja | Common Data Service | No | n.v.t. |
+| **Rechtspersonen (cdm\_companies)** | No | Ja | Finance and Operations-apps | No | n.v.t. |
+| **Werkelijke waarden voor integratie van Project Operations (msdyn\_actuals)** | No | No | n.v.t. | Ja | No |
 | **Projectcontractregels (salesorderdetails)** | No | No | n.v.t. | No | No |
 | **Integratie-entiteit voor projecttransactierelaties (msdyn\_transactionconnections)** | No | No | n.v.t. | No | n.v.t. |
 | **Mijlpalen voor de contractregel van Project Operations-integratie (msdyn\_contractlinesscheduleofvalues)** | No | No | n.v.t. | No | n.v.t. |

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 9dc424cf69abfccc10bf551272a14e5cefb3dff0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089226"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275801"
 ---
 # <a name="invoicing-process-overview"></a>Overzicht van factuurverwerking
 
@@ -30,3 +30,6 @@ De projectmanager kan niet-gefactureerde verkooptransacties bekijken met behulp 
 U kunt [handmatig een pro-formafactuur maken](../proforma-invoicing/create-manual-proforma-invoice.md) of een [periodiek proces](../proforma-invoicing/configure-automated-invoice-creation.md) gebruiken. De projectmanager kan [een concept-pro-formafactuur aanpassen](../proforma-invoicing/manage-proforma-invoice.md) indien nodig en deze bevestigen.
 
 De bevestigde pro-formafactuur wordt verstuurd naar de module **Projectbeheer en financiële administratie** in Finance. De projectaccountant maakt het projectfactuurvoorstel op en werkt het bij, en boekt deze en drukt het document vervolgens af. Geboekte projectfacturen worden geregistreerd in het grootboek, evenals de subadministraties voor klanten en projecten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

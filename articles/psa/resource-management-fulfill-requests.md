@@ -2,8 +2,6 @@
 title: Resourcevereisten vervullen
 description: In dit onderwerp wordt uitgelegd hoe u resourcevereisten kunt vervullen.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 858662b62e511f80413e2354832bf2b0bcfc3fc5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147602"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998000"
 ---
 # <a name="fulfilling-resource-requests"></a>Resourceaanvragen vervullen
 
@@ -46,3 +44,6 @@ De Planningsassistent wordt weergegeven en wordt gefilterd op de vereisten. Sele
 > ![Resource geselecteerd](media/Resource-Management-image61.png)
 
 Het algemene teamlid wordt vervangen door de hardgeboekte, benoemde resource op het projectteam en de taaktoewijzingen in de projectplanning.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

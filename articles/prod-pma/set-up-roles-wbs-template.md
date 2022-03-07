@@ -2,11 +2,9 @@
 title: Rollen instellen voor sjablonen voor structuur voor werkspecificatie
 description: Dit onderwerp bevat informatie over het instellen van rolinformatie op sjablonen van structuur voor werkspecificatie.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074544"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008895"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Rollen instellen voor sjablonen voor structuur voor werkspecificatie
 
@@ -91,7 +89,7 @@ Er zijn extra opties toegevoegd in de WBS om de functionaliteit voor het toewijz
 
 4. Stel de datums en inspanning (uren) in, zoals weergegeven in de volgende afbeelding.
 
-    [![De datums en inspanning instellen](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![De datums en inspanning instellen.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Selecteer de taakregel **Initiëren** en selecteer vervolgens in het veld **Rol** de optie **Senior projectmanager**.
 6. Selecteer **Publiceren**.
@@ -107,3 +105,6 @@ Er zijn extra opties toegevoegd in de WBS om de functionaliteit voor het toewijz
     > U ontvangt geen waarschuwing dat de opgegeven resource nu 2 is, omdat het aantal resources 1 blijft.
 
 14. Valideer op de pagina **Structuur voor werkspecificatie** de resourcetoewijzing in de WBS en selecteer vervolgens **Opslaan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

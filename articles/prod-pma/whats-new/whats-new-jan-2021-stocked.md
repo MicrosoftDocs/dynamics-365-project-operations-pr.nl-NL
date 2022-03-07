@@ -2,19 +2,17 @@
 title: Nieuwe of gewijzigde functies in Project Operations, januari 2021 voor scenario's op basis van voorradige artikelen/productieorders
 description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de release van januari 2021 van Project Operations voor scenario's op basis van voorradige artikelen/productieorders.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958642"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992740"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Nieuwe of gewijzigde functies in Project Operations, januari 2021 voor scenario's op basis van voorradige artikelen/productieorders
 
@@ -144,4 +142,7 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 | Reizen en onkosten                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | In Project Operations kan tijd met intercompany-taken in Dataverse niet worden gemaakt of goedgekeurd.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Wijzigingen in regelgeving
-Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

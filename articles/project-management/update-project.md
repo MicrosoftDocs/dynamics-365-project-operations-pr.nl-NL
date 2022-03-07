@@ -2,16 +2,18 @@
 title: Een project bijwerken
 description: In dit onderwerp krijgt u informatie over het bijwerken van projecten in Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5c9cd0c7c6886bd454c5f2ef2ae7f20d1707293f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993365"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074419"
 ---
 # <a name="update-a-project"></a>Een project bijwerken
 
@@ -46,6 +48,3 @@ Hieronder vindt u een overzicht van de velden die kunnen worden bijgewerkt voor 
 - **Algemene projectstatus**: de algehele status van het project die wordt geleverd door de projectmanager.
 - **Opmerkingen**: een beschrijving van de huidige status van het project, geleverd door de projectmanager.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

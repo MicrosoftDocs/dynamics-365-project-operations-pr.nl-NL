@@ -2,18 +2,17 @@
 title: Overzicht van inkomstenverantwoording
 description: Dit onderwerp bevat informatie over inkomstenverantwoording in Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6844f4c5d4cda8a6a901b0302448f70f4c597f5d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.custom: intro-internal
+ms.openlocfilehash: 3d2fcf434a5086595e40f50afc2366eb806168085ae9212b5d25e3e9bd02e2c6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531398"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988645"
 ---
 # <a name="revenue-recognition-overview"></a>Overzicht van inkomstenverantwoording
 
@@ -60,3 +59,6 @@ In Dynamics 365 Project Operations verschillen de principes van inkomstenverantw
 [Omzetschattingen beheren](rev-rec-completed-contract-method.md)
 
 [Kosten om methoden te voltooien](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

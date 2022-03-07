@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006285"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000025"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integratie van projectschattingen en werkelijke waarden
 
@@ -30,7 +30,7 @@ Voor het maken van schattingen is een geldige boekhoudkundige configuratie voor 
 
 Arbeidsschattingen worden gemaakt door de projectmanager of resourcemanager die ook een algemene of benoemde resource aan de projecttaak toewijst. Records voor resourcetoewijzingen kunnen worden bekeken op het tabblad **Resourcetoewijzingen** op de pagina **Projectdetails** in Dataverse. Records voor resourcetoewijzing in Dataverse maken records voor urenprognose in Finance and Operations-apps via **Project Operations-integratie-entiteit voor uurschattingen (msdyn\_resourceassignments)**.
 
-   ![Integratie van schattingen voor arbeid.](./Media/DW4LaborEstimates.png)
+   ![Integratie van schattingen voor arbeid](./Media/DW4LaborEstimates.png)
 
 Twee keer wegschrijven synchroniseert records voor resourcetoewijzing met de opslagtabel (**ProjCDSEstimateHoursImport**) en gebruikt vervolgens bedrijfslogica om records voor urenprognose te maken en bij te werken (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ De projectaccountant beoordeelt de records voor prognose-uren die zijn gemaakt i
 
 Onkostenschattingen worden gemaakt door de projectmanager op het tabblad **Onkostenschattingen** op de pagina **Projectdetails** in Dataverse. Onkostenschattingsrecords worden opgeslagen in de entiteit **Schattingsregel** in Dataverse. Deze schattingsrecords hebben een transactieklasse, **Onkosten**, en worden gesynchroniseerd met uitgavenprognoserecords in Finance and Operations-apps via **Project Operations-integratie-entiteit voor onkostenschattingen (msdyn\_estimatelines)**.
 
-   ![Integratie van schattingen voor onkosten.](./Media/DW4ExpenseEstimates.png)
+   ![Integratie van schattingen voor onkosten](./Media/DW4ExpenseEstimates.png)
 
 Twee keer wegschrijven synchroniseert records voor onkostenschatting met de opslagtabel **ProjCDSEstimateExpenseImport** en gebruikt vervolgens bedrijfslogica om records voor onkostenprognose te maken en bij te werken (**ProjForecastCost**). In schattingregels worden records voor verkoopschatting en kostenschatting afzonderlijk opgeslagen. De bedrijfslogica in Finance and Operations-apps vult één record Onkostenprognose met behulp van dit detail in de opslagtabel.
 
@@ -50,7 +50,7 @@ De projectaccountant kan records voor onkostenprognose beoordelen in Finance and
 
 Materiaalschattingen worden gemaakt door de projectmanager op het tabblad **Materiaalschattingen** op de pagina **Projectdetails** in Dataverse. Materiaalschattingsrecords worden opgeslagen in de entiteit **Schattingsregel** in Dataverse. Deze schattingsrecords hebben de transactieklasse, **Materiaal**, en worden gesynchroniseerd met artikelprognoserecords in Finance and Operations-apps via **Project-integratietabel voor materiaalschattingen (msdyn\_estimatelines)**.
 
-   ![Integratie van schattingen voor materiaal.](./Media/DW4MaterialEstimates.png)
+   ![Integratie van schattingen voor materiaal](./Media/DW4MaterialEstimates.png)
 
 Twee keer wegschrijven synchroniseert records voor materiaalschatting met de opslagtabel **ProjForecastSalesImpor** en gebruikt vervolgens bedrijfslogica om records voor artikelprognose te maken en bij te werken (**ForecastSales**). In schattingregels worden records voor verkoopschatting en kostenschatting afzonderlijk opgeslagen. De bedrijfslogica in Finance and Operations-apps vult één artikelprognoserecord met behulp van dit detail in de opslagtabel.
 
@@ -60,7 +60,7 @@ De projectaccountant kan records voor artikelprognose beoordelen in Finance and 
 
 Werkelijke waarden voor projecten worden gemaakt in Dataverse, gebaseerd op tijd, onkosten, materiaal en factureringsactiviteiten. Alle operationele kenmerken van deze transacties, waaronder hoeveelheid, kostprijs, verkoopprijs en project, worden vastgelegd in deze Dataverse-entiteit. Zie [Werkelijke waarden](../actuals/actuals-overview.md) voor meer informatie. Werkelijke records worden gesynchroniseerd met Finance and Operations-apps met behulp van de tabeltoewijzing voor twee keer wegschrijven **Werkelijke waarden voor Project Operations-integratei (msdyn\_actuals)** voor stroomafwaartse financiële administratie.
 
-   ![Integratie van werkelijke waarden.](./Media/DW4Actuals.png)
+   ![Integratie van werkelijke waarden](./Media/DW4Actuals.png)
 
 De tabeltoewijzing **Werkelijke waarden voor Project Operations-integratie** synchroniseert alle records van de entiteit **Werkelijke waarden** in Dataverse, met het kenmerk **Synchronisatie overslaan (uitsluitend voor intern gebruik)** ingesteld op **Onwaar**. Deze kenmerkwaarde wordt automatisch ingesteld in Dataverse bij het maken van de record. Voorbeelden waarbij dit kenmerk is ingesteld op **Waar** zijn:
 

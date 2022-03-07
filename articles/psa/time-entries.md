@@ -2,8 +2,6 @@
 title: Tijdsvermeldingen maken
 description: Dit onderwerp bevat informatie over het maken van tijdsvermeldingen.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149672"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990400"
 ---
 # <a name="create-time-entries"></a>Tijdsvermeldingen maken
 
@@ -70,3 +68,6 @@ U kunt gegevens importeren uit projectboekingen en -toewijzingen. Wanneer u gege
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Functies voor groeperen op, sorteren, zoeken en filteren
 
 U tijdsvermeldingen groeperen en filteren op de dimensies die in de kolommen zijn opgegeven. Selecteer in het veld **Groeperen op** de dimensie die u wilt gebruiken om tijdsvermeldingen te filteren. U kunt de records met tijdsvermeldingen ook in oplopende of aflopende volgorde sorteren met behulp van de sorteerpijl op de kolomkoppen. Bovendien kunt u items weergeven of verbergen door de knop **Filteren** in de kolomkoppen te selecteren en vervolgens in het **zoekvak** de tekst in te voeren die moet worden gebruikt om tijdsvermeldingen te zoeken op projectnaam, projecttaak, tijdsvermelding of resource.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Projectinstellingen
 description: In dit onderwerp krijgt u informatie over instellingen voor projectbeheer.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148142"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996925"
 ---
 # <a name="project-settings"></a>Projectinstellingen
 
@@ -47,9 +45,9 @@ Als u een projectplanning wilt maken, maakt u een sjabloon voor een projectagend
 
   - Nieuwe weekplanning
   - Werkplanning voor één dag
-  - Vrije tijd
+  - Verlof
 
-> ![Instellingsopties](media/project-13.png)
+> ![Instellingsopties.](media/project-13.png)
 
 4. Selecteer **Nieuwe weekplanning** en stel vervolgens de opties voor deze resourceplanning in. U kunt een terugkerende weekplanning, parameters voor dagelijkse uren, sluitingsdagen van het bedrijf en meer instellen.
 5. Stel het datumbereik in, selecteer **Opslaan** en klik vervolgens op **Sluiten**. 
@@ -68,3 +66,6 @@ Elke organisatie moet deze rollen instellen op de pagina **Actieve resourcecateg
 ## <a name="price-lists"></a>Prijslijsten
 
 Met prijslijsten kunt u kosten en verkoopprijzen voor resourcerollen, onkostencategorieën, producten en andere elementen in een organisatie instellen. Voordat u financiële schattingen instelt voor het werk dat voor een project moet worden geleverd, moet u een achterliggende lijst met kosten en een verkoopprijzen maken. In de parametersectie moet u ook een standaardlijst met kosten en verkoopprijzen instellen die van toepassing is op alle projecten die in de organisatie worden gemaakt. Zorg ervoor dat u op de pagina **Actieve projectparameters** een standaardlijst met kosten en verkoopprijzen instelt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

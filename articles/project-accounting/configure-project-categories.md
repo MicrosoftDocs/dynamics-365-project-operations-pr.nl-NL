@@ -2,18 +2,16 @@
 title: Projectcategorieën configureren
 description: In dit onderwerp krijgt u informatie over het instellen van projectcategorieën.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131922"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997105"
 ---
 # <a name="configure-project-categories"></a>Projectcategorieën configureren
 
@@ -25,11 +23,11 @@ Het volgende diagram illustreert de correlatie tussen transactiecategorieën, ge
 
 Transactiecategorieën vormen de basisgroepering voor projecttransacties. Binnen die groepering bestaat er een verzameling gedeelde categorieën die kunnen worden gedeeld tussen toepassingen en modules. Projectcategorieën zijn het meest gedetailleerde niveau van categorieën. Projectcategorieën hebben specifiek betrekking op rechtspersonen, modules en toepassingen.
 
-![Correlatie tussen transactiecategorieën, gedeelde categorieën en projectcategorieën](media/project-categories.png)
+![Correlatie tussen transactiecategorieën, gedeelde categorieën en projectcategorieën.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Transactiecategorieën
 
-Transactiecategorieën vertegenwoordigen de basisgroepering voor projecttransacties en zijn niet specifiek gerelateerd aan een bedrijf of transactietype. Contoso Robotics gebruikt bijvoorbeeld de transactiecategorieën Ontwerp, Reizen, Installatie en Service om projecttransacties te groeperen.
+Transactiecategorieën vertegenwoordigen de basisgroepering voor projecttransacties en zijn niet specifiek gerelateerd aan een bedrijf of transactietype. Contoso Robotics gebruikt bijvoorbeeld ontwerp-, reis-, installatie- en servicetransactiecategorieën om projecttransacties te groeperen.
 
 Transactiecategorieën worden gedefinieerd in de Project Operations-module. 
 1. Ga naar **Instellingen** \> **Transactiecategorieën** om het formulier te openen. 
@@ -37,7 +35,7 @@ Transactiecategorieën worden gedefinieerd in de Project Operations-module.
 
 ## <a name="shared-categories"></a>Gedeelde categorieën
 
-In Dynamics 365 wordt het concept Gedeelde categorieën gebruikt om onkosten in verschillende toepassingen te categoriseren, zoals Dynamics 365 Finance, Dynamics 365 Supply Chain en Dynamics 365 Project Operations. Voor elke gemaakte transactiecategorie worden in Project Operations automatisch vier gerelateerde gedeelde categorieën gemaakt: Uren, Onkosten, Tarieven en Artikel. U kunt de gedeelde categorieën bekijken en aanpassen door naar **Projectmanagement en financiële administratie** \> **Instellingen** \> **Categorieën** \> **Gedeelde categorieën** te gaan.
+Dynamics 365 gebruikt het concept Gedeelde categorieën om uitgaven in verschillende toepassingen te categoriseren, zoals Dynamics 365 Finance, Dynamics 365 Supply Chain en Dynamics 365 Project Operations. Voor elke gemaakte transactiecategorie worden in Project Operations automatisch vier gerelateerde gedeelde categorieën gemaakt: Uren, Onkosten, Tarieven en Artikel. U kunt de gedeelde categorieën bekijken en aanpassen door naar **Projectmanagement en financiële administratie** \> **Instellingen** \> **Categorieën** \> **Gedeelde categorieën** te gaan.
 
 ## <a name="project-categories"></a>Productcategorieën
 
@@ -53,3 +51,6 @@ Projectcategorieën staan voor het meest gedetailleerde niveau van categorieconf
 Categoriegroepen worden gebruikt om eigenschappen, voornamelijk boekingsprofielen, te delen tussen gerelateerde projectcategorieën. Er moet minimaal één categoriegroep zijn voor elk transactietype en aan elke projectcategorie wordt een groep toegewezen.
 
 De boekingsspecificaties in Project Operations worden gedefinieerd door de profielregels voor projectkosten en -inkomsten, projectcategorieën en categoriegroepen. U kunt categoriegroepen instellen door naar **Projectmanagement en financiële administratie** \> **Instellingen** \> **Categorieën** \> **Categoriegroepen** te gaan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

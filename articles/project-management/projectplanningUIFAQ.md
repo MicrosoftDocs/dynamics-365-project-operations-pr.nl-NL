@@ -2,19 +2,17 @@
 title: Problemen oplossen met het werken in het taakraster
 description: Dit onderwerp biedt informatie over het oplossen van problemen, die nodig is bij het werken in het taakraster.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031531"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213394"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problemen oplossen met het werken in het taakraster 
 
@@ -57,7 +55,7 @@ Project Operations vereist dat een projectparameter verwijst naar het PEX-eindpu
  ![Het veld PEX-eindpunt op de projectparameter](media/projectparameter.png)
 
 1. Voeg het veld **PEX-eindpunt** toe aan de pagina **Projectparameters**.
-2. Werk het veld bij met de volgende waarde: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Werk het veld bij met de volgende waarde: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Verwijder het veld uit de pagina **Projectparameters**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Bevoegdheden voor Project for the Web
@@ -106,3 +104,6 @@ Wanneer een of meer updates worden aangebracht in de structuur voor werkspecific
   - Project Operations-systeem
   - Projectsysteem
   - Twee keer wegschrijven in Project Operations (deze rol is vereist als u het scenario op basis van resource/ niet-voorradige artikelen van project Operations implementeert.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

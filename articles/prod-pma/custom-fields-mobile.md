@@ -2,11 +2,9 @@
 title: Implementeer aangepaste velden voor de mobiele Microsoft Dynamics 365 Project Timesheet-app op iOS en Android
 description: Dit onderwerp biedt algemene patronen voor het gebruik van extensies om aangepaste velden te implementeren.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270987"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005745"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementeer aangepaste velden voor de mobiele Microsoft Dynamics 365 Project Timesheet-app op iOS en Android
 
@@ -155,13 +153,13 @@ Voor velden van het type **Date**, geeft deze eigenschap de datumwaarde van het 
 
 Hieronder ziet u een schermopname van het maken van een urenstaatvermelding in de mobiele app. Het toont de kant-en-klare velden en een aangepast veld in de secite "Tijdinvoer" genaamd "Testtekenreeks" waarvoor al een enum-waarde "Tweede optie" is ingesteld.
 
-![Aangepast veld Testtekenreeks in de app](media/timesheet-entry.jpg)
+![Aangepast veld Testtekenreeks in de app.](media/timesheet-entry.jpg)
 
 
 
 Hieronder ziet u een schermopname van de mobiele app van de gebruiker die een van de enum-opties selecteert die beschikbaar zijn voor het aangepaste veld "Testtekenreeks".  De twee opties zijn "Eerste optie" en "Tweede optie" weergegeven als keuzerondjes. De tweede optie is momenteel geselecteerd.
 
-![Optieknoppen (keuzerondjes) voor het aangepaste veld Testtekenreeks](media/enum-option.jpg)
+![Optieknoppen (keuzerondjes) voor het aangepaste veld Testtekenreeks.](media/enum-option.jpg)
 
 
 
@@ -173,7 +171,7 @@ Merk op dat aangepaste velden geen ondersteunende databaserecords hoeven te hebb
 
 Hieronder wordt een schermopname weergegeven van de toepassingsobjectstructuur in Visual Studio. Het toont een uitbreiding van de tabel TSTimesheetLine met het veld TestLineString toegevoegd als een aangepast veld.
 
-![Regeltekenreeks](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Regeltekenreeks.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Opdrachtenreeks gebruiken voor de methode buildCustomFieldList van de klasse TSTimesheetSettings om een veld weer te geven in de sectie voor urenstaatinvoer
 
@@ -319,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Hieronder ziet u een schermopname van de weergave van een urenstaat in de mobiele app door een gebruiker. De knop "Meer informatie" is geselecteerd in de rechterbovenhoek om de optie "Meer details weergeven" te tonen.  
 
-![Opdracht Meer details weergeven](media/show-more.png)
+![Opdracht Meer details weergeven.](media/show-more.png)
 
 Hieronder ziet u een schermopname van de sectie "Meer" van een urenstaat in de mobiele app. Een aangepast veld met de naam "Benuttingspercentage van deze urenstaat (berekend aangepast veld)" is toegevoegd aan de headersectie van de urenstaat. Een alleen-lezen waarde van "0,667" is ingesteld voor het aangepaste veld.
 
-![Sectie Meer](media/more-section.jpg)
+![Sectie Meer.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>De tabel TSTimesheetTable uitbreiden zodat deze een aangepast veld heeft
 
@@ -416,7 +414,7 @@ De bestaande logica voor urenstaatfunctionaliteit op databaseniveau zal nog stee
 
 Vanuit de projectparameters kunt u kant-en-klare velden alleen-lezen maken of verbergen in de mobiele app. Stel de opties in de sectie **Mobiele urenstaten** in op het tabblad **Urenstaat** van de pagina **Parameters voor Projectmanagement en financiële administratie**.
 
-![Projectparameters](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Projectparameters.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>De activiteiten wijzigen die beschikbaar zijn voor selectie via extensies
 

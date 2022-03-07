@@ -2,8 +2,6 @@
 title: Een projectcontract maken
 description: Informatie over een projectcontract maken in Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e26e5193353d7bbb594f9f31d95c18130d614517
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c5530e746d802cfa00e16206817e7d12accbe5ad0762f1051869f1ca35397222
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150842"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008625"
 ---
 # <a name="create-a-project-contract-project-service"></a>Een projectcontract maken (Project Service)
 
@@ -47,3 +45,6 @@ Nu u de offerte voor het project hebt binnengehaald, is het tijd om een contract
   
 ### <a name="see-also"></a>Zie ook  
  [Accountmanager-handleiding](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

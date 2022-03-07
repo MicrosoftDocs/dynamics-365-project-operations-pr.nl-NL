@@ -2,10 +2,9 @@
 title: Startpagina Rapportage
 description: Dit onderwerp bevat informatie over rapportage in Dynamics 365 Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4e60fc8c3788f4a2997d894e79d0d510d63209dd1570d79f1c43c2814d8ab819
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147692"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998275"
 ---
 # <a name="reporting-home-page"></a>Startpagina Rapportage
 
@@ -31,15 +30,15 @@ ms.locfileid: "5147692"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Met Microsoft Dynamics 365 Project Service Automation kunnen op projecten gebaseerde organisaties de bedrijfsactiviteiten efficiënt beheren. Bij elk project moeten teamleden de verkoopkansen beheren, prijsopgaves beheren en het werk plannen, resources aan de projecten toewijzen, het werk beheren aan de hand van het plan, de facturering voor het werk verzorgen en vervolgens het werk uitvoeren om het project te voltooien. De mogelijkheid om te rapporteren over activiteiten is van essentieel belang voor het bepalen van de status van de organisatie en het nemen van eventuele corrigerende maatregelen die zijn vereist. PSA gebruikt de rapportagemethoden en -technologieën van Microsoft Dynamics 365 voor alle rapportages. Meer informatie over de rapportagemogelijkheden vindt u in [Handleiding voor het schrijven van rapporten voor Dynamics 365 Customer Engagement (on-premises), versie 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Met Microsoft Microsoft Dynamics 365 Project Service Automation kunnen op projecten gebaseerde organisaties hun bedrijfsactiviteiten efficiënt beheren. Bij elk project moeten teamleden de verkoopkansen beheren, prijsopgaves beheren en het werk plannen, resources aan de projecten toewijzen, het werk beheren aan de hand van het plan, de facturering voor het werk verzorgen en vervolgens het werk uitvoeren om het project te voltooien. De mogelijkheid om te rapporteren over activiteiten is van essentieel belang voor het bepalen van de status van de organisatie en het nemen van eventuele corrigerende maatregelen die zijn vereist. PSA gebruikt de rapportagemethoden en -technologieën van Microsoft Dynamics 365 voor alle rapportages. Meer informatie over de rapportagemogelijkheden vindt u in [Handleiding voor het schrijven van rapporten voor Dynamics 365 Customer Engagement (on-premises), versie 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Wizard Rapport
 
-Met de wizard Rapport kunnen ook niet-ontwikkelaars eenvoudige rapporten maken. Omdat de app is gebouwd op een bestaand platform, is de ervaring hetzelfde als de ervaring die wordt beschreven in [Een rapport maken of bewerken met behulp van wizard Rapport](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). U gebruikt echter de specifieke Project Service Automation-entiteiten.
+Met de wizard Rapport kunnen ook niet-ontwikkelaars eenvoudige rapporten maken. Omdat de app is gebouwd op een bestaand platform, is de ervaring hetzelfde als de ervaring die wordt beschreven in [Een rapport maken of bewerken met behulp van wizard Rapport](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). U gebruikt echter de specifieke Project Service Automation-entiteiten.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Aangepaste SQL Server Reporting Services-rapporten
 
-Als uw bedrijf een specifiek rapport vereist dat niet kan worden gemaakt met de wizard Rapport, kunt u een aangepast rapport maken. U moet Microsoft Visual Studio hebben geïnstalleerd, samen met de juiste Microsoft SQL Server Data Tools en Report Authoring Extensions. Zie [Omgeving voor schrijven van rapporten met SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools) voor meer informatie over hulpmiddelen en versies. Zie [Een nieuw rapport maken met SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools) voor informatie over hoe u een aangepast rapport maakt.
+Als uw bedrijf een specifiek rapport vereist dat niet kan worden gemaakt met de wizard Rapport, kunt u een aangepast rapport maken. U moet Microsoft Visual Studio hebben geïnstalleerd, samen met de juiste Microsoft SQL Server Data Tools en Report Authoring Extensions. Zie [Omgeving voor schrijven van rapporten met SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools) voor meer informatie over hulpmiddelen en versies. Zie [Een nieuw rapport maken met SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools) voor informatie over hoe u een aangepast rapport maakt.
 
 ## <a name="power-bi-insights-apps"></a>Power BI Insights-apps
 
@@ -52,3 +51,6 @@ Zie de volgende onderwerpen voor meer informatie over rapporteren in PSA:
 - [Werken met het Project Service-gegevensmodel](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

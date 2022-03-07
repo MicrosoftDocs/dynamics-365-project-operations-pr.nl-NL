@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270627"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074589"
 ---
 # <a name="manage-resource-competencies"></a>Resourcecompetenties beheren
 
@@ -53,6 +53,3 @@ Als u competenties voor een werknemer wilt instellen, kunt u de lijstpagina **We
 5. Selecteer in het veld **Niveaudatum** de optie **14-01-2014**.
 6. Voer in het veld **Jaren ervaring** de waarde **10** in.
 7. Selecteer **Opslaan** en sluit vervolgens de pagina.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,22 @@
 title: De integratie van Project Operations per rechtspersoon configureren
 description: Dit onderwerp bevat informatie over het instellen van de integratie per rechtspersoon in Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122877"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999400"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>De integratie van Project Operations per rechtspersoon configureren 
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Dit onderwerp leidt u door de stappen die nodig zijn om Dynamics 365 Project Operations per rechtspersoon te configureren.
+Dit onderwerp leidt u door de stappen die nodig zijn om Dynamics 365 Project Operations te configureren per rechtspersoon.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Functietoetsen in Dynamics 365 Finance inschakelen
 
@@ -51,3 +49,6 @@ Elke rechtspersoon die Project Operations gebruikt in Dynamics 365 Customer Enga
   - **Standaardwaarden voor factureringstype**: Project Operations gebruikt een vaste set standaardinstellingen voor factureringstypes die moeten worden toegewezen aan regeleigenschappen in Finance. Maak een record voor elk factureringstype: **Niet gespecificeerd**, **Toerekenbaar**, **Niet-toerekenbaar**, **Gratis** en **Niet beschikbaar**.
   - **Standaardinstellingen projectcategorie**: selecteer de standaardprojectcategorieën die voor elk transactietype moeten worden gebruikt. Deze standaardinstellingen worden gebruikt in **Integratiejournaal in Project Operations** en in schattingen waar geen transactiecategorie is gespecificeerd voor de werkelijke projectwaarden.
   - **Prognoses**: selecteer het prognosemodel dat moet worden gebruikt voor schattingen van tijd en onkosten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

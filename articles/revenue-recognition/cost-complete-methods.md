@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 837cb3abe33e6e74087b8aae8b072bf4a21dc933
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531400"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279042"
 ---
 # <a name="cost-to-complete-methods"></a>Kosten om methoden te voltooien
 
@@ -30,3 +30,6 @@ Wanneer u een schatting maakt voor een project, op de pagina **Schatting maken**
 | Zoals eerdere schatting         | Hier worden dezelfde schattingsmethoden gebruikt als in de vorige periode. Deze methode vereist een prognosemodel als de vorige periode een prognosemodel vereiste.                                                                                                                                                                                                                                                                                                                           |
 | Kosten tot voltooiing instellen op nul | Deze methode wordt doorgaans gebruikt voordat het schattingsproject wordt geëlimineerd. De totale schattingen worden vergeleken met geboekte werkelijke transacties en de kolom **Kosten om te voltooien** wordt gewist. Na voltooiing is het resultaat altijd 100 procent. Voor elke kostenregel die u maakt, wordt het selectievakje **Prognoses** is uitgeschakeld en wordt de totale schatting gekopieerd uit de vorige kostenraming. Het werkelijke verbruik voor de geschatte periode wordt afgetrokken van de kosten om het project te voltooien.              |
 | Vanuit kostensjabloon           | De methode voor kosten tot voltooiing die is ingesteld in de kostensjabloon die is gekoppeld aan het geselecteerde schattingsproject.                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

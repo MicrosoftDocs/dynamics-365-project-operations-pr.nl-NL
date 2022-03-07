@@ -2,18 +2,16 @@
 title: Een resourcevereiste bewerken
 description: In dit onderwerp wordt uitgelegd hoe u gegevens voor resourcevereisten kunt bijwerken.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 12d14167d5dcb9b43dee854981c551c6e5b734ee
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128772"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013975"
 ---
 # <a name="edit-a-resource-requirement"></a>Een resourcevereiste bewerken
 
@@ -37,3 +35,5 @@ Voer als projectmanager de volgende stappen uit om de resourcevereiste van een t
 ## <a name="edit-resource-assignment-contours"></a>De contouren van de resourcetoewijzing bewerken
 
 Naast het bewerken van de details van de resourcevereisten, kan een projectmanager de individuele contouren van de resourcevereisten bijwerken met de functionaliteit **Patroon opgeven**. Wanneer **Patroon opgeven** wordt geselecteerd, wordt een pagina geopend en kunt u contouren bekijken op de tijdschaal van de dag, week of maand. Elke contour kan worden aangepast voor starttijd, eindtijd en totale inspanning in een bepaalde periode.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

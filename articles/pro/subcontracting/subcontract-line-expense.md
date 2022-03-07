@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
-ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
+ms.openlocfilehash: 9e8e7bb66063dab6db1ac8da1753913aee0ef3fc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "7506093"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323815"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Subcontractregels voor onkostencategorieën
 
@@ -29,23 +29,23 @@ Voer de volgende stappen uit om een subcontractregel voor onkostencategorieën t
 
 De volgende tabel bevat informatie over de velden op de pagina's **Subcontractregel** en **Snelle invoer**.
 
-| **Veld** | **Beschrijving** | **Functionele impact** |
-| --- | --- | --- |
-| Meetcriterium | Naam van de subcontractregel om te helpen bij identificatie. | Dit wordt weergegeven als de eerste kolom in alle zoekopdrachten op basis van subcontractregels. |
-| Beschrijving | Een korte beschrijving van de onkostencategorieën die via de subcontractregel worden ingekocht. | Geen |
-|Type lijn | Dit veld heeft **Op hoeveelheid gebaseerd** als standaardwaarde. |Geen |
-| Factureringsmethode | Dit is een optieset die de twee belangrijkste contractmodellen vertegenwoordigt die worden ondersteund door Project Operations: **Vaste prijs** en **Tijd- en materiaalverbruik**. | Er wordt een op mijlpalen gebaseerd factuurschema beschikbaar gesteld voor subcontractregels als de factureringsmethode Vaste prijs is geselecteerd. |
-| Transactieklasse | Dit veld heeft **Tijd** als standaardwaarde. Als u subcontractregels wilt maken voor het aankopen van producten, stelt u het veld **Transactieklasse** in op **Onkosten**.  | Dit geeft aan dat de subcontractregel wordt gebruikt om de inkoop vast te leggen van een onkostencategorie die voor projecten wordt gebruikt. |
-| Transactiecategorie | Toont een lijst met actieve transactiecategorieën in het systeem. |Geen |
-| Aangevraagd begin | Voer de datum in waarop de inkoopcategorieën beschikbaar moeten zijn bij de leverancier. | Aangevraagd begin wordt gebruikt om een projectprijslijst te kiezen uit de projectprijslijsten die bij het subcontract zijn gevoegd. De kosten van de categorie op de subcontractregel zijn afkomstig uit die prijslijst. |
-| Aangevraagd einde | Voer de datum in waarop de aankoopcategorieën niet langer nodig zijn. | Dit wordt gebruikt om waarschuwingen weer te geven wanneer een projectmanager deze subcontractregel aan specifieke onkostenramingen voor het project koppelt die na deze datum vereist zijn. |
-| Bestelde hoeveelheid | Hoeveelheid van de categorie die wordt aangeschaft bij de leverancier. | Dit wordt gebruikt om waarschuwingen weer te geven wanneer een projectmanager een te grote hoeveelheid aanschaft.|
-| Eenhedengroep | De standaardwaarde is gebaseerd op de standaardeenhedengroep die is ingesteld voor de geselecteerde categorie. |Geen |
-| Eenheid | De standaardwaarde is gebaseerd op de standaardeenheid die is ingesteld voor de geselecteerde categorie.  | De combinatie van **Categorie** en **Eenheid** wordt standaard gebruikt of berekend voor de eenheidsprijs voor de subcontractregel.  |
-| Prijs per eenheid | De standaardwaarde gebruikt de combinatie van **Categorie** en **Eenheid** uit de categorieprijzen die zijn gerelateerd aan de projectprijslijst, die van toepassing is op de gevraagde begindatum van de subcontractregel. |Geen |
-| Subtotaal | Dit is een alleen-lezen veld dat wordt berekend als hoeveelheid X Eenheidsprijs, als zowel de waarde voor de hoeveelheid als de eenheidsprijs wordt ingevoerd. Als een of beide velden leeg zijn, kunt u een waarde in dit veld invoeren. |Geen |
-| Omzetbelasting | Voer het bedrag aan omzetbelasting in. |Geen |
-| Totale bedrag | Het totale bedrag van de subcontractregel, inclusief belastingen. Dit veld wordt berekend als Subtotaal + Btw. |Geen |
+| **Veld** |  **Beschrijving** |
+| ----------| ---------------- |
+| Meetcriterium | De naam van de subcontractregel. |
+| Beschrijving | Een korte beschrijving van de service of onkostencategorieën die worden gekocht op de subcontractregel. |
+| Type lijn | Dit veld heeft de standaardwaarde **Op hoeveelheid gebaseerd**.  |
+| Factureringsmethode | De factureringsmethode van de subcontractregel. Op basis van de factureringsmethode van de regel wordt een op mijlpalen gebaseerd factuurschema beschikbaar gemaakt voor de factureringsmethode met vaste prijs.  |
+| Transactieklasse | Dit veld heeft als standaardwaarde **Tijd**. Om subcontractregels voor het aankopen van producten te maken, stelt u het veld **Transactieklasse** in op **Onkosten**. Deze veldwaarde geeft aan dat de subcontractregel wordt gebruikt om een aankoop van een categorie producten of services voor projecten vast te leggen. |
+| Transactiecategorie | Selecteer de transactiecategorie. |
+| Aangevraagd begin | De datum waarop de inkoopcategorieën beschikbaar moeten zijn van de leverancier. Het aangevraagde begin wordt gebruikt om een projectprijslijst te kiezen uit de projectprijslijsten die bij het subcontract zijn gevoegd. De kosten van de categorie op de subcontractregel zijn afkomstig uit die prijslijst. |
+| Aangevraagd eind | De datum waarop de aankoopcategorieën niet meer nodig zijn. Deze datum roept een waarschuwing op wanneer een projectmanager deze subcontractregel koppelt aan specifieke onkostenramingen voor de projecten die na deze datum zijn gedateerd. |
+| Bestelde hoeveelheid | De hoeveelheid van de categorie die van de leverancier wordt gekocht. Als een projectmanager te veel van de gekochte hoeveelheid gebruikt, volgt er een waarschuwing.  |
+| Eenhedengroep | Deze veldwaarde wordt standaard gebaseerd op de standaardeenheidsgroep die is ingesteld voor de geselecteerde categorie. |
+| Eenheid | Deze veldwaarde wordt standaard gebaseerd op de standaardeenheid die is ingesteld voor de geselecteerde categorie. De combinatie van categorie en eenheid wordt gebruikt om de eenheidsprijs voor de subcontractregel te berekenen. |
+| Prijs per eenheid | De eenheidsprijs wordt standaard ingesteld op basis van de combinatie van categorie en eenheid uit de categorieprijzen gerelateerd aan de projectprijslijst die van toepassing is op het gevraagde begin van de subcontractregel.  |
+| Subtotaal | Dit alleen-lezen veld wordt automatisch berekend als de eenheidsprijs voor hoeveeheid als zowel het aantal als de eenheidsprijs is ingevoerd. Als een of beide velden leeg zijn, kunt u handmatig een waarde invoeren in dit veld.  |
+| Omzetbelasting | Voer het bedrag aan omzetbelasting in.  |
+| Totale bedrag | Het totale bedrag van de subcontractregel, inclusief belastingen. Dit veld wordt berekend als subtotaal + btw.  |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181175"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274407"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Factureringstarieven voor arbeid instellen - lite
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Elke prijslijst heeft een reeks rolprijzen of loonkosten die gelden voor de context en vanaf de ingangsdatum die is opgenomen in de prijslijstkop. Factuurtarieven voor tijd in Dynamics 365 Project Operations kunnen in slechts één valuta worden ingesteld, namelijk de valuta in de prijslijstkop.
+Elke prijslijst heeft een reeks rolprijzen of loonkosten die gelden voor de context en vanaf de ingangsdatum die is opgenomen in de prijslijstkop. Factureringstarieven voor tijd in Dynamics 365 Project Operations kunnen worden ingesteld in slechts één valuta, namelijk de valuta in de kop Prijslijst.
 
 1. Voor het instellen van factuurtarieven voor arbeid voor een verkoopprijslijst, maakt u een prijslijst op basis van de prijslijstkop. 
 2. Selecteer op het tabblad **Rolprijzen** in het subraster **+Nieuwe rolprijs**. 
@@ -55,3 +55,6 @@ Voor een ontwikkelaar van Fabrikam India die aan een Amerikaans project werkt, w
     | Developer | Fabrikam US | $150 |
 
 3. Voeg de verkoopprijslijst **Fabrikam Amerikaanse factureringstarieven** toe aan de projectprijslijst van het projectcontract of aan een bepaald account.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

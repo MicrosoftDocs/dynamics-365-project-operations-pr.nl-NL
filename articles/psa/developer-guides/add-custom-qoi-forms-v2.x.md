@@ -2,12 +2,10 @@
 title: Nieuwe aangepaste-entiteitformulieren toevoegen (Project Service Automation 2.x)
 description: Dit onderwerp bevat informatie over het toevoegen van aangepaste-entiteitformulieren voor verkoopkansen, prijsopgaven, orders of facturen in Dynamics 365 Project Service Automation 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995215"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Nieuwe aangepaste-entiteitformulieren toevoegen (Project Service Automation 2.x)
 
@@ -59,7 +57,7 @@ Volg deze stappen om een aangepaste versie van het formulier **Projectgegevens**
     - Exporteer het formulier **Mijn projectgegevens** als onderdeel van een onbeheerde oplossing en zoek de waarde **formId** op in het bestand customization.xml van de geëxporteerde oplossing.
     - Open het formulier **Mijn projectgegevens** in de formuliereneditor en zoek vervolgens naar de GUID (Globally Unique Identifier) naast de parameter **fromId** in de URL, zoals wordt weergegeven in de volgende afbeelding.
 
-    ![De waarde formId van het nieuwe formulier in de URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![De waarde formId van het nieuwe formulier in de URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Maak een toewijzing van **msdyn\_ordertype** voor de waarde **formId** door de webresource msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js te bewerken. Verwijder de code uit de resource en vervang deze door de volgende code.
 
@@ -96,3 +94,6 @@ Volg deze stappen om een aangepaste versie van het formulier **Projectgegevens**
     ```
 
 6. Sla de aanpassingen op en publiceer deze.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

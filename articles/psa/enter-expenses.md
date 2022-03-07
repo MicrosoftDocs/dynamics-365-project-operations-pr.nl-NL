@@ -2,8 +2,6 @@
 title: Onkosten invoeren
 description: Informatie over onkosten invoeren in Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a32bc6b8687dfac941dde9944c6e6b4fd8f723f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: faa6f44e184af016227fcd9fec5d7dae15bd250f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148502"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007675"
 ---
 # <a name="enter-expenses-project-service"></a>Onkosten invoeren (Project Service)
 
@@ -59,3 +57,6 @@ Voer in ieder uw - uren op in weekblad-of de frequentie wordt aangevraagd door d
   
 ### <a name="see-also"></a>Zie ook  
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

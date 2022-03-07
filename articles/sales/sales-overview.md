@@ -2,24 +2,22 @@
 title: Overzicht van verkoopproces
 description: Dit onderwerp geeft informatie over standaardverkoopprocessen.
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: a03cb4949cafdf0754a89435542f616c41d65a5f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177595"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996021"
 ---
 # <a name="sales-process-overview"></a>Overzicht van verkoopproces
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-De verkoopprocessen die worden gebruikt in een projectgebaseerde organisatie verschillen van de verkoopprocessen die worden gebruikt in een productgebaseerde organisatie. Dit verschil treedt op omdat de verkoopcycli voor projectgebaseerde organisaties langer zijn en aangepaste schattingstechnieken vereisen voor het analyseren en maken van prijsopgaven voor elke deal. Dynamics 365 Project Operations maakt gebruik van een aantal van de volgende functies die in een verkoopproces worden gebruikt:
+De verkoopprocessen die worden gebruikt in een projectgebaseerde organisatie verschillen van de verkoopprocessen die worden gebruikt in een productgebaseerde organisatie. Dit verschil treedt op omdat de verkoopcycli voor projectgebaseerde organisaties langer zijn en aangepaste schattingstechnieken vereisen voor het analyseren en maken van prijsopgaven voor elke deal. Dynamics 365 Project Operations gebruikt enkele van de volgende functies die worden gebruikt in een verkoopproces:
 
 - Een leadrecord wordt gebruikt om het verkoopproces bij te houden.
 - Kwalificerende potentiële klanten worden bijgehouden als verkoopkansen.
@@ -63,3 +61,6 @@ In Project Operations kunt u aangebrachte revisies in een prijsopgave niet bijho
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Opmerkingen en goedkeuringen van prijsopgaven en projectcontracten bijhouden
 U kunt de beoordeling en goedkeuring van prijsopgaven en projectcontracten beheren met behulp van het recordprikbord en berichten. Uw organisatie kan aangepaste werkstromen en invoegtoepassingen maken voor het toewijzen, omleiden, escaleren en beheren van meldingen over de revisie en de goedkeuring van werkitems.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

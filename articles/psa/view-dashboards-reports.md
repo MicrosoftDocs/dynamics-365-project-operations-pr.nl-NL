@@ -2,8 +2,6 @@
 title: Dashboards en rapporten weergeven
 description: Informatie over dashboards en rapporten weergeven in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efc03adf2bad942386731a6189828802aa468d42
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: de1c83730b9c45f6a38e4bd4538b6f9cb5cee44f701db0bd395069cf8336d080
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144092"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987115"
 ---
 # <a name="view-dashboards-and-reports-project-service"></a>Dashboards en rapporten weergeven (Project Service)
 
@@ -49,3 +47,6 @@ Dashboards en rapporten geven u inzicht in de status van uw bedrijf. Het Practic
   
 ### <a name="see-also"></a>Zie ook  
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

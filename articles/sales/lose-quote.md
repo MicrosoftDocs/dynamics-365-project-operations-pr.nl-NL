@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181806"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074441"
 ---
 # <a name="copy-project-based-quotes"></a>Projectgebaseerde prijsopgaven kopiëren
 
@@ -25,7 +25,7 @@ U kunt eenvoudig een nieuwe projectprijsopgave maken door een bestaande te kopi�
 
 Hierdoor wordt een dialoogvenster geopend waar u de parameters van de kopie kunt invoeren. De volgende tabel beschrijft de velden in het dialoogvenster. Afhankelijk van de waarden die u selecteert, kan het kopieerproces veranderen.
 
-| **Veld** | **Beschrijving** | **Downstreamimpact** |
+| **Veld** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
 | --- | --- | --- |
 | Onderwerp | Voer het relevante onderwerp of naam van de doelprijsopgave in. Wanneer het dialoogvenster wordt geopend, bevatten de instellingen het onderwerp van de bronprijsopgave met **-kopie** eraan toegevoegd. | |
 | Potentiële klant | Verwijzing naar het bedrijf of de accountrecord van de klant. Wanneer het dialoogvenster wordt geopend, bevatten de instellingen het account op de bronprijsopgave. | Dit veld is de primaire klant op de prijsopgave. |

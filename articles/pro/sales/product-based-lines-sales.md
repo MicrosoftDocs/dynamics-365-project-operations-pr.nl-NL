@@ -1,33 +1,28 @@
 ---
-title: Productgebaseerde verkoopkansregels - lite
+title: Productgebaseerde verkoopkansregels
 description: Dit onderwerp bevat informatie over productgebaseerde regelitems voor verkoopkansen in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 17ffcf8dc94d42102115281d281d6b553cf1fa17
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272607"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4074490"
 ---
-# <a name="product-based-opportunity-lines---lite"></a>Productgebaseerde verkoopkansregels - lite
+# <a name="product-based-opportunity-lines"></a>Productgebaseerde verkoopkansregels
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Productgebaseerde verkoopkansregels zijn regelitems in de verkoopkans. Deze afzonderlijke regelitems staan op de uiteindelijke factuur die aan de klant wordt verstrekt. De factuur bevat geen andere aanvullende services. De bijbehorende uitgaven en verbruik worden niet bijgehouden voor taken van gerelateerde projecten.
+Productgebaseerde verkoopkansregels zijn regelitems in de verkoopkans. Deze regels worden aan de klant geleverd als afzonderlijke regelitems op de uiteindelijke factuur zonder enige andere diensten met toegevoegde waarde. De bijbehorende uitgaven en verbruik worden niet bijgehouden voor taken van gerelateerde projecten.
 
 Productgebaseerde regels kunnen catalogusartikelen of inschrijfproducten zijn. De meeste functionaliteit van productgebaseerde regels van een verkoopkansproduct volgt de functionaliteit die wordt geboden door de Dynamics 365 Sales-applicatie. Zie [Producten toevoegen aan een verkoopkans](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity) voor meer informatie over productgebaseerde verkoopkansregels.
 
-**Klantbudget** is een concept dat specifiek is voor projectgebaseerde verkoopkansregels. Het veld **Klantbudget** houdt het bedrag bij dat de klant bereid is te betalen voor het artikel.
+Eén concept over productgebaseerde verkoopkansregels dat specifiek geldt voor projectgebaseerde verkoopkansen is **Klantbudget**. Gebruik dit veld om het bedrag bij te houden dat de klant bereid is te betalen voor het regelitem.
 
-Wanneer de omzetmethode uit het overzicht Verkoopkans **Door systeem berekend** is, worden de budgetwaarden van de klant over de verkoopkansregels samengevat om de geschatte omzet te berekenen. 
-
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Als de omzetmethode van het verkoopkansoverzicht is ingesteld op **Door systeem berekend**, worden de klantbudgetwaarden in alle product- en projectgebaseerde regels samengevat om de geschatte omzet te berekenen.

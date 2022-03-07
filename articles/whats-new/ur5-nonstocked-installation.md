@@ -2,19 +2,17 @@
 title: Project Operations updaten in uw Finance-omgeving
 description: Dit onderwerp bevat informatie over hoe u Project Operations updatet in uw Dynamics 365 Finance-omgeving.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
-ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816619"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986755"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Project Operations updaten in uw Finance-omgeving
 
@@ -35,7 +33,7 @@ Dit onderwerp bevat informatie over hoe u Dynamics 365 Project Operations update
 4. Controleer of de omgeving wordt uitgevoerd. Start de omgeving als deze niet is gestart.
 5. Selecteer in de sectie **Nieuwe versie** onder **Beschikbare updates**, **Update weergeven** voor 10.0.15.
 
-![Update weergeven-knop](media/view-update.png)
+![Knop Update weergeven.](media/view-update.png)
 
 6. Selecteer op de pagina **Binaire updates** **Pakket opslaan**.
 7. Selecteer op de pagina **Updates beoordelen en opslaan** **Pakket opslaan**.
@@ -49,11 +47,11 @@ Dit onderwerp bevat informatie over hoe u Dynamics 365 Project Operations update
 2. Selecteer in de lijst het pakket dat u eerder hebt opgeslagen en selecteer vervolgens **Toepassen**.
 3. Selecteer **Ja** om te bevestigen dat u het pakket wilt implementeren.
 
-![Dialoogvenster voor bevestigen van pakketimplementatie](media/confirm-package-deployment.png)
+![Dialoogvenster voor bevestigen van pakketimplementatie.](media/confirm-package-deployment.png)
 
 4. Selecteer **Ja** om te bevestigen dat u de toepassing wilt updaten.
 
-![Dialoogvenster voor bevestigen van toepassingsupdate](media/confirm-application-update.png)
+![Dialoogvenster voor bevestigen van toepassingsupdate.](media/confirm-application-update.png)
 
 De implementatie en toepassingsupdate worden gestart. 
 
@@ -86,7 +84,7 @@ De volgende updates van de beveiligingsbevoegdheden voor entiteiten zijn vereist
 
 1. Ga in uw Dataverse-omgeving naar **Instellingen** en selecteer in de groep **Systeem** **Beveiliging**.
 
-![Dataverse-omgevingsinstellingen](media/Picture21.png)
+![Dataverse-omgevingsinstellingen.](media/Picture21.png)
 
 2. Selecteer **Beveiligingsrollen**.
 3. Selecteer uit de lijst met rollen **Twee keer wegschrijven app-gebruiker** en selecteer het tabblad **Aangepaste entiteiten**. 
@@ -123,5 +121,8 @@ De volgende updates van de beveiligingsbevoegdheden voor entiteiten zijn vereist
 6. Selecteer in de lijst met toewijzingen de toewijzing **Grootboek (msdyn_ledgers)** met alle vereisten en schakel het selectievakje **Eerste synchronisatie** in. 
 7. Selecteer in het veld **Master voor eerste synchronisatie** **Finance and Operations-apps** en selecteer vervolgens **Uitvoeren**.
  
- ![Synchronisatie van grootboektoewijzing](media/DW6.png)
+ ![Synchronisatie van grootboektoewijzing.](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

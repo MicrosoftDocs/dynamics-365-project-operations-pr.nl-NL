@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36ab1edc4769013684fa9248e6c5eac025637bbd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271617"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960511"
 ---
 # <a name="set-up-expense-management-workflows"></a>Werkstromen voor onkostenbeheer instellen
 
@@ -50,6 +50,3 @@ De onderstaande tabel bevat de werkstroomtypen die u kunt maken in **Onkosten**.
 |      <strong>Aanvraag voor kasvoorschot</strong>      |         Maken van goedkeuringswerkstromen voor aanvragen voor kasvoorschotten.          |
 |        <strong>Btw-afschrijving</strong>        | maken van goedkeuringswerkstromen voor het innen van btw (belasting toegevoegde waarde).  |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

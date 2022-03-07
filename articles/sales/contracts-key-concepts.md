@@ -8,20 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663700"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175525"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>Unieke concepten voor projectgebaseerde contracten
+# <a name="project-contracts---key-concepts"></a>Projectcontracten - belangrijke concepten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-Dit onderwerp bevat belangrijke concepten waarvan u op de hoogte moet zijn voordat u projectcontracten gaat gebruiken in Dynamics 365 Project Operations:
+In dit onderwerp worden de belangrijkste concepten besproken waarvan u op de hoogte moet zijn voordat u projectcontracten gaat gebruiken in Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Bedrijf dat eigenaar is
 
@@ -88,6 +86,3 @@ Factuurschema's zijn specifiek voor elke contractregel en zijn vereist voor auto
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Wijzigingen ten opzichte van orders in Dynamics 365 Sales
 
 Contracten in Project Operations zijn gebaseerd op orders in Dynamics 365 Sales. Er zijn echter enkele belangrijke afwijkingen en verschillen in functionaliteit. Contracten hebben hun eigen formulier- en UI-elementen, bedrijfsregels, bedrijfslogica in invoegtoepassingen en client-side scripts die ze uniek maken ten opzichte van Orders. Om deze redenen moet u een Sales-order en een Project Operations-contract niet door elkaar gebruiken.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

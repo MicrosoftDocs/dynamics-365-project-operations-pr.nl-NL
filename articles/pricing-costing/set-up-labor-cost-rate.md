@@ -2,18 +2,16 @@
 title: Tarieven voor loonkosten instellen
 description: Dit onderwerp bevat informatie over het instellen van tarieven voor de loonkosten in Project Operations
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180591"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986170"
 ---
 # <a name="set-up-labor-cost-rates"></a>Tarieven voor loonkosten instellen
 
@@ -40,7 +38,7 @@ De volgende tabel bevat enkele van de velden die belangrijk zijn bij het aanmake
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Prijzen verrekenen en kosten voor resources buiten uw divisie of rechtspersoon
 
-In projectgebaseerde bedrijven is het gebruikelijk om werknemers van verschillende rechtspersoon of divisies voor projecten in te zetten. Een project kan worden uitgevoerd door één rechtspersoon, maar de werknemers of consultants die aan het project werken, kunnen afkomstig zijn uit dezelfde rechtspersoon of uit een andere, of er kan een combinatie van beide zijn. In Dynamics 365 Project Operations is de rechtspersoon die eigenaar is van de levering van het project het **Bedrijf dat eigenaar is** en de divisie die eigenaar is van de levering is de **Contracterende eenheid**. Andere rechtspersonen die resources leveren zijn de **Resourcebedrijven** en divisies die resources leveren zijn de **Resource-eenheden**. In de meeste landen zijn bedrijven verplicht ervoor te zorgen dat de rechtspersoon of divisie die de resources levert, de kosten van de resources in rekening brengen bij het bedrijf dat eigenaar is en de contracterende eenheid.
+In projectgebaseerde bedrijven is het gebruikelijk om werknemers van verschillende rechtspersoon of divisies voor projecten in te zetten. Een project kan worden uitgevoerd door één rechtspersoon, maar de werknemers of consultants die aan het project werken, kunnen afkomstig zijn uit dezelfde rechtspersoon of uit een andere, of er kan een combinatie van beide zijn. In Dynamics 365 Project Operations is de juridische entiteit die eigenaar is van de oplevering van het project het **Bedrijf dat eigenaar is** en de divisie die eigenaar is van de levering is de **Contracterende eenheid**. Andere rechtspersonen die resources leveren zijn de **Resourcebedrijven** en divisies die resources leveren zijn de **Resource-eenheden**. In de meeste landen zijn bedrijven verplicht ervoor te zorgen dat de rechtspersoon of divisie die de resources levert, de kosten van de resources in rekening brengen bij het bedrijf dat eigenaar is en de contracterende eenheid.
 
 De Fabrikam-onderneming moet er bijvoorbeeld voor zorgen dat Fabrikam India-Robotics heeft onderhandeld over een kostentariefkaart met Fabrikam US-Robotics of Fabrikam UK-Robotics.
 
@@ -84,3 +82,6 @@ In de kostprijslijst voor Fabrikam UK-Robotics kunnen kostentarieven worden uitg
 | Developer | Fabrikam UK | 115 GBP |
 
 De kostprijslijst kan loonkosten in meerdere valuta's weergeven. Bij het genereren van een kostenraming voor het project, zal Project Operations deze kostentarieven omzetten in de projectvaluta en deze aan de gebruiker tonen. Wanneer een tijdboeking is goedgekeurd en werkelijke kosten zijn gemaakt, worden de werkelijke kosten getoond in de valuta van die overeenkomende rolprijsregel op de kostprijslijst. Werkelijke kosten voor tijd van één project kunnen in meerdere valuta's worden geregistreerd. Bij het totaliseren of samenvatten van de werkelijke arbeidskosten op projectniveau, zal Project Operations alle loonkostenbedragen echter omrekenen naar de projectvaluta, die de gebruiker kan weergeven.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: De relatie tussen resourceboekingen en taaktoewijzingen
 description: Dit onderwerp bevat informatie over het beheren van benoemde resources, resourceboekingen en taaktoewijzingen, en hoe deze betrekking hebben op elkaar.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 72c741d8a0644589004ba20afbcd0baff7cfcb06
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0e4eea87bfb059a3c0be8ccbd2914a4d6c3cf46b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993185"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149942"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>De relatie tussen resourceboekingen en taaktoewijzingen
 
@@ -66,6 +68,3 @@ In de weergave **Vereffening** kan de projectmanager de boekingen en toewijzinge
 > [!NOTE]
 > Als u een taak verplaatst waarvoor u zelf de contouren hebt ingesteld, worden de contouren niet behouden. De contouren worden opnieuw gegenereerd op basis van de projectagenda voor wijzigingen in werkuren en sluitingsperioden. Dit is zo ontworpen. Het systeem is namelijk niet op de hoogte van de bedoeling van de oorspronkelijke contour en kan niet bepalen of het zinvol is om die contour te behouden in een nieuwe periode. Omdat boekingen en toewijzingen niet verbonden zijn, behouden de boekingen de oorspronkelijke boekingscontouren. In dit geval moet u annuleren en opnieuw boeken in de nieuwe toewijzingscontour.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

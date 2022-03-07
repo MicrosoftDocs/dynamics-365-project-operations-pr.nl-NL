@@ -2,28 +2,26 @@
 title: Startpagina projectresources
 description: In dit onderwerp krijgt u informatie over het toewijzen van resources aan projecten.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 82022
+ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074550"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007320"
 ---
 # <a name="project-resourcing-home-page"></a>Startpagina projectresources
 
@@ -40,7 +38,7 @@ Een van de uitdagingen voor projectmanagers en resourcemanagers tijdens de proje
 - Een schatting maken van het aantal resources dat nodig is voor de hele levenscyclus van een project.
 - Een structuur voor werkspecificatie (WBS) opstellen met behulp van de initiële resourcestoewijzingen.
 
-[![Levenscyclus van project](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Levenscyclus van project.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 Naarmate de projectplanning vordert, kunnen geplande resources worden vervangen door bemande resources. De projectmanager kan ook teruggaan en de resourcingreserveringen bijwerken tijdens elke projectfase.
 
@@ -49,9 +47,12 @@ De volgende onderwerpen bieden informatie over de taken die moeten worden voltoo
 - [Projectresources opzetten](set-up-project-resources.md)
 - [Resourcecompetenties beheren](manage-resource-competencies.md)
 - [Een nieuw project maken](create-new-project.md)
-- [Op rollen gebaseerde prijsstelling instellen](set-up-role-based-pricing.md)
+- [Op rollen gebaseerde prijzen instellen](set-up-role-based-pricing.md)
 - [Een projectteam maken](create-project-team.md)
 - [Resourcecapaciteit synchroniseren](synchronize-resource-capacity.md)
 - [Prestaties van projectresourceplanning](project-scheduling-performance.md)
 - [Rollen instellen voor sjablonen voor structuur voor werkspecificatie](set-up-roles-wbs-template.md)
 - [Vervulling van resources voor geplande resources](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

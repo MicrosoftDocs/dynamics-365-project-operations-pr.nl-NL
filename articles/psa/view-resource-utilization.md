@@ -2,8 +2,6 @@
 title: Gebruik van resources weergeven
 description: Informatie over gebruik van resources weergeven in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ffd41aba98156d990956908d0a04b8d598c92ade
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 06d6807d63207a0dedbc98b6bd7a874a684bd5ac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150707"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002545"
 ---
 # <a name="view-resource-utilization-project-service"></a>Gebruik van resources weergeven (Project Service)
 
@@ -43,3 +41,6 @@ Resourcegebruik u kunt volgen om urenniveaus hoeveelheid voor uw resources te de
   
 ### <a name="see-also"></a>Zie ook  
  [Resourcemanager-handleiding](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

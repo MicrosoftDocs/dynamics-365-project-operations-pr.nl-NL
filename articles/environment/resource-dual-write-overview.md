@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007905"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368425"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Overzicht van integratie van twee keer wegschrijven in Project Operations
 
@@ -23,7 +23,7 @@ Project Operations gebruikt [mogelijkheden voor twee keer wegschrijven](/dynamic
 
 De volgende afbeelding laat zien hoe gegevens worden gesynchroniseerd als onderdeel van deze integratie tussen Dataverse en Finance.
 
-![Overzicht van gegevensstromen in Project Operations.](./media/ProjectOperationsFlows.jpg)
+![Overzicht van gegevensstromen in Project Operations](./media/ProjectOperationsFlows.jpg)
 
 Project Operations in Dataverse biedt een moderne gebruikersinterface (UI) en eenvoudige uitbreidbaarheid zonder code/met weinig code met behulp van Power Platform-mogelijkheden. Projectmanagers, resourcemanagers, projectteamleden en andere frontoffice-persona's voeren hun activiteiten uit in Project Operations op Dataverse.
 

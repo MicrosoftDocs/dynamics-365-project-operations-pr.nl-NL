@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 4960792358194d071ba7a34c87b74fe2ce4457fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841324"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279627"
 ---
 # <a name="edit-bookings"></a>Boekingen bewerken
 
@@ -33,3 +33,6 @@ Vanuit het raster **Teamlid** kan een projectmanager een specifieke resource mar
 ## <a name="schedule-board"></a>Planbord
 
 Vanuit het **Planbord** heeft de Resource Manager een portfolioweergave van alle boekingen binnen een organisatie. Vanuit deze weergave kan de Resource Manager bestaande boekingen uitbreiden, verkorten of verplaatsen, vergelijkbaar met de mogelijkheden die worden aangeboden in **Boekingen bijhouden**. De Resource Manager kan ook bestaande resources vervangen die aan een specifieke boeking zijn toegewezen door met de rechtermuisknop op de boeking te klikken en **Resource vervangen** te selecteren. Resource Managers kunnen ook de contouren van bestaande boekingen bewerken door met de rechtermuisknop op de boeking te klikken en **Bewerken** te selecteren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

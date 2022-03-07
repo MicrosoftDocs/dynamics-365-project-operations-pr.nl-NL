@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 35fa9440a6f58a08092bcc3cc57a9097dce01e33
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ee6ed766595773aa8af65e8e3e5aa816de4e6117
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147853"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283497"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Startpagina voor prijsopgaven, prijzen en facturering
 
@@ -44,3 +44,6 @@ De volgende onderwerpen bevatten meer informatie over de functionaliteit voor pr
 - [Eenhedengroepen en eenheden](advanced-units.md)
 - [Valuta van meerdere eenheden](advanced-currency.md)
 - [Werkelijke waarden vastleggen](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
