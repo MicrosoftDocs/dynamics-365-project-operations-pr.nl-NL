@@ -2,11 +2,9 @@
 title: Mobiele toepassing voor projecturenstaten
 description: Dit onderwerp biedt informatie over de mobiele toepassing Microsoft Dynamics 365 Project Timesheet. Met de mobiele app Project Timesheet kunnen gebruikers urenstaten voor projecten op hun mobiele apparaat indienen en goedkeuren.
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074737"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997195"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobiele toepassing voor projecturenstaten
 
@@ -96,3 +94,6 @@ Klik op **Indienen** om de urenstaat naar de goedkeuringsworkflow te verzenden.
 ## <a name="review-timesheets"></a>Urenstaten controleren
 
 Een lijst met de urenstaten die moeten worden gecontroleerd, is beschikbaar in het menu. Deze optie is alleen beschikbaar als u bent aangewezen als werkstroomgoedkeurder. Zowel koptekst- als regelgoedkeuring worden ondersteund. Goedkeuring op regelniveau biedt de mogelijkheid om een of meer regels voor goedkeuring te markeren. Klik na het controleren van de urenstaatinformatie op **Goedkeuren**, **Delegeren** of **Terugkeren** om de werkstroom voort te zetten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

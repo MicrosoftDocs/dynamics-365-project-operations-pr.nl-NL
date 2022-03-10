@@ -2,8 +2,6 @@
 title: Handleiding Rapportage
 description: Dit onderwerp bevat koppelingen naar informatie over rapportage.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 02/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1494e3c60e3702ea8996a9c3a1c1128d24889b39
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dbfcbc724842a0c2dd507da63b45608f3a18b9eae489f72e2ec0bd50f9fd2f24
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284352"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985406"
 ---
 # <a name="reporting-guide"></a>Handleiding Rapportage
 

@@ -2,18 +2,16 @@
 title: Tarieven voor loonkosten instellen - lite
 description: Dit onderwerp bevat informatie over het instellen van tarieven voor de loonkosten in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274362"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006105"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Tarieven voor loonkosten instellen - lite
 

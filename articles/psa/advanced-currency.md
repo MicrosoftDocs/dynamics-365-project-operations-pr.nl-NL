@@ -2,8 +2,6 @@
 title: Scenario's met meerdere valuta's (versie 3. x)
 description: Dit onderwerp biedt informatie over scenario's met meerdere valuta's.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145667"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005115"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenario's met meerdere valuta's
 
@@ -68,7 +66,7 @@ PSA breidt het concept van transactievaluta voor de kosten en verkoop op de volg
 
 ## <a name="multiple-currency-scenario"></a>Scenario met meerdere valuta's
 
-In deze sectie wordt een voorbeeld beschreven van een project dat Contoso UK levert voor de Japanse klant Fabrikam. Het scenario is als volgt ingesteld:
+In dit gedeelte wordt een voorbeeld beschreven van een project dat Contoso UK levert voor de Japanse klant Fabrikam. Het scenario is als volgt ingesteld:
 
 1. GBP en de Japanse yen (JPY) worden ingesteld onder **Instellingen** \> **Bedrijfsbeheer** \> **Valuta's**. 
 2. Een klantaccount met de naam **Fabrikam - Japan** wordt ingesteld en JPY wordt geselecteerd als de valuta voor de account.
@@ -105,3 +103,6 @@ In Dynamics 365 worden rollups van bedragen in verschillende valuta's automatisc
 | Onkosten           | Niet-gefactureerde verkoop   | 17 juni | Stijn  | Autohuur           | 1     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Om de totale niet-gefactureerde verkoopwaarde voor het project te berekenen, kunt u een rollupveld voor het veld **Bedrag** maken voor alle gerelateerde niet-gefactureerde werkelijke verkoopwaarden. Het rollupveld is een constructie van Dynamics 365 die snelle formules voor gerelateerde records mogelijk maakt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

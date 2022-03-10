@@ -2,18 +2,16 @@
 title: Standaardwaarden voor financiële dimensies
 description: Dit onderwerp biedt informatie over het instellen van standaardinstellingen voor financiële dimensies.
 author: sigitac
-manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950123"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922932"
 ---
 # <a name="financial-dimension-defaults"></a>Standaardwaarden voor financiële dimensies
 
@@ -62,6 +60,15 @@ Projecten worden aangemaakt en onderhouden in CDS. Boekhoudkundige kenmerken voo
 4. Stel de standaardwaarden voor financiële dimensies in. Merk op dat de financiële dimensies standaard afkomstig zijn van de klantrekening. Als het project is gekoppeld aan een contractregel met meerdere projectcontractklanten, wordt de primaire klant gebruikt om de financiële standaarddimensies te bepalen.
 
 Financiële standaarddimensies van projecten worden gebruikt om de standaardwaarden van journaalregels in te stellen voor transacties voor tijd, onkosten en vergoedingen in het **Project Operations-integratiejournaal** en op gerelateerde projectfactuurregels.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Financiële dimensies toepassen voor projecttijdsvemeldingen
+Als u financiële dimensies voor projecttijdsvermeldingen wilt toepassen, moet u er rekening mee houden dat de standaarddimensiewaarde is gebaseerd op de volgende volgorde:
+
+1. Bron
+2. Project
+3. Financieringsbron
+
+Als de standaarddimensie bijvoorbeeld is opgegeven voor een resource, wordt deze toegepast op een standaard die is opgegeven voor het project. Evenzo wordt een standaardprojectdimensie toegepast op de standaard die is opgegeven in de financieringsbron.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

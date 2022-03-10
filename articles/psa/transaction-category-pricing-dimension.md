@@ -2,12 +2,10 @@
 title: Transactiecategorie gebruiken als prijsdimensie
 description: Dit onderwerp bevat informatie over het gebruik van een transactiecategorie als een prijsdimensie.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,14 +15,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074648"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988846"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Transactiecategorie gebruiken als prijsdimensie
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Dit onderwerp laat zien hoe u een transactiecategorie gebruikt als een prijsdimensie. Voordat u begint, moet u een nieuwe oplossing voor prijsdimensies maken als u deze nog niet hebt. Als u al een oplossing voor prijsdimensies hebt, kunt u wijzigingen in die oplossing aanbrengen. Als u geen nieuwe oplossing voor prijsdimensies voor uw organisatie hebt gemaakt, voltooit u de procedures in het onderwerp [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Transactiecategorie toevoegen aan formulieren en weergaven
@@ -50,3 +51,6 @@ De volgende tabel bevat een uitgebreide lijst met gebruiksklare formulieren en w
 2. Kijk op de pagina **Parameters** in het tabblad **Op bedrag gebaseerde prijsdimensies** naar het raster in het tabblad met de records in de entiteit **Prijsdimensies**.
 3. Voeg **Transactiecategorie** toe aan deze lijst en stel de velden **Van toepassing op kosten** en **Van toepassing op verkoop** in op **Ja**.
 4. Selecteer in het veld **Dimensietype** de optie **Op bedrag gebaseerd** en selecteer vervolgens de prioriteit voor **Transactiecategorie** met betrekking tot kosten en verkopen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

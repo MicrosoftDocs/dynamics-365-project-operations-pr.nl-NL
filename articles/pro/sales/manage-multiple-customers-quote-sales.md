@@ -2,18 +2,16 @@
 title: Meerdere klanten in projectprijsopgaven beheren - lite
 description: Dit onderwerp bevat informatie over het werken aan prijsopgaven met meerdere klanten die het project zullen financieren. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181585"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440771"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Meerdere klanten in projectprijsopgaven beheren - lite
 
@@ -39,7 +37,7 @@ Een prijsopgaveklant kan worden gemaakt, bijgewerkt of verwijderd via het tabbla
 
 | **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
-| Account | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Geeft een overzicht van alle actieve accounts. Dit veld is vergrendeld nadat de record is gemaakt. Als u wilt bijwerken, verwijdert u de record en maakt u deze opnieuw. Als u werkelijke gegevens hebt vastgelegd of als de record van de klant van de prijsopgave een primaire klant is, mag u de record verwijderen. | Prijsopgaveklanten worden gekopieerd als prijsopgaveregelklanten wanneer een prijsopgaveregel wordt aangemaakt. Prijsopgaveklanten worden ook gekopieerd naar de projectcontractklanten wanneer een prijsopgave wordt geaccepteerd. |
+| Account | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Geeft een overzicht van alle actieve accounts. Dit veld is vergrendeld nadat de record is gemaakt. Als u wilt bijwerken, verwijdert u de record en maakt u deze opnieuw. Als u werkelijke waarden hebt vastgelegd, of als de klantenrecord van de prijsopgave een primaire klant is, mag u de record niet verwijderen. | Prijsopgaveklanten worden gekopieerd als prijsopgaveregelklanten wanneer een prijsopgaveregel wordt aangemaakt. Prijsopgaveklanten worden ook gekopieerd naar de projectcontractklanten wanneer een prijsopgave wordt geaccepteerd. |
 | Gesplitst percentage facturering | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Geven het percentage aan van elke niet-gefactureerde verkooptransactie die aan deze prijsopgaveklant wordt toegewezen. | Gekopieerd naar nieuwe prijsopgaveregels en projectcontractklanten. |
 | Naam van de contactpersoon voor de factuur | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Dit is een tekstveld dat wordt gebruikt om de contactpersoon voor de factuur voor deze klant aan te geven. Deze zijn standaard ingesteld uit de gerelateerde accountrecord | Worden gekopieerd naar projectcontractklanten wanneer een prijsopgave wordt geaccepteerd en op zijn beurt naar het veld Naam van de contactpersoon voor de factuur die voor deze klant wordt gegenereerd. |
 | Naam voor factuur | Bewerkbaar raster op het tabblad **Prijsopgaveklanten** en de formulieren **Hoofd** en **Snelle invoer** voor een prijsopgaveklant. | Dit is een tekstveld dat wordt gebruikt om de contactpersoon voor de factuur voor deze klant aan te geven. | Wordt gekopieerd naar projectcontractklanten wanneer een prijsopgave wordt geaccepteerd en op zijn beurt naar het veld **Naam van de contactpersoon voor de factuur** die voor deze klant wordt gegenereerd. |
@@ -52,3 +50,6 @@ Een prijsopgaveklant kan worden gemaakt, bijgewerkt of verwijderd via het tabbla
 U kunt de percentages voor factuursplitsing bewerken met behulp van de bewerkingsfunctie voor rasterregels. Als de percentages voor factuursplitsing niet in totaal 100% bedragen, treedt er een fout op. Nadat u de percentages voor factuursplitsing hebt bijgewerkt, vernieuwt u de pagina om de fout te verwijderen.
 
 U kunt ook **Evenredig verdelen** selecteren in het subraster van de prijsopgaveklant. Met deze actie worden factuursplitsingen toegewezen aan alle prijsopgaveklanten. Als er een afrondingsfactor is, wordt die toegevoegd voor de afrondingsklant. Een van de prijsopgaveklanten wordt altijd aangeduid als afrondingsklant. Dit betekent dat in de prijsopgaveklantrecord de markering **Afronding** is ingesteld op **Ja**. Meestal is dit de primaire klant van de prijsopgave, maar dat kan worden gewijzigd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

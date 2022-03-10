@@ -2,19 +2,17 @@
 title: Nieuwe of gewijzigde functies in Project Operations, maart 2021 voor scenario's op basis van voorradige artikelen/productieorders
 description: Deze onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de maart 2021-release van Project Operations voor scenario's op basis van voorradige artikelen/productieorders.
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701923"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991165"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Nieuwe of gewijzigde functies in Project Operations, maart 2021 voor scenario's op basis van voorradige artikelen/productieorders
 
@@ -123,7 +121,7 @@ In deze versie zijn de volgende functies opgenomen:
 | Projectbeheer en boekhouding | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | De verouderde structuur voor werkspecificatie (WBS) **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** is afgeschaft.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Wijzigingen in regelgeving
-Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates.md). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

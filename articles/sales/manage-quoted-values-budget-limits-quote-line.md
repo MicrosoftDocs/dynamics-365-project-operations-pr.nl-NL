@@ -1,21 +1,20 @@
 ---
-title: Overzicht van projectgebaseerde prijsopgaveregels
-description: Dit onderwerp bevat informatie over het gebruik van op projectgebaseerde prijsopgaveregels voor projectwerk.
+title: Overzicht van projectprijsopgaveregels
+description: Dit onderwerp biedt informatie over het gebruik van projectprijsopgaveregels voor projectwerk.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.custom: intro-internal
+ms.openlocfilehash: c0a4d2d4b9e958ba14badda5a945e0522abba336c82128bfe7539663e0b90f1e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181851"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997915"
 ---
-# <a name="project-based-quote-lines-overview"></a>Overzicht van projectgebaseerde prijsopgaveregels
+# <a name="project-quote-lines-overview"></a>Overzicht van projectprijsopgaveregels
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
@@ -34,7 +33,7 @@ De volgende tabel bevat informatie over de velden op het tabblad **Algemeen** va
 | **Veld** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- |
 | Meetcriterium | De naam van de prijsopgaveregel waarmee u de afzonderlijke component van de prijsopgave in de raming kunt identificeren. | Gekopieerd naar de projectcontractregel die is gemaakt op basis van deze prijsopgaveregel wanneer de prijsopgave wordt geaccepteerd. |
-| Factureringsmethode | In een prijsopgave die wordt gemaakt op basis van een verkoopkans, wordt deze waarde gekopieerd uit het overeenkomstige veld op de verkoopkansregel. Dit veld bevat de twee belangrijkste contractmodellen die worden ondersteund door Dynamics 365 Project Operations:</br>- Vaste prijs</br>- Tijd en materiaal.| Deze veldwaarde wordt gekopieerd naar de projectcontractregel die is gemaakt op basis van deze prijsopgaveregel wanneer de prijsopgave wordt geaccepteerd. |
+| Factureringsmethode | In een prijsopgave die wordt gemaakt op basis van een verkoopkans, wordt deze waarde gekopieerd uit het overeenkomstige veld op de verkoopkansregel. Dit veld bevat de twee belangrijkste aanbestedingsmodellen die worden ondersteund door Dynamics 365 Project Operations.</br>- Vaste prijs</br>- Tijd en materiaal.| Deze veldwaarde wordt gekopieerd naar de projectcontractregel die is gemaakt op basis van deze prijsopgaveregel wanneer de prijsopgave wordt geaccepteerd. |
 | Project | Gebruik dit optionele veld om het project te identificeren dat wordt gebruikt om het werk voor deze opdracht af te leveren. Wanneer een project wordt toegewezen aan een prijsopgaveregel, is dit handig bij het instellen van toerekenbare taken en ook bij het opnemen van een projectgebaseerde schatting op de prijsopgaveregel als details van de prijsopgave. Als een project niet wordt toegewezen aan een projectgebaseerde prijsopgaveregel, moet de schatting handmatig worden gemaakt door elk detail van de prijsopgave te creëren. | Deze veldwaarde wordt gekopieerd naar de projectcontractregel die is gemaakt op basis van deze prijsopgaveregel wanneer de prijsopgave wordt geaccepteerd. |
 | Tijd opnemen | Een markering **Ja**/**Nee** geeft aan of tijdtransacties of arbeidskosten voor het geselecteerde project worden opgenomen in de schatting op deze prijsopgaveregel. Een waarde **Nee** geeft aan of de tijdtransacties of arbeidskosten niet worden opgenomen in de schatting op deze prijsopgaveregel. Een waarde **Ja** geeft aan of de tijdtransacties of arbeidskosten worden opgenomen in de schatting op deze prijsopgaveregel. | Deze veldwaarde wordt gekopieerd naar de projectcontractregel die is gemaakt op basis van deze prijsopgaveregel wanneer de prijsopgave wordt geaccepteerd. |
 | Onkosten opnemen | Een markering **Ja**/**Nee** geeft aan of onkosten voor het geselecteerde project worden opgenomen in de schatting op deze prijsopgaveregel. Een waarde **Nee** geeft aan of de onkosten niet worden opgenomen in de schatting op deze prijsopgaveregel. Een waarde **Ja** geeft aan of de onkosten worden opgenomen in de schatting op deze prijsopgaveregel. | Deze veldwaarde wordt gekopieerd naar de projectcontractregel die is gemaakt op basis van deze prijsopgaveregel wanneer de prijsopgave wordt geaccepteerd. |
@@ -217,7 +216,7 @@ Ja </p>
             </td>
             <td width="48" valign="top">
                 <p>
-No </p>
+Geen </p>
             </td>
             <td width="42" valign="top">
                 <p>
@@ -306,7 +305,7 @@ Ja </p>
             </td>
             <td width="48" valign="top">
                 <p>
-No </p>
+Geen </p>
             </td>
             <td width="42" valign="top">
                 <p>
@@ -343,7 +342,7 @@ P1 </p>
             </td>
             <td width="48" valign="top">
                 <p>
-No </p>
+Geen </p>
             </td>
             <td width="48" valign="top">
                 <p>
@@ -351,7 +350,7 @@ Ja </p>
             </td>
             <td width="42" valign="top">
                 <p>
-No </p>
+Geen </p>
             </td>
         </tr>
         <tr>
@@ -635,3 +634,6 @@ Ongeldig </p>
     </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

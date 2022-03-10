@@ -3,10 +3,9 @@ title: Startpagina voor prijsopgaven, prijzen en facturering
 description: Dit onderwerp bevat informatie over prijsopgaven, prijzen en facturering.
 author: rumant
 ms.author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 audience: Admin
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee6ed766595773aa8af65e8e3e5aa816de4e6117
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0b3d40158534f039160156087d6edab0d21dd5f3eaf71d5b665eff794793a9b3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283497"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004755"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Startpagina voor prijsopgaven, prijzen en facturering
 

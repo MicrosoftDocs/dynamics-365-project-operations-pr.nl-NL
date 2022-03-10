@@ -2,9 +2,7 @@
 title: Schattingen voor projectkosten en -opbrengst bepalen
 description: Informatie over schattingen voor projectkosten en -opbrengst bepalen in Project Service
 author: ruhercul
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 851e98cf5481ec7df3f430801a9d3b327794f68c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 38de99680f4ba67b8eb593ec575c2a796fcfb59436fea5323dd1d86d7cf3d797
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284937"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002595"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Schattingen voor projectkosten en -opbrengst bepalen 
 

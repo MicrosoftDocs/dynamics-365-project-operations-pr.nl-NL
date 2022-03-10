@@ -2,11 +2,9 @@
 title: Onkostenbeleid definiëren
 description: U kunt het onkostenbeleid definiëren dat uw werknemers moeten volgen bij het invoeren en indienen van onkostennota's en aanvragen voor reis- en verblijfskostenvergoeding.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074634"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986350"
 ---
 # <a name="define-expense-policies"></a>Onkostenbeleid definiëren
 
@@ -53,3 +51,6 @@ Hier volgen een paar suggesties die u kunnen helpen bij het maken van nieuw bele
 ## <a name="when-to-evaluate-policies"></a>Wanneer moet beleid worden geëvalueerd
 
 In de parameters voor onkostenbeheer kunt u ervoor kiezen om beleid voor onkostenbeheer te evalueren wanneer een regel wordt opgeslagen of wanneer een onkostennota wordt ingediend. Als u ervoor kiest om de evaluatie uit te voeren wanneer een regel wordt opgeslagen, hebben gebruikers eerder inzicht in wat ze moeten doen om hun onkostennota in één keer te voltooien. U kunt de beleidsevaluatie ook uitstellen en tijd besparen door de evaluatie aan het einde uit te voeren tijdens het indienen bij de werkstroom.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

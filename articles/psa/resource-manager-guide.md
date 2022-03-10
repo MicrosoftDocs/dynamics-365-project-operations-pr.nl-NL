@@ -2,8 +2,6 @@
 title: Resourcemanager-handleiding
 description: Een handleiding voor resourcemanagement in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4a26a384dfaf6b974ed35105434152e655ff6444
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0ad7d792450303c25fdac9f1191c809006d41541763b4f565b55abfa6da58a0a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074772"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984967"
 ---
 # <a name="resource-manager-guide-project-service"></a>Resourcemanager-handleiding (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -71,3 +71,6 @@ De mogelijkheden van [!INCLUDE[pn_project_service_auto](../includes/pn-project-s
  [Accountmanager-handleiding](../psa/account-manager-guide.md)   
  [Projectmanager-handleiding](../psa/project-manager-guide.md)   
  [Handleiding Tijd, kosten, en samenwerken](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

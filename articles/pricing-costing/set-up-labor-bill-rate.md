@@ -2,27 +2,25 @@
 title: Factureringstarieven voor arbeid instellen
 description: Dit onderwerp bevat informatie over het instellen van factureringstarieven voor arbeid in Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 0fee2c98713f4d1f8da85a0b60fb3fc2a873e5f82a64cf350ebeb68fe65fab35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180682"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003540"
 ---
 # <a name="set-up-labor-bill-rates"></a>Factureringstarieven voor arbeid instellen
 
 _ **Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 
-Elke prijslijst heeft een reeks rolprijzen of loonkosten die gelden voor de context en vanaf de ingangsdatum die is opgenomen in de prijslijstkop. Factuurtarieven voor tijd in Dynamics 365 Project Operations kunnen in slechts één valuta worden ingesteld, namelijk de valuta in de prijslijstkop.
+Elke prijslijst heeft een reeks rolprijzen of loonkosten die gelden voor de context en vanaf de ingangsdatum die is opgenomen in de prijslijstkop. Factureringstarieven voor tijd in Dynamics 365 Project Operations kunnen worden ingesteld in slechts één valuta, namelijk de valuta in de kop Prijslijst.
 
-1. Voor het instellen van factuurtarieven voor arbeid voor een verkoopprijslijst, maakt u een prijslijst op basis van de prijslijstkop. 
-2. Selecteer op het tabblad **Rolprijzen** in het subraster **+Nieuwe rolprijs**. 
+1. Als u tarieven voor de facturering van arbeid wilt instellen voor een verkoopprijslijst, gaat u naar **Verkoop** > **Klanten** > **Prijslijsten** en selecteert u **Nieuw** om een nieuwe prijslijst te maken. 
+2. Selecteer op het tabblad **Rolprijzen** in het subraster **Nieuwe rolprijs**. 
 3. Voer in het deelvenster **Snelle invoer** de combinatie van rol en organisatie-eenheid in waarvoor u het factuurtarief moet instellen.
 
    De volgende tabel bevat de velden op het tabblad **Algemeen** en deelvenster **Snelle invoer** van een rolprijsregel waarmee u rekening moet houden wanneer u rolprijzen maakt op een verkoopprijslijst:
@@ -55,3 +53,6 @@ Voor een ontwikkelaar van de Robotics-divisie van Fabrikam India die aan een Ame
     | Developer | Fabrikam US | Fabrikam US - Robotics | $150 |
 
 3. Voeg de verkoopprijslijst **Fabrikam Amerikaanse factureringstarieven** toe aan de projectprijslijst van het projectcontract of aan een bepaald account.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

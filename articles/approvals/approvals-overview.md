@@ -6,12 +6,13 @@ ms.date: 03/31/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 5e30b8a386805faee869f77e695d5ee492d78cdb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: d77c62455c346d6d427d71af4b01d62b5132a2377c2c1a0a64f56fb313219c46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996695"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991705"
 ---
 # <a name="approvals-overview"></a>Overzicht van goedkeuringen
 

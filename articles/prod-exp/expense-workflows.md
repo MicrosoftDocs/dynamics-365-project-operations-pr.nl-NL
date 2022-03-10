@@ -2,11 +2,9 @@
 title: Werkstromen voor onkostenbeheer instellen
 description: U kunt een werkstroomproces instellen om reis- en onkostendocumenten te beoordelen en goed te keuren.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 97db155a1d8ce77f711ea37bbd537527607f13f212ee59383ea165f5e46b81ba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960511"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001245"
 ---
 # <a name="set-up-expense-management-workflows"></a>Werkstromen voor onkostenbeheer instellen
 
@@ -50,3 +48,6 @@ De onderstaande tabel bevat de werkstroomtypen die u kunt maken in **Onkosten**.
 |      <strong>Aanvraag voor kasvoorschot</strong>      |         Maken van goedkeuringswerkstromen voor aanvragen voor kasvoorschotten.          |
 |        <strong>Btw-afschrijving</strong>        | maken van goedkeuringswerkstromen voor het innen van btw (belasting toegevoegde waarde).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

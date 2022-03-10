@@ -2,8 +2,6 @@
 title: Toerekenbare bestede uren voor resources weergeven
 description: Dit onderwerp bevat informatie over de weergave met bestede uren van resources.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b07af573bc8d312c45ee4aef50c95942401294fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285927"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007140"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Toerekenbare bestede uren voor resources weergeven
 
@@ -31,7 +29,7 @@ ms.locfileid: "5285927"
  
 In de weergave **Bestede uren** op de pagina **Project Service - Bestede uren van resource** worden de toerekenbare bestede uren voor elke boekbare resource weergegeven. Omdat de weergave is gebaseerd op het planbord, komt u hier veel van dezelfde functies tegen.
 
-> ![Schermafbeelding van weergave voor bestede uren van resources](media/FAQ-utilization-1.png)
+> ![Schermopname van weergave voor bestede uren van resources.](media/FAQ-utilization-1.png)
  
 
 De berekening van toerekenbare bestede uren werkt als volgt:
@@ -50,7 +48,7 @@ Het doel voor bestede uren kan worden ingesteld voor de standaardrol van de reso
 2. Selecteer een resource om de record te openen. 
 3. Op het tabblad **Project Service** kunt u het doel voor bestede uren voor de resource instellen.
 
-> ![Schermafbeelding van het instellen van het doel voor bestede uren via het tabblad Project Service](media/FAQ-utilization-2.png)
+> ![Schermopname van het instellen van het doel voor bestede uren via het tabblad Project Service.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Het doel voor bestede uren voor een rol instellen
 
@@ -58,7 +56,7 @@ Het doel voor bestede uren kan worden ingesteld voor de standaardrol van de reso
 2. Selecteer een rol en open de record. 
 3. Stel het doel voor bestede uren voor de rol in.
 
-> ![Schermafbeelding van het instellen van het doel voor bestede uren via Resourcerollen](media/FAQ-utilization-3.png)
+> ![Schermopname van het instellen van het doel voor bestede uren via Resourcerollen.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>De toerekenbare bestede uren voor een resource berekenen
 

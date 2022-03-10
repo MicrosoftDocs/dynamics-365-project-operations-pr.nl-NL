@@ -2,11 +2,9 @@
 title: Schattingen maken op een prijsopgaveregel
 description: Deze onderwerp biedt informatie over hoe u een schatting op een prijsopgaveregel voor een project kunt maken.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074592"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996430"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Schattingen maken op een prijsopgaveregel
 
@@ -88,3 +86,6 @@ Als u een aangepast veld hebt toegevoegd voor de prijsopgaveregeldetails en de w
 7. Selecteer **OK** om het dialoogvenster te sluiten en selecteer vervolgens **Stap bijwerken**.
 8. Herhaal stap 1 tot en met 7 voor de tweede invoegtoepassing.
 9. Sluit PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

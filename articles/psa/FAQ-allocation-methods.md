@@ -2,8 +2,6 @@
 title: Boekingstoewijzingsmethoden in Project Service Automation
 description: Dit onderwerp bevat informatie over de verschillende manieren waarop u toewijzingen kunt boeken.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1ceb7ea5484a1d099c4709eda48d34ecd9bac2e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a770a51c2bf05e227367efc834dbff2832a316f617ae4fe22a43572940f43cbe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151607"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000840"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Boekingstoewijzingsmethoden in Project Service Automation
 
@@ -71,3 +69,6 @@ De volgende toewijzingmethoden leiden dus tot overboekingen als de resource al i
 - Uren gelijkmatig verdelen
 
 Als u een van deze drie toewijzingmethoden gebruikt, wordt u niet op de hoogte gesteld als de resource wordt overboekt. U corrigeert de overboeking via het planbord.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

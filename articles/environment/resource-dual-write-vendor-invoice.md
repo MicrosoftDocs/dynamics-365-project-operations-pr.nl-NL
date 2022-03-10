@@ -2,19 +2,17 @@
 title: Integratie van leveranciersfacturen
 description: Dit onderwerp biedt informatie over integratie van leveranciersfacturen in Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 07839436c3777b0554e0721d250bff643e38c088
-ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5955734"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986485"
 ---
 # <a name="vendor-invoice-integration"></a>Integratie van leveranciersfacturen
 
@@ -38,7 +36,7 @@ In project Operations worden projectgerelateerde leveranciersfacturen geboekt me
 
 Btw-subgrootboek, subgrootboek voor leveranciers en andere financiële boekingen worden geregistreerd zoals van toepassing in Dynamics 365 Finance als de onkostendeclaratie wordt geboekt.
 
-![Integratie van leveranciersfacturen](media/DW7VendorInvoice.png)
+![Integratie van leveranciersfacturen.](media/DW7VendorInvoice.png)
 
 Wanneer records worden weggeschreven naar een entiteit **Leveranciersfactuur** in Dataverse begint een geautomatiseerd goedkeuringsproces voor de records. Indien nodig kan de status van het geautomatiseerde goedkeuringsproces worden bekeken in Dataverse door naar **Geavanceerde instellingen** > **Systeem** > **Systeemtaken** te gaan. Nadat de goedkeuring is voltooid, worden records voor materiaaltransactieklassen gemaakt in de entiteit **Werkelijke waarden**.
 

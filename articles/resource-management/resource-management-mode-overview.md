@@ -1,19 +1,18 @@
 ---
 title: Overzicht van resourcebeheermodi
-description: Dit onderwerp biedt informatie over de functionaliteit voor resourcebeheer in Dynamics 365 Project Operations.
+description: In dit onderwerp krijgt u informatie over functionaliteit voor resourcebeheer in Dynamics 365 Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4a8e605109e48b50da68abeee989f8ac8d3d659c
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074452"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008220"
 ---
 # <a name="resource-management-modes-overview"></a>Overzicht van resourcebeheermodi
 
@@ -25,26 +24,29 @@ Dynamics 365 Project Operations ondersteunt twee modi zodat u de algehele boekin
 ## <a name="central-mode"></a>Centrale modus
 Voor organisaties die de toewijzing van resources aan projecten centraal regelen, vormt de modus Centraal een manier waarmee projectmanagers resourcevereisten op projectniveau kunnen definiëren. Het voldoen aan de resourcevereisten wordt gedelegeerd aan een resourcemanager. Projectmanagers kunnen resources accepteren of weigeren die door de resourcemanager worden voorgesteld.
 
-![Centrale modus](./media/resource-management-central.png)
+![Centrale modus.](./media/resource-management-central.png)
 
 Om resources te beheren met de Centrale modus, zie:
 
-- [Algemene, boekbare resources toewijzen aan een taak en resourcevereisten genereren](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Benoemde resources boeken op basis van resourcevereisten](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Een resourceaanvraag indienen](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Een resourceaanvraag afhandelen](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Een voorgestelde projectresource in een resourceaanvraag accepteren of afwijzen](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Algemene, boekbare resources toewijzen aan een taak en resourcevereisten genereren](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Benoemde resources boeken op basis van resourcevereisten](/dynamics365/project-service/book-named-resource)
+- [Een resourceaanvraag indienen](/dynamics365/project-service/submit-resource-request)
+- [Een resourceaanvraag afhandelen](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Een voorgestelde projectresource in een resourceaanvraag accepteren of afwijzen](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Hybride modus
 In organisaties die flexibiliteit bij de toewijzing van resources nodig hebben, kunnen in de hybride modus zowel projectmanagers als resourcemanagers resources boeken.
 
-![Hybride modus](./media/resource-management-hybrid.png)
+![Hybride modus.](./media/resource-management-hybrid.png)
 
 Naast het ondersteunde proces in de centrale modus vindt u in de volgende onderwerpen informatie om alle andere ondersteunde boekingsstromen in de hybride modus te beheren:
 
 Een resource rechtstreeks boeken voor een project:
-- [Benoemde, boekbare resources boeken voor een projectteam en taken toewijzen](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Benoemde, boekbare resources boeken voor een projectteam en taken toewijzen](/dynamics365/project-service/assign-named-bookable-resource)
 
 Een resource boeken op basis van een resourcevereiste:
-- [Algemene, boekbare resources toewijzen aan een taak en resourcevereisten genereren](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Benoemde resources boeken op basis van resourcevereisten](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Algemene, boekbare resources toewijzen aan een taak en resourcevereisten genereren](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Benoemde resources boeken op basis van resourcevereisten](/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

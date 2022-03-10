@@ -2,8 +2,6 @@
 title: Een projectboeking maken vanaf het planbord
 description: Dit onderwerp bevat informatie over het maken van een projectboeking via het planbord.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5d815210ee78f3c728c0722e03bab2f790c953ee
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286107"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987610"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Een projectboeking maken vanaf het planbord
 
@@ -45,7 +43,7 @@ U kunt een algemene resource maken en deze aan een of meer taken in een project 
 
 1.  Op het planbord wordt deze resource op het tabblad **Vereisten openen** weergegeven. U moet mogelijk kolomfilters in het raster gebruiken als u veel open vereisten hebt. 
 
-    ![Het tabblad Vereisten openen op het planbord](media/FAQ-Project-Booking-Schedule-Board-1.png "Schermafbeelding van tabel met boekingen en toewijzingen")
+    ![Het tabblad Vereisten openen op het planbord.](media/FAQ-Project-Booking-Schedule-Board-1.png "Schermopname van tabel met boekingen en toewijzingen")
 
 2. Selecteer de vereiste. Het tabblad **Beschikbaarheid zoeken** wordt weergegeven boven aan de geselecteerde rij.
  
@@ -55,7 +53,7 @@ U kunt een algemene resource maken en deze aan een of meer taken in een project 
 
     Wanneer u **Boeken** selecteert, wordt de resource voor het projectteam geboekt.
 
-![Het deelvenster Resourceboeking maken](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Het deelvenster Resourceboeking maken.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Boeken vanuit de primaire vereiste
@@ -64,7 +62,7 @@ Wanneer u een project in Project Service maakt, wordt er automatisch een resourc
 
 1. Als u een resource met de primaire vereiste wilt boeken, selecteert u in het planbord het tabblad **Project**. Mogelijk moet u het kolomfilter voor de kolom **Project** gebruiken als u veel projecten hebt.
 
-   ![Kolomfilters op het planbord](media/FAQ-Project-Booking-Schedule-Board-2.png "Schermafbeelding van tabel met boekingen en toewijzingen")
+   ![Kolomfilters op het planbord.](media/FAQ-Project-Booking-Schedule-Board-2.png "Schermopname van tabel met boekingen en toewijzingen")
 
 2. Selecteer de vereiste die de projectnaam als naam heeft en een duur van nul (0) heeft.
 

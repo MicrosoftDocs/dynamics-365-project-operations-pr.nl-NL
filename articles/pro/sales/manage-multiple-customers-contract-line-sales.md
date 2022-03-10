@@ -2,18 +2,16 @@
 title: Meerdere klanten in projectgebaseerde contractregels beheren - lite
 description: Dit onderwerp bevat informatie over het beheren van meerdere klanten in projectgebaseerde contractregels.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181598"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001785"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Meerdere klanten in projectgebaseerde contractregels beheren - lite
 
@@ -43,3 +41,6 @@ Hieronder staan de velden van het klantrecord op de **Contractregel** van een pr
 Percentages voor factureringssplitsing kunnen worden bewerkt in het raster. Als de percentages voor factureringssplitsing niet in totaal 100 procent bedragen, krijgt u een foutmelding. Nadat u de percentages voor factureringssplitsing hebt bewerkt, vernieuwt u de pagina om de fout te sluiten.
 
 U kunt ook **Evenredig verdelen** selecteren in het subraster van de contractregelklant. Met deze actie worden factureringssplitsingen gelijkmatig toegewezen aan alle contractregelklanten. Als er een afrondingsfactor is, wordt deze bij de afrondingsklant opgeteld. Eén klant met een contractregel wordt altijd aangeduid als de **Afrondingsklant** met de vlag **Afronding** ingesteld op **Ja**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

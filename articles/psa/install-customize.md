@@ -2,8 +2,6 @@
 title: Installeren en aanpassen
 description: Informatie over installeren en aanpassen van Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9d482a4e38009f371b877599bc7559bc0e21b9acf57b175081c8618236163585
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284307"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985338"
 ---
 # <a name="install-and-customize-project-service"></a>Installeren en aanpassen (Project Service)
 
@@ -34,20 +32,20 @@ Mogelijkheden van [!INCLUDE[pn_project_service_auto](../includes/pn-project-serv
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Project Service installeren  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] is een voorkeursoplossing. Er zijn verschillende manieren om de oplossing te kopen. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Uw organisatie en gebruikers toevoegen](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] is een voorkeursoplossing. Er zijn verschillende manieren om de oplossing te kopen. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Uw organisatie en gebruikers toevoegen](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Rapporten en formulieren in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] aanpassen  
  Als u een formulier, dashboard of rapport van [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] wilt aanpassen, vindt u meer informatie via de volgende koppelingen:  
   
-- [Aan de slag met het maken en aanpassen van apps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Aan de slag met het maken en aanpassen van apps](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Formulieren maken en ontwerpen](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Formulieren maken en ontwerpen](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Dashboards maken en bewerken](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Dashboards maken en bewerken](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Processen maken en bewerken](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Processen maken en bewerken](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Inleiding tot rapportage en analyse](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Inleiding tot rapportage en analyse](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Zie ook  
  [Beheerdershandleiding](../psa/admin-guide.md)   

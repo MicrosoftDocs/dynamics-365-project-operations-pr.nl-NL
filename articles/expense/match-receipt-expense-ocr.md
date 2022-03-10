@@ -1,12 +1,10 @@
 ---
-title: Een betalingsbewijs matchen met onkosten met behulp van OCR
+title: Een betalingsbewijs vastleggen via OCR
 description: Dit onderwerp bevat informatie over de OCR-verwerking (optische tekenherkenning) voor betalingsbewijzen.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,14 +13,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074529"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798034"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Een betalingsbewijs matchen met onkosten met behulp van OCR
+# <a name="capture-a-receipt-using-ocr"></a>Een betalingsbewijs vastleggen via OCR
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
@@ -87,10 +85,24 @@ Nee, Microsoft heeft een algemeen Machine Learning-model gebouwd voor zijn servi
 
 **Waar is deze functie beschikbaar en waar vindt de gegevensverwerking plaats?**
 
-Momenteel worden de Verenigde Staten ondersteund.
+De beschikbaarheid van deze functie in verschillende regio's wordt vermeld in de onderstaande tabel. Als uw regio momenteel niet wordt ondersteund, dient u een verzoek in om prioriteit te geven aan de beschikbaarheid van de OCR-service in uw regio. 
+
+| Regio | Ondersteund                         |
+|--------|-----------------------------------|
+| USA    | Ja                               |
+| CAN    | Ja                               |
+| VK     | Ja                               |
+| AUS    | Ja                               |
+| EU     | Gedeeltelijk. Alleen Engelse betalingsbewijzen. |
+| Azië   | No                                |
+| Japan  | No                                |
+| Afrika | No                                |
 
 **Waar gaan mijn betalingsbewijzen naartoe?**
 
 Finance neemt contact op met Cognitive Services om de veldgegevens te extraheren. Cognitive Services bewaart gedurende maximaal 24 uur een kopie van uw betalingsbewijs terwijl de verwerking plaatsvindt. Nadat de verwerking is voltooid, verwijdert Cognitive Services het betalingsbewijs. Betalingsbewijzen worden nog steeds opgeslagen in Finance.
 
 Zie [Het begrijpen van betalingsbewijzen mogelijk maken met de nieuwe mogelijkheid van Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

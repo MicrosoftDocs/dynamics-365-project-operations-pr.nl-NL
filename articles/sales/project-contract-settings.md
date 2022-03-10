@@ -2,20 +2,18 @@
 title: Instellingen voor projectcontracten
 description: Dit onderwerp bevat informatie over de velden die van invloed zijn op contractregels en informatie over het contract die is samengevat voor alle regelitems.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f34d6c6b92f164cc95405147356c34bb03eb127284aba7a92712b8eec42d792f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277602"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996295"
 ---
-# <a name="project-contract-settings"></a>Instellingen voor projectcontracten
+# <a name="header-details-for-project-based-contracts"></a>Koptekstdetails voor projectgebaseerde contracten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 

@@ -2,18 +2,16 @@
 title: Een schatting importeren in een projectgebaseerde contractregel
 description: Dit onderwerp bevat informatie over het importeren van schattingen uit een project naar een contractregel.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ea513ca8126eadbf563f3c6cb3e966f81703ae805d12881f865cdc1dd77e191d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278367"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990085"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Een schatting importeren in een projectgebaseerde contractregel
 

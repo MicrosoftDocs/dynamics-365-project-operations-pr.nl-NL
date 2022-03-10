@@ -2,18 +2,16 @@
 title: Boekingen bewerken
 description: Dit onderwerp biedt informatie over het bijwerken en wijzigen van boekingen.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4960792358194d071ba7a34c87b74fe2ce4457fd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279627"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008310"
 ---
 # <a name="edit-bookings"></a>Boekingen bewerken
 

@@ -2,18 +2,16 @@
 title: Projectgebaseerde prijsopgaven kopiëren
 description: Dit onderwerp bevat informatie over hoe u projectgebaseerde prijsopgaven kopieert naar Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4074441"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992155"
 ---
 # <a name="copy-project-based-quotes"></a>Projectgebaseerde prijsopgaven kopiëren
 
@@ -25,7 +23,7 @@ U kunt eenvoudig een nieuwe projectprijsopgave maken door een bestaande te kopi�
 
 Hierdoor wordt een dialoogvenster geopend waar u de parameters van de kopie kunt invoeren. De volgende tabel beschrijft de velden in het dialoogvenster. Afhankelijk van de waarden die u selecteert, kan het kopieerproces veranderen.
 
-| **Veld** | **Relevantie, doel en richtlijnen** | **Downstreamimpact** |
+| **Veld** | **Beschrijving** | **Downstreamimpact** |
 | --- | --- | --- |
 | Onderwerp | Voer het relevante onderwerp of naam van de doelprijsopgave in. Wanneer het dialoogvenster wordt geopend, bevatten de instellingen het onderwerp van de bronprijsopgave met **-kopie** eraan toegevoegd. | |
 | Potentiële klant | Verwijzing naar het bedrijf of de accountrecord van de klant. Wanneer het dialoogvenster wordt geopend, bevatten de instellingen het account op de bronprijsopgave. | Dit veld is de primaire klant op de prijsopgave. |
@@ -45,3 +43,6 @@ Wanneer u **OK** selecteert in het dialoogvenster, wordt een kopie van de projec
 > - Projectreferentie - projectgebaseerde prijsopgaveregels - budgetinformatie van de klant
 >
 >Omdat deze informatie heel specifiek is voor elke prijsopgave, worden deze velden en records niet gekopieerd. Prijsopgaveregels voor projecten en producten, schattingen op prijsopgaveregeldetails en niet-overschrijdingswaarden op prijsopgaveniveau worden gekopieerd. Standaardinstellingen voor prijzen en kosten zijn afhankelijk van de selectie van de optie **Prijzen kopiëren** in het dialoogvenster **Parameters kopiëren**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

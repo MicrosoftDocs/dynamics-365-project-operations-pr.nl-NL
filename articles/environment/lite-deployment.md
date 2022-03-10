@@ -2,18 +2,16 @@
 title: Project Operations implementeren - lite
 description: In dit onderwerp vindt u informatie over hoe u de implementatie met Project Operations Lite installeert, van deal tot pro-formafacturering.
 author: stsporen
-manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950258"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991570"
 ---
 # <a name="deploy-project-operations---lite"></a>Project Operations implementeren - lite
 

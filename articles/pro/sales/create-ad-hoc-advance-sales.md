@@ -1,23 +1,21 @@
 ---
-title: Een ad-hocvoorschot maken voor een contract - lite
+title: Een ad-hocvoorschot maken voor een contract
 description: Dit onderwerp bevat informatie over het maken van een voorschot op een contract als dat nodig is.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181356"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999130"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Een ad-hocvoorschot maken voor een contract - lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Een ad-hocvoorschot maken voor een contract
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 Microsoft Dynamics 365 Project Operations ondersteunt factureringsscenario's met vooruitbetalingen en voorschotten. Het proces voor het gebruik van **Vooruitbetalingen** in **Project Operations** is vergelijkbaar met contracten met **Voorschotten**. 
 
@@ -39,3 +37,6 @@ Voer de volgende stappen uit om een voorschot aan de klant te factureren.
     | **Factuurstatus** | Dit is een optie-instelling die aangeeft of dit voorschot wordt toegevoegd aan een conceptfactuur voor deze klant. De mogelijke waarden zijn:</br>- **Niet gereed voor facturering**</br>- **Gereed voor facturering** | Wanneer een voorschot of vooruitbetaling is gemarkeerd als **Gereed voor facturering**, wordt het toegevoegd als een regeltijd in een conceptfactuur. Alleen een volledig gefactureerd voorschot kan worden gebruikt om af te stemmen met projectkosten voor de volgende factuurperiode. |
 
 4. Selecteer **Opslaan en sluiten** in het dialoogvenster Snelle invoer om het voorschot of de vooruitbetaling te registreren.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

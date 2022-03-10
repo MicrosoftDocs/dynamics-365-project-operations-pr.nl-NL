@@ -2,12 +2,10 @@
 title: Factureren in Project Service Automation
 description: In dit onderwerp krijgt u informatie over factureren.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5d9fff2d3b26da73e5a236cd8607576439fc1a08
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284262"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985495"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Factureren in Project Service Automation
 
@@ -52,7 +50,7 @@ Volg deze stap om een factuur voor een specifiek projectcontract te maken.
 
 - Open op de lijstpagina **Projectcontracten** een projectcontract en selecteer vervolgens **Factuur maken**.
 
-    ![Projectfacturen maken voor een specifiek projectcontract](media/CreateProjectInvoicesOneByOne.png)
+    ![Projectfacturen maken voor een specifiek projectcontract.](media/CreateProjectInvoicesOneByOne.png)
 
     Er wordt een factuur gegenereerd voor alle transacties voor het geselecteerde projectcontract met de status **Gereed voor facturering**. Deze transacties omvatten tijd, onkosten, mijlpalen en op producten gebaseerde contractregels.
 
@@ -60,7 +58,7 @@ Volg deze stappen om bulksgewijs facturen te maken.
 
 1. Selecteer op de lijstpagina **Projectcontracten** een of meer projectcontracten waarvoor u een factuur moet maken en selecteer vervolgens **Projectfacturen maken**.
 
-    ![Bulksgewijs projectfacturen maken](media/CreateProjectInvoicesBulk.png)
+    ![Bulksgewijs projectfacturen maken.](media/CreateProjectInvoicesBulk.png)
 
     In een waarschuwingsbericht wordt vermeld dat er mogelijk een vertraging is voordat facturen worden gemaakt. Het proces wordt ook weergegeven.
 

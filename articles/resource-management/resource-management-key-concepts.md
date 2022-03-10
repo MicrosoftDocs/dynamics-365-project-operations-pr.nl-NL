@@ -2,18 +2,16 @@
 title: Belangrijke concepten voor resourcebeheer
 description: Dit onderwerp biedt informatie over voorzieningen voor resourcebeheer in Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279492"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994810"
 ---
 # <a name="resource-management-key-concepts"></a>Belangrijke concepten voor resourcebeheer
 

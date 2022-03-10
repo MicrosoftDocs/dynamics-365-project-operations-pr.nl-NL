@@ -2,18 +2,16 @@
 title: Meerdere klanten in projectgebaseerde prijsopgaveregels beheren - lite
 description: Dit onderwerp beschrijft hoe u meerdere klanten kunt beheren op projectgebaseerde prijsopgaveregels.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0fde833ad6b13fc12b733d1aa9f3bba0cfd95b2b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273063"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001695"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Meerdere klanten in projectgebaseerde prijsopgaveregels beheren - lite
 

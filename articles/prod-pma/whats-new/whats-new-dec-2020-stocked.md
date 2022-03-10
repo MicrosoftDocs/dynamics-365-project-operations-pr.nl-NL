@@ -2,19 +2,17 @@
 title: Nieuwe functies van december 2020 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
 description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de release van december 2020 van Project Operations voor scenario's op basis van voorradige artikelen/productieorders.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950213"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008805"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nieuwe of gewijzigde functies in Project Operations, december 2020 voor scenario's op basis van voorradige artikelen/productieorders
 

@@ -2,24 +2,24 @@
 title: Projectcontracten - belangrijke concepten
 description: Dit onderwerp bevat informatie over de belangrijkste concepten van projectcontracten in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175525"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986935"
 ---
-# <a name="project-contracts---key-concepts"></a>Projectcontracten - belangrijke concepten
+# <a name="concepts-unique-to-project-based-contracts"></a>Unieke concepten voor projectgebaseerde contracten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-In dit onderwerp worden de belangrijkste concepten besproken waarvan u op de hoogte moet zijn voordat u projectcontracten gaat gebruiken in Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dit onderwerp bevat belangrijke concepten waarvan u op de hoogte moet zijn voordat u projectcontracten gaat gebruiken in Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Bedrijf dat eigenaar is
 
@@ -86,3 +86,6 @@ Factuurschema's zijn specifiek voor elke contractregel en zijn vereist voor auto
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Wijzigingen ten opzichte van orders in Dynamics 365 Sales
 
 Contracten in Project Operations zijn gebaseerd op orders in Dynamics 365 Sales. Er zijn echter enkele belangrijke afwijkingen en verschillen in functionaliteit. Contracten hebben hun eigen formulier- en UI-elementen, bedrijfsregels, bedrijfslogica in invoegtoepassingen en client-side scripts die ze uniek maken ten opzichte van Orders. Om deze redenen moet u een Sales-order en een Project Operations-contract niet door elkaar gebruiken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

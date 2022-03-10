@@ -2,11 +2,9 @@
 title: Persoonlijke onkosten in een onkostendeclaratie
 description: In dit onderwerp worden de twee methoden uitgelegd voor het verwerken van de persoonlijke onkosten van een werknemer in Microsoft Dynamics 365 Finance.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6b9d4fa0f69b4b0fe4bd1786958d22e5580a321
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 32674bc7987ae9b77a9dce89525d647b6e84b8c50e6035488aafdb6a5dec1642
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960871"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991300"
 ---
 # <a name="personal-expenses-on-an-expense-report"></a>Persoonlijke onkosten in een onkostendeclaratie
 
@@ -33,3 +31,6 @@ Er zijn twee methoden om de persoonlijke onkosten van een werknemer te verwerken
 - **Betaald door bedrijf**: uw organisatie betaalt de volledige factuur van de bedrijfscreditcard en schrijft vervolgens de persoonlijke onkosten van de rekening van de werknemer af.
 
 U kunt de methode selecteren die uw organisatie gebruikt op de pagina **Parameters onkostenbeheer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

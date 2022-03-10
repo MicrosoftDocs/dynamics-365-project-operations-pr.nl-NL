@@ -2,8 +2,6 @@
 title: Werk plannen in Microsoft Project met de invoegtoepassing Project Service
 description: Dit onderwerp bevat informatie over het gebruik van de Microsoft project-invoegtoepassing voor Microsoft Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 01/07/2021
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145937"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993865"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Werk plannen in Microsoft Project met de invoegtoepassing Project Service
 
@@ -242,3 +240,6 @@ In de volgende tabel wordt beschreven hoe entiteitsgegevens voor projecttaakafha
 
 ### <a name="additional-resources"></a>Aanvullende bronnen
  [Projectmanager-handleiding](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

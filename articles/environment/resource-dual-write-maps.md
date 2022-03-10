@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025768"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547103"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Toewijzingsversies van twee keer wegschrijven voor Project Operations
 
@@ -32,7 +32,7 @@ De volgende kaarten zijn vereisten voor de Project Operations-oplossing. Zorg er
 
 1. Selecteer in de lijst met toewijzingen de toewijzing **(msdyn\_ledgers)** met alle vereisten en schakel het selectievakje **Initiële synchronisatie** in. Selecteer in het veld **Model voor initiële synchronisatie** de optie **Finance and Operations-apps** voor zowel grootboekkaarten als alle vereiste kaarten. Selecteer **Uitvoeren**.
 
-![Synchronisatie van grootboektoewijzing](media/DW6.png)
+![Synchronisatie van grootboektoewijzing.](media/DW6.png)
 
 2. Volg dezelfde stappen voor alle resterende tabeltoewijzingen die in de bovenstaande tabel worden vermeld. Schakel het selectievakje **Initiële synchronisatie** niet in bij het uitvoeren van die kaarten.
 
@@ -49,8 +49,8 @@ De volgende kaarten zijn vereist voor een Project Operations-oplossing. Toewijzi
 | Project Operations-integratietabel voor materiaalschattingen (msdyn\_estimatelines) | 1.0.0.0 | Niet vereist voor inrichting. |
 | Projectfactuurvoorstellen V2 (facturen) | 1.0.0.3 | Niet vereist voor inrichting. |
 | Werkelijke waarden voor integratie van Project Operations (msdyn_actuals) | 1.0.0.14 | Niet vereist voor inrichting. |
-| Mijlpalen voor de contractregel van Project Operations-integratie (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Niet vereist voor inrichting. |
-| Entiteit voor onkostenramingen van Project Operations-integratie (msdyn_estimateslines) | 1.0.0.2 | Niet vereist voor inrichting. |
+| Mijlpalen voor projectcontractregels voor Project Operations-integratie (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Niet vereist voor inrichting. |
+| Project Operations-integratie-entiteit voor onkostenschattingen (msdyn_estimatelines) | 1.0.0.2 | Niet vereist voor inrichting. |
 | Entiteit voor tijdramingen van Project Operations-integratie (msdyn_resourceassignments) | 1.0.0.5 | Niet vereist voor inrichting. |
 | Entiteit voor exporteren van categorieën met projectonkosten voor Project Operations-integratie (msdyn_expensecategories) | 1.0.0.1 | Niet vereist voor inrichting. |
 | Entiteit voor exporteren van projectkosten voor Project Operations-integratie (msdyn_expenses) | 1.0.0.2 | Niet vereist voor inrichting. |
@@ -65,7 +65,7 @@ Voer de volgende stappen uit om de weergegeven kaarten uit te voeren.
 
 1. Schakel de Project-resourcerollen in voor de tabeltoewijzing **alle bedrijven (bookableresourcecategories)** aangezien deze map de initiële synchronisatie vereist. Selecteer in het veld **Model voor initiële synchronisatie** het veld **Common Data Service**. 
 
- ![Synchronisatie van de tabeltoewijzing voor resourcerollen](media/6ResourceInitialSync.jpg)
+ ![Synchronisatie van de tabeltoewijzing voor resourcerollen.](media/6ResourceInitialSync.jpg)
 
  Wacht tot de status van de kaart **Actief** is voordat u naar de volgende stap gaat.
 

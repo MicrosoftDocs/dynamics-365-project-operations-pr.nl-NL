@@ -2,11 +2,9 @@
 title: Parameters onkostenbeheer
 description: Met de volgende parameters wordt het gedrag in Onkostenbeheer bepaald.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 454d3f6feb46b28762a6a1249df2336f1aa5e91a
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 2ef48f844656ff5197ae1731fb3f9bdf91a1a906b16f35bb2124469743a9e954
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960376"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991345"
 ---
 # <a name="expense-management-parameters"></a>Parameters onkostenbeheer
 
@@ -89,3 +87,6 @@ Met de parameters wordt het algemene gedrag in Onkostenbeheer bepaald.
 | <strong>Anti-corruptiebericht voor indiener</strong> |                                                                                             Voer de tekst in die aan de werknemer wordt getoond bij het maken van een nieuwe onkostendeclaratie. Klik op de knop <strong>Vertalingen</strong> om taalspecifieke tekst in te voeren die wordt weergegeven op basis van de gebruikerstaal.                                                                                             |
 | <strong>Anti-corruptiebericht voor fiatteur</strong>  |                                                                                             Voer de tekst in die aan de fiatteur wordt getoond bij het maken van een nieuwe onkostendeclaratie. Klik op de knop <strong>Vertalingen</strong> om taalspecifieke tekst in te voeren die wordt weergegeven op basis van de gebruikerstaal.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

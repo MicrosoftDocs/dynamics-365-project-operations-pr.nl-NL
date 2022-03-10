@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369370"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005385"
 ---
 # <a name="intercompany-invoicing-overview"></a>Overzicht van intercompany-facturering
 
@@ -22,7 +22,7 @@ Uw organisatie heeft mogelijk meerdere divisies, dochterondernemingen en andere 
 
 De volgende afbeelding toont een typisch scenario waarin twee rechtspersonen, Contoso Robotics USA (de lenende rechtspersoon) en Contoso Robotics UK (de uitlenende rechtspersoon) resources deelt om een project voor de klant, Adventure Works, te leveren. Voor dit scenario is Contoso Robotics USA gecontracteerd om het werk te leveren aan Adventure Works.
 
-![Intercompany-facturering](./media/IntercompanyScenario.png) 
+![Intercompany-facturering.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations gebruikt de volgende stroom om intercompany-transacties te verwerken:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations gebruikt de volgende stroom om intercompany-tran
 
 Het volgende diagram illustreert de intercompany-facturering in relatie tot boekhoudkundige gebeurtenissen en verwachte boekingen naar het grootboek.
 
-![Intercompany-stroom](./media/IntercompanyFlow.png)
+![Intercompany-stroom.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

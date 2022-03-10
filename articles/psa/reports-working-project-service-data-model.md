@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008800"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002415"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Werken met het gegevensmodel van Project Service Automation
 
@@ -53,7 +53,7 @@ PSA voegt ook nieuwe aan prijsopgaven gerelateerde entiteiten toe aan het Dynami
 
 Andere entiteiten die PSA aan prijsopgaven toevoegt, zijn **Prijslijst voor projecten van prijsopgaveregel**, **Resourcecategorie voor prijsopgaveregels** en **Transactiecategorie voor prijsopgaveregels**.
 
-![Diagram met prijsopgave, prijsopgaveregel en projectrelaties](media/PS-Reporting-image2.png "Diagram met prijsopgave, prijsopgaveregel en projectrelaties")
+![Diagram met prijsopgave, prijsopgaveregel en projectrelaties.](media/PS-Reporting-image2.png "Diagram met prijsopgave, prijsopgaveregel en projectrelaties")
 
 ## <a name="reporting-on-project-contracts"></a>Rapporteren over projectcontracten
 
@@ -69,7 +69,7 @@ PSA voegt ook nieuwe entiteiten toe die zijn ontworpen voor projectcontracten. H
 
 Andere entiteiten die PSA aan contracten toevoegt, zijn **Prijslijst voor projecten van projectcontractregels**, **Resourcecategorie voor projectcontractregels** en **Transactiecategorie voor projectcontractregels**.
 
-![Diagram met order, orderregel en projectrelaties](media/PS-Reporting-image3.png "Diagram met order, orderregel en projectrelaties")
+![Diagram met order, orderregel en projectrelaties.](media/PS-Reporting-image3.png "Diagram met order, orderregel en projectrelaties")
 
 ## <a name="reporting-on-projects"></a>Rapporteren over projecten
 
@@ -81,7 +81,7 @@ De entiteit **Projecten** en de gerelateerde entiteiten worden alleen in PSA geb
 - **Resourcevereiste**: deze entiteit bevat de vereisten voor alle algemene leden van het resourceteam.
 - **Schattingen** en **Schattingsregel**: deze entiteiten hebben een koptekst/regelrelatie en bevatten onkostenschattingen voor het project. Taakschattingen worden opgeslagen in de entiteit **Resourceschatting**.
 
-![Diagram met resourcevereiste en projectrelaties](media/PS-Reporting-image4.png "Diagram met resourcevereiste en projectrelaties")
+![Diagram met resourcevereiste en projectrelaties.](media/PS-Reporting-image4.png "Diagram met resourcevereiste en projectrelaties")
 
 ## <a name="reporting-on-resources"></a>Rapporteren over resources
 
@@ -92,7 +92,7 @@ Projectresources gebruiken de entiteiten voor **Boekbare resources** uit Univers
 - **Categorie van boekbare resources**: deze entiteit vertegenwoordigt de rol van de boekbare resource.
 - **Boekingen van boekbare resources**: deze entiteit vertegenwoordigt de tijd die is geboekt voor projecten voor de resource. Elke boeking heeft zowel een koptekstentiteit als regelentiteiten en elke regel heeft een status die de status van de boeking vertegenwoordigt.
 
-![Diagram met eigenschappen van boekbare resources en relaties](media/PS-Reporting-image5.png "Diagram met eigenschappen van boekbare resources en relaties")
+![Diagram met eigenschappen van boekbare resources en relaties.](media/PS-Reporting-image5.png "Diagram met eigenschappen van boekbare resources en relaties")
 
 ## <a name="reporting-on-actual-transactions"></a>Rapporteren over werkelijke transacties
 
@@ -120,7 +120,7 @@ Wanneer u met de entiteit **Werkelijke waarde** werkt, is het belangrijk dat u b
 
 In de entiteitsrecords **Transactieoorsprong** wordt de oorsprong van de record **Werkelijke waarde** vastgelegd en in de record **Transactieverbinding** de gerelateerde records voor de record **Werkelijke waarde**. Bovendien bevat de record **Werkelijke waarde** verwijzingen naar het project, het projectcontract (de order), de boekbare resource en de klant.
 
-![Diagram met transactieverbinding, oorsprong en werkelijke relaties](media/PS-Reporting-image6.png "Diagram met transactieverbinding, oorsprong en werkelijke relaties")
+![Diagram met transactieverbinding, oorsprong en werkelijke relaties.](media/PS-Reporting-image6.png "Diagram met transactieverbinding, oorsprong en werkelijke relaties")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

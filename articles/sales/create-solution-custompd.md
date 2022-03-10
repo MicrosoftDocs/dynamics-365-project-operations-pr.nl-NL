@@ -2,18 +2,16 @@
 title: Een oplossing maken voor aangepaste prijsdimensies
 description: Dit onderwerp bevat informatie over het maken van oplossingen voor aangepaste prijsdimensies.
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3e3f688b0147974ef252a0ee00be20c4669d7165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278412"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992200"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Een oplossing maken voor aangepaste prijsdimensies
 
@@ -28,7 +26,7 @@ ms.locfileid: "5278412"
 2.  Noem de oplossing *prijsdimensies <your organization name>*.
 3. Geef de overige vereiste gegevens op en selecteer vervolgens **Opslaan**.
 
-  ![Oplossing maken voor aangepaste prijsdimensies](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Oplossing maken voor aangepaste prijsdimensies.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Alle vereiste entiteiten en gerelateerde onderdelen toevoegen aan de oplossing Prijsdimensie
 
@@ -51,19 +49,19 @@ Voeg de volgende Project Service-entiteiten toe aan uw prijsoplossing om belangr
    - **Rolprijs**
    - **Tijdsvermelding**
  
-   ![Aangepaste oplossing voor prijsdimensies voor bestaande entiteiten toevoegen](./media/Existing-entities-to-PD-solution.png)
+   ![Aangepaste oplossing voor prijsdimensies voor bestaande entiteiten toevoegen.](./media/Existing-entities-to-PD-solution.png)
  
  4. Bekijk voor elke entiteit de componenten die worden toegevoegd en de definitieve lijst met entiteitsactiva voor elke entiteit. 
 
    >[!NOTE]
    > Neem alle formulieren en weergaven voor elk van de geselecteerde entiteiten op.
 
-  ![Toegevoegde entiteiten](./media/solution-component-selection.png)
+  ![Toegevoegde entiteiten.](./media/solution-component-selection.png)
 
 
 5.  Wanneer u wordt gevraagd om afhankelijke entiteiten voor de geselecteerde entiteiten op te nemen, selecteert u **Nee, neem geen vereiste componenten op.**
 
-    ![Inclusief afhankelijke entiteiten](./media/Do-not-include-required.png)
+    ![Inclusief afhankelijke entiteiten.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
