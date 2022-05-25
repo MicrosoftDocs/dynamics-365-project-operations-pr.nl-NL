@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Nieuwe functies
       items:
+        - name: Mei 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: April 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Maart 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Februari 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: December 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: November 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
+            - name: Organisatie-eenheden
+              href: sales/OrgUnits.md
         - name: Potentiële klanten voor project beheren
           href: sales/manage-leads.md
         - name: Projectverkoopkansen beheren
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Arbeidsinkomsten bijhouden voor projecten
               href: project-management/project-sales-tracking.md
-            - name: Schatting bij voltooiing bijwerken
-              href: project-management/update-completed-estimate.md
         - name: Projectteamleden
           items:
             - name: Overzicht van projectteamleden
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: API's voor projectplanning gebruiken
               href: project-management/schedule-api-preview.md
+            - name: API's voor projectplanning gebruiken met Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Prestaties van API's voor projectplanning
               href: project-management/project-schedule-api-performance.md
             - name: Logboeken voor projectplanning
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Voorschot
           href: expense/cash-advance.md
-        - name: Dagvergoedingen
-          href: expense/per-diems.md
+        - name: Onkosten per dag
+          href: expense/per-diem-expenses.md
         - name: Mobiele onkosten-app
           href: expense/expense-using-mobile.md
         - name: Financieel beheer
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Goedkeuringssets
           href: approvals/approval-sets.md
+        - name: Goedkeuring voor eerder goedgekeurde vermeldingen annuleren
+          href: approvals/cancelapproval.md
+        - name: Eerder goedgekeurde vermeldingen intrekken
+          href: approvals/recall-cancel.md
         - name: Opmerkingen van de ontwikkelaar
           items:
             - name: Opmerkingen van de ontwikkelaar voor goedkeuringen
               href: approvals/dev-notes-approvals.md
     - name: Werkelijke waarden
       items:
+        - name: Zakelijke transacties in Project Operations
+          href: actuals/businesstransactions.md
         - name: Overzicht van werkelijke waarden
           href: actuals/actuals-overview.md
-        - name: Werkelijke waarden koppelen aan oorspronkelijke records
+        - name: Oorsprongen van transactie - Werkelijke waarden aan bron koppelen
           href: actuals/linkingactuals.md
-        - name: Correctiejournalen
+        - name: Transactieverbindingen - Werkelijke waarden van verschillende transactietypen koppelen
+          href: actuals/connectingactuals.md
+        - name: Dagboeken
           items:
-            - name: Correctiejournalen maken en bevestigen
+            - name: Invoerdagboeken maken en bevestigen
+              href: actuals/create-confirm-entry-journals.md
+            - name: Correctiedagboeken maken en bevestigen
               href: actuals/create-confirm-correction-journals.md
     - name: Inkoop
       items:
         - name: Niet-voorradige materialen en in behandeling zijnde leveranciersfacturen configureren
           href: procurement/configure-materials-nonstocked.md
-        - name: Niet-voorradige materialen voor projecten aanschaffen via in behandeling zijnde leveranciersfacturen
+        - name: Inkoopcategorieën voor projecten configureren
+          href: procurement/configure-procurement-categories.md
+        - name: Goederen en diensten aanschaffen voor projecten via in behandeling zijnde leveranciersfacturen
           href: procurement/pending-vendor-invoices.md
-        - name: Niet-voorradige materialen bestellen voor projecten met behulp van projectinkooporders
+        - name: Goederen en diensten bestellen voor projecten met behulp van projectinkooporders
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Leveranciersretentie
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Omzetschattingen beheren
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Geavanceerde configuratie
+      items:
+        - name: Volledig gefactureerde factureringsmijlpalen migreren tijdens cutover
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Upgraden
+      items:
+        - name: Overwegingen bij upgraden voor Moderne goedkeuringen
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations-apps
+      items:
+        - name: Project Operations-app voor teamleden
+          href: team-member/project-operations-team-member.md
     - name: Probleemoplossing
       items:
         - name: Verkoopproces voor project
@@ -562,6 +596,14 @@
       items:
         - name: Nieuw in versie voor vroege toegang van wave 2 voor 2021 - lite-implementatie
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Nieuw in mei 2022 - lite-implementatie
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Nieuw in april 2022 - lite-implementatie
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Nieuw in maart 2022 - lite-implementatie
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Nieuw in februari 2022 - lite-implementatie
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Nieuw in december 2021 - lite-implementatie
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Nieuw in november 2021 - lite-implementatie
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Valuta
               href: sales/sales-currency.md
+            - name: Organisatie-eenheden
+              href: sales/OrgUnits.md
         - name: Potentiële klanten voor project beheren
           href: pro/sales/managing-leads-sales.md
         - name: Projectverkoopkansen beheren
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Arbeidsinkomsten bijhouden voor projecten
               href: project-management/project-sales-tracking.md
-            - name: Schatting bij voltooiing bijwerken
-              href: project-management/update-completed-estimate.md
         - name: Projectteamleden
           items:
             - name: Overzicht van projectteamleden
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: API's voor projectplanning gebruiken
               href: project-management/schedule-api-preview.md
+            - name: API's voor projectplanning gebruiken met Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Prestaties van API's voor projectplanning
               href: project-management/project-schedule-api-performance.md
     - name: Resourcebeheer
@@ -886,44 +930,64 @@
           items:
             - name: Overzicht van bestede uren van resource
               href: resource-management/resource-utilization-overview.md
-    - name: Onderaannemingsbeheer in Project Operations
+    - name: Subcontractbeheer
       items:
-        - name: Onderaannemingsbeheer in Project Operations
+        - name: Subcontractbeheer in Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Onderaanneming in versie voor vroege toegang van oktober 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Belangrijke concepten bij onderaanneming
+        - name: Belangrijke concepten bij gebruik van subcontracten
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Leveranciers en projectprijslijsten beheren
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Onderaannemers als boekbare resources
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Koptekstdetails voor onderaanneming
+        - name: Koptekstdetails voor subcontracten
           href: pro/subcontracting/subcontract-header-details.md
-        - name: Onderaannemingsregels voor tijd
+        - name: Subcontractregels voor tijd
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Onderaannemingsregels voor onkostencategorieën
+        - name: Subcontractregels voor onkostencategorieën
           href: pro/subcontracting/subcontract-line-expense.md
-        - name: Onderaannemingsregels voor producten
+        - name: Subcontractregels voor producten
           href: pro/subcontracting/subcontract-line-products.md
-        - name: Resources voor onderaannemingsregels
+        - name: Resources voor subcontractregels
           href: pro/subcontracting/subcontract-line-resources.md
-        - name: Mijlpalen voor onderaannemingsregels
+        - name: Mijlpalen voor subcontractregels
           href: pro/subcontracting/subcontract-line-milestones.md
-        - name: Onderaanneming van projectteamleden
+        - name: Subcontracten gebruiken voor projectteamleden
           href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Onderaannemingsopties van projectteamleden
+        - name: Opties voor het gebruiken van subcontracten voor projectteamleden
           href: pro/subcontracting/subcon-options.md
-        - name: Kostenraming van resourcetoewijzingen voor onderaanneming
+        - name: Kostenraming van resourcetoewijzingen voor subcontracten
           href: pro/subcontracting/costing-subcon-ra.md
-        - name: Planbord configureren om contractmedewerkers en onderaannemingscapaciteit weer te geven
+        - name: Planbord configureren om contractmedewerkers en subcontractcapaciteit weer te geven
           href: pro/subcontracting/configure-sb-subcon.md
-        - name: Een project bemannen met contractmedewerkers en onderaannemingscapaciteit
+        - name: Een project bemannen met contractmedewerkers en subcontractcapaciteit
           href: pro/subcontracting/staffing-cw.md
-        - name: 'Registratie van tijd, kosten en materiaalgebruik voor onderaannemingscomponenten'
+        - name: 'Registratie van tijd, kosten en materiaalgebruik voor subcontractonderdelen'
           href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Statusovergangen op een onderaannemingsconttract
+        - name: Statusovergangen op een subcontract
           href: pro/subcontracting/subcon-states.md
+    - name: Projectleveranciersfacturen
+      items:
+        - name: Leveranciersfacturering - Concept en creatie
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Koptekstdetails voor leveranciersfacturen
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Leveranciersfactuurregels voor tijd
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Leveranciersfactuurregels voor producten
+          href: pro/subcontracting/vi-line-material.md
+        - name: Leveranciersfactuurregels voor mijlpalen
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Leveranciersfactuurregels voor onkostencategorieën
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Verificatie van leveranciersfacturen met goedgekeurde werkelijke waarden
+          href: pro/subcontracting/VI-Verification.md
+        - name: Een projectleveranciersfactuur annuleren
+          href: pro/subcontracting/cancel-vi.md
+        - name: Een projectleveranciersfactuur bevestigen
+          href: pro/subcontracting/confirm-vi.md
+        - name: Statusovergangen op een leveranciersfactuur
+          href: pro/subcontracting/vi-state-model.md
     - name: Tijd
       items:
         - name: Overzicht van tijd
@@ -952,19 +1016,29 @@
           href: approvals/approvals-overview.md
         - name: Goedkeuringssets
           href: approvals/approval-sets.md
+        - name: Goedkeuring voor eerder goedgekeurde vermeldingen annuleren
+          href: approvals/cancelapproval.md
+        - name: Eerder goedgekeurde vermeldingen intrekken
+          href: approvals/recall-cancel.md
         - name: Opmerkingen van de ontwikkelaar
           items:
             - name: Opmerkingen van de ontwikkelaar voor goedkeuringen
               href: approvals/dev-notes-approvals.md
     - name: Werkelijke waarden
       items:
+        - name: Zakelijke transacties in Project Operations
+          href: actuals/businesstransactions.md
         - name: Overzicht van werkelijke waarden
           href: actuals/actuals-overview.md
-        - name: Werkelijke waarden koppelen aan oorspronkelijke records
+        - name: Oorsprongen van transactie - Werkelijke waarden aan bron koppelen
           href: actuals/linkingactuals.md
-        - name: Correctiejournalen
+        - name: Transactieverbindingen - Werkelijke waarden van verschillende transactietypen koppelen
+          href: actuals/connectingactuals.md
+        - name: Dagboeken
           items:
-            - name: Correctiejournalen maken en bevestigen
+            - name: Invoerdagboeken maken en bevestigen
+              href: actuals/create-confirm-entry-journals.md
+            - name: Correctiedagboeken maken en bevestigen
               href: actuals/create-confirm-correction-journals.md
     - name: Pro-formafacturering
       items:
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Automatisering van projectfactuur configureren
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Upgraden
+      items:
+        - name: Overwegingen bij upgraden voor Moderne goedkeuringen
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations-apps
+      items:
+        - name: Project Operations-app voor teamleden
+          href: team-member/project-operations-team-member.md
 - name: Project Operations voor scenario's op basis van voorradige artikelen/productieorders
   items:
     - name: Nieuwe functies
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Overzicht van projectbeheer en financiële administratie
       href: prod-pma/overview-project-management-accounting.md
-    - name: Intercompany-facturering
-      href: prod-pma/intercompany-invoicing.md
-    - name: Intercompany-projectfacturering configureren
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Standaardkosten voor arbeid en onkosten configureren
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Inhoudingstermijnen voor leveranciersbetalingen maken en toepassen
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Betalen bij betaling instellen en gebruiken voor leveranciersbetalingen
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Toerekening van inkoopontvangsten aan projectkosten
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Projectfacturering
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Prestaties van projectfactuurvoorstellen
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Projectcontracten
-      href: prod-pma/project-contracts.md
-    - name: Geavanceerde contracten maken voor facturering op basis van voortgang
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Projectprognoses en -budgetten
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Prognosemodellen voor projectbudgetten maken
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Projectbudgetten transporteren aan het einde van het fiscale jaar
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Verkooporders voor een project
-      href: prod-pma/project-sales-orders.md
-    - name: Inkooporders voor een project
-      href: prod-pma/project-purchase-orders.md
-    - name: Projectoffertes
-      href: prod-pma/project-quotations.md
-    - name: 'Een projectofferte bevestigen, bijwerken en verzenden'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Een offerte overbrengen naar een project
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Projectbronnen
+    - name: Verkoopproces voor project
+      items:
+        - name: Projectoffertes
+          href: prod-pma/project-quotations.md
+        - name: 'Een projectofferte bevestigen, bijwerken en verzenden'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Een offerte overbrengen naar een project
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Projectcontracten
+          href: prod-pma/project-contracts.md
+        - name: Projectsubsidies
+          href: prod-pma/project-grants.md
+    - name: Prijzen en kosten berekenen
+      items:
+        - name: Standaardkosten voor arbeid en onkosten configureren
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Projectbeheer
+      items:
+        - name: Overzicht van structuren voor werkspecificatie
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client-integratie
+          href: prod-pma/project-integration.md
+        - name: Overzicht van Mobiele Project-toepassingen
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Tijdinvoer voor project voor mobiel werkgebied
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Mobiele app voor Project Timesheet
+          href: prod-pma/project-timesheet.md
+        - name: Project Timesheets op een mobiel apparaat
+          href: prod-pma/mobile-timesheets.md
+        - name: Aangepaste velden voor de mobiele app Project Timesheet implementeren
+          href: prod-pma/custom-fields-mobile.md
+    - name: Resourcebeheer
       items:
         - name: Overzicht van toewijzing van projectresources
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Resourcevoorziening voor geplande resources
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Artikelen ontvangen op een inkooporder vanuit een artikelbehoefte
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Structuren voor werkspecificatie
+    - name: Projectbudgetten en -prognoses
       items:
-        - name: Overzicht van structuren voor werkspecificatie
-          href: prod-pma/work-breakdown-structures.md
-        - name: Microsoft Project Client-integratie
-          href: prod-pma/project-integration.md
-        - name: Overzicht van Mobiele Project-toepassingen
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Tijdinvoer voor project voor mobiel werkgebied
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Mobiele app voor Project Timesheet
-          href: prod-pma/project-timesheet.md
-        - name: Project Timesheets op een mobiel apparaat
-          href: prod-pma/mobile-timesheets.md
-        - name: Aangepaste velden voor de mobiele app Project Timesheet implementeren
-          href: prod-pma/custom-fields-mobile.md
-    - name: Projectsubsidies
-      href: prod-pma/project-grants.md
-    - name: Een projectraming elimineren
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Projectprognoses en -budgetten
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Prognosemodellen voor projectbudgetten maken
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Projectbudgetten transporteren aan het einde van het fiscale jaar
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Tijd
+      items:
+        - name: Standaard financiële dimensies voor projecttijdsvermeldingen
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Onkosten
+      items:
+        - name: Onkostenoverzicht
+          href: expense/expense-overview.md
+        - name: Nieuwe onkostenervaring
+          items:
+            - name: Opnieuw ontworpen onkostennota's
+              href: expense/expense-reports-reimagined.md
+            - name: Een betalingsbewijs vastleggen via OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Configuratie en installatie
+          items:
+            - name: Beleid instellen
+              href: expense/set-up-policies.md
+            - name: Werkstromen instellen
+              href: expense/set-up-workflows.md
+            - name: Delegering beheren
+              href: expense/manage-delegation.md
+            - name: Parameters voor onkostenbeheer configureren
+              href: expense/configure-expense-management-parameters.md
+            - name: Creditcardintegratie instellen
+              href: expense/set-up-credit-card-integration.md
+            - name: Onkostencategorieën instellen
+              href: expense/set-up-expense-categories.md
+            - name: Kilometerstand instellen met kilometertariefniveaus
+              href: expense/set-up-mileage.md
+        - name: Kostenspecificatie
+          href: prod-exp/expense-itemization.md
+        - name: Persoonlijke onkosten
+          href: expense/personal-expenses-expense-report.md
+        - name: Intercompany-onkosten
+          href: prod-exp/intercompany-expense.md
+        - name: Onkostennota's maken
+          items:
+            - name: Onkosten verdelen in een onkostennota
+              href: expense/distributions-expense-report.md
+        - name: Onkostennota's goedkeuren
+          items:
+            - name: Onkostennota's en meerdere fiatteurs
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Onkostennota's boeken
+          href: expense/posting-expense-reports.md
+        - name: Reiskosten
+          href: expense/travel-requisition.md
+        - name: Voorschot
+          href: expense/cash-advance.md
+        - name: Onkosten per dag
+          href: expense/per-diem-expenses.md
+        - name: Mobiele onkosten-app
+          href: expense/expense-using-mobile.md
+        - name: Financieel beheer
+          items:
+            - name: Btw-afschrijving
+              href: expense/vat-recovery.md
+    - name: Inkoop
+      items:
+        - name: Inkooporders voor een project
+          href: prod-pma/project-purchase-orders.md
+        - name: Toerekening van inkoopontvangsten aan projectkosten
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Artikelen ontvangen op een inkooporder vanuit een artikelbehoefte
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Betalen bij betaling instellen en gebruiken voor leveranciersbetalingen
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Inhoudingstermijnen voor leveranciersbetalingen maken en toepassen
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Projectfacturering
+      items:
+        - name: Projectfacturering
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Prestaties van projectfactuurvoorstellen
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Geavanceerde contracten maken voor facturering op basis van voortgang
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Verkooporders voor een project
+          href: prod-pma/project-sales-orders.md
+        - name: Artikelvereisten voor projectcontracten met meerdere financieringsbronnen
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Intercompany-facturering
+      items:
+        - name: Intercompany-facturering
+          href: prod-pma/intercompany-invoicing.md
+        - name: Intercompany-projectfacturering configureren
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Omzetverantwoording
+      items:
+        - name: Een projectraming elimineren
+          href: prod-pma/eliminate-project-estimate.md
 - name: Onkostenbeheer
   items:
     - name: Overzicht van Onkostenbeheer
@@ -1148,6 +1304,16 @@
       items:
         - name: Updatereleaseschema voor Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 43, V3'
+          href: psa/whats-new-ur43.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 42, V3'
+          href: psa/whats-new-ur-42.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 41, V3'
+          href: psa/whats-new-ur-41.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 40, V3'
+          href: psa/whats-new-ur-40.md
+        - name: 'Nieuwe of gewijzigde functies in Update versie 39, V3'
+          href: psa/whats-new-ur-39.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 38, V3'
           href: psa/whats-new-ur-38.md
         - name: 'Nieuwe of gewijzigde functies in Update versie 37.5, V3'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Upgrade van Project Service Automation naar Project Operations - lite
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Functiewijzigingen van Project Service Automation naar Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: Project Service Automation upgraden (appversie 3.x)
       items:
         - name: Project Service Automation upgraden
