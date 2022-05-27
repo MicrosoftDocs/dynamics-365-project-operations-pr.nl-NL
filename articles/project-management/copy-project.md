@@ -2,16 +2,16 @@
 title: Een project kopiëren
 description: In dit onderwerp krijgt u informatie over het kopiëren van projecten in Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+ms.date: 03/07/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007185"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574424"
 ---
 # <a name="copy-a-project"></a>Een project kopiëren
 
@@ -25,39 +25,47 @@ Met Dynamics 365 Project Operations kunt u snel nieuwe projecten bouwen door **P
 - Projectschattingen
 - Projectonkostenschattingen
 - Materiaalschattingen project
+- Projectchecklijsten
+- Projectbuckets
 
 ## <a name="project-properties"></a>Projecteigenschappen
 
-Wanneer het project wordt gekopieerd, worden de waarden in de volgende velden gekopieerd:
+Wanneer het project wordt gekopieerd, worden de waarden in de volgende velden gekopieerd.
 
-- Meetcriterium
-- Beschrijving
-- Klant
-- Agendasjabloon
-- Valuta
-- Contracterende eenheid
-- Projectmanager
-- Status
-- Algehele projectstatus
-- Opmerkingen 
-- Schattingen
-- Geschatte begindatum: dit is de datum waarop het project op basis van de kopie is gemaakt.
-- Geschatte einddatum: deze datum wordt aangepast op basis van de begindatum van het nieuwe project dat op basis van de kopie is gemaakt.
-- Inspanning (uren)
-- Geschatte arbeidskosten
-- Geschatte onkosten
-- Geschatte materiaalkosten
+| Veld | Niet-voorradige materialen voor Project Operations | Project Operations Lite | Project for the Web |
+|-------|------------------------------------------|-------------------------|---------------------|
+| Name | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Beschrijving | :heavy_check_mark: | :heavy_check_mark: | |
+| klant | :heavy_check_mark: | :heavy_check_mark: | |
+| Agendasjabloon | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Valuta | :heavy_check_mark: | :heavy_check_mark: | |
+| Contracterende eenheid | :heavy_check_mark: | :heavy_check_mark: | |
+| Bedrijf dat eigenaar is | :heavy_check_mark: | | |
+| Projectmanager | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| -Status | :heavy_check_mark: | :heavy_check_mark: | |
+| Algehele projectstatus | :heavy_check_mark: | :heavy_check_mark: | |
+| Opmerkingen  | :heavy_check_mark: | :heavy_check_mark: | |
+| Schattingen | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Geschatte begindatum</p><p><strong>Opmerking:</strong> in dit veld wordt de datum gespecificeerd waarop het project is gemaakt op basis van de kopie. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Geschatte voltooiingsdatum</p><p><strong>Opmerking:</strong> de datum in dit veld wordt aangepast op basis van de begindatum van het nieuwe project dat op basis van de kopie is gemaakt.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| Inspanning (uren) | :heavy_check_mark: | :heavy_check_mark: | |
+| Geschatte arbeidskosten | :heavy_check_mark: | :heavy_check_mark: | |
+| Geschatte onkosten | :heavy_check_mark: | :heavy_check_mark: | |
+| Geschatte materiaalkosten | | :heavy_check_mark: | |
 
 > [!NOTE]
 > Het kopiëren van het project is een langdurige operatie. Projectrecords, de bijbehorende relevante kenmerken en veel gerelateerde entiteiten worden ook gekopieerd. Vanwege de langdurige aard van de bewerking, wordt de doelprojectpagina, nadat het kopiëren is gestart, vergrendeld voor bewerking totdat de kopieerbewerking is voltooid.
 
 ## <a name="work-breakdown-structure"></a>Structuur voor werkspecificatie
 
-Wanneer het project wordt gekopieerd, wordt de volledige voor de resource geladen structuur voor werkspecificatie gekopieerd. Benoemde resources worden vervangen door algemene resource. Als de benoemde resources niet dezelfde werkuren heeft als de algemene resource, wordt de planning opnieuw berekend en kan de duur van de taak veranderen.
+Wanneer het project wordt gekopieerd, wordt de volledige voor de resource geladen structuur voor werkspecificatie gekopieerd. Benoemde resources worden vervangen door algemene resource. Als de benoemde resources niet dezelfde werkuren hebben als de generieke resource, wordt de planning opnieuw berekend en kan de duur van taken veranderen.
 
 ## <a name="project-team-members"></a>Projectteamleden
 
 Wanneer een projectteam wordt gekopieerd uit het bronproject, worden de algemene resources gekopieerd. Algemene resourcetoewijzingen worden ook onderhouden, net zoals in het bronproject. Benoemde resources worden omgezet in algemene teamleden.
+
+> [!NOTE]
+> Teamleden en opdrachten worden niet gekopieerd in Project for the Web.
 
 ## <a name="estimates"></a>Schattingen
 
@@ -65,5 +73,8 @@ Wanneer het project wordt gekopieerd, worden resource-, onkosten- en materiaalra
 
 Zie voor informatie over het programmatisch openen van Project kopiëren [Projectsjablonen ontwikkelen met Project kopiëren](dev-copy-project.md).
 
+## <a name="quotes-and-contracts"></a>Prijsopgaven en contracten
+
+Prijsopgaven en contracten zijn niet gekoppeld aan het bestemmingsproject.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

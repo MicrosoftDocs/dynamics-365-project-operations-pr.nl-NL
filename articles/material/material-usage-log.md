@@ -4,14 +4,14 @@ description: Dit onderwerp biedt informatie over het registreren van materiaalge
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4d8757049953fab0ad8bf6ee1a1d695fcb6df75b1be52641ad4af3b3137d7a0a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 60aed9aa82eeb0339e71b0171719e765a63d91e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999265"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579668"
 ---
 # <a name="record-material-usage-on-projects-and-project-tasks"></a>Materiaalgebruik voor projecten en projecttaken registreren
 
@@ -53,7 +53,7 @@ Nadat u al uw materiaalgebruik hebt vastgelegd en u klaar bent om het te laten g
 
 Indien nodig kunt u een ingediend materiaalgebruik intrekken. Hoeveel tijd nodig is voor het intrekken van een boeking voor materiaalgebruik, is afhankelijk van de goedkeuringsfase.  Als de fiatteur de onkosten nog niet heeft goedgekeurd, kan de intrekking onmiddellijk plaatsvinden. Is de boeking echter al goedgekeurd, dan wordt de fiatteur gevraagd om de intrekking goed te keuren en de transacties terug te draaien.
 
-1. Ga naar **Materiaalgebruik** en selecteer in de lijst met materiaalgebruikslogboeken het materiaalgebruik dat u wilt terugroepen.
+1. Ga naar **Materiaalgebruik** en selecteer in de lijst met materiaalgebruikslogboeken het materiaalgebruik dat u wilt intrekken.
 2. Selecteer **Intrekken**. Als de boeking van het materiaalgebruik nog niet is goedgekeurd, wordt deze onmiddellijk ingetrokken. Als de materiaalboeking al is goedgekeurd, wordt een intrekkingsverzoek aangemaakt om de fiatteur te laten weten dat u het materiaalgebruik wilt intrekken. De fiatteur bevestigt dan dat de terugboeking kan worden uitgevoerd.
 
 ## <a name="delete-a-material-usage-log"></a>Een logboek voor materiaalgebruik verwijderen

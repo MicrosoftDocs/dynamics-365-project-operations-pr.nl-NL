@@ -4,14 +4,14 @@ description: Dit onderwerp bevat informatie over opbrengsten met een vaste prijs
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006420"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578702"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Projecten met omzetschattingen met een vaste prijs 
 
@@ -26,7 +26,7 @@ Wanneer u een projectcontractregel maakt met de volgende kenmerken in Dynamics 3
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Projecten met omzetschattingen met een vaste prijs beoordelen
 Voer de volgende stappen uit om projecten met een geschatte omzet met een vaste prijs te bekijken:
 
-1. Ga in de Dynamics 365 Finance-omgeving naar **Projectbeheer en boekhouding** > **Projecten** > **Projecten met omzetschattingen met een vaste prijs**.
+1. Ga in de Dynamics 365 Finance-omgeving naar **Projectbeheer en financiële administratie** > **Projecten** > **Projecten met omzetschattingen met een vaste prijs**.
 2. Selecteer het project dat u wilt bekijken en dubbelklik op de **Schattingsproject-id** om de record te openen en de details van het project te bekijken.
 3. Vouw het tabblad **Project** uit. U ziet één project in het raster **Geselecteerde projecten**. Het systeem gebruikt dit als standaardproject omdat dit het project is dat is gekoppeld aan de projectcontractregel. 
 4. Als u de koppeling wilt wijzigen, selecteert u aanvullende projecten en voegt u ze toe aan het raster **Geselecteerde projecten**. Als er meerdere projecten zijn geselecteerd in dit raster, worden het projectpercentage van voltooiing en omzetramingen samen berekend voor alle geselecteerde projecten.

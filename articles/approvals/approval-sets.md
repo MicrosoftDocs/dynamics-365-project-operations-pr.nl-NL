@@ -2,18 +2,16 @@
 title: Goedkeuringssets
 description: In dit onderwerp wordt uitgelegd hoe u werkt met goedkeuringssets, verzoeken en de subsets van die bewerkingen.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323230"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576218"
 ---
 # <a name="approval-sets"></a>Goedkeuringssets
 
@@ -27,6 +25,18 @@ Goedkeuringssets geven de algehele verwerkingsstatus van gerelateerde records aa
 Goedkeuringen die in de wachtrij staan voor verwerking, zijn zichtbaar in de weergave **Goedkeuringen verwerken**. Het systeem verwerkt alle invoer meerdere keren asynchroon, inclusief nieuwe goedkeuringen als eerdere pogingen mislukten.
 
 Met het veld **Levensduur goedkeuringsset** wordt het aantal pogingen dat nog moeten worden verwerkt, geregistreerd voordat deze als mislukt wordt gemarkeerd.
+
+Goedkeuringssets worden verwerkt via de periodieke activering op basis van een **Cloudstroom** genaamd **Project Service - Projectgoedkeuringssets terugkerend plannen**. Dit is te vinden in de **Oplossing** genaamd **Project Operations**. 
+
+Zorg ervoor dat de stroom is geactiveerd door de volgende stappen uit te voeren.
+
+1. Meld u als beheerder aan bij [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Schakel in de rechterbovenhoek om naar de omgeving die u gebruikt voor Dynamics 365 Project Operations.
+3. Selecteer **Oplossingen** om een lijst weer te geven van de oplossingen die zijn geïnstalleerd in de omgeving.
+4. Selecteer **Project Operations** in de lijst met oplossingen.
+5. Verander het filter van **Alle** in **Cloudstromen**.
+6. Controleer of de stroom **Project Service – Projectgoedkeuringssets terugkerend plannen** is ingesteld op **Aan**. Als dit niet het geval is, selecteert u de stroom en selecteert u vervolgens **Inschakelen**.
+7. Controleer of de verwerking elke vijf minuten plaatsvindt door de lijst **Systeemtaken** in het gebied **Instellingen** binnen uw Project Operations Dataverse-omgeving te bekijken.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Mislukte goedkeuringen en goedkeuringssets
 In de weergave **Mislukte goedkeuringen** worden alle goedkeuringen weergegeven waarvoor tussenkomst van de gebruiker vereist is. Open de bijbehorende goedkeuringssetlogboeken om de oorzaak van de storing te achterhalen.

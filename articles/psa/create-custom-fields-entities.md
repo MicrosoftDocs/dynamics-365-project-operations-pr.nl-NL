@@ -15,19 +15,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992425"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574378"
 ---
 # <a name="create-custom-fields-and-entities"></a>Aangepaste velden en entiteiten maken 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Voer de volgende stappen uit wanneer u een aangepaste optieset of entiteit op het Power Apps-platform wilt maken.  
-De procedures in dit onderwerp moeten worden voltooid met behulp van de webinterface van Project Service Automation (PSA).
+De procedures In dit onderwerp moeten worden voltooid met behulp van de webinterface van Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Het is raadzaam om alle wijzigingen in aangepaste prijsdimensies in een afzonderlijke oplossing aan te brengen. Deze belangrijke aanbevolen procedure biedt flexibiliteit in de toekomst om eventuele wijzigingen bij te werken of te verwijderen, stelt u in staat uw werk opnieuw te gebruiken en maakt het gemakkelijker om deze wijzigingen naar een ander exemplaar te publiceren. Nadat u alle vereiste wijzigingen hebt aangebracht, exporteert u deze oplossing als een **beheerde oplossing** en importeert u deze in andere exemplaren om uw prijsinstellingen opnieuw te gebruiken.

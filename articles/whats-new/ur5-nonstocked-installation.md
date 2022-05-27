@@ -1,25 +1,25 @@
 ---
 title: Project Operations updaten in uw Finance-omgeving
-description: Dit onderwerp bevat informatie over hoe u Project Operations updatet in uw Dynamics 365 Finance-omgeving.
+description: Dit onderwerp biedt informatie over het bijwerken van Project Operations in uw Dynamics 365 Finance-omgeving.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986755"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579922"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Project Operations updaten in uw Finance-omgeving
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
 
-Dit onderwerp bevat informatie over hoe u Dynamics 365 Project Operations updatet in uw Dynamics 365 Finance-omgeving. Er zijn drie procedures nodig om Project Operations te updaten naar Update 5 (UR5):
+Dit onderwerp biedt informatie over het bijwerken van Dynamics 365 Project Operations in uw Dynamics 365 Finance-omgeving. Er zijn drie procedures nodig om Project Operations te updaten naar Update 5 (UR5):
 
 - [Het pakket importeren in uw preview-project](#import)
 - [De update toepassen](#apply)
@@ -119,7 +119,7 @@ De volgende updates van de beveiligingsbevoegdheden voor entiteiten zijn vereist
 4. Pas op de pagina **Versie tabeltoewijzing** een nieuwe versie van de toewijzing toe op elk van de drie entiteiten.
 5. Selecteer uitvoeren op de pagina **Twee keer wegschrijven** om de toewijzingen opnieuw op te starten.
 6. Selecteer in de lijst met toewijzingen de toewijzing **Grootboek (msdyn_ledgers)** met alle vereisten en schakel het selectievakje **Eerste synchronisatie** in. 
-7. Selecteer in het veld **Master voor eerste synchronisatie** **Finance and Operations-apps** en selecteer vervolgens **Uitvoeren**.
+7. Selecteer in het veld **Master voor initiële synchronisatie** de optie **Finance and Operations-apps** en selecteer vervolgens **Uitvoeren**.
  
  ![Synchronisatie van grootboektoewijzing.](media/DW6.png)
  

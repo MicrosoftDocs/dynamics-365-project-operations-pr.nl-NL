@@ -4,14 +4,14 @@ description: Dit onderwerp bevat informatie over het bijwerken van kenmerken van
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988330"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575022"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Kenmerken van invoegtoepassingen bijwerken met nieuwe prijsdimensies
 
@@ -21,13 +21,13 @@ Dit onderwerp bevat informatie over het bijwerken van kenmerken van invoegtoepas
 > Dit onderwerp is alleen van toepassing op de offerte- en contractfuncties in Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Vereisten
-Voordat u de stappen in dit onderwerp voltooit, moet u de procedures in de volgende onderwerpen hebben voltooid:
+Voordat u de stappen In dit onderwerp voltooit, moet u de procedures in de volgende onderwerpen hebben voltooid:
 
   - [Aangepaste velden en entiteiten maken](create-custom-fields-entities-pricing-dimensions.md) 
   - [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten ](add-custom-fields-price-setup-transactional-entities.md)
   - [Aangepaste velden instellen als prijsdimensies](set-up-custom-fields-pricing-dimensions.md). 
   
-Als u deze procedures niet hebt voltooid, voltooit u ze en keert u terug naar dit onderwerp.
+Als u deze procedures niet hebt voltooid, voltooit u ze en keert u terug naar Dit onderwerp.
 
 ## <a name="register-a-plug-in"></a>Een invoegtoepassing registreren
 Wanneer een detail van een prijsopgaveregel wordt gemaakt op de pagina **Prijsopgaveregel** voor een projectprijsopgaveregel, creëert het systeem twee schattingsregels. De ene regel is voor de kostenzijde van de schatting en de andere regel is voor de verkoopzijde. Dit is hetzelfde voor projectcontractregels.

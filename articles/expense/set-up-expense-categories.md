@@ -4,14 +4,14 @@ description: Dit onderwerp biedt informatie over het instellen van onkostencateg
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 925c0894616df587b8a749bc00ea52ed06672827
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993100"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577000"
 ---
 # <a name="set-up-expense-categories"></a>Onkostencategorieën instellen
 
@@ -20,7 +20,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 Wanneer werknemers onkostendeclaraties maken, moet elke uitgave die ze registreren, worden gekoppeld aan een onkostencategorie. Onkostencategorieën zijn afgeleid van gedeelde categorieën die kunnen worden gedeeld door de rechtspersonen in uw organisatie. Afhankelijk van hoe uw organisatie is gedefinieerd, kunnen deze onkostencategorieën ook op andere gebieden worden gedeeld. Op basis van de definitie van uw organisatie en richtlijnen van het implementatieteam, moet u bepalen of de categorieën die worden gebruikt in Onkostenbeheer alleen worden gebruikt in Onkostenbeheer of moeten worden gedeeld op andere gebieden.
 
 > [!NOTE]
-> Deze categorieën kunnen worden gedeeld tussen Projectbeheer en boekhouding en Onkostenbeheer, of tussen Projectbeheer en boekhouding en Productie. Ze kunnen echter niet worden gedeeld tussen Onkostenbeheer en Productie.
+> Deze categorieën kunnen worden gedeeld tussen Projectbeheer en financiële administratie en Onkostenbeheer, of tussen Projectbeheer en financiële administratie en Productie. Ze kunnen echter niet worden gedeeld tussen Onkostenbeheer en Productie.
 
 Voordat u met het instellen begint, moeten de volgende beslissingen worden genomen voor elke onkostencategorie:
 

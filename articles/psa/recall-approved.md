@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 457aebb00851a1db3e4aa1068f6a825759b8f2e3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998320"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578794"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Goedgekeurde tijdsvermeldingen of onkostenposten intrekken
 
@@ -90,7 +91,7 @@ Als een intrekkingsaanvraag wordt goedgekeurd, worden de corresponderende werkel
 - Het veld **Aanpassingsstatus** wordt bijgewerkt naar **Aangepast**.
 - Het veld **Factureringsstatus** wordt bijgewerkt naar **Geannuleerd**.
 
-Vervolgens worden er stornoposten gemaakt in de tabel Werkelijke waarden. Om stornoposten te maken, kopieert het systeem de veldwaarden van de oorspronkelijke werkelijke waarden. De enige waarden die niet worden gekopieerd, zijn de hoeveelheidswaarden. In plaats daarvan worden deze waarden omgekeerd. Omgekeerde werkelijke waarden worden gemaakt voor de werkelijke waarden **Kosten** en **Niet-gefactureerde verkoop**. Het veld **Aanpassingsstatus** voor de teruggeboekte werkelijke waarden wordt ingesteld op **Niet aanpasbaar** en het veld **Factureringsstatus** wordt ingesteld op **Geannuleerd**. Door deze wijzigingen wordt bij de vastgelegde uitgaven en de omzetbacklog voor het project niet langer rekening gehouden met de bedragen die deze werkelijke waarden vertegenwoordigen.
+Vervolgens worden er stornoposten gemaakt in de tabel Werkelijke waarden. Om stornoposten te maken, kopieert het systeem de veldwaarden van de oorspronkelijke werkelijke waarden. De enige waarden die niet worden gekopieerd, zijn de hoeveelheidswaarden. In plaats daarvan worden deze waarden omgekeerd. Omgekeerde werkelijke waarden worden gemaakt voor de werkelijke waarden **Kosten** en **Niet-gefactureerde verkoop**. Het veld **Aanpassingsstatus** voor de teruggeboekte werkelijke waarden wordt ingesteld op **Niet-aanpasbaar** en het veld **Factureringsstatus** wordt ingesteld op **Geannuleerd**. Door deze wijzigingen wordt bij de vastgelegde uitgaven en de omzetbacklog voor het project niet langer rekening gehouden met de bedragen die deze werkelijke waarden vertegenwoordigen.
 
 Als een intrekkingsaanvraag wordt afgewezen, zijn er geen financiële gevolgen voor het project.
 

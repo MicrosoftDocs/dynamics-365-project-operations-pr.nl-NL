@@ -2,16 +2,16 @@
 title: Kost- en verkooptarieven voor materialen instellen
 description: Dit onderwerp biedt informatie over het instellen van de kosten- en verkooptarieven voor materialen die in projecten worden gebruikt.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999175"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576862"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Kost- en verkooptarieven voor materialen instellen
 
@@ -25,6 +25,9 @@ Voer de volgende stappen uit om kosten- en verkooptarieven voor producten in te 
 2. Selecteer op de pagina **Prijslijstitems** in het subrastermenu de optie **Nieuw prijslijstitem**​. 
 3. Op de pagina **Snelle invoer** voert u het product en de eenheid in waarvoor u de nieuwe prijs aanmaakt.
 
-Zie voor meer informatie over het definiëren van prijzen voor catalogusartikelen [Prijzen voor producten instellen](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) en [Decimale precisie in valuta en prijzen](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md)​.
+Zie [Productprijzen definiëren met prijslijsten en prijslijstitems](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) en [Decimale precisie in valuta en prijzen](/dynamics365/sales/decimal-precision-currency-pricing) voor meer informatie over het definiëren van prijzen voor catalogusitems.
+> [!NOTE]
+> Dynamics 365 Project Operations ondersteunt niet alle prijsmethoden voor producten als Dynamics 365 Sales. De enige prijsmethode die wordt ondersteund voor producten die in projecten worden gebruikt, is *Valutabedrag*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

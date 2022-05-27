@@ -4,14 +4,14 @@ description: In dit onderwerp krijgt u informatie over projectprijsopgaven.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001515"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579576"
 ---
 # <a name="manage-project-quotes"></a>Projectprijsopgaven beheren
 
@@ -31,6 +31,9 @@ Een lijst van alle projectprijsopgaven is te zien op de lijstpagina **Prijsopgav
 2. Gebruik de **Weergavewisselaar** om andere gefilterde weergaven van de prijsopgaven te selecteren. Met aangepaste filtercriteria kunt u uw eigen weergaven en navigatieopties configureren.
 
 Prijsopgaven kunnen worden gemaakt of verwijderd uit deze lijstpagina of detailpagina's.
+
+ > [!NOTE]
+ > Prijsopgaven waaraan projecten, taken, schattingen, dagboeken en/of werkelijke waarden zijn gekoppeld, kunnen niet worden verwijderd. Wanneer een prijsopgave wordt afgesloten als Binnengehaald of Gemist, kan deze eveneens niet langer worden verwijderd of gewijzigd. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

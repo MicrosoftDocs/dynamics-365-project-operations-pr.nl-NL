@@ -2,16 +2,16 @@
 title: De financiële administratie voor conceptfactuurvoorstellen voor projecten corrigeren
 description: In dit onderwerp wordt uitgelegd hoe u gegevens met betrekking tot de financiële administratie voor een conceptfactuurvoorstel kunt aanpassen.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999310"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575068"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>De financiële administratie voor conceptfactuurvoorstellen voor projecten corrigeren
 
@@ -27,12 +27,21 @@ Standaard btw-groepen voor facturering en btw-groepen voor artikelen kunnen rech
 
 ## <a name="adjust-financial-dimensions"></a>Financiële dimensies aanpassen
 
+### <a name="header-dimensions"></a>Koptekstdimensies
+
+Standaard worden financiële dimensies voor facturen afgeleid van de niet-gefactureerde projecttransactierecords die worden gefactureerd. Met systeeminstellingen kunt u echter financiële dimensies in de koptekst van projectfactuurvoorstellen gebruiken om klantsaldi te boeken. Als u deze functionaliteit wilt inschakelen, selecteert u **Updates van projectdimensies voor klanten toestaan** op het tabblad **Financiële gegevens** van de pagina **Projectbeheer- en boekhoudingsparameters**.
+
+Financiële dimensies op factuurkopteksten kunnen worden bewerkt voordat een factuur wordt geboekt. Ga op de pagina **Projectfactuurvoorstel** naar de weergave **Koptekst** en bewerk vervolgens waarden bewerken op het tabblad **Financiële dimensies**.
+
+De weergave **Koptekst** is alleen beschikbaar nadat het systeembeheerder de functie **Formulieren voor projectfactuurvoorstel en factuurjournaal gebruiken met de weergave Koptekst en Regels** heeft ingeschakeld in de werkruimte **Functiebeheer**. Voor deze functie is Finance-update 10.0.25 of hoger vereist.
+
+### <a name="line-dimensions"></a>Regel dimensies
+
 Financiële dimensies kunnen niet rechtstreeks op een regel van een projectfactuurvoorstel worden bewerkt. Voer in plaats daarvan de volgende stappen uit om financiële dimensies voor een projectfactuurvoorstel aan te passen.
 
 1. Selecteer op het projectfactuurvoorstel **Alles verwijderen** om de regels van het projectfactuurvoorstel te verwijderen.
 
-    > [!NOTE]
-    > De knop **Alles verwijderen** is alleen beschikbaar nadat de systeembeheerder de functie **Factuurvoorstelregels verwijderen wanneer Project Operations wordt gebruikt voor scenario´s op basis van resources/niet-voorradige artikelen** in de werkruimte **Functiebeheer** heeft ingeschakeld.
+    De knop **Alles verwijderen** is alleen beschikbaar nadat de systeembeheerder de functie **Factuurvoorstelregels verwijderen wanneer Project Operations wordt gebruikt voor scenario´s op basis van resources/niet-voorradige artikelen** in de werkruimte **Functiebeheer** heeft ingeschakeld.
 
 2. De financiële dimensies aanpassen:
 
