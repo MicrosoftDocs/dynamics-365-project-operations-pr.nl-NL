@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005295"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727952"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Werk plannen in Microsoft Project met de invoegtoepassing Project Service Automation
 
@@ -40,7 +41,7 @@ Met [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 
 ## <a name="download-and-install-the-add-in"></a>De invoegtoepassing downloaden en installeren  
  Houd uw aanmeldingsgegevens voor [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] bij de hand. U hebt deze informatie nodig om vanuit [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] verbinding te maken met [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Download vanuit het Downloadcentrum de invoegtoepassing voor uw ondersteunde versie van Project Service, [v2.X](https://go.microsoft.com/fwlink/?linkid=828268) of [v3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Download vanuit het Downloadcentrum de invoegtoepassing voor uw ondersteunde versie van Project Service, [v2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) of [v3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Klik op de downloadkoppeling.  
 
@@ -87,9 +88,8 @@ Wanneer de projectplanning is voltooid, moet u het project importeren in [!INCLU
 
 Het project wordt geïmporteerd in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. De processen voor het genereren van prijzen en teams worden toegepast. Open het project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] en controleer of het team, de projectschattingen en de structuur voor werkspecificatie zijn gegenereerd. In de onderstaande tabel kunt u zien waar u de resultaten kunt vinden:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | DETAILS |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt-diagram**   | Importbewerkingen in het [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] scherm **Structuur voor werkspecificatie**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resourceblad** |   Importbewerkingen in het [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] scherm **Projectteamleden**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gebruik gebruiken**    |    Importbewerkingen in het scherm [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Projectschattingen**.     |

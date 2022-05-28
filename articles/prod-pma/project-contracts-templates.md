@@ -1,34 +1,33 @@
 ---
 title: Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren naar Finance
-description: In dit onderwerp worden de sjabloon en onderliggende taken beschreven die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Microsoft Dynamics 365 Project Service Automation te synchroniseren met Dynamics 365 Finance.
+description: In dit onderwerp wordt de sjabloon en de onderliggende taken besproken die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Microsoft Dynamics 365 Project Service Automation met Dynamics 365 Finance te synchroniseren.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001065"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684636"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren naar Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-In dit onderwerp worden de sjabloon en onderliggende taken beschreven die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Dynamics 365 Project Service Automation te synchroniseren met Dynamics 365 Finance.
+
+In dit onderwerp wordt de sjabloon en de onderliggende taken besproken die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Dynamics 365 Project Service Automation met Dynamics 365 Finance te synchroniseren.
 
 > [!NOTE] 
 > Als u Enterprise-editie 7.3.0 gebruikt, moet u KB 4074835 installeren.
@@ -112,24 +111,24 @@ Wanneer de integratieoplossing voor Project Service Automation met Finance wordt
 - **SourceDataID** voor projectcontracten en projecten kunnen worden bijgewerkt naar een andere waarde of worden verwijderd uit de toewijzing. De standaardsjabloonwaarde is **Project Service Automation**.
 - De toewijzing **PaymentTerms** moet worden bijgewerkt zodat deze de geldige betalingsvoorwaarden in Finance weerspiegelt. U kunt ook de toewijzing uit de projecttaak verwijderen. De standaardwaardetoewijzing heeft standaardwaarden voor demogegevens. De volgende tabel toont de waarden in Project Service Automation.
 
-    | Value | Beschrijving   |
+    | Weergegeven als | Beschrijving   |
     |-------|---------------|
     | 0     | Netto 30 dgn        |
     | 2     | 2% 10, netto 30 dgn |
     | 5     | Netto 45 dgn        |
     | 4     | Netto 60 dgn        |
 
-## <a name="power-query"></a>Power-query
+## <a name="power-query"></a>Power Query
 
-Gebruik Microsoft Power Query voor Excel om gegevens te filteren als aan de volgende voorwaarden wordt voldaan:
+Gebruik Microsoft Power Query voor Excel gebruiken om gegevens te filteren als aan de volgende voorwaarden wordt voldaan:
 
 - U hebt verkooporders in Dynamics 365 Sales.
 - U heeft meerdere organisatie-eenheden in Project Service Automation en deze organisatie-eenheden worden toegewezen aan meerdere rechtspersonen in Finance.
 
-Volg deze richtlijnen als u Power Query moet gebruiken:
+Als u Power Query moet gebruiken, volgt u deze richtlijnen:
 
 - De sjabloon Projecten en contracten (PSA naar Fin en Ops) heeft een standaardfilter dat alleen verkooporders van het type **Werkitem (msdyn\_ordertype = 192350001)** bevat. Dit filter helpt te garanderen dat er geen projectcontracten worden gemaakt voor verkooporders in Finance. Als u uw eigen sjabloon maakt, moet u dit filter toevoegen.
-- Maak een Power Query-filter dat alleen de contractorganisaties bevat die moeten worden gesynchroniseerd met de rechtspersoon van de integratieverbindingsset. Bijvoorbeeld projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso US moeten worden gesynchroniseerd met de rechtspersoon USSI, maar projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso Global moeten worden gesynchroniseerd met de rechtspersoon USMF. Als u dit filter niet toevoegt aan uw taaktoewijzing, worden alle projectcontracten gesynchroniseerd met de rechtspersoon die is gedefinieerd voor de verbindingsset, ongeacht de contractorganisatie.
+- Maak een Power Query-filter dat alleen de contractorganisaties bevat die moeten worden gesynchroniseerd naar de rechtspersoon van de integratieverbindingsset. Projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso US moeten bijvoorbeeld worden gesynchroniseerd met de rechtspersoon USSI, maar projectcontracten die u hebt met de contractorganisatie-eenheid van Contoso Global moeten worden gesynchroniseerd met de rechtspersoon USMF. Als u dit filter niet toevoegt aan uw taaktoewijzing, worden alle projectcontracten gesynchroniseerd met de rechtspersoon die is gedefinieerd voor de verbindingsset, ongeacht de contractorganisatie.
 
 ## <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
 

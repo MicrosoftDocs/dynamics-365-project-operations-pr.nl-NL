@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001020"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683486"
 ---
 # <a name="project-contracts"></a>Projectcontracten
 
@@ -45,7 +44,7 @@ Sommige projectcontracten specificeren dat meerdere partijen de verantwoordelijk
 -   Een wegenproject wordt medegefinancierd door twee gemeenten.
 -   Een brugproject wordt gefinancierd door een overheidssubsidie en een particulier bedrijf.
 
-In Dynamics 365 Finance kunt u de facturering voor een enkele transactie of een heel project verdelen over meerdere klanten, subsidies of organisaties. 
+In Dynamics 365 Finance kunt u de facturering voor één transactie of een volledig project splitsen tussen meerdere klanten, subsidies of organisaties. 
 
 Bij projecten met meerdere financiers worden alle partijen die bijdragen aan de financiering van een geavanceerd financieringsproject financieringsbronnen genoemd. Nadat een klant, organisatie of subsidie is gedefinieerd als financieringsbron, kan deze worden toegewezen aan een of meer financieringsregels. Financieringsregels bevatten de criteria die bepalen hoe kosten worden toegewezen aan de verschillende financieringsbronnen voor een project. 
 
@@ -98,9 +97,9 @@ De volgende tabel bevat scenario's voor het beheren van financieringstoewijzing 
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
+<li>1</li>
 <li>2</li>
-<li>5</li>
+<li>3</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -116,8 +115,8 @@ De volgende tabel bevat scenario's voor het beheren van financieringstoewijzing 
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
-<li>0</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -136,8 +135,8 @@ De volgende tabel bevat scenario's voor het beheren van financieringstoewijzing 
 <li>50%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
-<li>0</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 <li>2</li>
 </ul></td>
@@ -153,7 +152,7 @@ De volgende tabel bevat scenario's voor het beheren van financieringstoewijzing 
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>0</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008040"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600874"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van juli 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008040"
 Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
    - Project Operations in Microsoft Dataverse-omgeving versie 4.12.0.148 or 4.12.0.152.
-   - Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving, versie 10.0.20.
+   - Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving versie 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>In deze versie zijn de volgende functies opgenomen
 
@@ -84,9 +84,9 @@ Als u een probleem ondervindt bij het starten van de toewijzing, volgt u de inst
 
 | Functiegebied                      | Referentienummer | Kwaliteitsupdate                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Projectbeheer en boekhouding | 4620267          | Kan formulieren om het veld **Doel** toe te voegen niet personaliseren voor de pagina´s **Geboekte projecttransactie**, **Factuurvoorstel maken** en **Factuurvoorstel**.                                                                                                                                                                                         |
-| Projectbeheer en boekhouding | 4613449          | Wanneer u een projectcontract-ID selecteert in Finance, opent de geïntegreerde omgeving van Project Operations de pagina om een nieuw record te maken in plaats van de pagina voor reeds gemaakte projectcontracten.                                                                                                                                           |
-| Projectbeheer en boekhouding | 4614445          | In de implementatie van het geïntegreerde scenario van Project Operations kunt u het veld **Btw-groep artikel** niet bewerken op het factuurvoorstel dat vanuit opslag is geïmporteerd. De btw-groep voor artikelen moet bewerkbaar zijn voor een open factuurvoorstel van alle transactietypen, inclusief rekening, uren, onkosten, vergoedingen en artikelen. |
-| Projectbeheer en boekhouding |                  | Kan een factuurvoorstel niet boeken als gevolg van een negatieve tijdtransactiecorrectie.                                                                                                                                                                                                                                              |
-| Projectbeheer en boekhouding |                  | Factuurvoorstelregels worden gedupliceerd vanwege meerdere periodieke **Importeren uit opslag**-processen die tegelijkertijd worden uitgevoerd.                                                                                                                                                                                                                |
+| Projectbeheer en financiële administratie | 4620267          | Kan formulieren om het veld **Doel** toe te voegen niet personaliseren voor de pagina´s **Geboekte projecttransactie**, **Factuurvoorstel maken** en **Factuurvoorstel**.                                                                                                                                                                                         |
+| Projectbeheer en financiële administratie | 4613449          | Wanneer u een projectcontract-ID selecteert in Finance, opent de geïntegreerde omgeving van Project Operations de pagina om een nieuw record te maken in plaats van de pagina voor reeds gemaakte projectcontracten.                                                                                                                                           |
+| Projectbeheer en financiële administratie | 4614445          | In de implementatie van het geïntegreerde scenario van Project Operations kunt u het veld **Btw-groep artikel** niet bewerken op het factuurvoorstel dat vanuit opslag is geïmporteerd. De btw-groep voor artikelen moet bewerkbaar zijn voor een open factuurvoorstel van alle transactietypen, inclusief rekening, uren, onkosten, vergoedingen en artikelen. |
+| Projectbeheer en financiële administratie |                  | Kan een factuurvoorstel niet boeken als gevolg van een negatieve tijdtransactiecorrectie.                                                                                                                                                                                                                                              |
+| Projectbeheer en financiële administratie |                  | Factuurvoorstelregels worden gedupliceerd vanwege meerdere periodieke **Importeren uit opslag**-processen die tegelijkertijd worden uitgevoerd.                                                                                                                                                                                                                |
 

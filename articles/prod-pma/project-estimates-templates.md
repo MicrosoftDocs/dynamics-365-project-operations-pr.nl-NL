@@ -1,32 +1,31 @@
 ---
-title: Projectschattingen rechtstreeks vanuit Project Service Automation met Finance and Operations synchroniseren
-description: In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om schattingen van projecturen en projectonkosten rechtstreeks vanuit Microsoft Dynamics 365 Project Service Automation te synchroniseren met Dynamics 365 Finance.
+title: Projectramingen rechtstreeks vanuit Project Service Automation synchroniseren met financiën en bedrijfsactiviteiten
+description: In dit onderwerp worden de sjablonen en de onderliggende taken beschreven die worden gebruikt om projectuurschattingen en projectonkostenschattingen rechtstreeks van Microsoft Dynamics 365 Project Service Automation naar Dynamics 365 Finance te synchroniseren.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988195"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684590"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projectschattingen rechtstreeks vanuit Project Service Automation met Finance and Operations synchroniseren
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Projectramingen rechtstreeks vanuit Project Service Automation synchroniseren met financiën en bedrijfsactiviteiten
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om schattingen van projecturen en projectonkosten rechtstreeks vanuit Dynamics 365 Project Service Automation te synchroniseren met Dynamics 365 Finance.
+In dit onderwerp worden de sjablonen en de onderliggende taken beschreven die worden gebruikt om projectuurschattingen en projectonkostenschattingen rechtstreeks van Dynamics 365 Project Service Automation naar Dynamics 365 Finance te synchroniseren.
 
 > [!NOTE]
 > - Projecttaakintegratie, onkostentransactiecategorieën, uurschattingen, onkostenschattingen en functionaliteitsvergrendeling is beschikbaar in versie 8.0.
@@ -68,9 +67,9 @@ Projectuurschattingen worden beheerd in Project Service Automation en worden ges
 
 Voordat synchronisatie van projectuurschattingen kan plaatsvinden, moet u projecten, projecttaken en transactiecategorieën voor projectonkosten synchroniseren.
 
-### <a name="power-query"></a>Power-query
+### <a name="power-query"></a>Power Query
 
-In de sjabloon voor projectuurschattingen moet u Microsoft Power Query voor Excel gebruiken om deze taken uit te voeren:
+In de sjabloon voor projectuurramingen moet u Microsoft Power Query voor Excel gebruiken om het volgende te doen:
 
 - Stel de standaard prognosemodel-id in die wordt gebruikt wanneer de integratie nieuwe uurprognoses maakt.
 - Filter alle resourcespecifieke records in de taak die niet in de uurprognoses kunnen worden geïntegreerd.
@@ -81,7 +80,7 @@ In de sjabloon voor projectuurschattingen moet u Microsoft Power Query voor Exce
 U kunt de standaard prognosemodel-id in de sjabloon bijwerken door op de pijl **Toewijzen** te klikken om de toewijzing te openen. Selecteer vervolgens de koppeling **Geavanceerde query's en filteren**.
 
 - Als u de standaardsjabloon Projectuurschattingen (PSA naar Fin en Ops) gebruikt, selecteert u **Ingevoegde voorwaarde** in de lijst **Toegepaste stappen**. Vervang in de vermelding **Functie** **O\_prognose** door de naam van de prognosemodel-id die moet worden gebruikt met de integratie. De standaardsjabloon heeft een prognosemodel-id op basis van de demogegevens.
-- Als u een nieuwe sjabloon maakt, moet u deze kolom toevoegen. Selecteer in Power Query de optie **Voorwaardelijke kolom toevoegen** en voer een naam in voor de nieuwe kolom, zoals **Model-id**. Voer de voorwaarde in voor de kolom, waarbij als Projectaak niet null is, dan \<enter the forecast model ID\>; anders null.
+- Als u een nieuwe sjabloon maakt, moet u deze kolom toevoegen. Selecteer in Power Query de optie **Voorwaardelijke kolom toevoegenn** en voer een naam voor de nieuwe kolom in, zoals **Model-id**. Voer de voorwaarde in voor de kolom, waarbij als Projectaak niet null is, dan \<enter the forecast model ID\>; anders null.
 
 #### <a name="filter-out-resource-specific-records"></a>Resourcespecifieke records uitfilteren
 
@@ -124,9 +123,9 @@ Projectonkostenschattingen worden beheerd in Project Service Automation en worde
 
 Voordat synchronisatie van projectonkostenschattingen kan plaatsvinden, moet u projecten, projecttaken en transactiecategorieën voor projectonkosten synchroniseren.
 
-### <a name="power-query"></a>Power-query
+### <a name="power-query"></a>Power Query
 
-In de sjabloon voor projectonkostenschattingen moet u Power Query gebruiken om de volgende taken uit te voeren:
+In de projectkostenramingssjabloon moet u Power Query gebruiken om de volgende taken uit te voeren:
 
 - Filter om alleen records voor onkostenramingen op te nemen.
 - Stel de standaard prognosemodel-id in die wordt gebruikt wanneer de integratie nieuwe uurprognoses maakt.
@@ -141,8 +140,8 @@ De sjabloon projectonkostenschattingen (PSA naar Fin en Ops) heeft een standaard
 
 U kunt de standaard prognosemodel-id in de sjabloon bijwerken door de taak **Onkostenschattingen** te selecteren en vervolgens op de pijl **Toewijzen** te klikken om de toewijzing te openen. Selecteer de koppeling **Geavanceerde query's en filteren**.
 
-- Als u de standaardsjabloon voor projectonkostenschattingen (PSA naar Fin en Ops) in Power Query gebruikt, selecteert u de eerste optie **Ingevoegde voorwaarde** in de sectie **Toegepaste stappen**. Vervang in de vermelding **Functie** **O\_prognose** door de naam van de prognosemodel-id die moet worden gebruikt met de integratie. De standaardsjabloon heeft een prognosemodel-id op basis van de demogegevens.
-- Als u een nieuwe sjabloon maakt, moet u deze kolom toevoegen. Selecteer in Power Query de optie **Voorwaardelijke kolom toevoegen** en voer een naam in voor de nieuwe kolom, zoals **Model-id**. Voer de voorwaarde in voor de kolom, waarbij als Schattingsregel-id niet null is, dan \<enter the forecast model ID\>; anders null.
+- Als u de standaardsjabloon Project-sjabloon voor onkostenschattingen (PSA naar Fin and Ops) in Power Query gebruikt, selecteert u de eerste **Ingevoegde voorwaarde** uit de sectie **Toegepaste stappen**. Vervang in de vermelding **Functie** **O\_prognose** door de naam van de prognosemodel-id die moet worden gebruikt met de integratie. De standaardsjabloon heeft een prognosemodel-id op basis van de demogegevens.
+- Als u een nieuwe sjabloon maakt, moet u deze kolom toevoegen. Selecteer in Power Query de optie **Voorwaardelijke kolom toevoegenn** en voer een naam voor de nieuwe kolom in, zoals **Model-id**. Voer de voorwaarde in voor de kolom, waarbij als Schattingsregel-id niet null is, dan \<enter the forecast model ID\>; anders null.
 
 #### <a name="transform-the-billing-types"></a>De factureringstypen transformeren
 

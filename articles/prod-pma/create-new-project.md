@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee576561e9d360c198a57f5885c27aa782267fd1
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985945"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685050"
 ---
 # <a name="create-a-new-project"></a>Een nieuw project maken
 
@@ -53,7 +52,7 @@ Een projectmanager kan de functionaliteit voor het toewijzen van resources aan p
 
 [![Voorbeeld van een rol.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenario:** Contoso is ingehuurd om een tijd- en materiaalproject te voltooien dat een goedgekeurd projectcharter heeft. De junior projectmanager is nog bezig met het afronden van het bereik van het project. De resourcemanager identificeert momenteel specifieke resources die zullen worden gereserveerd om aan het nieuwe project te werken. Vanwege de cruciale aard van het project heeft de projectsponsor de senior projectmanager gevraagd een van de rollen op zich te nemen. De resourcemanager moet de nieuwe resource verwerven en de rol in het systeem definiëren voor het geval de junior projectmanager de resourcegegevens nodig heeft tijdens de projectplanning.
+**Scenario:** Contoso is ingehuurd om een tijd- en materiaalproject uit te voeren met een goedgekeurd projectcharter. De junior projectmanager is nog bezig met het afronden van het bereik van het project. De resourcemanager identificeert momenteel specifieke resources die zullen worden gereserveerd om aan het nieuwe project te werken. Vanwege de cruciale aard van het project heeft de projectsponsor de senior projectmanager gevraagd een van de rollen op zich te nemen. De resourcemanager moet de nieuwe resource verwerven en de rol in het systeem definiëren voor het geval de junior projectmanager de resourcegegevens nodig heeft tijdens de projectplanning.
 
 De volgende stappen laten zien hoe de resourcemanager de rol van senior projectmanager kan instellen en hieraan resourcekenmerken kan koppelen. Later kan de rol worden gebruikt om te zoeken naar beschikbare resources die passen bij de vereiste resourcecompetenties.
 

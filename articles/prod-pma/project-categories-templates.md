@@ -1,32 +1,31 @@
 ---
-title: Projectuitgavencategorieën synchroniseren tussen Finance and Operations en Project Service Automation
-description: In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om onkostencategorieën voor projecten te synchroniseren tussen Microsoft Dynamics 365 Finance en Dynamics 365 Project Service Automation.
+title: Projectonkostencategorieën tussen financiën en bedrijfsactiviteiten en Project Service Automation synchroniseren
+description: In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om projectonkostencategorieën rechtstreeks tussen Microsoft Dynamics 365 Finance en Dynamics 365 Project Service Automation te synchroniseren.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001110"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685464"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projectuitgavencategorieën synchroniseren tussen Finance and Operations en Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projectonkostencategorieën tussen financiën en bedrijfsactiviteiten en Project Service Automation synchroniseren
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om onkostencategorieën voor projecten te synchroniseren tussen Dynamics 365 Finance en Dynamics 365 Project Service Automation.
+In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om projectonkostencategorieën rechtstreeks tussen Dynamics 365 Finance en Dynamics 365 Project Service Automation te synchroniseren.
 
 > [!NOTE]
 > - Projecttaakintegratie, onkostentransactiecategorieën, uurschattingen, onkostenschattingen en functionaliteitsvergrendeling zijn beschikbaar in versie 8.0.
@@ -79,12 +78,12 @@ De volgende sjabloon en onderliggende taak worden gebruikt om projectonkostencat
 
 Projectonkostencategorieën worden beheerd in Finance en worden gesynchroniseerd met Project Service Automation als transactiecategorieën.
 
-### <a name="power-query"></a>Power-query
+### <a name="power-query"></a>Power Query
 
-Wanneer u synchroniseert met Project Service Automation, moet u Microsoft Power Query voor Excel gebruiken om het factureringstype voor de transactiecategorie in te stellen. De sjabloon Projectonkostentransactiecategorieën (Fin en Ops naar PSA) biedt een standaardkolom en toewijzing. Als u uw eigen sjabloon maakt, moet u een voorwaardelijke kolom toevoegen in Power Query. Voer de volgende stappen uit.
+Wanneer u synchroniseert naar Project Service Automation, moet u Microsoft Power Query voor Excel gebruiken om het factureringstype in te stellen voor de transactiecategorie. De sjabloon Projectonkostentransactiecategorieën (Fin en Ops naar PSA) biedt een standaardkolom en toewijzing. Als u uw eigen sjabloon maakt, moet u een voorwaardelijke kolom toevoegen in Power Query. Voer de volgende stappen uit.
 
 1. Klik op de pijl om de toewijzing van de taak voor projectonkostencategorieën te openen in de sjabloon Projectonkostentransactiecategorieën (Fin en Ops naar PSA).
-2. Klik op de koppeling **Geavanceerde query's en filteren** om Power Query te openen.
+2. Klik op de koppeling **Geavanceerde query en filtering** om Power Query te openen.
 2. Selecteer **Voorwaardelijke kolom toevoegen**.
 3. Voer een naam in voor de nieuwe kolom, zoals **Factureringstype**.
 4. Voer de volgende voorwaarde in: **als CATEGORYID niet gelijk is aan null, dan 19235001, anders null**.

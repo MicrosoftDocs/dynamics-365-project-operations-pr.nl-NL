@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323905"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723670"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Wat is er nieuw in de versie voor vroege toegang van wave 2 voor 2021 - Project Operations Lite-implementatie
 
@@ -26,7 +26,7 @@ De release wordt alleen toegepast wanneer een omgeving is [aangemeld voor vroege
 
 ## <a name="features-included-in-this-release"></a>In deze versie zijn de volgende functies opgenomen
 
-[Onderaannemingsbeheer](../subcontracting/subcontracting_EA_scope.md) - Deze functie biedt betere zichtbaarheid en controle over alle aspecten van het werk aan een project. De preview van onderaannemingsbeheer omvat de volgende mogelijkheden:
+[Onderaannemingsbeheer](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Deze functie biedt betere zichtbaarheid en controle over alle aspecten van het werk aan een project. De preview van onderaannemingsbeheer omvat de volgende mogelijkheden:
 
   - Een projectmanager kan een subcontract opstellen met een leverancier. Standaard worden de prijslijsten die aan de leveranciersrecord zijn gekoppeld, gebruikt voor het subcontract. De leveranciersaccount heeft het relatietype **Verkoper** of **Leverancier**.
   - Een projectmanager kan alle aankopen specificeren als regelitems in het subcontract. Subcontractregels kunnen voor tijd, onkosten of producten zijn. De transactieklasse van de subcontractregel bepaalt waarvoor de regel dient.

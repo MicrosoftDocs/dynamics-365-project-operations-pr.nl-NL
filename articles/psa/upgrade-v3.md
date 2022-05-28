@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000075"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601748"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Overwegingen voor de upgrade van PSA-versie 2.x of 1.x naar versie 3
 
@@ -81,7 +82,7 @@ Voordat u begint met de upgrade, is het raadzaam dat u het team opnieuw genereer
 
 Voor taken die zijn toegewezen aan algemene teamleden die zijn gegenereerd met **Team genereren**, blijft ook na de upgrade de algemene resource bij het team en de toewijzing voor dat algemene teamlid. Het is raadzaam dat u de resourcevereiste voor het algemene teamlid genereert na de upgrade, maar voordat u een resourceaanvraag boekt of indient. Hiermee worden alle toewijzingen van organisatie-eenheden aan de algemene teamleden behouden die afwijken van de contracterende organisatie-eenheid van het project.
 
-In het project Project Z is bijvoorbeeld de eenheid van de contracterende organisatie Contoso US. In het projectplan is aan testtaken binnen de implementatiefase de rol van technisch adviseur toegewezen en is de toegewezen organisatie-eenheid Contoso India.
+In het project Z is bijvoorbeeld de eenheid van de contracterende organisatie Contoso US. In het projectplan is aan testtaken binnen de implementatiefase de rol van technisch adviseur toegewezen en is de toegewezen organisatie-eenheid is Contoso India.
 
 ![Toewijzing van organisatie in implementatiefase.](media/org-unit-assignment-09.png)
 
@@ -104,7 +105,7 @@ U kunt de organisatie-eenheid bekijken in de schattingenweergave.
  
 Wanneer de upgrade is voltooid, wordt de organisatie-eenheid op de regeltaak die overeenkomt met het algemene teamlid toegevoegd aan het algemene teamlid en wordt de regeltaak verwijderd. Daarom is het raadzaam dat u voordat u een upgrade uitvoert, het team genereert of opnieuw genereert voor elk project dat algemene resources bevat.
 
-Voor taken die zijn toegewezen aan een rol met een organisatie-eenheid die verschilt van de organisatie-eenheid van het contracterende project en waarvoor geen team is gegenereerd, maakt upgraden een algemeen teamlid voor de rol, maar wordt de contracterende eenheid van het project gebruikt voor de organisatie-eenheid van het teamlid. In het voorbeeld met Project Z betekent dit dat aan de contracterende organisatie-eenheid Contoso US en de testtaken van het projectplan binnen de implementatiefase de rol technisch consultant is toegewezen voor de organisatie-eenheid die is toegewezen aan Contoso India. De integratietesttaak die is voltooid na de implementatiefase is toegewezen aan de rol technisch consultant. De organisatie-eenheid is Contoso US en er is geen team gegenereerd. Bij een upgrade wordt één algemeen teamlid gemaakt, een technisch adviseur met de toegewezen uren van alle drie taken en een organisatie-eenheid van Contoso US, de contracterende organisatie-eenheid van het project.   
+Voor taken die zijn toegewezen aan een rol met een organisatie-eenheid die verschilt van de organisatie-eenheid van het contracterende project en waarvoor geen team is gegenereerd, maakt upgraden een algemeen teamlid voor de rol, maar wordt de contracterende eenheid van het project gebruikt voor de organisatie-eenheid van het teamlid. In het voorbeeld met project Z hebben de contracterende organisatie-eenheid Contoso US en de testtaken van het projectplan binnen de implementatiefase de rol technisch consultant toegewezen gekregen voor de organisatie-eenheid die is toegewezen aan Contoso India. De integratietesttaak die is voltooid na de implementatiefase is toegewezen aan de rol technisch consultant. De organisatie-eenheid is Contoso US en er is geen team gegenereerd. Bij een upgrade wordt één algemeen teamlid gemaakt, een technisch adviseur met de toegewezen uren van alle drie taken en een organisatie-eenheid van Contoso US, de contracterende organisatie-eenheid van het project.   
  
 Het wijzigen van de standaardwaarde van de verschillende organisatie-eenheden op niet-gegenereerde teamleden is de reden waarom we u aanraden het team te genereren of opnieuw te genereren voor elk project dat vóór de upgrade algemene resources bevat, zodat de toewijzingen van de organisatie-eenheid niet verloren gaan.
 

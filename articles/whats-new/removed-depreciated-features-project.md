@@ -2,17 +2,17 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Project Operations
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 12/09/2021
+ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7aa2888b2752641e99087031a85177cb1171363d
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903389"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601564"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Verwijderde of afgeschafte functies in Dynamics 365 Project Operations
 
@@ -26,7 +26,49 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn g
 Deze lijst is bedoeld als hulpmiddel bij overwegingen over verwijderde en verouderde functies voor uw eigen planning.
 
 > [!NOTE]
-> Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [**Rapporten met technische naslaginformatie**](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+> Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [**Rapporten met technische naslaginformatie**](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
+
+## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Verwijderde of afgeschafte functies in de versie van Project Operations van maart 2022
+
+### <a name="project-management-and-accounting-always-create-adjustment-transaction-parameter"></a>Projectbeheer- en boekhoudingsarameter "Altijd aanpassingstransactie maken"
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Reden voor uitfasering/verwijdering** | Aanpassingstransacties zijn vereist voor controledoeleinden. Na afschaffing wordt deze parameter verborgen. Het systeem zal altijd aanpassingstransacties maken, net zoals op dit moment gebeurt wanneer de parameter is ingesteld op **Ja**. |
+| **Vervangen door een andere functie?** | No |
+| **Productgebieden waarop dit van invloed is** | Aanvraag |
+| **Implementatieoptie** | Project Operations voor scenario's op basis van productie/voorradige artikelen |
+| **-Status** | Afgeschaft: tegen 1 maart 2023 zullen we de parameter verbergen en het systeemgedrag wijzigen, zodat er altijd aanpassingstransacties worden gemaakt. |
+
+### <a name="project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter"></a>Projectbeheer- en boekhoudingsparameter "Aanpassingsdatum gebruiken als nieuwe projectdatum"
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Reden voor uitfasering/verwijdering** | Deze parameter werd oorspronkelijk gebruikt om aanpassingen mogelijk te maken wanneer een boekingsperiode was gesloten. Het is echter niet langer vereist, omdat de boekhouddatum van de transactie kan worden gewijzigd in de eerste datum van de open periode, als deze is geconfigureerd. De projectdatum mag niet worden gewijzigd, omdat deze de datum vertegenwoordigt waarop de transactie heeft plaatsgevonden. |
+| **Vervangen door een andere functie?** | No |
+| **Productgebieden waarop dit van invloed is** | Aanvraag |
+| **Implementatieoptie** | Project Operations voor scenario's op basis van productie/voorradige artikelen |
+| **-Status** | Afgeschaft: tegen 1 maart 2023 zullen we de parameter verbergen en het systeemgedrag wijzigen, zodat de projectdatum nooit wordt gewijzigd bij aanpassingen. |
+
+### <a name="resource-request-workflow-in-project-operations-for-stockedproduction-based-scenarios"></a>Werkstoorm voo resourceaanvraag in Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Reden voor uitfasering/verwijdering** | Afgeschaft vanwege gering gebruik en beperkte transactievolumes. |
+| **Vervangen door een andere functie?** | No |
+| **Productgebieden waarop dit van invloed is** | Aanvraag |
+| **Implementatieoptie** | Project Operations voor scenario's op basis van productie/voorradige artikelen |
+| **-Status** | Afgeschaft: voor 1 maart 2023 zullen we de optie uitschakelen om resources voor het project aan te vragen via de werkstroom. |
+
+### <a name="project-invoice-proposal-page-without-header-and-lines-views"></a>Projectfactuurvoorstelpagina zonder weergaven Koptekst en Regels
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Reden voor uitfasering/verwijdering** | Afgeschaft vanwege verbeteringen aan de pagina die samen met de functietoets **Formulieren voor projectfactuurvoorstel en factuurjournaal gebruiken met de weergave Koptekst en Regels** is geïntroduceerd. |
+| **Vervangen door een andere functie?** | Ja |
+| **Productgebieden waarop dit van invloed is** | Aanvraag |
+| **Implementatieoptie** | Project Operations vvoor scenario's op basis van productie/voorradige artikelen; Project Operations voor scenario's op basis van resources/niet-voorradige artikelen |
+| **-Status** | Afgeschaft: voor 1 maart 2023 zullen we de eerdere (verouderde) pagina uitschakelen en de functietoets **Formulieren voor projectfactuurvoorstel en factuurjournaal gebruiken met de weergave Koptekst en Regels** standaard inschakelen. |
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>Verwijderde of afgeschafte functies in de versie van Project Operations van december 2021
 
@@ -36,8 +78,8 @@ Deze lijst is bedoeld als hulpmiddel bij overwegingen over verwijderde en veroud
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reden voor afschaffing/verwijdering** | Afgeschaft omdat het te weinig werd gebruikt. Klanten die Project Operations gebruiken voor scenario's op basis van resources/niet-voorradige artikelen kunnen gebruikmaken van [Samenwerking met Office-groepen](../project-management/collaboration-groups.md). |
-| **Vervangen door andere functies?** | No |
+| **Reden voor uitfasering/verwijdering** | Afgeschaft omdat het te weinig werd gebruikt. Klanten die Project Operations gebruiken voor scenario's op basis van resources/niet-voorradige artikelen kunnen gebruikmaken van [Samenwerking met Office-groepen](../project-management/collaboration-groups.md). |
+| **Vervangen door een andere functie?** | No |
 | **Productgebieden waarop dit van invloed is** | Aanvraag  |
 | **Implementatieoptie** | Project Operations voor scenario's op basis van productie/voorradige artikelen |
 | **-Status** | Afgeschaft: we zijn van plan om vanaf 1 december 2022 geen samenwerkingswerkruimten meer te ondersteunen. |

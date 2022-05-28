@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679203"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600782"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van juni 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
 - Project Operations in Dynamics 365 Dataverse-omgeving versie 4.11.0.156 of 4.11.0.164.
-- Projectbeheer en financiële administratie in omgevingen van Finance and Operations-apps, versie 10.0.19.
+- Projectbeheer en financiële administratie in omgevingen van apps voor financiën en bedrijfsactiviteiten versie 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>In deze versie zijn de volgende functies opgenomen
 
@@ -38,7 +38,7 @@ Er zijn geen updates voor toewijzingen van twee keer wegschrijven in Project Ope
 
 Zie [Toewijzingsversies van twee keer wegschrijven voor Project Operations](../environment/resource-dual-write-maps.md) voor een actuele lijst en versies van toewijzingen van twee keer wegschrijven voor Project Operations.
 
-Voer altijd de meest recente versie van de toewijzing in uw omgeving uit en schakel alle gerelateerde tabeltoewijzingen in terwijl u uw Project Operations Dataverse-oplossing en uw oplossingsversie van de Finance and Operations-apps bijwerkt. Bepaalde functies en mogelijkheden werken mogelijk niet correct als niet de meest recente versie van de toewijzing is geactiveerd. U kunt de actieve versie van de toewijzing zien op de pagina **Twee keer wegschrijven** in de kolom **Versie**. Activeer een nieuwe versie van de toewijzing door **Versies van tabeltoewijzing** te selecteren, de nieuwste versie te selecteren en vervolgens de geselecteerde versie op te slaan. Als u een kant-en-klare tabeltoewijzing hebt aangepast, past u de wijzigingen opnieuw toe. Zie [Beheer van de toepassingslevenscyclus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) voor meer informatie.
+Voer altijd de nieuwste versie van de toewijzing uit in uw omgeving en schakel alle gerelateerde tabeltoewijzingen in wanneer u de versie van uw Project Operations Dataverse-oplossing en oplossing voor apps voor financiën en bedrijfsactiviteiten bijwerkt. Bepaalde functies en mogelijkheden werken mogelijk niet correct als niet de meest recente versie van de toewijzing is geactiveerd. U kunt de actieve versie van de toewijzing zien op de pagina **Twee keer wegschrijven** in de kolom **Versie**. Activeer een nieuwe versie van de toewijzing door **Versies van tabeltoewijzing** te selecteren, de nieuwste versie te selecteren en vervolgens de geselecteerde versie op te slaan. Als u een kant-en-klare tabeltoewijzing hebt aangepast, past u de wijzigingen opnieuw toe. Zie [Beheer van de toepassingslevenscyclus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) voor meer informatie.
 
 Als u een probleem ondervindt bij het starten van de toewijzing, volgt u de instructies in het gedeelte [Probleem met ontbrekende tabelkolommen in toewijzingen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) in de handleiding voor het oplossen van problemen met twee keer wegschrijven.
 
@@ -66,16 +66,16 @@ Als u een probleem ondervindt bij het starten van de toewijzing, volgt u de inst
 
 | Functiegebied | Referentienummer | Kwaliteitsupdate |
 | --- | --- | --- |
-| Projectbeheer en boekhouding | [552976](https://fix.lcs.dynamics.com/Issue/Details/?bugId=552976) | **Formuliernotities** en **Formulierinstellingen** zijn niet zichtbaar onder **Projectbeheerinstellingen** in Finance-rechtspersonen die zijn geïntegreerd met Project Operations. |
-| Projectbeheer en boekhouding | [527970](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527970) | De standaardbeschrijving voor btw is leeg, wanneer het **Boekingstype** = **Btw** voor projectfactuurboekstukken. |
-| Projectbeheer en boekhouding | [565089](https://fix.lcs.dynamics.com/Issue/Details/?bugId=565089) | Er worden dubbele transacties geboekt wanneer op taken gebaseerde facturering wordt gebruikt in Dataverse met Project Operations-integratie. |
-| Projectbeheer en boekhouding | [566869](https://fix.lcs.dynamics.com/Issue/Details/?bugId=566869) | Het percentage voltooid voor opbrengstverantwoording is onjuist wanneer Project Operations-integratie wordt gebruikt. |
-| Projectbeheer en boekhouding | [568107](https://fix.lcs.dynamics.com/Issue/Details/?bugId=568107) | De opbrengstenopbouw wordt verdubbeld in een in behandeling zijnde leveranciersfactuur gebruikt in een geïntegreerd scenario van Project Operations. |
-| Projectbeheer en boekhouding | [572370](https://fix.lcs.dynamics.com/Issue/Details/?bugId=572370) | Kan het integratiejournaal niet boeken als de regel voor het opbrengstprofiel is ingesteld op **Groepsconfiguratie**. |
-| Projectbeheer en boekhouding | [573596](https://fix.lcs.dynamics.com/Issue/Details/?bugId=573596) | Een inkoopfactuur kan niet worden geboekt voor projectinkooporders die regels bevatten met meerdere maateenheden. |
-| Projectbeheer en boekhouding | [573637](https://fix.lcs.dynamics.com/Issue/Details/?bugId=573637) | De standaard financiële dimensie voor een project kan niet worden bijgewerkt met de gegevensentiteit **V2** van projecten. |
-| Projectbeheer en boekhouding | [577211](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577211) | Het batchproces voor het maken van projectramingen duurt te lang om te voltooien. |
-| Projectbeheer en boekhouding | [582329](https://fix.lcs.dynamics.com/Issue/Details/?bugId=582329) | Wanneer u een contract verwijdert, wordt ook het aan de klant gekoppelde adres verwijderd. |
+| Projectbeheer en financiële administratie | [552976](https://fix.lcs.dynamics.com/Issue/Details/?bugId=552976) | **Formuliernotities** en **Formulierinstellingen** zijn niet zichtbaar onder **Projectbeheerinstellingen** in Finance-rechtspersonen die zijn geïntegreerd met Project Operations. |
+| Projectbeheer en financiële administratie | [527970](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527970) | De standaardbeschrijving voor btw is leeg, wanneer het **Boekingstype** = **Btw** voor projectfactuurboekstukken. |
+| Projectbeheer en financiële administratie | [565089](https://fix.lcs.dynamics.com/Issue/Details/?bugId=565089) | Er worden dubbele transacties geboekt wanneer op taken gebaseerde facturering wordt gebruikt in Dataverse met Project Operations-integratie. |
+| Projectbeheer en financiële administratie | [566869](https://fix.lcs.dynamics.com/Issue/Details/?bugId=566869) | Het percentage voltooid voor opbrengstverantwoording is onjuist wanneer Project Operations-integratie wordt gebruikt. |
+| Projectbeheer en financiële administratie | [568107](https://fix.lcs.dynamics.com/Issue/Details/?bugId=568107) | De opbrengstenopbouw wordt verdubbeld in een in behandeling zijnde leveranciersfactuur gebruikt in een geïntegreerd scenario van Project Operations. |
+| Projectbeheer en financiële administratie | [572370](https://fix.lcs.dynamics.com/Issue/Details/?bugId=572370) | Kan het integratiejournaal niet boeken als de regel voor het opbrengstprofiel is ingesteld op **Groepsconfiguratie**. |
+| Projectbeheer en financiële administratie | [573596](https://fix.lcs.dynamics.com/Issue/Details/?bugId=573596) | Een inkoopfactuur kan niet worden geboekt voor projectinkooporders die regels bevatten met meerdere maateenheden. |
+| Projectbeheer en financiële administratie | [573637](https://fix.lcs.dynamics.com/Issue/Details/?bugId=573637) | De standaard financiële dimensie voor een project kan niet worden bijgewerkt met de gegevensentiteit **V2** van projecten. |
+| Projectbeheer en financiële administratie | [577211](https://fix.lcs.dynamics.com/Issue/Details/?bugId=577211) | Het batchproces voor het maken van projectramingen duurt te lang om te voltooien. |
+| Projectbeheer en financiële administratie | [582329](https://fix.lcs.dynamics.com/Issue/Details/?bugId=582329) | Wanneer u een contract verwijdert, wordt ook het aan de klant gekoppelde adres verwijderd. |
 | Reizen en onkosten | [514930](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514930) | De werkstroomvoorwaarde voor goedkeuring van onkostennota´s wordt niet correct geëvalueerd. |
 | Reizen en onkosten | [519304](https://fix.lcs.dynamics.com/Issue/Details/?bugId=519304) | Het beleid voor onkostennota´s evalueert de project-ID niet correct. |
 | Reizen en onkosten | [522463](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522463) | De actie **Splitsen naar persoonlijk voor intercompany-onkostentransacties** werkt niet correct. |

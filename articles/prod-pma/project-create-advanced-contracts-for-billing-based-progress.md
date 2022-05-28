@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000975"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683157"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Geavanceerde contracten maken voor facturering op basis van voortgang
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u projectcontracten maakt, zodat u facturen voor klanten kunt maken op basis van een percentage voltooid werk. Factuurbedragen worden automatisch berekend voor de budgetcategorieën van werk dat u voor een project instelt. De timing van de factuur wordt bepaald wanneer u over het projectcontract met de klant onderhandelt.
 
-Gebruik de procedures in dit onderwerp om een contract, een bijbehorend project en de factureringsregels op te stellen waarmee de factuurbedragen worden berekend voor de budgetcategorieën met werk die u voor het project instelt.
+Gebruik de procedures In dit onderwerp om een contract, een bijbehorend project en de factureringsregels op te stellen waarmee de factuurbedragen worden berekend voor de budgetcategorieën met werk die u voor het project instelt.
 
 Nadat u het contract en het project hebt aangemaakt, kunt u de details van het project instellen. U kunt bijvoorbeeld activiteiten definiëren en werknemers aan het project toewijzen.
 

@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007320"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684866"
 ---
 # <a name="project-resourcing-home-page"></a>Startpagina projectresources
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007320"
 
 In dit onderwerp krijgt u informatie over het toewijzen van resources aan projecten.
 
-Een van de uitdagingen voor projectmanagers en resourcemanagers tijdens de projectplanningsfase is de resourcetoewijzing, waarbij zij de juiste resource moeten bepalen en reserveren om aan een project te werken. In Dynamics 365 Finance kunt u met de mogelijkheden voor resourcetoewijzing aan projecten rollen definiëren die worden behandeld als tijdelijke resources die kunnen worden gereserveerd voor een specifieke opdracht of een deel van een opdracht. Met dit type resourcetoewijzing kunnen projectmanagers en resourcemanagers de volgende taken uitvoeren:
+Een van de uitdagingen voor projectmanagers en resourcemanagers tijdens de projectplanningsfase is de resourcetoewijzing, waarbij zij de juiste resource moeten bepalen en reserveren om aan een project te werken. In Dynamics 365 Finance kunt u met de capaciteiten voor projectresourcing rollen definiëren die worden behandeld als tijdelijke resources. Die kunt u reserveren voor een specifieke taak of een gedeelte van een taak. Met dit type resourcetoewijzing kunnen projectmanagers en resourcemanagers de volgende taken uitvoeren:
 
 - Een rol definiëren die de vereiste competenties heeft, zodat het gemakkelijk is om de juiste resources te vinden.
 - Rollen gebruiken om een initieel betrokkenheidsschema te definiëren dat is gebaseerd op gereserveerde resources.

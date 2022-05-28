@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988015"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684958"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client-integratie
 
 [!include [banner](../includes/banner.md)]
 
-Het plannen en bijhouden van een projectplanning kan complex zijn, dus projectmanagers moeten tools gebruiken die hen helpen bij het beheren van deze taak. Integratie met Microsoft Project Client biedt ondersteuning voor het openen en beheren van een projectstructuur voor werkspecificatie. De projectmanager kan eventuele wijzigingen terug publiceren naar de Dynamics 365 Finance-projectstructuur voor werkspecificatie.
+Het plannen en bijhouden van een projectplanning kan complex zijn, dus projectmanagers moeten tools gebruiken die hen helpen bij het beheren van deze taak. Integratie met Microsoft Project Client biedt ondersteuning voor het openen en beheren van een projectstructuur voor werkspecificatie. De projectmanager kan wijzigingen terug publiceren naar de projectstructuur voor werkspecificatie van Dynamics 365 Finance.
 
 > [!NOTE]
 > Als u de update van juli (versie 10.0.4) gebruikt, moet u KB 4054797 en 4055884 installeren.
@@ -40,7 +39,7 @@ Om de integratie met Microsoft Project Client mogelijk te maken, moet een Micros
 •   Klik op **Openen** en vervolgens op **Uitvoeren** als daarom gevraagd wordt.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Een bestaande conceptstructuur voor werkspecificatie openen en bewerken in Microsoft Project Client
-Als een project in Dynamics 365 Finance al een structuur voor werkspecificatie heeft gemaakt, kan de structuur voor werkspecificatie worden geopend in de toepassing Microsoft Project Client als de structuur voor werkspecificatie zich in een conceptstatus bevindt. U kunt openen vanaf de pagina **Project** door op de koppeling **Openen in Microsoft Project** te klikken op het tabblad **Plannen**. Deze pagina kan ook worden geopend vanuit de Microsoft Project Client-toepassing door op **Openen** te klikken op het tabblad **Microsoft Dynamics 365**. Selecteer de **rechtspersoon** en het **project** in de lijst.
+Als een project in Dynamics 365 Finance al een structuur voor werkspecificatie heeft gemaakt, kan de structuur voor werkspecificatie worden geopend in de Microsoft Project-clienttoepassing als de structuur voor werkspecificatie de conceptstatus heeft. U kunt openen vanaf de pagina **Project** door op de koppeling **Openen in Microsoft Project** te klikken op het tabblad **Plannen**. Deze pagina kan ook worden geopend vanuit de Microsoft Project Client-toepassing door op **Openen** te klikken op het tabblad **Microsoft Dynamics 365**. Selecteer de **rechtspersoon** en het **project** in de lijst.
 
 > [!NOTE]
 > Als u Internet Explorer als uw browser gebruikt, moet u op **Opslaan** klikken om handmatig te openen vanaf de locatie waarnaar het bestand is gedownload. Of klik op **Opslaan en openen** om het bestand te openen in Microsoft Project Client. Wijzig de bestandsnaam niet tijdens het opslaan.

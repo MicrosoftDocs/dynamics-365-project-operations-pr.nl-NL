@@ -14,12 +14,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006959"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600552"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>De factureringsbacklog voor projecten en projectcontracten controleren
 
@@ -34,7 +35,7 @@ Wanneer een transactie gereed is voor het maken en verwerken van een factuur, mo
 Wanneer een tijd- of onkostenvermelding wordt ingediend en goedgekeurd voor een project, maakt PSA een werkelijke projectwaarde. Als de combinatie van het project en de transactieklasse zijn toegewezen aan een contractregel voor een tijd-en-materiaalproject, worden twee werkelijke waarden gemaakt wanneer de vermelding wordt goedgekeurd:
 
 - Werkelijke waarde voor kosten 
-- Niet-gefactureerde werkelijke waarde voor verkoop
+- Niet-gefactureerde werkelijke verkoopwaarde
 
 Niet-gefactureerde werkelijke waarden voor verkoop vertegenwoordigen de factureringsbacklog en hun factureringsstatus moet worden ingesteld op **Gereed voor facturering**. Wanneer een projectfactuur wordt gemaakt, worden niet-gefactureerde werkelijke waarden voor verkoop die zijn gemarkeerd als **Gereed voor facturering** gekopieerd als factuurregeldetails.
 

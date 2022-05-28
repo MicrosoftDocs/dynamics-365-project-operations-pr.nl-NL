@@ -4,14 +4,14 @@ description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschi
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007950"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600368"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van november 2020 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -20,7 +20,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
 - Project Operations in CDS-omgeving, versie 4.4.0.70
-- Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving, versie 10.0.14
+- Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving versie 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Updates voor Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -46,7 +46,7 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 
 | Functiegebied        | Referentienummer | Kwaliteitsupdate                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Inkomstenverantwoording | [451662](https://fix.lcs.dynamics.com/Issue/Details/?bugId=451662)           | Voltooid schattingspercentage voor project is onjuist wanneer het contract vreemde valuta gebruikt en werkvoortgangspercentage voor voltooiingsmethode.                     |
+| Omzetverantwoording | [451662](https://fix.lcs.dynamics.com/Issue/Details/?bugId=451662)           | Voltooid schattingspercentage voor project is onjuist wanneer het contract vreemde valuta gebruikt en werkvoortgangspercentage voor voltooiingsmethode.                     |
 | Inkomstenverantwoording | [469894](https://fix.lcs.dynamics.com/Issue/Details/?bugId=469894)           | Kan geen schattingen boeken met de voltooiingsmethode **Werkelijke kosten**.                                                                                                    |
 | Inkomstenverantwoording | [485439](https://fix.lcs.dynamics.com/Issue/Details/?bugId=485439)           | Verwijderen mislukt vanwege een fout in een onevenwichtig boekstuk wanneer de bedrijfsvaluta en de transactievaluta verschillend zijn.                                              |
 | Onkostenbeheer  | [456882](https://fix.lcs.dynamics.com/Issue/Details/?bugId=456822)           | Voor gebruikers die geen beheerder zijn, worden de opzoekwaarden voor kolommen met onkostenregels, zoals **Project-id** en **Uitgavencategorie**, niet correct weergegeven in het gegevensconnectorframe. |
@@ -65,7 +65,7 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 | Projectboekhouding  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Als u de functie inschakelt, zijn meerdere contractregels niet mogelijk zonder CDS-integratie.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Wijzigingen in regelgeving
-Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+Zie [Regelgevende updates](/dynamics365/finance/localizations/regulatory-updates) voor informatie over updates van regelgeving voor apps voor financiën en bedrijfsactiviteiten. U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,24 +1,23 @@
 ---
 title: Verwerking van betalingsbewijzen
-description: Dit onderwerp bevat informatie over de OCR-verwerking (optische tekenherkenning) voor betalingsbewijzen. Deze functie is ontworpen om de gebruikerservaring te verbeteren bij het maken van onkostendeclaraties in Microsoft Dynamics 365 Finance.
+description: Dit onderwerp bevat informatie over de OCR-verwerking (optische tekenherkenning) voor betalingsbewijzen. Deze functie is bedoeld om de gebruikerservaring te verbeteren bij het maken van onkostennota's in Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001380"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684314"
 ---
 # <a name="expense-receipt-processing"></a>Verwerking van betalingsbewijzen
 
@@ -51,7 +50,7 @@ Voer de volgende stappen uit om onkosten te maken of om onkosten te matchen op b
 
 Deze functie werkt in combinatie met de functie **Opnieuw ontworpen onkostendeclaraties** om het invoeren van onkosten te vereenvoudigen. Deze functie is alleen beschikbaar voor Tier 2+-omgevingen, namelijk Sandbox en Production.
 
-Als u deze geavanceerde mogelijkheden voor onkosten wilt gebruiken, installeert u de invoegtoepassing Expense Management Service voor Microsoft Dynamics 365 Finance en schakelt u de functies in in uw exemplaar. U kunt de invoegtoepassing openen vanuit uw project in Microsoft Dynamics Lifecycle Services (LCS).
+Als u deze geavanceerde onkostenmogelijkheden wilt gebruiken, installeert u de invoegtoepassing Service voor onkostenbeheer voor Microsoft Dynamics 365 Finance en schakelt u de functies in uw exemplaar in. U kunt de invoegtoepassing openen vanuit uw project in Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Meld u aan bij LCS en open de gewenste omgeving.
 2. Ga naar **Volledige details**.

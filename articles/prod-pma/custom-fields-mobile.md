@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005745"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682747"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementeer aangepaste velden voor de mobiele Microsoft Dynamics 365 Project Timesheet-app op iOS en Android
 
@@ -52,9 +51,9 @@ De eigenschap **FieldBaseType** voor het object **TsTimesheetCustom** bepaalt he
 | Waarde voor Types | Type              | Opmerkingen |
 |-------------|-------------------|-------|
 | 0           | Tekenreeks (en Enum) | Het veld wordt weergegeven als een tekstveld. |
-| 0           | Integer           | De waarde wordt weergegeven als een getal zonder decimalen. |
+| 1           | Integer           | De waarde wordt weergegeven als een getal zonder decimalen. |
 | 2           | Real              | De waarde wordt weergegeven als een getal met decimalen.<p>Als u de reële waarde als valuta in de app wilt weergeven, gebruikt u de eigenschap **fieldExtenededType**. U kunt de eigenschap **numberOfDecimals** gebruiken om het aantal getoonde decimalen in te stellen.</p> |
-| 5           | Date              | Datumnotaties worden bepaald door de instelling **Datum-, tijden- en getalnotatie** van de gebruiker die is gespecificeerd onder **Voorkeur voor taal en land/regio** in **Gebruikersopties**. |
+| 3           | Date              | Datumnotaties worden bepaald door de instelling **Datum-, tijden- en getalnotatie** van de gebruiker die is gespecificeerd onder **Voorkeur voor taal en land/regio** in **Gebruikersopties**. |
 | 4           | Booleaanse waarde           | |
 | 15          | GUID              | |
 | 16          | Int64             | |
@@ -65,7 +64,7 @@ De eigenschap **FieldBaseType** voor het object **TsTimesheetCustom** bepaalt he
 
 - Als de eigenschap **stringOptions** wordt verstrekt voor het object **TSTimesheetCustomField**, zijn die lijstelementen de enige waarden die gebruikers kunnen selecteren met behulp van optieknoppen (keuzerondjes).
 
-    In dit geval kan het tekenreeksveld fungeren als een opsommingswaarde voor gebruikersinvoer. Als u de waarde in de database wilt opslaan als een enum, wijst u de tekenreekswaarde handmatig opnieuw toe aan de enum-waarde voordat u opslaat in de database met behulp van een opdrachtenreeks (zie de sectie "Opdrachtenreeks gebruiken voor de klasse TSTimesheetEntryService om een urenstaatvermelding uit de app opnieuw op te slaan in de database" verderop in dit onderwerp voor een voorbeeld).
+    In dit geval kan het tekenreeksveld fungeren als een opsommingswaarde voor gebruikersinvoer. Als u de waarde in de database wilt opslaan als een enum, wijst u de tekenreekswaarde handmatig opnieuw toe aan de enum-waarde voordat u opslaat in de database met behulp van een opdrachtenreeks (zie de sectie "Opdrachtenreeks gebruiken voor de klasse TSTimesheetEntryService om een urenstaatvermelding uit de app opnieuw op te slaan in de database" verderop In dit onderwerp voor een voorbeeld).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -107,7 +106,7 @@ Deze eigenschap geeft het label aan dat naast het veld in de app wordt weergegev
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (lijst met tekenreeksen)
 
-Deze eigenschap is alleen van toepassing als **fieldBaseType** is ingesteld op **String**. Als **stringOptions** is ingesteld, worden de tekenreekswaarden die beschikbaar zijn voor selectie via optieknoppen (keuzerondjes) gespecificeerd door de tekenreeksen in de lijst. Als er geen tekenreeksen zijn opgegeven, is vrije tekstinvoer in het tekenreeksveld toegestaan (zie de sectie "Opdrachtenreeks gebruiken voor de klasse TSTimesheetEntryService om een urenstaatvermelding uit de app opnieuw op te slaan in de database" verderop in dit onderwerp voor een voorbeeld).
+Deze eigenschap is alleen van toepassing als **fieldBaseType** is ingesteld op **String**. Als **stringOptions** is ingesteld, worden de tekenreekswaarden die beschikbaar zijn voor selectie via optieknoppen (keuzerondjes) gespecificeerd door de tekenreeksen in de lijst. Als er geen tekenreeksen zijn opgegeven, is vrije tekstinvoer in het tekenreeksveld toegestaan (zie de sectie "Opdrachtenreeks gebruiken voor de klasse TSTimesheetEntryService om een urenstaatvermelding uit de app opnieuw op te slaan in de database" verderop In dit onderwerp voor een voorbeeld).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 
