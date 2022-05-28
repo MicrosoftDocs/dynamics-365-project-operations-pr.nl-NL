@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9b85aed79acb7e7784a23f54a2e9af1cc83f5f4d
-ms.sourcegitcommit: 6d9fc4dc851814664bf71729904ab4bedd85fe70
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 108c75598dc7dd3dd0cdb9ce68e30423d051a4cf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606743"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586660"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-36-v3"></a>Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 36, v3
 
@@ -53,14 +54,14 @@ De volgende problemen zijn opgelost.
 **Verkoop**
 - Wanneer een omgeving een groot volume aan producten heeft, nemen de prestaties af in het raster **Materiaalschatting**.
 - Bij het maken van een project op basis van een sjabloon, wordt de projectvaluta niet standaard ingesteld op de contracterende eenheid van de desbetreffende projectmanager.
-- Werkelijke bedragen komen niet altijd overeen met wat wordt weergegeven voor het verschuldigde project, of de bedragen worden negatief in specifieke terugroepscenario's.
+- Werkelijke bedragen komen niet altijd overeen met wat wordt weergegeven voor het verschuldigde project, of de bedragen worden negatief in specifieke intrekkingsscenario's.
 - Er treedt een fout op wanneer u een project dat is gemaakt op basis van een projectsjabloon koppelt aan een contractregel.
 - Gebruikers kunnen een contractregel met de mijlpalen **Gereed voor facturering** en **Factuur gemaakt** verwijderen. Dit zou niet mogen.
 - Wanneer schattingen uit een project worden geïmporteerd, is de facturering van het prijsopgaveregeldetail onjuist ingesteld wanneer facturering op basis van taken is ingeschakeld voor de prijsopgaveregel.
 - Wanneer u een mijlpaal voor facturering met een vaste prijs toevoegt, wordt de mijlpaal pas weerspiegeld in het subraster voor mijlpalen als de pagina wordt vernieuwd.
 - Er wordt een null-referentie-uitzondering gegenereerd wanneer u een projectcontract maakt met een offertenaam met de waarde null.
 - Taken in de handmatige modus waarbij de projectvaluta afwijkt van de valuta van de resource resulteren in onjuiste prijsschattingen.
-- Gebruikers kunnen een transactie die met een correctiefactuur is gecorrigeerd, niet terugroepen.
+- Gebruikers kunnen een transactie die met een correctiefactuur is gecorrigeerd, niet intrekken.
 - Gedeactiveerde transactiecategorieën verschijnen in het raster **Onkostenschattingen**.
 
 
