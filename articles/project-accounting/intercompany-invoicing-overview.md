@@ -3,16 +3,15 @@ title: Overzicht van intercompany-facturering
 description: Dit onderwerp bevat informatie en voorbeelden over intercompany-facturering voor projecten.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005385"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586246"
 ---
 # <a name="intercompany-invoicing-overview"></a>Overzicht van intercompany-facturering
 
@@ -20,7 +19,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Uw organisatie heeft mogelijk meerdere divisies, dochterondernemingen en andere rechtspersonen die producten en diensten aan elkaar leveren voor projecten. De rechtspersoon die de service of het product levert, wordt de *uitlenende rechtspersoon* genoemd. De rechtspersoon die de service of het product ontvangt, wordt de *lenende rechtspersoon* genoemd.
 
-De volgende afbeelding toont een typisch scenario waarin twee rechtspersonen, Contoso Robotics USA (de lenende rechtspersoon) en Contoso Robotics UK (de uitlenende rechtspersoon) resources deelt om een project voor de klant, Adventure Works, te leveren. Voor dit scenario is Contoso Robotics USA gecontracteerd om het werk te leveren aan Adventure Works.
+De volgende afbeelding toont een typisch scenario waarin twee rechtspersonen, Contoso Robotics USA (de lenende rechtspersoon) en Contoso Robotics UK (de uitlenende rechtspersoon) resources delen om een project voor de klant Adventure Works te leveren. Voor dit scenario is Contoso Robotics USA gecontracteerd om het werk te leveren aan Adventure Works.
 
 ![Intercompany-facturering.](./media/IntercompanyScenario.png) 
 

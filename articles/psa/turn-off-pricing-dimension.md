@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006780"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581692"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Een prijsdimensie uitschakelen
 
@@ -39,8 +40,8 @@ Dit foutbericht geeft aan dat er prijsrecords zijn die eerder zijn ingesteld voo
 
 | Standaardtitel         | Organisatie-eenheid    |Eenheid   |Prijs  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Systeemtechnicus|Contoso VS|Uur| 100|USD|
-| Hoofdsysteemtechnicus|Contoso VS|Uur| 150| USD|
+| Systeemtechnicus|Contoso US|Hour| 100|USD|
+| Hoofdsysteemtechnicus|Contoso US|Hour| 150| USD|
 
 
 Wanneer u **Standaardtitel** als prijsdimensie uitschakelt en de prijsengine van Project Service naar een prijs zoekt, wordt alleen de waarde voor **Organisatie-eenheid** uit de invoercontext gebruikt. Als **Organisatie-eenheid** van de invoercontext “Contoso US” is, is het resultaat niet-deterministisch omdat beide rijen overeenkomen. Om dit scenario te voorkomen controleert Project Service bij het maken van **Rolprijs** records of de combinatie van dimensies uniek is. Als de dimensie is uitgeschakeld nadat de **Rolprijs** records zijn gemaakt, kan deze beperking worden overtreden. Daarom moet u voordat u een dimensie uitschakelt, alle rijen voor **Rolprijs** en **Opslag voor rolprijs** verwijderen waarvoor die dimensiewaarde is ingevuld.

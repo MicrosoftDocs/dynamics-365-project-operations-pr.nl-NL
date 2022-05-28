@@ -4,14 +4,14 @@ description: Dit onderwerp bevat informatie over het instellen van periodetypen 
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998770"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580450"
 ---
 # <a name="period-types"></a>Periodetypen
 
@@ -22,7 +22,7 @@ Een periodetype bepaalt hoe vaak de opbrengst van een project wordt geschat. Dit
 ## <a name="create-and-work-with-period-types"></a>Periodetypen maken en gebruiken
 Voer de volgende stappen uit om periodetypen te maken en ermee te werken:
 
-1. Ga in uw Dynamics 365 Finance-omgeving naar **Projectbeheer en boekhouding** > **Instellen** > **Schattingen** > **Periodetypen**.
+1. Ga in uw Dynamics 365 Finance-omgeving naar **Projectbeheer en financiële administratie** > **Instellingen** > **Schattingen** > **Periodetypen**.
 2. Selecteer **Nieuw** om een nieuw periodetype te maken. Voer een naam en een beschrijving in.
 3. Selecteer een waarde in het veld **Frequentie**:
 

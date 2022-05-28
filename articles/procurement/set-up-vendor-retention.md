@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9511da6212aafbf5b173efc6eb1ceaacbc8264a2
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594578"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583698"
 ---
 # <a name="set-up-vendor-retention"></a>Leveranciersinhoudingen instellen
 
@@ -31,7 +31,7 @@ Dit onderwerp geeft informatie over het instellen van leveranciersinhoudingen.
 
 Gebruik de pagina **Voorwaarden voor leveranciersinhoudingen** om inhoudingsvoorwaarden leveranciersbetalingen in te stellen en te onderhouden. Voer het percentage van de leveranciersbetaling die moet worden ingehouden in en het percentage van de eerder ingehouden bedragen dat u wilt vrijgeven. Bedragen worden automatisch ingehouden op leveranciersfacturen totdat het contract de opgegeven status van voltooiing bereikt. Nadat er inhoudingsvoorwaarden zijn ingesteld voor een leverancier, kunt u deze toepassen op elk project waaraan de leverancier werkt.
 
-1. Ga in Finance naar **Projectbeheer en boekhouding** > **Instellingen** > **Inhouding** > **Inhoudingsvoorwaarden voor leveranciersbetalingen**.
+1. Ga in Finance naar **Projectbeheer en financiële administratie** > **Instellingen** > **Inhouding** > **Inhoudingsvoorwaarden voor leveranciersbetalingen**.
 2. Selecteer **Nieuw** om een nieuwe inhoudingstermijn voor leveranciers toe te voegen. De waarde in het veld **Regel-id** voor de nieuwe voorwaarde wordt automatisch ingevoerd. 
 3. Voer in het veld **Beschrijving** een beschrijvende naam voor de nieuwe voorwaarde in.
 4. Selecteer op het tabblad **Voorwaarden** de optie **Regel toevoegen** om een voorwaarde voor leveranciersinhoudingen in te voeren.
@@ -46,7 +46,7 @@ Gebruik de pagina **Voorwaarden voor leveranciersinhoudingen** om inhoudingsvoor
 
 De voorwaarden voor leveranciersinhoudingen instellen die van toepassing zijn op het project. De inhoudingstermijnen voor leveranciers worden ook weergegeven op inkooporders die u voor de leverancier maakt.
 
-1. Ga in Finance naar **Projectbeheer en boekhouding** > **Projecten** > **Alle projecten**. 
+1. Ga in Finance naar **Projectbeheer en financiële administratie** > **Projecten** > **Alle projecten**. 
 2. Selecteer een project en selecteer in het actievenster de optie **Projectgroep** > **Leveranciersovereenkomsten**.
 3. Voeg op de pagina **Leveranciersovereenkomsten** een nieuwe regel toe.
 4. Selecteer in het veld **Rekeningcode** een van de volgende opties:

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986575"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585786"
 ---
 # <a name="expense-management-integration"></a>Integratie van onkostenbeheer
 
@@ -22,19 +22,19 @@ Dit onderwerp biedt informatie over integratie van onkostenrapporten in Project 
 
 ## <a name="expense-categories"></a>Onkostencategorieën
 
-Bij een volledige onkostenimplementatie worden onkostencategorieën gemaakt en onderhouden in Finance and Operations-apps. Voer de volgende stappen uit om een nieuwe onkostencategorie te maken:
+Bij een volledige onkostenimplementatie worden onkostencategorieën gemaakt en onderhouden in apps voor financiën en bedrijfsactiviteiten. Voer de volgende stappen uit om een nieuwe onkostencategorie te maken:
 
-1. Maak in Microsoft Dataverse een categorie **Transactie**. Integratie met twee keer wegschrijven synchroniseert deze transactiecategorie met Finance and Operations-apps. Zie [Projectcategorieën configureren](/dynamics365/project-operations/project-accounting/configure-project-categories) en [Integratie van instellings- en configuratiegegevens in Project Operations](resource-dual-write-setup-integration.md) voor meer informatie. Als resultaat van deze integratie maakt het systeem vier gedeelde categorierecords in Finance and Operations-apps.
+1. Maak in Microsoft Dataverse een categorie **Transactie**. Integratie van twee keer wegschrijven synchroniseert deze transactiecategorie met apps voor financiën en bedrijfsactiviteiten. Zie [Projectcategorieën configureren](/dynamics365/project-operations/project-accounting/configure-project-categories) en [Integratie van instellings- en configuratiegegevens in Project Operations](resource-dual-write-setup-integration.md) voor meer informatie. Als resultaat van deze integratie ,aalt het systeem vier gedeelde categorierecords in apps voor financiën en bedrijfsactiviteiten.
 2. Ga in Finance naar **Onkostenbeheer** > **Instellingen** > **Gedeelde categorieën** en selecteer een gedeelde categorie met een transactieklasse **Onkosten**. Stel de parameter **Kan worden gebruikt in Onkosten** in op **Waar** en definieer het te gebruiken onkostentype.
 3. Maak met behulp van deze gedeelde categorierecord een nieuwe onkostencategorie door naar **Onkostenbeheer** > **Instellingen** > **Onkostencategorieën** te gaan en **Nieuw** te selecteren. Wanneer de record is opgeslagen, gebruikt twee keer wegschrijven de tabeltoewijzing **Exportentiteit voor projectonkostencategorieën voor integratie van Project Operations (msdyn\_expensecategories)** om deze record te synchroniseren met Dataverse.
 
   ![Integratie van onkostencategorieën.](./media/DW6ExpenseCategories.png)
 
-Onkostencategorieën in Finance and Operations-apps zijn specifiek voor het bedrijf of de rechtspersoon. Er zijn afzonderlijke, corresponderende, rechtspersoonspecifieke records in Dataverse. Wanneer een projectmanager een kostenschatting maakt, kan deze geen onkostencategorieën selecteren die zijn gemaakt voor een project dat eigendom is van een ander bedrijf dan het bedrijf dat eigenaar is van het project waaraan hij of zij werkt. 
+Onkostencategorieën in apps voor financiën en bedrijfsactiviteiten zijn bedrijfs- of rechtspersoonspecifiek. Er zijn afzonderlijke, corresponderende, rechtspersoonspecifieke records in Dataverse. Wanneer een projectmanager een kostenschatting maakt, kan deze geen onkostencategorieën selecteren die zijn gemaakt voor een project dat eigendom is van een ander bedrijf dan het bedrijf dat eigenaar is van het project waaraan hij of zij werkt. 
 
 ## <a name="expense-reports"></a>Onkostendeclaraties
 
-Onkostendeclaraties worden gemaakt en goedgekeurd in Finance and Operations-apps. Zie [Onkostendeclaraties maken en verwerken in Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/) voor meer informatie. Nadat de onkostendeclaratie is goedgekeurd door de projectmanager, wordt deze naar het grootboek geboekt. In project Operations worden projectgerelateerde onkostendeclaratieregels geboekt met behulp van speciale boekingsregels:
+Onkostenrapporten worden gemaakt en goedgekeurd in apps voor financiën en bedrijfsactiviteiten. Zie [Onkostendeclaraties maken en verwerken in Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/) voor meer informatie. Nadat de onkostendeclaratie is goedgekeurd door de projectmanager, wordt deze naar het grootboek geboekt. In project Operations worden projectgerelateerde onkostendeclaratieregels geboekt met behulp van speciale boekingsregels:
 
   - Projectgerelateerde kosten (inclusief niet-terugvorderbare belasting) worden niet onmiddellijk naar het account voor projectkosten in het grootboek geboekt, maar in plaats daarvan naar het integratieaccount voor onkosten. Dit account wordt geconfigureerd in **Projectmanagement en boekhouding** > **Instellingen** > **Projectbeheer en boekhoudkundige parameters**, tabblad **Project Operations in Dynamics 365 Customer Engagement**.
   - Twee keer wegschrijven synchroniseert naar Dataverse via tabeltoewijzing **Exportentiteit voor projectonkosten voor integratie van Project Operations (msdyn\_expenses)**.

@@ -2,16 +2,16 @@
 title: Instellingen voor projectcontracten - lite
 description: Dit onderwerp bevat informatie over velden die van invloed zijn op contractregels en informatie over het contract die is samengevat voor alle regelitems.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995935"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586384"
 ---
 # <a name="header-details-for-project-contracts"></a>Koptekstdetails voor projectcontracten
 
@@ -32,12 +32,15 @@ De volgende tabel bevat de samenvattende informatievelden voor een projectcontra
 | Niet-overschrijdingslimiet | Tabblad **Overzicht** | Dit veld geeft de onderhandelde limiet aan voor de uiteindelijke waarde waarmee de klant akkoord gaat voor deze deal. | Het maximum wordt geëvalueerd tijdens de uitvoering en is van toepassing op alle regelitems en projecten die bij deze deal horen. |
 | Gewenste leveringsdatum | Tabblad **Overzicht** | Wanneer een contract wordt gemaakt op basis van een projectprijsopgave, wordt dit veld gekopieerd uit het overeenkomstige veld in de projectprijsopgave. | Deze datum wordt gebruikt als einddatum voor het genereren van factuurplanningen. |
 
-De volgende KPI's zijn beschikbaar op het tabblad **Contractprestaties** van een projectcontract.
+De volgende KPI's zijn beschikbaar op het tabblad **Contractprestaties** van een projectcontract. 
+
+>[!NOTE]
+>Alle bedragen op het tabblad **Contractprestaties** worden uitgedrukt in de standaardvaluta van de omgeving.
 
 | Veld | Locatie | Beschrijving |
 | --- | --- | --- |
-| Contractwaarde | Algemeen contract | De totale waarde van het projectcontract. |
-| Gefactureerd bedrag | Algemeen contract | De som van de bedragen op alle facturen voor dit contract. |
+| Contractwaarde | Algemeen contract | De totale waarde van het projectcontract.|
+| Gefactureerd bedrag | Algemeen contract | De som van de bedragen op alle facturen voor dit contract.|
 | Gemaakte kosten | Algemeen contract | De som van alle werkelijke kosten die zijn geregistreerd op alle projecten die aan het contract zijn toegewezen. |
 | Brutomarge | Algemeen contract | Gefactureerd bedrag - gemaakte kosten tot datum/gefactureerd bedrag |
 | Verwachte marge | Algemeen contract | (Contractwaarde - geschatte kosten)/contractwaarde Geschatte kosten = de som van alle geschatte kosten voor alle projecten die aan het contract zijn toegewezen.|

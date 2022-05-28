@@ -4,29 +4,29 @@ description: Dit onderwerp geeft informatie over het werken met het Integratiejo
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987925"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582428"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integratiejournaal in Project Operations
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Met tijd- en onkostenboekingen maakt u **werkelijke** transacties die de operationele weergave van het voltooide werk voor een project vertegenwoordigen. Dynamics 365 Project Operations biedt accountants een tool om transacties te beoordelen en de kenmerken van de financiële administratie naar behoefte aan te passen. Nadat de controle en aanpassingen zijn voltooid, worden de transacties geboekt naar de subadministratie en het grootboek van het project. Een accountant kan deze werkzaamheden uitvoeren met behulp van het **Project Operations-integratiejournaal** (**Dynamics 365 Finance** > **Projectbeheer en financiële administratie** > **Journalen** > **Project Operations-integratiejournaal**).
+Met tijd- en onkostenboekingen maakt u **werkelijke** transacties die de operationele weergave van het voltooide werk voor een project vertegenwoordigen. Dynamics 365 Project Operations biedt accountants een tool om transacties te beoordelen en de kenmerken van de financiële administratie naar behoefte aan te passen. Nadat de controle en aanpassingen zijn voltooid, worden de transacties geboekt naar de subadministratie en het grootboek van het project. Een accountant kan deze werkzaamheden uitvoeren met behulp van het dagboek **Project Operations-integratie** (**Dynamics 365 Finance** > **Projectbeheer en financiële administratie** > **Dagboeken** > Dagboek **Project Operations-integratie**).
 
 ![Integratiejournaalstroom.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Records maken in het integratiejournaal in Project Operations
 
-Records in het Project Operations-integratiejournaal worden gemaakt met behulp van het periodieke proces **Importeren uit opslagtabel**. U kunt dit proces uitvoeren via **Dynamics 365 Finance** > **Projectbeheer en financiële administratie** > **Periodiek** > **Integratie van projectoperaties** > **Importeren uit opslagtabel**. U kunt het proces interactief uitvoeren of het proces zo configureren dat het op de achtergrond wordt uitgevoerd.
+Records in het Project Operations-integratiejournaal worden gemaakt met behulp van het periodieke proces **Importeren uit opslagtabel**. U kunt dit proces uitvoeren door naar **Dynamics 365 Finance** > **Projectbeheer en financiële administratie** > **Periodiek** > **Project Operations-integratie** > **Importeren uit faseringstabel** te gaan. U kunt het proces interactief uitvoeren of het proces zo configureren dat het op de achtergrond wordt uitgevoerd.
 
 Wanneer het periodieke proces wordt uitgevoerd, worden alle werkelijke waarden gevonden die nog niet zijn toegevoegd aan het Project Operations-integratiejournaal. Er wordt een journaalregel aangemaakt voor elke daadwerkelijke transactie.
-Journaalregels worden in afzonderlijke journalen gegroepeerd op basis van de waarde die is geselecteerd in het veld **Periode-eenheid in journaal van Project Operations-integratie** (tabblad **Finance** > **Projectbeheer en financiële administratie** > **Instellen** > **Parameters voor projectbeheer en financiële administratie**, **Project Operations in Dynamics 365 Customer Engagement**). Mogelijke waarden voor dit veld zijn:
+Het systeem groepeert journaalregels in afzonderlijke dagboeken op basis van de waarde die is geselecteerd in het veld **Periode-eenheid in dagboek voor Project Operations-integratie** (**Finance** > **Projectbeheer en financiële administratie** > **Instellingen** > **Projectbeheer- en boekhoudingsparameters**, tabblad **Project Operations in Dynamics 365 Customer Engagement**). Mogelijke waarden voor dit veld zijn:
 
   - **Dagen**: werkelijke waarden zijn gegroepeerd op transactiedatum. Voor elke dag wordt een apart dagboek aangemaakt.
   - **Maanden**: werkelijke waarden zijn gegroepeerd per kalendermaand. Voor elke maand wordt een apart dagboek aangemaakt.
@@ -40,10 +40,10 @@ Journaalregels worden gemaakt op basis van de werkelijke waarden van het project
   - Het veld **Boekstuk** geeft het boekstuknummer weer voor elke daadwerkelijke transactie. De nummerreeks van het boekstuk wordt gedefinieerd op het tabblad **Nummerreeksen** op de pagina **Projectbeheer en boekhoudparameters**. Elke regel krijgt een nieuw nummer toegewezen. Nadat het boekstuk is geboekt, kunt u zien hoe kosten en niet-gefactureerde verkooptransacties samenhangen door **Gerelateerde boekstukken** te selecteren op de pagina **Vouchertransactie**.
   - In het veld **Categorie** wordt een projecttransactie weergegeven en standaardwaarden op basis van de transactiecategorie voor de gerelateerde werkelijke projectwaarde.
     - Als **Transactiecategorie** is ingesteld in de werkelijke projectwaarde en een gerelateerde **Projectcategorie** bestaat in een bepaalde rechtspersoon, wordt de categorie standaard ingesteld op deze projectcategorie.
-    - Als **Transactiecategorie** niet is ingesteld in het werkelijke project, gebruikt het systeem de waarde in het veld **Standaardwaarden projectcategorie** op het tabblad **Project Operations in Dynamics 365 Customer Engagement** op de pagina **Projectbeheer en boekhoudparameters**.
+    - Als **Transactiecategorie** niet is ingesteld in de werkelijke projectwaarden, gebruikt het systeem de waarde in het veld **Standaardinstellingen projectcategorie** op het tabblad **Project Operations in Dynamics 365 Customer Engagement** op de pagina **Projectbeheer- en boekhoudingsparameters**.
   - Het veld **Resource** geeft de projectresource aan met betrekking tot deze transactie. De resource wordt gebruikt als referentie in projectfactuurvoorstellen aan klanten.
-  - Het veld **Wisselkoers** gebruikt standaard de **Wisselkoers** die is ingesteld in Dynamics 365 Finance. Als de wisselkoersinstellingen ontbreken, kan het periodieke proces **Importeren uit verzameltabel** de record niet toevoegen aan een journaal en wordt een foutmelding toegevoegd aan het taakuitvoeringslogboek.
-  - Het veld **Regeleigenschap** geeft het factureringstype aan in de werkelijke projectwaarden. Regeleigenschappen en factureringstypetoewijzing worden gedefinieerd op het tabblad **Project Operations in Dynamics 365 Customer Engagement** op de pagina **Projectbeheer en boekhoudparameters**.
+  - Voor het veld **Wisselkoers** wordt standaard **Valutawisselkoers** ingesteld in Dynamics 365 Finance. Als de wisselkoersinstellingen ontbreken, kan het periodieke proces **Importeren uit verzameltabel** de record niet toevoegen aan een journaal en wordt een foutmelding toegevoegd aan het taakuitvoeringslogboek.
+  - Het veld **Regeleigenschap** geeft het factureringstype aan in de werkelijke projectwaarden. Regeleigenschap en factureringstypetoewijzing worden gedefinieerd op het tabblad **Project Operations in Dynamics 365 Customer Engagement** op de pagina **Projectbeheer- en boekhoudingsparameters**.
 
 Alleen de volgende boekhoudkenmerken kunnen worden bijgewerkt in de Project Operations-integratiejournaalregels:
 

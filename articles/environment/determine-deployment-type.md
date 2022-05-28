@@ -4,14 +4,14 @@ description: Dit onderwerp biedt informatie waarmee u het juiste implementatiety
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994630"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584130"
 ---
 # <a name="determine-your-deployment-type"></a>Het type implementatie bepalen
 
@@ -25,7 +25,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Bestaande klanten van Dynamics die Dynamics 365 Project Service Automation gebruiken
 Project Operations omvat de mogelijkheden die bij Project Service Automation worden geleverd. In releasewave 1 van 2021 wordt voor deze klanten een upgradepad vrijgegeven.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Bestaande klanten van Dynamics 365 Finance die Projectmanagement en financiële administratie gebruiken 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Bestaande klanten van Dynamics 365 Finance die Projectbeheer en financiële administratie gebruiken 
 
 Bestaande klanten van Finance die de functionaliteit Projectbeheer en financiële administratie gebruiken, kunnen deze gewoon blijven gebruiken. Zie [Project Operations voor scenario's op basis van voorradige artikelen/productieorders](#pma).
 
@@ -42,9 +42,9 @@ Onze [vragenlijst voor implementaties](https://aka.ms/provisionprojectoperations
 - [Project Operations voor scenario's op basis van resources/niet-voorradige artikelen](#integrated)
 - [Project Operations voor scenario's op basis van voorradige artikelen/productieorders](#pma)
 
-Project Operations ondersteunt scenario's op basis van voorradige artikelen/productieorders en scenario's op basis van niet-voorradige artikelen/resources in dezelfde omgeving via configuraties op rechtspersoonsniveau. Contoso kan bijvoorbeeld gebruikmaken van de mogelijkheden voor voorraad/productieorders in hun Amerikaanse productiefaciliteit (Rechtspersoon = Contoso Manufacturing United States). Contoso kan de mogelijkheden op basis van niet-voorradige artikelen/resources in hun servicefaciliteit Contoso Robotics Arms in het VK (rechtspersoon = Contoso Robotics United Kingdom) gebruiken.
+Project Operations ondersteunt scenario's op basis van voorradige artikelen/productieorders en scenario's op basis van niet-voorradige artikelen/resources in dezelfde omgeving via configuraties op rechtspersoonsniveau. Contoso kan bijvoorbeeld de mogelijkheden voor voorradige artikelen/productieorder gebruiken in de productiefaciliteit in de VS (rechtspersoon = Contoso Manufacturing, Verenigde Staten). Contoso kan de mogelijkheden voor niet-voorradige artikelen/resource gebruiken in hun servicefaciliteit voor Contoso Robotics Arms in het VK (rechtspersoon = Contoso Robotics Verenigd Koninkrijk).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Lite-implementatie - van deal tot pro-formafacturering
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Vereenvoudigde implementatie - van deal tot pro-formafacturering
 
 De Lite-implementatie omvat de volgende mogelijkheden:
 

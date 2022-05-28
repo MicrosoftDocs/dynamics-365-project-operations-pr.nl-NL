@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986710"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582797"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Correctiejournalen maken en bevestigen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Af en toe worden tijds- en onkostenvermeldingen onjuist ingevoerd. Een consultant kan bijvoorbeeld de verkeerde datum selecteren bij het invoeren van tijdgegevens of ze kunnen de cijfers transponeren bij het invoeren van onkosten. Als een consultant de ingediende items niet kan bijwerken, kan een beheerder de invoer voor een project rechtstreeks corrigeren.
-
-U hebt beheerdersmachtigingen nodig om de procedures in dit onderwerp te voltooien.
+Af en toe kan een tijdsvermelding of onkostenpost verkeerd worden ingevoerd. Een consultant kan bijvoorbeeld de verkeerde datum selecteren wanneer hij een tijdsvermelding maakt, of hij kan het verkeerde project selecteren bij het invoeren van een onkostenpost. Als een consultant de ingediende vermeldingen niet kan bijwerken, kan een back-endbeheerder direct de werkelijke waarden voor een project corrigeren.
 
 ## <a name="correct-approved-time-entries"></a>Correcte goedgekeurde tijdsvermeldingen     
 
@@ -46,8 +42,8 @@ Voer de volgende stappen uit om enkele of meerdere tijdsvermeldingen voor een pr
 
 6. Selecteer **Voorbeeld**. Selecteer **OK** in het dialoogvenster. Op het tabblad **Journaalregels** kunt u een lijst bekijken van de originele werkelijke waarden die betrekking hebben op de geselecteerde tijdsvermeldingen die zijn teruggedraaid en de gecorrigeerde overeenkomstige regels die zijn gemaakt. Herhaal stap 5 en 6 als er aanvullende correcties nodig zijn. 
 
-> [!NOTE]
-> Alle gecorrigeerde werkelijke waarden hebben dezelfde waarden die u in de sectie **Nieuwe waarden voor tijdsvermeldingen** hebt geselecteerd.
+    > [!NOTE]
+    > Alle gecorrigeerde werkelijke waarden hebben dezelfde waarden die u in de sectie **Nieuwe waarden voor tijdsvermeldingen** hebt geselecteerd.
 
 7. Selecteer **Bevestigen** als de correcties verschijnen zoals verwacht. Selecteer **OK** in het dialoogvenster.
 
@@ -55,12 +51,10 @@ Voer de volgende stappen uit om enkele of meerdere tijdsvermeldingen voor een pr
 
 9. Bekijk op de pagina **Projecten**, op het tabblad **Werkelijke waarden** de wijzigingen die u hebt aangebracht. 
 
-> [!NOTE]
-> Als het tabblad **Werkelijke waarden** niet zichtbaar is, selecteert u **Gerelateerd** > **Werkelijke waarden**.  
+    > [!NOTE]
+    > Als het tabblad **Werkelijke waarden** niet zichtbaar is, selecteert u **Gerelateerd** > **Werkelijke waarden**.  
 
 10. In de lijst **Gekoppelde weergave van werkelijke waarden** kunt u zien dat de oorspronkelijke tijdsvermeldingen die zijn teruggedraaid, nog steeds worden vermeld evenals de corresponderende gecorrigeerde tijdsvermeldingen. 
-
-In de volgende afbeelding zijn er bijvoorbeeld twee regelitems met een hoeveelheid van 8,00 waarvoor afschrijvingen worden vermeld in de kolom Bedrag. Daarnaast zijn er twee regelitems met een hoeveelheid van -8,00 die gecrediteerde bedragen weergeven in de kolom Bedrag. Deze correcties resulteren in de hoeveelheid nul.
 
  
 ## <a name="correct-approved-expense-entries"></a>Correcte goedgekeurde onkostenvermeldingen
@@ -79,14 +73,30 @@ Voer de volgende stappen uit om een of meer onkostenvermeldingen te corrigeren.
 
 6. Selecteer **Bevestigen** als de gecorrigeerde waarden voldoen aan de verwachting. Selecteer **OK** in het dialoogvenster. Als de waarden niet worden weergegeven zoals verwacht, selecteert u **Annuleren** om terug te keren naar de lijst **Goedgekeurde onkosten**. Herhaal de stappen 2 tot en met 5. 
 
-> [!NOTE]
-> De gecorrigeerde werkelijke waarden hebben dezelfde waarden die u in de sectie **Nieuwe waarden voor onkosten** hebt geselecteerd.
+7. Nadat u het correctiedagboek hebt bevestigd, keert u terug naar het project of de projecten die u hebt bijgewerkt om uw wijzigingen te bekijken.
 
-7. Nadat u het correctiejournaal hebt bevestigd, navigeert u terug naar het project of de projecten die u hebt bijgewerkt om uw wijzigingen te bekijken.  
-
-8. Controleer op het tabblad **Werkelijke waarden** op de projectpagina de **Gekoppelde weergave van werkelijke waarden**. De oorspronkelijke vermeldingen en de gecorrigeerde vermeldingen worden vermeld. In de volgende afbeelding ziet u de oorspronkelijke bedragen voor onkostenvermeldingen en de overeenkomstige gecorrigeerde bedragen voor onkostenvermeldingen. 
+8. Bekijk op de projectpagina, op het tabblad **Werkelijke waarden**, de lijst **Gekoppelde weergave van werkelijke waarden**. De oorspronkelijke vermeldingen en de gecorrigeerde vermeldingen worden vermeld.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Goedgekeurde logboeken voor materiaalgebruik corrigeren
+
+Voer de volgende stappen uit om een of meer logboekvermeldingen voor materiaalgebruik te corrigeren.
+
+1. Selecteer in het gebied **Verkoop**, in het linkernavigatievenster, onder **Transacties** de optie **Werkelijke waarden**.
+
+2. Maak in de lijst **Werkelijke waarden** gebruik van kolomfilters om de transactieklasse **Materiaal** te selecteren, zodat alleen de werkelijke waarden voor materialen worden weergegeven. Gebruik andere kolomfilters om de weergegeven werkelijke waarden verder te beperken. Nadat u de gewenste set werkelijke waarden hebt gevonden, selecteert u de werkelijke waarden en selecteert u vervolgens **Posten corrigeren**. Er wordt automatisch een nieuw correctiedagboek gemaakt en het type **Materiaalcorrectie** wordt toegewezen.
+
+3. Voer op de pagina **Nieuw dagboek** in het veld **Beschrijving** een beschrijving voor de correctie in. Selecteer vervolgens, op het tabblad **Materiaalcorrectie**, in de sectie **Nieuwe waarden voor materialen**, de gegevensvelden die u wilt corrigeren voor de geselecteerde materiaalregels. U kunt het materiaal bijvoorbeeld aan een ander project toewijzen of het product, de materiaaldatum of het subcontract corrigeren.
+
+4. Selecteer **Voorbeeld**. Vervolgens selecteert u in het dialoogvenster de optie **OK**.
+
+5. Controleer de correcties op het tabblad **Dagboekregels**. U kunt een lijst bekijken van de oorspronkelijke werkelijke waarden die zijn gerelateerd aan de geselecteerde artikelposten die zijn teruggeboekt en de gecorrigeerde overeenkomstige regels die zijn gemaakt.
+
+6. Selecteer **Bevestigen** als de gecorrigeerde waarden voldoen aan de verwachting. Vervolgens selecteert u in het dialoogvenster de optie **OK**. Als de waarden niet zijn zoals verwacht, selecteert u **Annuleren** om terug te keren naar de lijst **Werkelijke waarden**. Herhaal vervolgens stap 2 tot en met 5.
+
+7. Nadat u het correctiedagboek hebt bevestigd, keert u terug naar het project of de projecten die u hebt bijgewerkt om uw wijzigingen te bekijken.
+
+8. Bekijk op de projectpagina, op het tabblad **Werkelijke waarden**, de lijst **Gekoppelde weergave van werkelijke waarden**. De oorspronkelijke vermeldingen en de gecorrigeerde vermeldingen worden vermeld.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

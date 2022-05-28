@@ -1,92 +1,37 @@
 ---
-title: Werkelijke waarden koppelen aan oorspronkelijke records
-description: In dit onderwerp wordt uitgelegd hoe werkelijke waarden kunnen worden gekoppeld aan oorspronkelijke records, zoals tijdinvoer, onkosteninvoer of logboeken voor materiaalgebruik.
+title: Oorsprong van transacties - Werkelijke waarden aan hun bron koppelen
+description: In dit onderwerp wordt uitgelegd hoe het concept van transactieoorsprong wordt gebruikt om werkelijke waarden te koppelen aan originele bronrecords, zoals tijdsvermeldingen, onkostenposten of logboeken voor materiaalgebruik.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991750"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584820"
 ---
-# <a name="link-actuals-to-original-records"></a>Werkelijke waarden koppelen aan oorspronkelijke records
+# <a name="transaction-origins---link-actuals-to-their-source"></a>Oorsprong van transacties - Werkelijke waarden aan hun bron koppelen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-
-In Dynamics 365 Project Operations is een *bedrijfstransactie* een abstract concept dat niet wordt vertegenwoordigd door een entiteit. Sommige algemene entiteitsvelden en -processen zijn echter ontworpen om het concept van bedrijfstransacties te gebruiken. De volgende entiteiten gebruiken dit concept:
-
-- Prijsopgaveregeldetails
-- Contractregeldetails
-- Schattingsregels
-- Journaalregels
-- Werkelijke waarden
-
-Van deze entiteiten worden **prijsopgaveregeldetails**, **contractregeldetails** en **schattingsregels** toegewezen aan de schattingsfase in de levenscyclus van het project. De entiteiten **Journaalregels** en **Werkelijke waarden** worden toegewezen aan de uitvoeringsfase in de levenscyclus van het project.
-
-Project Operations herkent records in deze vijf entiteiten als bedrijfstransacties. Het enige verschil is dat records in de entiteiten die zijn toegewezen aan de schattingsfase worden beschouwd als financiële prognoses, terwijl de records in entiteiten die zijn toegewezen aan de uitvoeringsfase worden beschouwd als financiële feiten die zich al hebben voorgedaan.
-
-## <a name="concepts-that-are-unique-to-business-transactions"></a>Unieke concepten voor bedrijfstransacties
-De volgende concepten zijn uniek voor het concept van bedrijfstransacties:
-
-- Transactietype
-- Transactieklasse
-- Oorsprong van transactie
-- Transactieverbinding
-
-### <a name="transaction-type"></a>Transactietype
-
-Transactietype staat voor de timing en context van de financiële impact op een project. Het wordt vertegenwoordigd door een optieset met de volgende ondersteunde waarden in Project Operations:
-
-  - Kosten
-  - Projectcontract
-  - Niet-gefactureerde verkoop
-  - Gefactureerde verkoop
-  - Interorganisatorische verkopen
-  - Kosten van resource-eenheid
-
-### <a name="transaction-class"></a>Transactieklasse
-
-Transactieklasse vertegenwoordigt de verschillende typen kosten die worden gemaakt voor projecten. Het wordt vertegenwoordigd door een optieset met de volgende ondersteunde waarden in Project Operations:
-
-  - Tijd
-  - Onkosten
-  - Materiaal
-  - Tarief
-  - Mijlpaal
-  - Belastingen
-
-**Mijlpaal** wordt meestal gebruikt door de bedrijfslogica voor facturering met een vaste prijs in Project Operations.
-
-### <a name="transaction-origin"></a>Oorsprong van transactie
-
-**Oorsprong van transactie** is een entiteit waarin de oorsprong van elke zakelijke transactie wordt opgeslagen. Wanneer een project van start gaat, geeft elke zakelijke transactie aanleiding tot een andere zakelijke transactie, die op zijn beurt weer een nieuwe zakelijke transactie maakt, enzovoort. De entiteit Oorsprong van transactie is ontworpen om gegevens over de oorsprong van elke transactie op te slaan om te helpen bij rapportage en traceerbaarheid. 
-
-### <a name="transaction-connection"></a>Transactieverbinding
-
-**Transactieverbinding** is een entiteit die de relatie tussen twee soortgelijke bedrijfstransacties opslaat, zoals kosten en gerelateerde verkoopwaarden, of omkeringen van transacties die worden geactiveerd door factureringsactiviteiten, zoals factuurbevestigingen of factuurcorrecties.
-
-Samen helpen **Oorsprong van transactie** en **Transactieverbinding** u relaties bij te houden tussen bedrijfstransacties en acties die resulteren in een specifieke bedrijfstransactie.
-
-### <a name="example-how-transaction-origin-works-with-transaction-connection"></a>Voorbeeld: hoe Oorsprong van transactie samenwerkt met Transactieverbinding
+Transactieoorsprongrecords worden gemaakt om werkelijke waarden aan hun bron te koppelen, zoals tijdsvermeldingen, onkostenposten, logboeken voor materiaalgebruik en projectfacturen.
 
 In het volgende voorbeeld ziet u de normale verwerking van tijdsvermeldingen in een Project Operations-projectlevenscyclus.
 
-> ![Tijdsvermeldingen in een Project Service-levenscyclus verwerken.](media/basic-guide-17.png)
+> ![Tijdsvermeldingen verwerken in Project Operations.](media/basic-guide-17.png)
  
 1. Bij het indienen van een tijdsvermelding worden twee journaalregels gemaakt: één voor kosten en één voor niet-gefactureerde verkopen.
 2. Bij de uiteindelijke goedkeuring van de tijdsvermelding worden twee werkelijke waarden gemaakt: één voor kosten en één voor niet-gefactureerde verkopen.
-3. Wanneer een nieuwe projectfactuur wordt gemaakt, wordt de factuurregeltransactie gemaakt met behulp van gegevens uit de niet-gefactureerde werkelijke verkoopwaarde. 
-4. Wanneer de factuur wordt bevestigd, worden twee nieuwe werkelijke waarden gemaakt: een niet-gefactureerde waarde voor een verkoopterugboeking en een gefactureerde werkelijke verkoopwaarde.
+3. Wanneer de gebruiker een projectfactuur maakt, wordt de factuurregeltransactie gemaakt met behulp van gegevens uit de niet-gefactureerde werkelijke verkoopwaarde.
+4. Wanneer de factuur wordt bevestigd, worden twee nieuwe werkelijke waarden gemaakt: een niet-gefactureerde verkoopterugboeking en een gefactureerde werkelijke verkoopwaarde.
 
-Voor elk van deze gebeurtenissen wordt een record in de entiteiten **Oorsprong van transactie** en **Transactieverbinding** gemaakt. Met deze nieuwe records kan een geschiedenis van relaties tussen de records die zijn gemaakt voor tijdsinvoer, journaalregels, werkelijke waarden en factuurregeldetails.
+Bij elke gebeurtenis in deze verwerkingsworkflow worden records in de entiteit Oorsprong van transactie gemaakt om te helpen bij het bouwen van een trace voor de relaties tussen deze records die worden gemaakt tussen details van tijdsvermeldingen, journaalregels, werkelijke waarden en factuurregels.
 
-De volgende tabel bevat de records in de entiteit **Oorsprong van transactie** voor de werkstroom.
+De volgende tabel bevat de records in de entiteit Oorsprong va transactie voor de voorgaande werkstroom.
 
 | Gebeurtenis                        | Oorsprong                   | Type oorsprong                       | Transactie                       | Transactietype         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
@@ -95,7 +40,7 @@ De volgende tabel bevat de records in de entiteit **Oorsprong van transactie** v
 | Tijd van goedkeuring                | GUID journaalregelrecord | Journaalregel                      | GUID record voor niet-gefactureerde verkoop        | Werkelijk                   |
 | GUID tijdsvermeldingsrecord       | Tijdsvermelding               | GUID record voor niet-gefactureerde verkoop        | Werkelijk                            |                          |
 | GUID journaalregelrecord     | Journaalregel             | GUID record voor werkelijke kosten           | Werkelijk                            |                          |
-| GUID tijdsvermeldingsrecord       | Tijdsvermelding               | GUID record voor werkelijke kosten           | Actueel                            |                          |
+| GUID tijdsvermeldingsrecord       | Tijdsvermelding               | GUID record voor werkelijke kosten           | Werkelijk                            |                          |
 | Factuur maken             | GUID tijdsvermeldingsrecord   | Tijdsvermelding                        | GUID factuurregeltransactie     | Factuurregeltransactie |
 | GUID journaalregelrecord     | Journaalregel             | GUID factuurregeltransactie     | Factuurregeltransactie          |                          |
 | Factuurbevestiging         | GUID factuurregel        | Factuurregel                      | GUID record voor gefactureerde verkoop          | Werkelijk                   |
@@ -122,20 +67,11 @@ De volgende tabel bevat de records in de entiteit **Oorsprong van transactie** v
 | GUID journaalregelrecord     | Journaalregel             | GUID nieuwe niet-gefactureerde werkelijke verkoopwaarde    | Werkelijk                            |                          |
 | GUID correctie-FRD          | Factuurregeltransactie | GUID nieuwe niet-gefactureerde werkelijke verkoopwaarde    | Werkelijk                            |                          |
 | GUID correctie-FR           | Factuurregel             | GUID nieuwe niet-gefactureerde werkelijke verkoopwaarde    | Werkelijk                            |                          |
-| GUID correctiefactuur      | Factuur                  | GUID nieuwe niet-gefactureerde werkelijke verkoopwaarde    | Werkelijk                            |                          |
+| GUID correctiefactuur      | Factuur                  | GUID nieuwe niet-gefactureerde werkelijke verkoopwaarde    | Actueel                            |                          |
 
-De volgende tabel bevat de records in de entiteit **Transactieverbinding** voor de werkstroom.
 
-| Gebeurtenis                          | Transactie 1                 | Rol van transactie 1 | Type van transactie 1           | Transactie 2                | Rol van transactie 2 | Type van transactie 2 |
-|--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
-| Indiening van tijdsvermelding          | GUID journaalregel (verkoop)     | Niet-gefactureerde verkoop     | msdyn_journalline            | GUID journaalregel (kosten)     | Kosten               | msdyn_journalline  |
-| Tijd van goedkeuring                  | GUID niet-gefactureerde werkelijke waarde (verkoop)  | Niet-gefactureerde verkoop     | msdyn_actual                 | GUID werkelijke kosten       | Kosten               | msdyn_actual       |
-| Factuur maken               | GUID factuurregeldetail      | Gefactureerde verkoop       | msdyn_invoicelinetransaction | GUID niet-gefactureerde werkelijke waarde   | Niet-gefactureerde verkoop     | msdyn_actual       |
-| Factuurbevestiging           | GUID omgekeerde werkelijke waarde         | Omkeren          | msdyn_actual                 | GUID oorspronkelijke niet-gefactureerde verkoop | Oorspronkelijk           | msdyn_actual       |
-| GUID gefactureerde verkoop              | Gefactureerde verkoop                  | msdyn_actual       | GUID niet-gefactureerde werkelijke waarde   | Niet-gefactureerde verkoop               | msdyn_actual       |                    |
-| Correctie van conceptfactuur       | GUID factuurregeltransactie | Vervangen          | msdyn_invoicelinetransaction | GUID gefactureerde verkoop            | Oorspronkelijk           | msdyn_actual       |
-| Factuurcorrectie bevestigen     | GUID gefactureerde verkoopterugboeking    | Omkeren          | msdyn_actual                 | GUID gefactureerde verkoop            | Oorspronkelijk           | msdyn_actual       |
-| GUID nieuwe niet-gefactureerde werkelijke verkoopwaarde | Vervangen                     | msdyn_actual       | GUID gefactureerde verkoop            | Oorspronkelijk                     | msdyn_actual       |                    |
+De volgende afbeelding toont de koppelingen die worden gemaakt tussen werkelijke waarden en hun bronnen bij verschillende gebeurtenissen met behulp van het voorbeeld van tijdsvermeldingen in Project Operations.
 
+> ![Hoe werkelijke waarden worden gekoppeld aan bronrecords in Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

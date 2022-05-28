@@ -4,14 +4,14 @@ description: Dit onderwerp bevat informatie over het instellen van de integratie
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999400"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585832"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>De integratie van Project Operations per rechtspersoon configureren 
 
@@ -19,7 +19,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Dit onderwerp leidt u door de stappen die nodig zijn om Dynamics 365 Project Operations te configureren per rechtspersoon.
 
-## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Functietoetsen in Dynamics 365 Finance inschakelen
+## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Functietoetsen inschakelen in Dynamics 365 Finance
 
 Voer de volgende stappen uit om de vereiste functies in te schakelen.
 
@@ -34,17 +34,17 @@ Voer de volgende stappen uit om de vereiste functies in te schakelen.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>Het implementatiescenario van Project Operations voor een rechtspersoon definiëren
 
-U kunt Project Operations in Dynamics 365 Customer Engagement inschakelen op het niveau van de rechtspersoon. U kunt één rechtspersoon hebben die Project Operations gebruikt in Dynamics 365 Customer Engagement voor scenario's op basis van resources/niet-voorradige artikelen. In dezelfde omgeving kunt u nog een rechtspersoon hebben die Project Operations gebruikt voor scenario's op basis van voorradige artikelen/productieorders.
+U kunt Project Operations inschakelen in Dynamics 365 Customer Engagement op het niveau van een rechtspersoon. U kunt één rechtspersoon hebben die Project Operations in Dynamics 365 Customer Engagement gebruikt voor scenario's op basis van resources/niet-voorraad. In dezelfde omgeving kunt u nog een rechtspersoon hebben die Project Operations gebruikt voor scenario's op basis van voorradige artikelen/productieorders.
 
-1. Ga in Dynamics 365 Finance naar **Projectmanagement en financiële administratie** > **Instellen** > **Algemene parameters voor Projectmanagement en financiële administratie**.
-2. Selecteer in de lijst met beschikbare rechtspersonen de entiteiten waarvoor meerdere contractregels en Project Operations in Dynamics 365 Customer Engagement-functies worden ingeschakeld. Laat rechtspersonen die Project Operations gebruiken voor scenario's op basis van voorradige artikelen/productieorders uitgeschakeld.
+1. Ga in Dynamics 365 Finance naar **Projectbeheer en financiële administratie** > **Instellingen** > **Algemene projectbeheer- en boekhoudingsparameters**.
+2. Selecteer in de lijst met beschikbare rechtspersonen entiteiten waarvoor meerdere contractregels en functies van Project Operations in Dynamics 365 Customer Engagement worden ingeschakeld. Laat rechtspersonen die Project Operations gebruiken voor scenario's op basis van voorradige artikelen/productieorders uitgeschakeld.
 
 > [!NOTE]
 > Een rechtspersoon kan alleen worden geselecteerd als deze geen bestaande projecten heeft.
 
 ## <a name="configure-project-management-and-accounting-parameters"></a>Parameters voor Projectbeheer en financiële administratie configureren
 
-Elke rechtspersoon die Project Operations gebruikt in Dynamics 365 Customer Engagement heeft een set standaardparameters nodig. Deze parameters zijn geconfigureerd op het tabblad **Project Operations** op de pagina **Parameters voor Projectbeheer en financiële administratie** bladzijde. De parameters zijn:
+Elke rechtspersoon die Project Operations in Dynamics 365 Customer Engagement gebruikt, heeft een set standaardparameters nodig. Deze parameters zijn geconfigureerd op het tabblad **Project Operations** op de pagina **Parameters voor Projectbeheer en financiële administratie** bladzijde. De parameters zijn:
 
   - **Standaardwaarden voor factureringstype**: Project Operations gebruikt een vaste set standaardinstellingen voor factureringstypes die moeten worden toegewezen aan regeleigenschappen in Finance. Maak een record voor elk factureringstype: **Niet gespecificeerd**, **Toerekenbaar**, **Niet-toerekenbaar**, **Gratis** en **Niet beschikbaar**.
   - **Standaardinstellingen projectcategorie**: selecteer de standaardprojectcategorieën die voor elk transactietype moeten worden gebruikt. Deze standaardinstellingen worden gebruikt in **Integratiejournaal in Project Operations** en in schattingen waar geen transactiecategorie is gespecificeerd voor de werkelijke projectwaarden.

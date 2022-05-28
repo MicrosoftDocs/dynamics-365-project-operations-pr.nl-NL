@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942879"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584866"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van november 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -61,16 +61,16 @@ Als u een probleem ondervindt bij het starten van de toewijzing, volgt u de inst
 
 | Functiegebied | Referentienummer | Kwaliteitsupdate |
 | --- | --- | --- |
-| Projectbeheer en boekhouding | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Ingehouden leveranciersbedragen in projectonkostentransacties worden niet weergegeven in de transactielijst. |
-| Projectbeheer en boekhouding | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | De intercompany-leveranciersfactuur wordt verbroken wanneer integratie van leveranciersfacturen is ingeschakeld. |
-| Projectbeheer en boekhouding | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | De betalingsvoorwaarden op projectfacturen werken niet zoals verwacht. |
-| Projectbeheer en boekhouding | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Wanneer de leveranciersinhouding wordt vrijgegeven, bevat de boekstukboeking aanvullende regels die onjuist zijn. |
-| Projectbeheer en boekhouding | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Wanneer het integratiejournaal van Project Operations wordt geboekt, mislukt dit vanwege ontbrekende dimensies voor een account waar niet naar geboekt wordt. |
-| Projectbeheer en boekhouding | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Het tabblad **Project** kan niet worden bewerkt op een openstaande leveranciersfactuur wanneer de inkoopcategorie aan het artikel wordt toegewezen. |
-| Projectbeheer en boekhouding | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Het navigatiedeelvenster ontbreekt als u niet bent aangemeld bij project Operations Dataverse. |
-| Projectbeheer en boekhouding | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Wanneer u opbrengsten boekt vanaf een projectfactuur bij een toegepast voorschot treedt er een fout op, omdat transacties op het boekstuk niet in evenwicht zijn. |
-| Projectbeheer en boekhouding | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Het maken van een raming nadat u een factuurvoorstel hebt geboekt, voorkomt dat correctieregels kunnen worden geïmporteerd. |
-| Projectbeheer en boekhouding | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Wijziging van een volledig gefactureerde mijlpaalrecord zou niet mogelijk moeten zijn. |
+| Projectbeheer en financiële administratie | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Ingehouden leveranciersbedragen in projectonkostentransacties worden niet weergegeven in de transactielijst. |
+| Projectbeheer en financiële administratie | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | De intercompany-leveranciersfactuur wordt verbroken wanneer integratie van leveranciersfacturen is ingeschakeld. |
+| Projectbeheer en financiële administratie | [593382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593382) | De betalingsvoorwaarden op projectfacturen werken niet zoals verwacht. |
+| Projectbeheer en financiële administratie | [596263](https://fix.lcs.dynamics.com/Issue/Details/?bugId=596263) | Wanneer de leveranciersinhouding wordt vrijgegeven, bevat de boekstukboeking aanvullende regels die onjuist zijn. |
+| Projectbeheer en financiële administratie | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Wanneer het integratiejournaal van Project Operations wordt geboekt, mislukt dit vanwege ontbrekende dimensies voor een account waar niet naar geboekt wordt. |
+| Projectbeheer en financiële administratie | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | Het tabblad **Project** kan niet worden bewerkt op een openstaande leveranciersfactuur wanneer de inkoopcategorie aan het artikel wordt toegewezen. |
+| Projectbeheer en financiële administratie | [605121](https://fix.lcs.dynamics.com/Issue/Details/?bugId=605121) | Het navigatiedeelvenster ontbreekt als u niet bent aangemeld bij project Operations Dataverse. |
+| Projectbeheer en financiële administratie | [602728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602728) | Wanneer u opbrengsten boekt vanaf een projectfactuur bij een toegepast voorschot treedt er een fout op, omdat transacties op het boekstuk niet in evenwicht zijn. |
+| Projectbeheer en financiële administratie | [603624](https://fix.lcs.dynamics.com/Issue/Details/?bugId=603624) | Het maken van een raming nadat u een factuurvoorstel hebt geboekt, voorkomt dat correctieregels kunnen worden geïmporteerd. |
+| Projectbeheer en financiële administratie | [606083](https://fix.lcs.dynamics.com/Issue/Details/?bugId=606083) | Wijziging van een volledig gefactureerde mijlpaalrecord zou niet mogelijk moeten zijn. |
 | Reizen en onkosten | [575305](https://fix.lcs.dynamics.com/Issue/Details/?bugId=575305) | Alle onkostennota's zijn te zien wanneer u zoekt naar een categorie in de mobiele app voor onkosten. |
 | Reizen en onkosten | [583101](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583101) | Er worden onjuiste bedragen voor leveranciers- en btw-transacties geboekt op basis van een onkostenpost die wordt gemaakt op basis van een creditcardtransactie. |
 | Reizen en onkosten | [583760](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583760) | Er treedt een irrelevant waarschuwingsbericht op wanneer u de pagina **Onkostennota** vernieuwt. |

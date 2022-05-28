@@ -2,16 +2,16 @@
 title: Tijdinvoer uitbreiden
 description: Dit onderwerp biedt informatie over de manier waarop ontwikkelaars het besturingselement voor tijdinvoer kunnen uitbreiden.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993325"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582980"
 ---
 # <a name="extending-time-entries"></a>Tijdinvoer uitbreiden
 
@@ -43,7 +43,7 @@ Tijdinvoer is een kernentiteit die in meerdere scenario's wordt gebruikt. In apr
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Tijdinvoer en de entiteit Tijdbron
-Elke tijdinvoer is gekoppeld aan een tijdbronrecord. Dit record bepaalt hoe en welke passingen de tijdinvoer moeten verwerken.
+Elke tijdinvoer is gekoppeld aan een tijdbronrecord. Deze record bepaalt welke toepassingen de tijdsvermelding moeten verwerken en hoe dit moet gebeuren.
 
 Tijdinvoer is altijd een aaneengesloten tijdsblok waaraan het begin, het einde en de duur zijn gekoppeld.
 
@@ -72,73 +72,63 @@ Records voor tijdinvoer hebben een bijbehorend type waarmee het gedrag in de ind
 |Vakantie   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Het besturingselement voor wekelijkse tijdinvoer aanpassen
 Ontwikkelaars kunnen extra velden en zoekacties toevoegen aan andere entiteiten en aangepaste bedrijfsregels implementeren om hun bedrijfsscenario's te ondersteunen.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Aangepaste velden met zoekacties voor andere entiteiten toevoegen
 Er zijn drie belangrijke stappen voor het toevoegen van een aangepast veld aan het wekelijkse tijdinvoerraster.
 
-1. Voeg het aangepaste veld toe aan het dialoogvenster Snelle invoer.
+1. Voeg het aangepaste veld toe aan het dialoogvenster **Snelle invoer**.
 2. Configureer het raster om het aangepaste veld weer te geven.
-3. Voeg het aangepaste veld toe aan de taakstromen voor het bewerken van rijen of cellen.
+3. Voeg het aangepaste veld toe aan de pagina **Rij bewerken** of **Tijdsvermelding bewerken**, indien van toepassing.
 
-Zorg ervoor dat het nieuwe veld de vereiste validaties bevat in de taakstroom voor het bewerken van rijen of cellen. Als onderdeel van deze stap moet u het veld vergrendelen op basis van de status van de tijdinvoer.
+Zorg ervoor dat het nieuwe veld de vereiste validaties bevat op de pagina **Rij bewerken** of **Tijdsvermelding bewerken**. Als onderdeel van deze taak vergrendelt u het veld op basis van de status van de tijdsvermelding.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Het aangepaste veld toevoegen aan het dialoogvenster Snelle invoer
-Voeg het aangepaste veld toe aan het dialoogvenster **Snelle invoer voor tijdsvermelding maken**. Vervolgens kan een waarde worden ingevoerd door **Nieuw** te selecteren wanneer tijdsvermeldingen worden toegevoegd.
+Wanneer u een aangepast veld toevoegt aan het raster **Tijdsvermelding** raster en vervolgens tijdsvermeldingen rechtstreeks in het raster maakt, wordt het aangepaste veld voor die vermeldingen automatisch zo ingesteld dat deze overeenkomt met de rij. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Voeg het aangepaste veld toe aan het dialoogvenster Snelle invoer
+Voeg het aangepaste veld toe aan het dialoogvenster **Snelle invoer: Tijdsvermelding maken**. Gebruikers kunnen vervolgens een waarde invoeren wanneer ze tijdinvoer toevoegen door **Nieuw** te selecteren.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Het raster configureren om het aangepaste veld weer te geven
-Er zijn twee manieren voor het toevoegen van een aangepast veld aan het wekelijkse tijdinvoerraster:
+Er zijn twee manieren voor het toevoegen van een aangepast veld aan het raster **Wekelijkse tijdsvermeldingen**:
 
-  - Een weergave aanpassen en een aangepast veld toevoegen
-  - Een nieuwe standaardtijdinvoer maken 
+- Pas de weergave **Mijn wekelijkse tijdsvermeldingen** aan en voeg het aangepaste veld hieraan toe. U kunt de positie en grootte van het aangepaste veld in het raster opgeeven door de eigenschappen in de weergave te bewerken.
+- Maak een nieuwe aangepaste weergave voor tijdsvermeldingen en stel deze in als de standaardweergave. Deze weergave moet de velden **Beschrijving** en **Externe opmerkingen** bevatten, naast de kolommen die u in het raster wilt opnemen. U kunt de positie, grootte en standaardsorteervolgorde van het raster opgeven door de eigenschappen in de weergave te bewerken. Vervolgens configureert u het aangepaste besturingselement voor deze weergave, zodat het een besturingselement voor een **Tijdinvoerraster** is. Voeg de besturingselement toe aan de weergave en selecteer het voor **Web**, **Telefoon** en **Tablet**. Configureer vervolgens de parameters voor het raster **Wekelijke tijdsvermeldingen**. Stel het veld **Begindatum** in op **msdyn\_date**, stel het veld **Duur** in op **msdyn\_duration** en stel het veld **Status** in op **msdyn\_entrystatus**. Het veld **Lijst voor status Alleen-lezen** is ingesteld op **192350002 (Goedgekeurd)**, **192350003 (Ingediend)** of **192350004 (Intrekking aangevraagd)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Het aangepaste veld toevoegen aan de juiste bewerkingspagina
+De pagina's die worden gebruikt om een tijdsvermelding of een rij met tijdvermeldingen te bewerken, vindt u onder **Formulieren**. De knop **Vermelding bewerken** in het raster opent de pagina **Vermelding bewerken** en de knop **Rij bewerken** opent de pagina **Rij bewerken**. U kunt deze pagina's bewerken zodat ze aangepaste velden bevatten.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Een weergave aanpassen en een aangepast veld toevoegen
+Met beide opties worden sommige standaardfilters voor entiteiten **Project** en **Projecttaak** verwijderd, zodat alle opzoekweergaven voor de entiteiten zichtbaar zijn. Standaard zijn alleen de relevante opzoekweergaven zichtbaar.
 
-Pas de weergave **Mijn wekelijkse tijdsvermeldingen** aan en voeg het aangepaste veld hieraan toe. U kunt de positie en grootte van het aangepaste veld in het raster kiezen door de eigenschappen in de weergave te bewerken.
+U moet de juiste pagina voor het aangepaste veld bepalen. Als u het veld aan het raster hebt toegevoegd, gaat het waarschijnlijk naar de pagina **Rij bewerken** die wordt gebruikt voor velden die van toepassing zijn op de hele rij met tijdsvermeldingen. Als het aangepaste veld elke dag een unieke waarde in de rij heeft (bijvoorbeeld als het een aangepast veld voor de eindtijd is), moet het naar de pagina **Tijdsvermelding bewerken** gaan.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Een nieuwe standaardtijdinvoer maken
-
-Deze weergave moet naast de kolommen die u in het raster wilt opnemen, de velden **Beschrijving** en **Externe opmerkingen** bevatten. 
-
-1. Kies de positie, grootte en standaardsorteervolgorde van het raster door deze eigenschappen in de weergave te bewerken. 
-2. Configureer het aangepaste besturingselement voor deze weergave, zodat het een besturingselement **Tijdsvermeldingsraster** is. 
-3. Voeg dit besturingselement toe aan de weergave en selecteer het voor web, telefoon en tablet. 
-4. Configureer de parameters voor het wekelijkse tijdinvoerraster. 
-5. Stel het veld **Begindatum** in op **msdyn_date**, stel het veld **Duur** in op **msdyn_duration** en stel het veld **Status** in op **msdyn_entrystatus**. 
-6. Voor de standaardweergave wordt het veld **Lijst voor status Alleen-lezen** ingesteld op **192350002,192350003,192350004**. Het veld **Taakstroom voor rij bewerken** wordt ingesteld op **msdyn_timeentryrowedit**. Het veld **Taakstroom voor cel bewerken** wordt ingesteld op **msdyn_timeentryedit**. 
-7. U kunt deze velden aanpassen om de status alleen-lezen toe te voegen of te verwijderen, of om een andere op taken gebaseerde ervaring (TBX) te gebruiken voor het bewerken van rijen of cellen. Deze velden zijn nu verbonden met een statische waarde.
-
-
-> [!NOTE] 
-> Met beide opties worden sommige standaardfilters in de entiteiten **Project** en **Projecttaak** verwijderd, zodat alle opzoekweergaven voor de entiteiten zichtbaar zijn. Standaard zijn alleen de relevante opzoekweergaven zichtbaar.
-
-Bepaal de juiste taakstroom voor het aangepaste veld. Als u het veld aan het raster hebt toegevoegd, gaat het naar de taakstroom voor rij bewerken die wordt gebruikt voor velden die van toepassing zijn op de hele rij met tijdsvermeldingen. Als het aangepaste veld elke dag een unieke waarde heeft, zoals een aangepast veld voor **Eindtijd**, moet het naar de taakstroom voor cel bewerken gaan.
-
-Als u het aangepaste veld aan een taakstroom wilt toevoegen, sleept u een element **Veld** naar de juiste positie op de pagina en stelt u de veldeigenschappen in. Stel de eigenschap **Bron** in op **Tijdsvermelding** en stel de eigenschap **Gegevensveld** in op het aangepaste veld. De eigenschap **Veld** geeft de weergavenaam aan op de TBX-pagina. Selecteer **Toepassen** om uw wijzigingen in het veld op te slaan en selecteer vervolgens **Bijwerken** om uw wijzigingen op de pagina op te slaan.
-
-Als u in plaats daarvan een nieuwe aangepaste TBX-pagina wilt gebruiken, maakt u een nieuw proces. Stel de categorie in op **Bedrijfsprocesstroom**, stel de entiteit in op **Tijdsvermelding** en stel het bedrijfsprocestype in op **Proces uitvoeren als takenstroom**. Onder **Eigenschappen** moet de eigenschap **Paginanaam** worden ingesteld op de weergavenaam voor de pagina. Voeg alle relevante velden toe aan de TBX-pagina. Sla het proces op en activeer het. Werk de aangepaste besturingselementeigenschap voor de desbetreffende taakstroom bij met de waarde van de **Naam** in het proces.
+Als u het aangepaste veld aan een pagina wilt toevoegen, sleept u een element **Veld** naar de juiste positie op de pagina en stelt u de eigenschappen ervan in.
 
 ### <a name="add-new-option-set-values"></a>Nieuwe optiesetwaarden toevoegen
-Als u optiesetwaarden wilt toevoegen aan een standaardveld, opent u de bewerkingspagina voor het veld en selecteert u onder **Type** de optie **Bewerken** naast de optieset. Voeg een nieuwe optie toe met een aangepast label en een aangepaste kleur. Als u een nieuwe status voor de tijdsvermelding wilt toevoegen, krijgt het standaardveld de naam **Vermeldingsstatus**, niet **Status**.
+Volg deze stappen als u optiesetwaarden wilt toevoegen aan een standaardveld.
+
+1. Open de bewerkingspagina voor het veld en selecteer vervolgens onder **Type** de optie **Bewerken** naast de optieset.
+2. Voeg een nieuwe optie toe met een aangepast label en een aangepaste kleur. Als u een nieuwe status voor de tijdsvermelding wilt toevoegen, krijgt het standaardveld de naam **Vermeldingsstatus**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Een nieuwe status voor een tijdsvermelding aanwijzen als alleen-lezen
-Als u een nieuwe tiijdsvermeldingsstatus wilt aanwijzen als alleen-lezen, voegt u de nieuwe waarde voor de tijdsvermelding toe aan de eigenschap **Lijst voor status Alleen-lezen**. Het bewerkbare deel van het tijdinvoerraster wordt vergrendeld voor rijen met de nieuwe status.
-Voeg vervolgens bedrijfsregels toe om alle velden op de pagina's **Rij met tijdsvermelding bewerken** en **Tijdsvermelding bewerken** te vergrendelen. U hebt toegang tot de bedrijfsregels voor deze pagina's door de bedrijfsprocesstroom-editor voor de pagina te openen en vervolgens **Bedrijfsregels** te selecteren. U kunt de nieuwe status toevoegen aan de voorwaarde in de bestaande bedrijfsregels of u kunt een nieuwe bedrijfsregel toevoegen voor de nieuwe status.
+Als u een nieuwe tiijdsvermeldingsstatus wilt aanwijzen als alleen-lezen, voegt u de nieuwe waarde voor de tijdsvermelding toe aan de eigenschap **Lijst voor status Alleen-lezen**. Zorg ervoor dat u het nummer toevoegt, niet het label. Het bewerkbare deel van het tijdinvoerraster wordt nu vergrendeld voor rijen met de nieuwe status. Als u de eigenschap **Lijst voor status Alleen-lezen** wilt instellen op een andere waarde voor verschillende weergaven van **Tijdsvermelding**, voegt u het raster **Tijdsvermelding** toe in de sectie **Aangepaste besturingselementen** van een weergave en configureert u de parameters zoals van toepassing.
+
+Voeg vervolgens bedrijfsregels toe om alle velden op de pagina's **Rij bewerken** en **Tijdsvermelding bewerken** te vergrendelen. U kunt toegang krijgen tot de bedrijfsregels voor deze pagina's door de fomuliereneditor voor elke pagina te openen en vervolgens **Bedrijfsregels** te selecteren. U kunt de nieuwe status toevoegen aan de voorwaarde in de bestaande bedrijfsregels of u kunt een nieuwe bedrijfsregel toevoegen voor de nieuwe status.
 
 ### <a name="add-custom-validation-rules"></a>Aangepaste validatieregels toevoegen
-Er zijn twee soorten validatieregels die u kunt toevoegen voor de functie voor het wekelijkse tijdsvermeldingsraster:
+U kunt twee typen validatieregels toevoegen voor de rasterervaring **Wekelijkse tijdsvermeldingen**:
 
-- Bedrijfsregels op de client die werken in dialoogvensters voor snelle invoer en op TBX-pagina's.
-- Validatie van invoegtoepassingen op de server die van toepassing zijn op alle updates van tijdsvermeldingen.
+- Bedrijfsregels op de client die werken op pagina's
+- Validatie van invoegtoepassingen op de server die van toepassing zijn op alle updates van tijdsvermeldingen
 
-#### <a name="business-rules"></a>Bedrijfsregels
-Gebruik bedrijfsregels om velden te vergrendelen en te ontgrendelen, standaardwaarden in te voeren in velden en validaties te definiëren die alleen informatie uit de huidige tijdsvermeldingsrecord vereisen. U hebt toegang tot de bedrijfsregels voor een TBX-pagina door de bedrijfsprocesstroom-editor voor de pagina te openen en vervolgens **Bedrijfsregels** te selecteren. U kunt vervolgens de bestaande bedrijfsregels bewerken of een nieuwe bedrijfsregel toevoegen. Voor nog meer aangepaste validaties kunt u een bedrijfsregel gebruiken om JavaScript uit te voeren.
+#### <a name="client-side-business-rules"></a>Bedrijfsregels op de client
+Gebruik bedrijfsregels om velden te vergrendelen en te ontgrendelen, standaardwaarden in te voeren in velden en validaties te definiëren die alleen informatie uit de huidige tijdsvermeldingsrecord vereisen. U kunt toegang krijgen tot de bedrijfsregels voor een pagina door de fomuliereneditor te openen en vervolgens **Bedrijfsregels** te selecteren. U kunt vervolgens de bestaande bedrijfsregels bewerken of een nieuwe bedrijfsregel toevoegen.
 
-#### <a name="plug-in-validations"></a>Validaties van invoegtoepassingen
-Gebruik validaties van invoegtoepassingen voor validaties die meer context vereisen dan beschikbaar is in één tijdsvermeldingsrecord of voor eventuele validaties die u wilt uitvoeren op inline-updates in het raster. Als u de validatie wilt voltooien, maakt u een aangepaste invoegtoepassing in de entiteit **Tijdsvermelding**.
+#### <a name="server-side-plug-in-validations"></a>Validaties van invoertoepassingen op de server
+U moet validaties van invoegtoepassingen gebruiken voor validaties die meer context vereisen dan beschikbaar is in één tijdsvermeldingsrecord. U moet ze ook gebruiken voor eventuele validaties die u wilt uitvoeren op inline-updates in het raster. Als u de validaties wilt voltooien, maakt u een aangepaste invoegtoepassing in de entiteit **Tijdsvermelding**.
+
+### <a name="limits"></a>Limieten
+Momenteel heeft het raster **Tijdsvermelding** een maximale grootte van 500 rijen. Als er meer dan 500 rijen zijn, worden de extra rijen niet weergegeven. Er is geen manier om deze limiet te verhogen.
 
 ### <a name="copying-time-entries"></a>Tijdsvermeldingen kopiëren
 Gebruik de weergave **Kolommen met tijdsvermelding kopiëren** om de lijst met velden te definiëren die moeten worden gekopieerd tijdens het invoeren van tijd. **Datum** en **Duur** zijn verplichte velden en mogen niet uit de weergave worden verwijderd.

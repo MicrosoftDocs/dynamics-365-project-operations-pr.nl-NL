@@ -4,20 +4,20 @@ description: Dit onderwerp bevat informatie over het beveiligingsmodel in Dynami
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991480"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585740"
 ---
 # <a name="security-model"></a>Beveiligingsmodel
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Project Operations bevat een uniek beveiligingsmodel dat een op rollen gebaseerd bedrijfsbeveiligingsmodel mogelijk maakt dat samenwerkt met Microsoft Office Groepen. 
 
@@ -70,7 +70,7 @@ Naarmate het Office-groepssamenwerkingsmodel evolueert, wordt functionaliteit to
 
 Voor meer informatie raadpleegt u [Beveiliging in Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Beveiliging in Project Operations en Microsoft Dynamics 365 Finance
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Beveiliging van Project Operations en Microsoft Dynamics 365 Finance
 Project Operations bevat de volgende rollen:
 
 - Projectmanager

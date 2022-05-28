@@ -2,22 +2,22 @@
 title: Aanmelden voor proefversie van Project Operations
 description: Dit onderwerp bevat informatie over het implementeren van een proefversie van Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901611"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584268"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Aanmelden voor proefversie van Project Operations 
 
 _**Geldt voor:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, Lite-implementatie - van deal tot pro-formafacturering, Project Operations voor scenario's op basis van voorradige artikelen/productieorders_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 In dit onderwerp wordt uitgelegd hoe u zich kunt abonneren op de preview-partneraanbieding en hoe u een Dynamics 365 Project Operations-omgeving implementeert.
 
@@ -36,9 +36,8 @@ De volgende tabel biedt een overzicht van de details van de nieuwe proefaanbiedi
 | Gebruik van aanbieding                    | Eén keer per huurder                          |
 | Aanbiedingsduur               | 30 kalenderdagen                             |
 | Inwisselingen per tenant       | 0                                            |
-| Aantal gebruikers              | 25                                           |
 | Toestel                    | 1 verlenging, 30 kalenderdagen               |
-| Aantal proefomgevingen | 5                                            |
+| Aantal proefomgevingen | 3                                            |
 
 
 ## <a name="admin-trial-details"></a>Details proefversie beheerder
@@ -87,11 +86,11 @@ Voordat u begint, meldt u zich aan via een browser met de gebruikerswerkaccount 
  
   Wanneer de inrichting is voltooid, is de status van uw omgeving **Gereed**. Het inrichten van de omgeving omvat het implementeren van demogegevens.
  
-4.  Selecteer de respectievelijke URL voor Microsoft Dataverse en de URL's voor Finance and Operations-apps om de implementatie te valideren.
+4.  Selecteer de respectievelijke URL voor Microsoft Dataverse en de URL's voor apps voor financiën en bedrijfsactiviteiten om de implementatie te valideren.
 
 ## <a name="configuring-dual-write"></a>Twee keer wegschrijven configureren
-- Zie voor het configureren van beveiligingsrollen voor dubbel schrijven: [Beveiligingsinstellingen bijwerken in Project Operations in Dataverse](resource-provision-new-environment.md).
-- Zie [toewijzingen voor dubbel schrijven van Project Operations uitvoeren](resource-provision-new-environment.md#run-project-operations-dual-write-maps) om toewijzingen voor dubbel schrijven te configureren.
+- Zie voor het configureren van beveiligingsrollen voor twee keer wegschrijven: [Beveiligingsinstellingen bijwerken in Project Operations in Dataverse](resource-provision-new-environment.md).
+- Zie [toewijzingen voor twee keer wegschrijven van Project Operations uitvoeren](resource-provision-new-environment.md#run-project-operations-dual-write-maps) om toewijzingen voor twee keer wegschrijven te configureren.
 
 ## <a name="assign-licenses"></a>Licenties toewijzen
 
@@ -117,7 +116,7 @@ De volgende bronnen bieden nuttige begeleiding bij het begin van uw reis met Pro
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Wat als ik ALM of ELM nodig heb voor mijn omgeving met Finance and Operations-apps?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Wat moet ik doen als ik ALM of ELM nodig heb voor mijn omgeving voor apps voor financiën en bedrijfsactiviteiten?
 
 - Zie voor partners die volledige levenscyclusbeheermogelijkheden voor de omgeving nodig hebben [Verzoek om sandbox-licentie van partner](https://experience.dynamics.com/requestlicense) om het nieuwe partneraanbod te bekijken. 
 - Zie voor partners die meer informatie willen over interne gebruiksrechten [Cloud voor rechten voor intern gebruik en softwarevoordeel (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

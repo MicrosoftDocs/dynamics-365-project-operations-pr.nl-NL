@@ -4,14 +4,14 @@ description: Dit onderwerp biedt informatie over het instellen en configureren v
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 027cc711d53c7dd8512e6ef416b54e320357dd26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997510"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584084"
 ---
 # <a name="set-up-automatic-invoice-creation"></a>Het automatisch maken van facturen instellen 
  
@@ -34,7 +34,7 @@ Factuurschema's die voor elk van deze twee regelitems zijn gedefinieerd, zien er
 | Contractregel | Uitvoeringsdatum van facturen | Uiterste datum voor transactie | Datum van mijlpaal | Bedrag van mijlpaal |
 | --- | --- | --- | --- | --- |
 | Prototypewerk | 5 oktober, maandag | - | 5 oktober, maandag | 5000 USD |
-| - | 3 november, dinsdag | - | 3 november, dinsdag | 12,000 USD |
+| - | 3 november, dinsdag | - | 3 november, dinsdag | 12000 USD |
 | Implementatiewerk | 5 oktober, maandag | 4 oktober, zondag | - | - |
 | - | 19 oktober, maandag | 18 oktober, zondag | - | - |
 | - | 2 november, maandag | 1 november, zondag | - | - |

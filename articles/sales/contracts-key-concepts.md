@@ -4,26 +4,26 @@ description: Dit onderwerp bevat informatie over de belangrijkste concepten van 
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986935"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582934"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Unieke concepten voor projectgebaseerde contracten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dit onderwerp bevat belangrijke concepten waarvan u op de hoogte moet zijn voordat u projectcontracten gaat gebruiken in Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Bedrijf dat eigenaar is
 
-Het bedrijf dat eigenaar is, is de rechtspersoon in de **Projectmanagement en financiële administratie** voor Project Operations van Dynamics 365 Finance. Het bedrijf dat eigenaar is, vertegenwoordigt de rechtspersoon die verantwoordelijk is voor de kosten en opbrengsten van een deal.
+De eigenaar is de rechtspersoon van de module **Projectbeheer en financiële administratie** voor Project Operations vanuit Dynamics 365 Finance. Het bedrijf dat eigenaar is, vertegenwoordigt de rechtspersoon die verantwoordelijk is voor de kosten en opbrengsten van een deal.
 
 ## <a name="contracting-unit"></a>Contracterende eenheid
 

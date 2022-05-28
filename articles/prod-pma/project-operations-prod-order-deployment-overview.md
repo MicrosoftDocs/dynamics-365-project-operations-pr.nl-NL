@@ -3,16 +3,15 @@ title: Implementatieoverzicht van Project Operations voor scenario's op basis va
 description: Dit onderwerp bevat informatie over het implementatietype, Project Operations voor scenario's op basis van voorradige artikelen/productieorders.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009075"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582474"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Implementatieoverzicht van Project Operations voor scenario's op basis van voorradige artikelen/productieorders
 
@@ -23,21 +22,21 @@ Dit implementatietype biedt de volgende mogelijkheden voor projectgebaseerde bed
 
 - Projectplanning met de [Structuur voor werkspecificatie](work-breakdown-structures.md)
 - Voorraden voor projecten aanschaffen en verbruiken
-- Beheer van projectgebaseerde verkoop met de module **Verkoop en marketing** in Dynamics 365 Finance and Operations-apps
-- Projectprijzen en -kosten met de configuraties voor kosten- en factuurtarieven in Finance and Operations-apps
-- Resourcebeheer voor projecten in Finance and Operations-apps
-- Projectvoortgang en tijdregistratie in Finance and Operations-apps
+- Projectmatige verkoop beheren met behulp van de module **Verkoop en marketing** module in Dynamics 365-apps voor financiën en bedrijfsactiviteiten
+- Projectprijzen en kostprijsberekening met behulp van de configuraties voor kostentarief en factuurtarief in apps voor financiën en bedrijfsactiviteiten
+- Resourcebeheer voor projecten in apps voor financiën en bedrijfsactiviteiten
+- Projectvoortgang en tijdregistratie in apps voor financiën en bedrijfsactiviteiten
 - Functies voor onkostenbeheer voor project- en niet-projectkosten met registratie van ontvangstbewijzen met OCR
 - Facturering met een systeem van omzetbelasting op ondernemingsniveau en wisselkoersen op ingangsdatum
 - Configureerbare projectgroepen voor OHW-boekhouding en accumulatie
 - Opbrengstverantwoording voor projecten
 
-Dit implementatietype biedt ook een uitbreiding op de functionaliteit die wordt geboden door de apps Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
+Dit implementatietype biedt ook een uitbreiding op de functionaliteit die wordt geboden door de toepassingen Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
 
 Selecteer dit implementatietype om Dynamics 365 Project Operations te gebruiken voor de volledige levenscyclus van het project, inclusief de volgende belangrijke vereisten:
 
 - Een uitgebreid projectbeheersysteem dat geïnventariseerde artikelen en kosten van taken/productieorders beheert voor interne en factureerbare projecten voor planning en financiële gegevens.
-- De organisatie beschikt al over Dynamics 365 Finance of Dynamics 365 Supply Chain and Manufacturing-apps en door het integreren van projectgebaseerde transacties vereenvoudigt de gegevenstoegang en rapportagebehoeften.
+- De organisatie heeft al Dynamics 365 Finance- of Dynamics 365 Supply Chain- en Manufacturing-apps en het integreren van projectgebaseerde transacties zal de gegevenstoegang en rapportagebehoeften vereenvoudigen.
 - Een volledig functioneel onkostenbeheersysteem met handhaving van het beleid en vergoedingen voor het volgen van project- en niet-projectkosten.
 - Een omzetbelasting- en wisselkoersengine op ondernemingsniveau om klantgerichte facturen voor projecten te genereren.
 - Een systeem conform International Financial Reporting Standards (IFRS) voor projectboekhouding en opbrengstverantwoording.

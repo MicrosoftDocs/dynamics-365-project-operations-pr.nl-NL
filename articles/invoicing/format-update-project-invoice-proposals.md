@@ -4,14 +4,14 @@ description: Dit onderwerp biedt informatie over het verwerken van klantgerichte
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989905"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585602"
 ---
 # <a name="manage-project-invoice-proposals"></a>Projectfactuurvoorstellen beheren
 
@@ -52,7 +52,7 @@ De BTW-berekening voor facturering wordt bepaald door de veldcombinatie van **BT
 - **Methode BTW-groep item** bepaalt de standaardlogica van de BTW-groep van het factureringsitem:
   
   - Voor transactietypen voor tijd, onkosten en toeslagen wordt de BTW-groep van het factureringsitem altijd standaard ingesteld op de entiteit **Projectcategorie**.
-  - Voor materiaaltransactietypen wordt de BTW-groep van het factureringsitem standaard ingesteld op basis van de instelling **Methode BTW-groep item** in **Parameters voor projectbeheer en boekhouding**. Het itemnummer is standaard de BTW-groep van het item uit de entiteit **Vrijgegeven product**. De categorie is standaard de BTW-groep van het item uit de entiteit **Projectcategorie**.
+  - Voor materiaaltransactietypen wordt de BTW-groep van het factureringsitem standaard ingesteld op basis van de instelling **Methode BTW-groep item** in **Parameters voor Projectbeheer en financiële administratie**. Het itemnummer is standaard de BTW-groep van het item uit de entiteit **Vrijgegeven product**. De categorie is standaard de BTW-groep van het item uit de entiteit **Projectcategorie**.
 
 ### <a name="financial-dimensions"></a>Financiële dimensies
 
@@ -65,7 +65,7 @@ Niet-gefactureerde transactievaluta in Dataverse wordt gebruikt als transactieva
 
 ## <a name="manage-the-financial-attributes-of-billing-milestones"></a>Beheer de financiële kenmerken van factureringsmijlpalen 
 
-Projectcontractregels die de factureringsmethode tegen een vaste prijs gebruiken, worden gefactureerd via [Mijlpalen met een vaste prijs](../sales/invoice-schedules-contract-line.md#create-a-fixed-price-invoice-schedule-for-a-contract-line). De projectaccountant kan factureringsmijlpalen in Finance bekijken door naar **Projectbeheer en boekhouding** > **Alle projecten** > **Beheren** > **Transacties op rekening** te gaan.
+Projectcontractregels die de factureringsmethode tegen een vaste prijs gebruiken, worden gefactureerd via [Mijlpalen met een vaste prijs](../sales/invoice-schedules-contract-line.md#create-a-fixed-price-invoice-schedule-for-a-contract-line). De projectaccountant kan factureringsmijlpalen in Finance bekijken door naar **Projectbeheer en financiële administratie** > **Alle projecten** > **Beheren** > **Transacties op rekening** te gaan.
 
 ### <a name="billing-sales-tax"></a>Facturering omzetbelasting
 
@@ -90,7 +90,7 @@ De projectaccountant kan de informatie over omzetbelasting en financiële dimens
 
 ## <a name="create-project-invoice-proposals"></a>Projectfactuurvoorstellen maken
 
-Projectfactuurvoorstellen kunnen worden bekeken in de module **Projectbeheer en boekhouding** door naar **Projectfacturen** > **Projectfactuurvoorstellen** te gaan.
+Projectfactuurvoorstellen kunnen worden bekeken in de module **Projectbeheer en financiële administratie** door naar **Projectfacturen** > **Projectfactuurvoorstellen** te gaan.
 
 De header van het projectfactuurvoorstel wordt gemaakt in Finance wanneer de pro-formafactuur wordt bevestigd in Dataverse. Voor een gemakkelijkere afstemming stelt het systeem het nummer van het projectfactuurvoorstel in Finance in op hetzelfde nummer als de pro-formafactuur-id in Dataverse. Omdat pro-formafacturen niet noodzakelijkerwijs in dezelfde volgorde worden bevestigd als waarin ze zijn gemaakt, moet de nummerreeks van het projectfactuurvoorstel in Finance ruimte laten voor wijzigingen naar lagere en hogere nummers. Configureer nummerreeksen met behulp van de volgende stappen:
 
@@ -103,7 +103,7 @@ De header van het projectfactuurvoorstel wordt gemaakt in Finance wanneer de pro
     - **Gebruikerswijzigingen toestaan: naar een lager nummer** = **Ja**
     - **Gebruikerswijzigingen toestaan: naar een hoger nummer** = **Ja**
 
-Projectfactuurvoorstelregels worden door het systeem toegevoegd via het periodieke proces **Importeren uit opslagtabel** (**Projectbeheer en boekhouding** > **Periodiek** > **Project Operations integratie** > **Importeren uit opslagtabel**). Dit proces kan handmatig worden uitgevoerd of via een periodieke planning. Het systeem voegt geen regels toe aan het factuurvoorsteldocument totdat alle regels klaar zijn om te worden gefactureerd. Tijd- en materiaaltransacties zijn alleen gereed om te worden gefactureerd wanneer ze zijn geboekt met het **Project Operations integratie** journaal.
+Projectfactuurvoorstelregels worden door het systeem toegevoegd via het periodieke proces **Importeren uit opslagtabel** (**Projectbeheer en financiële administratie** > **Periodiek** > **Project Operations integratie** > **Importeren uit opslagtabel**). Dit proces kan handmatig worden uitgevoerd of via een periodieke planning. Het systeem voegt geen regels toe aan het factuurvoorsteldocument totdat alle regels klaar zijn om te worden gefactureerd. Tijd- en materiaaltransacties zijn alleen gereed om te worden gefactureerd wanneer ze zijn geboekt met het **Project Operations integratie** journaal.
 
 ## <a name="format-and-print-invoice-proposals"></a>Projectfactuurvoorstellen opmaken en afdrukken
 
@@ -139,7 +139,7 @@ Nadat de factuur is gecontroleerd en bewerkt, en de factuurvoorstelregels naar w
 
 Schakel om de factuur te bekijken voordat u deze boekt het selectievakje **Boeken** uit. **Pro-forma** wordt op de factuur afgedrukt om aan te geven dat het een voorbeeldfactuur is. Schakel het selectievakje **Factuur afdrukken** in om de factuur af te drukken.
 
-Naast via de pagina **Factuurvoorstel** kunnen factuurvoorstellen ook worden geboekt door de periodieke taak uit te voeren, **Factuurvoorstellen boeken**. Ga voor deze taak naar **Projectbeheer en boekhouding** > **Periodiek** > **Projectfacturen** > **Factuurvoorstellen boeken**.
+Naast via de pagina **Factuurvoorstel** kunnen factuurvoorstellen ook worden geboekt door de periodieke taak uit te voeren, **Factuurvoorstellen boeken**. Ga voor deze taak naar **Projectbeheer en financiële administratie** > **Periodiek** > **Projectfacturen** > **Factuurvoorstellen boeken**.
 
 Deze pagina toont alle factuurvoorstellen die klaar zijn om geboekt te worden. U kunt het boeken van factuurvoorstellen plannen door **Batch** te selecteren. Stel de **Batchverwerkingsparameter** in op **Ja** en stel de herhaling van batchverwerking in door **Herhaling** te selecteren.
 
