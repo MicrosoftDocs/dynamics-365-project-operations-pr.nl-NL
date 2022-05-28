@@ -2,17 +2,16 @@
 title: Projectinspanning bijhouden
 description: Dit onderwerp bevat informatie over het bijhouden van de projectinspanning en -voortgang van het werk.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993955"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593790"
 ---
 # <a name="project-effort-tracking"></a>Projectinspanning bijhouden
 
@@ -46,7 +45,8 @@ Er kan een nieuwe prognose worden gemaakt van de inspanning die nodig is voor he
 - De nieuwe EAC voor elke afzonderlijke taak wordt berekend tot op het niveau van de bladknooppunttaken. 
 - Voor de desbetreffende onderliggende taken tot op het niveau van de bladknooppunten worden de resterende inspanning en het voortgangspercentage opnieuw berekend op basis van de EAC-waarde. Dit resulteert in een nieuwe prognose voor de inspanningsafwijking van de taak. 
 - De EAC-waarden van de overzichtstaken tot aan het hoofdknooppunt worden opnieuw berekend.
-
+- De goedgekeurde inspanning voor een samenvattingstaak is de som van de goedgekeurde inspanning voor alle onderliggende taken plus de goedgekeurde inspanning voor de samenvattingstaak.
+- De resterende inspanning voor de samenvattingstaak is de som van de resterende inspanning voor alle onderliggende taken min de goedgekeurde inspanning voor de samenvattingstaak.
 
 ## <a name="project-status-summary"></a>Overzicht van projectstatus
 

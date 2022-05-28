@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928655"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594802"
 ---
 # <a name="provision-a-new-environment"></a>Een nieuwe omgeving inrichten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dit onderwerp bevat informatie over het inrichten van een nieuwe Dynamics 365 Project Operations-omgeving voor scenario's op basis van resources/niet-voorradige artikelen.
 
@@ -34,7 +34,7 @@ Gebruik de volgende stappen om de geautomatiseerde inrichtingsstroom van Project
 
 ## <a name="provision-a-project-operations-environment"></a>Een Project Operations-omgeving inrichten
 
-1. Open een nieuwe implementatie van een Dynamics 365 Finance [demo-omgeving](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) of [sandbox-/productieomgeving](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Open een nieuwe implementatie van een [demo-omgeving](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) of [sandbox/productieomgeving](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) voor Dynamics 365 Finance. 
 2. Volg de wizard **Omgeving inrichten**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Mogelijk moet u kwaliteitsupdates toepassen op uw Finance-omgeving om deze versi
 
     ![Oplossingen toepassen.](./media/13ApplySolutions.png)
 
-5. Selecteer beide oplossingen, **Dynamics 365 Finance and Operations-entiteitstoewijzing voor twee keer wegschrijven** en **Dynamics 365 Project Operations-entiteitstoewijzingen voor twee keer wegschrijven** en selecteer vervolgens **Toepassen**.
+5. Selecteer beide oplossingen, **Dynamics 365 Finance and Operations Dual Write Entity Map** en **Dynamics 365 Project Operations Dual Write Entity Maps** en selecteer vervolgens **Toepassen**.
 
     ![Oplossingen bevestigen.](./media/14ConfirmSolutions.png)
 

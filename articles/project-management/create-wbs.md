@@ -4,14 +4,14 @@ description: In dit onderwerp wordt uitgelegd hoe u een structuur voor werkspeci
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928609"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597792"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Een structuur voor werkspecificatie maken
 
@@ -124,7 +124,7 @@ U dient zich bewust te zijn van de volgende beperkingen als u de structuur voor 
 |----------------------------------------------------|----------------------|
 | Maximum aantal taken voor een project                  | 500                  |
 | Maximale duur voor een project               | 3650 dagen (10 jaar) |
-| Maximum aantal resources voor een project              | 150                  |
+| Maximum aantal resources voor een project              | 300                  |
 | Maximum aantal koppelingen (alleen opvolgend) voor een project | 600                  |
 | Maximum aantal aangepaste velden voor een project          | 10                   |
 | Maximaal aantal controlelijstitems per taak                   | 20                   |

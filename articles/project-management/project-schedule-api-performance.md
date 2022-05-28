@@ -4,14 +4,14 @@ description: Dit onderwerp biedt informatie over de prestatiebenchmarks van de A
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a1abadbae044ccbd40077c6937262f0f17387bad
-ms.sourcegitcommit: 5c536cf05e2cbfc1d15982e4695d726064a074da
+ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7750596"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593836"
 ---
 # <a name="project-schedule-api-performance"></a>Prestaties van API's voor projectplanning
 
@@ -22,7 +22,7 @@ Dit onderwerp biedt informatie over de prestatiebenchmarks van de API's (Applica
 ## <a name="project-scheduling-service"></a>Service voor projectplanning
 De service voor projectplanning is een multi-tenant service die wordt uitgevoerd in Microsoft Azure. De service is ontworpen om de interactie te verbeteren door een snelle en vloeiende ervaring te bieden wanneer gebruikers aan projecten werken. Deze verbetering wordt bereikt door wijzigingsverzoeken te accepteren, te verwerken en het resultaat direct te retourneren. De service wordt asynchroon gepersisteerd naar Dataverse en blokkeert gebruikers niet om andere bewerkingen uit te voeren.
 
-De API's voor projectplanning vertrouwen op de service voor projectplanning om verzoeken uit te voeren die in latere secties van dit onderwerp in meer detail worden beschreven.
+De API's voor projectplanning vertrouwen op de service voor projectplanning om verzoeken uit te voeren die in latere secties van Dit onderwerp in meer detail worden beschreven.
 
 De projectplanning-API's zijn ontworpen om te werken met de volgende entiteiten voor structuren voor werkspecificatie:
 

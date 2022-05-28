@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798034"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596274"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Een betalingsbewijs vastleggen via OCR
 
@@ -52,7 +52,7 @@ Voer de volgende stappen uit om onkosten aan te maken of om onkosten te matchen 
 
 ## <a name="installation"></a>Installatie
 
-Als u deze geavanceerde mogelijkheden voor onkosten wilt gebruiken, installeert u de invoegtoepassing Expense Management Service voor Microsoft Dynamics 365 Finance en schakelt u de functies in in uw exemplaar. U kunt de invoegtoepassing openen vanuit uw project in Microsoft Dynamics Lifecycle Services (LCS).
+Als u deze geavanceerde onkostenmogelijkheden wilt gebruiken, installeert u de invoegtoepassing Service voor onkostenbeheer voor Microsoft Dynamics 365 Finance en schakelt u de functies in uw exemplaar in. U kunt de invoegtoepassing openen vanuit uw project in Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Meld u aan bij LCS en open de gewenste omgeving.
 2. Ga naar **Volledige details**.

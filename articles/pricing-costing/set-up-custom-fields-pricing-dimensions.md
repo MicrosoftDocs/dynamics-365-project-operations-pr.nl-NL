@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003585"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599402"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Aangepaste velden instellen als prijsdimensies
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-In dit onderwerp wordt ervan uitgegaan dat u de procedures hebt voltooid in de onderwerpen [Aangepaste velden en entiteiten maken](create-custom-fields-entities-pricing-dimensions.md) en [Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](add-custom-fields-price-setup-transactional-entities.md). Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar dit onderwerp. 
+In dit onderwerp wordt ervan uitgegaan dat u de procedures hebt voltooid in de onderwerpen [Aangepaste velden en entiteiten maken](create-custom-fields-entities-pricing-dimensions.md) en [Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](add-custom-fields-price-setup-transactional-entities.md). Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar Dit onderwerp. 
 
 Dit onderwerp bevat informatie over het instellen van aangepaste prijsdimensies. Op de pagina **Parameters** op het tabblad **Op bedrag gebaseerde prijsdimensies** worden de records in de entiteiten voor prijsdimensie weergegeven. Standaard bevat het raster op dit tabblad twee rijen:
 
@@ -75,10 +75,10 @@ Er zijn twee typen prijsdimensies:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Op locatie            |                    |Overwerk                 |15     |
 |             | Contoso India|Lokaal             |                    |Overwerk                 |10     |
-|             | Contoso VS   |Lokaal             |                    |Overwerk                 |20     |
+|             | Contoso US   |Lokaal             |                    |Overwerk                 |20     |
 
 
-Als een resource van Contoso India met een basistarief van USD 100 op locatie werkt en deze 8 uur van de reguliere werktijd en 2 uur overwerk op de tijdsvermelding registreert, past de prijsengine het basistarief van 100 toe voor de 8 uur, voor een subtotaal van USD 800. Voor de 2 uur overwerk wordt een opslag van 15% toegepast op het basistarief van 100, wat een eenheidsprijs van USD 115 oplevert voor een subtotaal van USD 230.
+Als een resource van Contoso India met een basistarief van USD 100 op locatie werkt en deze 8 uur van de reguliere werktijd en 2 uur overwerk bij de tijdsvermelding invoert, past de prijsengine het basistarief van USD 100 toe voor de 8 uur, voor een subtotaal van USD 800. Voor de 2 uur overwerk wordt een opslag van 15% toegepast op het basistarief van 100, wat een eenheidsprijs van USD 115 oplevert voor een subtotaal van USD 230.
 
 ### <a name="applicable-to-cost"></a>Van toepassing op kosten 
 Als dit is ingesteld op **Ja**, geeft dit aan dat de dimensiewaarde van de invoercontext moet worden gebruikt om de **Rolprijs** en de **Rolprijsopslag** te vergelijken bij het ophalen van de kosten- en opslagtarieven.

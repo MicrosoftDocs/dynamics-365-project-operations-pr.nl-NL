@@ -2,17 +2,17 @@
 title: Problemen oplossen met het werken in het taakraster
 description: Dit onderwerp biedt informatie over het oplossen van problemen, die nodig is bij het werken in het taakraster.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547193"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596412"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problemen oplossen met het werken in het taakraster 
 
@@ -70,6 +70,9 @@ Project Operations vereist dat een projectparameter verwijst naar het PEX-eindpu
       | Project Operations                   | type=2             |
 
 4. Verwijder het veld uit de pagina **Projectparameters**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Correctie 3: meld u aan bij project.microsoft.com.
+Open een nieuw tabblad in uw Microsoft Edge-browser, ga naar project.microsoft.com en meld u aan met de gebruikersrol die u gebruikt om toegang te krijgen tot Project Operations.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Probleem: het project laadt niet en de gebruikersinterface blijft hangen bij de draaischijf
 

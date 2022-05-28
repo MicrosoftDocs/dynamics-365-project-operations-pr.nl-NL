@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006330"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599448"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van maart 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
 - Project Operations in Dataverse-omgeving, versie 4.8.0.91 
-- Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving, versie 10.0.16 
+- Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving versie 10.0.16 
 
 ## <a name="quality-updates"></a>Kwaliteitsupdates
 
@@ -48,7 +48,7 @@ Zie [Nieuwe functies van januari 2021 - Project Operations voor scenario's op ba
 
 ## <a name="regulatory-updates"></a>Wijzigingen in regelgeving
 
-Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij LCS en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+Zie [Regelgevende updates](/dynamics365/finance/localizations/regulatory-updates) voor informatie over updates van regelgeving voor apps voor financiën en bedrijfsactiviteiten. Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij LCS en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

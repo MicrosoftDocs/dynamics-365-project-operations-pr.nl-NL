@@ -4,14 +4,14 @@ description: Dit onderwerp bevat informatie over het maken van intercompany-tran
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005475"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599956"
 ---
 # <a name="create-intercompany-transactions"></a>Intercompany-transacties maken
 
@@ -30,14 +30,14 @@ Wanneer een intercompany-transactie is goedgekeurd, worden de volgende werkelijk
 
 De kosten, de resource-eenheidskosten en de prijs en valuta voor verkooptransacties tussen de verschillende organisatie-eenheden worden bepaald door **organisatorische eenheid**. Dit is belangrijk om te onthouden wanneer u besluit hoe u bedrijven en organisatie-eenheden in uw implementatie wilt structureren.
 
-Wanneer u verkoopkans-, prijsopgave-, projectcontract- en projectrecords maakt, controleert het systeem of de valuta van de contracterende eenheid overeenkomt met de valuta voor boekhouding van het bedrijf. Als ze niet hetzelfde zijn, kunnen deze records niet worden gemaakt. De valuta van de organisatie-eenheid wordt gedefinieerd in Dynamics 365 Project Operations via **Dataverse** > **Instellingen** > **Organisatie-eenheden**. De valuta voor boekhouding van een bedrijf wordt gedefinieerd in Dynamics 365 Finance via **Grootboek** > **Grootboek instellen** > **Grootboek**. De valuta wordt gesynchroniseerd met uw Dataverse-omgeving met behulp van de grootboektoewijzing voor Twee keer wegschrijven.
+Wanneer u verkoopkans-, prijsopgave-, projectcontract- en projectrecords maakt, controleert het systeem of de valuta van de contracterende eenheid overeenkomt met de valuta voor boekhouding van het bedrijf. Als ze niet hetzelfde zijn, kunnen deze records niet worden gemaakt. De valuta van de organisatie-eenheid wordt gedefinieerd in Dynamics 365 Project Operations via **Dataverse** > **Instellingen** > **Organisatie-eenheden**. De valuta voor boekhouding van een bedrijf wordt gedefinieerd in Dynamics 365 Finance door naar **Grootboek** > **Grootboek instellen** > **Grootboek**. De valuta wordt gesynchroniseerd met uw Dataverse-omgeving met behulp van de grootboektoewijzing voor Twee keer wegschrijven.
 
 Het systeem creëert in de volgende situaties de resource-eenheidskosten en de werkelijke verkoopcijfers tussen de organisatie-eenheden:
 
   - Wanneer de resource-eenheid verschilt van de contracterende eenheid
   - Wanneer het resourcebedrijf verschilt van het contracterende bedrijf
 
-Alleen transacties die een ander resourcebedrijf hebben dan het contracterende bedrijf, worden overgedragen aan de Dynamics 365 Finance-omgeving voor extra boekhouding.
+Alleen transacties die een ander sourcingbedrijf hebben dan het contracterende bedrijf, worden echter voor aanvullende boekhouding overgebracht naar de Dynamics 365 Finance-omgeving.
 
 De boekhouding voor de werkelijke projectwaarden wordt vastgelegd in het Project Operations-integratiejournaal in Finance. Het systeem maakt de volgende journaalregels.
 
@@ -77,8 +77,8 @@ Elsje Hulsegge, ontwikkelaar werkzaam bij GBPM, registreert 10 uur werk voor een
 | Verkopen interorganisatorische eenheid | 120 | USD | 1200 |
 
 7. Log in als USPM-accountant. Open het Finance-exemplaar van Project Operations en selecteer het bedrijf **USPM**. 
-8. Ga naar **Projectbeheer en boekhouding** > **Periodiek** > **Project Operations op Customer Engagement** > **Importeren uit fasering** en selecteer de uitvoering van het periodieke proces. Met dit periodieke proces wordt het Project Operations-integratiejournaal gevuld.
-9. Ga naar **Projectbeheer en boekhouding** > **Journalen** > **Project Operations-integratiejournaal** en bekijk de journaalregels. Het systeem maakt de volgende regel.
+8. Ga naar **Projectbeheer en financiële administratie** > **Periodiek** > **Project Operations op Customer Engagement** > **Importeren uit fasering** en selecteer de uitvoering van het periodieke proces. Met dit periodieke proces wordt het Project Operations-integratiejournaal gevuld.
+9. Ga naar **Projectbeheer en financiële administratie** > **Journalen** > **Project Operations-integratiejournaal** en bekijk de journaalregels. Het systeem maakt de volgende regel.
 
     | **Transactietype** | **Prijs** | **Transactievaluta** | **Bedrag** |
     | --- | --- | --- | --- |
@@ -93,7 +93,7 @@ Elsje Hulsegge, ontwikkelaar werkzaam bij GBPM, registreert 10 uur werk voor een
 
 10. Log in als **GBPM**-accountant. Open het Finance-exemplaar van Project Operations en open het bedrijf **GBPM**. 
 11. Ga naar **Projectmanagement en boekhouding** > **Periodiek** > **Project Operations-integratie** > **Importeren uit opslagtabel** en voer het periodieke proces uit om het Project Operations-integratiejournaal in te vullen.
-12. Ga naar **Projectbeheer en boekhouding** > **Journalen** > **Project Operations-integratiejournaal** en bekijk de regels. Het systeem maakt de volgende regels.
+12. Ga naar **Projectbeheer en financiële administratie** > **Journalen** > **Project Operations-integratiejournaal** en bekijk de regels. Het systeem maakt de volgende regels.
 
     | **Transactietype** | **Prijs** | **Transactievaluta** | **Bedrag** |
     | --- | --- | --- | --- |

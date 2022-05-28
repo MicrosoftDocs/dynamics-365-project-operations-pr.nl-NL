@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008085"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599540"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van januari 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -22,7 +22,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
   - Project Operations in Dataverse-omgeving, versie 4.6.0.154
-  - Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving, versie 10.0.16
+  - Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving versie 10.0.16
 
 ## <a name="quality-updates"></a>Kwaliteitsupdates
 
@@ -43,30 +43,30 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 | **Projecten plannen en bijhouden** | 2090202 | Bedrijfsregels die niet meer worden gebruikt, gemarkeerd als **Afgeschaft**. |
 | **Tijd en onkosten** | 2091249 | Aangescherpte controles, zodat gebruikers de taak niet kunnen wijzigen op een ingediende of goedgekeurde tijdsvermelding. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projectbeheer en boekhouding in Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projectbeheer en financiële administratie in Dynamics 365 Finance
 
 | **Functiegebied** | **Referentienummer** | **Kwaliteitsupdate** |
 | --- | --- | --- |
-| **Projectbeheer en boekhouding** | [478667](https://fix.lcs.dynamics.com/Issue/Details/?bugId=478667) | Onjuist contractbedrag op de pagina **A conto** voor een project met een vaste prijs met meerdere financieringsbronnen. |
-| **Projectbeheer en boekhouding** | [480260](https://fix.lcs.dynamics.com/Issue/Details/?bugId=480260) | De tijdelijke aanduiding **Invoiceproposal.PSAnfRefProjId** geeft niet de project-id weer voor de workflow **Projectfactuurvoorstellen controleren**. |
-| **Projectbeheer en boekhouding** | [481227](https://fix.lcs.dynamics.com/Issue/Details/?bugId=481227) | De verkeerde datum voor contantkorting wordt gebruikt bij het boeken van projectfactuurvoorstellen. |
-| **Projectbeheer en boekhouding** | [482558](https://fix.lcs.dynamics.com/Issue/Details/?bugId=482558) | Door het verwijderen en lezen van resourcetoewijzingen in Project Operations wordt de invoer van projectprognoses in Finance verdubbeld. |
-| **Projectbeheer en boekhouding** | [484468](https://fix.lcs.dynamics.com/Issue/Details/?bugId=484468) | In project Operations kunt u geen projectschattingen in Dataverse maken zonder een contractregel op het project. |
-| **Projectbeheer en boekhouding** | [485871](https://fix.lcs.dynamics.com/Issue/Details/?bugId=485871) | De financiële dimensie van een projectonkostentransactie wordt niet gesynchroniseerd met het gerelateerde boekstuk en de boekhoudingsverdeling van de onkostendeclaratie wanneer kosten naar Saldo worden geboekt. |
-| **Projectbeheer en boekhouding** | [488382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=488382) | Het filter **Factuurstatus** in geboekte projecttransacties voor projecten met een vaste prijs werkt niet. |
-| **Projectbeheer en boekhouding** | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Schrapping van omgekeerde schatting werkt niet in de sectie **Periodiek**. |
-| **Projectbeheer en boekhouding** | [509989](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509989) | Factuurvoorstelregels kunnen worden verwijderd in Project Operations wanneer er een integratie is met Dataverse. |
-| **Projectbeheer en boekhouding** | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041) | Voorkom het inschakelen van meerdere contractregels zonder Dataverse-integratie. |
-| **Projectbeheer en boekhouding** | [510527](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510527) | Wanneer facturering op rekening gelijk is aan winst en verlies, wordt de gefactureerde omzet weergegeven als nul op de pagina Ramingen. |
-| **Projectbeheer en boekhouding** | [514167](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514167) | Factuurcorrecties werken niet in geïntegreerde omgevingen. |
-| **Projectbeheer en boekhouding** | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Bij het boeken van OHW-verkoopwaarde bij intercompany-projectfacturering wordt de verkeerde rekening gekozen. |
-| **Projectbeheer en boekhouding** | [514385](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514385) | In Project Operations kunnen afhankelijkheden van schattingstaken in Dataverse niet worden bijgewerkt. |
-| **Projectbeheer en boekhouding** | [515258](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515258) | Het herhaaldelijk verwijderen van project Operations-integratiejournalen in Finance leidt tot gegevensverlies. |
-| **Projectbeheer en boekhouding** | [519716](https://fix.lcs.dynamics.com/Issue/Details/?bugId=519716) | De volgende fout treedt op tijdens het boeken van een projectfactuurvoorstel: 'Transactie komt niet overeen met aangiftevaluta wanneer de afgetrokken voorschotfactuur er weer bij wordt opgeteld'. |
-| **Projectbeheer en boekhouding** | [521807](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521807) | De verkeerde project-id wordt opgenomen in inhoudingen nadat het standaardprojectcontract is bijgewerkt in Project Operations. |
-| **Projectbeheer en boekhouding** | [522799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522799) | Schatting en omzetverantwoording kunnen niet worden voltooid wanneer Project Operations is ingeschakeld. |
-| **Projectbeheer en boekhouding** | [527319](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527319) | Als u in Project Operations een project uit een contract verwijdert, wordt het standaardproject voor het contract niet gereset. |
-| **Projectbeheer en boekhouding** | [528212](https://fix.lcs.dynamics.com/Issue/Details/?bugId=528212) | In Project Operations worden op een intercompany-factuur de verkeerde onkostenregels weergegeven in de lijst **Regel toevoegen**. |
+| **Projectbeheer en financiële administratie** | [478667](https://fix.lcs.dynamics.com/Issue/Details/?bugId=478667) | Onjuist contractbedrag op de pagina **A conto** voor een project met een vaste prijs met meerdere financieringsbronnen. |
+| **Projectbeheer en financiële administratie** | [480260](https://fix.lcs.dynamics.com/Issue/Details/?bugId=480260) | De tijdelijke aanduiding **Invoiceproposal.PSAnfRefProjId** geeft niet de project-id weer voor de workflow **Projectfactuurvoorstellen controleren**. |
+| **Projectbeheer en financiële administratie** | [481227](https://fix.lcs.dynamics.com/Issue/Details/?bugId=481227) | De verkeerde datum voor contantkorting wordt gebruikt bij het boeken van projectfactuurvoorstellen. |
+| **Projectbeheer en financiële administratie** | [482558](https://fix.lcs.dynamics.com/Issue/Details/?bugId=482558) | Door het verwijderen en lezen van resourcetoewijzingen in Project Operations wordt de invoer van projectprognoses in Finance verdubbeld. |
+| **Projectbeheer en financiële administratie** | [484468](https://fix.lcs.dynamics.com/Issue/Details/?bugId=484468) | In project Operations kunt u geen projectschattingen in Dataverse maken zonder een contractregel op het project. |
+| **Projectbeheer en financiële administratie** | [485871](https://fix.lcs.dynamics.com/Issue/Details/?bugId=485871) | De financiële dimensie van een projectonkostentransactie wordt niet gesynchroniseerd met het gerelateerde boekstuk en de boekhoudingsverdeling van de onkostendeclaratie wanneer kosten naar Saldo worden geboekt. |
+| **Projectbeheer en financiële administratie** | [488382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=488382) | Het filter **Factuurstatus** in geboekte projecttransacties voor projecten met een vaste prijs werkt niet. |
+| **Projectbeheer en financiële administratie** | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Schrapping van omgekeerde schatting werkt niet in de sectie **Periodiek**. |
+| **Projectbeheer en financiële administratie** | [509989](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509989) | Factuurvoorstelregels kunnen worden verwijderd in Project Operations wanneer er een integratie is met Dataverse. |
+| **Projectbeheer en financiële administratie** | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041) | Voorkom het inschakelen van meerdere contractregels zonder Dataverse-integratie. |
+| **Projectbeheer en financiële administratie** | [510527](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510527) | Wanneer facturering op rekening gelijk is aan winst en verlies, wordt de gefactureerde omzet weergegeven als nul op de pagina Ramingen. |
+| **Projectbeheer en financiële administratie** | [514167](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514167) | Factuurcorrecties werken niet in geïntegreerde omgevingen. |
+| **Projectbeheer en financiële administratie** | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Bij het boeken van OHW-verkoopwaarde bij intercompany-projectfacturering wordt de verkeerde rekening gekozen. |
+| **Projectbeheer en financiële administratie** | [514385](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514385) | In Project Operations kunnen afhankelijkheden van schattingstaken in Dataverse niet worden bijgewerkt. |
+| **Projectbeheer en financiële administratie** | [515258](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515258) | Het herhaaldelijk verwijderen van project Operations-integratiejournalen in Finance leidt tot gegevensverlies. |
+| **Projectbeheer en financiële administratie** | [519716](https://fix.lcs.dynamics.com/Issue/Details/?bugId=519716) | De volgende fout treedt op tijdens het boeken van een projectfactuurvoorstel: 'Transactie komt niet overeen met aangiftevaluta wanneer de afgetrokken voorschotfactuur er weer bij wordt opgeteld'. |
+| **Projectbeheer en financiële administratie** | [521807](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521807) | De verkeerde project-id wordt opgenomen in inhoudingen nadat het standaardprojectcontract is bijgewerkt in Project Operations. |
+| **Projectbeheer en financiële administratie** | [522799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522799) | Schatting en omzetverantwoording kunnen niet worden voltooid wanneer Project Operations is ingeschakeld. |
+| **Projectbeheer en financiële administratie** | [527319](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527319) | Als u in Project Operations een project uit een contract verwijdert, wordt het standaardproject voor het contract niet gereset. |
+| **Projectbeheer en financiële administratie** | [528212](https://fix.lcs.dynamics.com/Issue/Details/?bugId=528212) | In Project Operations worden op een intercompany-factuur de verkeerde onkostenregels weergegeven in de lijst **Regel toevoegen**. |
 | **Reizen en onkosten** | [515334](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515334) | Onkostenregels kunnen niet worden geboekt omdat uurinstellingen ontbreken op de contractregel. |
 | **Reizen en onkosten** | [437673](https://fix.lcs.dynamics.com/Issue/Details/?bugId=437673) | Als validatie van project/ categorie verplicht is, zijn de onkostencategorieën die aan het project zijn gekoppeld, niet zichtbaar in de onkostendeclaratie. |
 | **Reizen en onkosten** | [441256](https://fix.lcs.dynamics.com/Issue/Details/?bugId=441256) | Het saldo van het kasvoorschot wordt niet bijgewerkt wanneer een onkostendeclaratie per regel wordt geboekt. |
@@ -86,7 +86,7 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 
 ## <a name="regulatory-updates"></a>Wijzigingen in regelgeving
 
-Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+Zie [Regelgevende updates](/dynamics365/finance/localizations/regulatory-updates) voor informatie over updates van regelgeving voor apps voor financiën en bedrijfsactiviteiten. U kunt ook inloggen op LCS en de geplande updates van de regelgeving bekijken met de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

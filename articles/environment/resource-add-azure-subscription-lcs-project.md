@@ -4,14 +4,14 @@ description: Dit onderwerp biedt informatie over hoe u uw Azure-abonnement kunt 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986665"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595906"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Een Azure-abonnement toevoegen aan een LCS-project
 
@@ -59,13 +59,13 @@ De autorisatie is nu voltooid.
 2. Voer de id van uw Azure-abonnement in. U vindt uw Azure-abonnements-id in de [Azure-portal](https://ms.portal.azure.com/), onder **Instellingen** linksonder in het scherm.
 3. In het veld **Configureer om Azure Resource Manager te gebruiken** selecteert u **Ja**.
 4. Zorg ervoor dat het AAD-tenantdomein van het Azure-abonnement overeenkomt met het Azure-abonnement dat eigenaar is van het gebruikte domein en selecteer **Volgende**.
-5. Selecteer in het scherm **Microsoft Azure instellen** **Volgende** om te bevestigen. Als u op dit scherm een foutmelding krijgt, gaat u terug naar de sectie [Dynamics Deployment Services toegang geven tot uw Azure-abonnement](#provide) in dit onderwerp en voltooi alle stappen.
+5. Selecteer in het scherm **Microsoft Azure instellen** **Volgende** om te bevestigen. Als u op dit scherm een foutmelding krijgt, gaat u terug naar de sectie [Dynamics Deployment Services toegang geven tot uw Azure-abonnement](#provide) In dit onderwerp en voltooi alle stappen.
 6. Download het Azure Management Certificate naar een lokale map op uw computer. Vraag uw Azure-abonnementsbeheerder om het certificaat te uploaden naar Azure Management Portal door het abonnement te selecteren en naar **Instellingen** > **Beheercertificaten** te gaan. Met dit certificaat kan LCS namens u communiceren met Azure. U kunt deze stap overslaan als uw gebruiker toegang heeft tot het abonnement.
 7. Selecteer **Volgende**.
 8. Selecteer de Azure-regio waarin u wilt implementeren en selecteer een datacenter bij de locatie waar u dit systeem wilt gebruiken.
 9.  Selecteer **Verbinding maken**.
 
-U hebt uw Azure-abonnement met succes verbonden. U kunt nu gehoste Dynamics 365 Finance-cloudomgevingen implementeren.
+U hebt uw Azure-abonnement met succes verbonden. U kunt nu door de cloud gehoste omgevingen van Dynamics 365 Finance implementeren.
 
 
 

@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006150"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597378"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-In dit onderwerp wordt ervan uitgegaan dat u de procedures in het onderwerp [Aangepaste velden en entiteiten maken om te gebruiken als prijsdimensies](create-custom-fields-entities-pricing-dimensions.md) hebt voltooid. Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar dit onderwerp. 
+In dit onderwerp wordt ervan uitgegaan dat u de procedures in het onderwerp [Aangepaste velden en entiteiten maken om te gebruiken als prijsdimensies](create-custom-fields-entities-pricing-dimensions.md) hebt voltooid. Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar Dit onderwerp. 
 
 In dit onderwerp wordt beschreven hoe u de vereiste aangepaste veldverwijzingen toevoegt aan entiteiten en aan de elementen van de gebruikersinterface (UI), zoals formulieren en weergaven.
 

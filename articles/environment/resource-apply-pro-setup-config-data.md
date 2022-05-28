@@ -4,27 +4,27 @@ description: Dit onderwerp bevat informatie over het instellen en toepassen van 
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986620"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594710"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configuratiegegevens in Common Data Service instellen en toepassen 
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Vereisten
 
 Voordat u begint met het configureren van gegevens in Common Data Service (CDS), moet aan de volgende voorwaarden worden voldaan:
 
-1.  Richt een CDS-omgeving en een Dynamics 365 Finance-omgeving in voor Project Operations.
-2.  Informatie over rechtspersoon van Dynamics 365 Finance wordt gedeeld met de CDS-omgeving. Dit betekent dat de entiteit **Bedrijf** in CDS de volgende bedrijfsrecords heeft:
+1.  Een CDS-omgeving en een Dynamics 365 Finance-omgeving inrichten voor Project Operations.
+2.  Informatie over rechtspersonen uit Dynamics 365 Finance wordt gedeeld met de CDS-omgeving. Dit betekent dat de entiteit **Bedrijf** in CDS de volgende bedrijfsrecords heeft:
   - THPM
   - USPM
   - GBPM
@@ -132,7 +132,7 @@ Voordat u begint met het configureren van gegevens in Common Data Service (CDS),
 12. Werk de volgende velden bij:
 
  - **Standaardbedrijf**: USPM
- - **Standaardorganisatie-eenheid**: Contoso Robotics Global
+ - **Standaard organisatie-eenheid**: Contoso Robotics Global
  - **Factuurfrequentie**: zevende en laatste dag
  - **Werkuursjabloon**: ga naar de sjabloon die u hebt gemaakt.
 

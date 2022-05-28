@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995620"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600046"
 ---
 # <a name="proforma-invoices"></a>Pro-formafacturen
 
@@ -82,6 +82,9 @@ Wanneer u een conceptfactuur voor een project maakt, worden alle niet-gefacturee
 - De hoeveelheid en het factureringstype bewerken en wijzigen.
 
 Selecteer **Bevestigen** om een factuur te bevestigen. De actie Bevestigen is een eenrichtingsactie. Wanneer u **Bevestigen** selecteert, wordt van de factuur een alleen-lezenfactuur gemaakt door het systeem en worden er gefactureerde werkelijke verkoopwaarden gemaakt van elk factuurregeldetail voor elke factuurregel. Als het factuurregeldetail verwijst naar een niet-gefactureerde werkelijke verkoopwaarde, boekt het systeem ook de niet-gefactureerde werkelijke verkoopwaarde terug. (Elk factuurregeldetail dat is gemaakt op basis van een tijdsvermelding of onkostenpost, verwijst naar een niet-gefactureerde werkelijke verkoopwaarde.) Grootboek-integratiesystemen kunnen deze terugboeking gebruiken om onderhanden werk (OHW) van het project voor boekhoudkundige doeleinden terug te boeken.
+
+> [!NOTE]
+> Bevestigde pro forma-facturen en gerelateerde records zoals factuurregels en factuurregeldetails kunnen niet worden bewerkt of verwijderd. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Een bevestigde factuur corrigeren
 

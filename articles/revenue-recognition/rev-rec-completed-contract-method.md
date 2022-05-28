@@ -4,14 +4,14 @@ description: Dit onderwerp bevat informatie over het werken met omzetschattingen
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996520"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595860"
 ---
 # <a name="manage-revenue-estimates"></a>Omzetschattingen beheren
 
@@ -21,17 +21,17 @@ U kunt omzetschattingen maken, berekenen, boeken, terugdraaien of elimineren. U 
 
 ### <a name="manage-revenue-estimates-manually"></a>Omzetschattingen handmatig beheren
 
-Voor projecten met omzetschattingen met een vaste prijs of de pagina **Vragen over schattingen** (**Projectbeheer en boekhouding** > **Rapporten en vragen** > **Vragen en rapporten voor schattingen**), selecteert u **Schattingen**.
+Voor projecten met omzetschattingen met een vaste prijs of de pagina **Vragen over schattingen** (**Projectbeheer en financiële administratie** > **Rapporten en vragen** > **Vragen en rapporten voor schattingen**), selecteert u **Schattingen**.
 
 ### <a name="manage-revenue-estimates-using-a-periodic-process"></a>Omzetschattingen beheren met behulp van een periodiek proces
 
-Ga naar **Projectbeheer en boekhouding** > **Periodiek** > **Schattingen** en selecteer het bijbehorende proces.
+Ga naar **Projectbeheer en financiële administratie** > **Periodiek** > **Schattingen** en selecteer het bijbehorende proces.
 
 ## <a name="create-a-revenue-estimate"></a>Een omzetschatting maken
 
 Voer de volgende stappen uit om een omzetschatting te maken. 
 
-1. Ga naar **Projectbeheer en boekhouding** > **Periodiek** > **Schattingen**.
+1. Ga naar **Projectbeheer en financiële administratie** > **Periodiek** > **Schattingen**.
 2. Selecteer **Nieuw**. Selecteer op de pagina **Schatting maken** de volgende parameters:
 
    - **Periodecode**: met deze code bepaalt u hoe vaak schattingen worden geboekt.
@@ -81,7 +81,7 @@ De status van de schatting verandert in **Geëlimineerd**.
 
 ## <a name="reverse-elimination"></a>Eliminatie omkeren
 
-1. Ga naar **Projectbeheer en boekhouding** > **Periodiek** > **Schattingen** > **Eliminatie omkeren**. 
+1. Ga naar **Projectbeheer en financiële administratie** > **Periodiek** > **Schattingen** > **Eliminatie omkeren**. 
 2. Selecteer in het actievenster op het tabblad **Verwerken** in de groep **Onderhouden** de optie **Schatting**. 
 3. Selecteer **Eliminatie omkeren**.
 

@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cba1f9915087f7910a9aa93378cb861983ca36ab
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994495"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600322"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Een prijsdimensie uitschakelen
 
@@ -38,8 +38,8 @@ Dit foutbericht geeft aan dat er prijsrecords zijn die eerder zijn ingesteld voo
 
 | Standaardtitel         | Organisatie-eenheid    |Eenheid   |Prijs  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Systeemtechnicus|Contoso VS|Uur| 100|USD|
-| Hoofdsysteemtechnicus|Contoso VS|Uur| 150| USD|
+| Systeemtechnicus|Contoso US|Hour| 100|USD|
+| Hoofdsysteemtechnicus|Contoso US|Hour| 150| USD|
 
 
 Wanneer u **Standaardtitel** als prijsdimensie uitschakelt en de prijsengine naar een prijs zoekt, wordt alleen de waarde voor **Organisatie-eenheid** uit de invoercontext gebruikt. Als **Organisatie-eenheid** van de invoercontext “Contoso US” is, is het resultaat niet-deterministisch omdat beide rijen overeenkomen. Om dit scenario bij het maken van **Rolprijs** records te voorkomen, controleert het systeem of de combinatie van dimensies uniek is. Als de dimensie is uitgeschakeld nadat de **Rolprijs** records zijn gemaakt, kan deze beperking worden overtreden. Daarom moet u voordat u een dimensie uitschakelt, alle rijen voor **Rolprijs** en **Opslag voor rolprijs** verwijderen waarvoor die dimensiewaarde is ingevuld.

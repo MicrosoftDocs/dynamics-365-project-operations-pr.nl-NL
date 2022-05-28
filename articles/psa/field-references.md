@@ -15,18 +15,19 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985765"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596918"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-In dit onderwerp wordt ervan uitgegaan dat u de procedures in het onderwerp [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md) hebt voltooid. Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar dit onderwerp. 
+In dit onderwerp wordt ervan uitgegaan dat u de procedures in het onderwerp [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md) hebt voltooid. Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar Dit onderwerp. 
 
 In dit onderwerp wordt beschreven hoe u de vereiste aangepaste veldverwijzingen toevoegt aan entiteiten en aan de elementen van de gebruikersinterface (UI), zoals formulieren en weergaven.
 
