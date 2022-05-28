@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996790"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587350"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Een project plannen in een structuur voor werkspecificatie (Project Service)
 
@@ -63,7 +64,7 @@ Een projectplanning deelt communiceren over het werk dat moet worden geïmplemen
 ## <a name="task-types"></a>Opdrachttypen  
 U kunt de volgende typen taken bij het maken van de structuur voor werkspecificatie gebruiken:  
 
-| | | 
+| Opdracht | Beschrijving | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Project-hoofdknooppunt**. | Hoogste niveau samenvattingstaak voor het project. Alle andere projecttaken worden gemaakt onder worden verwijderd. De naam van de hoofdmaptaak is de projectnaam. De inzet, datums, en wordt de duur in het hoofdknooppunt zijn gebaseerd op de waarden op de hiërarchie die eronder liggen en. U kunt de eigenschappen van het hoofdknooppunt bewerken of het hoofdknooppunt verwijderen. | 
 | **Overzicht of containertaken**. | Een samenvattingstaak is een taak die deeltaken onder het heeft. Een samenvattingstaak heeft geen werkinspanning of de kosten van zijn. Zijn de werkinspanning en kosten zijn van een deeltaken zijn. U kunt de naam van een samenvattingstaak wijzigen, maar u kunt de klant, de begin- en einddatum, de duur of wijzigen, omdat met automatisch worden berekend. Het verwijderen van een samenvattingstaak verwijdert de taak- en elk van de deeltaken.|  

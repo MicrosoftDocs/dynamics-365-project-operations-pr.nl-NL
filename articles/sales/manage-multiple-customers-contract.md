@@ -4,14 +4,14 @@ description: Dit onderwerp bevat informatie over het beheren van meerdere klante
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992065"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591306"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Meerdere klanten in projectcontracten beheren
 
@@ -19,7 +19,7 @@ Dit onderwerp bevat informatie over het beheren van meerdere klanten in een proj
 
 Alle contractklanten op het tabblad **Klanten** van het projectcontract zijn standaard contractregelklanten op nieuwe projectgebaseerde contractregels die voor het projectcontract worden gemaakt. Bestaande projectgebaseerde contractregels nemen geen nieuwe contractklanten over die later zijn gemaakt.
 
-U kunt contractklanten en contractregelklanten op elk moment toevoegen, bijwerken of verwijderen voordat het contract wordt gewonnen. Een klant op het projectcontract moet zijn ingesteld als klant in het bedrijf of de rechtspersoon die eigenaar is van het contract op de pagina **Klanten**. Rechtspersonen worden ingesteld in de module **Projectbeheer en boekhouding** van Dynamics 365 Project Operations en zijn beschikbaar als bedrijven in de modules **Projectverkoop** en **Levering** van Project Operations.
+U kunt contractklanten en contractregelklanten op elk moment toevoegen, bijwerken of verwijderen voordat het contract wordt gewonnen. Een klant op het projectcontract moet zijn ingesteld als klant in het bedrijf of de rechtspersoon die eigenaar is van het contract op de pagina **Klanten**. Rechtspersonen worden ingesteld in de module **Projectbeheer en financiële administratie** van Dynamics 365 Project Operations en zijn beschikbaar als bedrijven in de modules **Projectverkoop** en **Levering** van Project Operations.
 
 ## <a name="primary-customers"></a>Primaire klanten
 
@@ -36,7 +36,7 @@ Een contractklant kan worden gemaakt, bijgewerkt of verwijderd via het tabblad *
 | Naam van de contactpersoon voor de factuur | Bewerkbaar raster op het tabblad **Contractklanten** en de formulieren Hoofd en Snelle invoer voor een contractklant. | Dit tekstveld moet worden gebruikt om de contactpersoon voor de factuur voor de klant te identificeren. De standaardwaarde is afkomstig uit de gerelateerde accountrecord. De contactnaam wordt gekopieerd naar **Factureren aan contractnaam** op de factuur die voor de klant wordt gegenereerd. |
 | Naam voor factuur | Bewerkbaar raster op het tabblad **Contractklanten** en de formulieren Hoofd en Snelle invoer voor een contractklant. | Gebruik dit veld om de contactpersoon voor de factuur voor de klant te identificeren. De standaardwaarde is afkomstig uit de gerelateerde accountrecord. De naam wordt gekopieerd naar het veld **Factureren aan contractnaam** op de factuur die voor de klant wordt gegenereerd. |
 | Betalingsvoorwaarden | Bewerkbaar raster op het tabblad **Contractklanten** en de formulieren Hoofd en Snelle invoer voor een contractklant. | De standaardwaarde is afkomstig uit de gerelateerde accountrecord. De voorwaarden worden gekopieerd naar **Factureren aan contractnaam** op de factuur die voor de klant wordt gegenereerd. |
-| Bedrijf dat eigenaar is | Bewerkbaar raster op het tabblad **Projectcontractklanten** en de formulieren Hoofd en Snelle invoer voor een projectcontractklant. | De rechtspersoon waarin de klant is opgericht in de module **Projectbeheer en boekhouding**. Dit veld is alleen-lezen en is ingesteld op het bedrijf dat eigenaar is van het projectcontract.</br>De lijst met klanten die moeten worden toegevoegd in het veld **Account** is al gefilterd op de lijst van het bedrijf dat eigenaar is in de module **Projectmanagement en financiële administratie** van Project Operations. Het bedrijf dat de eigenaar is, is gelijk aan de rechtspersoon in de module **Projectbeheer en boekhouding** van Project Operations. Alle kosten en opbrengsten van het project worden verantwoord in het grootboek van het bedrijf dat de eigenaar is. |
+| Bedrijf dat eigenaar is | Bewerkbaar raster op het tabblad **Projectcontractklanten** en de formulieren Hoofd en Snelle invoer voor een projectcontractklant. | De rechtspersoon waarin de klant is opgericht in de module **Projectbeheer en financiële administratie**. Dit veld is alleen-lezen en is ingesteld op het bedrijf dat eigenaar is van het projectcontract.</br>De lijst met klanten die moeten worden toegevoegd in het veld **Account** is al gefilterd op de lijst van het bedrijf dat eigenaar is in de module **Projectmanagement en financiële administratie** van Project Operations. Het bedrijf dat de eigenaar is, is gelijk aan de rechtspersoon in de module **Projectbeheer en financiële administratie** van Project Operations. Alle kosten en opbrengsten van het project worden verantwoord in het grootboek van het bedrijf dat de eigenaar is. |
 | Is afronding | Bewerkbaar raster op het tabblad **Contractklanten** en de formulieren Hoofd en Snelle invoer voor een contractklant. | Geeft aan of de klant een standaardafrondingsklant is voor de deal. Er kan slechts één afrondingsklant op een projectcontract zijn. Wanneer splitsing voor hoeveelheid in kosten en niet-gefactureerde verkoop leiden tot een afrondingsverschil, wordt dat verschil toegepast op de werkelijke waarde die aan deze klant is toegewezen. |
 | Niet-overschrijdingslimiet | Bewerkbaar raster op het tabblad **Contractklanten** en de formulieren Hoofd en Snelle invoer voor een contractklant. | Geeft aan of er een onderhandelde limiet of maximum is voor het totale bedrag dat voor deze opdracht aan de klant wordt gefactureerd. De niet-overschrijdingslimiet die is ingesteld op contractklantniveau, wordt beoordeeld op basis van werkelijke niet-gefactureerde verkopen die verwijzen naar de contractklant. |
 

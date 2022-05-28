@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 69d80a4dc6377f7da1d0ad273dd9be3c8265214b152e7976c7d0c73e46a7dbd1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985585"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592226"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Basishandleiding voor prijsopgaven, prijzen en facturering
 
@@ -31,7 +32,7 @@ ms.locfileid: "6985585"
 
 Dankzij de mogelijkheid om de juiste resources op het juiste moment te vinden, deze resources te boeken voor projecten en ze te blijven gebruiken, kunnen organisaties aan de doelen ten aanzien van omzet en klanttevredenheid voldoen. 
 
-De PDF-koppeling die voorheen in dit onderwerp was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende onderwerpen:
+De PDF-koppeling die voorheen In dit onderwerp was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende onderwerpen:
 
 - [Prijsopgaven, prijzen en facturering](../quote-bill-price.md)
 - [verkoopprocessen](../basic-sales-process.md)

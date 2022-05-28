@@ -4,14 +4,14 @@ description: In dit onderwerp vindt u informatie over hoe u zich kunt abonneren 
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991525"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587994"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Aanmelden voor een preview-abonnement - lite 
 
@@ -43,7 +43,7 @@ Voordat u begint, moet u ervoor zorgen dat u bent aangemeld bij een browser met 
 > U hebt toegang als beheerder nodig tot de Microsoft 365-portal van uw organisatie om de volgende stappen te voltooien.
 
 
-1. Ga naar [Microsoft 365-beheercentrum](https://portal.office.com/) om de licenties aan uw gebruikers toe te wijzen.
+1. Ga naar het [Microsoft 365-beheercentrum](https://portal.office.com/) om de licenties aan uw gebruikers toe te wijzen.
 2. Selecteer op de pagina **Actieve gebruikers** de gebruikers waaraan u een licentie wilt toewijzen.
 3. Controleer of de **Dynamics 365 Project Operations**-licentie is geselecteerd. 
 4. Selecteer **Wijzigingen opslaan**.

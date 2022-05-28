@@ -15,18 +15,19 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002325"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591904"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Aangepaste velden instellen als prijsdimensies 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Voordat u begint, wordt er in dit onderwerp vanuit gegaan dat u de procedures hebt voltooid in de onderwerpen [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md) en [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](field-references.md). Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar dit onderwerp. 
+Voordat u begint, wordt er In dit onderwerp vanuit gegaan dat u de procedures hebt voltooid in de onderwerpen [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md) en [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](field-references.md). Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar Dit onderwerp. 
 
 Dit onderwerp bevat informatie over het instellen van aangepaste prijsdimensies. In de webinterface van Project Service ziet u op de pagina **Parameters** in het tabblad **Op bedrag gebaseerde prijsdimensies** de records in de dimensie-entiteiten voor prijs. Standaard worden bij de installatie van Project Service twee rijen aangemaakt in het raster op dit tabblad:
 
@@ -73,7 +74,7 @@ Er zijn twee typen prijsdimensies:
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Op locatie            |                    |Overwerk                 |15     |
 |             | Contoso India|Lokaal             |                    |Overwerk                 |10     |
-|             | Contoso VS   |Lokaal             |                    |Overwerk                 |20     |
+|             | Contoso US   |Lokaal             |                    |Overwerk                 |20     |
 
 
 Als een resource van Contoso India met een basistarief van USD 100 op locatie werkt en deze 8 uur van de reguliere werktijd en 2 uur overwerk op de tijdsvermelding registreert, past de prijsengine van Project Service het basistarief van 100 toe voor de 8 uur, voor een subtotaal van USD 800. Voor de 2 uur overwerk wordt een opslag van 15% toegepast op het basistarief van 100, wat een eenheidsprijs van USD 115 oplevert voor een subtotaal van USD 230.

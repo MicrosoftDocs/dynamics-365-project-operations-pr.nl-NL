@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986530"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586890"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Instelling en configuratie van gegevensintegratie in Project Operations
 
@@ -22,34 +22,34 @@ Dit onderwerp biedt informatie over integratie van twee keer wegschrijven in Pro
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Projectcontracten, contractregels en projecten
 
-Projectcontracten, contractregels en projecten worden gemaakt in Dataverse en gesynchroniseerd met Finance and Operations-apps voor extra financiële administratie. De records in deze entiteiten kunnen alleen worden gemaakt en verwijderd in Dataverse. Boekhoudkundige kenmerken zoals standaardwaarden voor btw-groepen en financiële dimensies kunnen echter aan deze records worden toegevoegd in de Finance and Operations-apps.
+Projectcontracten, contractregels en projecten worden gemaakt in Dataverse en gesynchroniseerd met apps voor financiën en bedrijfsactiviteiten voor extra boekhouding. De records in deze entiteiten kunnen alleen worden gemaakt en verwijderd in Dataverse. Boekhoudkenmerken zoals standaardwaarden voor btw-groepen en financiële dimensies kunnen echter aan deze records worden toegevoegd in de apps voor financiën en bedrijfsactiviteiten.
 
   ![Concepten voor projectcontractintegratie.](./media/1ProjectContract.jpg)
 
-Potentiële klanten, verkoopkansen en prijsopgaven voor verkoop worden bijgehouden in Dataverse en niet gesynchroniseerd met Finance and Operations-apps omdat er geen stroomafwaartse financiële administratie aan deze activiteit is gekoppeld.
+Potentiële klanten, verkoopkansen en offertes worden bijgehouden in Dataverse en niet gesynchroniseerd met apps voor financiën en bedrijfsactiviteiten omdat er geen downstream-boekhouding aan deze activiteit is gekoppeld.
 
-De functionaliteit voor projectcontracten in Dataverse maakt een projectcontractrecord aan in Finance and Operations-apps met behulp van de tabeltoewijzing **Projectcontractkoppen (salesorders)**. Bij het opslaan van een projectcontract in Dataverse wordt het aanmaken van een record van een klantentiteit voor een projectcontract gestart. Deze record wordt gesynchroniseerd met Finance and Operations-apps met behulp van de tabeltoewijzing **Bron voor projectfinanciering (msdyn\_projectcontractssplitbillingrules)**. Deze kaart synchroniseert ook toevoegingen, updates en verwijderingen van klanten in projectcontracten. Gesplitste factureringspercentages tussen projectcontractklanten worden alleen bijgehouden in Dataverse en niet gesynchroniseerd met Finance and Operations-apps.
+De projectcontractfunctionaliteit in Dataverse maakt een projectcontractrecord in apps voor financiën en bedrijfsactiviteiten met behulp van de tabeltoewijzing **Kopteksten van projectcontracten (verkooporders)**. Bij het opslaan van een projectcontract in Dataverse wordt het aanmaken van een record van een klantentiteit voor een projectcontract gestart. Dit record wordt gesynchroniseerd met apps voor financiën en bedrijfsactiviteiten met behulp van de tabeltoewijzing **Bron van projectfinanciering (msdyn\_projectcontractssplitbillingrules)**. Deze kaart synchroniseert ook toevoegingen, updates en verwijderingen van klanten in projectcontracten. Gesplitste factureringspercentages tussen projectcontractklanten worden alleen beheerst in Dataverse en niet gesynchroniseerd met apps voor financiën en bedrijfsactiviteiten.
 
-Nadat een projectcontract is gemaakt in Dataverse kan de projectaccountant de boekhoudkundige kenmerken voor dit projectcontract bijwerken in Finance and Operations-apps door naar **Projectmanagement en boekhouding** > **Projectcontracten** > **Instellingen** > **Standaardboekhouding weergeven** te gaan. De accountant kan de kenmerken van het operationele projectcontract bekijken, zoals de gewenste opleverdatum en het contractbedrag door de projectcontract-id te selecteren in Finance and Operations-apps waarmee de gerelateerde projectcontractrecord wordt geopend in Dataverse.
+Nadat een projectcontract is gemaakt in Dataverse, kan de projectaccountant de boekhoudkenmerken voor dit projectcontract bijwerken in apps voor financiën en bedrijfsactiviteiten door naar **Projectbeheer en financiële administratie** > **Projectcontracten** > **Instellingen** > **Standaardboekhouding weergeven** te gaan. De accountant kan operationele projectcontractkenmerken, zoals gevraagde leveringsdatum en contractbedrag, bekijken door de projectcontract-id te selecteren in apps voor financiën en bedrijfsactiviteiten, waardoor de gerelateerde projectcontractrecord wordt geopend in Dataverse.
 
-De projectentiteit wordt gesynchroniseerd met Finance and Operations-apps met behulp van de tabeltoewijzing **Projecten V2 (msdyn\_projects)**. De projectaccountant kan:
+De projectentiteit wordt gesynchroniseerd met apps voor financiën en bedrijfsactiviteiten met behulp van de tabeltoewijzing **Projecten V2 (msdyn\_projects)**. De projectaccountant kan:
 
-  - Projecten beoordelen in Finance and Operations-apps door naar **Projectmanagement en boekhouding** > **Alle projecten** te gaan. 
-  - Werk boekhoudkundige kenmerken voor het project bij in Finance and Operations-apps door naar **Projectmanagement en boekhouding** > **Alle projecten** > **Instellingen** > **Standaardboekhouding weergeven** te gaan.  
-  - Bekijk operationele projectkenmerken, zoals geschatte begin- en einddatums, door de project-id te selecteren in Finance and Operations-apps waardoor de gerelateerde projectrecord wordt geopend in Dataverse.
+  - Bekijk projecten in apps voor financiën en bedrijfsactiviteiten door naar **Projectbeheer en financiële administratie** > **Alle projecten** te gaan. 
+  - Werk boekhoudkenmerken voor het project in apps voor financiën en bedrijfsactiviteiten bij door naar **Projectbeheer en financiële administratie** > **Alle projecten** > **Instellingen** > **Standaardboekhouding weergeven** te gaan.  
+  - Bekijk operationele projectkenmerken, zoals geschatte begin- en einddatums, door de project-id te selecteren in apps voor financiën en bedrijfsactiviteiten, waarmee de gerelateerde projectrecord wordt geopend in Dataverse.
 
 Een project wordt aan een projectcontract gekoppeld via de entiteit **Projectcontractregel**.
 
-Projectcontractregels in Dataverse maken een factureringsregel voor projectcontracten aan in Finance and Operations-apps met behulp van de tabeltoewijzing **Projectcontractregels (salesorderdetails)**. De factureringsmethode definieert het type factureringsregel voor projectcontracten in Finance and Operations-apps:
+Projectcontractregels in Dataverse maken een factureringsregel voor projectcontracten in apps voor financiën en bedrijfsactiviteiten met behulp van de tabeltoewijzing **Projectcontractregels (salesorderdetails)**. De factureringsmethode definieert het type factureringsregel voor projectcontracten in apps voor financiën en bedrijfsactiviteiten:
 
   - Projectcontractregels met een factureringsmethode voor tijd en materiaal creëren een factureringsregel voor tijd en materiaaltype.
   - Contractregels voor factureringsmethode met een vaste prijs creëren een factureringsregel voor mijlpalen.
 
-Projectcontractregels kunnen worden beoordeeld door de projectaccountant in Finance and Operations-apps door naar **Projectmanagement en boekhouding** > **Projectcontracten** > **Instellingen** > **Standaardboekhouding weergeven** te gaan en de details te bekijken op het tabblad **Contractregels**. De accountant kan op dit tabblad ook standaard financiële dimensies instellen voor de contractregels voor factureringsmethode tegen een vaste prijs.
+Projectcontractregels kunnen worden beoordeeld door de projectaccountant in apps voor financiën en bedrijfsactiviteiten door naar **Projectbeheer en financiële administratie** > **Projectcontracten** > **Instellingen** > **Standaardboekhouding weergeven** te gaan en de details op het tabblad **Contractregels** te bekijken. De accountant kan op dit tabblad ook standaard financiële dimensies instellen voor de contractregels voor de factureringsmethode met een vaste prijs.
 
 ## <a name="billing-milestones"></a>Factureringsmijlpalen
 
-Projectcontractregels die de factureringsmethode tegen een vaste prijs gebruiken, worden gefactureerd via factureringsmijlpalen. Factureringsmijlpalen worden gesynchroniseerd om transacties op rekening te projecteren in Finance and Operations-apps met behulp van de tabeltoewijzing **Mijlpalen voor integratiecontractregels in Project Operations (msdyn\_contractlinescheduleofvalues)**.
+Projectcontractregels die de factureringsmethode tegen een vaste prijs gebruiken, worden gefactureerd via factureringsmijlpalen. Factureringsmijlpalen worden gesynchroniseerd om transacties op rekening in apps voor financiën en bedrijfsactiviteiten te projecteren met behulp van de tabeltoewijzing **Mijlpalen van contractregels voor integratie van projectbewerkingen (msdyn\_contractlinescheduleofvalues)**.
 
   ![Integratie van factureringsmijlpalen.](./media/2Milestones.jpg)
 
@@ -59,21 +59,21 @@ Wanneer u voor het eerst een factureringsmijlpaal maakt voor een bepaalde projec
 
 ### <a name="project-tasks"></a>Projecttaken
 
-Projecttaken worden uitsluitend voor referentiedoeleinden gesynchroniseerd met Finance and Operations-apps via de tabeltoewijzing **Projecttaken (msdyn\_projecttasks)**. De bewerkingen voor maken, bijwerken en verwijderen worden niet ondersteund via Finance and Operations-apps.
+Projecttaken worden uitsluitend voor referentiedoeleinden gesynchroniseerd met apps voor financiën en bedrijfsactiviteiten via de tabeltoewijzing **Projecttaken (msdyn\_projectstasks)**. Het maken, bijwerken en verwijderen van bewerkingen wordt niet ondersteund via apps voor financiën en bedrijfsactiviteiten.
 
   ![Integratie van projecttaken.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Projectresources
 
-De entiteit **Rollen van projectresources** wordt uitsluitend voor referentiedoeleinden gesynchroniseerd met Finance and Operations-apps via de tabeltoewijzing **Projectresourcerollen voor alle bedrijven (bookableresourcecategories)**. Omdat resourcerollen in Dataverse niet bedrijfsspecifiek zzijn, maakt het systeem automatisch respectievelijke bedrijfsspecifieke resourcerollenrecords aan in Finance and Operations-apps voor alle juridische entiteiten die zijn opgenomen in het integratiebereik voor twee keer wegschrijven.
+De entiteit **Projectresourcerollen** entiteit wordt uitsluitend voor referentiedoeleinden gesynchroniseerd met apps voor financiën en bedrijfsactiviteiten met behulp van de tabeltoewijzing **Projectresourcerollen voor alle bedrijven (bookableresourcecategories)**. Omdat resourcerollen in Dataverse niet bedrijfsspecifiek zijn, maakt het systeem automatisch respectievelijke bedrijfsspecifieke resourcerollenrecords in apps voor financiën en bedrijfsactiviteiten voor alle rechtspersonen die zijn opgenomen in het integratiebereik voor dubbel wegschrijven.
 
 ![Integratie van resourcerollen.](./media/5Resources.jpg)
 
-Projectresources in Project Operations worden onderhouden in Dataverse en worden niet gesynchroniseerd met Finance and Operations-apps.
+Projectresources in Project Operations worden onderhouden in Dataverse en worden niet gesynchroniseerd met apps voor financiën en bedrijfsactiviteiten.
 
 ### <a name="transaction-categories"></a>Transactiecategorieën
 
-Transactiecategorieën worden onderhouden in Dataverse en gesynchroniseerd met Finance and Operations-apps via de tabeltoewijzing **Projecttransactiecategorieën (msdyn\_transactioncategories)**. Nadat de transactiecategorierecord is gesynchroniseerd, maakt het systeem automatisch vier gedeelde categorierecords. Elke record komt overeen met een transactietype in Finance and Operations-apps en koppelt deze aan de transactiecategorierecord.
+Transactiecategorieën worden bijgehouden in Dataverse en gesynchroniseerd met apps voor financiën en bedrijfsactiviteiten met behulp van de tabeltoewijzing **Projecttransactiecategorieën (msdyn\_transactioncategories)**. Nadat de transactiecategorierecord is gesynchroniseerd, maakt het systeem automatisch vier gedeelde categorierecords. Elke record komt overeen met een transactietype in apps voor financiën en bedrijfsactiviteiten en koppelt deze aan de transactiecategorierecord.
 
 ![Integratie van transactiecategorieën.](./media/4TransactionCategories.jpg)
 

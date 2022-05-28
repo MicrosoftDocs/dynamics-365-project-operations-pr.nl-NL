@@ -4,14 +4,14 @@ description: Dit onderwerp bevat informatie over projectgebaseerde contracten we
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001830"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590478"
 ---
 # <a name="manage-project-contracts"></a>Projectcontracten beheren
 
@@ -31,6 +31,9 @@ Een lijst van alle projectcontracten is te zien op de lijstpagina **Contracten**
 2. Selecteer de **Weergavewisselaar** (de vervolgkeuzepijl naast de naam van de weergave) om andere gefilterde weergaven te selecteren. U kunt uw eigen aangepaste weergaven maken met aangepaste filtercriteria.
 
 Contracten kunnen worden gemaakt of verwijderd uit deze lijstpagina of detailpagina's.
+
+> [!NOTE]
+> Contracten waaraan projecten, taken, schattingen, dagboeken en/of werkelijke waarden zijn gekoppeld, kunnen niet worden verwijderd. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

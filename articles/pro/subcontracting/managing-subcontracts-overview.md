@@ -3,15 +3,15 @@ title: Onderaannemingsbeheer in Project Operations
 description: Dit onderwerp biedt een overzicht van begin tot einde van het onderaannemingsbeheerproces dat doorgaans plaatsvindt in projectgebaseerde organisaties.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323590"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593008"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Onderaannemingsbeheer in Project Operations
 
@@ -46,7 +46,7 @@ Een subcontractregel kan hoeveelheids- of werkgebaseerd zijn.
 
 Wanneer een subcontractregel **hoeveelheidsgebaseerd** is, kan de hoeveelheid die op de subcontractregel wordt ingekocht voor tijd, onkosten of materiaal voor elk project worden gebruikt.
 
-Als een subcontractregel **werkgebaseerd** is, wordt de subcontractregel toegewezen aan een pakket aan werk dat wordt vertegenwoordigd door een knooppunt in het projectplan. De waarde van de subcontractregel is de som van alle componenten die nodig zijn om dat werk te leveren. Deze worden gemodelleerd als subcontractregeldetails en kunnen een verzameling tijd, onkosten of materialen zijn. Voor een op werk gebaseerde subcontractregel is de subcontractregel ook toegewezen aan één project.
+Als een subcontractregel **werkgebaseerd** is, wordt de subcontractregel toegewezen aan een pakket aan werk dat wordt vertegenwoordigd door een knooppunt in het projectplan. De waarde van de subcontractregel is de som van alle componenten die nodig zijn om dat werk te leveren. Deze worden gemodelleerd als subcontractregeldetails en kunnen een verzameling tijd, onkosten of materialen zijn. Voor een op werk gebaseerde subcontractregel is de subcontractregel ook toegewezen aan één project. Deze typen subcontracten worden momenteel niet ondersteund door Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

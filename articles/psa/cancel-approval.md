@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 9e3bc94b626b88a2167e3a61472b768e2fb5c731
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987430"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590754"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Eerder goedgekeurde tijdsvermeldingen of onkostenposten annuleren
 
@@ -57,7 +58,7 @@ Een project wordt ook financieel beïnvloed wanneer een goedkeuring wordt geannu
 - De aanpassingsstatus wordt ingesteld op **Aangepast**.
 - De factureringsstatus wordt ingesteld op **Geannuleerd**.
 
-Vervolgens worden er stornoposten gemaakt in de tabel Werkelijke waarden. Om stornoposten te maken, kopieert het systeem de veldwaarden van de oorspronkelijke werkelijke waarden. De enige waarden die niet worden gekopieerd, zijn de hoeveelheidswaarden. In plaats daarvan worden deze waarden omgekeerd. Omgekeerde werkelijke waarden worden gemaakt voor de werkelijke waarden **Kosten** en **Niet-gefactureerde verkoop**. Het veld **Aanpassingsstatus** voor de omgekeerde werkelijke waarden wordt ingesteld op **Niet aanpasbaar** en de factureringsstatus wordt ingesteld op **Geannuleerd**.
+Vervolgens worden er stornoposten gemaakt in de tabel Werkelijke waarden. Om stornoposten te maken, kopieert het systeem de veldwaarden van de oorspronkelijke werkelijke waarden. De enige waarden die niet worden gekopieerd, zijn de hoeveelheidswaarden. In plaats daarvan worden deze waarden omgekeerd. Omgekeerde werkelijke waarden worden gemaakt voor de werkelijke waarden **Kosten** en **Niet-gefactureerde verkoop**. Het veld **Aanpassingsstatus** voor de omgekeerde werkelijke waarden wordt ingesteld op **Niet-aanpasbaar** en de factureringsstatus wordt ingesteld op **Geannuleerd**.
 
 Als deze wijzigingen zijn doorgevoerd, komen de vastgelegde uitgaven voor het project en de omzetbacklog voor het project niet meer overeen met de bedragen die deze werkelijke waarden vertegenwoordigen.
 

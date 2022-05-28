@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986800"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589006"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van februari 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
 - Project Operations in Dataverse-omgeving 4.7.0.95
-- Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving, versie 10.0.16 
+- Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving versie 10.0.16 
 
 ## <a name="quality-updates"></a>Kwaliteitsupdates
 
@@ -44,14 +44,14 @@ Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamic
 | **Tijdsvermelding** | 2129161 | Er worden strengere beperkingen toegepast om ervoor te zorgen dat gebruikers een ingediende of goedgekeurde tijdsvermelding niet kunnen wijzigen en bijwerken. |
 | **Tijdsvermelding** | 2103572 | Tijdsgoedkeuring voor niet-projecttijdsvermeldingen mag niet op zoek zijn naar de rol van projectfiatteur. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projectbeheer en boekhouding in Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projectbeheer en financiële administratie in Dynamics 365 Finance 
 
-Ga voor meer informatie over projectbeheer en boekhouding in Dynamics 365 Finance naar [Nieuwe functies van januari 2021 - Project Operations voor scenario's op basis van resource/niet-voorradige artikelen](whats-new-jan-2021-resource-based.md).
+Zie [Nieuwe functies in oktober 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen](whats-new-jan-2021-resource-based.md) voor meer informatie over projectbeheer en financiële administratie in Dynamics 365 Finance.
 
 
 ## <a name="regulatory-updates"></a>Wijzigingen in regelgeving
 
-Voor informatie over updates in regelgeving voor Finance and Operations-apps leest u [Wijzigingen in regelgeving](/dynamics365/finance/localizations/regulatory-updates). Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij Lifecycle Services (LCS) en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
+Zie [Regelgevende updates](/dynamics365/finance/localizations/regulatory-updates) voor informatie over updates van regelgeving voor apps voor financiën en bedrijfsactiviteiten. Een andere manier om meer te weten te komen over updates van regelgeving is door u aan te melden bij Lifecycle Services (LCS) en de geplande updates van regelgeving te bekijken met behulp van de tool Probleem zoeken. Met het Probleem zoeken kunt u zoeken op land, type functie en release.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

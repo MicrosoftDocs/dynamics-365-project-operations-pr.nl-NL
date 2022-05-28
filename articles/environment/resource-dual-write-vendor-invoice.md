@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986485"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591169"
 ---
 # <a name="vendor-invoice-integration"></a>Integratie van leveranciersfacturen
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 Projectgerelateerde inkoop in Dynamics 365 Project Operations kan worden opgenomen door naar **Leveranciers** > **Facturen** > **In behandeling zijnde leveranciersfacturen** te gaan en een in behandeling zijnde leveranciersfactuur te gebruiken. Zie [Niet-voorradige materialen aanschaffen via een in behandeling zijnde leveranciersfactuur](../procurement/pending-vendor-invoices.md) voor meer informatie.
 
 > [!IMPORTANT]
-> Voordat u de functionaliteit gebruikt die in dit onderwerp wordt beschreven, moet u de vereiste configuraties bekijken en toepassen. Zie [Niet-voorradige materialen en in behandeling zijnde leveranciersfacturen inschakelen](../procurement/configure-materials-nonstocked.md) voor meer informatie.
+> Voordat u de functionaliteit gebruikt die In dit onderwerp wordt beschreven, moet u de vereiste configuraties bekijken en toepassen. Zie [Niet-voorradige materialen en in behandeling zijnde leveranciersfacturen inschakelen](../procurement/configure-materials-nonstocked.md) voor meer informatie.
 
 In project Operations worden projectgerelateerde leveranciersfacturen geboekt met behulp van speciale boekingsregels:
 
@@ -34,7 +34,7 @@ In project Operations worden projectgerelateerde leveranciersfacturen geboekt me
      > [!NOTE]
      > Details van leveranciersfacturen in Dataverse zijn niet bewerkbaar.
 
-Btw-subgrootboek, subgrootboek voor leveranciers en andere financiële boekingen worden geregistreerd zoals van toepassing in Dynamics 365 Finance als de onkostendeclaratie wordt geboekt.
+Belastingsubadministratie, leverancierssubadministratie en andere financiële boekingen worden vastgelegd zoals van toepassing in Dynamics 365 Finance wanneer de leveranciersfactuur wordt geboekt.
 
 ![Integratie van leveranciersfacturen.](media/DW7VendorInvoice.png)
 

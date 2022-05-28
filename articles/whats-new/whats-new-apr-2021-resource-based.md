@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008130"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589098"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuw in april 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -21,7 +21,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
 - Project Operations in Dataverse-omgeving, versie 4.9.0.221
-- Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving, versie 10.0.17
+- Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving versie 10.0.17
 
 ## <a name="features-included-in-this-release"></a>In deze versie zijn de volgende functies opgenomen
 
@@ -42,13 +42,13 @@ De volgende lijst toont de kaarten voor twee keer wegschrijven die zijn gewijzig
 | **Entiteitstoewijzing** | **Bijgewerkte versie** | **Opmerkingen** |
 | --- | --- | --- |
 | Werkelijke waarden voor integratie van Project Operations (msdyn\_actuals) | 1.0.0.14 | Kaart aangepast om werkelijke waarden voor materiaalprojecten te synchroniseren. |
-| Entiteit voor onkostenramingen van Project Operations-integratie (msdyn\_estimateslines) | 1.0.0.2 | Synchronisatie van projectcontractregels toegevoegd aan Finance and Operations-apps voor taakgebaseerde factureringsondersteuning. |
-| Entiteit voor tijdramingen van Project Operations-integratie (msdyn\_resourceassignments) | 1.0.0.5 | Synchronisatie van projectcontractregels toegevoegd aan Finance and Operations-apps voor taakgebaseerde factureringsondersteuning. |
-| Project Operations-integratietabel voor materiaalschattingen (msdyn\_estimatelines) | 1.0.0.0 | Nieuwe tabeltoewijzing om materiaalschattingen te synchroniseren tussen Dataverse en Finance and Operations-apps. |
-| Entiteit voor exporteren van leverancierfacturen in Project Operations-integratieprojecten (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nieuwe tabeltoewijzing om kopteksten van leveranciersfacturen te synchroniseren tussen Finance and Operations-apps en Dataverse. |
-| Entiteit voor exporteren van leverancierfactuurregels in Project Operations-integratieprojecten (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nieuwe tabeltoewijzing om leveranciersfactuurregels te synchroniseren tussen Finance and Operations-apps en Dataverse. |
+| Entiteit voor onkostenramingen van Project Operations-integratie (msdyn\_estimateslines) | 1.0.0.2 | Synchronisatie van projectcontractregels toegevoegd aan apps voor financiën en bedrijfsactiviteiten voor taakgebaseerde factureringsondersteuning. |
+| Entiteit voor tijdramingen van Project Operations-integratie (msdyn\_resourceassignments) | 1.0.0.5 | Synchronisatie van projectcontractregels toegevoegd aan apps voor financiën en bedrijfsactiviteiten voor taakgebaseerde factureringsondersteuning. |
+| Project Operations-integratietabel voor materiaalschattingen (msdyn\_estimatelines) | 1.0.0.0 | Nieuwe tabeltoewijzing voor het synchroniseren van materiaalschattingen van Dataverse naar apps voor financiën en bedrijfsactiviteiten. |
+| Entiteit voor exporteren van leverancierfacturen in Project Operations-integratieprojecten (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nieuwe tabeltoewijzing voor het synchroniseren van kopteksten van leveranciersfacturen van apps voor financiën en bedrijfsactiviteiten naar Dataverse. |
+| Entiteit voor exporteren van leverancierfactuurregels in Project Operations-integratieprojecten (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nieuwe tabeltoewijzing voor het synchroniseren van leveranciersfactuurregels van apps voor financiën en bedrijfsactiviteiten naar Dataverse. |
 
-U moet altijd de meest recente versie van de kaart in uw omgeving uitvoeren en alle gerelateerde tabeltoewijzingen inschakelen terwijl u uw Project Operations Dataverse-oplossing en uw versie van de Finance and Operations-oplossing bijwerkt. Bepaalde functies en mogelijkheden werken mogelijk niet correct als niet de meest recente versie van de kaart is geactiveerd. U kunt de actieve versie van de kaart zien in de kolom **Versie** op de pagina **Twee keer wegschrijven**. U kunt een nieuwe versie van de kaart activeren door **Versies van tabeltoewijzing** te selecteren, de meest recente versie te kiezen en vervolgens de geselecteerde versie op te slaan. Als u een kant-en-klare tabeltoewijzing hebt aangepast, past u de wijzigingen opnieuw toe. Zie [Beheer van de toepassingslevenscyclus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) voor meer informatie.
+U moet altijd de nieuwste versie van de toewijzing uitvoeren in uw omgeving en schakel alle gerelateerde tabeltoewijzingen in wanneer u de versie van uw Project Operations Dataverse-oplossing en oplossing voor financiën en bedrijfsactiviteiten bijwerkt. Bepaalde functies en mogelijkheden werken mogelijk niet correct als niet de meest recente versie van de kaart is geactiveerd. U kunt de actieve versie van de kaart zien in de kolom **Versie** op de pagina **Twee keer wegschrijven**. U kunt een nieuwe versie van de kaart activeren door **Versies van tabeltoewijzing** te selecteren, de meest recente versie te kiezen en vervolgens de geselecteerde versie op te slaan. Als u een kant-en-klare tabeltoewijzing hebt aangepast, past u de wijzigingen opnieuw toe. Zie [Beheer van de toepassingslevenscyclus](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) voor meer informatie.
 
 Als u een probleem ondervindt bij het starten van de kaart, volgt u de instructies in de sectgie [Probleem met ontbrekende tabelkolommen op kaarten](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) van de gids voor probleemoplossing voor Twee keer wegschrijven.
 
@@ -79,21 +79,21 @@ Als u een probleem ondervindt bij het starten van de kaart, volgt u de instructi
 | Tijd en onkosten | 2204377 | Gekopieerde urenstaten moeten automatisch worden weergegeven wanneer u **Week kopiëren** selecteert tijdens tijdinvoer. |
 | Tijd en onkosten | 2209059 | Het veld **Status** kan worden bewerkt voor Dynamics 365 Field Service-tijdinvoer. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projectbeheer en boekhouding in Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Projectbeheer en financiële administratie in Dynamics 365 Finance
 
 | **Functiegebied** | **Referentienummer** | **Kwaliteitsupdate** |
 | --- | --- | --- |
-| Projectbeheer en boekhouding | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Schrapping van omgekeerde schatting werkt niet in de sectie **Periodiek**.  |
-| Projectbeheer en boekhouding | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Met de functie **Boekhoudkundige aanpassing** ontstaat een probleem met grootboekrekeningen waarvoor **Handmatige invoer niet toestaan** is geselecteerd. |
-| Projectbeheer en boekhouding | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Er is bedrijfslogica toegevoegd om correctiefacturen te verwerken, inclusief voorschotbedrag of toegepast voorschotbedrag. |
-| Projectbeheer en boekhouding | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Bij het boeken van OHW-verkoopwaarde bij intercompany-projectfacturering wordt een onverwachte rekening gekozen. |
-| Projectbeheer en boekhouding | [521807](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521807) | Wanneer u in Project Operations met voorschotten werkt, veroorzaakt een wijziging van het standaardproject in een contract na facturering van de vooruitbetalingen problemen met inkomende inhoudingen. |
-| Projectbeheer en boekhouding | [527319](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527319) | In Project Operations moet na verwijdering van een project uit een contract zo nodig het standaardproject van het contract opnieuw worden ingesteld. |
-| Projectbeheer en boekhouding | [528212](https://fix.lcs.dynamics.com/Issue/Details/?bugId=528212) | In Project Operations worden de verkeerde onkostenregels weergegeven in de lijst **Regel toevoegen** op de intercompany-factuur. |
-| Projectbeheer en boekhouding | [543968](https://fix.lcs.dynamics.com/Issue/Details/?bugId=543968) | In Project Operations is de pagina **Inkoopovereenkomst** niet zichtbaar in Finance-rechtspersonen die zijn geïntegreerd met Project Operations. |
-| Projectbeheer en boekhouding | [545878](https://fix.lcs.dynamics.com/Issue/Details/?bugId=545878) | Vanwege een Dataverse-integratiefout kunt u een offerte niet converteren naar gewonnen in Project Operations. |
-| Projectbeheer en boekhouding | [547440](https://fix.lcs.dynamics.com/Issue/Details/?bugId=547440) | **ProjCDSprojectContractEntity** kan het factuuradres van de financieringsbron van een andere klant instellen.  |
-| Projectbeheer en boekhouding | [557376](https://fix.lcs.dynamics.com/Issue/Details/?bugId=557376) | In Project Operations worden geen dimensies geselecteerd wanneer u een boekingsfactuur voor een transactie maakt. |
+| Projectbeheer en financiële administratie | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Schrapping van omgekeerde schatting werkt niet in de sectie **Periodiek**.  |
+| Projectbeheer en financiële administratie | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | Met de functie **Boekhoudkundige aanpassing** ontstaat een probleem met grootboekrekeningen waarvoor **Handmatige invoer niet toestaan** is geselecteerd. |
+| Projectbeheer en financiële administratie | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Er is bedrijfslogica toegevoegd om correctiefacturen te verwerken, inclusief voorschotbedrag of toegepast voorschotbedrag. |
+| Projectbeheer en financiële administratie | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Bij het boeken van OHW-verkoopwaarde bij intercompany-projectfacturering wordt een onverwachte rekening gekozen. |
+| Projectbeheer en financiële administratie | [521807](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521807) | Wanneer u in Project Operations met voorschotten werkt, veroorzaakt een wijziging van het standaardproject in een contract na facturering van de vooruitbetalingen problemen met inkomende inhoudingen. |
+| Projectbeheer en financiële administratie | [527319](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527319) | In Project Operations moet na verwijdering van een project uit een contract zo nodig het standaardproject van het contract opnieuw worden ingesteld. |
+| Projectbeheer en financiële administratie | [528212](https://fix.lcs.dynamics.com/Issue/Details/?bugId=528212) | In Project Operations worden de verkeerde onkostenregels weergegeven in de lijst **Regel toevoegen** op de intercompany-factuur. |
+| Projectbeheer en financiële administratie | [543968](https://fix.lcs.dynamics.com/Issue/Details/?bugId=543968) | In Project Operations is de pagina **Inkoopovereenkomst** niet zichtbaar in Finance-rechtspersonen die zijn geïntegreerd met Project Operations. |
+| Projectbeheer en financiële administratie | [545878](https://fix.lcs.dynamics.com/Issue/Details/?bugId=545878) | Vanwege een Dataverse-integratiefout kunt u een offerte niet converteren naar gewonnen in Project Operations. |
+| Projectbeheer en financiële administratie | [547440](https://fix.lcs.dynamics.com/Issue/Details/?bugId=547440) | **ProjCDSprojectContractEntity** kan het factuuradres van de financieringsbron van een andere klant instellen.  |
+| Projectbeheer en financiële administratie | [557376](https://fix.lcs.dynamics.com/Issue/Details/?bugId=557376) | In Project Operations worden geen dimensies geselecteerd wanneer u een boekingsfactuur voor een transactie maakt. |
 | Reistijd en onkosten | [441256](https://fix.lcs.dynamics.com/Issue/Details/?bugId=441256) | Het voorschotsaldo wordt niet bijgewerkt voor een onkostennota als het is goedgekeurd en regel voor regel is geboekt. |
 | Reizen en onkosten | [482041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=482041) | Belastingen voor gespecificeerde intercompany-onkostennota's worden niet correct berekend. |
 | Reizen en onkosten | [483469](https://fix.lcs.dynamics.com/Issue/Details/?bugId=483469) | Extra velden met betrekking tot projecten worden weergegeven op de opnieuw ontworpen pagina **Intercompany-onkostennota's**. |

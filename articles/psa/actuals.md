@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 08/03/2020
-ms.topic: article
+ms.topic: overview
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7ab2638d82eb5ba928d95ca6a524a1566f21e1ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992470"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587580"
 ---
 # <a name="actuals-overview"></a>Overzicht van werkelijke waarden
 
@@ -106,7 +107,7 @@ In PSA worden de financiële transacties vastgelegd die tijdens een project plaa
 <td rowspan="2">Werkelijke waarde voor kosten</td>
 </tr>
 <tr>
-<td>Niet-gefactureerde werkelijke waarde voor verkoop - Toerekenbaar</td>
+<td>Niet-gefactureerde werkelijke verkoopwaarde - Toerekenbaar</td>
 <td>Valuta voor projectcontract</td>
 </tr>
 <tr>
@@ -119,11 +120,11 @@ In PSA worden de financiële transacties vastgelegd die tijdens een project plaa
 <td rowspan="3">Werkelijke waarde voor kosten</td>
 </tr>
 <tr>
-<td>Niet-gefactureerde werkelijke waarde voor verkoop – Toerekenbaar voor de nieuwe hoeveelheid</td>
+<td>Niet-gefactureerde werkelijke verkoopwaarde – Toerekenbaar voor de nieuwe hoeveelheid</td>
 <td>Valuta voor projectcontract</td>
 </tr>
 <tr>
-<td>Niet-gefactureerde werkelijke waarde voor verkoop – Niet-toerekenbaar voor het verschil</td>
+<td>Niet-gefactureerde werkelijke verkoopwaarde – Niet-toerekenbaar voor het verschil</td>
 <td>Valuta voor projectcontract</td>
 </tr>
 <tr>
@@ -230,7 +231,7 @@ In PSA worden de financiële transacties vastgelegd die tijdens een project plaa
 <td rowspan="4">Werkelijke waarde voor kosten</td>
 </tr>
 <tr>
-<td>Niet-gefactureerde werkelijke waarde voor verkoop - Toerekenbaar</td>
+<td>Niet-gefactureerde werkelijke verkoopwaarde - Toerekenbaar</td>
 <td>Valuta voor projectcontract</td>
 </tr>
 <tr>
@@ -259,11 +260,11 @@ In PSA worden de financiële transacties vastgelegd die tijdens een project plaa
 <td>Valuta van contracterende eenheid</td>
 </tr>
 <tr>
-<td>Niet-gefactureerde werkelijke waarde voor verkoop – Toerekenbaar voor de nieuwe hoeveelheid</td>
+<td>Niet-gefactureerde werkelijke verkoopwaarde – Toerekenbaar voor de nieuwe hoeveelheid</td>
 <td>Valuta voor projectcontract</td>
 </tr>
 <tr>
-<td>Niet-gefactureerde werkelijke waarde voor verkoop – Niet-toerekenbaar voor het verschil</td>
+<td>Niet-gefactureerde werkelijke verkoopwaarde – Niet-toerekenbaar voor het verschil</td>
 <td>Valuta voor projectcontract</td>
 </tr>
 <tr>

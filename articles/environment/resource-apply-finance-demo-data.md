@@ -1,24 +1,24 @@
 ---
 title: Demogegevens toepassen op een Finance-cloudomgeving
-description: In dit onderwerp wordt uitgelegd hoe u demogegevens van Project Operations kunt toepassen op een gehoste cloudomgeving in Dynamics 365 Finance.
+description: In dit onderwerp wordt uitgelegd hoe u demogegevens van Project Operations toepast op een door Dynamics 365 Finance Cloud gehoste omgeving.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009660"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588960"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demogegevens toepassen op een Finance-cloudomgeving
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
 > [!IMPORTANT]
-> Dit onderwerp is alleen van toepassing op Microsoft Dynamics 365 Finance versie 10.0.13 en kan alleen worden uitgevoerd in een gehoste cloudomgeving. Voltooi de stappen in dit onderwerp **VOORDAT** u kwaliteitsupdates toepast op de omgeving.
+> Dit onderwerp is alleen van toepassing op Microsoft Dynamics 365 Finance versie 10.0.13 en kan alleen worden uitgevoerd op een door de cloud gehoste omgeving. Voltooi de stappen In dit onderwerp **VOORDAT** u kwaliteitsupdates toepast op de omgeving.
 
 1. Open in uw LCS-project de pagina **Omgevingsdetails**. Deze bevat de details bevat die nodig zijn om verbinding te maken met de omgeving met behulp van Remote Desktop Protocol (RDP).
 
@@ -76,7 +76,7 @@ Dit duurt een paar minuten. U ontvangt een bevestigingsbericht dat de gebruiker 
 
 18. Sluit de externe bureaubladsessie en gebruik de LCS-pagina **Omgevingsdetails** om in te loggen op de omgeving en te bevestigen dat deze werkt zoals verwacht.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Financën en bedrijfsactiviteiten.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

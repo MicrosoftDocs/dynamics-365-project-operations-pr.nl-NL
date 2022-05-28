@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996700"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593376"
 ---
 # <a name="track-a-projects-status-project-service"></a>De status van een project bijhouden (Project Service)
 
@@ -33,14 +34,13 @@ Gebruik de [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-pro
 
 Als overeenkomstenvoortgangen, het bijwerken van projecten fasen van het stadium van de overeenkomst te geven:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Nieuw**    | Wanneer u een project hebt gemaakt, is de fase ingesteld op **Nieuw**. Als u de sjabloon van een project hebt gemaakt, in dit stadium een planning kan het project, schattingen, en teamgegevens hebben. Anders, is het overzicht van het project zijn en moet u de rest projectmarketing het handmatig invoeren. |
-|  **Offerte**   |      Wanneer u een project aan een offerte koppelt of het aanmaakt op basis van een offert, wordt de projectfase ingesteld op **Offerte** en de geschatte begin- en einddatum worden eveneens bijgewerkt. Wanneer het project in de prijsopgavefase is, ziet u de details op de offerte in op het **Verkoop** op de **Project**      |
-|   **Plannen**   |                                     Wanneer u een quote binnenhaalt aan een project is gekoppeld, en als de overeenkomstenvoortgangen aan de contractfase, updates van de projectfase op **Plannen**. De weergave van contract details op het tabblad **Verkoop** op de pagina **Project**.                                      |
-| **Voltooien** |                    Als het projectwerk is voltooid, kunt u de fase aan **Voltooien** Als de projectfase is ingesteld om te voltooien, wordt deze met het werk begrepen volledige 100% is maar wordt het project voor de behandeling of tijd te kosten registreren vermeldingen open verdeeld.                     |
-|  **Sluiten**   |           Wanneer alle transacties op het project zijn geregistreerd en any u er niet als u verwacht zijn geregistreerd, kunt u de fase aan **Sluiten** handmatig instellen. Wanneer het project is ingesteld op **Sluiten**, kunt u niet logboek any more transacties op het project en het project alleen worden gelezen.           |
+| Opdracht | Beschrijving | 
+|------------|----------|
+| **New** | Wanneer u een project hebt gemaakt, is de fase ingesteld op **Nieuw**. Als u de sjabloon van een project hebt gemaakt, in dit stadium een planning kan het project, schattingen, en teamgegevens hebben. Anders, is het overzicht van het project zijn en moet u de rest projectmarketing het handmatig invoeren. |
+| **Offerte** |  Wanneer u een project aan een offerte koppelt of het aanmaakt op basis van een offert, wordt de projectfase ingesteld op **Offerte** en de geschatte begin- en einddatum worden eveneens bijgewerkt. Wanneer het project in de prijsopgavefase is, ziet u de details op de offerte in op het **Verkoop** op de **Project** |
+| **Plannen** |  Wanneer u een quote binnenhaalt aan een project is gekoppeld, en als de overeenkomstenvoortgangen aan de contractfase, updates van de projectfase op **Plannen**. De weergave van contract details op het tabblad **Verkoop** op de pagina **Project**. |
+| **Voltooien** | Als het projectwerk is voltooid, kunt u de fase aan **Voltooien** Als de projectfase is ingesteld om te voltooien, wordt deze met het werk begrepen volledige 100% is maar wordt het project voor de behandeling of tijd te kosten registreren vermeldingen open verdeeld. |
+| **Sluiten** | Wanneer alle transacties op het project zijn geregistreerd en any u er niet als u verwacht zijn geregistreerd, kunt u de fase aan **Sluiten** handmatig instellen. Wanneer het project is ingesteld op **Sluiten**, kunt u niet logboek any more transacties op het project en het project alleen worden gelezen. |
 
 ## <a name="to-track-a-projects-status"></a>Om de status van een project te houden  
 

@@ -1,5 +1,5 @@
 ---
-title: Organisatie-eenheden
+title: Geavanceerde organisatie-eenheden
 description: Dit onderwerp bevat informatie over organisatie-eenheden in Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005070"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589420"
 ---
-# <a name="organizational-units"></a>Organisatie-eenheden 
+# <a name="about-organizational-units"></a>Info over organisatie-eenheden 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -96,7 +97,7 @@ Een organisatie-eenheid is een interne groep of divisie in het bedrijf die koste
 
 Contoso, Ltd. heeft twee ontwikkelingscentra: Contoso US en Contoso India. De kosten van resources verschillen sterk tussen deze twee ontwikkelingscentra.
 
-Contoso verkoopt de IT-Services in veel internationale markten, zoals Latijns-Amerika, Noord-Amerika, Azië en Stille Oceaan, West-Europa en het Midden-Oosten. Factuurtarieven voor dezelfde projectrollen kunnen sterk variëren in deze markten.
+Contoso verkoopt zijn IT-Services in veel internationale markten, zoals Latijns-Amerika, Noord-Amerika, Azië en Stille Oceaan, West-Europa en het Midden-Oosten. Factuurtarieven voor dezelfde projectrollen kunnen sterk variëren in deze markten.
 
 Contoso US en Contoso India moeten worden ingesteld als organisatie-eenheden en elke organisatie-eenheid moet een eigen kostprijslijst hebben. Azië en Stille Oceaan, Latijns-Amerika, Noord-Amerika, West-Europa en het Midden-Oosten moeten worden ingesteld als verkooprayons en elk verkooprayon moet een eigen verkoopprijslijst hebben.
 
@@ -122,7 +123,7 @@ Nr. In de huidige versie van PSA zijn organisatie-eenheden niet hiërarchisch. D
 Wanneer u een complexe hiërarchie met kostencentra, divisies, factureringskantoren en dergelijke enzovoort hebt, stelt u de bladbladknooppunten van die hiërarchie in als afzonderlijke organisatie-eenheden.
 In het volgende voorbeeld ziet u een typische hiërarchie:
 
-**ContosoIndia**
+**Contoso India**
 
   - SAP 
 

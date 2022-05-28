@@ -4,14 +4,14 @@ description: In dit onderwerp krijgt u informatie over het instellen van project
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997105"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591536"
 ---
 # <a name="configure-project-categories"></a>Projectcategorieën configureren
 
@@ -27,7 +27,7 @@ Transactiecategorieën vormen de basisgroepering voor projecttransacties. Binnen
 
 ## <a name="transaction-categories"></a>Transactiecategorieën
 
-Transactiecategorieën vertegenwoordigen de basisgroepering voor projecttransacties en zijn niet specifiek gerelateerd aan een bedrijf of transactietype. Contoso Robotics gebruikt bijvoorbeeld ontwerp-, reis-, installatie- en servicetransactiecategorieën om projecttransacties te groeperen.
+Transactiecategorieën vertegenwoordigen de basisgroepering voor projecttransacties en zijn niet specifiek gerelateerd aan een bedrijf of transactietype. Contoso Robotics gebruikt bijvoorbeeld de transactiecategorieën Ontwerp, Reizen, Installatie en Service om projecttransacties te groeperen.
 
 Transactiecategorieën worden gedefinieerd in de Project Operations-module. 
 1. Ga naar **Instellingen** \> **Transactiecategorieën** om het formulier te openen. 
@@ -35,7 +35,7 @@ Transactiecategorieën worden gedefinieerd in de Project Operations-module.
 
 ## <a name="shared-categories"></a>Gedeelde categorieën
 
-Dynamics 365 gebruikt het concept Gedeelde categorieën om uitgaven in verschillende toepassingen te categoriseren, zoals Dynamics 365 Finance, Dynamics 365 Supply Chain en Dynamics 365 Project Operations. Voor elke gemaakte transactiecategorie worden in Project Operations automatisch vier gerelateerde gedeelde categorieën gemaakt: Uren, Onkosten, Tarieven en Artikel. U kunt de gedeelde categorieën bekijken en aanpassen door naar **Projectmanagement en financiële administratie** \> **Instellingen** \> **Categorieën** \> **Gedeelde categorieën** te gaan.
+Dynamics 365 gebruikt het concept Gedeelde categorieën om onkosten in verschillende toepassingen te categoriseren, zoals Dynamics 365 Finance, Dynamics 365 Supply Chain en Dynamics 365 Project Operations. Voor elke gemaakte transactiecategorie worden in Project Operations automatisch vier gerelateerde gedeelde categorieën gemaakt: Uren, Onkosten, Tarieven en Artikel. U kunt de gedeelde categorieën bekijken en aanpassen door naar **Projectmanagement en financiële administratie** \> **Instellingen** \> **Categorieën** \> **Gedeelde categorieën** te gaan.
 
 ## <a name="project-categories"></a>Productcategorieën
 

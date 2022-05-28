@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005115"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590156"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenario's met meerdere valuta's
 
@@ -66,7 +67,7 @@ PSA breidt het concept van transactievaluta voor de kosten en verkoop op de volg
 
 ## <a name="multiple-currency-scenario"></a>Scenario met meerdere valuta's
 
-In dit gedeelte wordt een voorbeeld beschreven van een project dat Contoso UK levert voor de Japanse klant Fabrikam. Het scenario is als volgt ingesteld:
+In deze sectie wordt een voorbeeld beschreven van een project dat Contoso UK levert voor de Japanse klant Fabrikam. Het scenario is als volgt ingesteld:
 
 1. GBP en de Japanse yen (JPY) worden ingesteld onder **Instellingen** \> **Bedrijfsbeheer** \> **Valuta's**. 
 2. Een klantaccount met de naam **Fabrikam - Japan** wordt ingesteld en JPY wordt geselecteerd als de valuta voor de account.

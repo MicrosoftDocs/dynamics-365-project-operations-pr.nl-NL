@@ -4,14 +4,14 @@ description: In dit onderwerp wordt uitgelegd hoe u de Project Operations Datave
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986440"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591214"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>De Project Operations Dataverse-app met ondersteuning voor twee keer wegschrijven handmatig implementeren
 
@@ -19,7 +19,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 In dit onderwerp wordt uitgelegd hoe u de Microsoft Dynamics 365 Project Operations in Microsoft Dataverse handmatig kunt implementeren zodat twee keer wegschrijven wordt ondersteund. In Project Operations wordt de configuratie van de omgeving gedetecteerd en wordt extra ondersteuning toegevoegd voor twee keer wegschrijven als aan de vereisten wordt voldaan.
 
-Tijdens de implementatie via Microsoft Dynamics Lifecycle Services (LCS) kunt u als u de instructies in dit onderwerp hebt gevolgd, de implementatie van de Microsoft Power Platform-integratie (voorheen bekend als de Common Data Service-omgeving) overslaan.
+Tijdens de implementatie via Microsoft Dynamics Lifecycle Services (LCS) kunt u als u de instructies In dit onderwerp hebt gevolgd, de implementatie van de Microsoft Power Platform-integratie (voorheen bekend als de Common Data Service-omgeving) overslaan.
 
 Het implementatieproces van Project Operations in Dataverse zodat twee keer wegschrijven wordt ondersteund, heeft vier hoofdstappen:
 
@@ -37,7 +37,7 @@ Om deze procedure te voltooien, moet u zich aanmelden als beheerder.
 3. Selecteer het omgevingstype. Als u zich hebt aangemeld voor de proefaanbieding, selecteert u **Proefversie (op abonnement gebaseerd)**.
 4. Bevestig de implementatieregio.
 5. Schakel de optie **Een database voor deze omgeving maken** in. 
-6. Bevestig de taal en bevestig vervolgens dat de valuta overeenkomt met de valuta voor uw Finance and Operations-apps.
+6. Bevestig de taal en bevestig vervolgens dat de valuta overeenkomt met de valuta voor uw apps voor financiën en bedrijfsactiviteiten.
 7. Schakel de optie **Dynamics 365-apps** in en bevestig dat het veld **Deze apps automatisch implementeren** is ingesteld op **Geen**.
 8. Voeg een beveiligingsgroep toe als er een beveiligingsgroep is vereist.
 9. Selecteer **Opslaan** om de omgeving te maken.
@@ -62,4 +62,4 @@ U kunt deze procedure alleen voltooien als u de vorige procedures hebt voltooid 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Uw omgevingen koppelen
 
-Nadat de Dataverse-omgeving is geïmplementeerd, kunt u de koppeling instellen in uw Finance and Operations-apps. Voer de stappen uit in [De wizard voor twee keer wegschrijven gebruiken om uw omgevingen te koppelen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Nadat de Dataverse-omgeving is geïmplementeerd, kunt u de koppeling instellen in uw apps voor financiën en bedrijfsactiviteiten. Voer de stappen uit in [De wizard voor twee keer wegschrijven gebruiken om uw omgevingen te koppelen](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

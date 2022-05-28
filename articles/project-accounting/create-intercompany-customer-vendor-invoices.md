@@ -4,14 +4,14 @@ description: Dit onderwerp bevat informatie over het maken van intercompany-fact
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989240"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591490"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Intercompany-klant- en leveranciersfacturen maken
 
@@ -27,7 +27,7 @@ Gebruik deze procedure om handmatig een intercompany-klantfactuur voor projecttr
 
 De volgende stappen moeten worden uitgevoerd in de uitlenende rechtspersoon. 
 
-1. Ga in Dynamics 365 Finance naar **Projectbeheer en boekhouding** > **Projectfacturen** > **Intercompany-klantfacturen**. Selecteer op de lijstpagina **Intercompany-klantfacturen** de optie **Nieuw** in het actievenster.
+1. Ga in Dynamics 365 Finance naar **Projecbeheer en financiële administratie** > **Projectfacturen** > **Intercompany-klantfacturen**. Selecteer op de lijstpagina **Intercompany-klantfacturen** de optie **Nieuw** in het actievenster.
 2. Op de pagina **Intercompany-factuur maken** selecteert u een lenende rechtspersoon in het veld **Rechtspersoon**.
 3. Optioneel: voer een specifiek projectcontract en projectnummer in.
 4. Beperk de zoekopdracht door een datumbereik te selecteren. Voer specifieke datums in de velden **Startdatum** en **Einddatum** in. Alleen intercompany-transacties die binnen dit datumbereik zijn geboekt, worden in de zoekresultaten weergegeven.
@@ -48,7 +48,7 @@ De volgende stappen moeten worden uitgevoerd in de uitlenende rechtspersoon.
 
 U kunt meerdere intercompany-facturen tegelijk aanmaken voor alle lenende rechtspersonen. Met de zoekfunctionaliteit kunt u bijvoorbeeld zoeken naar alle transacties die zijn geboekt door geleende werknemers en die betrekking hebben op projecten die worden beheerd door andere rechtspersonen. Vervolgens kunt u voor elke lenende rechtspersoon een intercompany-factuur aanmaken voor de transacties in de zoekresultaten.
 
-1. Ga naar **Projectbeheer en boekhouding** > **Periodiek** > **Projectfacturen** > **Intercompany-klantfacturen**.
+1. Ga naar **Projectbeheer en financiële administratie** > **Periodiek** > **Projectfacturen** > **Intercompany-klantfacturen**.
 2. Op de pagina **Intercompany-klantfacturen maken** selecteert u een rechtspersoon in het veld **Bedrijf** om de factuur aan te richten. Als u geen bedrijf selecteert, worden alle transacties die aan de zoekcriteria voldoen weergegeven voor alle lenende rechtspersonen.
 3. In **Eén factuur maken per** selecteert u of u een factuur wilt maken voor intercompany-transacties op basis van een project of op basis van een lenende rechtspersoon.
 4. Optioneel: als u een specifiek project en projectcontract wilt selecteren waarvoor u intercompany-facturen wilt maken, klikt u op **Selecteer**. Selecteer op de pagina **Onderzoek** in het veld **Criteria** het projectcontract, het projectnummer of beide en selecteer vervolgens **OK**.
