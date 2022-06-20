@@ -1,17 +1,17 @@
 ---
 title: Projectcontracten - belangrijke concepten
-description: Dit onderwerp bevat informatie over de belangrijkste concepten van projectcontracten in Project Operations.
+description: Dit artikel bevat informatie over de belangrijkste concepten van projectcontracten in Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926218"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Unieke concepten voor projectgebaseerde contracten
 
@@ -19,7 +19,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 
 
-Dit onderwerp bevat belangrijke concepten waarvan u op de hoogte moet zijn voordat u projectcontracten gaat gebruiken in Dynamics 365 Project Operations:
+Dit artikel biedt de belangrijkste concepten waarmee u rekening moet houden voordat u Project-contracten gaat gebruiken in Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Bedrijf dat eigenaar is
 

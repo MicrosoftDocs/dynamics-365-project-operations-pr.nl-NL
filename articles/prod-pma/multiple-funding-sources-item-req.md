@@ -1,23 +1,23 @@
 ---
 title: Artikelvereisten voor projectcontracten met meerdere financieringsbronnen
-description: Dit onderwerp biedt informatie over het configureren en gebruiken van artikelvereisten met meerdere financieringsbronnen.
+description: Dit artikel biedt informatie over het configureren en gebruiken van artikelvereisten met meerdere financieringsbronnen.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931186"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Artikelvereisten voor projectcontracten met meerdere financieringsbronnen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van voorradige artikelen/productieorders_
 
-Voor sommige contractuele overeenkomsten voor projectgebaseerde deliverables zijn mogelijk meerdere financieringsbronnen vereist. In dit onderwerp wordt uitgelegd hoe u de gewenste financieringsbronnen selecteert en configureert wanneer er meerdere bronnen nodig zijn voor een project of projectcontract.
+Voor sommige contractuele overeenkomsten voor projectgebaseerde deliverables zijn mogelijk meerdere financieringsbronnen vereist. In dit artikel wordt uitgelegd hoe u de gewenste financieringsbronnen selecteert en configureert wanneer er meerdere bronnen nodig zijn voor een project of projectcontract.
 
 ## <a name="terminology"></a>Woordenlijst
 

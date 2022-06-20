@@ -1,6 +1,6 @@
 ---
 title: Intercompany-projectfacturering configureren
-description: In dit onderwerp wordt getoond hoe u projectfacturering tussen twee bedrijven in uw organisatie instelt.
+description: In dit artikel ziet u hoe u projectfacturen configureert tussen twee bedrijven in uw organisatie.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916604"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Intercompany-projectfacturering configureren
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt getoond hoe u projectfacturering tussen twee bedrijven in uw organisatie instelt. Deze taak maakt gebruik van de USSI-gegevensset.
+In dit artikel ziet u hoe u projectfacturen configureert tussen twee bedrijven in uw organisatie. Deze taak maakt gebruik van de USSI-gegevensset.
 
 1. Ga in het navigatievenster naar **Modules > Leveranciers > Leveranciers > Alle leveranciers**.
 2. Zoek in de lijst **Alle verkopers** de gewenste record en selecteer deze.

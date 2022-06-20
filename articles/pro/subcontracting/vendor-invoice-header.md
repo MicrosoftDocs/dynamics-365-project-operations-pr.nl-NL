@@ -1,17 +1,17 @@
 ---
 title: Koptekstdetails voor leveranciersfacturen
-description: In dit onderwerp wordt de functionaliteit uitgelegd die wordt geboden in de koptekst van de leveranciersfactuur in Microsoft Dynamics 365 Project Operations.
+description: In dit artikel wordt de functionaliteit uitgelegd die wordt geboden in de koptekst van de leveranciersfactuur in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929852"
 ---
 # <a name="header-details-for-vendor-invoices"></a>Koptekstdetails voor leveranciersfacturen
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575574"
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-In dit onderwerp wordt de functionaliteit uitgelegd die wordt geboden in de koptekst van de leveranciersfactuur in Microsoft Dynamics 365 Project Operations.
+In dit artikel wordt de functionaliteit uitgelegd die wordt geboden in de koptekst van de leveranciersfactuur in Microsoft Dynamics 365 Project Operations.
 
 Als projectmanagers projecten plannen en uitvoeren, kunnen ze onderaannemers in dienst nemen en producten en diensten kopen van leveranciers. Tijdens de uitvoering van een project worden kosten gemaakt voor services, materialen en onkostencategorieën die worden ingekocht op basis van subcontracten met leveranciers. Leveranciers factureren deze kosten aan projecten door leveranciersfacturen te maken.
 

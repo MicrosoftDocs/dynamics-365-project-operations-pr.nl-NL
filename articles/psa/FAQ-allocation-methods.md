@@ -1,6 +1,6 @@
 ---
 title: Boekingstoewijzingsmethoden in Project Service Automation
-description: Dit onderwerp bevat informatie over de verschillende manieren waarop u toewijzingen kunt boeken.
+description: Dit artikel bevat informatie over de verschillende manieren waarop u toewijzingen kunt boeken.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929162"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Boekingstoewijzingsmethoden in Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-U kunt een paar verschillende toewijzingsmethoden gebruiken, of u nu een teamlid rechtsreeks aan een project toevoegt via het tabblad **Team** of een resource naar een project of vereiste boekt via het planbord. In dit onderwerp wordt beschreven hoe elke methode werkt en welke methoden kunnen leiden tot overboekingen van resources.
+U kunt een paar verschillende toewijzingsmethoden gebruiken, of u nu een teamlid rechtsreeks aan een project toevoegt via het tabblad **Team** of een resource naar een project of vereiste boekt via het planbord. In dit artikel wordt beschreven hoe elke methode werkt en welke methoden kunnen leiden tot overboekingen van resources.
 
 ## <a name="full-capacity"></a>Volledige capaciteit 
 Met de methode Volledige capaciteit boekt u de volledige capaciteit van de resource voor de opgegeven periode. Wanneer voor een resource bijvoorbeeld een werkagenda van acht uur per dag en vijf dagen per week is ingesteld, wordt de resource voor 40 uur geboekt wanneer een begin- en einddatum worden ingesteld die vijf werkdagen omspannen. De boeking wordt uitgevoerd zonder rekening te houden met de resterende capaciteit van de resource. Als een resource in die periode al voor andere projecten is geboekt, worden die 40 uren geboekt als extra uren, wat kan leiden tot overboekingen.

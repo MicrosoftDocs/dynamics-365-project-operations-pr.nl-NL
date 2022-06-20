@@ -1,33 +1,33 @@
 ---
 title: Kenmerken van invoegtoepassingen bijwerken met nieuwe prijsdimensies
-description: Dit onderwerp bevat informatie over het bijwerken van kenmerken van invoegtoepassingen voor prijsdimensies.
+description: Dit artikel bevat informatie over het bijwerken van kenmerken van invoegtoepassingen voor prijsdimensies.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575022"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920008"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Kenmerken van invoegtoepassingen bijwerken met nieuwe prijsdimensies
 
-Dit onderwerp bevat informatie over het bijwerken van kenmerken van invoegtoepassingen voor prijsdimensies.
+Dit artikel bevat informatie over het bijwerken van kenmerken van invoegtoepassingen voor prijsdimensies.
 
 > [!NOTE]
-> Dit onderwerp is alleen van toepassing op de offerte- en contractfuncties in Dynamics 365 Project Operations.
+> Dit artikel is alleen van toepassing op de prijsopgave- en contractfuncties in Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Vereisten
-Voordat u de stappen In dit onderwerp voltooit, moet u de procedures in de volgende onderwerpen hebben voltooid:
+Voordat u de stappen in dit artikel voltooit, moet u de procedures in de volgende artikelen hebben voltooid:
 
   - [Aangepaste velden en entiteiten maken](create-custom-fields-entities-pricing-dimensions.md) 
   - [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten ](add-custom-fields-price-setup-transactional-entities.md)
   - [Aangepaste velden instellen als prijsdimensies](set-up-custom-fields-pricing-dimensions.md). 
   
-Als u deze procedures niet hebt voltooid, voltooit u ze en keert u terug naar Dit onderwerp.
+Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar dit artikel.
 
 ## <a name="register-a-plug-in"></a>Een invoegtoepassing registreren
 Wanneer een detail van een prijsopgaveregel wordt gemaakt op de pagina **Prijsopgaveregel** voor een projectprijsopgaveregel, creëert het systeem twee schattingsregels. De ene regel is voor de kostenzijde van de schatting en de andere regel is voor de verkoopzijde. Dit is hetzelfde voor projectcontractregels.

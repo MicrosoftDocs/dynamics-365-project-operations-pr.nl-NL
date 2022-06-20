@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920652"
 ---
 # <a name="work-breakdown-structures-overview"></a>Overzicht van structuren voor werkspecificatie
 
@@ -35,7 +35,7 @@ De mate van detail in een WBS hangt af van het niveau van nauwkeurigheid dat ver
 
 Projecten in sectoren zoals media en reclame, software en IT-infrastructuur zijn daarentegen vaak uniek, waarbij de productiviteit afhangt van de ervaring en competentie van de persoon die de taak uitvoert. Daarom gebruiken deze industrieën een WBS om een schatting te krijgen van de grootte van een project, niet om de voortgang van dat project in detail te volgen. 
 
-Het bouwen van een WBS is een intensief proces dat meestal over een lange periode wordt uitgevoerd en waarvoor samenwerking en informatie van een grote verscheidenheid aan mensen nodig is. In dit onderwerp wordt beschreven hoe u WBS-verbeteringen kunt gebruiken om te voldoen aan uw vereisten voor schattingen en tracering.
+Het bouwen van een WBS is een intensief proces dat meestal over een lange periode wordt uitgevoerd en waarvoor samenwerking en informatie van een grote verscheidenheid aan mensen nodig is. In dit artikel wordt beschreven hoe u WBS-verbeteringen kunt gebruiken om aan uw vereisten voor ramingen en tracering te voldoen.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Vereisten voor het maken van een WBS
 Als u een WBS wilt maken, moet u een werkplanning kunnen opstellen en de werkkosten kunnen schatten.
@@ -166,7 +166,7 @@ Finance bevat drie weergaven voor de WBS van een project: de weergave voor plann
 
 ### <a name="planning-view"></a>Planningsweergave
 
-In de planningsweergave worden de geplande of basislijnschatting van de planning en kosteninformatie getoond. Hoewel er geen functies zijn voor het bijhouden van de versie en basislijn voor een project-WBS, zijn de waarden in deze weergave bedoeld om de basislijnversie weer te geven. In de secties Planningsschatting en Kostenraming van Dit onderwerp wordt deze weergave beschreven en hoe deze wordt gebruikt om een WBS te maken.
+In de planningsweergave worden de geplande of basislijnschatting van de planning en kosteninformatie getoond. Hoewel er geen functies zijn voor het bijhouden van de versie en basislijn voor een project-WBS, zijn de waarden in deze weergave bedoeld om de basislijnversie weer te geven. De sectie Planningsraming en Kostenraming in dit artikel beschrijven deze weergave en hoe deze wordt gebruikt om een WBS te maken.
 
 ### <a name="effort-tracking-view"></a>Weergave Inspanningen bijhouden
 

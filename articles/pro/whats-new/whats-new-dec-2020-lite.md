@@ -1,24 +1,24 @@
 ---
 title: Nieuwe functies van december 2020 - Lite-implementatie Project Operations - van deal tot pro-formafacturering
-description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de release van december 2020 van Lite-implementatie Project Operations - van deal tot pro-formafacturering.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations Lite-implementatie - van deal tot pro-formafacturering van december 2020.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924056"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Nieuwe functies van december 2020 - Lite-implementatie Project Operations - van deal tot pro-formafacturering
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
   - Project Operations in Dataverse-omgeving, versie 4.5.0.134 
 

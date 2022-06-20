@@ -1,6 +1,6 @@
 ---
 title: Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
-description: Dit onderwerp bevat informatie over het toevoegen van vereiste aangepaste-veldverwijzingen aan entiteiten en aan formulieren en weergaven.
+description: Dit artikel bevat informatie over het toevoegen van vereiste aangepaste veldverwijzingen aan entiteiten en aan formulieren en weergaven.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926034"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-In dit onderwerp wordt ervan uitgegaan dat u de procedures in het onderwerp [Aangepaste velden en entiteiten maken om te gebruiken als prijsdimensies](create-custom-fields-entities-pricing-dimensions.md) hebt voltooid. Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar Dit onderwerp. 
+In dit artikel wordt ervan uitgegaan dat u de procedures in het artikel [Aangepaste velden en entiteiten maken voor gebruik als prijsdimensies](create-custom-fields-entities-pricing-dimensions.md) hebt voltooid. Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar dit artikel. 
 
-In dit onderwerp wordt beschreven hoe u de vereiste aangepaste veldverwijzingen toevoegt aan entiteiten en aan de elementen van de gebruikersinterface (UI), zoals formulieren en weergaven.
+In dit artikel wordt beschreven hoe u de vereiste aangepaste veldverwijzingen toevoegt aan entiteiten en aan de elementen van de gebruikersinterface (UI), zoals formulieren en weergaven.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Velden voor aangepaste prijsdimensies toevoegen 
 Nadat er aangepaste velden en entiteiten zijn gemaakt, moet u in de volgende stap de prijsinstellingen en transactie-entiteiten 'laten weten' dat er aangepaste entiteiten of optiesets zijn door verwijzingsvelden te maken. Afhankelijk van het antwoord op de vraag of de lijst met prijsdimensies optiesetdimensies of entiteitsdimensies of beide bevat, volgt u alleen de stappen bij **Aangepaste prijsdimensies op basis van optieset** of **Aangepaste prijsdimensies op basis van entiteit** of de stappen bij beide.

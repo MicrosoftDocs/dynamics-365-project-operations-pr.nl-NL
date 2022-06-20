@@ -1,6 +1,6 @@
 ---
-title: Updatereleaseschema voor Project Service 3.x
-description: Dit onderwerp biedt informatie over de beschikbare en aankomende releases van Dynamics 365 Project Service Automation.
+title: Updateversieschema voor Project Service 3.x
+description: Dit artikel bevat informatie over de beschikbare en aankomende versies van Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
@@ -22,14 +22,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5be7327999b4f29801a8ba3826524c66b04be8fa
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732880"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959415"
 ---
-# <a name="update-release-schedule-for-project-service-3x"></a>Updatereleaseschema voor Project Service 3.x
+# <a name="update-release-schedule-for-project-service-3x"></a>Updateversieschema voor Project Service 3.x
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "8732880"
 
 | Oplossing  | Nieuwste versie |
 |-------|----|
-| Project Service Automation    | 3.10.74.200 |
+| Project Service Automation    | 3.10.75.142 |
 | Invoegtoepassing voor Project Service Automation-bureaublad                | 3.60          |
 
 Meer informatie over updates voor Project Service vindt u in [Releaseplannen voor Dynamics 365](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Meer informatie over updates voor Project Service vindt u in [Releaseplannen voo
 | Station  | Regio | Huidige versie | Volgende versie |  Geplande datum
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>Eerste versie</i> | [3.10.74.200](whats-new-ur43.md) | N.t.b. | 27 mei 2022
+| | <i>Eerste versie</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 01 juli 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>Zuid-Amerika</i> | [3.10.74.200](whats-new-ur43.md) | N.t.b. | 03 juni 2022
-| | <i>Canada</i> | [3.10.74.200](whats-new-ur43.md) | N.t.b. | 03 juni 2022
-| | <i>India</i> | [3.10.74.200](whats-new-ur43.md) | N.t.b. | 03 juni 2022
-| | <i>Frankrijk</i> | [3.10.74.200](whats-new-ur43.md) | N.t.b. | 03 juni 2022
-| | <i>Zuid-Afrika</i> | [3.10.74.200](whats-new-ur43.md) | N.t.b. | 03 juni 2022
-| | <i>Duitsland</i> | [3.10.74.200](whats-new-ur43.md) | N.t.b. | 03 juni 2022
-| | <i>Zwitserland</i> | [3.10.74.200](whats-new-ur43.md) | N.t.b. | 03 juni 2022
-| | <i>Zuid-Korea</i> | [3.10.74.200](whats-new-ur43.md) | N.t.b. | 03 juni 2022
-| | <i>Noorwegen</i> | [3.10.74.200](whats-new-ur43.md) | N.t.b. | 03 juni 2022
+| | <i>Zuid-Amerika</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 08 juli 2022
+| | <i>Canada</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 08 juli 2022
+| | <i>India</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 08 juli 2022
+| | <i>Frankrijk</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 08 juli 2022
+| | <i>Zuid-Afrika</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 08 juli 2022
+| | <i>Duitsland</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 08 juli 2022
+| | <i>Zwitserland</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 08 juli 2022
+| | <i>Zuid-Korea</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 08 juli 2022
+| | <i>Noorwegen</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 08 juli 2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 mei 2022
-| | <i>Azië en Stille Oceaan</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 mei 2022
-| | <i>Groot-Brittannië</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 mei 2022
-| | <i>Oceanië</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 mei 2022
-| | <i>Verenigde Arabische Emiraten</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 13 mei 2022
+| | <i>Japan</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 15 juli 2022
+| | <i>Azië en Stille Oceaan</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 15 juli 2022
+| | <i>Groot-Brittannië</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 15 juli 2022
+| | <i>Oceanië</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 15 juli 2022
+| | <i>Verenigde Arabische Emiraten</i> | [3.10.75.142](whats-new-ur-44.md) | N.t.b. | 15 juli 2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 20 mei 2022
+| | <i>Europa</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 17 juni 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>Noord-Amerika</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29 mei 2022
+| | <i>Noord-Amerika</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 juni 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 29 mei 2022
-| | <i>Speciale schaalgroepen</i> | [3.10.73.61](whats-new-ur-42.md) | [3.10.74.200](whats-new-ur43.md) | 03 juni 2022
+| | <i>Government Community Cloud</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 juni 2022
+| | <i>Speciale schaalgroepen</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 01 juli 2022
 
 
 

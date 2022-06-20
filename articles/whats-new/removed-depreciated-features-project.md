@@ -1,24 +1,24 @@
 ---
 title: Verwijderde of afgeschafte functies in Dynamics 365 Project Operations
-description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Project Operations.
+description: In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921480"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Verwijderde of afgeschafte functies in Dynamics 365 Project Operations
 
 _**Geldt voor:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, Lite-implementatie - van deal tot pro-formafacturering, en Project Operations voor scenario's op basis van voorradige artikelen/productieorders_
 
-In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Project Operations.
+In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Project Operations.
 
 - Een *verwijderde* functie is niet langer beschikbaar in het product.
 - Een *verouderde* functie wordt niet actief ontwikkeld en kan in een toekomstige update worden verwijderd.

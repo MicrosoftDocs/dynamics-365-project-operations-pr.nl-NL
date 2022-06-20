@@ -1,6 +1,6 @@
 ---
 title: Basishandleiding voor prijsopgaven, prijzen en facturering
-description: Dit onderwerp bevat koppelingen naar informatie over algemene prijsopgaven, prijzen en facturen in Project Service Automation.
+description: Dit artikel bevat koppelingen naar informatie over algemene prijsopgaven, prijzen en facturen in Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910790"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Basishandleiding voor prijsopgaven, prijzen en facturering
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592226"
 
 Dankzij de mogelijkheid om de juiste resources op het juiste moment te vinden, deze resources te boeken voor projecten en ze te blijven gebruiken, kunnen organisaties aan de doelen ten aanzien van omzet en klanttevredenheid voldoen. 
 
-De PDF-koppeling die voorheen In dit onderwerp was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende onderwerpen:
+De PDF-koppeling die voorheen in dit artikel was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende artikelen:
 
 - [Prijsopgaven, prijzen en facturering](../quote-bill-price.md)
 - [verkoopprocessen](../basic-sales-process.md)
@@ -50,7 +50,7 @@ De PDF-koppeling die voorheen In dit onderwerp was opgenomen, is verwijderd en d
 - [Werkelijke waarden vastleggen](../advanced-actuals.md)
 
 > [!NOTE]
-> Dit onderwerp wordt verwijderd in een toekomstige documentatie-update. 
+> Dit artikel wordt verwijderd in een toekomstige documentatie-update. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

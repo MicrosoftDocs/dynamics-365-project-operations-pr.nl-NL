@@ -1,17 +1,17 @@
 ---
 title: Onderaannemingsbeheer in Project Operations
-description: Dit onderwerp biedt een overzicht van begin tot einde van het onderaannemingsbeheerproces dat doorgaans plaatsvindt in projectgebaseerde organisaties.
+description: Dit artikel biedt een overzicht van het end-to-end proces voor het beheer van onderaannemingen, doorgaans in projectgebaseerde organisaties.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911498"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Onderaannemingsbeheer in Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593008"
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Dit onderwerp biedt een overzicht van begin tot einde van het onderaannemingsbeheerproces dat plaatsvindt in projectgebaseerde organisaties. Bij uitbesteding voor services volgt doorgaans de bedrijfsprocesstroom die wordt weergegeven in het volgende diagram.
+Dit artikel biedt een overzicht van het end-to-end proces voor het beheer van onderaannemingen in projectgebaseerde organisaties. Bij uitbesteding voor services volgt doorgaans de bedrijfsprocesstroom die wordt weergegeven in het volgende diagram.
 
 ![Processtroom voor onderaanneming](../media/SubcontractingProcessFlow.png)
 

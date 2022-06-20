@@ -1,24 +1,24 @@
 ---
 title: Boekingen bewerken
-description: Dit onderwerp biedt informatie over het bijwerken en wijzigen van boekingen.
+description: Dit artikel bevat informatie over het bijwerken en wijzigen van boekingen.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915224"
 ---
 # <a name="edit-bookings"></a>Boekingen bewerken
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 
-Als er wijzigingen optreden in een project waarvoor u bestaande boekingen moet bijwerken, zijn er verschillende manieren om de wijzigingen aan te brengen. In dit onderwerp krijgt u informatie over het bijwerken en wijzigen van boekingen.
+Als er wijzigingen optreden in een project waarvoor u bestaande boekingen moet bijwerken, zijn er verschillende manieren om de wijzigingen aan te brengen. In dit artikel wordt uitleg gegeven over het bijwerken en wijzigen van boekingen.
 
 ## <a name="resource-reconciliation"></a>Afstemming van resources
 

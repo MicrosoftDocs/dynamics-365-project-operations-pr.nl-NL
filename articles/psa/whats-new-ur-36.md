@@ -1,6 +1,6 @@
 ---
-title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 36, v3
-description: Dit onderwerp biedt een overzicht van de functies en oplossingen die beschikbaar zijn in Update-versie 36, V3 van Microsoft Dynamics 365 Project Service Automation.
+title: Wat is er nieuw of gewijzigd in Project Service Automation updateversie 36, v3
+description: Dit artikel biedt een overzicht van de functies en oplossingen die beschikbaar zijn in Microsoft Dynamics 365 Project Service Automation-updateversie 36, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/06/2021
@@ -16,22 +16,22 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 108c75598dc7dd3dd0cdb9ce68e30423d051a4cf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a8942713109075da2503c9d22d40b6ac95ae00be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924976"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-36-v3"></a>Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 36, v3
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-36-v3"></a>Wat is er nieuw of gewijzigd in Project Service Automation updateversie 36, v3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 We zijn verheugd de laatste update aan te kondigen voor de Microsoft Dynamics 365 Project Service Automation-app. Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid. Deze app is compatibel met Dynamics 365 9.x. Als u naar deze release wilt bijwerken, gaat u naar de pagina met online-oplossingen in het Beheercentrum voor Dynamics 365 en installeert u de update. Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](/power-platform/admin/install-remove-preferred-solution).
 
-In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw of gewijzigd zijn voor Project Service Automation v3, updaterelease 36, V3. Deze versie heeft het buildnummer V3.10.57.152 en is algemeen beschikbaar via een zelf-update vanaf oktober 2021.
+In dit artikel worden de functies en oplossingen vermeld die nieuw of gewijzigd zijn voor Project Service Automation-updateversie 36, V3. Deze versie heeft het buildnummer V3.10.57.152 en is algemeen beschikbaar via een zelf-update vanaf oktober 2021.
 
-## <a name="update-release-36"></a>Updaterelease 36
+## <a name="update-release-36"></a>Updateversie 36
 
 ### <a name="bug-fixes"></a>Bugfixes
 

@@ -1,6 +1,6 @@
 ---
 title: Startpagina projectplanning
-description: In dit onderwerp krijgt u informatie over projectplanning.
+description: In dit artikel krijgt u informatie over projectplanning.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919042"
 ---
 # <a name="project-planning-home-page"></a>Startpagina projectplanning
 
@@ -43,7 +43,7 @@ Met de hulpmiddelen voor projectbeheer in PSA kunt u eenvoudig projecten uitvoer
 - Prognoses maken van resourcevereisten voor projecten die zich in de pipeline bevinden.
 - Met succes projecten leveren door de voortgang en het kostenverbruik bij te houden.
 
-De volgende onderwerpen bevatten informatie die projectmanagers kunnen gebruiken bij het schatten van het werk en de projectkosten en het maken van prognoses van resourcevereisten met behulp van de hulpmiddelen die in PSA worden ondersteund:
+De volgende artikelen bevatten informatie die projectmanagers kunnen gebruiken bij het schatten van het werk en de projectkosten en het maken van prognoses van resourcevereisten met behulp van de hulpmiddelen die in PSA worden ondersteund:
 
 - [Een planning maken](project-creating.md)
 - [Projectkosten en omzet schatten](project-estimating.md)

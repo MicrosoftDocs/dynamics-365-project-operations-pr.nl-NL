@@ -1,23 +1,23 @@
 ---
 title: Een Azure-abonnement toevoegen aan een LCS-project
-description: Dit onderwerp biedt informatie over hoe u uw Azure-abonnement kunt verbinden met een LCS-project.
+description: Dit artikel bevat informatie over het verbinden van uw Azure-abonnement met een LCS-project.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912142"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Een Azure-abonnement toevoegen aan een LCS-project
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Gehoste cloudomgevingen moeten worden geïmplementeerd met een bestaand Azure-abonnement. Dit onderwerp wordt uitgelegd hoe u uw bestaande Azure-abonnement kunt verbinden met een LCS-project. 
+Gehoste cloudomgevingen moeten worden geïmplementeerd met een bestaand Azure-abonnement. In dit artikel wordt uitgelegd hoe u uw bestaande Azure-abonnement kunt verbinden met een LCS-project. 
 
 ## <a name="grant-admin-consent"></a>Beheerderstoestemming verlenen
 
@@ -59,7 +59,7 @@ De autorisatie is nu voltooid.
 2. Voer de id van uw Azure-abonnement in. U vindt uw Azure-abonnements-id in de [Azure-portal](https://ms.portal.azure.com/), onder **Instellingen** linksonder in het scherm.
 3. In het veld **Configureer om Azure Resource Manager te gebruiken** selecteert u **Ja**.
 4. Zorg ervoor dat het AAD-tenantdomein van het Azure-abonnement overeenkomt met het Azure-abonnement dat eigenaar is van het gebruikte domein en selecteer **Volgende**.
-5. Selecteer in het scherm **Microsoft Azure instellen** **Volgende** om te bevestigen. Als u op dit scherm een foutmelding krijgt, gaat u terug naar de sectie [Dynamics Deployment Services toegang geven tot uw Azure-abonnement](#provide) In dit onderwerp en voltooi alle stappen.
+5. Selecteer in het scherm **Microsoft Azure instellen** **Volgende** om te bevestigen. Als u een foutmelding krijgt op dit scherm, gaat u terug naar de sectie [Dynamics Deployment Services toegang verlenen tot Azure-abonnement](#provide) in dit artikel en zorgt u ervoor dat u alle stappen hebt voltooid.
 6. Download het Azure Management Certificate naar een lokale map op uw computer. Vraag uw Azure-abonnementsbeheerder om het certificaat te uploaden naar Azure Management Portal door het abonnement te selecteren en naar **Instellingen** > **Beheercertificaten** te gaan. Met dit certificaat kan LCS namens u communiceren met Azure. U kunt deze stap overslaan als uw gebruiker toegang heeft tot het abonnement.
 7. Selecteer **Volgende**.
 8. Selecteer de Azure-regio waarin u wilt implementeren en selecteer een datacenter bij de locatie waar u dit systeem wilt gebruiken.

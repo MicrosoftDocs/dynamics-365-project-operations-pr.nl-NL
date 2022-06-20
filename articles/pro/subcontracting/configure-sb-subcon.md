@@ -1,17 +1,17 @@
 ---
 title: Planbord configureren om contractwerknemers en capaciteit van resources op contractbasis weer te geven
-description: Dit onderwerp beschrijft hoe u het planbord in Microsoft Dynamics 365 Project Operations kunt configureren om capaciteit van resources op contractbasis te tonen bij het bemannen voor projectresource-vereisten.
+description: In dit artikel wordt beschreven hoe u het planbord in Microsoft Dynamics 365 Project Operations kunt configureren om capaciteit van resources op contractbasis te tonen bij het bemannen voor projectresource-vereisten.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919824"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>Planbord configureren om contractwerknemers en capaciteit van resources op contractbasis weer te geven 
 

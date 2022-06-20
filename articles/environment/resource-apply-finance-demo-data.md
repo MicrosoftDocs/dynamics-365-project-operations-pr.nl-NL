@@ -1,24 +1,24 @@
 ---
 title: Demogegevens toepassen op een Finance-cloudomgeving
-description: In dit onderwerp wordt uitgelegd hoe u demogegevens van Project Operations toepast op een door Dynamics 365 Finance Cloud gehoste omgeving.
+description: In dit artikel wordt uitgelegd hoe u demogegevens van Project Operations toepast op een door Dynamics 365 Finance Cloud gehoste omgeving.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924654"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Demogegevens toepassen op een Finance-cloudomgeving
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
 > [!IMPORTANT]
-> Dit onderwerp is alleen van toepassing op Microsoft Dynamics 365 Finance versie 10.0.13 en kan alleen worden uitgevoerd op een door de cloud gehoste omgeving. Voltooi de stappen In dit onderwerp **VOORDAT** u kwaliteitsupdates toepast op de omgeving.
+> Dit artikel is alleen van toepassing op Microsoft Dynamics 365 Finance versie 10.0.13 en kan alleen worden uitgevoerd op een door de cloud gehoste omgeving. Voltooi de stappen in dit artikel **VOORDAT** u kwaliteitsupdates toepast op de omgeving.
 
 1. Open in uw LCS-project de pagina **Omgevingsdetails**. Deze bevat de details bevat die nodig zijn om verbinding te maken met de omgeving met behulp van Remote Desktop Protocol (RDP).
 

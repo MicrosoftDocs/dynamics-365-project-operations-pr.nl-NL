@@ -1,18 +1,18 @@
 ---
 title: Overzicht van prijsdimensies
-description: Dit onderwerp bevat informatie over prijsdimensies in Dynamics 365 Project Operations.
+description: Dit artikel bevat informatie over de prijsdimensies in Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918030"
 ---
 # <a name="pricing-dimensions-overview"></a>Overzicht van prijsdimensies
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations wordt geleverd met een standaardset prijsdimensi
 
 ![Schermopname van Project Service-parameters waarin 'Van toepassing op verkoop' is gemarkeerd.](media/PS-OOB-parameters.png)
 
-Als u de prijs of kosten voor uw resources vaststelt met behulp van extra kenmerken, kunt u aangepaste velden, entiteiten en dimensies maken. Voor meer informatie raadpleegt u de volgende onderwerpen. 
+Als u de prijs of kosten voor uw resources vaststelt met behulp van extra kenmerken, kunt u aangepaste velden, entiteiten en dimensies maken. Zie de volgende artikelen voor meer informatie. 
   
   > [!NOTE]
   > De procedures moeten worden voltooid in de volgorde waarin ze worden vermeld.

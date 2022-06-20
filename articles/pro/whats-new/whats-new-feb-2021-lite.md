@@ -1,22 +1,22 @@
 ---
 title: Nieuwe functies van februari 2021 - Lite-implementatie Project Operations
-description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de release van februari 2021 voor de Lite-implementatie van Project Operations.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations Lite-implementatie van februari 2021.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 139494962562aaaf005e116f02bcd41db58eea27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 329bc31ad4c0958fe60e73b257e6b4c262bb60f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914028"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Nieuwe functies van februari 2021 - Lite-implementatie Project Operations
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
   - Project Operations in Dataverse-omgeving, versie 4.7.0.95
 

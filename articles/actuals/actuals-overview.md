@@ -1,6 +1,6 @@
 ---
 title: Werkelijke waarden
-description: Dit onderwerp biedt informatie over hoe u met werkelijke waarden kunt werken in Microsoft Dynamics 365 Project Operations.
+description: Dit artikel bevat informatie over het werken met actuele waarden in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924792"
 ---
 # <a name="actuals"></a>Werkelijke waarden
 
@@ -33,7 +33,7 @@ Werkelijke waarden vertegenwoordigen de beoordeelde en goedgekeurde financiële 
 
 Project Operations registreert de financiële transacties die plaatsvinden tijdens de levenscyclus van een projectopdracht als werkelijke waarden. Het maken van actuele waarden bij verschillende gebeurtenissen in de levenscyclus varieert, afhankelijk van of de projectopdracht het factureringsmodel voor tijd en materialen of het factureringsmodel met een vaste prijs gebruikt, en of het zich in de pre-salesfase bevindt of dat het een intern project is.
 
-In de volgende onderwerpen wordt uitgelegd wat de impact is op de tabel Werkelijke waarden bij verschillende gebeurtenissen voor verschillende variaties:
+In de volgende artikelen wordt uitgelegd wat de impact is op de tabel Werkelijke waarden bij verschillende gebeurtenissen voor verschillende variaties:
 
 - [Impact van werkelijke waarden in een tijd- en materiaalopdracht](ActualsonTM.md)
 - [Impact van werkelijke waarden in een opdracht met een vaste prijs](ActualonFP.md)

@@ -1,6 +1,6 @@
 ---
 title: Geavanceerde prijsopgaven, prijzen en facturen
-description: Dit onderwerp bevat informatie over prijsopgaven, facturen en prijzen in Project Service Automation.
+description: Dit artikel bevat informatie over prijsopgaven, facturen en prijzen in Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921802"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Geavanceerde handleiding offertes, prijzen en facturering
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579346"
 
 Dankzij de mogelijkheid om de juiste resources op het juiste moment te vinden, deze resources te boeken voor projecten en ze te blijven gebruiken, kunnen organisaties aan de doelen ten aanzien van omzet en klanttevredenheid voldoen. 
 
-De PDF-koppeling die voorheen In dit onderwerp was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende onderwerpen:
+De PDF-koppeling die voorheen in dit artikel was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende artikelen:
 
 - [Prijsopgaven, prijzen en facturering](../quote-bill-price.md)
 - [verkoopprocessen](../basic-sales-process.md)
@@ -50,7 +50,7 @@ De PDF-koppeling die voorheen In dit onderwerp was opgenomen, is verwijderd en d
 - [Werkelijke waarden vastleggen](../advanced-actuals.md)
 
 > [!NOTE]
-> Dit onderwerp wordt verwijderd in een toekomstige documentatie-update. 
+> Dit artikel wordt verwijderd in een toekomstige documentatie-update. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

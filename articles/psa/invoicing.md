@@ -1,6 +1,6 @@
 ---
 title: Factureren in Project Service Automation
-description: In dit onderwerp krijgt u informatie over factureren.
+description: Dit artikel bevat informatie over facturering.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926816"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Factureren in Project Service Automation
 
@@ -94,7 +94,7 @@ Nadat de werkstroom **Proces uitvoeren** is voltooid, roept deze de werkstroom *
 De batchprocestaak voor het maken van facturen is een terugkerende taak. Als dit batchproces vaak wordt uitgevoerd, worden er meerdere exemplaren van de taak gemaakt en veroorzaakt dit fouten. U moet daarom het batchproces slechts één keer starten en moet u het proces alleen opnieuw opstarten als het proces niet meer wordt uitgevoerd.
 
 > [!NOTE]
-> Batchfacturering in Project Service Automation wordt alleen uitgevoerd voor projectcontractregels die zijn geconfigureerd door factuurschema's. Voor een contractregel met een factureringsmethode met een vaste prijs moeten mijlpalen zijn geconfigureerd. Voor een projectcontractregel met een factureringsmethode voor tijd en materiaal is een op datum gebaseerd factuurschema nodig. Informatie over het instellen van factureringsfrequenties in de context van een project dat is gebaseerd op een prijsopgaveregel, wordt verstrekt in het onderwerp [Prijsopgaven en prijsopgaveregels](basic-quote-lines.md#invoice-schedule). Hetzelfde geldt voor een contractregel die op een project is gebaseerd.      
+> Batchfacturering in Project Service Automation wordt alleen uitgevoerd voor projectcontractregels die zijn geconfigureerd door factuurschema's. Voor een contractregel met een factureringsmethode met een vaste prijs moeten mijlpalen zijn geconfigureerd. Voor een projectcontractregel met een factureringsmethode voor tijd en materiaal is een op datum gebaseerd factuurschema nodig. Informatie over het instellen van factureringsfrequentie in het kader van een project dat is gebaseerd op een prijsopgaveregel, vindt u in het artikel [Prijsopgaven en prijsopgaveregels](basic-quote-lines.md#invoice-schedule). Hetzelfde geldt voor een contractregel die op een project is gebaseerd.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Een concept van een PSA-factuur bewerken
 

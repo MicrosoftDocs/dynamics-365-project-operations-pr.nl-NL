@@ -1,21 +1,21 @@
 ---
 title: Meerdere klanten in projectcontracten beheren
-description: Dit onderwerp bevat informatie over het beheren van meerdere klanten in een projectcontract.
+description: Dit artikel biedt informatie over het beheren van meerdere klanten bij een projectcontract.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928334"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Meerdere klanten in projectcontracten beheren
 
-Dit onderwerp bevat informatie over het beheren van meerdere klanten in een projectcontract. U kunt een projectcontract gebruiken wanneer een contractuele overeenkomst voor meerdere klanten nodig is om een deal te financieren. Op de pagina **Projectcontract** bevat het tabblad **Samenvatting** informatie over de primaire klant voor een deal. Andere klanten die deelnemen aan de deal kunnen worden toegevoegd aan het tabblad **Klanten**.
+Dit artikel biedt informatie over het beheren van meerdere klanten bij een projectcontract. U kunt een projectcontract gebruiken wanneer een contractuele overeenkomst voor meerdere klanten nodig is om een deal te financieren. Op de pagina **Projectcontract** bevat het tabblad **Samenvatting** informatie over de primaire klant voor een deal. Andere klanten die deelnemen aan de deal kunnen worden toegevoegd aan het tabblad **Klanten**.
 
 Alle contractklanten op het tabblad **Klanten** van het projectcontract zijn standaard contractregelklanten op nieuwe projectgebaseerde contractregels die voor het projectcontract worden gemaakt. Bestaande projectgebaseerde contractregels nemen geen nieuwe contractklanten over die later zijn gemaakt.
 

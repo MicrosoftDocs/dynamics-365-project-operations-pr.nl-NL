@@ -1,17 +1,17 @@
 ---
 title: De financiële administratie voor conceptfactuurvoorstellen voor projecten corrigeren
-description: In dit onderwerp wordt uitgelegd hoe u gegevens met betrekking tot de financiële administratie voor een conceptfactuurvoorstel kunt aanpassen.
+description: In dit artikel wordt uitgelegd hoe u boekhoudkundige informatie op een concept-factuurvoorstel kunt aanpassen.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921204"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>De financiële administratie voor conceptfactuurvoorstellen voor projecten corrigeren
 
@@ -19,7 +19,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 *Operationele details* voor projectfacturen worden door de projectmanager onderhouden op een pro-formafactuur. Deze details omvatten de beslissing over de uren, onkosten, materialen of mijlpalen die moeten worden gefactureerd, de tarieven en de toepassing van vooruitbetalings- en voorschotbedragen. Nadat u de oorspronkelijke pro-formafactuur hebt bevestigd, kunt u de operationele details aanpassen door een [corrigerende pro-formafactuur](../proforma-invoicing/corrective-invoices.md) te maken en te bevestigen.
 
-*Details financiële administratie* voor projectfacturen worden onderhouden in een klantgericht factuurdocument. Deze details omvatten de btw-berekening en de financiële dimensies die op de factuur worden toegepast. Dit onderwerp bevat details over hoe deze gegevens van de financiële administratie kunnen worden aangepast op een conceptfactuurvoorstel voor een project.
+*Details financiële administratie* voor projectfacturen worden onderhouden in een klantgericht factuurdocument. Deze details omvatten de btw-berekening en de financiële dimensies die op de factuur worden toegepast. In dit artikel leest u hoe u deze boekhoudgegevens kunt aanpassen op een concept-projectfactuurvoorstel.
 
 ## <a name="adjust-sales-tax"></a>Btw aanpassen
 

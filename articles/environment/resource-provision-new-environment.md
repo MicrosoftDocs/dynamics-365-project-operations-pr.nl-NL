@@ -1,18 +1,18 @@
 ---
 title: Een nieuwe omgeving inrichten
-description: Dit onderwerp bevat informatie over het inrichten van een nieuwe Project Operations-omgeving.
+description: Dit artikel bevat informatie over hoe u een nieuwe Project Operations-omgeving inricht.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931600"
 ---
 # <a name="provision-a-new-environment"></a>Een nieuwe omgeving inrichten
 
@@ -20,7 +20,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 
 
-Dit onderwerp bevat informatie over het inrichten van een nieuwe Dynamics 365 Project Operations-omgeving voor scenario's op basis van resources/niet-voorradige artikelen.
+Dit artikel bevat informatie over het inrichten van een nieuwe Dynamics 365 Project Operations-omgeving voor scenario's op basis van resources/niet-voorradige artikelen.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>De geautomatiseerde inrichting van Project Operations in een LCS-project inschakelen
 

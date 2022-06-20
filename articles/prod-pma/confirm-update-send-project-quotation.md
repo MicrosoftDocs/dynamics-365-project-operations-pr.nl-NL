@@ -1,6 +1,6 @@
 ---
 title: Een projectofferte bevestigen, bijwerken en verzenden
-description: Dit onderwerp bevat informatie over het verzenden van een offerte naar de klant ter bevestiging, wijzigen op basis van feedback en het vervolgens opnieuw verzenden van de offerte.
+description: Dit artikel bevat informatie over het verzenden van een offerte naar de klant voor bevestiging, wijziging op basis van feedback en het opnieuw verzenden van de offerte.
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec8a000bea7d80827e2e63b03ed9229b1ecbe1c9
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 445362523b7e38e8543cbc89f9dacf4aca048f0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932244"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Een projectofferte bevestigen, bijwerken en verzenden
 

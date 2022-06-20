@@ -1,6 +1,6 @@
 ---
-title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 17, v3
-description: In dit onderwerp vindt u een overzicht van de functies en oplossingen die beschikbaar zijn voor Project Service Automation updaterelease 17, v3.
+title: Wat is er nieuw of gewijzigd in Project Service Automation updateversie 17, v3
+description: In dit artikel worden de functies en oplossingen vermeld die beschikbaar zijn in Project Service Automation-updateversie 17, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
@@ -16,23 +16,23 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 70749646f5b67db3cf868a6d9a83c14dc490793a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c8486ef689f0d8ab014c2248fc6e5d0fddc937e7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915684"
 ---
-# <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation, updaterelease 17, v3
+# <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation, updateversie 17, v3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Met genoegen kondigen we de nieuwste update aan voor de toepassing Project Service Automation voor Dynamics 365. Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid.  Deze versie is compatibel met Dynamics 365 9.x. Als u deze release wilt bijwerken, gaat u online naar het Beheercentrum voor Dynamics 365 en naar de pagina Oplossingen om de update te installeren. Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](/power-platform/admin/install-remove-preferred-solution).
 
-In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw of gewijzigd zijn voor PSA v3, updaterelease 17. Deze versie heeft het buildnummer V3.10.6.34 en is algemeen beschikbaar via een zelf-update vanaf maart 2020.
+In dit artikel worden de functies en oplossingen vermeld die nieuw of gewijzigd zijn voor PSA V3, updateversie 17. Deze versie heeft het buildnummer V3.10.6.34 en is algemeen beschikbaar via een zelf-update vanaf maart 2020.
 
 
-## <a name="update-release-17"></a>Updaterelease 17
+## <a name="update-release-17"></a>Updateversie 17
 
 ### <a name="bug-fixes"></a>Bugfixes
 

@@ -1,17 +1,17 @@
 ---
 title: Kostenraming van toewijzingen van resources op contractbasis
-description: In dit onderwerp wordt uitgelegd hoe Microsoft Dynamics 365 Project Operations kostenraming berekent van toewijzingen van resources op contractbasis.
+description: In dit artikel wordt uitgelegd hoe Microsoft Dynamics 365 Project Operations kostenraming berekent van toewijzingen van resources op contractbasis.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f276e12713261538d1e7520dac17243e578db433
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 40603c1d2dfdd49909d9a4bf5085f43201e8f6bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932336"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Kostenraming van toewijzingen van resources op contractbasis
 

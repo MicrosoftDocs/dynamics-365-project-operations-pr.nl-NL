@@ -1,24 +1,24 @@
 ---
 title: Nieuwe functies van februari 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
-description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations van februari 2022 voor scenario's op basis van resources/niet-voorradige artikelen.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations van februari 2022 voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932980"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van februari 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
 *Van toepassing op: Project Operations voor scenario's op basis van resources/niet-voorradige artikelen*
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Microsoft Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in een Dataverse-omgeving versie 4.28.0.120
 - Projectbeheer en financiële administratie in een Dynamics 365 Finance-omgeving versie 10.0.24
@@ -76,11 +76,11 @@ Als u een probleem ondervindt bij het starten van de toewijzing, volgt u de inst
 
 ## <a name="removed-and-deprecated-features"></a>Verwijderde en afgeschafte functies
 
-In het onderwerp [Verwijderde of afgeschafte functies in Project Operations](removed-depreciated-features-project.md) onderwerp beschrijft functies die zijn verwijderd of afgeschaft voor Dynamics 365 Project Operations.
+In het artikel [Verwijderde of afgeschafte functies in Project Operations](removed-depreciated-features-project.md) onderwerp beschrijft functies die zijn verwijderd of afgeschaft voor Dynamics 365 Project Operations.
 
 - Een verwijderde functie is niet langer beschikbaar in het product.
 - Een afgeschafte functie wordt niet meer actief ontwikkeld en kan in een toekomstige update worden verwijderd.
 
-Er wordt 12 maanden voordat een functie wordt verwijderd uit het product een aankondiging van afschaffing weergegeven in het onderwerp [Verwijderde of afgeschafte functies in Project Operations](removed-depreciated-features-project.md).
+Er wordt 12 maanden voordat een functie wordt verwijderd uit het product een aankondiging van afschaffing weergegeven in het artikel [Verwijderde of afgeschafte functies in Project Operations](removed-depreciated-features-project.md).
 
 Voor wijzigingen die fouten veroorzaken en alleen van invloed zijn op de compilatietijd, maar binair compatibel zijn met sandbox- en productieomgevingen, is de afschaffingstijd korter dan 12 maanden. Meestal gaat het bij deze wijzigingen om functionele updates die moeten worden doorgevoerd in de compiler.

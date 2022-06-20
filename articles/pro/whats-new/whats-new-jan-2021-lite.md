@@ -1,25 +1,25 @@
 ---
 title: Nieuwe functies van januari 2021 - Lite-implementatie Project Operations
-description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de release van januari 2021 voor de Lite-implementatie van Project Operations.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations Lite-implementatie van januari 2021.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 17accd33a6126918e02e90b67636d95342efdd65
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47932fb89cdd9481988d00f2f3be094b68110cbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934268"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Nieuwe functies van januari 2021 - Lite-implementatie Project Operations
 
 
 _Van toepassing op: Lite-implementatie - van deal tot pro-formafacturering_
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
   - Project Operations in Dataverse-omgeving, versie 4.6.0.154.
   

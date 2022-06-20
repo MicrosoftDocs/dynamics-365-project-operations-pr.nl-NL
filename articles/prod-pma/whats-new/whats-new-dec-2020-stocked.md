@@ -1,24 +1,24 @@
 ---
 title: Nieuwe functies van december 2020 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
-description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de release van december 2020 van Project Operations voor scenario's op basis van voorradige artikelen/productieorders.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations van december 2020 voor scenario's op basis van voorradige artikelen/productieorders.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911360"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Nieuwe of gewijzigde functies in Project Operations, december 2020 voor scenario's op basis van voorradige artikelen/productieorders
 
 _Van toepassing op: Project Operations voor scenario's op basis van voorradige artikelen/productieorders_
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
   - Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving versie 10.0.15
 

@@ -1,6 +1,6 @@
 ---
 title: Overwegingen bij upgraden - Microsoft Dynamics 365 Project Service Automation versie 2.x of 1.x naar versie 3
-description: Dit onderwerp bevat informatie over de overwegingen voor het upgraden van Project Service Automation versie 2.x of 1.x naar versie 3.
+description: Dit artikel bevat informatie over de overwegingen voor het upgraden van Project Service Automation versie 2.x of 1.x naar versie 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918904"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Overwegingen voor de upgrade van PSA-versie 2.x of 1.x naar versie 3
 
@@ -40,7 +40,7 @@ In Project Service Automation versie 2 en versie 1 zijn taaktoewijzingen opgesla
 
 In versie 3 van Project Service Automation is het onderliggende schema voor het toewijzen van boekbare resources aan taken gewijzigd. De regeltaak is afgeschaft en er is een directe 1:1-relatie tussen de taak in de **Taakentiteit** en het teamlid in de entiteit **Resourcetoewijzing**. Taken die worden toegewezen aan een lid van het projectteam, worden nu rechtstreeks opgeslagen in de entiteit Resourcetoewijzing.  
 
-Deze wijzigingen zijn van invloed op de upgrade van bestaande projecten met resourcetoewijzingen voor benoemde boekbare resources en algemene resources in een projectteam. Dit onderwerp bevat de overwegingen waarmee u rekening moet houden voor uw projecten wanneer u een upgrade uitvoert naar versie 3. 
+Deze wijzigingen zijn van invloed op de upgrade van bestaande projecten met resourcetoewijzingen voor benoemde boekbare resources en algemene resources in een projectteam. Dit artikel bevat de overwegingen waarmee u rekening moet houden voor uw projecten wanneer u een upgrade uitvoert naar versie 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Taken toegewezen aan benoemde resources
 Met de onderliggende taakentiteit konden teamleden in versie 2 en versie 1 voor taken een andere rol weergeven dan hun standaard gedefinieerde rol. Femke Van der Star aan wie standaard de rol van programmamanager is toegewezen, kan bijvoorbeeld worden toegewezen aan een taak met de rol van ontwikkelaar. In versie 3 is de rol van een benoemd teamlid altijd de standaardrol, dus elke taak die Femke Van der Star krijgt toegewezen, gebruikt Femke's standaardrol van programmamanager.

@@ -1,23 +1,23 @@
 ---
 title: Kosten om methoden te voltooien
-description: Dit onderwerp bevat informatie over de methoden die worden gebruikt om de kosten voor het voltooien van een project te berekenen.
+description: Dit artikel biedt informatie over de methoden die worden gebruikt om de kosten voor het voltooien van een project te berekenen.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920284"
 ---
 # <a name="cost-to-complete-methods"></a>Kosten om methoden te voltooien
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Dit onderwerp bevat informatie over de methoden die worden gebruikt om de kosten voor het voltooien van een project te berekenen. Er zijn meerdere methoden die u kunt gebruiken om de kosten voor het voltooien van een project te berekenen. 
+Dit artikel biedt informatie over de methoden die worden gebruikt om de kosten voor het voltooien van een project te berekenen. Er zijn meerdere methoden die u kunt gebruiken om de kosten voor het voltooien van een project te berekenen. 
 
 Wanneer u een schatting maakt voor een project, op de pagina **Schatting maken**, in het veld **Kosten om methoden te voltooien**, kunt u een van de volgende methoden voor het voltooien van kosten selecteren.
 

@@ -1,17 +1,17 @@
 ---
 title: Projectgebaseerde verkoopkansen beheren
-description: Dit onderwerp bevat informatie over hoe u kunt werken met verkoopkansen die gerelateerd zijn aan projecten.
+description: Dit artikel bevat informatie over het werken met verkoopkansen die zijn gerelateerd aan projecten.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933210"
 ---
 # <a name="manage-project-based-opportunities"></a>Projectgebaseerde verkoopkansen beheren
 
@@ -19,7 +19,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Projectgebaseerde bedrijven hebben hun activiteiten voor oplevering meestal verspreid over meerdere landen en regio's. De kosten van de uitvoering en oplevering van het project kunnen variëren, afhankelijk van de regio of divisie die de oplevering beheert. Dit kan weer van invloed zijn op de marges van de deal. De oplevering van projectgebaseerde diensten omvat doorgaans grote hoeveelheden personeelstijd, aanzienlijke reiskosten, materiaalkosten en andere onkosten.
 
-Projectmatige verkoopkansen in Dynamics 365 Project Operations zijn ontworpen met uitbreidingen voor Dynamics 365 Sales. Het onderwerp bevat details over de verschillende velden en bedrijfslogica die zijn opgenomen in de aanvullende functionaliteit die projectgebaseerde bedrijven nodig hebben om projectgebaseerde verkoopkansen te beheren.
+Projectmatige verkoopkansen in Dynamics 365 Project Operations zijn ontworpen met uitbreidingen voor Dynamics 365 Sales. Het artikel bevat details over de verschillende velden en bedrijfslogica die zijn opgenomen in de extra functionaliteit die projectgebaseerde bedrijven nodig hebben om projectgebaseerde verkoopkansen te beheren.
 
 ## <a name="view-all-project-based-opportunities"></a>Alle projectgebaseerde verkoopkansen weergeven
 

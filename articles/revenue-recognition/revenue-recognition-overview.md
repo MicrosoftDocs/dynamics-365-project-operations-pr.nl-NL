@@ -1,23 +1,23 @@
 ---
 title: Overzicht van inkomstenverantwoording
-description: Dit onderwerp bevat informatie over inkomstenverantwoording in Project Operations.
+description: Dit artikel biedt informatie over inkomstenverantwoording in Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926264"
 ---
 # <a name="revenue-recognition-overview"></a>Overzicht van inkomstenverantwoording
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-In Dynamics 365 Project Operations verschillen de principes van inkomstenverantwoording op basis van de geselecteerde factureringsmethode voor een project of een deel van het project. Dit onderwerp bevat informatie over inkomstenverantwoording in Project Operations.
+In Dynamics 365 Project Operations verschillen de principes van inkomstenverantwoording op basis van de geselecteerde factureringsmethode voor een project of een deel van het project. Dit artikel biedt informatie over inkomstenverantwoording in Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transacties die worden geboekt met de factureringsmethode voor tijd en materiaal
 

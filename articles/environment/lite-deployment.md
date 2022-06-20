@@ -1,17 +1,17 @@
 ---
 title: Project Operations implementeren - lite
-description: In dit onderwerp vindt u informatie over hoe u de implementatie met Project Operations Lite installeert, van deal tot pro-formafacturering.
+description: Dit artikel bevat informatie over het installeren van Project Operations Lite-implementatie - van deal tot pro-formafacturering.
 author: stsporen
 ms.date: 02/28/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930312"
 ---
 # <a name="deploy-project-operations---lite"></a>Project Operations implementeren - lite
 
@@ -30,13 +30,13 @@ Project Operations ondersteunt meerdere implementatiemodellen. Zie voor het bepa
 
 
 
-## <a name="install-project-operations-to-a-new-dataverse-environment"></a><a name="new">Project Operations in een nieuwe Dataverse-omgeving installeren</a>
+## <a name="install-project-operations-to-a-new-dataverse-environment"></a><a name="new"></a>Project Operations in een nieuwe Dataverse-omgeving installeren
 
 1. Als [algemene of Power Platform-beheerder](/power-platform/admin/global-service-administrators-can-administer-without-license) met een Project Operations-licentie maakt u een nieuwe Dataverse-omgeving in het [Power Platform-beheercentrum](https://admin.powerplatform.com). Zorg ervoor dat **Een database voor deze omgeving maken** en **Dynamics 365-apps** zijn ingeschakeld. Zie [Omgevingen maken en beheren in het Power Platform-beheercentrum](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) voor meer informatie.
 2. Selecteer **Microsoft Dynamics 365 Project Operations** uit de implementatielijst met Dynamics 365-apps.
 
 
-## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing">Project Operations in een bestaande Dataverse-omgeving installeren</a>
+## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a>Project Operations in een bestaande Dataverse-omgeving installeren
 1. Zorg ervoor dat de omgeving niet is geconfigureerd met [twee keer wegschrijven](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), omdat de installatie dan de mogelijkheden voor [Project Operations voor scenario's op basis van hulpbronnen/niet-voorraad](project-operations-integrated-deployment-overview.md) zal installeren.
 2. Als [algemene of Power Platform-beheerder](/power-platform/admin/global-service-administrators-can-administer-without-license) met een Project Operations-licentie zoekt u de omgeving in het [PowerPlatform-beheercentrum](https://admin.powerplatform.com) waar u Project Operations wilt installeren.
 3. Installeer **Microsoft Dynamics 365 Project Operations** uit de implementatielijst met Dynamics 365-apps. Zie [Dynamics 365-apps beheren](/power-platform/admin/manage-apps) voor meer informatie.

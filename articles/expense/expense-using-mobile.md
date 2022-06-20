@@ -1,6 +1,6 @@
 ---
 title: Mobiele onkosten-app
-description: Dit onderwerp bevat informatie over de mobiele werkruimte Onkostenbeheer.
+description: Dit artikel biedt informatie over de mobiele werkruimte Onkostenbeheer.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930220"
 ---
 # <a name="mobile-expense-app"></a>Mobiele onkosten-app
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Dit onderwerp bevat informatie over de mobiele werkruimte **Onkostenbeheer**. In deze werkruimte kunnen gebruikers een betalingsbewijs vastleggen en uploaden, zodat ze dit later aan een onkostennota kunnen toevoegen. Gebruikers kunnen ook snel een onkostenregel maken met behulp van een bijgevoegd betalingsbewijs en onkostennota's maken en beheren. Bovendien kunnen fiatteurs de mobiele werkruimte **Onkostenbeheer** gebruiken om onkostennota's te bekijken die aan hen zijn toegewezen en die onkostennota's goed te keuren of af te wijzen.
+Dit artikel biedt informatie over de mobiele werkruimte **Onkostenbeheer**. In deze werkruimte kunnen gebruikers een betalingsbewijs vastleggen en uploaden, zodat ze dit later aan een onkostennota kunnen toevoegen. Gebruikers kunnen ook snel een onkostenregel maken met behulp van een bijgevoegd betalingsbewijs en onkostennota's maken en beheren. Bovendien kunnen fiatteurs de mobiele werkruimte **Onkostenbeheer** gebruiken om onkostennota's te bekijken die aan hen zijn toegewezen en die onkostennota's goed te keuren of af te wijzen.
 
 Deze mobiele werkruimte is bedoeld om te worden gebruikt met de mobiele app Dynamics 365 Unified Ops.
 

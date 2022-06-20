@@ -1,6 +1,6 @@
 ---
 title: Startpagina voor prijs- en kostendimensies
-description: Dit onderwerp biedt een overzicht van prijsdimensies.
+description: Dit artikel biedt een overzicht van prijsdimensies.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925436"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Startpagina voor prijs- en kostendimensies
 
@@ -47,7 +47,7 @@ PSA wordt geleverd met een standaardset prijsdimensies. U kunt deze bekijken doo
 > [!IMPORTANT]
 > Als u de kant-en-klare velden van rol en organisatie-eenheid hebt gebruikt als prijsdimensies vóór versie 3 van PSA, is er geen waarneembare wijziging. U kunt Project Service blijven gebruiken zoals u dat gewend was. 
 
-Als u de prijs of kosten voor uw resources vaststelt met behulp van extra kenmerken, kunt u aangepaste velden, entiteiten en dimensies maken. Zie de volgende onderwerpen voor meer informatie, maar houd er rekening mee dat u de procedures in de onderstaande volgorde moet uitvoeren:
+Als u de prijs of kosten voor uw resources vaststelt met behulp van extra kenmerken, kunt u aangepaste velden, entiteiten en dimensies maken. Zie de volgende artikelen voor meer informatie, maar houd er rekening mee dat u de procedures in de onderstaande volgorde moet uitvoeren:
 
 - [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md)
 - [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](field-references.md)

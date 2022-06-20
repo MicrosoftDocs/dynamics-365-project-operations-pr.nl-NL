@@ -1,24 +1,24 @@
 ---
 title: Nieuwe functies van maart 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
-description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de release van maart 2021 van Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations van maart 2021 voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932934"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van maart 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
 - Project Operations in Dataverse-omgeving, versie 4.8.0.91 
 - Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving versie 10.0.16 

@@ -1,6 +1,6 @@
 ---
 title: Aangepaste velden en entiteiten maken
-description: In dit onderwerp wordt uitgelegd hoe u optiesets en entiteiten maakt in uw eigen oplossing in het Power Apps-platform.
+description: In dit artikel wordt uitgelegd hoe u optiesets en entiteiten maakt in uw eigen oplossing op het Power Apps-platform.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926908"
 ---
 # <a name="create-custom-fields-and-entities"></a>Aangepaste velden en entiteiten maken 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Voer de volgende stappen uit wanneer u een aangepaste optieset of entiteit op het Power Apps-platform wilt maken.  
-De procedures In dit onderwerp moeten worden voltooid met behulp van de webinterface van Project Service Automation (PSA).
+De procedures In dit artikel moeten worden voltooid met behulp van de webinterface van Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Het is raadzaam om alle wijzigingen in aangepaste prijsdimensies in een afzonderlijke oplossing aan te brengen. Deze belangrijke aanbevolen procedure biedt flexibiliteit in de toekomst om eventuele wijzigingen bij te werken of te verwijderen, stelt u in staat uw werk opnieuw te gebruiken en maakt het gemakkelijker om deze wijzigingen naar een ander exemplaar te publiceren. Nadat u alle vereiste wijzigingen hebt aangebracht, exporteert u deze oplossing als een **beheerde oplossing** en importeert u deze in andere exemplaren om uw prijsinstellingen opnieuw te gebruiken.

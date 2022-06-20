@@ -1,17 +1,17 @@
 ---
 title: Belangrijke concepten van projectcontracten - lite
-description: Dit onderwerp bevat informatie over de belangrijkste concepten van projectcontracten.
+description: Dit artikel bevat informatie over de belangrijkste concepten van projectcontracten.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932658"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Unieke concepten voor projectcontracten
 
@@ -19,7 +19,7 @@ _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
 
 
-Dit onderwerp bevat belangrijke concepten waarvan u op de hoogte moet zijn voordat u projectcontracten gaat gebruiken in Dynamics 365 Project Operations:
+Dit artikel biedt de belangrijkste concepten waarmee u rekening moet houden voordat u Project-contracten gaat gebruiken in Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Contracterende eenheid
 

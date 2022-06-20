@@ -1,17 +1,17 @@
 ---
 title: Een projectleveranciersfactuur annuleren
-description: In dit onderwerp wordt uitgelegd hoe u een factuur van een projectleverancier in Microsoft Dynamics 365 Project Operations annuleert en wat de financiële impact is van het annuleren van een factuur van een projectleverancier.
+description: In dit artikel wordt uitgelegd hoe u een factuur van een projectleverancier in Microsoft Dynamics 365 Project Operations annuleert en wat de financiële impact is van het annuleren van een factuur van een projectleverancier.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87f6bdca30c5779e3d70922e75609ff4cdfca167
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580634"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911544"
 ---
 # <a name="cancel-a-project-vendor-invoice"></a>Een projectleveranciersfactuur annuleren
 

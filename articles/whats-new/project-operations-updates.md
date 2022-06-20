@@ -1,18 +1,18 @@
 ---
 title: Updates voor Project Operations
-description: Dit onderwerp bevat informatie over de uitgebrachte versies van Dynamics 365 Project Operations.
+description: Dit artikel biedt informatie over de uitgebrachte versies van Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732925"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959435"
 ---
 # <a name="project-operations-updates"></a>Updates voor Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations bestaat uit twee componenten:
 
 | Project Operations in Dataverse-omgeving | Projectbeheer en financiële administratie in omgevingen van apps voor financiën en bedrijfsactiviteiten | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Voor scenario's op basis van resources/niet-voorradige artikelen in Project Operations raden we aan om versie 2.3.1.15 of hoger om de indelingsoplossing voor twee keer wegschrijven te gebruiken.
 
@@ -47,24 +47,24 @@ Updates voor Project Operations in Dataverse-omgeving zijn maandelijks beschikba
 | Station | Regio | Nummer huidige versie | Automatische updates voor Lite-implementatie | Automatische updates voor implementatie van resources/niet-voorradige artikelen | Nummer volgende versie | Volgende versie algemeen beschikbaar |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eerste versie         |  4.42.0.70      | Voltooien           | Voltooien            | N.t.b.                 | 27 mei 2022        |
+|   &nbsp;  | Eerste versie         |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Zuid-Amerika         |  4.42.0.70      | Voltooien           | Voltooien            | N.t.b.                 | 27 mei 2022        |
-|   &nbsp;  | Canada                |  4.42.0.70      | Voltooien           | Voltooien            | N.t.b.                 | 27 mei 2022        |
-|   &nbsp;  | India                 |  4.42.0.70      | Voltooien           | Voltooien            | N.t.b.                 | 27 mei 2022        |
-|   &nbsp;  | Frankrijk                |  4.42.0.70      | Voltooien           | Voltooien            | N.t.b.                 | 27 mei 2022        |
-|   &nbsp;  | Zuid-Afrika          |  4.42.0.70      | Voltooien           | Voltooien            | N.t.b.                 | 27 mei 2022        |
-|   &nbsp;  | Zwitserland           |  4.42.0.70      | Voltooien           | Voltooien            | N.t.b.                 | 27 mei 2022        |
+|   &nbsp;  | Zuid-Amerika         |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
+|   &nbsp;  | Canada                |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
+|   &nbsp;  | India                 |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
+|   &nbsp;  | Frankrijk                |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
+|   &nbsp;  | Zuid-Afrika          |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
+|   &nbsp;  | Zwitserland           |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.42.0.70      | 13 mei 2022       | 13 mei 2022        | N.t.b.                 | 03 juni 2022       |
-|   &nbsp;  | Azië-Pacific          |  4.42.0.70      | 13 mei 2022       | 13 mei 2022        | N.t.b.                 | 03 juni 2022       |
-|   &nbsp;  | Groot-Brittannië         |  4.42.0.70      | 13 mei 2022       | 13 mei 2022        | N.t.b.                 | 03 juni 2022       |
-|   &nbsp;  | Oceanië               |  4.42.0.70      | 13 mei 2022       | 13 mei 2022        | N.t.b.                 | 03 juni 2022       |
-|   &nbsp;  | Verenigde Arabische Emiraten  |  4.42.0.70      | 13 mei 2022       | 13 mei 2022        | N.t.b.                 | 03 juni 2022       |
+|   &nbsp;  | Japan                 |  4.43.0.77      | 03 juni 2022      | 03 juni 2022       | N.t.b.                 | 08 juli 2022       |
+|   &nbsp;  | Azië-Pacific          |  4.43.0.77      | 03 juni 2022      | 03 juni 2022       | N.t.b.                 | 08 juli 2022       |
+|   &nbsp;  | Groot-Brittannië         |  4.43.0.77      | 03 juni 2022      | 03 juni 2022       | N.t.b.                 | 08 juli 2022       |
+|   &nbsp;  | Oceanië               |  4.43.0.77      | 03 juni 2022      | 03 juni 2022       | N.t.b.                 | 08 juli 2022       |
+|   &nbsp;  | Verenigde Arabische Emiraten  |  4.43.0.77      | 03 juni 2022      | 03 juni 2022       | N.t.b.                 | 08 juli 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.41.0.45      | Voltooien           | Voltooien            | 4.42.0.70           | 13 mei 2022        |
+|   &nbsp;  | Europa                |  4.42.0.70      | Voltooien           | Voltooien            | 4.43.0.77           | 10 juni 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Noord-Amerika         |  4.41.0.45      | Voltooien           | Voltooien            | 4.42.0.70           | 20 mei 2022        |
+|   &nbsp;  | Noord-Amerika         |  4.42.0.70      | Voltooien           | Voltooien            | 4.43.0.77           | 17 juni 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planning voor Projectbeheer en financiële administratie vrijgeven in de omgeving van apps voor financiën en bedrijfsactiviteiten
 

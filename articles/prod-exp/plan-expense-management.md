@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933992"
 ---
 # <a name="configure-expense-management"></a>Onkostenbeheer configureren
 
-In dit onderwerp worden de overwegingen en beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert. In Onkostenbeheer kunt u informatie opslaan over betalingswijzen, reisaanvragen, onkostendeclaraties, beleid, enzovoort.
+In dit artikel worden de overwegingen en de beslissingen beschreven die u tijdens het planningsproces moet maken voordat u Onkostenbeheer configureert. In Onkostenbeheer kunt u informatie opslaan over betalingswijzen, reisaanvragen, onkostendeclaraties, beleid, enzovoort.
 
 Omdat veel van de beslissingen die u neemt wanneer u uw configuratie voor Onkostenbeheer plant, is gebaseerd op de hiërarchie en financiële structuur van uw organisatie, moet u de planningsdocumenten voor deze gebieden raadplegen.
 

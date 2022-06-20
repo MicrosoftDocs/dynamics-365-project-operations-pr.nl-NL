@@ -1,6 +1,6 @@
 ---
 title: Handleiding Rapportage
-description: Dit onderwerp bevat koppelingen naar informatie over rapportage.
+description: Dit artikel bevat koppelingen naar informatie over rapportage.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919180"
 ---
 # <a name="reporting-guide"></a>Handleiding Rapportage
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577552"
 
 De rapportagemethoden en -technologieën in deze app kunnen u helpen om de status van uw projecten te bepalen en om na te gaan wanneer u corrigerende maatregelen moet nemen. 
 
-De PDF-koppeling die voorheen In dit onderwerp was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende onderwerpen:
+De PDF-koppeling die voorheen in dit artikel was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende artikelen:
 
 - [Startpagina Rapportage](../reports-reporting-dynamics-365-project-service.md)
 - [Dashboards](../reports-dashboards.md)
 - [Werken met het gegevensmodel van Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Dit onderwerp wordt verwijderd in een toekomstige documentatie-update. 
+> Dit artikel wordt verwijderd in een toekomstige documentatie-update. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

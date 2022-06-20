@@ -1,6 +1,6 @@
 ---
 title: Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren naar Finance
-description: In dit onderwerp wordt de sjabloon en de onderliggende taken besproken die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Microsoft Dynamics 365 Project Service Automation met Dynamics 365 Finance te synchroniseren.
+description: In dit artikel wordt de sjabloon en de onderliggende taken besproken die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Microsoft Dynamics 365 Project Service Automation met Dynamics 365 Finance te synchroniseren.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 62a24f3af823d474cbb4d63f8d079c708256a75e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933854"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Projectcontracten en projecten rechtstreeks vanuit Project Service Automation synchroniseren naar Finance 
 
@@ -27,7 +27,7 @@ ms.locfileid: "8684636"
 
 
 
-In dit onderwerp wordt de sjabloon en de onderliggende taken besproken die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Dynamics 365 Project Service Automation met Dynamics 365 Finance te synchroniseren.
+In dit artikel wordt de sjabloon en de onderliggende taken besproken die worden gebruikt om projectcontracten en projecten rechtstreeks vanuit Dynamics 365 Project Service Automation met Dynamics 365 Finance te synchroniseren.
 
 > [!NOTE] 
 > Als u Enterprise-editie 7.3.0 gebruikt, moet u KB 4074835 installeren.

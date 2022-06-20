@@ -1,17 +1,17 @@
 ---
 title: Koptekstdetails voor subcontracten
-description: In dit wordt de functionaliteit uitgelegd die wordt geboden in de koptekst voor subcontracten in Project Operations.
+description: In dit artikel wordt de functionaliteit uitgelegd die wordt geboden in de subcontractheader in Project Operations.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914166"
 ---
 # <a name="header-details-for-subcontracts"></a>Koptekstdetails voor subcontracten
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598160"
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-In dit wordt de functionaliteit uitgelegd die wordt geboden in de koptekst voor subcontracten in Dynamics 365 Project Operations.
+In dit artikel wordt de functionaliteit uitgelegd die wordt geboden in de subcontractheader in Dynamics 365 Project Operations.
 
 Omdat een projectmanager projecten plant en uitvoert, kunnen ze onderaannemers in dienst hebben en producten en diensten van leveranciers kopen. Wanneer een projectmanager producten of diensten moet kopen, kunnen ze een subcontract maken in Project Operations.
 

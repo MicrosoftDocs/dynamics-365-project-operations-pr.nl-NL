@@ -1,6 +1,6 @@
 ---
-title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 34, v3
-description: In dit onderwerp vindt u een overzicht van de functies en oplossingen die beschikbaar zijn voor Project Service Automation updaterelease 34, v3.
+title: Wat is er nieuw of gewijzigd in Project Service Automation updateversie 34, v3
+description: In dit artikel worden de functies en oplossingen vermeld die beschikbaar zijn in Project Service Automation-updateversie 34, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 08/05/2021
@@ -16,22 +16,22 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7a4feaeebf8fa2ef3447dc6dfc3d0903266f3b2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e47a5442f285952c165a2d30e337a362a6b065dd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928656"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-34-v3"></a>Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 34, v3
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-34-v3"></a>Wat is er nieuw of gewijzigd in Project Service Automation updateversie 34, v3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 We zijn verheugd de laatste update aan te kondigen voor de Microsoft Dynamics 365 Project Service Automation-app. Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid. Deze app is compatibel met Dynamics 365 9.x. Als u naar deze release wilt bijwerken, gaat u naar de pagina met online-oplossingen in het Beheercentrum voor Dynamics 365 en installeert u de update. Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](/power-platform/admin/install-remove-preferred-solution).
 
-In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw of gewijzigd zijn voor Project Service Automation v3, updaterelease 34. Deze versie heeft een buildnummer van V3.10.55.38 en is algemeen beschikbaar via een zelfupdate in juli 2021.
+In dit artikel worden de functies en oplossingen vermeld die nieuw of gewijzigd zijn voor Project Service Automation-updateversie 34, V3. Deze versie heeft een buildnummer van V3.10.55.38 en is algemeen beschikbaar via een zelfupdate in juli 2021.
 
-## <a name="update-release-34"></a>Updaterelease 34
+## <a name="update-release-34"></a>Updateversie 34
 
 ### <a name="bug-fixes"></a>Opgeloste fouten
 De volgende problemen zijn opgelost.

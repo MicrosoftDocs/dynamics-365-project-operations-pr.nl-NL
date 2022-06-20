@@ -1,6 +1,6 @@
 ---
 title: Resourcecapaciteit synchroniseren
-description: Dit onderwerp bevat informatie over het synchroniseren van de capaciteit van een resource in meerdere agenda's en projecten.
+description: Dit artikel bevat informatie over het synchroniseren van de capaciteit van een resource in kalenders en projecten.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3911ffe9ecfd15a7852dea893084e0059b06c9b8
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 2b684833ffae83b7cedfc73ee96a8aa8ddd4ec57
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920698"
 ---
 # <a name="synchronize-resource-capacity"></a>Resourcecapaciteit synchroniseren
 

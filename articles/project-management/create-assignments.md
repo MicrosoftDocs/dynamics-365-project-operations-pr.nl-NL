@@ -1,24 +1,24 @@
 ---
 title: Resourcetoewijzingen maken
-description: Dit onderwerp biedt informatie over het maken van algemene en benoemde resourcetoewijzingen.
+description: Dit artikel bevat informatie over het maken van generieke en benoemde resourcetoewijzingen.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576540"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933486"
 ---
 # <a name="create-resource-assignments"></a>Resourcetoewijzingen maken
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 
-Een resourcetoewijzing is de directe koppeling van een projectteamlid aan een bladknooppunttaak. Dit onderwerp biedt informatie over de verschillende manieren om resources toe te wijzen.
+Een resourcetoewijzing is de directe koppeling van een projectteamlid aan een bladknooppunttaak. Dit artikel bevat informatie over de verschillende manieren waarop u resources kunt toewijzen.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Een algemeen teamlid maken door taken toe te wijzen
 

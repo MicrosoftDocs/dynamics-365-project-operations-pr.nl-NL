@@ -1,6 +1,6 @@
 ---
 title: Wijzigingen in entiteiten, besturingselementen en de gebruikersinterface (Project Service Automation 3.x)
-description: In dit onderwerp worden oplossingswijzigingen voor Microsoft Dynamics Project Service Automation 3.x beschreven.
+description: In dit artikel worden oplossingswijzigingen voor Microsoft Dynamics Project Service Automation 3.x beschreven.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926862"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Wijzigingen in entiteiten, besturingselementen en de gebruikersinterface (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-In Microsoft Dynamics Project Service Automation (PSA) 3.x zijn veel wijzigingen aangebracht in de entiteiten, besturingselementen, weergaven en de gebruikersinterface aangebracht. Dit onderwerp bevat informatie over deze belangrijke wijzigingen.
+In Microsoft Dynamics Project Service Automation (PSA) 3.x zijn veel wijzigingen aangebracht in de entiteiten, besturingselementen, weergaven en de gebruikersinterface aangebracht. Dit artikel bevat informatie over deze belangrijke wijzigingen.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Relaties tussen bovenliggende en onderliggende items voor entiteiten voor verkoopdocumenten, details van verkoopdocumentregels
 In eerdere versies van Dynamics 365 Project Service Automation (PSA) dan versie 3.0 werden sommige van de relaties tussen entiteiten voor verkoopdocumenten, verkoopdocumentregels en details van verkoopdocumentregels geïmplementeerd via tekenreeksvelden die een tekenreeksweergave van de GUID van de gerelateerde entiteit bevatten. Dit werd veroorzaakt door platformbeperkingen die aanzienlijke aangepaste code op de server- en clientzijden van de oplossing vereisten om die relaties op een vergelijkbare manier als normale Dynamics CRM-entiteitsrelaties te laten werken en tekenreeksvelden te laten fungeren als opzoekvelden.

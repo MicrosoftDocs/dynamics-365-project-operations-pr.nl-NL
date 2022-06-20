@@ -1,6 +1,6 @@
 ---
 title: Implementeer aangepaste velden voor de mobiele Microsoft Dynamics 365 Project Timesheet-app op iOS en Android
-description: Dit onderwerp biedt algemene patronen voor het gebruik van extensies om aangepaste velden te implementeren.
+description: Dit artikel bevat algemene patronen voor het gebruik van extensies voor het implementeren van aangepaste velden.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913706"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementeer aangepaste velden voor de mobiele Microsoft Dynamics 365 Project Timesheet-app op iOS en Android
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt algemene patronen voor het gebruik van extensies om aangepaste velden te implementeren. De volgende onderwerpen komen aan bod:
+Dit artikel bevat algemene patronen voor het gebruik van extensies voor het implementeren van aangepaste velden. De volgende artikelen komen aan bod:
 
 - De verschillende gegevenstypen die het aangepaste veldframework ondersteunt
 - Alleen-lezen of bewerkbare velden in urenstaatvermeldingen weergeven en door de gebruiker verstrekte waarden weer in de database opslaan
@@ -35,7 +35,7 @@ Dit onderwerp biedt algemene patronen voor het gebruik van extensies om aangepas
 
 ## <a name="audience"></a>Publiek
 
-Dit onderwerp is bedoeld voor ontwikkelaars die hun aangepaste velden integreren in de mobiele Microsoft Dynamics 365 Project Timesheet-toepassing die beschikbaar is voor Apple iOS en Google Android. De aanname is dat lezers bekend zijn met X++-ontwikkeling en de functionaliteit van projecturenstaten.
+Dit artikel is bedoeld voor ontwikkelaars die hun aangepaste velden integreren in app Microsoft Dynamics 365 Project Timesheet die beschikbaar is voor Apple IOS en Google Android. De aanname is dat lezers bekend zijn met X++-ontwikkeling en de functionaliteit van projecturenstaten.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Gegevenscontract - X++-klasse TSTimesheetCustomField
 
@@ -64,7 +64,7 @@ De eigenschap **FieldBaseType** voor het object **TsTimesheetCustom** bepaalt he
 
 - Als de eigenschap **stringOptions** wordt verstrekt voor het object **TSTimesheetCustomField**, zijn die lijstelementen de enige waarden die gebruikers kunnen selecteren met behulp van optieknoppen (keuzerondjes).
 
-    In dit geval kan het tekenreeksveld fungeren als een opsommingswaarde voor gebruikersinvoer. Als u de waarde in de database wilt opslaan als een enum, wijst u de tekenreekswaarde handmatig opnieuw toe aan de enum-waarde voordat u opslaat in de database met behulp van een opdrachtenreeks (zie de sectie "Opdrachtenreeks gebruiken voor de klasse TSTimesheetEntryService om een urenstaatvermelding uit de app opnieuw op te slaan in de database" verderop In dit onderwerp voor een voorbeeld).
+    In dit geval kan het tekenreeksveld fungeren als een opsommingswaarde voor gebruikersinvoer. Als u de waarde als een opsommingswaarde in de database wilt opslaan, wijst u de tekenreekswaarde weer handmatig toe aan de opsommingswaarde voordat u opslaat naar de database opslaat met behulp van de opdrachtstructuur (zie Opdrachtstructuur voor de klasse TSTimesheetEntryService gebruiken om een urenstaatvermelding uit de app weer op te slaan in de database verderop in dit artikel voor een voorbeeld).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Deze eigenschap geeft het label aan dat naast het veld in de app wordt weergegev
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (lijst met tekenreeksen)
 
-Deze eigenschap is alleen van toepassing als **fieldBaseType** is ingesteld op **String**. Als **stringOptions** is ingesteld, worden de tekenreekswaarden die beschikbaar zijn voor selectie via optieknoppen (keuzerondjes) gespecificeerd door de tekenreeksen in de lijst. Als er geen tekenreeksen zijn opgegeven, is vrije tekstinvoer in het tekenreeksveld toegestaan (zie de sectie "Opdrachtenreeks gebruiken voor de klasse TSTimesheetEntryService om een urenstaatvermelding uit de app opnieuw op te slaan in de database" verderop In dit onderwerp voor een voorbeeld).
+Deze eigenschap is alleen van toepassing als **fieldBaseType** is ingesteld op **String**. Als **stringOptions** is ingesteld, worden de tekenreekswaarden die beschikbaar zijn voor selectie via optieknoppen (keuzerondjes) gespecificeerd door de tekenreeksen in de lijst. Als er geen tekenreeksen zijn opgegeven, is vrije-tekstinvoer toegestaan in het tekenreeksveld (zie Opdrachtstructuur voor de klasse TSTimesheetEntryService gebruiken om een urenstaatvermelding uit de app weer op te slaan in de database verderop in dit artikel voor een voorbeeld).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

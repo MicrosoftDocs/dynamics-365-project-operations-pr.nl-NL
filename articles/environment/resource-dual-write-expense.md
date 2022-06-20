@@ -1,24 +1,24 @@
 ---
 title: Integratie van onkostenbeheer
-description: Dit onderwerp biedt informatie over integratie van onkostenrapporten in Project Operations via twee keer wegschrijven.
+description: Dit artikel bevat informatie over de integratie van onkostendeclaraties in Project Operations met behulp van twee keer wegschrijven.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924608"
 ---
 # <a name="expense-management-integration"></a>Integratie van onkostenbeheer
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Dit onderwerp biedt informatie over integratie van onkostenrapporten in Project Operations [volledige onkostenimplementatie](../expense/expense-overview.md) via twee keer wegschrijven.
+Dit artikel bevat informatie over de integratie van onkostendeclaraties in Project Operations [volledige onkostenimplementatie](../expense/expense-overview.md) met behulp van twee keer wegschrijven.
 
 ## <a name="expense-categories"></a>Onkostencategorieën
 

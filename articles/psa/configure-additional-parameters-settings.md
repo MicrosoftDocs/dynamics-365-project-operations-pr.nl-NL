@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919226"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Aanvullende parametersinstellingen configureren (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592318"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Nadat u de items in eerdere onderwerpen hebt geconfigureerd, moet u aanvullende projectparameters instellen voor die gebruik in uw projecten. Toen u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] voor het eerst installeerde, hebt u een parameterinstelling gemaakt om eerst alle records te maken die voor [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zijn vereist. Nu gaat u terug en configureert u extra velden voor deze instellingen.  
+Nadat u de items in eerdere artikelen hebt geconfigureerd, moet u aanvullende projectparameters instellen voor die gebruik in uw projecten. Toen u [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] voor het eerst installeerde, hebt u een parameterinstelling gemaakt om eerst alle records te maken die voor [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] zijn vereist. Nu gaat u terug en configureert u extra velden voor deze instellingen.  
   
  U moet de volgende instellingen hebben geconfigureerd:  
   

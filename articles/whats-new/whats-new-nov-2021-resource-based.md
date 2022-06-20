@@ -1,24 +1,24 @@
 ---
 title: Nieuwe functies van november 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
-description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations van november 2021 voor scenario's op basis van resources/niet-voorradige artikelen.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations van november 2021 voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b58965f728321cc30d4e476b0dacf621fdec71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932888"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van november 2021 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
 *Van toepassing op: Project Operations voor scenario's op basis van resources/niet-voorradige artikelen*
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Microsoft Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in een Dataverse-omgeving versie 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Projectbeheer en financiële administratie in een Dynamics 365 Finance-omgeving versie 10.0.22

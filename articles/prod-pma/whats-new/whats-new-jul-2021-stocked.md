@@ -1,24 +1,24 @@
 ---
 title: Nieuwe of gewijzigde functies in Project Operations in juli 2021voor scenario's op basis van voorradige artikelen/productieorders
-description: Dit onderwerp bevat informatie over de kwaliteitsupdates die beschikbaar zijn in de release van juli 2021 van Project Operations voor scenario´s op basis van voorradige artikelen/productieorders.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations van juli 2021 voor scenario's op basis van voorradige artikelen/productieorders.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933624"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Nieuwe of gewijzigde functies in Project Operations in juli 2021voor scenario's op basis van voorradige artikelen/productieorders
 
 _**Van toepassing op**: Project Operations voor scenario's op basis van voorradige artikelen/productieorders_
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
 - Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving versie 10.0.20
  

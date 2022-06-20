@@ -1,6 +1,6 @@
 ---
 title: Dagelijkse onkosten
-description: In dit onderwerp wordt informatie verstrekt over werken met dagelijkse onkosten.
+description: In dit artikel wordt informatie verstrekt over werken met dagelijkse onkosten.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596044"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923182"
 ---
 # <a name="per-diem-expenses"></a>Dagelijkse onkosten
 
 > [!IMPORTANT] 
-> Functionaliteit die In dit onderwerp wordt beschreven, is beschikbaar voor bepaalde gebruikers als onderdeel van een preview-versie.
+> Functionaliteit die in dit artikel wordt beschreven, is beschikbaar voor bepaalde gebruikers als onderdeel van een preview-versie.
 
 Een dagvergoeding is een vaste, vooraf bepaalde vergoeding per dag die een bedrijf aan zijn werknemers betaalt voor logies (hotels), maaltijden en incidentele kosten die die werknemers maken terwijl ze voor hun werk reizen. Het bedrijf betaalt deze vergoeding aan de werknemers in plaats van de werkelijke reiskosten te betalen. Medewerkers kunnen hun dagvergoeding van het type **Incidenteel/Overig** gebruiken voor fooien, roomservice, was- of stomerijdiensten voor belangrijke zakelijke bijeenkomsten. Het dagvergoedingstarief kan variëren, afhankelijk van of de werkgever ervoor kiest om de gecombineerde kosten van logies en maaltijden te vergoeden of alleen de kosten van maaltijden en incidentele kosten.
 

@@ -1,6 +1,6 @@
 ---
 title: Startpagina upgraden
-description: Dit onderwerp laat zien waar u belangrijke informatie vindt over de nieuwe en gewijzigde functies in Dynamics 365 Project Service Automation en het proces voor het upgraden naar de nieuwste versie.
+description: Dit artikel laat zien waar u belangrijke informatie vindt over de nieuwe en gewijzigde functies in Dynamics 365 Project Service Automation en het proces voor het upgraden naar de nieuwste versie.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926632"
 ---
 # <a name="upgrade-home-page"></a>Startpagina upgraden
 
@@ -48,14 +48,14 @@ Eerder moesten klanten die een exemplaar van PSA versie 2.x hebben en moesten up
 We adviseren u om de volgende taken te voltooien voordat u begint met het upgradeproces:
 
 - Controleer of zowel Dynamics 365 Field Service als Project Service Automation op het geïdentificeerde exemplaar zijn geïnstalleerd. Als beide oplossingen zijn geïnstalleerd, moet u beide upgraden voordat u het normale gebruik van het exemplaar kunt hervatten.
-- Lees de volgende onderwerpen zorgvuldig door. Als u zich bewust bent van en inzicht hebt in de wijzigingen tussen versies, zal dat u helpen bij het upgradeproces. Deze onderwerpen bevatten informatie over de belangrijkste wijzigingen in PSA, samen met overwegingen en aanbevelingen voor het plannen van de upgrade naar versie 3 x.
+- Lees de volgende artikelen zorgvuldig door. Als u zich bewust bent van en inzicht hebt in de wijzigingen tussen versies, zal dat u helpen bij het upgradeproces. Deze artikelen bevatten informatie over de belangrijkste wijzigingen in PSA, samen met overwegingen en aanbevelingen voor het plannen van de upgrade naar versie 3 x.
 
     - [Wat is er nieuw of gewijzigd in Project Service Automation versie 3](whats-new-changed-v3.md)
     - [Overwegingen voor de upgrade van Project Service Automation versie 2.x of 1.x naar versie 3](upgrade-v3.md)
 
 - Upgrade uw sandbox-exemplaar om de wijzigingen in uw implementatie te evalueren voordat u uw productie-exemplaar bijwerkt.
 
-Nadat u de eerder genoemde onderwerpen hebt bekeken en gereed bent om een upgrade uit te voeren naar PSA versie 3.x of de op UCI gebaseerde versie, dient u een verzoek in bij Microsoft Ondersteuning om de upgrade beschikbaar te maken vanuit Beheercentrum. Geef in uw aanvraag de details van uw exemplaar op.
+Nadat u de eerder genoemde artikelen hebt bekeken en gereed bent om een upgrade uit te voeren naar PSA versie 3.x of de op UCI gebaseerde versie, dient u een verzoek in bij Microsoft Ondersteuning om de upgrade beschikbaar te maken vanuit Beheercentrum. Geef in uw aanvraag de details van uw exemplaar op.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Oudere versies van PSA (PSA versie 2.x) in een nieuw exemplaar
 

@@ -1,6 +1,6 @@
 ---
-title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 15, v3
-description: Dit onderwerp bevat informatie over wat er nieuw en gewijzigd is in Project Service Automation updaterelease 15, v3.
+title: Wat is er nieuw of gewijzigd in Project Service Automation updateversie 15, v3
+description: Dit artikel bevat informatie over nieuwe functies in Project Service Automation-updateversie 15, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -16,22 +16,22 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 26b9ee0a6ff1ad81d6c77a6a7091733667c493ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b87cae2cd8913457c2931d1661a57509d1398d29
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915638"
 ---
-# <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation, updaterelease 15, v3
+# <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation, updateversie 15, v3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Met genoegen kondigen we de nieuwste update voor de toepassing Dynamics 365 Project Service Automation (PSA) aan. Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid. Deze versie is compatibel met Dynamics 365 9.x. Als u deze release wilt bijwerken, gaat u online naar het Beheercentrum voor Dynamics 365. Hierin gaat u naar de pagina Oplossingen om de update te installeren. Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](/power-platform/admin/install-remove-preferred-solution).
 
-In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw of gewijzigd zijn voor PSA v3, updaterelease 15. Deze versie heeft het buildnummer V3.10.5.28 en is algemeen beschikbaar via een zelf-update vanaf januari 2020.
+In dit artikel worden de functies en oplossingen vermeld die nieuw of gewijzigd zijn voor PSA V3, updateversie 15. Deze versie heeft het buildnummer V3.10.5.28 en is algemeen beschikbaar via een zelf-update vanaf januari 2020.
 
-## <a name="update-release-15"></a>Updaterelease 15 
+## <a name="update-release-15"></a>Updateversie 15 
 
 ### <a name="enhancements"></a>Verbeteringen
 
@@ -61,7 +61,7 @@ In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw 
   - Opgelost: code in **PluginDomain.ExecuteInTryCatchBlock (..)** verbergt niet langer de oorsprong van de uitzondering.
   - Opgelost: geen foutmelding meer in **opzoekweergave van projecten** in het formulier **Prijsopgaveregel** wanneer er meer dan 1000 projecten zijn.
   - Opgelost: het raster **Schattingen** voor schattingen voor arbeid en onkosten geeft nu het juiste valutasymbool weer.
-  - Opgelost: nadat een organisatie PSA heeft bijgewerkt van updaterelease 14 naar updaterelease 15, wordt het tabblad **Planning** niet langer leeg weergegeven op het formulier **Project**.
+  - Opgelost: nadat een organisatie PSA heeft bijgewerkt van updateversie 14 naar updateversie 15, wordt het tabblad **Planning** niet langer leeg weergegeven op het formulier **Project**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

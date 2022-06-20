@@ -1,22 +1,22 @@
 ---
 title: Integratie van projectfacturen
-description: Dit onderwerp biedt informatie over integratie voor klantfacturering via twee keer wegschrijven in Project Operations.
+description: Dit artikel bevat informatie over de integratie van tweemaal wegschrijven in Project Operations voor klantfacturering.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912096"
 ---
 # <a name="project-invoice-integration"></a>Integratie van projectfacturen
 
-Dit onderwerp biedt informatie over integratie voor klantfacturering via twee keer wegschrijven in Project Operations.
+Dit artikel bevat informatie over de integratie van tweemaal wegschrijven in Project Operations voor klantfacturering.
 
 In Project Operations beheert de projectmanager de achterstand in projectfacturering en maakt een pro-formafactuur voor de klant in Microsoft Dataverse. Op basis van deze pro-formafactuur maakt de klantenadministrateur of projectaccountant een klantgerichte factuur aan. Integratie van twee keer wegschrijven zorgt ervoor dat de pro forma-factuurgegevens worden gesynchroniseerd met apps voor financiën en bedrijfsactiviteiten. Nadat de klantgerichte factuur is geboekt, werkt het systeem de relevante werkelijke projectwaarden bij in Dataverse met de boekhoudkundige details. De volgende afbeelding geeft een conceptueel overzicht op hoofdlijnen van deze integratie.
 

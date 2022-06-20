@@ -1,6 +1,6 @@
 ---
-title: Wat is er nieuw of gewijzigd in Project Service Automation updaterelease 14, v3
-description: Dit onderwerp bevat informatie over wat er nieuw en gewijzigd is in Project Service Automation updaterelease 14, v3.
+title: Wat is er nieuw of gewijzigd in Project Service Automation updateversie 14, v3
+description: Dit artikel bevat informatie over nieuwe functies in Project Service Automation-updateversie 14 V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,25 +16,25 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926540"
 ---
-# <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation, updaterelease 14, v3
+# <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation, updateversie 14, v3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Met genoegen kondigen we de nieuwste update voor de toepassing Dynamics 365 Project Service Automation (PSA) aan. Deze release bevat enkele belangrijke verbeteringen op gebied van kwaliteit, prestaties en bruikbaarheid. Deze versie is compatibel met Dynamics 365 9.x. Als u deze release wilt bijwerken, gaat u online naar het Beheercentrum voor Dynamics 365. Hierin gaat u naar de pagina Oplossingen om de update te installeren. Meer informatie vindt u in [Een voorkeursoplossing installeren, bijwerken of verwijderen](/power-platform/admin/install-remove-preferred-solution).
 
-In dit onderwerp vindt u een overzicht van de functies en oplossingen die nieuw of gewijzigd zijn voor PSA v3, updaterelease 14. Deze versie heeft het buildnummer V3.10.4.21 en komt beschikbaar volgens de volgende planning:
+In dit artikel worden de functies en oplossingen vermeld die nieuw of gewijzigd zijn voor PSA V3, updateversie 14. Deze versie heeft het buildnummer V3.10.4.21 en komt beschikbaar volgens de volgende planning:
 
 - **Algemene beschikbaarheid (zelf-update):** januari 2020
 - **Automatische update:** februari 2020
 
-## <a name="update-release-14"></a>Updaterelease 14
+## <a name="update-release-14"></a>Updateversie 14
 
 ### <a name="enhancements"></a>Verbeteringen
 

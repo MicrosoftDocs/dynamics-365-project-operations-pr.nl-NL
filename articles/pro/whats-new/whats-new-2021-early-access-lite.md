@@ -1,24 +1,24 @@
 ---
 title: Wat is er nieuw in de versie voor vroege toegang van wave 2 voor 2021 - Project Operations Lite-implementatie
-description: Dit onderwerp bevat informatie over de functies die beschikbaar zijn in de versie voor vroege toegang van wave 2 voor 2021 van Project Operations Lite-implementatie.
+description: Dit artikel biedt informatie over de functies die beschikbaar zijn in wave 2 van de release voor vroege toegang van Project Operations Lite-implementatie van 2021.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924102"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Wat is er nieuw in de versie voor vroege toegang van wave 2 voor 2021 - Project Operations Lite-implementatie
 
 _Van toepassing op: Lite-implementatie - van deal tot pro-formafacturering_
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
   - Project Operations in Dataverse-omgeving, versie 4.23.0.4
 

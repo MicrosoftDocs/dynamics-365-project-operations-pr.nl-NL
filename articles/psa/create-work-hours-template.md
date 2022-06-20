@@ -1,6 +1,6 @@
 ---
 title: Een werkurensjabloon maken
-description: In dit onderwerp wordt beschreven hoe u een werkurensjabloon kunt maken in Project Service.
+description: In dit artikel wordt beschreven hoe u een werkurensjabloon maakt in Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f3ac17a29e79f86f7c3ce127edb4b02ca63ea04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916052"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Een werkurensjabloon maken (Project Service)
 

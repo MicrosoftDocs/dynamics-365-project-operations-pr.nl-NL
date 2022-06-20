@@ -1,17 +1,17 @@
 ---
 title: Projectkosten bijhouden
-description: Deze onderwerp biedt informatie over hoe in Project Operations de voortgang wordt bijgehouden op basis van loonkosten en uitgaven voor een project.
+description: Dit artikel biedt informatie over hoe Project Operations de voortgang bijhoudt ten opzichte van de arbeidskosten en -uitgaven bij een project.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f724ee29728a363c58ed0e69087f4c18be89ea2d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c069a28c6dc546e5e632c4dff29686dc7965f23e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923734"
 ---
 # <a name="labor-cost-tracking-on-projects"></a>Loonkosten voor projecten bijhouden
 

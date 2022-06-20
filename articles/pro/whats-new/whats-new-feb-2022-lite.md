@@ -1,24 +1,24 @@
 ---
 title: Nieuwe functies van februari 2022 - Lite-implementatie Project Operations
-description: Dit onderwerp biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations Lite-implementatie van februari 2022.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations Lite-implementatie van februari 2022.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922814"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>Nieuwe functies van februari 2022 - Lite-implementatie Project Operations
 
 _Van toepassing op: Lite-implementatie - van deal tot pro-formafacturering_
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Microsoft Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in een Dataverse-omgeving versie 4.28.0.120
 

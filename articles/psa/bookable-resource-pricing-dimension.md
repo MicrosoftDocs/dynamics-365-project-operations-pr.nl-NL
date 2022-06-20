@@ -1,6 +1,6 @@
 ---
 title: Boekbare resource gebruiken als een prijsdimensie
-description: Dit onderwerp bevat informatie over het gebruik van een boekbare resource als een prijsdimensie.
+description: Dit artikel bevat informatie over het gebruik van een boekbare resource als een prijsdimensie.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916098"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Boekbare resource gebruiken als een prijsdimensie
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dit onderwerp bevat informatie over het gebruik van een boekbare resource als een prijsdimensie. Voordat u begint, moet u een nieuwe oplossing voor prijsdimensies maken als u deze nog niet hebt. Als u al een oplossing voor prijsdimensies hebt, kunt u wijzigingen in die oplossing aanbrengen. Als u geen nieuwe oplossing voor prijsdimensies voor uw organisatie hebt gemaakt, voltooit u de procedures in het onderwerp [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md).
+Dit artikel bevat informatie over het gebruik van een boekbare resource als een prijsdimensie. Voordat u begint, moet u een nieuwe oplossing voor prijsdimensies maken als u deze nog niet hebt. Als u al een oplossing voor prijsdimensies hebt, kunt u wijzigingen in die oplossing aanbrengen. Als u geen nieuwe oplossing voor prijsdimensies voor uw organisatie hebt gemaakt, voltooit u de procedures in het artikel [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Boekbare resource toevoegen aan formulieren en weergaven
 Als u de velden zichtbaar wilt maken in de gebruikersinterface in de oplossing voor prijsdimensies, moet u alle formulieren en weergaven van de belangrijkste Project Service-entiteiten doorlopen en deze velden toevoegen aan de formulieren en weergaven van deze entiteiten.

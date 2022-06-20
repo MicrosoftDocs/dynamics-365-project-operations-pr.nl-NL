@@ -1,6 +1,6 @@
 ---
 title: Wat is er nieuw of gewijzigd in Project Service Automation versie 3.x, wave 1 van 2020
-description: In dit onderwerp vindt u informatie over wat er nieuw en gewijzigd is in Project Service Automation versie 3, wave 1 van 2020.
+description: Dit artikel bevat informatie over wat er nieuw en gewijzigd is in Project Service Automation-versie 3, wave 1 van 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928610"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Wat is er nieuw of gewijzigd in Project Service Automation versie 3, wave 1 van 2020
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-In dit onderwerp worden belangrijke overwegingen belicht voor upgraden, wanneer u wilt overstappen naar de nieuwste release van Project Service Automation (PSA) versie 3.x, wave 1 van 2020.
+Het artikel belicht belangrijke upgrade-overwegingen bij het overstappen naar de nieuwste release van Project Service Automation (PSA) versie 3.x wave 1 van 2020.
 
 ## <a name="time-entry"></a>Tijdsvermelding
 De tijdinvoerervaring is uitgebreid en biedt nu mogelijkheden voor het uitbreiden van tijdinvoer naar meer klantenscenario's. Dit omvat de mogelijkheid om invoertypen toe te voegen, die nu specifiek gedrag aansturen op basis van de veldschemanaam **Instellingen voor tijdinvoer**, weergegeven als **Tijdsbron**. De nieuwe oplossing TESA (Time, Expense, Statusing and Approvals) is toegevoegd om deze functionaliteit te ondersteunen.

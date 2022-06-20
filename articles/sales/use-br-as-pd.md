@@ -1,26 +1,26 @@
 ---
 title: Een boekbare resource gebruiken als een prijsdimensie
-description: Dit onderwerp bevat informatie over het gebruik van een boekbare resource als een prijsdimensie.
+description: Dit artikel bevat informatie over het gebruik van een boekbare resource als een prijsdimensie.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598621"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914810"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Een boekbare resource gebruiken als een prijsdimensie
 
  _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_ 
 
-Dit onderwerp bevat informatie over het gebruik van een boekbare resource als een prijsdimensie. Als uw prijsstrategie zo is ingesteld dat elke boekbare resource een specifieke prijs of een specifiek kostentarief moet hebben, gebruikt u een boekbare resource als prijsdimensie.
+Dit artikel bevat informatie over het gebruik van een boekbare resource als een prijsdimensie. Als uw prijsstrategie zo is ingesteld dat elke boekbare resource een specifieke prijs of een specifiek kostentarief moet hebben, gebruikt u een boekbare resource als prijsdimensie.
 
 ## <a name="prerequisites"></a>Vereisten
-Voordat u de procedures In dit onderwerp voltooit, moet u een nieuwe prijsdimensie-oplossing voor uw organisatie hebben. Als u deze nog niet hebt gemaakt, raadpleegt u [Aangepaste velden en entiteiten maken](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Voordat u de procedures in dit artikel voltooit, moet u een nieuwe prijsdimensieoplossing voor uw organisatie hebben. Als u deze nog niet hebt gemaakt, raadpleegt u [Aangepaste velden en entiteiten maken](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Het veld Boekbare resource toevoegen aan formulieren en weergaven
 Als u het veld **Boekbare resource** zichtbaar wilt maken in de oplossing voor de prijsdimensie, moet u het veld als een entiteit aan alle formulieren en weergaven toevoegen.

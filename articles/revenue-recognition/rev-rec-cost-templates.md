@@ -1,24 +1,24 @@
 ---
 title: Kostensjablonen instellen
-description: Dit onderwerp bevat informatie over hoe u kostensjablonen in Project Operations kunt maken en gebruiken.
+description: Dit artikel biedt informatie over het maken en gebruiken van kostensjablonen in Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918398"
 ---
 # <a name="set-up-cost-templates"></a>Kostensjablonen instellen
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
 
-Dit onderwerp bevat informatie over hoe u kostensjablonen in Project Operations kunt maken en gebruiken. Met een kostensjabloon wordt het volgende bepaald:
+Dit artikel biedt informatie over het maken en gebruiken van kostensjablonen in Project Operations. Met een kostensjabloon wordt het volgende bepaald:
 
 - De projectcategorieën voor prognoses en werkelijke transacties die moeten worden opgenomen in een percentage van de berekening van de projectafronding. De waarde van het percentage voltooid wordt vervolgens gebruikt om te berekenen hoeveel omzet wordt toegerekend.
 - Of het voltooiingspercentage kan worden gewijzigd als het automatisch wordt berekend.

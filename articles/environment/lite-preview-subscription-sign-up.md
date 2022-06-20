@@ -1,21 +1,21 @@
 ---
 title: Aanmelden voor een preview-abonnement - lite
-description: In dit onderwerp vindt u informatie over hoe u zich kunt abonneren op Project Operations Lite en hoe u dit kunt implementeren, van deal tot pro-formafacturering.
+description: Dit artikel bevat informatie over het abonneren op en implementeren van Project Operations Lite-implementatie - van deal tot pro-formafacturering.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921250"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Aanmelden voor een preview-abonnement - lite 
 
-In dit onderwerp wordt uitgelegd hoe u zich kunt abonneren op de proefaanbieding en hoe u Dynamics 365 Project Operations Lite - van deal tot pro-formafacturering kunt implementeren.
+In dit artikel wordt uitgelegd hoe u zich kunt abonneren op de proefversie en Dynamics 365 Project Operations Lite-implementatie - van deal tot pro-formafacturering kunt implementeren.
 
 > [!NOTE]
 > Dit proces zal veranderen in komende releases van Project Operations.
@@ -50,7 +50,7 @@ Voordat u begint, moet u ervoor zorgen dat u bent aangemeld bij een browser met 
 
 ## <a name="create-a-new-dataverse-environment"></a>Een nieuwe Dataverse-omgeving maken
 
-1. Richt een nieuwe Dataverse-implementatieomgeving voor Project Operations in aan de hand van de instructies in het onderwerp [Dataverse-implementatiemodel](lite-deployment.md). Zorg ervoor dat u **Proefversie (op basis van abonnement)** gebruikt als u het omgevingstype selecteert.
+1. Richt een nieuwe Project Operations Dataverse-implementatieomgeving in door de instructies in het artikel [Dataverse-implementatiemodel](lite-deployment.md) te volgen. Zorg ervoor dat u **Proefversie (op basis van abonnement)** gebruikt als u het omgevingstype selecteert.
 
   ![Nieuwe omgeving.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Voordat u begint, moet u ervoor zorgen dat u bent aangemeld bij een browser met 
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-configuratie installeren en demogegevens instellen
 
-Installeer de CDS-configuratie en stel demogegevens in aan de hand van de instructies in het onderwerp [Demogegevens voor installatie en configuratie toepassen](lite-apply-demo-setup-config-data.md).
+Installeer de CDS-configuratie en stel demogegevens in door de instructies in het artikel [Demo-instellingen en configuratiegegevens toepassen](lite-apply-demo-setup-config-data.md) te volgen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

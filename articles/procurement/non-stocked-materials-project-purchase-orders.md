@@ -1,18 +1,18 @@
 ---
 title: Niet-voorradige materialen bestellen voor een project met behulp van projectinkooporders
-description: In dit onderwerp wordt uitgelegd hoe u niet-voorradige materialen kunt bestellen voor een project met behulp van projectinkooporders.
+description: In dit artikel wordt uitgelegd hoe u niet-voorradige materialen kunt bestellen voor een project met behulp van projectinkooporders.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: fe24faa143869af2396f3b0f28aae31417cadda7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929806"
 ---
 # <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Inkoopcategorieën of niet-voorradige materialen bestellen voor een project met behulp van projectinkooporders
 

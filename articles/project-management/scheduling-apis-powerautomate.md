@@ -1,25 +1,25 @@
 ---
 title: API's voor projectplanning gebruiken met Power Automate
-description: Dit onderwerp biedt een voorbeeldstroom die gebruikmaakt van de API's (Application Programming Interfaces) voor projectplanning.
+description: Dit artikel biedt een voorbeeldstroom die gebruikmaakt van de API's (Application Programming Interfaces) voor projectplanning.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916328"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>API's voor projectplanning gebruiken met Power Automate
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Dit onderwerp bevat een beschrijving van een voorbeeldstroom die laat zien hoe u een compleet projectplan kunt maken met behulp van Microsoft Power Automate, hoe u een bewerkingsset maakt en hoe u een entiteit bijwerkt. Het voorbeeld laat zien hoe u een project, projectteamlid, bewerkingssets, projecttaken en resourcetoewijzingen maakt. In dit onderwerp wordt ook uitgelegd hoe u een entiteit bijwerkt en een bewerkingsset uitvoert.
+Dit artikel bevat een beschrijving van een voorbeeldstroom die laat zien hoe u een compleet projectplan kunt maken met behulp van Microsoft Power Automate, hoe u een bewerkingsset maakt en hoe u een entiteit bijwerkt. Het voorbeeld laat zien hoe u een project, projectteamlid, bewerkingssets, projecttaken en resourcetoewijzingen maakt. In dit artikel wordt ook uitgelegd hoe u een entiteit bijwerkt en een bewerkingsset uitvoert.
 
-Het volgende is een volledige lijst van de stappen die zijn gedocumenteerd in de voorbeeldstroom In dit onderwerp:
+Het volgende is een volledige lijst van de stappen die zijn gedocumenteerd in de voorbeeldstroom in dit artikel:
 
 1. [Een PowerApps-trigger maken](#1)
 2. [Een project maken](#2)
@@ -30,7 +30,7 @@ Het volgende is een volledige lijst van de stappen die zijn gedocumenteerd in de
 7. [Een variabele initialiseren voor de koppelingsstatus](#7)
 8. [Een variabele initialiseren voor het aantal taken](#8)
 9. [Een variabele initialiseren voor de projecttaak-id](#9)
-10. [Do until](#10)
+10. [Doen tot](#10)
 11. [Een projecttaak instellen](#11)
 12. [Een projecttaak maken](#12)
 13. [Een resourcetoewijzing maken](#13)
@@ -40,7 +40,7 @@ Het volgende is een volledige lijst van de stappen die zijn gedocumenteerd in de
 
 ## <a name="assumptions"></a>Aannames
 
-In dit onderwerp wordt ervan uitgegaan dat u over basiskennis van het Dataverse-platform, cloudstromen en de Application Programming Interface (API) voor projectplanning beschikt. Zie de sectie [Verwijzingen](#references) verderop In dit onderwerp voor meer informatie.
+In dit artikel wordt ervan uitgegaan dat u over basiskennis van het Dataverse-platform, cloudstromen en de Application Programming Interface (API) voor projectplanning beschikt. Zie de sectie [Verwijzingen](#references) verderop in dit artikel voor meer informatie.
 
 ## <a name="create-a-flow"></a>Stroom maken
 
@@ -65,7 +65,7 @@ Volg deze stappen om een [oplossingsbewuste stroom](/power-automate/overview-sol
 1. Selecteer op de pagina **Oplossingen** de oplossing die u hebt gemaakt en selecteer vervolgens **Nieuw**.
 2. Selecteer in het linkerdeelvenster de optie **Cloudstromen** \> **Automatisering** \> **Cloudstroom** \> **Direct**.
 3. Voer in het veld **Stroomnaam** de waarde **API-demostroom plannen** in.
-4. Selecteer in de lijst **Kiezen hoe deze stroom wordt geactiveerd** de optie **Power Apps**. Wanneer u een Power Apps-trigger maakt, bepaalt u als auteur de logica. Laat In dit onderwerp de invoerparameters leeg voor testdoeleinden.
+4. Selecteer in de lijst **Kiezen hoe deze stroom wordt geactiveerd** de optie **Power Apps**. Wanneer u een Power Apps-trigger maakt, bepaalt u als auteur de logica. Laat in dit artikel de invoerparameters leeg voor testdoeleinden.
 5. Selecteer **Maken**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Stap 2: Een project maken
@@ -180,10 +180,10 @@ Voer deze stappen uit om een voorbeeldproject te maken.
 6. Selecteer in het veld **Type** de optie **Tekenreeks**.
 7. Voer in het veld **Waarde** de waarde **guid()** in de opbouwfunctie voor expressies in.
 
-## <a name="step-10-do-until"></a><a id="10"></a>Stap 10: Do until
+## <a name="step-10-do-until"></a><a id="10"></a>Stap 10: Doen tot
 
 1. Selecteer in de stroom de optie **Nieuwe stap**.
-2. Voer in het dialoogvenster **Een bewerking kiezen** de waarde **do until** in. Selecteer daarna op het tabblad **Acties** de bewerking in de lijst met resultaten.
+2. Voer in het dialoogvenster **Een bewerking kiezen** de waarde **doen tot** in. Selecteer daarna op het tabblad **Acties** de bewerking in de lijst met resultaten.
 3. Stel de eerste waarde in de voorwaardelijke instructie in op de variabele **aantal taken** in het dialoogvenster **Dynamische inhoud**.
 4. Stel de voorwaarde in op **kleiner dan of gelijk aan**.
 5. Stel de tweede waarde in de voorwaardelijke instructie in op **0**.

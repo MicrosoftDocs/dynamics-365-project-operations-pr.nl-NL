@@ -1,6 +1,6 @@
 ---
-title: Producten
-description: Dit onderwerp bevat informatie over de productcatalogus die u kunt gebruiken om klanten informatie te geven over de producten en prijzen die uw organisatie aanbiedt.
+title: PRODUCTEN
+description: Dit artikel bevat informatie over de productcatalogus die u kunt gebruiken om klanten informatie te verstrekken over de producten en prijzen die uw organisatie aanbiedt.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d45a705c48df84a8f5b3f60121fbcc25e225e6e5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574088"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933072"
 ---
 # <a name="products"></a>Producten
 
@@ -87,7 +87,7 @@ Er wordt nu een nieuw productrecord geopend met dezelfde gegevens als het oorspr
 
 Als uw organisatie een product niet meer verkoopt, trekt u het terug zodat het niet meer beschikbaar is voor uw verkopers.
 
-1.  Zorg dat u de rol Systeembeheerder of Sales Professional Manager of gelijkwaardige machtigingen hebt.
+1.  Zorg dat u de rol Systeembeheerder of Verkoopmanager of gelijkwaardige machtigingen hebt.
 2.  Selecteer **Producten** in het siteoverzicht.
 3.  Open een actief product dat u buiten gebruik wilt stellen en selecteer op de opdrachtbalk de optie **Buiten gebruik stellen**.
 4.  Selecteer in het dialoogvenster **Buitengebruikstelling bevestigen** de optie **Bevestigen**.
@@ -100,7 +100,7 @@ Als u wilt stoppen met de verkoop van een product, verwijdert u het.
 > [!IMPORTANT]
 > U kunt een verwijderde record niet herstellen.
 
-1.  Zorg dat u de rol Systeembeheerder of Sales Professional Manager of gelijkwaardige machtigingen hebt.
+1.  Zorg dat u de rol Systeembeheerder of Verkoopmanager of gelijkwaardige machtigingen hebt.
 2.  Selecteer **Producten** in het siteoverzicht.
 3.  Selecteer een productrecord dat u wilt verwijderen en selecteer op de opdrachtbalk de optie **Verwijderen**.
 4.  Selecteer **Doorgaan** in het dialoogvenster **Verwijdering bevestigen**.

@@ -1,6 +1,6 @@
 ---
 title: Prijsopgaven en prijsopgaveregels
-description: Dit onderwerp bevat informatie over prijsopgaven en prijsopgaveregels.
+description: Dit artikel bevat informatie over prijsopgaven en prijsopgaveregels.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933348"
 ---
 # <a name="quotes-and-quote-lines"></a>Prijsopgaven en prijsopgaveregels
 
@@ -39,7 +39,7 @@ In Dynamics 365 Project Service Automation zijn er twee typen prijsopgaven: proj
 - Een verkoopprijsopgave bevat niet alle velden en concepten die zijn opgenomen in een projectprijsopgave. De velden omvatten **Contracterende eenheid**, **Accountmanager** en **Naam van de contactpersoon voor de factuur**.  
 - Verkoopprijsopgaven en projectprijsopgaven worden ook aangeduid met een op een optieset gebaseerd veld met de naam **Type**. Voor een verkoopprijsopgave heeft dit veld de waarde **Artikelgebaseerd**. Voor een projectprijsopgave heeft deze de waarde **Werkgebaseerd**.
 
-In dit onderwerp wordt ingegaan op de details van projectprijsopgaven.
+In dit artikel wordt ingegaan op de details van projectprijsopgaven.
 
 Een projectprijsopgave in PSA kan meerdere regelartikelen of prijsopgaveregels bevatten. Een projectprijsopgave heeft zelfs twee rasters voor regelitems. Eén raster is bedoeld voor projectgebaseerde regels die gedetailleerde schattingen mogelijk maken. Het andere raster is bedoeld voor productgebaseerde regels die gebruikmaken van een eenvoudige eenheidsprijs en een op hoeveelheid gebaseerde benadering.
 

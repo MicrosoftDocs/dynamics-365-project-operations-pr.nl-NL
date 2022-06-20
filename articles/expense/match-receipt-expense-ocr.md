@@ -1,6 +1,6 @@
 ---
 title: Een betalingsbewijs vastleggen via OCR
-description: Dit onderwerp bevat informatie over de OCR-verwerking (optische tekenherkenning) voor betalingsbewijzen.
+description: Dit artikel biedt informatie over de verwerking van optische tekenherkenning (OCR) voor kwitanties.
 author: suvaidya
 ms.date: 11/10/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ee16a43fa544af793676072f304d732359d3d9ec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917800"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Een betalingsbewijs vastleggen via OCR
 

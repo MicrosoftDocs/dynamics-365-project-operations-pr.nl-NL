@@ -1,6 +1,6 @@
 ---
 title: Projectonkostencategorieën tussen financiën en bedrijfsactiviteiten en Project Service Automation synchroniseren
-description: In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om projectonkostencategorieën rechtstreeks tussen Microsoft Dynamics 365 Finance en Dynamics 365 Project Service Automation te synchroniseren.
+description: In dit artikel worden de sjablonen en onderliggende taken beschreven die worden gebruikt om projectonkostencategorieën rechtstreeks tussen Microsoft Dynamics 365 Finance en Dynamics 365 Project Service Automation te synchroniseren.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927230"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Projectonkostencategorieën tussen financiën en bedrijfsactiviteiten en Project Service Automation synchroniseren
 
 [!include[banner](../includes/banner.md)]
 
-In dit onderwerp worden de sjablonen en onderliggende taken beschreven die worden gebruikt om projectonkostencategorieën rechtstreeks tussen Dynamics 365 Finance en Dynamics 365 Project Service Automation te synchroniseren.
+In dit artikel worden de sjablonen en onderliggende taken beschreven die worden gebruikt om projectonkostencategorieën rechtstreeks tussen Dynamics 365 Finance en Dynamics 365 Project Service Automation te synchroniseren.
 
 > [!NOTE]
 > - Projecttaakintegratie, onkostentransactiecategorieën, uurschattingen, onkostenschattingen en functionaliteitsvergrendeling zijn beschikbaar in versie 8.0.

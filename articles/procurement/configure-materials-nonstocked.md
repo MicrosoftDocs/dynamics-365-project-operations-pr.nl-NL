@@ -1,18 +1,18 @@
 ---
 title: Niet-voorradig materiaal en in behandeling zijnde leveranciersfacturen configureren
-description: In dit onderwerp wordt uitgelegd hoe u niet-voorradig materiaal en in behandeling zijnde leveranciersfacturen kunt inschakelen.
+description: In dit artikel wordt uitgelegd hoe u niet-voorradige materialen en n behandeling zijnde leveranciersfacturen kunt inschakelen.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913752"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Niet-voorradig materiaal en in behandeling zijnde leveranciersfacturen configureren
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Kaarten voor Twee keer wegschrijven uitvoeren voor niet-voorradig materiaal en integratie van leveranciersfacturen
 
-Dit gedeelte bevat informatie over de specifieke kaarten die nodig zijn voor niet-voorradig materiaal en leveranciersfacturen. Controleer of de vereiste kaarten in het onderwerp [Een nieuwe omgeving inrichten](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) worden uitgevoerd op uw omgeving.
+Dit gedeelte bevat informatie over de specifieke kaarten die nodig zijn voor niet-voorradig materiaal en leveranciersfacturen. Controleer of de vereiste toewijzingen die worden vermeld in het artikel [Een nieuwe omgeving inrichten](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) worden uitgevoerd op uw omgeving.
 
 1. Ga naar Lifecycle Services (LCS), navigeer naar uw LCS-project en ga naar de pagina **Omgevingsdetails**.
 2. Selecteer in het gedeelte **Common Data Service-omgevingsinformatie** de optie **Koppelen aan CDS for Apps**. Nadat u de koppeling hebt geselecteerd, wordt u doorgestuurd naar de lijst met entiteiten in de toewijzingen.

@@ -1,6 +1,6 @@
 ---
 title: Aangepaste velden instellen als prijsdimensies
-description: In dit onderwerp krijgt u informatie over het instellen van prijsdimensies met behulp van aangepaste velden.
+description: Dit artikel bevat informatie over het instellen van prijsdimensies met behulp van aangepaste velden.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917570"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Aangepaste velden instellen als prijsdimensies
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-In dit onderwerp wordt ervan uitgegaan dat u de procedures hebt voltooid in de onderwerpen [Aangepaste velden en entiteiten maken](create-custom-fields-entities-pricing-dimensions.md) en [Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](add-custom-fields-price-setup-transactional-entities.md). Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar Dit onderwerp. 
+Voordat u begint, wordt er in dit artikel vanuit gegaan dat u de procedures hebt voltooid in de artikelen [Aangepaste velden en entiteiten maken](create-custom-fields-entities-pricing-dimensions.md) en [Vereiste aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](add-custom-fields-price-setup-transactional-entities.md). Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar dit artikel. 
 
-Dit onderwerp bevat informatie over het instellen van aangepaste prijsdimensies. Op de pagina **Parameters** op het tabblad **Op bedrag gebaseerde prijsdimensies** worden de records in de entiteiten voor prijsdimensie weergegeven. Standaard bevat het raster op dit tabblad twee rijen:
+Dit artikel bevat informatie over het instellen van aangepaste prijsdimensies. Op de pagina **Parameters** op het tabblad **Op bedrag gebaseerde prijsdimensies** worden de records in de entiteiten voor prijsdimensie weergegeven. Standaard bevat het raster op dit tabblad twee rijen:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Organisatie-eenheid)

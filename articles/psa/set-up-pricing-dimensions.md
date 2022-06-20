@@ -1,6 +1,6 @@
 ---
 title: Aangepaste velden instellen als prijsdimensies
-description: Dit onderwerp bevat informatie over het instellen van aangepaste prijsdimensies.
+description: Dit artikel bevat informatie over het instellen van aangepaste prijsdimensies.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922591"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Aangepaste velden instellen als prijsdimensies 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Voordat u begint, wordt er In dit onderwerp vanuit gegaan dat u de procedures hebt voltooid in de onderwerpen [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md) en [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](field-references.md). Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar Dit onderwerp. 
+Voordat u begint, wordt er in dit artikel vanuit gegaan dat u de procedures hebt voltooid in de artikelen [Aangepaste velden en entiteiten maken](create-custom-fields-entities.md) en [Aangepaste velden toevoegen aan prijsinstellingen en transactie-entiteiten](field-references.md). Als u deze procedures niet hebt voltooid, gaat u terug, voltooit u deze en keert u terug naar dit artikel. 
 
-Dit onderwerp bevat informatie over het instellen van aangepaste prijsdimensies. In de webinterface van Project Service ziet u op de pagina **Parameters** in het tabblad **Op bedrag gebaseerde prijsdimensies** de records in de dimensie-entiteiten voor prijs. Standaard worden bij de installatie van Project Service twee rijen aangemaakt in het raster op dit tabblad:
+Dit artikel bevat informatie over het instellen van aangepaste prijsdimensies. In de webinterface van Project Service ziet u op de pagina **Parameters** in het tabblad **Op bedrag gebaseerde prijsdimensies** de records in de dimensie-entiteiten voor prijs. Standaard worden bij de installatie van Project Service twee rijen aangemaakt in het raster op dit tabblad:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Organisatie-eenheid)

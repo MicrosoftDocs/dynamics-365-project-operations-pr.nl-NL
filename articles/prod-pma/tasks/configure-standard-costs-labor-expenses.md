@@ -1,6 +1,6 @@
 ---
 title: Standaardkosten voor arbeid en onkosten configureren
-description: In dit onderwerp wordt uitgelegd hoe u standaardkosten voor arbeid en onkosten voor een project instelt.
+description: In dit artikel wordt beschreven hoe u de standaardkosten voor arbeid en onkosten voor een project instelt.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919502"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Standaardkosten voor arbeid en onkosten configureren
 
 [!include [banner](../../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u standaardkosten voor arbeid en onkosten voor een project instelt. Deze taak maakt gebruik van de USSI-gegevensset.
+In dit artikel wordt beschreven hoe u de standaardkosten voor arbeid en onkosten voor een project instelt. Deze taak maakt gebruik van de USSI-gegevensset.
 
 1. Ga in het navigatievenster naar **Modules > Projectmanagement en financiële administratie > Instellingen > Prijzen > Kostprijs (uur)**.
 2. Selecteer **Nieuw**.

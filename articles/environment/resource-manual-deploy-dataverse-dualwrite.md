@@ -1,25 +1,25 @@
 ---
 title: De Project Operations Dataverse-app met ondersteuning voor twee keer wegschrijven handmatig implementeren
-description: In dit onderwerp wordt uitgelegd hoe u de Project Operations Dataverse-app handmatig kunt implementeren zodat twee keer wegschrijven wordt ondersteund.
+description: In dit artikel wordt uitgelegd hoe u de Project Operations Dataverse-app handmatig kunt implementeren zodat twee keer wegschrijven wordt ondersteund.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912004"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>De Project Operations Dataverse-app met ondersteuning voor twee keer wegschrijven handmatig implementeren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-In dit onderwerp wordt uitgelegd hoe u de Microsoft Dynamics 365 Project Operations in Microsoft Dataverse handmatig kunt implementeren zodat twee keer wegschrijven wordt ondersteund. In Project Operations wordt de configuratie van de omgeving gedetecteerd en wordt extra ondersteuning toegevoegd voor twee keer wegschrijven als aan de vereisten wordt voldaan.
+In dit artikel wordt uitgelegd hoe u Microsoft Dynamics 365 Project Operations handmatig kunt implementeren in Microsoft Dataverse zodat twee keer wegschrijven wordt ondersteund. In Project Operations wordt de configuratie van de omgeving gedetecteerd en wordt extra ondersteuning toegevoegd voor twee keer wegschrijven als aan de vereisten wordt voldaan.
 
-Tijdens de implementatie via Microsoft Dynamics Lifecycle Services (LCS) kunt u als u de instructies In dit onderwerp hebt gevolgd, de implementatie van de Microsoft Power Platform-integratie (voorheen bekend als de Common Data Service-omgeving) overslaan.
+Tijdens implementatie via Microsoft Dynamics Lifecycle Services (LCS), kunt u, als u de instructies in dit artikel hebt gevolgd, de implementatie van de Microsoft Power Platform-integratie (voorheen bekend als de Common Data Service-omgeving) overslaan.
 
 Het implementatieproces van Project Operations in Dataverse zodat twee keer wegschrijven wordt ondersteund, heeft vier hoofdstappen:
 

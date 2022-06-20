@@ -1,17 +1,17 @@
 ---
 title: Toewijzingsversies van twee keer wegschrijven voor Project Operations
-description: Dit onderwerp biedt de lijst met kaarten voor twee keer wegschrijven die zijn vereist voor Dynamics 365 Project Operations.
+description: Dit artikel bevat de lijst met toewijzingen voor tweemaal wegschrijven die vereist zijn voor Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612744"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959411"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Toewijzingsversies van twee keer wegschrijven voor Project Operations
 
@@ -54,7 +54,7 @@ De volgende kaarten zijn vereist voor een Project Operations-oplossing. Toewijzi
 | Entiteit voor tijdramingen van Project Operations-integratie (msdyn_resourceassignments) | 1.0.0.5 | Niet vereist voor inrichting. ||
 | Entiteit voor exporteren van categorieën met projectonkosten voor Project Operations-integratie (msdyn_expensecategories) | 1.0.0.1 | Niet vereist voor inrichting. ||
 | Entiteit voor exporteren van projectkosten voor Project Operations-integratie (msdyn_expenses) | 1.0.0.3 | Niet vereist voor inrichting. ||
-| Entiteit voor exporteren van leverancierfacturen in Project Operations-integratieprojecten (msdyn_projectvendorinvoices) | 1.0.0.0 | Niet vereist voor inrichting. ||
+| Entiteit voor exporteren van leverancierfacturen in Project Operations-integratieprojecten (msdyn_projectvendorinvoices) | 1.0.0.1 | Niet vereist voor inrichting. |10.0.26 of hoger|
 | Entiteit voor exporteren van leverancierfactuurregels in Project Operations-integratieprojecten (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Niet vereist voor inrichting. | 10.0.26 of hoger |
 | Rollen voor projectresources voor alle bedrijven (bookableresourcecategories) | 1.0.0.1 | Vereist een initiële synchronisatie voor de tabeltoewijzing om de resourcerollen van Projectmanager en Teamlid te synchroniseren die zijn ingevuld in de Dynamics 365 Dataverse omgeving tijdens het inrichten. Dataverse is de belangrijkste bron voor de initiële synchronisatie. ||
 | Projecttaken (msdyn_projecttasks) | 1.0.0.4 | Niet vereist voor inrichting. ||

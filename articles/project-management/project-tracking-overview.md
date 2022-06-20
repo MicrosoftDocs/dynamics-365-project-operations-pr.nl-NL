@@ -1,23 +1,23 @@
 ---
 title: Projectinspanning bijhouden
-description: Dit onderwerp bevat informatie over het bijhouden van de projectinspanning en -voortgang van het werk.
+description: Dit artikel bevat informatie over het bijhouden van de projectinspanning en de voortgang van het werk.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593790"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929254"
 ---
 # <a name="project-effort-tracking"></a>Projectinspanning bijhouden
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-De noodzaak om de voortgang aan de hand van een planning bij te houden verschilt per bedrijfstak. In sommige bedrijfstakken wordt de voortgang op een zeer gedetailleerd niveau gevolgd, terwijl de voortgang in andere bedrijfstakken wordt gevolgd op een hoger, minder gedetailleerd niveau. Dit onderwerp laat zien hoe u een planning kunt maken om te voldoen aan de vereisten van uw organisatie.
+De noodzaak om de voortgang aan de hand van een planning bij te houden verschilt per bedrijfstak. In sommige bedrijfstakken wordt de voortgang op een zeer gedetailleerd niveau gevolgd, terwijl de voortgang in andere bedrijfstakken wordt gevolgd op een hoger, minder gedetailleerd niveau. Dit artikel laat zien hoe u een planning kunt maken om te voldoen aan de vereisten van uw organisatie.
 
 ## <a name="effort-tracking-view"></a>Weergave Inspanningen bijhouden
 

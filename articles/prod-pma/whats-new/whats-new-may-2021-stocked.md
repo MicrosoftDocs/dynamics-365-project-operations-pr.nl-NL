@@ -1,24 +1,24 @@
 ---
 title: Nieuwe of gewijzigde functies in Project Operations in mei 2021voor scenario's op basis van voorradige artikelen/productieorders
-description: Dit onderwerp bevat informatie over de kwaliteitsupdates die beschikbaar zijn in de release van mei 2021 van Project Operations voor scenario´s op basis van voorradige artikelen/productieorders.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations van mei 2021 voor scenario's op basis van voorradige artikelen/productieorders.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927138"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Nieuwe of gewijzigde functies in Project Operations in mei 2021voor scenario's op basis van voorradige artikelen/productieorders
 
 **Van toepassing op**: Project Operations voor scenario's op basis van voorradige artikelen/productieorders
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
 - Projectbeheer en financiële administratie in Dynamics 365 Finance-omgeving versie 10.0.19
  

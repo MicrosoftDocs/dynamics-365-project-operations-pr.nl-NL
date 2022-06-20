@@ -1,6 +1,6 @@
 ---
 title: Projecten plannen en bijhouden
-description: Dit onderwerp bevat een koppeling naar informatie over het plannen en bijhouden van projecten in Project Service Automation.
+description: Dit artikel bevat een koppeling naar informatie over het plannen en bijhouden van projecten in Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933256"
 ---
 # <a name="project-planning-and-tracking"></a>Projecten plannen en bijhouden
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589880"
 
 De toepassing Project Service helpt serviceorganisaties om kansen te identificeren, offertes te doen, contractuele overeenkomsten te sluiten, resources te beheren, tijd en onkosten bij te houden, klanten te factureren en projecten tijdig en binnen het budget uit te voeren. 
 
-De PDF-koppeling die voorheen In dit onderwerp was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende onderwerpen:
+De PDF-koppeling die voorheen in dit artikel was opgenomen, is verwijderd en de inhoud is verplaatst naar de volgende artikelen:
 
 - [Projectplanningen](../project-creating.md)
 - [Projectkosten en -opbrensten](../project-estimating.md)
@@ -43,7 +43,7 @@ De PDF-koppeling die voorheen In dit onderwerp was opgenomen, is verwijderd en d
 - [Projectinstellingen](../project-settings.md)
 
 > [!NOTE]
-> Dit onderwerp wordt verwijderd in een toekomstige documentatie-update. 
+> Dit artikel wordt verwijderd in een toekomstige documentatie-update. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

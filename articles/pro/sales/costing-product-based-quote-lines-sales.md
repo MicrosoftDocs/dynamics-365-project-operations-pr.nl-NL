@@ -1,17 +1,17 @@
 ---
 title: Kostprijsberekening van productgebaseerde prijsopgaveregels
-description: Dit onderwerp bevat informatie over het toepassen van een kostprijs op een productgebaseerde prijsopgaveregel.
+description: Dit artikel biedt informatie over het toepassen van een kostprijs op een productgebaseerde prijsopgaveregel.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 33cfd42a61b368dc2d2d7f18bfaccf3a221a38fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932566"
 ---
 # <a name="costing-product-based-quote-lines"></a>Kostprijsberekening van productgebaseerde prijsopgaveregels
 

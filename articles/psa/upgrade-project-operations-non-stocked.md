@@ -1,6 +1,6 @@
 ---
 title: Upgraden van Project Service Automation naar Project Operations
-description: Dit onderwerp bevat een overzicht van het proces van de upgrade van Microsoft Dynamics 365 Project Service Automation naar Dynamics 365 Project Operations.
+description: Dit artikel bevat een overzicht van het proces van de upgrade van Microsoft Dynamics 365 Project Service Automation naar Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912970"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgraden van Project Service Automation naar Project Operations
 
-We willen graag de eerste van drie fasen aankondigen voor de upgrade van Microsoft Dynamics 365 Project Service Automation naar Dynamics 365 Project Operations. Dit onderwerp biedt een overzicht voor klanten die aan deze interessante stap willen maken. Toekomstige onderwerpen omvatten overwegingen voor ontwikkelaars en details over functieverbeteringen. Ze bieden niet alleen begeleiding om u voor te bereiden op uw upgrade naar Project Operations, maar leggen ook uit wat u kunt verwachten nadat u een upgrade hebt uitgevoerd.
+We willen graag de eerste van drie fasen aankondigen voor de upgrade van Microsoft Dynamics 365 Project Service Automation naar Dynamics 365 Project Operations. Dit artikel biedt een overzicht voor klanten die aan deze interessante stap willen maken. Toekomstige artikelen bevatten overwegingen voor ontwikkelaars en details over functieverbeteringen. Ze bieden niet alleen begeleiding om u voor te bereiden op uw upgrade naar Project Operations, maar leggen ook uit wat u kunt verwachten nadat u een upgrade hebt uitgevoerd.
 
 Het leveringsprogramma voor de upgrade wordt opgesplitst in drie fasen.
 
@@ -57,7 +57,7 @@ Om in aanmerking te komen voor de upgrade van fase 1 moet een klant aan de volge
 - De doelomgeving mag geen records bevatten in de entiteit **msdyn_projecttask**.
 - Geldige Project Operations-licenties moeten worden toegewezen aan alle actieve gebruikers van de klant. 
 - De klant moet het upgradeproces valideren in ten minste één niet-productieomgeving met een representatieve gegevensset die is afgestemd op productiegegevens.
-- De doelomgeving moet worden bijgewerkt naar Project Service Automation Update versie 41 (3.10.62.162) of hoger.
+- De doelomgeving moet worden bijgewerkt naar Project Service Automation-updateversie 41 (3.10.62.162) of hoger.
 
 De vereisten voor fase 2 en fase 3 zullen worden bijgewerkt naarmate de datums voor algemene beschikbaarheid naderen.
 
@@ -90,7 +90,7 @@ Nadat u uw aanpassingen hebt bijgewerkt om Project Operations schoon te importer
     > [!NOTE]
     > Afhankelijk van de hoeveelheid gegevens in de omgeving, kan de upgrade enkele uren duren. Het kernteam dat de upgrade beheert, moet dienovereenkomstig plannen en de upgrade uitvoeren buiten kantooruren. In sommige gevallen, als het gegevensvolume groot is, moet de upgrade tijdens het weekend worden uitgevoerd. De beslissing over planning moet gebaseerd zijn op de testresultaten in lagere omgevingen.
 
-3. Upgrade aangepaste oplossingen waar nodig. Implementeer nu alle wijzigingen die u in uw aanpassingen hebt aangebracht in het gedeelte [Aanpassingen testen en herstructureren](#testing-and-refactoring-customizations) van Dit onderwerp.
+3. Upgrade aangepaste oplossingen waar nodig. Implementeer nu alle wijzigingen die u in uw aanpassingen hebt aangebracht in het gedeelte [Aanpassingen testen en herstructureren](#testing-and-refactoring-customizations) van dit artikel.
 4. Ga naar **Instellingen** \> **Oplossingen** en selecteer de oplossing **Afgeschafte onderdelen voor Project Operations** om deze te verwijderen.
 
     Deze oplossing is een tijdelijke oplossing die het bestaande gegevensmodel en onderdelen bevat die tijdens de upgrade aanwezig zijn. Door deze oplossing te verwijderen, verwijdert u alle velden en onderdelen die niet meer worden gebruikt. Hiermee helpt u de interface te vereenvoudigen en de integratie en extensie makkelijker te maken.
@@ -126,7 +126,6 @@ Als onderdeel van voortdurende investeringen in Project Operations zijn er versc
 | Project Service Automation                             | Project Operations Lite-implementatie                        | Ondersteund               |
 | Projectbeheer en financiële administratie in Dynamics 365 Finance | Project Operations Lite-implementatie                        | Wordt momenteel niet ondersteund |
 | Projectbeheer en financiële administratie van Finance              | Project Operations voor scenario's op basis van resources/niet-voorradige artikelen     | Wordt momenteel niet ondersteund |
-| Projectbeheer en financiële administratie van Finance              | Project Operations voor scenario's op basis van voorradige artikelen/productieorders | Wordt momenteel niet ondersteund |
 | Project Service Automation 3.x                         | Project Operations voor scenario's op basis van resources/niet-voorradige artikelen     | Wordt momenteel niet ondersteund |
 | Project for the Web (speciale omgeving)            | Project Operations Lite-implementatie                        | Wordt momenteel niet ondersteund |
 

@@ -1,17 +1,17 @@
 ---
 title: Aanmelden voor proefversie van Project Operations
-description: Dit onderwerp bevat informatie over het implementeren van een proefversie van Dynamics 365 Project Operations.
+description: Dit artikel bevat informatie over het implementeren van een proefversie van Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584268"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959430"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Aanmelden voor proefversie van Project Operations 
 
@@ -19,9 +19,9 @@ _**Geldt voor:** Project Operations voor scenario's op basis van resources/niet-
 
 
 
-In dit onderwerp wordt uitgelegd hoe u zich kunt abonneren op de preview-partneraanbieding en hoe u een Dynamics 365 Project Operations-omgeving implementeert.
+In dit artikel wordt uitgelegd hoe u zich kunt abonneren op de aanbieding voor preview-partners en hoe u een Dynamics 365 Project Operations-omgeving kunt implementeren.
 
-Met de nieuwe proefversie van Project Operations kunt u automatisch een van de drie ondersteunde implementatiescenario's implementeren door een vragenlijst op basis waarvan de beste implementatieaanpak wordt aanbevolen. In dit onderwerp krijgt u informatie over hoe u het volgende doet:
+Met de nieuwe proefversie van Project Operations kunt u automatisch een van de drie ondersteunde implementatiescenario's implementeren door een vragenlijst op basis waarvan de beste implementatieaanpak wordt aanbevolen. Dit artikel bevat informatie over hoe u het volgende kunt doen:
 
 - Uw proefaanbieding inwisselen.
 - Inrichting starten.
@@ -89,7 +89,8 @@ Voordat u begint, meldt u zich aan via een browser met de gebruikerswerkaccount 
 4.  Selecteer de respectievelijke URL voor Microsoft Dataverse en de URL's voor apps voor financiën en bedrijfsactiviteiten om de implementatie te valideren.
 
 ## <a name="configuring-dual-write"></a>Twee keer wegschrijven configureren
-- Zie voor het configureren van beveiligingsrollen voor twee keer wegschrijven: [Beveiligingsinstellingen bijwerken in Project Operations in Dataverse](resource-provision-new-environment.md).
+- Zie voor het configureren van beveiligingsrollen voor twee keer wegschrijven: [Beveiligingsinstellingen bijwerken in Project Operations in Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Als u toegang wilt krijgen tot de configuratie voor twee keer wegschrijven, navigeert u naar uw Finance and Operations-exemplaar en navigeert u vervolgens naar **Gegevensbeheer** > **Twee keer wegschrijven**.
 - Zie [toewijzingen voor twee keer wegschrijven van Project Operations uitvoeren](resource-provision-new-environment.md#run-project-operations-dual-write-maps) om toewijzingen voor twee keer wegschrijven te configureren.
 
 ## <a name="assign-licenses"></a>Licenties toewijzen

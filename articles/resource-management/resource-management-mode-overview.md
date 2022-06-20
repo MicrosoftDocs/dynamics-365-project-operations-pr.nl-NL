@@ -1,17 +1,17 @@
 ---
 title: Overzicht van resourcebeheermodi
-description: In dit onderwerp krijgt u informatie over functionaliteit voor resourcebeheer in Dynamics 365 Project Operations.
+description: Dit artikel bevat informatie over functionaliteit voor resourcebeheer in Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585050"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928426"
 ---
 # <a name="resource-management-modes-overview"></a>Overzicht van resourcebeheermodi
 
@@ -38,7 +38,7 @@ In organisaties die flexibiliteit bij de toewijzing van resources nodig hebben, 
 
 ![Hybride modus.](./media/resource-management-hybrid.png)
 
-Naast het ondersteunde proces in de centrale modus vindt u in de volgende onderwerpen informatie om alle andere ondersteunde boekingsstromen in de hybride modus te beheren:
+Bekijk, naast het ondersteunde proces in de centrale modus, de volgende artikelen om alle andere ondersteunde boekingsstromen in de hybride modus te beheren:
 
 Een resource rechtstreeks boeken voor een project:
 - [Benoemde, boekbare resources boeken voor een projectteam en taken toewijzen](/dynamics365/project-service/assign-named-bookable-resource)

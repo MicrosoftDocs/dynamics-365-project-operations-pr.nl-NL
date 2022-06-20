@@ -1,6 +1,6 @@
 ---
 title: Projectvoortgang en kostenverbruik
-description: Dit onderwerp bevat informatie over het bijhouden van de projectvoortgang en het kostenverbruik.
+description: Dit artikel bevat informatie over het bijhouden van de projectvoortgang en het kostenverbruik.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921756"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Projectvoortgang en kostenverbruik
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575252"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-De noodzaak om de voortgang aan de hand van een planning bij te houden verschilt per bedrijfstak. In sommige bedrijfstakken wordt de voortgang op een zeer gedetailleerd niveau gevolgd, terwijl de voortgang in andere bedrijfstakken wordt gevolgd op een hoger, minder gedetailleerd niveau. Dit onderwerp laat zien hoe u een planning kunt maken om te voldoen aan de vereisten van uw organisatie.
+De noodzaak om de voortgang aan de hand van een planning bij te houden verschilt per bedrijfstak. In sommige bedrijfstakken wordt de voortgang op een zeer gedetailleerd niveau gevolgd, terwijl de voortgang in andere bedrijfstakken wordt gevolgd op een hoger, minder gedetailleerd niveau. Dit artikel laat zien hoe u een planning kunt maken om te voldoen aan de vereisten van uw organisatie.
 
 ## <a name="effort-tracking-view"></a>Weergave Inspanningen bijhouden
 

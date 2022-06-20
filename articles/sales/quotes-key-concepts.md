@@ -1,6 +1,6 @@
 ---
 title: Prijsopgaven - sleutelbegrippen
-description: Dit onderwerp bevat informatie over de projectprijsopgaven en verkoopprijsopgaven die beschikbaar zijn in Project Operations.
+description: Dit artikel bevat informatie over prijsopgaven voor projecten en verkoopprijsopgaven die beschikbaar zijn in Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912510"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Unieke concepten voor projectgebaseerde prijsopgaven
 
@@ -35,7 +35,7 @@ In Dynamics 365 Project Operations zijn er twee typen prijsopgaven: project en v
 - **Velden en concepten**: een verkoopprijsopgave bevat niet alle velden en concepten die zijn opgenomen in een projectprijsopgave. De velden omvatten **Contracterende eenheid**, **Accountmanager** en **Naam van de contactpersoon voor de factuur**.  
 - **Type**: verkoopprijsopgaven en projectprijsopgaven kunnen ook worden geïdentificeerd aan de hand van het op een optieset gebaseerde veld **Type**. Voor een verkoopprijsopgave heeft dit veld de waarde **Artikelgebaseerd**. Voor een projectprijsopgave heeft deze de waarde **Werkgebaseerd**.
 
-In dit onderwerp wordt ingegaan op de details van projectprijsopgaven.
+In dit artikel wordt ingegaan op de details van projectprijsopgaven.
 
 Een projectprijsopgave in Project Operations kan meerdere regelitems of prijsopgaveregels bevatten. Een projectprijsopgave heeft zelfs twee rasters voor regelitems. Eén raster is bedoeld voor projectgebaseerde regels die gedetailleerde schattingen mogelijk maken. Het andere raster is bedoeld voor productgebaseerde regels die gebruikmaken van een eenvoudige eenheidsprijs en een op hoeveelheid gebaseerde benadering.
 

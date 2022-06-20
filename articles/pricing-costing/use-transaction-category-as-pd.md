@@ -1,17 +1,17 @@
 ---
 title: Transactiecategorie gebruiken als prijsdimensie
-description: Dit onderwerp bevat informatie over het gebruiken van het veld Transactiecategorie als een prijsdimensie.
+description: Dit artikel bevat informatie over het gebruik van het veld Transactiecategorie als een prijsdimensie.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911688"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Transactiecategorie gebruiken als prijsdimensie
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591122"
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 
-Dit onderwerp laat zien hoe u het veld **Transactiecategorie** gebruikt als een prijsdimensie. 
+In dit artikel wordt uitgelegd hoe u het veld **Transactiecategorie** kunt gebruiken als een prijsdimensie. 
 
 ## <a name="prerequisites"></a>Vereisten
-Voordat u de procedures In dit onderwerp voltooit, moet u een nieuwe prijsdimensie-oplossing voor uw organisatie hebben. Als u deze nog niet hebt gemaakt, raadpleegt u [Aangepaste velden en entiteiten maken als prijsdimensies](create-custom-fields-entities-pricing-dimensions.md).
+Voordat u de procedures in dit artikel voltooit, moet u een nieuwe prijsdimensieoplossing voor uw organisatie hebben. Als u deze nog niet hebt gemaakt, raadpleegt u [Aangepaste velden en entiteiten maken als prijsdimensies](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Het veld Transactiecategorie toevoegen aan formulieren en weergaven
 Als u het veld **Transactiecategorie** zichtbaar wilt maken in de oplossing voor de prijsdimensie, moet u het veld als een entiteit aan alle formulieren en weergaven toevoegen.

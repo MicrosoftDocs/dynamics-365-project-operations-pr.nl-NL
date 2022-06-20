@@ -1,6 +1,6 @@
 ---
 title: Geavanceerde contracten maken voor facturering op basis van voortgang
-description: In dit onderwerp wordt uitgelegd hoe u projectcontracten maakt, zodat u facturen voor klanten kunt genereren op basis van een percentage voltooid werk.
+description: In dit artikel wordt uitgelegd hoe u projectcontracten maakt, zodat u facturen voor klanten kunt genereren op basis van een percentage voltooid werk.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913660"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Geavanceerde contracten maken voor facturering op basis van voortgang
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u projectcontracten maakt, zodat u facturen voor klanten kunt maken op basis van een percentage voltooid werk. Factuurbedragen worden automatisch berekend voor de budgetcategorieën van werk dat u voor een project instelt. De timing van de factuur wordt bepaald wanneer u over het projectcontract met de klant onderhandelt.
+In dit artikel wordt uitgelegd hoe u projectcontracten maakt, zodat u facturen voor klanten kunt maken op basis van een percentage voltooid werk. Factuurbedragen worden automatisch berekend voor de budgetcategorieën van werk dat u voor een project instelt. De timing van de factuur wordt bepaald wanneer u over het projectcontract met de klant onderhandelt.
 
-Gebruik de procedures In dit onderwerp om een contract, een bijbehorend project en de factureringsregels op te stellen waarmee de factuurbedragen worden berekend voor de budgetcategorieën met werk die u voor het project instelt.
+Gebruik de procedures in dit artikel voor het instellen van een contract, een gekoppeld project en de factureringsregels voor het berekenen van de factuurbedragen voor de budgetcategorieën van werkzaamheden die u voor het project hebt ingesteld.
 
 Nadat u het contract en het project hebt aangemaakt, kunt u de details van het project instellen. U kunt bijvoorbeeld activiteiten definiëren en werknemers aan het project toewijzen.
 

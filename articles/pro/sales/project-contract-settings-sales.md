@@ -1,23 +1,23 @@
 ---
 title: Instellingen voor projectcontracten - lite
-description: Dit onderwerp bevat informatie over velden die van invloed zijn op contractregels en informatie over het contract die is samengevat voor alle regelitems.
+description: Dit artikel bevat informatie over velden die van invloed zijn op contractregels en de informatie over het contract die is samengevat in alle regelitems.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917064"
 ---
 # <a name="header-details-for-project-contracts"></a>Koptekstdetails voor projectcontracten
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Dit onderwerp bevat informatie over velden die van toepassing zijn op het volledige projectcontract, inclusief instellingen die van invloed zijn op alle contractregels. Ook is informatie opgenomen over het contract die is samengevat voor alle regelitems om de KPI's van het projectcontract aan te sturen.
+Dit artikel bevat informatie over velden die van toepassing zijn op het gehele projectcontract, inclusief instellingen die van invloed zijn op alle contractregels. Ook is informatie opgenomen over het contract die is samengevat voor alle regelitems om de KPI's van het projectcontract aan te sturen.
 
 De volgende tabel bevat de samenvattende informatievelden voor een projectcontract die uniek zijn voor Dynamics 365 Project Operations of enkele belangrijke gedragsveranderingen hebben voor verkooporders in Dynamics 365 Sales.
 

@@ -1,6 +1,6 @@
 ---
 title: Startpagina Rapportage
-description: Dit onderwerp bevat informatie over rapportage in Dynamics 365 Project Service Automation.
+description: Dit artikel bevat informatie over rapportage in Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921664"
 ---
 # <a name="reporting-home-page"></a>Startpagina Rapportage
 
@@ -47,7 +47,7 @@ Samen bieden Microsoft Power BI en Dynamics 365 u een krachtige manier om met uw
 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-Zie de volgende onderwerpen voor meer informatie over rapporteren in PSA:
+Zie de volgende artikelen voor meer informatie over rapporteren in PSA:
 
 - [Werken met het Project Service-gegevensmodel](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)

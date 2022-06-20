@@ -1,24 +1,24 @@
 ---
 title: Nieuwe functies juli 2021 - Project Operations Lite-implementatie
-description: Dit onderwerp bevat informatie over de kwaliteitsupdates die beschikbaar zijn in de release van juli 2021 van Project Operations Lite-implementatie.
+description: Dit artikel biedt informatie over de kwaliteitsupdates die beschikbaar zijn in de versie van Project Operations Lite-implementatie van juli 2021.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 475ceea3a6c6db9fe63e3950eaca5d9074faa766
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7964f38c1bc7a8e0440e2e922ff153fd9bede131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913982"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Nieuwe functies juli 2021 - Project Operations Lite-implementatie
 
 _Van toepassing op: Lite-implementatie - van deal tot pro-formafacturering_
 
-Dit onderwerp is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
+Dit artikel is van toepassing op de volgende onderdelen en versies van Dynamics 365 Project Operations:
 
   - Project Operations in Dataverse-omgeving versie 4.12.0.148 or 4.12.0.152.
 

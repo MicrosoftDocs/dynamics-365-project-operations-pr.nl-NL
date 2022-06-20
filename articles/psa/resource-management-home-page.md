@@ -1,6 +1,6 @@
 ---
 title: Startpagina voor resourcebeheer
-description: Dit onderwerp biedt informatie over hoe u resources kunt beheren.
+description: Dit artikel biedt informatie over hoe u resources kunt beheren.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913246"
 ---
 # <a name="resource-management-home-page"></a>Startpagina voor resourcebeheer
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578748"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resources zijn de belangrijkste activa van een serviceverlenende organisatie. De mogelijkheid om de juiste resources op het juiste moment te vinden en te boeken en ze te blijven gebruiken, helpt de organisatie om aan de doelen ten aanzien van omzet en klanttevredenheid te voldoen. De volgende onderwerpen zijn gericht op de mogelijkheden voor resourcebeheer van Dynamics 365 Project Service Automation:
+Resources zijn de belangrijkste activa van een serviceverlenende organisatie. De mogelijkheid om de juiste resources op het juiste moment te vinden en te boeken en ze te blijven gebruiken, helpt de organisatie om aan de doelen ten aanzien van omzet en klanttevredenheid te voldoen. De volgende artikelen zijn gericht op de mogelijkheden voor resourcebeheer van Dynamics 365 Project Service Automation:
 
 - [Resources beheren](manage-resources.md)
 - [Belangrijke concepten](reports-key-concepts.md)

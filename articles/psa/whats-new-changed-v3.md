@@ -1,6 +1,6 @@
 ---
 title: Wat is er nieuw of gewijzigd in Project Service Automation versie 3
-description: Dit onderwerp bevat informatie over wat er nieuw en gewijzigd is in Project Service Automation versie 3.
+description: Dit artikel bevat informatie over wat er nieuw en gewijzigd is in Project Service Automation versie 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926586"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Wat is er nieuw of gewijzigd in Project Service Automation versie 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581646"
 
 
 
-Dit onderwerp bevat informatie over de wijzigingen in de gebruikersinterface (UI), functionaliteit en terminologie in Project Service Automation van versie 2 of versie 1 naar versie 3.
+Dit artikel bevat informatie over de wijzigingen in de gebruikersinterface (UI), functionaliteit en terminologie in Project Service Automation tussen versie 2 of versie 1 en versie 3.
 
 ## <a name="project-scheduling"></a>Projectplanning
 De projectplanning, die bekend stond als de structuur voor Werkspecificatie (WBS) in eerdere versies, heeft de naam planning gekregen en wordt geopend door op het tabblad **Planning** te klikken. 
@@ -150,7 +150,7 @@ Als u taaktoewijzingen voor een resource hebt zonder boekingen (een boekingsteko
 Deze sectie bevat informatie over de wijzigingen in tijd, onkosten en goedkeuring in versie 3 van Project Service Automation. Als onderdeel van de Dynamics 365 Project Service Automation-oplossing is de functie **Tijdinvoer** vernieuwd om gebruik te maken van het Unified Interface-kader. Hierdoor kan een consistente, uniforme gebruikersinterface worden geleverd die een responsief ontwerp volgt voor een optimale weergave op elke schermgrootte of elk apparaat. 
 
 ### <a name="landing-page"></a>Landingspagina
-De niet-uitbreidbare aangepaste tijdsvermelding is afgeschaft in versie 3. In plaats daarvan is er nu een uitbreidbaar en toegankelijk eigen raster. U kunt de functionaliteit voor tijdsvermelding openen via de sitemap aan de linkerkant. Met deze wijziging kunt u niet langer tijd voor één week tegelijk invoeren. In plaats daarvan moet u een tijdsvermelding maken voor elke dag in het raster. Nadat er enkele tijdsvermeldingen zijn gemaakt, kunnen gebruikers bulksgewijs tijdsvermeldingen maken met de functie **Kopiëren** die verderop In dit onderwerp wordt uitgelegd. 
+De niet-uitbreidbare aangepaste tijdsvermelding is afgeschaft in versie 3. In plaats daarvan is er nu een uitbreidbaar en toegankelijk eigen raster. U kunt de functionaliteit voor tijdsvermelding openen via de sitemap aan de linkerkant. Met deze wijziging kunt u niet langer tijd voor één week tegelijk invoeren. In plaats daarvan moet u een tijdsvermelding maken voor elke dag in het raster. Nadat er enkele tijdsvermeldingen zijn gemaakt, kunnen gebruikers bulksgewijs tijdsvermeldingen maken met de functie **Kopiëren** die verderop in dit artikel wordt uitgelegd. 
 
 ![Landingspagina voor tijdsvermelding.](media/time-entry-landing-page-07.png)
  

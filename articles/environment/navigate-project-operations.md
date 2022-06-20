@@ -1,17 +1,17 @@
 ---
 title: Navigeren in Project Operations
-description: Dit onderwerp bevat informatie over hoe u toegang krijgt tot Project Operations vanuit Lifecycle Services.
+description: Dit artikel bevat informatie over hoe u toegang krijgt tot Project Operations vanuit Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931646"
 ---
 # <a name="navigate-project-operations"></a>Navigeren in Project Operations
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations voor scenario's op basis van resources/niet-voor
  - **Project Operations in de Common Data Service-omgeving (CDS)**: deze component omvat voorzieningen en processen, van verkoopkansen tot pro-formafacturering. 
  - **Projectbeheer en financiële administratie in de Dynamics 365 Finance-omgeving**: dit onderdeel omvat de mogelijkheden voor onkostenbeheer, projectboekhouding en opbrengstentoerekening. 
 
-Nadat u Project Operations hebt ingericht zoals beschreven In dit onderwerp, hebt u via de pagina **Omgevingsdetails** in Lifecycle Services (LCS) eenvoudig toegang tot beide componenten van Project Operations.  
+Nadat u Project Operations hebt ingericht zoals beschreven in dit artikel, biedt de pagina **Omgevingsdetails** van Lifecycle Services (LCS) gemakkelijke toegang tot beide onderdelen van Project Operations.  
 
 Gebruik de omgevingsnaam in de sectie **Common Data Service-omgevingsnaam** om naar Project Operations in een CDS-omgeving te navigeren. 
 

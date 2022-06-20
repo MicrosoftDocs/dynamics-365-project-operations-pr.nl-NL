@@ -1,25 +1,25 @@
 ---
 title: Problemen oplossen met het werken in het taakraster
-description: Dit onderwerp biedt informatie over het oplossen van problemen, die nodig is bij het werken in het taakraster.
+description: Dit artikel bevat informatie over het oplossen van problemen bij het werken in het taakraster.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911038"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problemen oplossen met het werken in het taakraster 
 
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, Lite-implementatie - van deal tot pro-formafacturering, Project for the web_
 
-Het taakraster dat wordt gebruikt door Dynamics 365 Project Operations is een gehost iFrame binnen Microsoft Dataverse. Als gevolg van dit gebruik moet aan specifieke vereisten worden voldaan om ervoor te zorgen dat verificatie en autorisatie correct werken. In dit onderwerp worden de veelvoorkomende problemen beschreven die van invloed kunnen zijn op de mogelijkheid om het raster weer te geven of taken te beheren in de structuur voor werkspecificatie (WBS).
+Het taakraster dat wordt gebruikt door Dynamics 365 Project Operations is een gehost iFrame binnen Microsoft Dataverse. Als gevolg van dit gebruik moet aan specifieke vereisten worden voldaan om ervoor te zorgen dat verificatie en autorisatie correct werken. In dit artikel worden de veelvoorkomende problemen beschreven die van invloed kunnen zijn op de mogelijkheid om het raster weer te geven of taken te beheren in de structuur voor werkspecificatie (WBS).
 
 Tot de algemene problemen behoren:
 

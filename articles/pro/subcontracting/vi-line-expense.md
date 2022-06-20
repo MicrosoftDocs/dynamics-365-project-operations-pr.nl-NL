@@ -1,17 +1,17 @@
 ---
 title: Leveranciersfactuurregels voor onkostencategorieën
-description: In dit onderwerp wordt uitgelegd hoe u leveranciersfactuurregels registreert voor onkostencategorieën.
+description: In dit artikel wordt uitgelegd hoe u leveranciersfactuurregels registreert voor onkostencategorieën.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 209460680c9e5c2e39f98ba5c48aa18992775db1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3ffad20b53344221ead9b6850ecdc1efd48d5b13
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925864"
 ---
 # <a name="vendor-invoice-lines-for-expense-categories"></a>Leveranciersfactuurregels voor onkostencategorieën
 
@@ -34,7 +34,7 @@ In de volgende tabel vindt u informatie over de velden op leveranciersfactuurreg
 | Transactiedatum | De datum waarop de werkelijke kosten van de leveranciersfactuurregel op het project worden vastgelegd. |Geen |
 | Transactieklasse | Selecteer **Onkosten** om een leveranciersfactuur voor een onkostencategorie vast te leggen. | De waarde **Onkosten** geeft aan dat de leveranciersfactuurregel wordt gebruikt om het factuurbedrag vast te leggen voor services die zijn ingekocht als onkostencategorieën. |
 | Project | De naam van het project waarvoor de services die worden gefactureerd, zijn gebruikt. | Dit veld is vereist en kan niet leeg blijven. |
-| Taak | De naam van de projecttaak waarvoor de services die worden gefactureerd, zijn gebruikt. Dit veld is alleen beschikbaar als een project is geselecteerd. Selectie van een projecttaak is optioneel. | Als dit veld leeg wordt gelaten, kan de projectmanager de leveranciersfactuurregel afstemmen met onkosten die zijn vastgelegd voor elke taak van het project. Als de leveranciersfactuurregel niet verwijst naar een subcontractregel en dit veld leeg wordt gelaten, wordt de werkelijke kostprijs die door de leveranciersfactuurregel wordt gemaakt, niet aan niet-gefactureerde werkelijke verkoopwaarden gekoppeld. In dit geval kunnen, als facturering op basis van taken is ingesteld, de kosten mogelijk niet aan de eindklant worden gefactureerd. |
+| Opdracht | De naam van de projecttaak waarvoor de services die worden gefactureerd, zijn gebruikt. Dit veld is alleen beschikbaar als een project is geselecteerd. Selectie van een projecttaak is optioneel. | Als dit veld leeg wordt gelaten, kan de projectmanager de leveranciersfactuurregel afstemmen met onkosten die zijn vastgelegd voor elke taak van het project. Als de leveranciersfactuurregel niet verwijst naar een subcontractregel en dit veld leeg wordt gelaten, wordt de werkelijke kostprijs die door de leveranciersfactuurregel wordt gemaakt, niet aan niet-gefactureerde werkelijke verkoopwaarden gekoppeld. In dit geval kunnen, als facturering op basis van taken is ingesteld, de kosten mogelijk niet aan de eindklant worden gefactureerd. |
 | Transactiecategorie | De transactiecategorie die wordt gefactureerd. Voor de geselecteerde transactiecategorie moet een bijbehorende onkostencategorie worden gemaakt. | De combinatie van waarden voor **Transactiecategorie** en **Eenheid** wordt gebruikt als standaard of berekende waarde voor het veld **Eenheidsprijs** op de leveranciersfactuurregel. |
 | Aantal | Voer de hoeveelheid in die door de leverancier wordt gefactureerd op de factuurregel. |Geen|
 | Eenhedengroep | Er wordt een standaardwaarde ingevoerd op basis van de eenhedengroep van de geselecteerde transactiecategorie. | Geen |

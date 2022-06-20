@@ -1,6 +1,6 @@
 ---
 title: Bedrijfstransacties
-description: Dit onderwerp biedt informatie over bedrijfstransacties.
+description: Dit artikel biedt informatie over bedrijfstransacties.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7c1fd7046783b98b7c2e823b2c2eb8bbdfb232fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 07002890e0474dbdaf979d9dcdf064e9c382a0f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927000"
 ---
 # <a name="business-transactions"></a>Bedrijfstransacties
 

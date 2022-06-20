@@ -1,6 +1,6 @@
 ---
 title: Wekelijkse tijdinvoer aanpassen
-description: Dit onderwerp bevat informatie over het implementeren van aangepaste bedrijfsregels die de werkwijzen van een organisatie ondersteunen.
+description: Dit artikel bevat informatie over het implementeren van aangepaste bedrijfsregels die de werkwijzen van een organisatie ondersteunen.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581048"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918950"
 ---
 # <a name="customize-weekly-time-entry"></a>Wekelijkse tijdinvoer aanpassen 
 
@@ -46,9 +46,9 @@ De sectie **Dimensies** bevat, als kolomkoppen, alle dimensies waarvoor tijd kan
 - Type
 - Vermeldingsstatus
 
-De sectie **Dimensies** staat geen inline bewerking toe. Deze sectie wordt ondersteund door een weergave waarmee aangepaste velden kunnen worden toegevoegd aan het wekelijkse tijdinvoerraster. Zie de sectie "Uitbreidbaarheid" verderop In dit onderwerp voor meer informatie over het toevoegen van aangepaste velden.
+De sectie **Dimensies** staat geen inline bewerking toe. Deze sectie wordt ondersteund door een weergave waarmee aangepaste velden kunnen worden toegevoegd aan het wekelijkse tijdinvoerraster. Zie de sectie "Uitbreidbaarheid" verderop in dit artikel voor meer informatie over het toevoegen van aangepaste velden.
 
-### <a name="duration"></a>Duur
+### <a name="duration"></a>Duration
 In de sectie Duur worden de dagen van de week weergegeven als kolomkoppen. In deze sectie is ook inline bewerken mogelijk. Nadat een rij voor tijdinvoer is gemaakt met de juiste dimensies, kunnen gebruikers snel inline de hoeveelheid tijd invoeren die ze aan deze dimensies hebben besteed.
 
 ## <a name="create-a-new-time-entry"></a>Een nieuwe tijdsvermelding maken

@@ -1,17 +1,17 @@
 ---
 title: Aanmelden voor preview-abonnementen op Project Operations voor scenario's voor resources/niet-voorradige artikelen
-description: Dit onderwerp bevat informatie over het abonneren op en inrichten van Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
+description: Dit artikel bevat informatie over het abonneren op en implementeren van Project Operations voor scenario's op basis van resources/niet-voorradige artikelen.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920100"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Aanmelden voor preview-abonnementen op Project Operations voor scenario's voor resources/niet-voorradige artikelen
 
@@ -19,7 +19,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 
 
-In dit onderwerp wordt uitgelegd hoe u zich kunt abonneren op de proefaanbieding en hoe u de Project Operations-omgeving kunt implementeren voor scenario's op basis van resources/niet-voorradige artikelen.
+In dit artikel wordt uitgelegd hoe u zich kunt abonneren op de proefversie en hoe u de Project Operations-omgeving kunt implementeren voor scenario's op basis van resources/niet-voorradige artikelen.
 
 ## <a name="prerequisites"></a>Vereisten
 - De gebruiker die de preview implementeert, moet algemene beheerderrechten hebben voor de Azure-tenant. U kunt een tenant maken tijdens de eerste inwisseling van de aanbieding. 
@@ -60,19 +60,19 @@ Ga naar [Dynamics 365 for Finance Preview-proefversie](https://aka.ms/trypoche) 
 
 ## <a name="start-a-new-project-in-lcs"></a>Een nieuw project in LCS starten
 
-Maak een nieuw LCS-project zoals beschreven in het onderwerp [Een nieuw project starten in LCS](create-lcs-project.md)
+Maak een nieuw LCS-project zoals beschreven in het artikel [Een nieuw project starten in LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Een Azure-abonnement toevoegen aan een LCS-project
 
-Om deze taak te voltooien volgt u de stappen in het onderwerp [Een Azure-abonnement toevoegen aan het LCS-project](resource-add-azure-subscription-lcs-project.md).
+Volg de stappen in het artikel [Een Azure-abonnement toevoegen aan een LCS-project](resource-add-azure-subscription-lcs-project.md) om deze taak te voltooien.
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implementeer een Finance-demo-omgeving met Project Operations voor scenario's met resources/niet-voorradige artikelen
 
-Volg de richtlijnen in het onderwerp [Een nieuwe omgeving inrichten](resource-provision-new-environment.md) om de implementatie te voltooien. Gebruik het implementatietype [demo-omgeving](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) voor preview. 
+Volg de richtlijnen in het artikel [Een nieuwe omgeving inrichten](resource-provision-new-environment.md) om de implementatie te voltooien. Gebruik het implementatietype [demo-omgeving](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) voor preview. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Gegevens voor CDS-installatie en configuratie installeren
 
-Installeer CDS-installatie- en configuratiegegevens zoals beschreven in het onderwerp [Configuratiegegevens instellen en toepassen in Common Data Service](resource-apply-pro-setup-config-data.md).
+Installeer CDS-instellings- en configuratiegegevens zoals beschreven in het artikel [Configuratiegegevens instellen en toepassen in de Common Data Service](resource-apply-pro-setup-config-data.md).
 Voltooi deze stap pas nadat de demo-omgeving voor Finance is geïmplementeerd en de demogegevens gereed zijn.
 
 

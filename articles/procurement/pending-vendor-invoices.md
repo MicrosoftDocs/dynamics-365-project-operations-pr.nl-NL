@@ -1,18 +1,18 @@
 ---
 title: Niet-voorradige materialen of inkoopcategorieën aanschaffen via een in behandeling zijnde leveranciersfactuur
-description: In dit onderwerp wordt uitgelegd hoe u in behandeling zijnde leveranciersfacturen registreert.
+description: In dit artikel wordt uitgelegd hoe u in behandeling zijnde leveranciersfacturen registreert.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921986"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Niet-voorradige materialen of inkoopcategorieën aanschaffen via een in behandeling zijnde leveranciersfactuur
 
@@ -23,7 +23,7 @@ Als een bedrijf niet-voorradige materialen of inkoopcategorieën voor een projec
 Contoso Robotics US voert bijvoorbeeld een vernieuwingsproject voor apparatuur uit en heeft softwarelicenties nodig. Deze licenties worden aangeschaft bij een externe leverancier.  Met Dynamics 365 Finance registreert de crediteurenadministratie een openstaand leveranciersfactuurdocument en schrijft de licentiekosten rechtstreeks toe aan het project voor apparatuurvernieuwing. 
 
 > [!IMPORTANT]
-> Voordat u de functionaliteit gebruikt die In dit onderwerp wordt beschreven, moet u de vereiste configuraties bekijken en toepassen. Zie [Niet-voorradige materialen en openstaande leveranciersfacturen inschakelen](configure-materials-nonstocked.md) en [Inkoopcategorieën gebruiken met projectinkooporders en openstaande leveranciersfacturen](configure-procurement-categories.md) voor meer informatie
+> Voordat u de functionaliteit gebruikt die in dit artikel wordt beschreven, moet u de vereiste configuraties doornemen en toepassen. Zie [Niet-voorradige materialen en openstaande leveranciersfacturen inschakelen](configure-materials-nonstocked.md) en [Inkoopcategorieën gebruiken met projectinkooporders en openstaande leveranciersfacturen](configure-procurement-categories.md) voor meer informatie
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Een projectgerelateerde in behandeling zijnde leveranciersfactuur boeken 
 

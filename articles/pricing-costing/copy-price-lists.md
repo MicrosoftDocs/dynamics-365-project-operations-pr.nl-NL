@@ -1,17 +1,17 @@
 ---
 title: Prijslijsten kopiëren
-description: Dit onderwerp bevat informatie over het kopiëren van prijslijsten in Project Operations.
+description: Dit artikel bevat informatie over hoe u een prijslijsten kopieert in Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e5d6e46af2eef47246b677494fd3503c838560d1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3fce3a362fe6326e362c3f77054c10281a9c146c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921158"
 ---
 # <a name="copy-price-lists"></a>Prijslijsten kopiëren
 
