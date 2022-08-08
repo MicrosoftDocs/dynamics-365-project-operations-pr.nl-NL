@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d03393de893c39ceb53c06a3031395f765a26f55
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914534"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029146"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Instelling en configuratie van gegevensintegratie in Project Operations
 
@@ -49,7 +49,7 @@ Projectcontractregels kunnen worden beoordeeld door de projectaccountant in apps
 
 ## <a name="billing-milestones"></a>Factureringsmijlpalen
 
-Projectcontractregels die de factureringsmethode tegen een vaste prijs gebruiken, worden gefactureerd via factureringsmijlpalen. Factureringsmijlpalen worden gesynchroniseerd om transacties op rekening in apps voor financiën en bedrijfsactiviteiten te projecteren met behulp van de tabeltoewijzing **Mijlpalen van contractregels voor integratie van projectbewerkingen (msdyn\_contractlinescheduleofvalues)**.
+Projectcontractregels die de factureringsmethode tegen een vaste prijs gebruiken, worden gefactureerd via factureringsmijlpalen. Factureringsmijlpalen worden gesynchroniseerd om transacties op rekening in apps voor financiën en bedrijfsactiviteiten te projecteren met behulp van de tabeltoewijzing **Mijlpalen van contractregels voor integratie van Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
   ![Integratie van factureringsmijlpalen.](./media/2Milestones.jpg)
 

@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931186"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028467"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Artikelvereisten voor projectcontracten met meerdere financieringsbronnen
 
@@ -33,7 +33,7 @@ Contoso heeft een vernieuwingscontract voor apparatuur binnengehaald bij twee va
 
 ### <a name="prerequisites"></a>Vereisten
 
-- Microsoft Dynamics 365 Finance and Operations **versie 10.0.27 of hoger** is vereist om artikelvereisten te kunnen gebruiken die meerdere factuuraccounts hebben.
+- Microsoft Dynamics 365 Finance **versie 10.0.27 of hoger** is vereist om artikelvereisten te kunnen gebruiken die meerdere factuuraccounts hebben.
 - Uw systeembeheerder moet de functie **Artikelvereisten met meerdere financieringsbronnen toestaan voor scenario's op basis van resources/niet-voorradige artikelen van Project Operations** inschakelen in de werkruimte **Functiebeheer**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>De standaardregels voor het factuuraccount instellen

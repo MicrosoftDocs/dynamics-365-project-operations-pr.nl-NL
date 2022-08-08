@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912234"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028696"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Volledig gefactureerde factureringsmijlpalen migreren bij cutover
 
@@ -46,7 +46,7 @@ Contoso gaat live met Microsoft Dynamics 365 Project Operations voor scenario's 
 3. Voeg een toewijzing toe voor de transactiestatus.
 
     1. Selecteer **Toewijzing toevoegen**.
-    2. Selecteer op de nieuwe regel, in de kolom **Apps voor financiën en bedrijfsactiviteiten** het veld **TRANSSTATUS \[TRANSSTATUS\]** veld.
+    2. Selecteer op de nieuwe regel, in de kolom **Apps voor financiën en bedrijfsactiviteiten** het veld **TRANSSTATUS \[TRANSSTATUS\]**.
     3. Selecteer in de kolom **Microsoft Dataverse** de optie **msdyn\_invoicestatus \[Factuurstatus\]**.
     4. Selecteer in de kolom **Toewijzingstype** de pijl naar rechts (**\>**).
     5. Selecteer in het dialoogvenster dat verschijnt, in het veld **Synchronisatierichting** de optie **Dataverse naar apps voor financiën en bedrijfsactiviteiten**.

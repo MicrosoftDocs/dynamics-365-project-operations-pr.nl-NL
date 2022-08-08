@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959430"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029294"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Aanmelden voor proefversie van Project Operations 
 
@@ -90,7 +90,7 @@ Voordat u begint, meldt u zich aan via een browser met de gebruikerswerkaccount 
 
 ## <a name="configuring-dual-write"></a>Twee keer wegschrijven configureren
 - Zie voor het configureren van beveiligingsrollen voor twee keer wegschrijven: [Beveiligingsinstellingen bijwerken in Project Operations in Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Als u toegang wilt krijgen tot de configuratie voor twee keer wegschrijven, navigeert u naar uw Finance and Operations-exemplaar en navigeert u vervolgens naar **Gegevensbeheer** > **Twee keer wegschrijven**.
+- Als u toegang wilt krijgen tot de configuratie voor twee keer wegschrijven, navigeert u naar uw exemplaar van financiën en bedrijfsactiviteiten en navigeert u vervolgens naar **Gegevensbeheer** > **Twee keer wegschrijven**.
 - Zie [toewijzingen voor twee keer wegschrijven van Project Operations uitvoeren](resource-provision-new-environment.md#run-project-operations-dual-write-maps) om toewijzingen voor twee keer wegschrijven te configureren.
 
 ## <a name="assign-licenses"></a>Licenties toewijzen

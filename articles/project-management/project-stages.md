@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911130"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177373"
 ---
 # <a name="project-stages"></a>Projectfasen
 
@@ -47,7 +47,7 @@ Wanneer u een project aan een prijsopgave koppelt of wanneer u een project maakt
 
 ## <a name="plan"></a>Plannen
 
-Wanneer u een order binnenhaalt op basis van een prijsopgave die aan een project is gekoppeld en het project overgaat naar de fase **Contract**, wordt de projectfase bijgewerkt naar **Plannen**. Als het project zich in de fase **Plannen** bevindt, worden op de pagina **Projectentiteit** de details van het contract weergegeven.
+Wanneer u een order binnenhaalt op basis van een prijsopgave die aan een project is gekoppeld en het project overgaat naar de fase **Contract**, wordt de projectfase bijgewerkt naar **Plannen**. Als het project zich in de fase **Plan** bevindt, worden op het tabblad **Verkoop** van de pagina **Projectentiteit** details van het contract weergegeven.
 
 ## <a name="deliver"></a>Leveren
 

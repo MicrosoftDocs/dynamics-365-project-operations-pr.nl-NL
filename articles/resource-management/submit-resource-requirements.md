@@ -6,12 +6,12 @@ ms.date: 10/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 583524ccf33f2dc42ee6beba7e00cc5fd74819d4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e09d92de310dbe09e53ae134e5bb195fd64178f
+ms.sourcegitcommit: 341192e1e45eb42d6b18a8370ac2e1100c4a4ca4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598666"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9137174"
 ---
 # <a name="submit-a-resource-request"></a>Een resourceaanvraag indienen
 
@@ -24,7 +24,11 @@ U kunt een gegenereerde resourcevereiste indienen als een resourceaanvraag. De a
 
 De aanvraagstatus van het algemene teamlid wordt gewijzigd in **Ingediend**.
 
-Nadat de aanvraag is afgehandeld wordt de algemene resource vervangen door een benoemde resource, als de resourcemanager de aanvraag afhandelt door een benoemde resource te boeken. Anders, als de resourcemanager een benoemde resource heeft voorgesteld, blijft de algemene resource in het team staan en wordt de status van de aanvraag gewijzigd **Moet worden geëvalueerd**.
+De ontvanger van de resourceaanvraag heeft de mogelijkheid om de aanvraag gedeeltelijk te vervullen met behulp van een of meer resources of om de resourceaanvraag volledig te vervullen.
+
+Nadat aan de aanvraag is voldaan, worden een of meer genoemde resources als projectteamleden aan het project toegevoegd. Als aan de resourcevereiste wordt voldaan door één resource, wordt het generieke teamlid dat aan de resourceaanvraag is gekoppeld, verwijderd. 
+
+Nadat de ontvanger van de resoruceaanvraag resources heeft voorgesteld en de aanvraag gereed is voor beoordeling van de voorgestelde resources door de projectmanager, moet de status van de resourceaanvraag worden bijgewerkt naar **Moet worden geëvalueerd**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

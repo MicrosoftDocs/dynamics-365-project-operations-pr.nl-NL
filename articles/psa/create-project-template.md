@@ -4,7 +4,7 @@ description: Informatie over een projectsjabloon maken in Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598988"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177419"
 ---
 # <a name="create-a-project-template-project-service"></a>Een projectsjabloon maken (Project Service)
 
@@ -40,9 +40,16 @@ Projectsjablonen besparen u tijd als uw bedrijf regelmatig op soortgelijke proje
 - **Projectschattingen**: projectschattingen in sjablonen werken op dezelfde manier als in projecten, behalve dat de prijslijsten standaard altijd worden ingesteld op de standaardkosten en de standaardverkoopprijslijsten die in de [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]-parameters zijn gedefinieerd. De rest van de functionaliteit is hetzelfde als in een project.  
   
 - **Projectteamvorming**: als u een projectteam vormt voor een projectsjabloon, kunt u geen benoemde resource in een sjabloon boeken. U kunt **Projectteam genereren** in de structuur voor werkspecificatie gebruiken om een set algemene resources te genereren. U kunt ook de vereiste vaardigheden en deskundigheden voor algemene resources opgeven. U kunt een algemene resource niet vervangen met een boekbare resource in projectsjablonen.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Een projectsjabloon maken van een bestaand project
+U kunt op de volgende manieren een projectsjabloon maken op basis van een project:
+
+- **Structuur voor werkspecificatie**: een structuur voor werkspecificatie in een sjabloon die is afgeleid van een project kopieert alle taken en afhankelijkheden. De toewijzingen die worden gemaakt, zijn gebaseerd op de generieke teamleden die aan het projectteam worden toegevoegd tijdens het maken van de projectsjabloon.
+- **Projectschattingen**: wanneer een projectsjabloon wordt gemaakt op basis van een bestaand project, worden de schattingen van het bronproject gekopieerd naar de projectsjabloon.
+- **Projectteamleden**: wanneer een sjabloon wordt gemaakt op basis van een bestaand project, worden alle benoemde teamleden vervangen door de algemene resource van de organisatie. Alle functienamen en rollen blijven behouden.
+
 ## <a name="create-a-project-from-a-template"></a>Een project maken op basis van een sjabloon  
- U kunt een project op de volgende manieren op basis van een sjabloon maken:  
+ U kunt op de volgende manieren een project maken op basis van een sjabloon:  
   
 -   Bij het maken van een project op basis van de prijsopgave kunt u een projectsjabloon in het projectformulier voor snelle invoer kiezen.  
   

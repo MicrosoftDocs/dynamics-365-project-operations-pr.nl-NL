@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917708"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036405"
 ---
 # <a name="default-price-lists"></a>Standaardprijslijsten
 
@@ -25,7 +25,7 @@ Elke projectofferte en elk contract in Dynamics 365 Project Operations bevat een
 Het volgende proces wordt voltooid om te bepalen welke prijslijst standaard moet worden gebruikt voor een projectprijsopgave:
 
 1. Er wordt gekeken naar de prijslijsten die aan de projectprijslijsten van de account zijn gekoppeld. 
-2. Als er projectprijslijsten aan de accountrecord zijn gekoppeld, wordt gekeken naar de verkoopprijslijsten die zijn gekoppeld aan de projectparameters die overeenkomen met de valuta van de projectprijsopgave.
+2. Als er geen projectprijslijsten aan de accountrecord zijn gekoppeld, wordt gekeken naar de verkoopprijslijsten die zijn gekoppeld aan de projectparameters die overeenkomen met de valuta van de projectprijsopgave.
 3. Vervolgens wordt de datumgeldigheid van de prijslijsten gecontroleerd die overeenkomen met het datumbereik van de projectprijsopgave. Specifiek de datum waarop de prijsopgave is gemaakt
 4. Als er meerdere prijslijsten zijn die van kracht zijn voor de datum van de projectprijsopgave, worden alle prijslijsten standaard ingesteld op de projectprijsopgave.
 5. Als er geen prijslijsten van kracht zijn voor de datum van de projectprijsopgave, staat er geen standaardprojectprijslijst op de projectprijsopgave. Er verschijnt een waarschuwingsbericht op de projectprijsopgave. Hierin staat dat geen prijs kan worden bepaald voor werkelijke waarden en schattingen omdat er geen projectprijslijsten aan zijn gekoppeld.

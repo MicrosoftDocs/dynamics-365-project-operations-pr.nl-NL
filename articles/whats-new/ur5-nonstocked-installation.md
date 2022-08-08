@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912464"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030029"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Project Operations updaten in uw Finance-omgeving
 
@@ -119,7 +119,7 @@ De volgende updates van de beveiligingsbevoegdheden voor entiteiten zijn vereist
 4. Pas op de pagina **Versie tabeltoewijzing** een nieuwe versie van de toewijzing toe op elk van de drie entiteiten.
 5. Selecteer uitvoeren op de pagina **Twee keer wegschrijven** om de toewijzingen opnieuw op te starten.
 6. Selecteer in de lijst met toewijzingen de toewijzing **Grootboek (msdyn_ledgers)** met alle vereisten en schakel het selectievakje **Eerste synchronisatie** in. 
-7. Selecteer in het veld **Master voor initiële synchronisatie** de optie **Finance and Operations-apps** en selecteer vervolgens **Uitvoeren**.
+7. Selecteer in het veld **Master voor initiële synchronisatie** de optie **Apps voor financiën en bedrijfsactiviteiten** en selecteer vervolgens **Uitvoeren**.
  
  ![Synchronisatie van grootboektoewijzing.](media/DW6.png)
  

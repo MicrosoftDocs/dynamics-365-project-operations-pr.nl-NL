@@ -2,17 +2,17 @@
 title: Problemen oplossen met het werken in het taakraster
 description: Dit artikel bevat informatie over het oplossen van problemen bij het werken in het taakraster.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911038"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188225"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Problemen oplossen met het werken in het taakraster 
 
@@ -72,7 +72,10 @@ Project Operations vereist dat een projectparameter verwijst naar het PEX-eindpu
 4. Verwijder het veld uit de pagina **Projectparameters**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Correctie 3: meld u aan bij project.microsoft.com.
-Open een nieuw tabblad in uw Microsoft Edge-browser, ga naar project.microsoft.com en meld u aan met de gebruikersrol die u gebruikt om toegang te krijgen tot Project Operations.
+
+Open een nieuw tabblad in uw -browser, ga naar project.microsoft.com en meld u aan met de gebruikersrol die u gebruikt om toegang te krijgen tot Project Operations. Het is belangrijk dat er slechts één gebruiker is aangemeld bij een Microsoft-product in de browser. Het foutbericht "login.microsoftonline.com heeft geen verbinding gemaakt" treedt meestal op wanneer meer dan één gebruiker is aangemeld, zoals weergegeven in de volgende afbeelding.
+
+![Kies een aanmeldingspagina voor een account waaruit blijkt dat twee gebruikers zijn aangemeld.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Probleem: het project laadt niet en de gebruikersinterface blijft hangen bij de draaischijf
 

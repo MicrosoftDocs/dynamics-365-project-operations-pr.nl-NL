@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: b611862e74d04778ad46700ba6d33fc16cb79fae
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959435"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188272"
 ---
 # <a name="project-operations-updates"></a>Updates voor Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations bestaat uit twee componenten:
 - Projectbeheer en financiële administratie in de Dynamics 365 Finance-omgeving omvat de mogelijkheden voor onkostenbeheer, projectboekhouding en opbrengstentoerekening. De omgeving van de apps voor financiën en bedrijfsactiviteiten wordt gebruikt in Project Operations voor scenario's op basis van resources/niet-voorraad en Project Operations voor scenario's op basis van voorraad/productie.
 
 ## <a name="project-operations-release-notes"></a>Opmerkingen bij de release van Project Operations
-- Opmerkingen bij de meest recente release voor Project Operations voor het scenario voor [Resources/niet-voorradige artikelen](whats-new-may-2022-resource-based.md).
-- Opmerkingen bij de meest recente release voor Project Operations voor het scenario voor [Lite-implementatie](../pro/whats-new/whats-new-may-2022-lite.md).
-- Opmerkingen bij de meest recente release voor Project Operations voor het scenario voor [voorradige artikelen/productieorders](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
+- Opmerkingen bij de meest recente release voor Project Operations voor het scenario voor [Resources/niet-voorradige artikelen](whats-new-july-2022-resource-based.md).
+- Opmerkingen bij de meest recente release voor Project Operations voor het scenario voor [Lite-implementatie](../pro/whats-new/whats-new-july-2022-lite.md).
+- Opmerkingen bij de meest recente release voor Project Operations voor het scenario voor [voorradige artikelen/productieorders](../prod-pma/whats-new/whats-new-jul-2022-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Nieuwste versie van Project Operations
 
 | Project Operations in Dataverse-omgeving | Projectbeheer en financiële administratie in omgevingen van apps voor financiën en bedrijfsactiviteiten | 
 | --- | --- |
-| 4.43.0.77 | 10.0.26 |
+| 4.44.0.22 | 10.0.28 |
 
 Voor scenario's op basis van resources/niet-voorradige artikelen in Project Operations raden we aan om versie 2.3.1.15 of hoger om de indelingsoplossing voor twee keer wegschrijven te gebruiken.
 
@@ -47,40 +47,38 @@ Updates voor Project Operations in Dataverse-omgeving zijn maandelijks beschikba
 | Station | Regio | Nummer huidige versie | Automatische updates voor Lite-implementatie | Automatische updates voor implementatie van resources/niet-voorradige artikelen | Nummer volgende versie | Volgende versie algemeen beschikbaar |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eerste versie         |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
+|   &nbsp;  | Eerste versie         |  4.44.0.22      | Voltooien           | Voltooien            | N.t.b.                 | 05 augustus 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Zuid-Amerika         |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
-|   &nbsp;  | Canada                |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
-|   &nbsp;  | India                 |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
-|   &nbsp;  | Frankrijk                |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
-|   &nbsp;  | Zuid-Afrika          |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
-|   &nbsp;  | Zwitserland           |  4.43.0.77      | Voltooien           | Voltooien            | N.t.b.                 | 01 juli 2022       |
+|   &nbsp;  | Zuid-Amerika         |  4.44.0.22      | Voltooien           | Voltooien            | N.t.b.                 | 06 augustus 2022       |
+|   &nbsp;  | Canada                |  4.44.0.22      | Voltooien           | Voltooien            | N.t.b.                 | 06 augustus 2022       |
+|   &nbsp;  | India                 |  4.44.0.22      | Voltooien           | Voltooien            | N.t.b.                 | 06 augustus 2022       |
+|   &nbsp;  | Frankrijk                |  4.44.0.22      | Voltooien           | Voltooien            | N.t.b.                 | 06 augustus 2022       |
+|   &nbsp;  | Zuid-Afrika          |  4.44.0.22      | Voltooien           | Voltooien            | N.t.b.                 | 06 augustus 2022       |
+|   &nbsp;  | Zwitserland           |  4.44.0.22      | Voltooien           | Voltooien            | N.t.b.                 | 06 augustus 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.43.0.77      | 03 juni 2022      | 03 juni 2022       | N.t.b.                 | 08 juli 2022       |
-|   &nbsp;  | Azië-Pacific          |  4.43.0.77      | 03 juni 2022      | 03 juni 2022       | N.t.b.                 | 08 juli 2022       |
-|   &nbsp;  | Groot-Brittannië         |  4.43.0.77      | 03 juni 2022      | 03 juni 2022       | N.t.b.                 | 08 juli 2022       |
-|   &nbsp;  | Oceanië               |  4.43.0.77      | 03 juni 2022      | 03 juni 2022       | N.t.b.                 | 08 juli 2022       |
-|   &nbsp;  | Verenigde Arabische Emiraten  |  4.43.0.77      | 03 juni 2022      | 03 juni 2022       | N.t.b.                 | 08 juli 2022       |
+|   &nbsp;  | Japan                 |  4.44.0.22      | Voltooien      | Voltooien       | N.t.b.                 | 12 augustus 2022       |
+|   &nbsp;  | Azië-Pacific          |  4.44.0.22      | Voltooien      | Voltooien       | N.t.b.                 | 12 augustus 2022       |
+|   &nbsp;  | Groot-Brittannië         |  4.44.0.22      | Voltooien      | Voltooien       | N.t.b.                 | 12 augustus 2022       |
+|   &nbsp;  | Oceanië               |  4.44.0.22      | Voltooien      | Voltooien       | N.t.b.                 | 12 augustus 2022       |
+|   &nbsp;  | Verenigde Arabische Emiraten  |  4.44.0.22      | Voltooien      | Voltooien       | N.t.b.                 | 12 augustus 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.42.0.70      | Voltooien           | Voltooien            | 4.43.0.77           | 10 juni 2022       |
+|   &nbsp;  | Europa                |  4.43.0.119      | Voltooien           | Voltooien            | 4.44.0.22           | 29 juli 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Noord-Amerika         |  4.42.0.70      | Voltooien           | Voltooien            | 4.43.0.77           | 17 juni 2022       |
+|   &nbsp;  | Noord-Amerika         |  4.43.0.119      | Voltooien           | Voltooien            | 4.44.0.22           | 05 augustus 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planning voor Projectbeheer en financiële administratie vrijgeven in de omgeving van apps voor financiën en bedrijfsactiviteiten
 
 Updates voor Projectbeheer en financiële administratie worden acht keer per jaar uitgebracht.
 
-|Ondersteunde versie| Beschikbaarheid preview (PEAP) | Algemeen beschikbaar (zelfupdate) | Begindatum productie van planning automatische updates (via LCS-update-instellingen) |   Einde van service   |
+|Ondersteunde versie| Beschikbaarheid preview | Algemeen beschikbaar (zelfupdate) | Begindatum productie van planning automatische updates (via LCS-update-instellingen) |   Einde van service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.26     |      4 maart 2022          |        15 april 2022             |                          29 april 2022                              | 15 juli 2022      |
-|     10.0.25     |      31 januari 2022       |        18 maart 2022             |                          1 april 2022                               | 10 juni 2022      |
-
+|     10.0.28     |      27 mei 2022           |        15 juli 2022              |                          29 juli 2022                               | 21 oktober 2022   |
+|     10.0.27     |      22 april 2022         |        17 juni 2022              |                          1 juli 2022                                | 16 september 2022 |
 
 Beoogde releasedatums kunnen worden gewijzigd. Voor meer informatie raadpleegt u [Beschikbaarheid van service-updates](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|Beoogde versie | Beschikbaarheid preview (PEAP) | Algemeen beschikbaar (zelfupdate) | Begindatum productie van planning automatische updates (via LCS-update-instellingen) |   Einde van service   |
+|Beoogde versie | Beschikbaarheid preview | Algemeen beschikbaar (zelfupdate) | Begindatum productie van planning automatische updates (via LCS-update-instellingen) |   Einde van service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.27     |      22 april 2022         |        17 juni 2022              |                          1 juli 2022                                | 16 september 2022 |
-|     10.0.28     |      27 mei 2022           |        15 juli 2022              |                          29 juli 2022                               | 21 oktober 2022   |
+|     10.0.29     |      1 augustus 2022         |       16 september 2022          |                        30 september 2022                            | 13 januari 2023   |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

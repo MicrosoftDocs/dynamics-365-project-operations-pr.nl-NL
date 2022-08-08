@@ -2,16 +2,16 @@
 title: Toewijzingsversies van twee keer wegschrijven voor Project Operations
 description: Dit artikel bevat de lijst met toewijzingen voor tweemaal wegschrijven die vereist zijn voor Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959411"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112423"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Toewijzingsversies van twee keer wegschrijven voor Project Operations
 
@@ -30,7 +30,7 @@ De volgende kaarten zijn vereisten voor de Project Operations-oplossing. Zorg er
 | Klanten V3 (accounts) | Niet vereist voor inrichting. |
 | Leveranciers V2 (msdyn_vendors) | Niet vereist voor inrichting. |
 
-1. Selecteer in de lijst met toewijzingen de toewijzing **(msdyn\_ledgers)** met alle vereisten en schakel het selectievakje **Initiële synchronisatie** in. Selecteer in het veld **Master voor initiële synchronisatie** de optie **Finance and Operations-apps** voor zowel de grootboekkaart als alle vereiste kaarten. Selecteer **Uitvoeren**.
+1. Selecteer in de lijst met toewijzingen de toewijzing **(msdyn\_ledgers)** met alle vereisten en schakel het selectievakje **Initiële synchronisatie** in. Selecteer in het veld **Master voor initiële synchronisatie** de optie **Apps voor financiën en bedrijfsactiviteiten** voor zowel de grootboekkaart als alle vereiste kaarten. Selecteer **Uitvoeren**.
 
 ![Synchronisatie van grootboektoewijzing.](media/DW6.png)
 
@@ -46,7 +46,7 @@ De volgende kaarten zijn vereist voor een Project Operations-oplossing. Toewijzi
 | Projectcontractkoppen (verkooporders) | 1.0.0.1 | Niet vereist voor inrichting. ||
 | Projectcontractregels (salesorderdetails) | 1.0.0.0 | Niet vereist voor inrichting. ||
 | Bron voor projectfinanciering (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Niet vereist voor inrichting. ||
-| Project Operations-integratietabel voor materiaalschattingen (msdyn\_estimatelines) | 1.0.0.0 | Niet vereist voor inrichting. ||
+| Projectintegratietabel voor materiaalschattingen (msdyn\_estimatelines) | 1.0.0.0 | Niet vereist voor inrichting. ||
 | Projectfactuurvoorstellen V2 (facturen) | 1.0.0.3 | Niet vereist voor inrichting. ||
 | Werkelijke waarden voor integratie van Project Operations (msdyn_actuals) | 1.0.0.14 | Niet vereist voor inrichting. ||
 | Mijlpalen voor projectcontractregels voor Project Operations-integratie (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Niet vereist voor inrichting. ||

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912372"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110878"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuw in april 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -25,7 +25,7 @@ Dit artikel is van toepassing op de volgende onderdelen en versies van Microsoft
 
 ## <a name="features-included-in-this-release"></a>In deze versie zijn de volgende functies opgenomen
 
-Inkoopcategorieën kunnen worden gebruikt in projectinkooporders en openstaande leveranciersfacturen. Zie [Inkoopcategorieën gebruiken met projectinkooporders en openstaande leveranciersfacturen](configure-procurement-categories.md) voor meer informatie.
+Inkoopcategorieën kunnen worden gebruikt in projectinkooporders en openstaande leveranciersfacturen. Zie [Inkoopcategorieën gebruiken met projectinkooporders en openstaande leveranciersfacturen](../procurement/configure-procurement-categories.md) voor meer informatie.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Updates van kaarten voor twee keer wegschrijven in Project Operations
 

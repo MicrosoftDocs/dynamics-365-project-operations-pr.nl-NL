@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fde1f0be42eecfc5ee809cb9b2191d3aeae57131
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 32bc7793c5a0ee8c04272d3ffcbd290b39fce4cc
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959420"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031325"
 ---
 # <a name="whats-new-june-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van juni 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -20,7 +20,7 @@ _**Van toepassing op:** Project Operations voor scenario's op basis van resource
 
 Dit artikel is van toepassing op de volgende onderdelen en versies van Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in een Dataverse-omgeving versie 4.43.0.77
+- Project Operations in een Dataverse-omgeving versie 4.43.0.77 of 4.43.0.119
 - Projectbeheer en financiële administratie in een Dynamics 365 Finance-omgeving versie 10.0.27
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Updates van kaarten voor twee keer wegschrijven in Project Operations

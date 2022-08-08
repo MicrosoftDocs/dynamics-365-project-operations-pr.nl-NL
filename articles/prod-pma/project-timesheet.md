@@ -2,7 +2,7 @@
 title: Mobiele toepassing voor projecturenstaten
 description: Dit artikel biedt informatie over de mobiele toepassing Microsoft Dynamics 365 Project Timesheet. Met de mobiele app Project Timesheet kunnen gebruikers urenstaten voor projecten op hun mobiele apparaat indienen en goedkeuren.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923964"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110969"
 ---
 # <a name="project-timesheet-mobile-application"></a>Mobiele toepassing voor projecturenstaten
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923964"
 
 ## <a name="overview"></a>Samenzicht
 
-Met de mobiele app Microsoft Dynamics 365 Project Timesheet kunnen gebruikers urenstaten voor projecten op hun mobiele apparaat (iPhone of Android) indienen en goedkeuren. Deze mobiele app bevat de urenstaatfunctionaliteit die zich in het gebied Projectbeheer en boekhouding van Dynamics 365 Finance bevindt, waarmee gebruikersproductiviteit en efficiëntie wordt verbeterd, alsmede de tijdige invoer en goedkeuring van projecturenstaten worden mogelijk gemaakt.
+Met de mobiele app Microsoft Dynamics 365 Project Timesheet kunnen gebruikers urenstaten voor projecten op hun mobiele apparaat (iPhone of Android) indienen en goedkeuren. Deze mobiele app biedt de urenstaatfunctionaliteit die is opgenomen in het gebied Projectbeheer en financiële administratie van Dynamics 365 Finance. Het helpt de productiviteit en efficiëntie van gebruikers te verbeteren en maakt ook het tijdig invoeren en goedkeuren van projecturenstaten mogelijk.
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
 
@@ -38,6 +38,19 @@ Download en installeer de mobiele app Microsoft Dynamics 365 Project Timesheet v
 
 In Finance moet de mobiele app Project Timesheet zijn ingeschakeld. U kunt functionaliteit inschakelen door naar **Parameters voor Projectmanagement en financiële administratie \> Urenstaat** te gaan en de parameter **Microsoft Dynamics 365 Project Timesheet inschakelen** te selecteren.
 
+### <a name="resolve-sign-in-issues"></a>Aanmeldingsproblemen oplossen
+
+**Kwestie:** Tijdens de aanmelding bij de mobiele app voor projecturenstaten ontvangen gebruikers een foutbericht waarin staat dat ze 'geen toegang hebben tot de applicatie '2bc50526-cdc3-4e36-a970-c284c34cbd6e' in die tenant".
+
+**Probleem:** Tijdens de aanmelding bij de mobiele app voor projecturenstaten ontvangen gebruikers een fout die lijkt op een van de volgende voorbeelden:
+
+- "AADSTS50020: Gebruikersaccount '[gebruikersnaam]' van identiteitsprovider 'https://sts.windows.net/[app-id]' bestaat niet in tenant '[tenant id]' en heeft geen toegang tot de toepassing '[app-id]' in die tenant."
+- "Geselecteerd gebruikersaccount bestaat niet in tenant '[tenant-id]' en kan geen toegang krijgen tot de toepassing '[app-id]' in die tenant."
+
+**Uitleg:** Deze problemen worden veroorzaakt door een wijziging die is aangebracht in Azure Active Directory (Azure AD) in mei 2022 en die verband houdt met externe gebruikers. Omdat deze wijziging niet is aangebracht in apps voor financiën en bedrijfsvoering, kan dit gevolgen hebben voor klanten in elke versie van het platform of de toepassing.
+
+**Oplossing:** Alle externe gebruikers moeten worden uitgenodigd voor de tenant via Azure AD. Zie [Gebruikers uitnodigen met Azure Active Directory B2B-samenwerking](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration) voor meer informatie, .
+
 ## <a name="sign-in-to-the-app"></a>Aanmelden bij de app
 
 1.  Start de app op uw mobiele apparaat.
@@ -46,7 +59,7 @@ In Finance moet de mobiele app Project Timesheet zijn ingeschakeld. U kunt funct
 
 3.  Wanneer u zich voor het eerst aanmeldt, wordt u om uw gebruikersnaam en wachtwoord gevraagd. Voer uw referenties in.
 
-4.  U wordt aangemeld bij uw standaardbedrijf.
+4. U wordt aangemeld bij uw standaardbedrijf.
 
 ## <a name="submit-a-project-timesheet"></a>Een projecturenstaat indienen
 
