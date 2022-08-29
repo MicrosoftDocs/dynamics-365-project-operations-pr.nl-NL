@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Nieuwe functies
       items:
-        - name: Juli 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Augustus 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Archiveren
           items:
+            - name: Juli 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Juni 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Mei 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -384,6 +386,42 @@
           items:
             - name: Overzicht van bestede uren van resource
               href: resource-management/resource-utilization-overview.md
+    - name: Subcontractbeheer
+      items:
+        - name: Subcontractbeheer in Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Belangrijke concepten bij gebruik van subcontracten
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Leveranciers en projectprijslijsten beheren
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Onderaannemers als boekbare resources
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Koptekstdetails voor subcontracten
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Subcontractregels voor tijd
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Subcontractregels voor onkostencategorieën
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Subcontractregels voor producten
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Resources voor subcontractregels
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Mijlpalen voor subcontractregels
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subcontracten gebruiken voor projectteamleden
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opties voor het gebruiken van subcontracten voor projectteamleden
+          href: pro/subcontracting/subcon-options.md
+        - name: Kostenraming van resourcetoewijzingen voor subcontracten
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Planbord configureren om contractmedewerkers en subcontractcapaciteit weer te geven
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Een project bemannen met contractmedewerkers en subcontractcapaciteit
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registratie van tijd, kosten en materiaalgebruik voor onderaannemingscomponenten'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Statusovergangen op een onderaannemingsconttract
+          href: pro/subcontracting/subcon-states.md
     - name: Tijd
       items:
         - name: Overzicht van tijd
@@ -580,6 +618,8 @@
       items:
         - name: Volledig gefactureerde factureringsmijlpalen migreren tijdens cutover
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Projectstatus synchroniseren om toegang tot gesloten projecten te voorkomen
+          href: advanced-configuration/sync-project-status.md
     - name: Upgraden
       items:
         - name: Overwegingen bij upgraden voor Moderne goedkeuringen
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Nieuwe functies
       items:
-        - name: Nieuw in juli 2022 - lite-implementatie
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Nieuw in augustus 2022 - lite-implementatie
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Archiveren
           items:
+            - name: Nieuw in juli 2022 - lite-implementatie
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Nieuw in juni 2022 - lite-implementatie
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Nieuw in versie voor vroege toegang van wave 2 voor 2021 - lite-implementatie
