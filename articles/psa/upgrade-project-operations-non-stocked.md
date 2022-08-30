@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912970"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230223"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgraden van Project Service Automation naar Project Operations
 
@@ -67,7 +67,7 @@ Als u actieve licenties voor Project Service Automation hebt, kunt u Project Ope
 
 ## <a name="testing-and-refactoring-customizations"></a>Aanpassingen testen en herstructureren
 
-Importeer om te beginnen alle aanpassingen in een schone Project Operations (lite)-omgeving om te bevestigen dat het importeren is gelukt en dat de bedrijfsactiviteiten zich naar verwachting gedragen.
+Importeer om te beginnen alle aanpassingen in een schone Project Operations (Lite)-omgeving om te bevestigen dat het importeren is gelukt en dat de bedrijfsactiviteiten zich naar verwachting gedragen.
 
 Hier zijn enkele dingen om op te letten:
 

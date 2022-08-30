@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929208"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230309"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>API's voor projectplanning gebruiken om bewerkingen uit te voeren met planningsentiteiten
 
@@ -45,9 +45,9 @@ Hierna volgt een lijst met huidige API's voor projectplanning.
 - **msdyn_CreateprojectV1**: deze API kan worden gebruikt om een project te maken. Het project en de standaard projectbucket worden onmiddellijk gemaakt.
 - **msdyn_CreateTeamMemberV1**: deze API kan worden gebruikt om een projectteamlid te maken. De teamlidrecord wordt onmiddellijk gemaakt.
 - **msdyn_CreateOperationSetV1**: deze API kan worden gebruikt om verschillende verzoeken te plannen die binnen een transactie moeten worden uitgevoerd.
-- **msdyn_PSSCreateV1**: deze API kan worden gebruikt om een entiteit te maken. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor maken ondersteunen.
-- **msdyn_PSSUpdateV1**: deze API kan worden gebruikt om een entiteit bij te werken. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor bijwerken ondersteunen.
-- **msdyn_PSSDeleteV1**: deze API kan worden gebruikt om een entiteit te verwijderen. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor verwijderen ondersteunen.
+- **msdyn_PssCreateV1**: deze API kan worden gebruikt om een entiteit te maken. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor maken ondersteunen.
+- **msdyn_PssUpdateV1**: deze API kan worden gebruikt om een entiteit bij te werken. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor bijwerken ondersteunen.
+- **msdyn_PssDeleteV1**: deze API kan worden gebruikt om een entiteit te verwijderen. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor verwijderen ondersteunen.
 - **msdyn_ExecuteOperationSetV1**: deze API wordt gebruikt om alle bewerkingen binnen de opgegeven bewerkingsset uit te voeren.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>API's voor projectplanning gebruiken met OperationSet
