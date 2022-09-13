@@ -1,66 +1,96 @@
 ---
-title: Verkoopprijzen voor projectschattingen en werkelijke waarden omzetten
-description: Dit artikel biedt informatie over het oplossen van verkoopprijzen bij projectramingen en werkelijke projectwaarden.
+title: Verkoopprijzen voor projectschattingen en werkelijke waarden bepalen
+description: Dit artikel biedt informatie over hoe verkoopprijzen voor projectschattingen en werkelijke projectwaarden worden bepaald.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9a6a19a866ab3218f2a0fa297b5f6a00ed809d2f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917478"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410112"
 ---
-# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Verkoopprijzen voor projectschattingen en werkelijke waarden omzetten
+# <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Verkoopprijzen voor projectschattingen en werkelijke waarden bepalen
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Wanneer verkoopprijzen voor schattingen en werkelijke waarden worden opgelost in Dynamics 365 Project Operations, gebruikt het systeem eerst de datum en valuta van de gerelateerde projectprijsopgave of contract om de verkoopprijslijst op te lossen. Nadat de verkoopprijslijst is omgezet, wordt het verkoop- of factuurtarief omgezet.
+Om verkoopprijzen voor schattingen en werkelijke waarden te bepalen in Microsoft Dynamics 365 Project Operations, gebruikt het systeem eerst de datum en valuta in de binnenkomende schattings- of werkelijke context om de verkoopprijslijst te bepalen. Specifiek in de werkelijke context gebruikt het systeem het veld **Transactiedatum** om te bepalen welke prijslijst van toepassing is. Nadat de verkoopprijslijst is bepaald, wordt het verkoop- of factuurtarief vastgesteld.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Verkooptarieven omzetten voor regels met werkelijke waarden en schattingen voor tijd
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Verkooptarieven bepalen voor regels met werkelijke waarden en schattingen voor Tijd
 
-In Project Operations worden schattingsregels voor tijd gebruikt om de prijsopgaveregel- en contractregeldetails voor tijd en resourcetoewijzingen aan het project aan te geven.
+Schattingscontext voor **Tijd** verwijst naar:
 
-Nadat een prijslijst voor verkopen is omgezet, voert het systeem de volgende stappen uit om het factuurtarief te standaardiseren.
+- Prijsopgaveregeldetails voor **Tijd**.
+- Contractregeldetails voor **Tijd**.
+- Resourcetoewijzingen voor een project.
 
-1. De velden **Rol** en **Resource-eenheid** op de schattingsregel voor tijd worden gebruikt voor afstemming met de rolprijsregels in de omgezette prijslijst. Bij deze afstemming wordt ervan uitgegaan dat u standaardprijsdimensies voor factureringstarieven gebruikt. Als u de prijzen hebt geconfigureerd op basis van andere velden in plaats van of naast **Rol** en **Resource-eenheid**, dan wordt die combinatie gebruikt om een overeenkomende rolprijsregel op te halen.
-2. Als een rolprijsregel wordt gevonden met een factureringstarief voor de combinatie van de velden **Rol** en **Resource-eenheid**, is dat het standaardfactuurtarief.
-3. Als de waarden voor de velden **Rol** en **Resource-eenheid** niet kunnen worden afgestemd, worden rolprijsregels opgehaald met een overeenkomende rol, maar lege waarden van de **Resource-eenheid**. Nadat het systeem een overeenkomende rolprijsrecord heeft gevonden, wordt het factuurtarief uit die record standaard ingesteld. Deze afstemming veronderstelt een standaardconfiguratie voor de relatieve prioriteit van **Rol** versus **Resource-eenheid** als een verkoopprijsdimensie.
+Werkelijke context voor **Tijd** verwijst naar:
+
+- Boekings- en correctiejournaalregels voor **Tijd**.
+- Journaalregels die worden gemaakt wanneer een tijdsvermelding wordt ingediend.
+- Factuurregeldetails voor **Tijd**. 
+
+Nadat een prijslijst voor verkopen is bepaald, voert het systeem de volgende stappen uit om het standaardfactuurtarief in te voeren.
+
+1. De combinatie van de velden **Rol** en **Resource-eenheid** in de schattings- of werkelijke context voor **Tijd** worden gebruikt voor afstemming met de rolprijsregels in de prijslijst. Bij deze afstemming wordt ervan uitgegaan dat u de standaardprijsdimensies voor factureringstarieven gebruikt. Als u de prijzen zo hebt geconfigureerd dat deze zijn gebaseerd andere velden in plaats van of naast **Rol** en **Resource-eenheid**, dan wordt die combinatie van velden gebruikt om een overeenkomende rolprijsregel op te halen.
+1. Als een rolprijsregel wordt gevonden met een factureringstarief voor de combinatie van de velden **Rol** en **Resource-eenheid**, wordt dat factuurtarief gebruikt als standaardfactuurtarief.
+1. Als de waarden voor de velden **Rol** en **Resource-eenheid** niet kunnen worden afgestemd, worden de rolprijsregels met overeenkomende waarden voor het veld **Rol**, maar lege waarden voor het veld **Resource-eenheid** opgehaald. Nadat het systeem een overeenkomende rolprijsrecord heeft gevonden, wordt het factuurtarief uit die record als standaard ingesteld. Deze afstemming veronderstelt een standaardconfiguratie voor de relatieve prioriteit van **Rol** versus **Resource-eenheid** als een verkoopprijsdimensie.
 
 > [!NOTE]
-> Als u een andere prioriteitstelling van **Rol** en **Resource-eenheid** hebt geconfigureerd, of als u andere dimensies heeft die een hogere prioriteit hebben, zal dit gedrag dienovereenkomstig veranderen. Rolprijsrecords worden opgehaald met waarden die overeenkomen met elk van de prijsdimensiewaarden in de volgorde van prioriteit, waarbij rijen met null-waarden voor die dimensies als laatste komen.
+> Als u een andere prioriteitstelling van de velden **Rol** en **Resource-eenheid** configureert, of als u andere dimensies hebt die een hogere prioriteit hebben, wordt het voorgaande gedrag dienovereenkomstig veranderd. Het systeem haalt rolprijsrecords op die waarden hebben die overeenkomen met elke prijsdimensiewaarde in volgorde van prioriteit. Rijen met null-waarden voor die dimensies komen als laatste.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Verkooptarieven omzetten voor regels met werkelijke waarden en schattingen voor onkosten
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Verkooptarieven bepalen voor regels met werkelijke waarden en schattingen voor Onkosten
 
-In Project Operations worden schattingsregels voor onkosten gebruikt om de prijsopgaveregel- en contractregeldetails voor onkosten en de schattingsregels voor onkosten in het project aan te geven.
+Schattingscontext voor **Onkosten** verwijst naar:
 
-Nadat een prijslijst voor verkopen is omgezet, voert het systeem de volgende stappen uit om de verkoopprijs per eenheid te standaardiseren.
+- Prijsopgaveregeldetails voor **Onkosten**.
+- Contractregeldetails voor **Onkosten**.
+- Regels met onkostenschattingen voor een project.
 
-1. Een combinatie van de velden **Categorie** en **Eenheid** op de schattingsregel voor onkosten wordt gebruikt voor afstemming met de categorieprijsregels in de omgezette prijslijst.
-2. Als een categorieprijsregel wordt gevonden met een verkooptarief voor de combinatie van **Categorie** en **Eenheid**, wordt het verkooptarief standaard ingesteld.
-3. Als het systeem een overeenkomende categorieprijsregel vindt, kan de prijsmethode worden gebruikt om de standaardverkoopprijs te bepalen. In de onderstaande tabel ziet u het standaardgedrag van de onkosten in Project Operations.
+Werkelijke context voor **Onkosten** verwijst naar:
+
+- Boekings- en correctiejournaalregels voor **Onkosten**.
+- Journaalregels die worden gemaakt wanneer een onkostenpost wordt ingediend.
+- Factuurregeldetails voor **Onkosten**. 
+
+Nadat een prijslijst voor verkopen is bepaald, voert het systeem de volgende stappen uit om de standaardverkoopprijs per eenheid in te voeren.
+
+1. De combinatie van de velden **Categorie** en **Eenheid** op de schattingsregel voor **Onkosten** wordt gebruikt voor afstemming met de categorieprijsregels in de prijslijst.
+1. Als een categorieprijsregel wordt gevonden met een verkooptarief voor de combinatie van **Categorie** en **Eenheid**, wordt het verkooptarief als standaard ingesteld.
+1. Als het systeem een overeenkomende categorieprijsregel vindt, kan de prijsmethode worden gebruikt om de standaardverkoopprijs in te voeren. In de onderstaande tabel ziet u het standaardgedrag voor prijzen van onkosten in Project Operations.
 
     | Context | Prijsmethode | Standaardprijs |
     | --- | --- | --- |
-    | Schatting | Prijs per eenheid | Gebaseerd op de categorieprijslijn |
-    | &nbsp; | Tegen kosten | 0.00 |
-    | &nbsp; | Toeslag op kosten | 0.00 |
-    | Actueel | Prijs per eenheid | Gebaseerd op de categorieprijslijn |
-    | &nbsp; | Tegen kosten | Gebaseerd op de gerelateerde werkelijke kosten |
-    | &nbsp; | Toeslag op kosten | Pas een toeslag toe zoals gedefinieerd door de categorieprijsregel op het eenheidskostentarief van de gerelateerde werkelijke kosten |
+    | Raming | Prijs per eenheid | Gebaseerd op de categorieprijsregel. |
+    |        | Tegen kosten | 0.00 |
+    |        | Toeslag op kosten | 0.00 |
+    | Actueel | Prijs per eenheid | Gebaseerd op de categorieprijsregel. |
+    |        | Tegen kosten | Gebaseerd op de gerelateerde werkelijke kosten. |
+    |        | Toeslag op kosten | Er wordt een toeslag toegepast, zoals gedefinieerd door de categorieprijsregel, op het eenheidskostentarief van de gerelateerde werkelijke kosten. |
 
-4. Als het systeem de veldwaarden **Categorie** en **Eenheid** niet kan afstemmen, wordt het verkooptarief standaard op nul (0) ingesteld.
+1. Als de waarden voor **Categorie** en **Eenheid** niet kunnen worden afgestemd, wordt het verkooptarief standaard ingesteld op **0** (nul).
 
-## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Verkooptarieven voor werkelijke en schattingsregels voor materiaal omzetten
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Verkooptarieven voor werkelijke en schattingsregels voor materiaal bepalen
 
-In Project Operations worden schattingsregels voor materiaal gebruikt ter aanduiding van de prijsopgave- en contractregeldetails voor materialen en de materiaalschattingsregels voor het project.
+Schattingscontext voor **Materiaal** verwijst naar:
 
-Nadat een prijslijst voor verkopen is omgezet, voert het systeem de volgende stappen uit om de verkoopprijs per eenheid te standaardiseren.
+- Prijsopgaveregeldetails voor **Materiaal**.
+- Contractregeldetails voor **Materiaal**.
+- Materiaalschattingsregels voor een project.
 
-1. Het systeem gebruikt de combinatie van de velden **Product** en **Eenheid** op de schattingsregel voor materiaal dat moet worden vergeleken met de prijslijstartikelregels in de prijslijst die is omgezet.
-2. Als een prijslijstartikelregel met een verkooptarief voor de combinatie van **Product** en **Eenheid** wordt gevonden en de prijsmethode is **Valutabedrag**, dan wordt de verkoopprijs gebruikt die is opgegeven op de prijslijstregel.
-3. Als de waarden voor **Product** en **Eenheid** niet overeenkomen, wordt het verkooptarief standaard ingesteld op nul.
+Werkelijke context voor **Materiaal** verwijst naar:
+
+- Boekings- en correctiejournaalregels voor **Materiaal**.
+- Journaalregels die worden gemaakt wanneer een logboek voor materiaalgebruik wordt ingediend.
+- Factuurregeldetails voor **Materiaal**. 
+
+Nadat een prijslijst voor verkopen is bepaald, voert het systeem de volgende stappen uit om de standaardverkoopprijs per eenheid in te voeren.
+
+1. Het systeem gebruikt de combinatie van de velden **Product** en **Eenheid** op de schattingsregel voor **Materiaal** voor afstemming met de prijslijstartikelregels in de prijslijst.
+1. Als een prijslijstartikelregel met een verkooptarief voor de combinatie van **Product** en **Eenheid** wordt gevonden en de prijsmethode **Valutabedrag** is, wordt de verkoopprijs gebruikt die is opgegeven op de prijslijstregel. 
+1. Als de veldwaarden **Product** en **Eenheid** geen match zijn, of als de prijsmethode anders is dan **Valutabedrag**, wordt het verkooptarief standaard ingesteld op **0** (nul). Dit gedrag treedt op omdat Project Operations alleen de prijsmethode **Valutabedrag** ondersteunt voor materialen die in een project worden gebruikt.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

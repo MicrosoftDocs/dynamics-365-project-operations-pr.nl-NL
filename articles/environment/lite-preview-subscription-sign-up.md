@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 29bf31cd1bc9c1c5ac757de989154b4c7acc53fe
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921250"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410005"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Aanmelden voor een preview-abonnement - lite 
 
@@ -63,9 +63,9 @@ Voordat u begint, moet u ervoor zorgen dat u bent aangemeld bij een browser met 
 
 ![Oplossing installeren.](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS-configuratie installeren en demogegevens instellen
+## <a name="set-up-demo-data"></a>Demogegevens instellen
 
-Installeer de CDS-configuratie en stel demogegevens in door de instructies in het artikel [Demo-instellingen en configuratiegegevens toepassen](lite-apply-demo-setup-config-data.md) te volgen.
+Stel demogegevens in door de instructies in het artikel [Demo-instellingen en configuratiegegevens toepassen](lite-apply-demo-setup-config-data.md) te volgen.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

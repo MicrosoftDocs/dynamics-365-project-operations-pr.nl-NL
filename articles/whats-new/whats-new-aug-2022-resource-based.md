@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348002"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403850"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuwe functies van augustus 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -38,6 +38,11 @@ Als u een probleem ondervindt bij het starten van de toewijzing, volgt u de inst
 | Functiegebied | Referentienummer | Kwaliteitsupdate |
 | --- | --- | --- |
 | Verkoopkansenbeheer | 2762089 | Foutafhandeling tijdens het sluiten van het contract als verloren als automatisch opslaan is uitgeschakeld in de organisatie.|
+|Projecten plannen en bijhouden | 2767841 | Telemetrie-updates voor maak- en bijwerkscenario's van entiteit Project.|
+|Facturering en prijzen | 2771072 | Afhandeling van null-referentie-uitzonderingen tijdens het winnen van een prijsopgave.|
+|Facturering en prijzen | 2844181 |Fout bij het verkrijgen van een correlatie-id en het blokkeren van het maken van een factuur.|
+|Facturering en prijzen | 2852836 | Werkelijke intercompany-kosten ontbreken voor intercompany-uitgaven die zijn gemaakt en goedgekeurd in CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Projectbeheer en financiële administratie in Finance
 

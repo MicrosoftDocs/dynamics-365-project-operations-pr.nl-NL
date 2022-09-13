@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295872"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409929"
 ---
 # <a name="project-operations-updates"></a>Updates voor Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations bestaat uit twee componenten:
 
 | Project Operations in Dataverse-omgeving | Projectbeheer en financiële administratie in omgevingen van apps voor financiën en bedrijfsactiviteiten | 
 | --- | --- |
-| 4.45.0.53 | 10.0.28 |
+| 4.45.0.53 | 10.0.29 |
 
 Voor scenario's op basis van resources/niet-voorradige artikelen in Project Operations raden we aan om versie 2.3.1.15 of hoger om de indelingsoplossing voor twee keer wegschrijven te gebruiken.
 
@@ -47,24 +47,24 @@ Updates voor Project Operations in Dataverse-omgeving zijn maandelijks beschikba
 | Station | Regio | Nummer huidige versie | Automatische updates voor Lite-implementatie | Automatische updates voor implementatie van resources/niet-voorradige artikelen | Nummer volgende versie | Volgende versie algemeen beschikbaar |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eerste versie         |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 26 augustus 2022       |
+|   &nbsp;  | Eerste versie         |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022      |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Zuid-Amerika         |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 02 september 2022       |
-|   &nbsp;  | Canada                |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 02 september 2022       |
-|   &nbsp;  | India                 |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 02 september 2022       |
-|   &nbsp;  | Frankrijk                |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 02 september 2022       |
-|   &nbsp;  | Zuid-Afrika          |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 02 september 2022       |
-|   &nbsp;  | Zwitserland           |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 02 september 2022       |
+|   &nbsp;  | Zuid-Amerika         |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | Canada                |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | India                 |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | Frankrijk                |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | Zuid-Afrika          |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | Zwitserland           |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.44.0.22      | Voltooien      | Voltooien       | 4.45.0.53                 | 19 augustus 2022       |
-|   &nbsp;  | Azië-Pacific          |  4.44.0.22      | Voltooien      | Voltooien       | 4.45.0.53                 | 19 augustus 2022       |
-|   &nbsp;  | Groot-Brittannië         |  4.44.0.22      | Voltooien      | Voltooien       | 4.45.0.53                 | 19 augustus 2022       |
-|   &nbsp;  | Oceanië               |  4.44.0.22      | Voltooien      | Voltooien       | 4.45.0.53                 | 19 augustus 2022       |
-|   &nbsp;  | Verenigde Arabische Emiraten  |  4.44.0.22      | Voltooien      | Voltooien       | 4.45.0.53                 | 19 augustus 2022       |
+|   &nbsp;  | Japan                 |  4.45.0.53      | Voltooien      | Voltooien       | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | Azië-Pacific          |  4.45.0.53      | Voltooien      | Voltooien       | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | Groot-Brittannië         |  4.45.0.53      | Voltooien      | Voltooien       | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | Oceanië               |  4.45.0.53      | Voltooien      | Voltooien       | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | Verenigde Arabische Emiraten  |  4.45.0.53      | Voltooien      | Voltooien       | N.t.b.                 | 09 september 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.44.0.22      | Voltooien           | Voltooien            | 4.45.0.53           | 26 augustus 2022       |
+|   &nbsp;  | Europa                |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.           | 16 september 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Noord-Amerika         |  4.44.0.22      | Voltooien           | Voltooien            | 4.45.0.53           | 02 september 2022       |
+|   &nbsp;  | Noord-Amerika         |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.           | 16 september 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planning voor Projectbeheer en financiële administratie vrijgeven in de omgeving van apps voor financiën en bedrijfsactiviteiten
 
