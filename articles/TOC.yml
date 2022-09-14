@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projectprijsopgaven kopiëren
               href: sales/lose-quote.md
+            - name: Een projectprijsopgave activeren en herzien
+              href: sales/activation-and-revision.md
             - name: Projectprijsopgaven sluiten
               href: sales/win-quote.md
         - name: Projectcontracten beheren
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Factuurschema's maken voor projectgebaseerde contractregels
                   href: sales/invoice-schedules-contract-line.md
+            - name: Projectgebaseerde contracten kopiëren
+              href: sales/copy-project-based-contracts-sales.md
             - name: Een projectcontract bevestigen
               href: pro/sales/confirm-contract-sales.md
             - name: Vooruitbetalingen en voorschotten
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Verkoopprijslijsten voor project overschrijven
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Kostprijzen voor schattingen en werkelijke waarden omzetten
+            - name: Kostprijzen voor schattingen en werkelijke waarden vaststellen
               href: pricing-costing/cost-price-resolution.md
-            - name: Verkoopprijzen voor schattingen en werkelijke waarden omzetten
+            - name: Verkoopprijzen voor schattingen en werkelijke waarden vaststellen
               href: pricing-costing/sales-price-resolution.md
             - name: Prijslijsten kopiëren
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Projectgebaseerde prijsopgaven kopiëren
               href: sales/lose-quote.md
+            - name: Een projectprijsopgave activeren en herzien
+              href: sales/activation-and-revision.md
             - name: Projectgebaseerde prijsopgaven sluiten
               href: pro/sales/win-quote-sales.md
         - name: Projectgebaseerde contracten beheren
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Verkoopprijslijsten voor project overschrijven
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Kostprijzen voor projectschattingen en werkelijke waarden omzetten
+            - name: Kostprijzen voor projectschattingen en werkelijke waarden vaststellen
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Verkoopprijzen voor projectschattingen en werkelijke waarden omzetten
+            - name: Verkoopprijzen voor projectschattingen en werkelijke waarden vaststellen
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Prijslijsten kopiëren
               href: pricing-costing/copy-price-lists.md
