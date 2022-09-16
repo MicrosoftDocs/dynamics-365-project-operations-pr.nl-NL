@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Verkoopprijslijsten voor project overschrijven
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Ingangsdatum voor overschrijvingen instellen voor specifieke prijzen in een prijslijst
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Kostprijzen voor schattingen en werkelijke waarden vaststellen
               href: pricing-costing/cost-price-resolution.md
             - name: Verkoopprijzen voor schattingen en werkelijke waarden vaststellen
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Goederen en diensten bestellen voor projecten met behulp van projectinkooporders
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Leveranciersfacturen voor subcontracten in Dataverse
+          items:
+            - name: Leveranciersfacturen maken
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verificatie van leveranciersfacturen met goedgekeurde werkelijke waarden
+              href: pro/subcontracting/VI-Verification.md
+            - name: Projectleveranciersfacturen bevestigen
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Leveranciersretentie
           items:
             - name: Overzicht van leveranciersretentie
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Verkoopprijslijsten voor project overschrijven
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Ingangsdatum voor overschrijvingen instellen voor specifieke prijzen in een prijslijst
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Kostprijzen voor projectschattingen en werkelijke waarden vaststellen
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Verkoopprijzen voor projectschattingen en werkelijke waarden vaststellen
