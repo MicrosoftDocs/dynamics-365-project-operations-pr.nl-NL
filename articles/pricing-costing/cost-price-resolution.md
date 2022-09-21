@@ -1,43 +1,84 @@
 ---
-title: Kostprijzen voor schattingen en werkelijke waarden herleiden
-description: Dit artikel biedt informatie over hoe kostprijzen voor ramingen en werkelijke waarden worden opgelost.
+title: Kostenpercentages bepalen voor projectgebaseerde schattingen en werkelijke kosten
+description: Dit artikel biedt informatie over hoe kostentarieven voor projectgebaseerde schattingen en werkelijke projectwaarden worden bepaald.
 author: rumant
-ms.date: 04/09/2021
+ms.date: 9/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 822a7bd8ae87d4fd4044d8b46347bfe1b4ca13ca
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919962"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475267"
 ---
-# <a name="resolving-cost-prices-for-estimates-and-actuals"></a>Kostprijzen voor schattingen en werkelijke waarden herleiden
+# <a name="determine-cost-rates-for-project-based-estimates-and-actuals"></a>Kostenpercentages bepalen voor projectgebaseerde schattingen en werkelijke kosten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Om kostprijzen en de kostprijslijst voor schattingen en werkelijke waarden te herleiden, wordt de informatie in de velden **Datum**, **Valuta** en **Contracterende eenheid** van het gerelateerde project gebruikt. Nadat de kostprijslijst is herleid, wordt het kostentarief herleid.
+Om kostprijzen voor schattingen en werkelijke waarden te bepalen in Microsoft Dynamics 365 Project Operations, gebruikt het systeem eerst de datum en valuta in de binnenkomende schattings- of werkelijke context om de verkoopprijslijst te bepalen. Specifiek in de werkelijke context gebruikt het systeem het veld **Transactiedatum** om te bepalen welke prijslijst van toepassing is. De waarde voor de **Transactiedatum** van de inkomende schatting of werkelijke waarde wordt vergeleken met de waarden voor **Effectieve begindatum (tijdzone-onafhankelijk)** en **Effectieve einddatum (tijdzone-onafhankelijk)** op de prijslijst. Nadat de kostprijslijst is bepaald, wordt het kostentarief bepaald.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Kostentarieven herleiden voor regels met werkelijke waarden en schattingen voor tijd
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Kostentarieven in schattings- en werkelijke contexten bepalen voor Tijd
 
-Schattingsregels voor Tijd verwijzen naar de details van de prijsopgave- en contractregels voor tijd- en resourcetoewijzingen in een project.
+Schattingscontext voor **Tijd** verwijst naar:
 
-Nadat een kostprijslijst is herleid, worden de velden **Rol**, **Bedrijf voor resources** en **Resource-eenheid** op de schattingsregel voor Tijd gebruikt voor afstemming met de rolprijsregels in de prijslijst. Bij deze afstemming wordt ervan uitgegaan dat u standaardprijsdimensies voor arbeidskosten gebruikt. Als u het systeem hebt geconfigureerd om velden af te stemmen in plaats van of naast **Rol**, **Bedrijf voor resources** en **Resource-eenheid**, dan wordt een andere combinatie gebruikt om een overeenkomende rolprijsregel op te halen. Als een rolprijsregel wordt gevonden met een kostentarief voor de combinatie van **Rol**, **Bedrijf voor resources** en **Resource-eenheid**, is dat het standaardkostentarief. Als de combinatie van **Rol**, **Resourcingbedrijf** en **Resourcing-eenheid** niet kan worden gevonden, worden rolprijsregels met een overeenkomende rolwaarde, maar met nulwaarden voor **Resource-eenheid** en **Resourcingbedrijf** opgehaald.​ Nadat een overeenkomende rolprijsrecord met een overeenkomende rolprijswaarde is gevonden, wordt het kostentarief standaard uit die record gehaald. 
+- Prijsopgaveregeldetails voor **Tijd**.
+- Contractregeldetails voor **Tijd**.
+- Resourcetoewijzingen voor een project.
+
+Werkelijke context voor **Tijd** verwijst naar:
+
+- Boekings- en correctiejournaalregels voor **Tijd**.
+- Journaalregels die worden gemaakt wanneer een tijdsvermelding wordt ingediend.
+
+Nadat een kostprijslijst is bepaald, voert het systeem de volgende stappen uit om het standaardkostentarief in te voeren.
+
+1. De combinatie van de velden **Rol**, **Bedrijf voor resources** en **Resource-eenheid** in de schattings- of werkelijke context voor **Tijd** worden gebruikt voor afstemming met de rolprijsregels in de prijslijst. Bij deze afstemming wordt ervan uitgegaan dat u de standaardprijsdimensies voor arbeidskosten gebruikt. Als u het systeem hebt geconfigureerd om velden af te stemmen in plaats van of naast **Rol**, **Bedrijf voor resources** en **Resource-eenheid**, dan wordt een andere combinatie gebruikt om een overeenkomende rolprijsregel op te halen.
+1. Als een rolprijsregel wordt gevonden met een kostentarief voor de combinatie van **Rol**, **Bedrijf voor resources** en **Resource-eenheid**, wordt dat kostentarief gebruikt als standaardtarief voor kosten.
+1. Als het systeem de waarden **Rol**, **Bedrijf voor resources** en **Resource-eenheid** niet kan matchen, laat het de dimensie met de laagste prioriteit vallen, zoekt het naar rolprijsregels met overeenkomsten voor de andere twee dimensiewaarden en laat het geleidelijk dimensies vallen totdat een overeenkomende rolprijsregel is gevonden. Het kostentarief van dat record wordt gebruikt als het standaardkostentarief. Als het systeem geen overeenkomende rij met rolprijzen vindt, wordt de prijs standaard op **0** (nul) gezet.
 
 > [!NOTE]
-> Als u een andere prioriteitstelling van **Rol**, **Bedrijf voor resources** en **Resource-eenheid** configureert, of als u andere dimensies heeft die een hogere prioriteit hebben, zal dit gedrag dienovereenkomstig veranderen. Het systeem haalt rolprijsrecords op met waarden die overeenkomen met elk van de prijsdimensiewaarden in volgorde van prioriteit, waarbij rijen met nulwaarden voor die dimensies als laatste in de prioriteitsvolgorde komen.
+> Als u een andere prioriteitstelling van de velden **Rol** en **Resource-eenheid** configureert, of als u andere dimensies hebt die een hogere prioriteit hebben, wordt het voorgaande gedrag dienovereenkomstig veranderd. Het systeem haalt rolprijsrecords op die waarden hebben die overeenkomen met elke prijsdimensiewaarde in volgorde van prioriteit. Rijen met null-waarden voor die dimensies komen als laatste.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Kostentarieven herleiden voor regels met werkelijke waarden en schattingen voor Onkosten
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Kostentarieven bepalen voor regels met werkelijke waarden en schattingen voor Onkosten
 
-Schattingsregels voor Onkosten verwijzen naar de details van de prijsopgave- en contractregels voor onkosten en de schattingsregels voor onkosten in een project.
+Schattingscontext voor **Onkosten** verwijst naar:
 
-Nadat een kostprijslijst is herleid, wordt een combinatie van velden **Categorie** en **Eenheid** op de schattingsregel voor Onkosten gebruikt voor afstemming met de regels van **Categorieprijs** in de herleide prijslijst. Als een categorieprijsregel wordt gevonden met een kostentarief voor de combinatie van **Categorie** en **Eenheid**, wordt het kostentarief standaard ingesteld. Als de waarden van **Categorie** en **Eenheid** niet kunnen worden afgestemd of als wel een overeenkomende categorieprijsregel wordt gevonden, maar de prijsmethode niet **Prijs per eenheid** is, wordt het kostentarief standaard ingesteld op nul (0).
+- Prijsopgaveregeldetails voor **Onkosten**.
+- Contractregeldetails voor **Onkosten**.
+- Onkostenschattingen voor een project.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Kostentarieven voor werkelijke en schattingsregels voor materiaal omzetten
+Werkelijke context voor **Onkosten** verwijst naar:
 
-Schattingsregels voor materiaal verwijzen naar de prijsopgave- en contractregeldetails voor materialen en de materiaalschattingsregels voor een project.
+- Boekings- en correctiejournaalregels voor **Onkosten**.
+- Journaalregels die worden gemaakt wanneer een onkostenpost wordt ingediend.
 
-Nadat een kostprijslijst is omgezet, gebruikt het systeem een combinatie van de velden **Product** en **Eenheid** op de schattingsregel voor een materiaalschatting die vervolgens wordt vergeleken met de regels **Prijslijstitems** van de omgezette prijslijst. Als het systeem een productprijsregel vindt met een kostentarief voor de combinatie van de velden **Product** en **Eenheid**, wordt het kostentarief standaard ingesteld. Als de waarden voor **Product** en **Eenheid** niet kunnen worden vergeleken, worden de eenheidskosten standaard ingesteld op nul. Deze standaardinstelling wordt ook gebruikt als er een overeenkomende prijslijstartikelregel is, maar de prijsmethode is gebaseerd op standaardkosten of huidige kosten die niet voor het product zijn gedefinieerd.
+Nadat een kostprijslijst is bepaald, voert het systeem de volgende stappen uit om het standaardkostentarief in te voeren.
+
+1. De combinatie van de velden **Categorie** en **Eenheid** in de schattings- of werkelijke context voor **Onkosten** wordt gebruikt voor afstemming met de categorieprijsregels in de prijslijst.
+1. Als een categorieprijsregel wordt gevonden met een kostentarief voor de combinatie van **Categorie** en **Eenheid**, wordt dat kostentarief gebruikt als het standaardkostentarief.
+1. Als de waarden voor **Categorie** en **Eenheid** niet kunnen worden afgestemd, wordt de prijs standaard ingesteld op **0** (nul).
+1. Als in de schattingscontext een overeenkomende categorieprijsregel kan worden gevonden, maar de prijsmethode niet **Prijs per eenheid** is, wordt het kostentarief standaard op **nul** (0) ingesteld.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Kostentarieven voor werkelijke en schattingsregels voor Materiaal bepalen
+
+Schattingscontext voor **Materiaal** verwijst naar:
+
+- Prijsopgaveregeldetails voor **Materiaal**.
+- Contractregeldetails voor **Materiaal**.
+- Materiaalschattingen voor een project.
+
+Werkelijke context voor **Materiaal** verwijst naar:
+
+- Boekings- en correctiejournaalregels voor **Materiaal**.
+- Journaalregels die worden gemaakt wanneer een logboek voor materiaalgebruik wordt ingediend.
+
+Nadat een kostprijslijst is bepaald, voert het systeem de volgende stappen uit om het standaardkostentarief in te voeren.
+
+1. De combinatie van de velden **Product** en **Eenheid** in de schattings- of werkelijke context voor **Materiaal** wordt gebruikt voor afstemming met de prijslijstitemregels in de prijslijst.
+1. Als een prijslijstitem wordt gevonden met een kostentarief voor de combinatie van **Product** en **Eenheid**, wordt dat kostentarief gebruikt als het standaardkostentarief.
+1. Als de waarden voor **Product** en **Eenheid** niet kunnen worden vergeleken, worden de eenheidskosten standaard ingesteld op **0** (nul).
+1. Als in de schattings- of werkelijke context een overeenkomende prijslijstartikelregel kan worden gevonden, maar de prijsmethode niet **Valutabedrag** is, worden de eenheidskosten standaard op **nul** (0) ingesteld. Dit gedrag treedt op omdat Project Operations alleen de prijsmethode **Valutabedrag** ondersteunt voor materialen die in een project worden gebruikt.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

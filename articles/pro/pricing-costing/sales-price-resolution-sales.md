@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410112"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475178"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Verkoopprijzen voor projectschattingen en werkelijke waarden bepalen
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Om verkoopprijzen voor schattingen en werkelijke waarden te bepalen in Microsoft Dynamics 365 Project Operations, gebruikt het systeem eerst de datum en valuta in de binnenkomende schattings- of werkelijke context om de verkoopprijslijst te bepalen. Specifiek in de werkelijke context gebruikt het systeem het veld **Transactiedatum** om te bepalen welke prijslijst van toepassing is. Nadat de verkoopprijslijst is bepaald, wordt het verkoop- of factuurtarief vastgesteld.
+Om verkoopprijzen voor schattingen en werkelijke waarden te bepalen in Microsoft Dynamics 365 Project Operations, gebruikt het systeem eerst de datum en valuta in de binnenkomende schattings- of werkelijke context om de verkoopprijslijst te bepalen. Specifiek in de werkelijke context gebruikt het systeem het veld **Transactiedatum** om te bepalen welke prijslijst van toepassing is. De waarde voor de **Transactiedatum** van de inkomende schatting of werkelijke waarde wordt vergeleken met de waarden voor **Effectieve begindatum (tijdzone-onafhankelijk)** en **Effectieve einddatum (tijdzone-onafhankelijk)** op de prijslijst. Nadat de verkoopprijslijst is bepaald, wordt het verkoop- of factuurtarief vastgesteld.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Verkooptarieven bepalen voor regels met werkelijke waarden en schattingen voor Tijd
 

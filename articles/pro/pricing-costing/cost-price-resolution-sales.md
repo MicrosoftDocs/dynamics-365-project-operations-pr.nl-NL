@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410143"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475225"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Kostentarieven voor projectschattingen en werkelijke waarden bepalen
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Om de kostprijslijst en kostentarieven voor schattings- en werkelijke contexten te bepalen, wordt de informatie in de velden **Datum**, **Valuta** en **Contracterende eenheid** van het gerelateerde project gebruikt.
+Om kostentarieven voor schattingen en werkelijke waarden te bepalen in Microsoft Dynamics 365 Project Operations, gebruikt het systeem eerst de datum en valuta in de binnenkomende schattings- of werkelijke context om de kostprijslijst te bepalen. Specifiek in de werkelijke context gebruikt het systeem het veld **Transactiedatum** om te bepalen welke prijslijst van toepassing is. De waarde voor de **Transactiedatum** van de inkomende schatting of werkelijke waarde wordt vergeleken met de waarden voor **Effectieve begindatum (tijdzone-onafhankelijk)** en **Effectieve einddatum (tijdzone-onafhankelijk)** op de prijslijst. Nadat de kostprijslijst is bepaald, wordt het kostentarief bepaald. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Kostentarieven in schattings- en werkelijke contexten bepalen voor Tijd
 

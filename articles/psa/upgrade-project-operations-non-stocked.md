@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230223"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446029"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgraden van Project Service Automation naar Project Operations
 
@@ -29,7 +29,7 @@ We willen graag de eerste van drie fasen aankondigen voor de upgrade van Microso
 
 Het leveringsprogramma voor de upgrade wordt opgesplitst in drie fasen.
 
-| Levering van de upgrade | Fase 1 (januari 2022) | Fase 2 (wave van april 2022) | Fase 3  |
+| Levering van de upgrade | Fase 1 (januari 2022) | Fase 2 (november 2022) | Fase 3 (wave van april 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Geen afhankelijkheid van de structuur voor werkspecificatie (Work Breakdown Structure, WBS) voor projecten | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | De structuur voor werkspecificatie binnen de momenteel ondersteunde limieten van Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Het leveringsprogramma voor de upgrade wordt opgesplitst in drie fasen.
 
 Als onderdeel van het upgradeproces hebben we upgradelogboeken toegevoegd aan het siteoverzicht, zodat beheerders fouten gemakkelijker kunnen diagnosticeren. Naast de nieuwe interface worden er nieuwe validatieregels toegevoegd om de gegevensintegriteit na een upgrade te waarborgen. De volgende validaties worden toegevoegd aan het upgradeproces.
 
-| Validaties | Fase 1 (januari 2022) | Fase 2 (wave van april 2022) | Fase 3  |
+| Validaties | Fase 1 (januari 2022) | Fase 2 (november 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | De structuur voor werkspecificatie wordt gevalideerd tegen veelvoorkomende schendingen van de gegevensintegriteit (bijvoorbeeld resourcetoewijzingen die zijn gekoppeld aan dezelfde bovenliggende taak maar verschillende bovenliggende projecten hebben). | | :heavy_check_mark: | :heavy_check_mark: |
 | De structuur voor werkspecificatie wordt gevalideerd tegen de [bekende limieten van Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
