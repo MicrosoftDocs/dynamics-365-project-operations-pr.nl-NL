@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Eerder goedgekeurde vermeldingen intrekken
           href: approvals/recall-cancel.md
+        - name: Beveiliging en goedkeuringen
+          href: approvals/approvals-security.md
         - name: Opmerkingen van de ontwikkelaar
           items:
             - name: Opmerkingen van de ontwikkelaar voor goedkeuringen
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Leveranciersretentie instellen
               href: procurement/set-up-vendor-retention.md
+            - name: Betalen wanneer betaald
+              href: procurement/Pay-when-paid.md
     - name: Facturering
       items:
         - name: Overzicht van factureringsproces
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Eerder goedgekeurde vermeldingen intrekken
           href: approvals/recall-cancel.md
+        - name: Beveiliging en goedkeuringen
+          href: approvals/approvals-security.md
         - name: Opmerkingen van de ontwikkelaar
           items:
             - name: Opmerkingen van de ontwikkelaar voor goedkeuringen
