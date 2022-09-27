@@ -2,20 +2,20 @@
 title: Toeleveringscontractopties voor projectteamleden
 description: In dit artikel worden de toeleveringscontractopties voor projectteamleden in Microsoft Dynamics 365 Project Operations uitgelegd.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261600"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522272"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Toeleveringscontractopties voor projectteamleden
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 In Microsoft Dynamics 365 Project Operations kunt u de toeleveringscontractopties evalueren die beschikbaar zijn voor een of meer projectteamleden. Met de beschikbare toeleveringscontractopties kunt u:
 

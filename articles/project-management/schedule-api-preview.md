@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230309"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541118"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>API's voor projectplanning gebruiken om bewerkingen uit te voeren met planningsentiteiten
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 
-
-## <a name="scheduling-entities"></a>Planningsentiteiten
+**Planningsentiteiten**
 
 API's voor projectplanning bieden de mogelijkheid om bewerkingen voor het maken, bijwerken en verwijderen uit te voeren met **Planningsentiteiten**. Deze entiteiten worden beheerd via de planningsengine in Project voor het web. Bewerkingen voor maken, bijwerken en verwijderen met **planningsentiteiten** waren beperkt in eerdere Dynamics 365 Project Operations-releases.
 
 De volgende tabel bevat een volledige lijst met de entiteiten voor projectplanning.
 
-| Naam van entiteit  | Logische naam van entiteit |
-| --- | --- |
-| Project | msdyn_project |
-| Projecttaak  | msdyn_projecttask  |
-| Afhankelijkheid van projecttaken  | msdyn_projecttaskdependency  |
-| Resourcetoewijzing | msdyn_resourceassignment |
-| Projectbucket  | msdyn_projectbucket |
-| Projectteamlid | msdyn_projectteam |
+| **Naam entiteit**         | **Logische naam van entiteit**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Projecttaak            | msdyn_projecttask           |
+| Afhankelijkheid van projecttaken | msdyn_projecttaskdependency |
+| Resourcetoewijzing     | msdyn_resourceassignment    |
+| Projectbucket          | msdyn_projectbucket         |
+| Projectteamlid     | msdyn_projectteam           |
+| Projectchecklijsten      | msdyn_projectchecklist      |
+| Projectlabel           | msdyn_projectlabel          |
+| Te labelen projecttaak   | msdyn_projecttasktolabel    |
+| Projectsprint          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet is een werkeenheidspatroon dat kan worden gebruikt wanneer meerdere verzoeken die betrekking hebben op de planning binnen een transactie moeten worden verwerkt.
 
-## <a name="project-schedule-apis"></a>API´s voor projectplanning
+**API´s voor projectplanning**
 
 Hierna volgt een lijst met huidige API's voor projectplanning.
 
-- **msdyn_CreateprojectV1**: deze API kan worden gebruikt om een project te maken. Het project en de standaard projectbucket worden onmiddellijk gemaakt.
-- **msdyn_CreateTeamMemberV1**: deze API kan worden gebruikt om een projectteamlid te maken. De teamlidrecord wordt onmiddellijk gemaakt.
-- **msdyn_CreateOperationSetV1**: deze API kan worden gebruikt om verschillende verzoeken te plannen die binnen een transactie moeten worden uitgevoerd.
-- **msdyn_PssCreateV1**: deze API kan worden gebruikt om een entiteit te maken. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor maken ondersteunen.
-- **msdyn_PssUpdateV1**: deze API kan worden gebruikt om een entiteit bij te werken. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor bijwerken ondersteunen.
-- **msdyn_PssDeleteV1**: deze API kan worden gebruikt om een entiteit te verwijderen. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor verwijderen ondersteunen.
-- **msdyn_ExecuteOperationSetV1**: deze API wordt gebruikt om alle bewerkingen binnen de opgegeven bewerkingsset uit te voeren.
+| **API**                                 | Omschrijving                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Deze API wordt gebruikt om een project aan te maken. Het project en de standaard projectbucket worden onmiddellijk gemaakt.                         |
+| **msdyn_CreateTeamMemberV1**            | Deze API wordt gebruikt om een projectteamlid aan te maken. De teamlidrecord wordt onmiddellijk gemaakt.                                  |
+| **msdyn_CreateOperationSetV1**          | Deze API wordt gebruikt om verschillende verzoeken te plannen die binnen een transactie moeten worden uitgevoerd.                                        |
+| **msdyn_PssCreateV1**                   | Deze API wordt gebruikt om een entiteit te maken. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor maken ondersteunen. |
+| **msdyn_PssUpdateV1**                   | Deze API wordt gebruikt om een entiteit bij te werken. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor bijwerken ondersteunen  |
+| **msdyn_PssDeleteV1**                   | Deze API wordt gebruikt om een entiteit te verwijderen. De entiteit kan een van de projectplanningsentiteiten zijn die de bewerking voor verwijderen ondersteunen. |
+| **msdyn_ExecuteOperationSetV1**         | Deze API wordt gebruikt om alle bewerkingen binnen de opgegeven bewerkingsset uit te voeren                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Deze API wordt gebruikt om een geplande werkcontour van een resourcetoewijzing bij te werken.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>API's voor projectplanning gebruiken met OperationSet
+
+
+**API's voor projectplanning gebruiken met OperationSet**
 
 Omdat records zowel met **CreateprojectV1** als met **CreateTeamMemberV1** direct worden gemaakt, kunnen deze API's niet rechtstreeks in de **OperationSet** worden gebruikt. U kunt de API echter gebruiken om benodigde records te maken, een **OperationSet** te maken en vervolgens deze vooraf gemaakte records in de **OperationSet** te gebruiken.
 
-## <a name="supported-operations"></a>Ondersteunde bewerkingen
+**Ondersteunde bewerkingen**
 
-| Planningsentiteit | Maken | Bijwerken | Delete | Belangrijke aandachtspunten |
-| --- | --- | --- | --- | --- |
-Projecttaak | Ja | Ja | Ja | De velden **Progress**, **EffortCompleted** en **EffortRemaining** kunnen worden bewerkt in Project for the Web, maar niet in Project Operations.  |
-| Afhankelijkheid van projecttaken | Ja |  | Ja | Records voor de afhankelijkheid van projecttaken worden niet bijgewerkt. In plaats daarvan kan een oude record worden verwijderd en kan een nieuwe record worden gemaakt. |
-| Resourcetoewijzing | Ja | Ja | | Bewerkingen met de volgende velden worden niet ondersteund: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** en **PlannedWork**. Records voor resourcetoewijzingen worden niet bijgewerkt. In plaats daarvan kan de oude record worden verwijderd en kan een nieuwe record worden gemaakt. |
-| Projectbucket | Ja | Ja | Ja | De standaardbucket wordt gemaakt met behulp van de API **CreateprojectV1**. Ondersteuning voor het maken en verwijderen van projectbuckets is toegevoegd in Update Release 16. |
-| Projectteamlid | Ja | Ja | Ja | Gebruik voor de maakbewerking de API **CreateTeamMemberV1**. |
-| Project | Ja | Ja |  | Bewerkingen met de volgende velden worden niet ondersteund: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** en **Duration**. |
+| **Planningsentiteit**   | **Maken** | **Update** | **Delete** | **Belangrijke aandachtspunten**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Projecttaak            | Ja        | Ja        | Ja        | De velden **Progress**, **EffortCompleted** en **EffortRemaining** kunnen worden bewerkt in Project for the Web, maar niet in Project Operations.                                                                                                                                                                                             |
+| Afhankelijkheid van projecttaken | Ja        | No         | Ja        | Records voor de afhankelijkheid van projecttaken worden niet bijgewerkt. In plaats daarvan kan een oude record worden verwijderd en kan een nieuwe record worden gemaakt.                                                                                                                                                                                                                                 |
+| Resourcetoewijzing     | Ja        | Ja\*      | Ja        | Bewerkingen met de volgende velden worden niet ondersteund: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** en **PlannedWork**. Records voor resourcetoewijzingen worden niet bijgewerkt. In plaats daarvan kan de oude record worden verwijderd en kan een nieuwe record worden gemaakt. Er is een afzonderlijke API geleverd om de contouren van resourcetoewijzingen bij te werken. |
+| Projectbucket          | Ja        | Ja        | Ja        | De standaardbucket wordt gemaakt met behulp van de API **CreateprojectV1**. Ondersteuning voor het maken en verwijderen van projectbuckets is toegevoegd in Update Release 16.                                                                                                                                                                                                   |
+| Projectteamlid     | Ja        | Ja        | Ja        | Gebruik voor de maakbewerking de API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
+| Project                 | Ja        | Ja        |            | Bewerkingen met de volgende velden worden niet ondersteund: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** en **Duration**.                                                                                       |
+| Projectchecklijsten      | Ja        | Ja        | Ja        |                                                                                                                                                                                                                                                                                                                                                         |
+| Projectlabel           | No         | Ja        | No         | Labelnamen kunnen worden gewijzigd. Deze functie is alleen beschikbaar voor Project for the Web                                                                                                                                                                                                                                                                      |
+| Te labelen projecttaak   | Ja        | No         | Ja        | Deze functie is alleen beschikbaar voor Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Projectsprint          | Ja        | Ja        | Ja        | De datum in he veld **Starten** moet voor de datum in het veld **Voltooien** vallen. Sprints voor hetzelfde project mogen elkaar niet overlappen. Deze functie is alleen beschikbaar voor Project for the Web                                                                                                                                                                    |
 
-Deze API's kunnen worden aangeroepen met entiteitsobjecten die aangepaste velden bevatten.
+
+
 
 De id-eigenschap is optioneel. Als deze wordt opgegeven, wordt geprobeerd deze te gebruiken en wordt er een uitzondering gegenereerd als deze niet kan worden gebruikt. Als deze niet wordt opgegeven, wordt de id door het systeem gegenerereerd.
 
-## <a name="restricted-fields"></a>Beperkte velden
+**Beperkingen en bekende problemen**
 
-In de volgende tabellen worden de velden gedefinieerd die geen toegang hebben tot **Maken** en **Bewerken**.
-
-### <a name="project-task"></a>Projecttaak
-
-| Logische naam                           | Maken mogelijk     | Bewerken mogelijk         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | Nee             | Nee               |
-| msdyn_actualcost_base                  | Nee             | Nee               |
-| msdyn_actualend                        | Nee             | Nee               |
-| msdyn_actualsales                      | Nee             | Nee               |
-| msdyn_actualsales_base                 | Nee             | Nee               |
-| msdyn_actualstart                      | Nee             | Nee               |
-| msdyn_costatcompleteestimate           | Nee             | Nee               |
-| msdyn_costatcompleteestimate_base      | Nee             | Nee               |
-| msdyn_costconsumptionpercentage        | Nee             | Nee               |
-| msdyn_effortcompleted                  | Nee (ja voor Project)             | Nee (ja voor Project)               |
-| msdyn_effortremaining                  | Nee (ja voor Project)              | Nee (ja voor Project)                |
-| msdyn_effortestimateatcomplete         | Nee             | Nee               |
-| msdyn_iscritical                       | Nee             | Nee               |
-| msdyn_iscriticalname                   | Nee             | Nee               |
-| msdyn_ismanual                         | Nee             | Nee               |
-| msdyn_ismanualname                     | Nee             | Nee               |
-| msdyn_ismilestone                      | Nee             | Nee               |
-| msdyn_ismilestonename                  | Nee             | Nee               |
-| msdyn_LinkStatus                       | Nee             | Nee               |
-| msdyn_linkstatusname                   | Nee             | Nee               |
-| msdyn_msprojectclientid                | Nee             | Nee               |
-| msdyn_plannedcost                      | Nee             | Nee               |
-| msdyn_plannedcost_base                 | Nee             | Nee               |
-| msdyn_plannedsales                     | Nee             | Nee               |
-| msdyn_plannedsales_base                | Nee             | Nee               |
-| msdyn_pluginprocessingdata             | Nee             | Nee               |
-| msdyn_progress                         | Nee (ja voor Project)             | Nee (ja voor Project) |
-| msdyn_remainingcost                    | Nee             | Nee               |
-| msdyn_remainingcost_base               | Nee             | Nee               |
-| msdyn_remainingsales                   | Nee             | Nee               |
-| msdyn_remainingsales_base              | Nee             | Nee               |
-| msdyn_requestedhours                   | Nee             | Nee               |
-| msdyn_resourcecategory                 | Nee             | Nee               |
-| msdyn_resourcecategoryname             | Nee             | Nee               |
-| msdyn_resourceorganizationalunitid     | Nee             | Nee               |
-| msdyn_resourceorganizationalunitidname | Nee             | Nee               |
-| msdyn_salesconsumptionpercentage       | Nee             | Nee               |
-| msdyn_salesestimateatcomplete          | Nee             | Nee               |
-| msdyn_salesestimateatcomplete_base     | Nee             | Nee               |
-| msdyn_salesvariance                    | Nee             | Nee               |
-| msdyn_salesvariance_base               | Nee             | Nee               |
-| msdyn_scheduleddurationminutes         | Nee             | Nee               |
-| msdyn_scheduledend                     | Nee             | Nee               |
-| msdyn_scheduledstart                   | Nee             | Nee               |
-| msdyn_schedulevariance                 | Nee             | Nee               |
-| msdyn_skipupdateestimateline           | Nee             | Nee               |
-| msdyn_skipupdateestimatelinename       | Nee             | Nee               |
-| msdyn_summary                          | Nee             | Nee               |
-| msdyn_varianceofcost                   | Nee             | Nee               |
-| msdyn_varianceofcost_base              | Nee             | Nee               |
-
-### <a name="project-task-dependency"></a>Afhankelijkheid van projecttaken
-
-| Logische naam                  | Maken mogelijk     | Bewerken mogelijk     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | Nee             | Nee           |
-| msdyn_linktypename            | Nee             | Nee           |
-| msdyn_predecessortask         | Ja            | Nee           |
-| msdyn_predecessortaskname     | Ja            | Nee           |
-| msdyn_project                 | Ja            | Nee           |
-| msdyn_projectname             | Ja            | Nee           |
-| msdyn_projecttaskdependencyid | Ja            | Nee           |
-| msdyn_successortask           | Ja            | Nee           |
-| msdyn_successortaskname       | Ja            | Nee           |
-
-### <a name="resource-assignment"></a>Resourcetoewijzing
-
-| Logische naam                 | Maken mogelijk     | Bewerken mogelijk     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Ja            | Nee           |
-| msdyn_bookableresourceidname | Ja            | Nee           |
-| msdyn_bookingstatusid        | Nee             | Nee           |
-| msdyn_bookingstatusidname    | Nee             | Nee           |
-| msdyn_committype             | Nee             | Nee           |
-| msdyn_committypename         | Nee             | Nee           |
-| msdyn_effort                 | Nee             | Nee           |
-| msdyn_effortcompleted        | Nee             | Nee           |
-| msdyn_effortremaining        | Nee             | Nee           |
-| msdyn_finish                 | Nee             | Nee           |
-| msdyn_plannedcost            | Nee             | Nee           |
-| msdyn_plannedcost_base       | Nee             | Nee           |
-| msdyn_plannedcostcontour     | Nee             | Nee           |
-| msdyn_plannedsales           | Nee             | Nee           |
-| msdyn_plannedsales_base      | Nee             | Nee           |
-| msdyn_plannedsalescontour    | Nee             | Nee           |
-| msdyn_plannedwork            | Nee             | Nee           |
-| msdyn_projectid              | Ja            | Nee           |
-| msdyn_projectidname          | Nee             | Nee           |
-| msdyn_projectteamid          | Nee             | Nee           |
-| msdyn_projectteamidname      | Nee             | Nee           |
-| msdyn_start                  | Nee             | Nee           |
-| msdyn_taskid                 | Nee             | Nee           |
-| msdyn_taskidname             | Nee             | Nee           |
-| msdyn_userresourceid         | Nee             | Nee           |
-
-### <a name="project-team-member"></a>Projectteamlid
-
-| Logische naam                                     | Maken mogelijk     | Bewerken mogelijk     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | Nee             | Nee           |
-| msdyn_creategenericteammemberwithrequirementname | Nee             | Nee           |
-| msdyn_deletestatus                               | Nee             | Nee           |
-| msdyn_deletestatusname                           | Nee             | Nee           |
-| msdyn_effort                                     | Nee             | Nee           |
-| msdyn_effortcompleted                            | Nee             | Nee           |
-| msdyn_effortremaining                            | Nee             | Nee           |
-| msdyn_finish                                     | Nee             | Nee           |
-| msdyn_hardbookedhours                            | Nee             | Nee           |
-| msdyn_hours                                      | Nee             | Nee           |
-| msdyn_markedvooreletiontimer                     | Nee             | Nee           |
-| msdyn_markedfordeletiontimestamp                 | Nee             | Nee           |
-| msdyn_msprojectclientid                          | Nee             | Nee           |
-| msdyn_percentage                                 | Nee             | Nee           |
-| msdyn_requiredhours                              | Nee             | Nee           |
-| msdyn_softbookedhours                            | Nee             | Nee           |
-| msdyn_start                                      | Nee             | Nee           |
-
-### <a name="project"></a>Project
-
-| Logische naam                           | Maken mogelijk     | Bewerken mogelijk     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | Nee             | Nee           |
-| msdyn_actualexpensecost_base           | Nee             | Nee           |
-| msdyn_actuallaborcost                  | Nee             | Nee           |
-| msdyn_actuallaborcost_base             | Nee             | Nee           |
-| msdyn_actualsales                      | Nee             | Nee           |
-| msdyn_actualsales_base                 | Nee             | Nee           |
-| msdyn_contractlineproject              | Ja            | Nee           |
-| msdyn_contractorganizationalunitid     | Ja            | Nee           |
-| msdyn_contractorganizationalunitidname | Ja            | Nee           |
-| msdyn_costconsumption                  | Nee             | Nee           |
-| msdyn_costestimateatcomplete           | Nee             | Nee           |
-| msdyn_costestimateatcomplete_base      | Nee             | Nee           |
-| msdyn_costvariance                     | Nee             | Nee           |
-| msdyn_costvariance_base                | Nee             | Nee           |
-| msdyn_duration                         | Nee             | Nee           |
-| msdyn_effort                           | Nee             | Nee           |
-| msdyn_effortcompleted                  | Nee             | Nee           |
-| msdyn_effortestimateatcompleteeac      | Nee             | Nee           |
-| msdyn_effortremaining                  | Nee             | Nee           |
-| msdyn_finish                           | Ja            | Ja          |
-| msdyn_globalrevisiontoken              | Nee             | Nee           |
-| msdyn_islinkedtomsprojectclient        | Nee             | Nee           |
-| msdyn_islinkedtomsprojectclientname    | Nee             | Nee           |
-| msdyn_linkeddocumenturl                | Nee             | Nee           |
-| msdyn_msprojectdocument                | Nee             | Nee           |
-| msdyn_msprojectdocumentname            | Nee             | Nee           |
-| msdyn_plannedexpensecost               | Nee             | Nee           |
-| msdyn_plannedexpensecost_base          | Nee             | Nee           |
-| msdyn_plannedlaborcost                 | Nee             | Nee           |
-| msdyn_plannedlaborcost_base            | Nee             | Nee           |
-| msdyn_plannedsales                     | Nee             | Nee           |
-| msdyn_plannedsales_base                | Nee             | Nee           |
-| msdyn_progress                         | Nee             | Nee           |
-| msdyn_remainingcost                    | Nee             | Nee           |
-| msdyn_remainingcost_base               | Nee             | Nee           |
-| msdyn_remainingsales                   | Nee             | Nee           |
-| msdyn_remainingsales_base              | Nee             | Nee           |
-| msdyn_replaylogheader                  | Nee             | Nee           |
-| msdyn_salesconsumption                 | Nee             | Nee           |
-| msdyn_salesestimateatcompleteeac       | Nee             | Nee           |
-| msdyn_salesestimateatcompleteeac_base  | Nee             | Nee           |
-| msdyn_salesvariance                    | Nee             | Nee           |
-| msdyn_salesvariance_base               | Nee             | Nee           |
-| msdyn_scheduleperformance              | Nee             | Nee           |
-| msdyn_scheduleperformancename          | Nee             | Nee           |
-| msdyn_schedulevariance                 | Nee             | Nee           |
-| msdyn_taskearlieststart                | Nee             | Nee           |
-| msdyn_teamsize                         | Nee             | Nee           |
-| msdyn_teamsize_date                    | Nee             | Nee           |
-| msdyn_teamsize_state                   | Nee             | Nee           |
-| msdyn_totalactualcost                  | Nee             | Nee           |
-| msdyn_totalactualcost_base             | Nee             | Nee           |
-| msdyn_totalplannedcost                 | Nee             | Nee           |
-| msdyn_totalplannedcost_base            | Nee             | Nee           |
-
-### <a name="project-bucket"></a>Projectbucket
-
-| Logische naam          | Maken mogelijk      | Bewerken mogelijk     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Ja             | Nee           |
-| msdyn_name            | Ja             | Ja          |
-| msdyn_project         | Ja             | Nee           |
-| msdyn_projectbucketid | Ja             | Nee           |
-
-## <a name="limitations-and-known-issues"></a>Beperkingen en bekende problemen
 Hieronder volgt een lijst met beperkingen en bekende problemen:
 
-- API's voor projectplanning kunnen alleen worden gebruikt door **Gebruikers met Microsoft Project-licentie**. Ze kunnen niet worden gebruikt door:
+-   API's voor projectplanning kunnen alleen worden gebruikt door **Gebruikers met Microsoft Project-licentie**. Ze kunnen niet worden gebruikt door:
+    -   Gebruikers van de toepassing
+    -   Systeemgebruikers
+    -   Integration-gebruikers
+    -   Andere gebruikers die niet over de vereiste licentie beschikken
+-   Elke **OperationSet** kan maximaal 100 bewerkingen omvatten.
+-   Elke gebruiker kan maximaal tien open **OperationSets** hebben.
+-   Project Operations ondersteunt momenteel maximaal 500 totale taken in een project.
+-   Elke bewerking om contouren van resourcetoewijzingen bij te werken, telt als één bewerking.
+-   Elke lijst met bijgewerkte contouren kan maximaal 100 tijdssecties bevatten.
+-   Momenteel zijn geen foutstatus en foutenlogboeken beschikbaar voor **OperationSet**.
+-   Er geldt een maximum van 400 sprints per project.
+-   [Limieten en grenzen voor projecten en taken](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Labels zijn momenteel alleen beschikbaar voor Project for the Web.
 
-    - Gebruikers van de toepassing
-    - Systeemgebruikers
-    - Integration-gebruikers
-    - Andere gebruikers die niet over de vereiste licentie beschikken
+**Foutafhandeling**
 
-- Elke **OperationSet** kan maximaal 100 bewerkingen omvatten.
-- Elke gebruiker kan maximaal tien open **OperationSets** hebben.
-- Project Operations ondersteunt momenteel maximaal 500 totale taken in een project.
-- Momenteel zijn geen foutstatus en foutenlogboeken beschikbaar voor **OperationSet**.
-- [Limieten en grenzen voor projecten en taken](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Ga naar **Instellingen** \> **Integratie plannen** \> **Bewerkingssets** om fouten te bekijken die zijn gegenereerd door de bewerkingssets.
+-   Als u fouten wilt bekijken die zijn gegenereerd via de projectplanningsservice, gaat u naar **Instellingen** \> **Planningsintegratie** \> **PSS-foutenlogboeken**.
 
-## <a name="error-handling"></a>Foutafhandeling
+**Contouren voor resourcetoewijzing bewerken**
 
-- Ga naar **Instellingen** \> **Integratie plannen** \> **Bewerkingssets** om fouten te bekijken die zijn gegenereerd door de bewerkingssets.
-- Als u fouten wilt bekijken die zijn gegenereerd via de projectplanningsservice, gaat u naar **Instellingen** \> **Planningsintegratie** \> **PSS-foutenlogboeken**.
+In tegenstelling tot alle andere API's voor projectplanning die een entiteit bijwerken, is de API voor contouren voor resourcetoewijzing als enige verantwoordelijk voor updates van één veld, msdyn_plannedwork, van één entiteit, msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>Voorbeeldscenario
+De gegeven planningsmodus is:
+
+-   **vaste eenheden**
+-   projectagenda is 9-5 p is 9-5 PST, ma, di, do, vrijdag (WOENSDAGEN GEEN WERK)
+-   en resourceagenda is 9-1 p PST ma tot vr
+
+Deze opdracht geldt voor een week, vier uur per dag. Dit komt omdat de resourceagenda van 9-1 PST is (vier uur per dag).
+
+| &nbsp;     | Opdracht | Begindatum | Einddatum  | Aantal | 13-06-2022 | 14-06-2022 | 15-06-2022 | 16-06-2022 | 17-06-2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| Werknemer van 9-1 |  T1  | 13-06-2022  | 17-06-2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Als u bijvoorbeeld wilt dat de werknemer deze week slechts drie uur per dag werkt en één uur voor andere taken reserveert.
+
+#### <a name="updatedcontours-sample-payload"></a>Voorbeeldnettolading van UpdatedContours:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Dit is de toewijzing nadat de API voor het bijwerken van de contourplanning is uitgevoerd.
+
+| &nbsp;     | Opdracht | Begindatum | Einddatum  | Aantal | 13-06-2022 | 14-06-2022 | 15-06-2022 | 16-06-2022 | 17-06-2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| Werknemer van 9-1 | T1   | 13-06-2022  | 17-06-2022 | 15       | 5         | 5         | 5         | 5         | 5         |
+
+
+**Voorbeeldscenario**
 
 In dit scenario maakt u een project, een teamlid, vier taken en twee resourcetoewijzingen. Vervolgens werkt u één taak bij, werkt u het project bij, verwijdert u één taak, verwijdert u één resourcetoewijzing en maakt u een taakafhankelijkheid.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Aanvullende voorbeelden
+** Aanvullende voorbeelden
 
 ```csharp
 #region Call actions --- Sample code ----

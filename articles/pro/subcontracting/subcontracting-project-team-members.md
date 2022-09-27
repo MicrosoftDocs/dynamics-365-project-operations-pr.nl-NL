@@ -2,20 +2,20 @@
 title: Onder contract nemen van projectteamleden
 description: In dit artikel wordt uitgelegd hoe u projectteamleden onder contract neemt in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261364"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522789"
 ---
 # <a name="subcontracting-project-team-members"></a>Onder contract nemen van projectteamleden
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 In Microsoft Dynamics 365 Project Operations kunt u ervoor kiezen om teamleden voor onbemande of bemande projecten onder contract te nemen.
 

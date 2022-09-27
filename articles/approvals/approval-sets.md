@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918076"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524910"
 ---
 # <a name="approval-sets"></a>Goedkeuringssets
 
@@ -45,14 +45,9 @@ Als u **Opnieuw proberen** selecteert, wordt dit toegevoegd aan de levensduur va
 ## <a name="configure-approval-sets"></a>Goedkeuringssets configureren
 
 ### <a name="enable-the-approval-sets-feature"></a>De functie Goedkeuringssets inschakelen
-Voordat u de functie Goedkeuringssets inschakelt, moet u controleren of er momenteel geen goedkeuringen worden verwerkt.
+Voordat u de functie Goedkeuringssets inschakelt, moet u controleren of er momenteel geen goedkeuringen worden verwerkt. Als deze functie is ingeschakeld, kan deze niet worden uitgeschakeld.
 
 - Ga naar de pagina **Projectparameters** en selecteer **Besturingselement voor functie** > **Moderne goedkeuringen inschakelen**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>De functie Goedkeuringssets uitschakelen
-Voordat u de functie Goedkeuringssets uitschakelt, moet u controleren of er momenteel geen goedkeuringen worden verwerkt.
-
-- Ga naar de pagina **Projectparameters** en selecteer **Besturingselement voor functie** > **Moderne goedkeuringen uitschakelen**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>De asynchrone drempel configureren 
 Wanneer goedkeuringssets worden gemaakt, wordt de verwerking naar de achtergrond verplaatst wanneer het geselecteerde aantal records voor goedkeuring de aangegeven drempel overschrijdt. Gebruik het veld **Asynchrone drempel** om te configureren wanneer goedkeuringsverwerking synchroon of asynchroon moet worden uitgevoerd. Selecteer een van de volgende waarden:

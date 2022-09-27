@@ -2,20 +2,20 @@
 title: Kostenraming van toewijzingen van resources op contractbasis
 description: In dit artikel wordt uitgelegd hoe Microsoft Dynamics 365 Project Operations kostenraming berekent van toewijzingen van resources op contractbasis.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262053"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522648"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Kostenraming van toewijzingen van resources op contractbasis
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 Taaktoewijzingen van projectteamleden op contractbasis worden gecalculeerd met behulp van de prijslijst **Inkoop** die aan het toeleveringscontract is gekoppeld in de gerelateerde teamlidrecord. Dit is anders dan hoe toewijzingen van personeelsresources worden berekend, waarbij taaktoewijzingen van personeelsresources worden berekend met behulp van de prijslijst **Kosten** die bij de contracterende eenheid van het project is gevoegd. 
 

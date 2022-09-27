@@ -6,16 +6,16 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 67e0a0143fa354ca9a87bfac5fbbd6306a97811c
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261740"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522882"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificatie van leveranciersfacturen met goedgekeurde werkelijke waarden
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 Microsoft Dynamics 365 Project Operations stelt projectmanagers in staat leveranciersfactuurregels op de volgende manieren te verifiëren:
 

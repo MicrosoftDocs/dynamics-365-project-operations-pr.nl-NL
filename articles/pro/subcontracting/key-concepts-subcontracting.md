@@ -2,21 +2,21 @@
 title: Belangrijke concepten bij onderaanneming
 description: In dit artikel worden enkele belangrijke concepten uitgelegd die van toepassing zijn op onderaanneming in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262163"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522742"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Belangrijke concepten bij onderaanneming
 
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 In het artikel worden enkele belangrijke concepten uitgelegd waarvan u op de hoogte moet zijn voordat u de functionaliteit voor onderaanneming gaat gebruiken in Microsoft Dynamics 365 Project Operations.
 

@@ -2,20 +2,20 @@
 title: Een project bemannen met contractwerknemers en toeleveringscapaciteit
 description: In dit artikel wordt uitgelegd hoe projectvereisten kunnen worden bemand met behulp van contractwerknemers of toeleveringscapaciteit in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261248"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522429"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Een project bemannen met contractwerknemers en toeleveringscapaciteit
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 Ook voor het bemannen van algemene projectteamleden kunnen medewerkers of contractwerknemers worden gebruikt. Bij het bemannen van een project met contractwerknemers, kunt u uw personeelsopties beperken tot specifieke contractwerknemers die zijn toegewezen aan een toeleveringscontractregel. 
 

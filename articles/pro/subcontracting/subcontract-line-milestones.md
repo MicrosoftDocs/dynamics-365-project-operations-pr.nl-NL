@@ -2,20 +2,20 @@
 title: Mijlpalen voor subcontractregels
 description: In dit artikel wordt uitgelegd hoe u een op mijlpalen gebaseerd factuurschema maakt en onderhoudt voor een subcontract met een leverancier.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261787"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522413"
 ---
 # <a name="subcontract-line-milestones"></a>Mijlpalen voor subcontractregels
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 In Dynamics 365 Project Operations kan op een subcontractregel met een factureringsmethode met een vaste prijs een op mijlpalen gebaseerd factuurschema met de leverancier worden opgegeven.
 

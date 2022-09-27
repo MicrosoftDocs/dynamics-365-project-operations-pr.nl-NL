@@ -2,20 +2,20 @@
 title: Koptekstdetails voor subcontracten
 description: In dit artikel wordt de functionaliteit uitgelegd die wordt geboden in de subcontractheader in Project Operations.
 author: rumant
-ms.date: 09/14/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 00b7c08235654d4bed0bcb4053d2044a3d092b54
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261411"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522554"
 ---
 # <a name="header-details-for-subcontracts"></a>Koptekstdetails voor subcontracten
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 In dit artikel wordt de functionaliteit uitgelegd die wordt geboden in de subcontractheader in Dynamics 365 Project Operations.
 

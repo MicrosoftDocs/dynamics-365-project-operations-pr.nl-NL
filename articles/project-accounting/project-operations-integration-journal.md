@@ -2,16 +2,16 @@
 title: Integratiejournaal in Project Operations
 description: Dit artikel bevat informatie over werken met het integratiejournaal in Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106269"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541071"
 ---
 # <a name="integration-journal-in-project-operations"></a>Integratiejournaal in Project Operations
 
@@ -65,6 +65,12 @@ De boeking kan interactief worden uitgevoerd of in batch plaatsvinden. Houd er r
 > [!NOTE]
 > Als u deze mogelijkheid wilt gebruiken, schakelt u de functie **Alle regels met boekingsfouten overboeken naar een nieuw Project Operations-integratiejournaal** in de werkruimte **Functiebeheer** in.
 
-Tijdens het boeken naar het Project Operations-integratiejournaal valideert het systeem elke regel in het journaal. Het systeem boekt alle regels zonder fouten en maakt een nieuw journaal aan voor alle regels met boekingsfouten. Als u de journaals met boekingsfoutregels wilt bekijken, gaat u naar **Projectbeheer en financiële administratie** > **Dagboeken** > **Project Operations-integratiejournaal** en filtert u de dagboeken met behulp van het veld **Oorspronkelijk dagboek**.
+Met deze functie kan de ervaring met het Project Operations-integratiejournaal worden verbeterd. Als de functie is ingeschakeld, verhinderen problemen met de tijden voor twee keer wegschrijven en instellingsproblemen niet langer dat geldige tijdschriften worden geboekt. Tijdens het boeken naar het Project Operations-integratiejournaal valideert het systeem elke regel in het journaal. Alle regels zonder fouten bevatten worden geboekt en er wordt een nieuw journaal gemaakt voor alle regels met boekingsfouten.
+
+Als u de journaals met boekingsfoutregels wilt bekijken, gaat u naar **Projectmanagement en boekhouding**\> **Journaals**\> **Project Operations-integratiejournaal** en filtert u de lijst met journaals op basis van het veld **Oorspronkelijk journaal**. De volgende afbeelding toont een voorbeeld waarbij de journaals op de pagina **Project Operations-integratiejournaal** op deze manier zijn gefilterd.
+
+![Oorspronkelijk journaal weergegeven op de pagina Project Operations-integratiejournaal.](./media/transferLines-originalJournal.png)
+
+Als een periodieke batchtaak is geconfigureerd om het integratiejournaal te boeken, wordt het boeken opnieuw geprobeerd en worden de journaals geboekt als het probleem met timing is verholpen. Alle resterende journaals moeten handmatig worden onderzocht door de logboeken te bekijken en de vereiste actie te ondernemen.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

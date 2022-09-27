@@ -2,20 +2,20 @@
 title: Onderaannemers instellen als boekbare resources
 description: In dit artikel wordt uitgelegd hoe u resources van onderaannemers instelt en onderhoudt die zijn gemaakt op basis van gebruikers en contactpersonen in het systeem, zodat ze kunnen worden gekoppeld aan onderaannemers in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261317"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522695"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Onderaannemers instellen als boekbare resources
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
 Volg deze stappen om onderaannemers in te stellen als boekbare resources in Microsoft Dynamics 365 Project Operations.
 
