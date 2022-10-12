@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409929"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622004"
 ---
 # <a name="project-operations-updates"></a>Updates voor Project Operations
 
@@ -47,24 +47,24 @@ Updates voor Project Operations in Dataverse-omgeving zijn maandelijks beschikba
 | Station | Regio | Nummer huidige versie | Automatische updates voor Lite-implementatie | Automatische updates voor implementatie van resources/niet-voorradige artikelen | Nummer volgende versie | Volgende versie algemeen beschikbaar |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Eerste versie         |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022      |
+|   &nbsp;  | Eerste versie         |  4.46.0.60      | Voltooien           | Voltooien            | N.t.b.                 | 07 oktober 2022      |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Zuid-Amerika         |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
-|   &nbsp;  | Canada                |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
-|   &nbsp;  | India                 |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
-|   &nbsp;  | Frankrijk                |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
-|   &nbsp;  | Zuid-Afrika          |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
-|   &nbsp;  | Zwitserland           |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | Zuid-Amerika         |  4.46.0.60      | Voltooien           | Voltooien            | N.t.b.                 | 14 oktober 2022       |
+|   &nbsp;  | Canada                |  4.46.0.60      | Voltooien           | Voltooien            | N.t.b.                 | 14 oktober 2022       |
+|   &nbsp;  | India                 |  4.46.0.60      | Voltooien           | Voltooien            | N.t.b.                 | 14 oktober 2022       |
+|   &nbsp;  | Frankrijk                |  4.46.0.60      | Voltooien           | Voltooien            | N.t.b.                 | 14 oktober 2022       |
+|   &nbsp;  | Zuid-Afrika          |  4.46.0.60      | Voltooien           | Voltooien            | N.t.b.                 | 14 oktober 2022       |
+|   &nbsp;  | Zwitserland           |  4.46.0.60      | Voltooien           | Voltooien            | N.t.b.                 | 14 oktober 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.45.0.53      | Voltooien      | Voltooien       | N.t.b.                 | 09 september 2022       |
-|   &nbsp;  | Azië-Pacific          |  4.45.0.53      | Voltooien      | Voltooien       | N.t.b.                 | 09 september 2022       |
-|   &nbsp;  | Groot-Brittannië         |  4.45.0.53      | Voltooien      | Voltooien       | N.t.b.                 | 09 september 2022       |
-|   &nbsp;  | Oceanië               |  4.45.0.53      | Voltooien      | Voltooien       | N.t.b.                 | 09 september 2022       |
-|   &nbsp;  | Verenigde Arabische Emiraten  |  4.45.0.53      | Voltooien      | Voltooien       | N.t.b.                 | 09 september 2022       |
+|   &nbsp;  | Japan                 |  4.46.0.60      | Voltooien      | Voltooien       | N.t.b.                 | 21 oktober 2022       |
+|   &nbsp;  | Azië-Pacific          |  4.46.0.60      | Voltooien      | Voltooien       | N.t.b.                 | 21 oktober 2022       |
+|   &nbsp;  | Groot-Brittannië         |  4.46.0.60      | Voltooien      | Voltooien       | N.t.b.                 | 21 oktober 2022       |
+|   &nbsp;  | Oceanië               |  4.46.0.60      | Voltooien      | Voltooien       | N.t.b.                 | 21 oktober 2022       |
+|   &nbsp;  | Verenigde Arabische Emiraten  |  4.46.0.60      | Voltooien      | Voltooien       | N.t.b.                 | 21 oktober 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.           | 16 september 2022       |
+|   &nbsp;  | Europa                |  4.46.0.60      | Voltooien           | Voltooien            | N.t.b.           | 28 oktober 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Noord-Amerika         |  4.45.0.53      | Voltooien           | Voltooien            | N.t.b.           | 16 september 2022       |
+|   &nbsp;  | Noord-Amerika         |  4.46.0.60      | Voltooien           | Voltooien            | N.t.b.           | 04 november 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Planning voor Projectbeheer en financiële administratie vrijgeven in de omgeving van apps voor financiën en bedrijfsactiviteiten
 
