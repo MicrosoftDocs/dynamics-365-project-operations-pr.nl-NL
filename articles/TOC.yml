@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Wat is er nieuw of gewijzigd in Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Upgrade van Project Service Automation (app-versie Project Operations Lite 4.x)
+      items:
+        - name: Upgrade van Project Service Automation naar Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Functiewijzigingen van Project Service Automation naar Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Conversieproces voor projectplanning van Project Service Automation naar Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Uw implementatie plannen (appversie 3.x)
       items:
         - name: Installatie van voorbeeldgegevens
