@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932060"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655182"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Een structuur voor werkspecificatie maken
 
@@ -112,6 +112,18 @@ Het veld **Categorie** bevat de waarden die een meeromvattend type werk aangeven
 U kunt de planning in Project Operations gebruiken om relaties van taken met voorgaande taken te creëren. Het veld **Voorgaand element** gebruikt een of meer waarden om de taken aan te geven waar de taak van afhankelijk is. Wanneer er voorgaande waarden aan een taak zijn toegewezen, kan die taak pas beginnen nadat alle voorgaande taken zijn voltooid. Vanwege de afhankelijkheid wordt de geplande begindatum van de taak opnieuw ingesteld op de datum waarop de voorgaande taken zijn voltooid.
 
 De taakmodus heeft geen invloed op updates die zijn aangebracht in de begin- en einddatums van voorgaande/afhankelijke taken.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Inzicht in de impact van duur, resourcekalenders en projectkalenders op taken
+De duur van een taak wordt gedefinieerd als het aantal werkuren tussen de starttijd van de begindatum en de eindtijd van de einddatum voor de taak.   In Project for the Web worden maateenheden voor de duur als volgt gedefinieerd:
+
+| **Maateenheid voor duur** | **Aantal**|
+|----------------------------------------------------|----------------------|
+| Uur per dag | 8 |
+| Uur per week |  40 |
+| Dagen per maand |  20 |
+
+Niet-toegewezen taken worden gepland met behulp van de projectkalender. Bij de initiële toewijzing van resources wordt de planning van een taak echter bijgewerkt zodat deze de kalender van de resource respecteert. Latere wijzigingen in een taak met een toewijzing worden beheerst door de [planningsmodus](scheduling-modes.md) van het project. Zie voor meer informatie over de invloed van agenda's op taken [Resourcekalenders in Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) en [Starttijden van taken en uw projecten!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Toegankelijkheid en sneltoetsen
 

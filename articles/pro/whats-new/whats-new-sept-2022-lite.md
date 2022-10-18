@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621224"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634846"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Nieuw in september 2022 - Project Operations Lite-implementatie
 
@@ -30,6 +30,7 @@ Dit artikel is van toepassing op de volgende onderdelen en versies van Microsoft
 | Facturering en prijzen | **Tijdzoneagnostische standaardwaarden voor prijzen**<br>Project Operations heeft het concept van een tijdzoneagnostische datum voor alle werkelijke projectwaarden geïntroduceerd. Een nieuw veld, **Transactiedatum**, is nu beschikbaar op journaalregels en in werkelijke waarden, en zal worden gebruikt om de datum op te slaan waarop de transactie heeft plaatsgevonden, maar zonder die datum om te zetten in Coordinated Universal Time. Deze datum zal worden gebruikt voor downstreamprocessen zoals het gebruiken van standaardwaarden voor prijzen en het maken van facturen. | <p>[Kostenpercentages bepalen voor projectgebaseerde schattingen en werkelijke kosten](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Verkoopprijzen voor projectgebaseerde schattingen en werkelijke waarden vaststellen](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Facturering en prijzen | **Datumeffectieve prijsoverschrijvingen in Project Operations**<br>Ingangsdatum voor prijsoverschrijvingen biedt een manier om specifieke prijzen in de prijslijst te negeren of te wijzigen. | [Ingangsdatum voor prijsoverschrijvingen](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Tijd en onkosten | **Algemene goedkeurder**<br>Deze functie maakt onafhankelijke softwareleverancier (ISV) en gecentraliseerde goedkeuring mogelijk, ongeacht de status van het project of teamlid in het project. | [Beveiliging en goedkeuringen](/dynamics365/project-operations/approvals/approvals-security) |
+|Projecten plannen en bijhouden|**API's voor projectplanning gebruiken om bewerkingen uit te voeren met planningsentiteiten** </br> </br>Met de API voor contourbewerkingen van resourcetoewijzingen kunnen ontwikkelaars de inspanningen van de toegewezen persoon voor een taak programmatisch opgeven voor elk ondersteund datumbereik voor een meer gedetailleerde, tijdgefaseerde inspanningsplanning.|[API's voor projectplanning gebruiken om bewerkingen uit te voeren met planningsentiteiten](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Kwaliteitsupdates
 

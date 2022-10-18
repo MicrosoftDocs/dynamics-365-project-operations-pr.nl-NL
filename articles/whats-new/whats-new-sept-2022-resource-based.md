@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621221"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634799"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nieuw in september 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
 
@@ -35,6 +35,7 @@ Dit artikel is van toepassing op de volgende onderdelen en versies van Microsoft
 | Onkostenbeheer | **Mogelijkheid om onkostenverplichtingen te boeken in leveranciersvaluta**<br>Deze functie maakt het mogelijk onkostenrapporten te boeken in een leveranciersvaluta voor de contante betalingsmethode. | [Mogelijkheid om onkostenverplichtingen te boeken in leveranciersvaluta](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Projectinkoop | **Leveranciersbetalingen op basis van Betalen bij betaling**<br>Met deze functie kan de functie Betalen bij betaling (PWP) worden gebruikt met niet-voorraadomgevingen van Project Operations. Hiermee kunnen de leveranciersbetalingen worden geblokkeerd/vastgehouden, op basis van Inhoudingstermijnen, totdat de betaling van de klant is ontvangen. | [Leveranciersbetalingen op basis van Betalen bij betaling](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Projectinkoop | **Inkoopaanvragen voor projecten**<br>Met deze functie kunnen gebruikers projectgerelateerde inkooporders maken in rechtspersonen waarvoor Project Operations op Dynamics 365 Customer Engagement-integratie is ingeschakeld. Projectinkooporders kunnen worden gebruikt om niet-voorradige materiaalinkoop tegen het project te registreren per persona van de inkoopafdeling. Projectinkooporders worden niet gesynchroniseerd met Dataverse. U kunt echter wel een virtuele entiteit gebruiken om projectinkooporderregels te hanteren in Dataverse voor informatie over projectmanagers. Factuurkosten voor projectgerelateerde leveranciers zijn geïntegreerd met de entiteit Werkelijke projectwaarden in Dataverse. De projectkosten worden vastgelegd in de subadministratie voor projecten met behulp van het Project Operations-integratiejournaal. | |
+|Projecten plannen en bijhouden|**API's voor projectplanning gebruiken om bewerkingen uit te voeren met planningsentiteiten** </br> </br>Met de API voor contourbewerkingen van resourcetoewijzingen kunnen ontwikkelaars de inspanningen van de toegewezen persoon voor een taak programmatisch opgeven voor elk ondersteund datumbereik voor een meer gedetailleerde, tijdgefaseerde inspanningsplanning.|[API's voor projectplanning gebruiken om bewerkingen uit te voeren met planningsentiteiten](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Updates van kaarten voor twee keer wegschrijven in Project Operations
 
