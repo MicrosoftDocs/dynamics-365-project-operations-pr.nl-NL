@@ -3,7 +3,7 @@ title: Upgraden van Project Service Automation naar Project Operations
 description: Dit artikel bevat een overzicht van het proces van de upgrade van Microsoft Dynamics 365 Project Service Automation naar Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,28 +16,28 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446029"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9686969"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgraden van Project Service Automation naar Project Operations
 
-We willen graag de eerste van drie fasen aankondigen voor de upgrade van Microsoft Dynamics 365 Project Service Automation naar Dynamics 365 Project Operations. Dit artikel biedt een overzicht voor klanten die aan deze interessante stap willen maken. Toekomstige artikelen bevatten overwegingen voor ontwikkelaars en details over functieverbeteringen. Ze bieden niet alleen begeleiding om u voor te bereiden op uw upgrade naar Project Operations, maar leggen ook uit wat u kunt verwachten nadat u een upgrade hebt uitgevoerd.
+We willen graag de tweede van drie fasen aankondigen voor de upgrade van Microsoft Dynamics 365 Project Service Automation naar Microsoft Dynamics 365 Project Operations. Dit artikel biedt een overzicht voor klanten die aan deze interessante stap willen maken. 
 
 Het leveringsprogramma voor de upgrade wordt opgesplitst in drie fasen.
 
 | Levering van de upgrade | Fase 1 (januari 2022) | Fase 2 (november 2022) | Fase 3 (wave van april 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Geen afhankelijkheid van de structuur voor werkspecificatie (Work Breakdown Structure, WBS) voor projecten | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| De structuur voor werkspecificatie binnen de momenteel ondersteunde limieten van Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
-| De structuur voor werkspecificatie buiten de momenteel ondersteunde limieten van Project Operations, inclusief ondersteuning voor de Project Desktop Client | | | :heavy_check_mark: |
+| Een structuur voor werkspecificatie binnen de momenteel ondersteunde limieten van Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
+| Een structuur voor werkspecificatie buiten de momenteel ondersteunde limieten van Project Operations, inclusief ondersteuning voor de Project Desktop Client | | | :heavy_check_mark: |
 
 ## <a name="upgrade-process-features"></a>Functies voor upgradeproces 
 
-Als onderdeel van het upgradeproces hebben we upgradelogboeken toegevoegd aan het siteoverzicht, zodat beheerders fouten gemakkelijker kunnen diagnosticeren. Naast de nieuwe interface worden er nieuwe validatieregels toegevoegd om de gegevensintegriteit na een upgrade te waarborgen. De volgende validaties worden toegevoegd aan het upgradeproces.
+Als onderdeel van het upgradeproces hebben we upgradelogboeken toegevoegd aan het siteoverzicht om beheerders in staat te stellen fouten gemakkelijker te diagnosticeren. Naast de nieuwe interface worden er nieuwe validatieregels toegevoegd om de gegevensintegriteit na een upgrade te waarborgen. De volgende validaties worden toegevoegd aan het upgradeproces.
 
 | Validaties | Fase 1 (januari 2022) | Fase 2 (november 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
@@ -46,24 +46,31 @@ Als onderdeel van het upgradeproces hebben we upgradelogboeken toegevoegd aan he
 | De structuur voor werkspecificatie wordt gevalideerd tegen de bekende limieten van de Project Desktop Client. | |  | :heavy_check_mark: |
 | Boekbare resources en projectkalenders worden beoordeeld op basis van veelvoorkomende uitzonderingen vanwege incompatibele kalenderregels. | | :heavy_check_mark: | :heavy_check_mark: |
 
-In fase 2 krijgen klanten die upgraden naar Project Operations hun bestaande projecten geüpgraded naar een alleen-lezen ervaring voor projectplanning. In deze alleen-lezen ervaring is de volledige structuur voor werkspecificatie zichtbaar in het volgraster. Om de structuur voor werkspecificatie te bewerken, kunnen projectmanagers **Converteren** op de hoofdpagina van **Projecten** selecteren. Een achtergrondproces werkt het project vervolgens bij zodat het de nieuwe projectplanningservaring van Project for the Web ondersteunt. Deze fase is geschikt voor klanten die projecten hebben die passen binnen de [bekende limieten van Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+In fase 2 krijgen klanten die upgraden naar Project Operations hun bestaande projecten geüpgraded naar een alleen-lezen ervaring voor projectplanning. In deze alleen-lezen ervaring is de volledige structuur voor werkspecificatie zichtbaar in het volgraster. Projectmanagers kunnen de structuur voor werkspecificatie bewerken door [**Converteren**](/PSA-Upgrade-Project-Conversion.md) te selectren op de hoofdpagina van het project. Een achtergrondproces werkt vervolgens het project bij zodat het de nieuwe projectplanningservaring van Project for the Web ondersteunt. Deze fase is geschikt voor klanten die projecten hebben die passen binnen de [bekende limieten van Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 In fase 3 wordt ondersteuning voor de de Project Desktop Client toegevoegd ten behoeve van klanten die vanuit die toepassing hun projecten willen blijven bewerken. Als bestaande projecten echter worden geconverteerd naar de nieuwe Project for the Web-ervaring, wordt de toegang tot de invoegtoepassing voor elk geconverteerd project uitgeschakeld.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Om in aanmerking te komen voor de upgrade van fase 1 moet een klant aan de volgende criteria voldoen:
+Om in aanmerking te komen voor de upgrade van Fase 1 moet u aan de volgende criteria voldoen:
 
 - De doelomgeving mag geen records bevatten in de entiteit **msdyn_projecttask**.
-- Geldige Project Operations-licenties moeten worden toegewezen aan alle actieve gebruikers van de klant. 
-- De klant moet het upgradeproces valideren in ten minste één niet-productieomgeving met een representatieve gegevensset die is afgestemd op productiegegevens.
-- De doelomgeving moet worden bijgewerkt naar Project Service Automation-updateversie 41 (3.10.62.162) of hoger.
+- Geldige Project Operations-licenties moeten worden toegewezen aan alle actieve gebruikers. 
+- U moet het upgradeproces valideren in ten minste één niet-productieomgeving die een representatieve gegevensset bevat die is afgestemd op uw productieomgeving.
+- De doelomgeving moet worden bijgewerkt naar Project Service Automation-updateversie 37 (V3.10.58.120) of hoger.
 
-De vereisten voor fase 2 en fase 3 zullen worden bijgewerkt naarmate de datums voor algemene beschikbaarheid naderen.
+Om in aanmerking te komen voor de upgrade van Fase 2 moet u aan de volgende criteria voldoen:
+
+- Geldige Project Operations-licenties moeten worden toegewezen aan alle actieve gebruikers. 
+- U moet het upgradeproces valideren in ten minste één niet-productieomgeving die een representatieve gegevensset bevat die is afgestemd op uw productieomgeving.
+- De doelomgeving moet worden bijgewerkt naar Project Service Automation-updateversie 37 (V3.10.58.120) of hoger.
+- Omgevingen die taken bevatten (msdyn_projecttask) worden alleen ondersteund als het totale aantal taken per project 500 of minder bedraagt.
+
+De vereisten voor Fase 3 worden bijgewerkt naarmate de datum voor algemene beschikbaarheid nadert.
 
 ## <a name="licensing"></a>Licenties
 
-Als u actieve licenties voor Project Service Automation hebt, kunt u Project Operations installeren en gebruiken, dat alle mogelijkheden van Project Service Automation en meer omvat. Op deze manier kunt u de mogelijkheden van Project Operations testen terwijl u Project Service Automation in productie blijft gebruiken. Nadat uw Project Service Automation-licenties zijn verlopen, moet u overstappen naar Project Operations. Wanneer u deze overgang plant, moet u er rekening mee houden dat de Project Operations-licentie geen Project Service Automation-licentie omvat.
+Als u actieve licenties voor Project Service Automation hebt, kunt u Project Operations installeren en gebruiken, dat alle mogelijkheden van Project Service Automation en meer omvat. U kunt vervolgens de mogelijkheden van Project Operations testen in een aparate omgeving terwijl u Project Service Automation in productie blijft gebruiken. Nadat uw Project Service Automation-licenties zijn verlopen, moet u overstappen naar Project Operations. Wanneer u deze overgang plant, moet u er rekening mee houden dat de Project Operations-licentie geen Project Service Automation-licentie omvat.
 
 ## <a name="testing-and-refactoring-customizations"></a>Aanpassingen testen en herstructureren
 
@@ -87,14 +94,23 @@ Nadat u uw aanpassingen hebt bijgewerkt om Project Operations schoon te importer
 
     Nadat de upgrade is voltooid, moet de omgeving aangeven dat Project Operations is geïnstalleerd en dat Project Service Automation niet is geïnstalleerd.
 
-    > [!NOTE]
-    > Afhankelijk van de hoeveelheid gegevens in de omgeving, kan de upgrade enkele uren duren. Het kernteam dat de upgrade beheert, moet dienovereenkomstig plannen en de upgrade uitvoeren buiten kantooruren. In sommige gevallen, als het gegevensvolume groot is, moet de upgrade tijdens het weekend worden uitgevoerd. De beslissing over planning moet gebaseerd zijn op de testresultaten in lagere omgevingen.
+    Afhankelijk van de hoeveelheid gegevens in de omgeving, kan de upgrade enkele uren duren. Het kernteam dat de upgrade beheert, moet dienovereenkomstig plannen en de upgrade uitvoeren buiten kantooruren. In sommige gevallen, als het gegevensvolume groot is, moet de upgrade tijdens het weekend worden uitgevoerd. De beslissing over planning moet gebaseerd zijn op de testresultaten in lagere omgevingen.
 
 3. Upgrade aangepaste oplossingen waar nodig. Implementeer nu alle wijzigingen die u in uw aanpassingen hebt aangebracht in het gedeelte [Aanpassingen testen en herstructureren](#testing-and-refactoring-customizations) van dit artikel.
 4. Ga naar **Instellingen** \> **Oplossingen** en selecteer de oplossing **Afgeschafte onderdelen voor Project Operations** om deze te verwijderen.
 
     Deze oplossing is een tijdelijke oplossing die het bestaande gegevensmodel en onderdelen bevat die tijdens de upgrade aanwezig zijn. Door deze oplossing te verwijderen, verwijdert u alle velden en onderdelen die niet meer worden gebruikt. Hiermee helpt u de interface te vereenvoudigen en de integratie en extensie makkelijker te maken.
     
+### <a name="upgrade-to-project-operations-lite"></a>Upgrade uitvoeren naar Project Operations Lite
+
+De volgende stappen beschrijven het upgradeproces en de bijbehorende foutregistratie:
+
+1. **PSA-versiecontrole:** als u Project Operations wilt installeren, moet u V3.10.58.120 of hoger hebben.
+1. **Voor validering:** wanneer een beheerder een upgrade initieert, voert het systeem een pre-validatiebewerking uit op elke entiteit die de kern vormt van de Project Operations-oplossing. Met deze stap wordt gecontroleerd of alle entiteitsverwijzingen geldig zijn en wordt ervoor gezorgd dat gegevens die zijn gerelateerd aan de WBS binnen de gepubliceerde limieten van Project for the Web vallen.
+1. **Upgrade van metagegevens:** na geslaagde pre-validatie initieert het systeem wijzigingen in het schema en creëert het een oplossing voor verouderde onderdelen. U kunt deze verouderde oplossing verwijderen nadat u alle vereiste aanpassingen hebt geherstructureerd. Deze stap is het langste deel van het upgradeproces en kan tot vier uur duren.
+1. **Gegevensupgrade:** nadat alle vereiste schemawijzigingen zijn voltooid in de upgradestap voor metagegevens, worden uw gegevens gemigreerd naar het nieuwe schema en worden eventuele vereiste standaardinstellingen en herberekeningen uitgevoerd.
+1. **Update van Project-planningsengine:** na een geslaagde gegevensupgrade, krijgt het tabblad **Planning** op de hoofdpagina de nieuwe naam **Taken**. Wanneer een gebruiker dit tabblad selecteert na de upgrade, wordt hij of zij doorverwezen naar het volgraster om een alleen-lezen versie van de structuur voor werkspecificatie te bekijken. Om de structuur voor werkspecificatie te bewerken, moeten ze het [conversieproces](/PSA-Upgrade-Project-Conversion.md) voor de planning starten. Alle projecten zonder een reeds bestaande structuur voor werkspecificatie kunnen de nieuwe planningservaring direct gebruiken, zonder conversie.
+ 
 ### <a name="validate-common-scenarios"></a>Veelvoorkomende scenario's valideren
 
 Wanneer u uw specifieke aanpassingen valideert, raden we u aan ook de bedrijfsprocessen te bekijken die in de toepassingen worden ondersteund. Deze bedrijfsprocessen omvatten onder andere, maar niet uitsluitend, het maken van verkoopentiteiten zoals offertes en contracten, het maken van projecten die structuren voor werkspecificatie bevatten en het goedkeuren van werkelijke waarden.
@@ -107,7 +123,7 @@ In dit gedeelte wordt een overzicht gegeven van de belangrijkste wijzigingen die
 
 De mogelijkheden voor projectplanning in Project Operations zijn niet langer afhankelijk van een combinatie van logica aan clientzijde en logica aan serverzijde. Project Operations gebruikt in plaats hiervan Project for the Web als planningsengine. Deze wijziging in planningsmogelijkheden maakt verschillende nieuwe functies mogelijk, zoals Board- en Gantt-weergaven, resourcegestuurde planning, [taakcontrolelijstitems](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c) en projectplanningsmodi. De nieuwe planningsmogelijkheden worden ook ondersteund door een uitgebreide reeks nieuwe [Application Programming Interfaces (API's)](../project-management/schedule-api-preview.md). Deze API's zijn bedoeld om ervoor te zorgen dat geen enkele programmatische bewerking voor het maken, bijwerken of verwijderen van een entiteit in de structuur voor werkspecificatie de berekende velden in het schema beschadigt.
 
-## <a name="billing-and-pricing"></a>Facturering en prijzen
+### <a name="billing-and-pricing"></a>Facturering en prijzen
 
 Als onderdeel van voortdurende investeringen in Project Operations zijn er verschillende nieuwe mogelijkheden beschikbaar in Facturering en prijzen. Hieronder volgen een aantal voorbeelden:
 
@@ -116,6 +132,10 @@ Als onderdeel van voortdurende investeringen in Project Operations zijn er versc
 - [Vooruitbetalingen en op voorschot gebaseerde contracten](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Contract voor niet-overschrijdingsstatus en validaties](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Taakgebaseerde facturering
+
+### <a name="resource-management"></a>Resourcebeheer
+
+Project Operations biedt optionele ondersteuning voor de bord- en planningsassistent voor Universal Resource Scheduling (URS). Deze nieuwe ervaring wordt verplicht in de wave van april 2023.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
@@ -136,5 +156,4 @@ Er zijn twee opties om Project Operations te installeren voordat de hulpprogramm
 - Richt een nieuwe omgeving in.
 - Implementeer Project Operations afzonderlijk in elke verkooporganisatie waar Project Service Automation niet aanwezig is.
 
-> [!NOTE]
-> Als Project Service Automation in een organisatie is geïnstalleerd, maar niet is gebruikt, kan het worden verwijderd. Nadat u Project Service Automation volledig hebt verwijderd, kan Project Operations in dezelfde organisatie worden geïnstalleerd.
+Als Project Service Automation in een organisatie is geïnstalleerd, maar niet is gebruikt, kan het worden verwijderd. Nadat u Project Service Automation volledig hebt verwijderd, kan Project Operations in dezelfde organisatie worden geïnstalleerd.
