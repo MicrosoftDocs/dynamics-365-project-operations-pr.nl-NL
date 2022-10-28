@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Hoe pas ik de bedrijfsprocesstroom Projectfasen aan?
               href: psa/FAQ-customize-bpf.md
-            - name: Upgradeoverwegingen voor de structuur voor werkspecificatie
-              href: psa/upgrade-considerations-tasks.md
         - name: Technische documenten
           href: psa/white-papers.md
         - name: Beheerdershandleiding
