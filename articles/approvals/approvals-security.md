@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525357"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709391"
 ---
 # <a name="security-and-approvals"></a>Beveiliging en goedkeuringen
 
@@ -33,6 +33,6 @@ Om niet-projectboekingen goed te keuren, moet u de manager van de indiener zijn.
 > [!NOTE]
 > De functie [Goedkeuringssets](approval-sets.md) moet zijn ingeschakeld voordat u de functionaliteit Beheerder van projectfiatteur kunt gebruiken.
 
-Met de beveiligingsrol **Beheerder van projectfiatteur** kunnen gebruikers beleid omzeilen en boekingen voor alle projecten goedkeuren. Toewijzing van deze rol omzeilt de validatielogica waarbij het teamlidmaatschap en de markering als fiatteur vereist is. U moet toegang hebben tot de relevante gerelateerde entiteiten, zoals **Project**. Die toegang kan worden toegewezen door iemand met de rol **Projectmanager**.
+Met de beveiligingsrol **Beheerder van projectfiatteur** kunnen gebruikers beleid omzeilen en boekingen voor alle projecten goedkeuren. Toewijzing van deze rol omzeilt de validatielogica waarbij het teamlidmaatschap en de markering als fiatteur vereist is. U moet toegang hebben tot de relevante gerelateerde tabellen, zoals **Project**, via beveiligingsrollen die aan u zijn toegewezen.
 
 De gebruikerscontext SYSTEM omzeilt validaties op dezelfde manier als de beveiligingsrol Beheerder van projectfiatteur.
