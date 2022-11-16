@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709438"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736660"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Upgraden van Project Service Automation naar Project Operations
 
@@ -97,7 +97,7 @@ Nadat u uw aanpassingen hebt bijgewerkt om Project Operations schoon te importer
     Afhankelijk van de hoeveelheid gegevens in de omgeving, kan de upgrade enkele uren duren. Het kernteam dat de upgrade beheert, moet dienovereenkomstig plannen en de upgrade uitvoeren buiten kantooruren. In sommige gevallen, als het gegevensvolume groot is, moet de upgrade tijdens het weekend worden uitgevoerd. De beslissing over planning moet gebaseerd zijn op de testresultaten in lagere omgevingen.
 
 3. Upgrade aangepaste oplossingen waar nodig. Implementeer nu alle wijzigingen die u in uw aanpassingen hebt aangebracht in het gedeelte [Aanpassingen testen en herstructureren](#testing-and-refactoring-customizations) van dit artikel.
-4. Ga naar **Instellingen** \> **Oplossingen** en selecteer de oplossing **Afgeschafte onderdelen voor Project Operations** om deze te verwijderen.
+4. Ga naar **make.powerapps.com**, selecteer uw omgeving in de vervolgkeuzelijst in de rechterbovenhoek van de portal, selecteer **Oplossingen** in het linkermenu, selecteer de oplossing **Afgeschafte onderdelen voor Project Operations** en **Verwijderen**.
 
     Deze oplossing is een tijdelijke oplossing die het bestaande gegevensmodel en onderdelen bevat die tijdens de upgrade aanwezig zijn. Door deze oplossing te verwijderen, verwijdert u alle velden en onderdelen die niet meer worden gebruikt. Hiermee helpt u de interface te vereenvoudigen en de integratie en extensie makkelijker te maken.
     

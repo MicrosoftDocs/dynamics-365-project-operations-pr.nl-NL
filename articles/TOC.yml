@@ -282,10 +282,12 @@
           href: project-management/navigate-ui.md
         - name: De projectstatus begrijpen
           href: project-management/understand-project-status.md
-        - name: Projectkalenders definiëren
+        - name: Projectagenda's definiëren
           href: project-management/define-project-calendars.md
         - name: Planningsmodi
           href: project-management/scheduling-modes.md
+        - name: Externe planning
+          href: project-management/external-scheduling.md
         - name: Een project bijwerken
           href: project-management/update-project.md
         - name: Een project kopiëren
@@ -910,10 +912,12 @@
           href: project-management/navigate-ui.md
         - name: De projectstatus begrijpen
           href: project-management/understand-project-status.md
-        - name: Projectkalenders definiëren
+        - name: Projectagenda's definiëren
           href: project-management/define-project-calendars.md
         - name: Planningsmodi
           hreF: project-management/scheduling-modes.md
+        - name: Externe planning
+          href: project-management/external-scheduling.md
         - name: Een project bijwerken
           href: project-management/update-project.md
         - name: Een project kopiëren
