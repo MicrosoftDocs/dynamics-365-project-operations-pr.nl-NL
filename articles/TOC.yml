@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Nieuwe functies
       items:
-        - name: September 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: November 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Archiveren
           items:
+            - name: Oktober 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: September 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: Augustus 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Juli 2022 - Project Operations voor scenario's op basis van resources/niet-voorradige artikelen
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Organisatie-eenheden
               href: sales/OrgUnits.md
-        - name: Potentiële klanten voor project beheren
+        - name: Projectgebaseerde potentiële klanten beheren
           href: sales/manage-leads.md
-        - name: Projectverkoopkansen beheren
+        - name: Projectgebaseerde verkoopkansen beheren
           items:
             - name: Overzicht van projectgebaseerde verkoopkansen beheren
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Projectgebaseerde verkoopkansregels
               href: sales/project-based-lines.md
-            - name: Prijsopgaven voor projecten maken op basis van verkoopkansen
+            - name: Prijsopgaven maken op basis van projectverkoopkansen
               href: sales/link-quotes-opportunities.md
-            - name: Projectgebaseerde verkoopkansen kopiëren
+            - name: Projectverkoopkansen kopiëren
               href: sales/copy-project-based-opportunity.md
             - name: Een projectverkoopkans sluiten
               href: sales/close-opportunity.md
-        - name: Projectprijsopgaven beheren
+        - name: Projectgebaseerde prijsopgaven beheren
           items:
             - name: Overzicht van projectprijsopgaven beheren
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Koptekstdetails voor projectgebaseerde prijsopgaven
               href: sales/quote-values-budget-limits-contract.md
-            - name: Meerdere klanten in een projectprijsopgave beheren
+            - name: Meerdere klanten in een projectgebaseerde prijsopgave beheren
               href: sales/manage-multiple-customers-quote.md
-            - name: Projectprijslijsten in een prijsopgave beheren
+            - name: Projectprijslijsten in projectprijsopgaven
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Projectgebaseerde prijsopgaveregels
               items:
-                - name: Overzicht van projectgebaseerde prijsopgaveregels
+                - name: Overzicht van projectprijsopgaveregels
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Meerdere klanten in projectgebaseerde prijsopgaveregels beheren
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Projecten en taken toewijzen aan projectgebaseerde prijsopgaveregels
+                - name: Projecten en taken toewijzen aan projectprijsopgaveregels
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Toerekenbare componenten voor projectgebaseerde prijsopgaveregels configureren
+                - name: Toerekenbare onderdelen configureren op projectprijsopgaveregels
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: De toerekenbare componenten van een projectprijsopgaveregel configureren
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Een schatting voor een projectprijsopgaveregel maken
-                  href: sales/create-estimate-quote-line.md
-                - name: Schattingen uit een project importeren in een projectgebaseerde prijsopgaveregel
-                  href: sales/import-estimate-quote-line.md
-                - name: Factuurschema's voor projectgebaseerde prijsopgaveregels
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Schattingen importeren vanuit een projectprijsopgaveregel
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Factuurschema's voor projectprijsopgaveregels
                   href: sales/invoice-schedule-quote-line.md
             - name: Projectprijsopgaven kopiëren
               href: sales/lose-quote.md
             - name: Een projectprijsopgave activeren en herzien
               href: sales/activation-and-revision.md
-            - name: Projectprijsopgaven sluiten
+            - name: Projectgebaseerde prijsopgaven sluiten
               href: sales/win-quote.md
-        - name: Projectcontracten beheren
+        - name: Projectgebaseerde contracten beheren
           items:
-            - name: Overzicht van projectcontracten beheren
+            - name: Projectcontracten beheren
               href: pro/sales/manage-contracts-sales.md
             - name: Unieke concepten voor projectgebaseerde contracten
               href: sales/contracts-key-concepts.md
             - name: Koptekstdetails voor projectgebaseerde contracten
               href: sales/project-contract-settings.md
-            - name: Projectprijslijsten in projectcontracten beheren
+            - name: Projectprijslijsten in projectgebaseerde contracten beheren
               href: sales/contracts-manage-project-price-lists.md
-            - name: Meerdere klanten in projectcontracten beheren
+            - name: Meerdere klanten in projectgebaseerde contracten beheren
               href: sales/manage-multiple-customers-contract.md
             - name: Projectgebaseerde contractregels
               items:
-                - name: Overzicht van projectgebaseerde contractregels
+                - name: Overzicht van projectcontractregels
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Meerdere klanten in projectgebaseerde contractregels beheren
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Projecten en taken toewijzen op een projectcontractregel
+                - name: Projecten en taken toewijzen aan een projectcontractregel
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Toerekenbare componenten voor een projectcontractregel configureren
+                - name: Toerekenbare onderdelen van een projectcontractregel configureren
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Een schatting maken voor een projectcontractregel
+                - name: Een schatting maken voor een projectgebaseerde contractregel
                   href: sales/create-estimate-contract-line.md
-                - name: Schattingen uit een project importeren in een projectgebaseerde contractregel
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Factuurschema's maken voor projectgebaseerde contractregels
+                - name: Schattingen importeren vanuit een projectcontractregel
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Factuurschema's maken voor een projectgebaseerde contractregel
                   href: sales/invoice-schedules-contract-line.md
             - name: Projectgebaseerde contracten kopiëren
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Vooruitbetalingen en voorschotten
               items:
-                - name: Vooruitbetalingen en op voorschot gebaseerde contracten
+                - name: Vooruitbetalingen en op een voorschot gebaseerde contracten
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Een voorschotschema instellen
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Een ad-hocvoorschot maken voor een contract
+                - name: Een ad-hocvoorschot maken voor een projectcontract
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prijzen en kosten berekenen
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Projectstatus synchroniseren om toegang tot gesloten projecten te voorkomen
           href: advanced-configuration/sync-project-status.md
+        - name: Instelling van valutaomrekening voor het berekenen van verkoopprijzen op basis van kostentarieven
+          href: advanced-configuration/currencyconversion.md
     - name: Upgraden
       items:
         - name: Overwegingen bij upgraden voor Moderne goedkeuringen
@@ -664,7 +668,7 @@
           href: pro/project-operations-overview-lite.md
         - name: Aanmelden voor een preview-abonnement - lite
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Project Operations implementeren - lite
+        - name: Project Operations Lite implementeren
           href: environment/lite-deployment.md
         - name: Demogegevens voor installatie en configuratie toepassen - lite
           href: environment/lite-apply-demo-setup-config-data.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: Nieuwe functies
       items:
-        - name: Nieuw in september 2022 - lite-implementatie
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Nieuw in november 2022 - lite-implementatie
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Archiveren
           items:
+            - name: Nieuw in oktober 2022 - lite-implementatie
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Nieuw in september 2022 - lite-implementatie
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Nieuw in augustus 2022 - lite-implementatie
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Nieuw in juli 2022 - lite-implementatie
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Prijsopgaven maken op basis van projectverkoopkansen
               href: sales/link-quotes-opportunities.md
-            - name: Projectgebaseerde verkoopkansen kopiëren
+            - name: Projectverkoopkansen kopiëren
               href: sales/copy-project-based-opportunity.md
             - name: Een projectverkoopkans sluiten
               href: sales/close-opportunity.md
-        - name: Projectgebaseerde prijsopgaven beheren
+        - name: Projectprijsopgaven beheren
           items:
-            - name: Overzicht van projectgebaseerde prijsopgaven
+            - name: Overzicht van projectprijsopgaven
               href: pro/sales/manage-quotes-sales.md
             - name: Unieke concepten voor projectprijsopgaven
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Koptekstdetails voor projectprijsopgaven
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Meerdere klanten in projectprijsopgaven
+            - name: Meerdere klanten in projectprijsopgaven beheren
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Projectprijslijsten in projectprijsopgaven
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Complexe eenheden voor productgebaseerde prijsopgaveregels beheren
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Projectgebaseerde prijsopgaveregels
+            - name: Projectprijsopgaveregels
               items:
-                - name: Overzicht van projectgebaseerde prijsopgaveregels
+                - name: Overzicht van projectprijsopgaveregels
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Meerdere klanten beheren
+                - name: Meerdere klanten in projectprijsopgaveregels beheren
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Projecten en taken toewijzen
+                - name: Projecten en taken toewijzen aan projectprijsopgaveregels
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Toerekenbare componenten configureren
+                - name: Toerekenbare onderdelen configureren op projectprijsopgaveregels
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Een schatting maken voor een projectgebaseerde prijsopgaveregel
+                - name: Een schatting voor een projectprijsopgaveregel maken
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Schatting importeren uit een project
+                - name: Schattingen importeren vanuit een projectprijsopgaveregel
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Factuurschema's beheren
+                - name: Factuurschema's voor projectprijsopgaveregels
                   href: sales/invoice-schedule-quote-line.md
-            - name: Projectgebaseerde prijsopgaven kopiëren
+            - name: Projectprijsopgaven kopiëren
               href: sales/lose-quote.md
             - name: Een projectprijsopgave activeren en herzien
               href: sales/activation-and-revision.md
-            - name: Projectgebaseerde prijsopgaven sluiten
+            - name: Projectprijsopgaven sluiten
               href: pro/sales/win-quote-sales.md
-        - name: Projectgebaseerde contracten beheren
+        - name: Projectcontracten beheren
           items:
-            - name: Overzicht van projectgebaseerde contracten
+            - name: Overzicht van projectcontracten
               href: pro/sales/manage-contracts-sales.md
             - name: Unieke concepten voor projectcontracten
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Koptekstdetails voor projectcontracten
               href: pro/sales/project-contract-settings-sales.md
-            - name: Meerdere klanten in projectcontracten
+            - name: Meerdere klanten in projectcontracten beheren
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Projectprijslijsten in projectcontracten
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Complexe eenheden voor productgebaseerde contractregels beheren
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Projectgebaseerde contractregels
+            - name: Projectcontractregels
               items:
-                - name: Overzicht van projectgebaseerde contractregels
+                - name: Overzicht van projectcontractregels
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Meerdere klanten voor een contract beheren
+                - name: Meerdere klanten in projectcontracten beheren
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Projecten en taken toewijzen aan een projectcontractregel
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Toerekenbare componenten van een projectcontractregel configureren
+                - name: Toerekenbare onderdelen van een projectcontractregel configureren
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Een schatting maken voor een projectgebaseerde contractregel
+                - name: Een schatting maken voor een projectcontractregel
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Schattingen importeren vanuit een projectcontractregel
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Factuurschema's beheren voor een projectcontractregel
+                - name: Factuurschema's maken voor een projectcontractregel
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Projectcontracten kopiëren
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Vooruitbetalingen en voorschotten
               items:
-                - name: Vooruitbetalingen en op voorschot gebaseerde contracten - lite
+                - name: Vooruitbetalingen en op voorschot gebaseerde contracten
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Een voorschotschema instellen - lite
+                - name: Een voorschotschema instellenEen voorschotschema instellen
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Een ad-hocvoorschot maken voor een contract - lite
+                - name: Een ad-hocvoorschot maken voor een projectcontract
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prijzen en kosten berekenen
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Nieuwe functies
       items:
-        - name: Nieuwe functies van september 2022 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Nieuwe functies van oktober 2022 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Archiveren
           items:
+            - name: Nieuwe functies van september 2022 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Nieuwe functies van juli 2022 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Nieuwe functies van juni 2022 - Project Operations voor scenario's op basis van voorradige artikelen/productieorders
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Implementatieoverzicht van Project Operations voor scenario's op basis van voorradige artikelen/productieorders
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Overzicht van projectbeheer en financiële administratie
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Projectboekhouding
+      items:
+        - name: Overzicht van projectbeheer en financiële administratie
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Projectcorrecties
+          href: project-accounting/project-adjustments.md
     - name: Verkoopproces voor project
       items:
         - name: Projectoffertes
