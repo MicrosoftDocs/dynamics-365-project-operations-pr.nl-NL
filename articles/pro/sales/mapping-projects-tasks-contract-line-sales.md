@@ -1,23 +1,23 @@
 ---
-title: Projecten en taken toewijzen aan een projectgebaseerde contractregel - lite
+title: Projecten en taken toewijzen aan een projectcontractregel
 description: Dit artikel biedt informatie over het toevoegen en verwijderen van projecten en taken op een contractregel.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932520"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825052"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Projecten en taken toewijzen aan een projectgebaseerde contractregel 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Projecten en taken toewijzen aan een projectcontractregel 
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering, Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Op projectgebaseerde contractregels kunt u specifieke taken in een project toewijzen aan de contractregel.
+Op projectcontractregels kunt u specifieke taken in een project toewijzen aan de contractregel.
 
 Wanneer u specifieke taken toewijst aan een contractregel, zijn de factureringsmethode, de opties voor toerekening, de niet-overschrijdingslimieten en de klanten die op de contractregel zijn gedefinieerd, alleen van toepassing op die specifieke taken.
 
@@ -25,7 +25,7 @@ Als u een scenario hebt waarbij één fase van een project, bijvoorbeeld de prot
 
 Alle andere fasen in de structuur voor werkspecificatie van uw project kunnen worden gekoppeld aan de contractregel op basis van tijd en materiaal.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Taken koppelen aan projectgebaseerde contractregels
+## <a name="associate-tasks-to-project-contract-lines"></a>Taken koppelen aan projectcontractregels
 
 Taken kunnen worden gekoppeld aan contractregels van het tabblad **Toerekenbare taken** op de pagina **Contractregel** of van het tabblad **Taakfacturering** op de pagina **Project**.
 

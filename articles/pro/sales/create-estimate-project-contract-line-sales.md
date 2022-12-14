@@ -1,32 +1,32 @@
 ---
-title: Een schatting maken voor een projectgebaseerde contractregel - lite
+title: Een schatting maken voor een projectcontractregel
 description: Dit artikel bevat informatie over het uitvoeren van schattingen voor een projectgebaseerde contractregel.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914396"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824761"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Een schatting maken voor een projectgebaseerde contractregel - lite
+# <a name="estimate-a-project-contract-line"></a>Een schatting maken voor een projectcontractregel
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-In Dynamics 365 Project Operations bevat een projectgebaseerde contractregel details die helpen bij het schatten van de kosten en potentiële inkomsten van het werk dat nodig is om de contractregel te leveren.
+In Dynamics 365 Project Operations bevat een projectcontractregel details die helpen bij het schatten van de kosten en potentiële inkomsten van het werk dat nodig is om de contractregel te leveren.
 
-Om een schatting te maken voor een projectgebaseerde contractregel gaat u naar het tabblad **Contractregeldetails** op de projectgebaseerde **Contractregel**.  Er zijn twee manieren om een schatting te maken op een projectgebaseerde contractregel:
+Om een schatting te maken voor een projectcontractregel gaat u naar het tabblad **Contractregeldetails** op de projectgebaseerde **Contractregel**.  Er zijn twee manieren om een schatting te maken op een projectgebaseerde contractregel:
 
    - Maak direct een schatting op de contractregel door handmatig contractregeldetails toe te voegen.
    - Maak een project en een projectplan, en koppel het project en de taken vervolgens aan de contractregel van het project. Dit activeert het proces waarmee u de schatting voor het projectplan in de contractregel kunt importeren op basis van de componenten die op de contractregel zijn opgenomen.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Een schatting direct maken voor een projectgebaseerde contractregel
 
-Voer de volgende stappen uit om een schatting direct op een projectgebaseerde contractregel te maken:
+Voer de volgende stappen uit om een schatting direct op een projectcontractregel te maken:
 
 1. Ga naar de contractregel en selecteer het tabblad **Contractregeldetails**. De regels die u op dit tabblad maakt, worden samengevat en weergegeven als **Gecontracteerde waarde** voor deze **Contractregel**. 
 2. Selecteer in het subraster **Contractregeldetails** de optie **Nieuw contractregeldetail**. Er wordt een schuifregelaar voor snelle invoer geopend. De volgende velden zijn beschikbaar op de pagina **Contractregeldetails**.
@@ -35,7 +35,7 @@ Voer de volgende stappen uit om een schatting direct op een projectgebaseerde co
 | --- | --- | --- | --- |
 | **Beschrijving** | **Snelle invoer** | Een beschrijving van de betreffende schatting. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
 | **Transactieklasse** | **Snelle invoer** | Dit is een lijst met transactieklassen op het tabblad **Algemeen** van de projectgebaseerde contractregel. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
-| **Product selecteren** | **Snelle invoer** | Is van toepassing wanneer de transactieklasse **Materiaal** is.​ U kunt opgeven of deze schattingsregel voor een **bestaand** (catalogus)product of een **toe te voegen** product is. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
+| **Product selecteren** | **Snelle invoer** | Is van toepassing wanneer de transactieklasse **Materiaal** is. U kunt opgeven of deze schattingsregel voor een **bestaand** (catalogus)product of een **toe te voegen** product is. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
 | **Product** | **Snelle invoer** | De id van het product uit de productcatalogus. Dit veld is alleen ingeschakeld wanneer u **Bestaand product** selecteert in het veld **Product selecteren**. De id wordt gebruikt om de verkoopprijs op te halen uit de projectprijslijst van het contract. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor de kosten die automatisch worden gemaakt. |
 | **Toe te voegen product** | **Snelle invoer** | Een tekstveld om de productnaam op te geven. Dit veld is alleen ingeschakeld wanneer u **Toevoegen** selecteert in het veld **Product selecteren**.| Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
 | **- Rol** | **Snelle invoer** | De rol van de persoon die dit werk uitvoert of deze kosten maakt. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt.|

@@ -1,23 +1,23 @@
 ---
-title: Meerdere klanten in een projectprijsopgave beheren
+title: Meerdere klanten in een projectgebaseerde prijsopgave beheren
 description: Dit artikel biedt informatie over het werken aan prijsopgaven waarbij meerdere klanten betrokken zijn die het project zullen financieren.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928196"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825142"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Meerdere klanten in een projectprijsopgave beheren
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Meerdere klanten in een projectgebaseerde prijsopgave beheren
 
-_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Projectprijsopgaven ondersteunen het scenario voor een voorstel met meerdere klanten die de deal zullen financieren. Het tabblad **Samenvatting** van de prijsopgave bevat het veld **Potentiële klant** waarin de primaire klant van de deal wordt geïdentificeerd. Andere klanten voor de deal kunnen worden ingesteld op het tabblad **Klanten** van de projectprijsopgave.
+Projectgebaseerde prijsopgaven ondersteunen het scenario voor een voorstel met meerdere klanten die de deal zullen financieren. Het tabblad **Samenvatting** van de prijsopgave bevat het veld **Potentiële klant** waarin de primaire klant van de deal wordt geïdentificeerd. Andere klanten voor de deal kunnen worden ingesteld op het tabblad **Klanten** van de projectprijsopgave.
 
 Alle klanten voor prijsopgave op het tabblad **Klanten** van de projectprijsopgave zijn standaard de klanten van de **nieuwe** projectgebaseerde prijsopgaveregels die zijn gemaakt voor de prijsopgave. Eventuele bestaande projectgebaseerde prijsopgaveregels nemen geen nieuwe klantrecords voor prijsopgaven over die daarna zijn gemaakt.
 

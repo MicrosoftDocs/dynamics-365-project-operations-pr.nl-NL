@@ -1,23 +1,23 @@
 ---
-title: Projecten en taken toewijzen aan een projectgebaseerde prijsopgaveregel
-description: Dit artikel biedt informatie over het toewijzen van projecten en taken aan een projectgebaseerde taakregel.
+title: Projecten en taken toewijzen aan projectprijsopgaveregels
+description: Dit artikel biedt informatie over het toewijzen van projecten en taken aan projectprijsopgaveregels.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917156"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824256"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Projecten en taken toewijzen aan een projectgebaseerde prijsopgaveregel
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Projecten en taken toewijzen aan projectprijsopgaveregels
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Op projectgebaseerde prijsopgaveregels kunt u de specifieke taken toewijzen van een project dat al aan een prijsopgaveregel is gekoppeld.
+Op projectprijsopgaveregels kunt u de specifieke taken toewijzen van een project dat al aan een prijsopgaveregel is gekoppeld.
 
 Wanneer u taken toewijst aan een prijsopgaveregel, zijn de volgende items die u op de prijsopgaveregel hebt gedefinieerd alleen van toepassing op die taken:
 

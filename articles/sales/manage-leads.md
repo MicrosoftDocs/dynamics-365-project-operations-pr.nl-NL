@@ -1,31 +1,29 @@
 ---
-title: Leads beheren
+title: Projectgebaseerde potentiële klanten beheren
 description: Dit artikel bevat informatie over het beheren van projectgebaseerde potentiële klanten.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920192"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825793"
 ---
-# <a name="manage-leads"></a>Leads beheren
+# <a name="manage-project-based-leads"></a>Projectgebaseerde potentiële klanten beheren
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
 Projectgebaseerde potentiële klanten kunnen worden beheerd en gekwalificeerd in Project Operations. Het proces van leadbeheer omvat het maken van op werk gebaseerde potentiële klanten en het kwalificeren van die potentiële klanten. 
 
-## <a name="project-sales-leads"></a>Projectgebaseerde verkoopleads
-
 Open in het gedeelte **Verkoop** in het linkernavigatievenster de lijstpagina **Potentiële klanten** om een lijst met alle records met potentiële klanten in het systeem te bekijken. De weergegeven lijst met potentiële klanten zijn werkgebaseerde en andere soorten potentiële klanten die kunnen worden gemaakt als u ook beschikt over de Dynamics 365 Sales- of Dynamics 365 Field Service-toepassingen.
 
 U kunt een gefilterde weergave maken om alleen projectgebaseerde potentiële klanten te zien door een filter te maken op de waarde bij **Type**. U kunt er bijvoorbeeld voor kiezen om alleen werkgebaseerde potentiële klanten weer te geven.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Een nieuwe potentiële klant creëren voor een projectmatige deal
+## <a name="create-a-new-project-based-lead"></a>Een nieuwe projectgebaseerde potentiële klant maken 
 
 Wanneer een projectgebaseerde potentiële klant in aanmerking komt, worden een verkoopkans en een account aangemaakt. Een projectgebaseerde verkoopkans is het startpunt voor verkoopactiviteiten in de fase Verkoopkans. Projectgebaseerde verkoopkansen bieden unieke mogelijkheden die nodig zijn om projectwerk te verkopen. Het gaat om deze mogelijkheden:
 

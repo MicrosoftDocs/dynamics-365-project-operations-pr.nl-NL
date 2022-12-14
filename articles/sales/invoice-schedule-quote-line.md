@@ -1,27 +1,27 @@
 ---
-title: Factuurschema's voor projectgebaseerde prijsopgaveregels
+title: Factuurschema's voor projectprijsopgaveregels
 description: Dit artikel bevat informatie over het maken van factuurschema's en mijlpalen voor prijsopgaveregels.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918306"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825746"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Factuurschema's voor projectgebaseerde prijsopgaveregels
+# <a name="invoice-schedules-on-project-quote-lines"></a>Factuurschema's voor projectprijsopgaveregels
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen, vereenvoudigde implementatie - van deal tot pro-formafacturering_
 
-Een projectgebaseerde prijsopgaveregel geeft de mogelijkheid om een factuurschema te maken. Dit is optioneel in de prijsopgavefase omdat de toepassing het factureren van een project niet ondersteunt wanneer het is gekoppeld aan een prijsopgaveregel. Facturering is pas toegestaan nadat de prijsopgave is geaccepteerd. De enige downstream-impact van het maken van een factuurschema tijdens de prijsopgavefase, is dat dit factuurschema wordt gekopieerd naar de projectgebaseerde contractregel. Als u tijdens de prijsopgavefase geen factuurschema maakt, kunt u dit doen op de projectmatige contractregel.
+Een projectprijsopgaveregel geeft de mogelijkheid om een factuurschema te maken. Dit is optioneel in de prijsopgavefase omdat de toepassing het factureren van een project niet ondersteunt wanneer het is gekoppeld aan een prijsopgaveregel. Facturering is pas toegestaan nadat de prijsopgave is geaccepteerd. De enige downstream-impact van het maken van een factuurschema tijdens de prijsopgavefase, is dat dit factuurschema wordt gekopieerd naar de projectgebaseerde contractregel. Als u tijdens de prijsopgavefase geen factuurschema maakt, kunt u dit doen op de projectmatige contractregel.
 
 Over het algemeen is het doel van factuurschema's om automatisch conceptfacturen voor een projectgebaseerde contractregel te maken. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Een factuurschema voor tijd en materiaal maken voor een projectgebaseerde prijsopgaveregel
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Een factuurschema voor tijd en materiaal maken voor een projectprijsopgaveregel
 
 Wanneer de factureringsmethode voor een projectgebaseerde prijsopgaveregel Tijd en materiaal is, genereert het systeem een op datum gebaseerd factuurschema. Voer de volgende stappen uit om automatisch een op datum gebaseerd factuurschema te genereren.
 
@@ -36,7 +36,7 @@ Wanneer de factureringsmethode voor een projectgebaseerde prijsopgaveregel Tijd 
     - **Sluitingsdatum van de transactie** is ingesteld op de dag vóór **Uitvoeringsdatum van factuur**.
     - **Uitvoeringsstatus** wordt automatisch ingesteld op **Niet uitvoeren**. Wanneer de taak voor het automatisch maken van facturen wordt uitgevoerd voor een bepaalde datum van factuuruitvoering, wordt dit veld bijgewerkt naar **Uitvoering geslaagd** of **Uitvoering mislukt**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Een factuurschema voor vaste prijs maken voor een projectgebaseerde prijsopgaveregel
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Een factuurschema voor vaste prijs maken voor een projectprijsopgaveregel
 
 Als de projectgebaseerde prijsopgaveregel een **vaste** factureringsmethode heeft, maakt het systeem een op mijlpalen gebaseerd factuurschema. Voer de volgende stappen uit om dit schema automatisch te genereren voor een vaste set mijlpalen die over de kalenderperiode worden verdeeld.
 

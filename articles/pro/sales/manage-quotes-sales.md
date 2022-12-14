@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911636"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826075"
 ---
 # <a name="manage-project-quotes"></a>Projectprijsopgaven beheren
 
@@ -23,7 +23,7 @@ In Dynamics 365 Project Operations zijn projectprijsopgaven bedoeld om te helpen
   - Prijsopgaveregeldetails die het werk voor elke component of prijsopgaveregel op hoog niveau identificeren en schatten. Planning of geschatte datum en de financiële aspecten van het werk worden aan de contractregel gekoppeld.
   - Voor elke prijsopgaveregel worden contractmodellen en toerekenbare componenten opgesteld. Deze opzet helpt bij het schatten van de spreiding van inkomsten, uitgaven en winstgevendheid voor elke prijsopgaveregel en de algehele prijsopgave.
 
-## <a name="view-all-project-based-quotes"></a>Alle projectgebaseerde prijsopgaven weergeven
+## <a name="view-all-project-quotes"></a>Alle projectprijsopgaven weergeven
 
 Een lijst van alle projectprijsopgaven is te zien op de lijstpagina **Prijsopgaven**. 
 

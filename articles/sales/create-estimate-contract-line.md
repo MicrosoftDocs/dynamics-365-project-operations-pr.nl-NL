@@ -1,19 +1,19 @@
 ---
-title: Een schatting maken voor een projectcontractregel
+title: Een schatting maken voor een projectgebaseerde contractregel
 description: Dit artikel bevat informatie over schattingen op een projectcontractregel.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 553f7e4a9e9f57732267a48da2b299c1751b0c0e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 633ad3130a28d75ad10b81e03a883e0a732b1ba8
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932014"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825189"
 ---
-# <a name="estimate-a-project-contract-line"></a>Een schatting maken voor een projectcontractregel
+# <a name="estimate-a-project-based-contract-line"></a>Een schatting maken voor een projectgebaseerde contractregel
 
 _**Van toepassing op:** Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_ 
 
@@ -35,7 +35,7 @@ Voer de volgende stappen uit om een schatting direct op een projectcontractregel
 | --- | --- | --- | --- |
 | **Beschrijving** | **Snelle invoer** | Een beschrijving van de betreffende schatting. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
 | **Transactieklasse** | **Snelle invoer** | Deze lijst met transactieklassen wordt opgenomen op het tabblad **Algemeen** van de projectgebaseerde contractregel. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
-| **Product selecteren** | **Snelle invoer** | Is van toepassing wanneer de transactieklasse **Materiaal** is.​ U kunt ervoor kiezen om aan te geven dat deze schattingsregel voor een **bestaand** (catalogus)product of een **toe te voegen** product is. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
+| **Product selecteren** | **Snelle invoer** | Is van toepassing wanneer de transactieklasse **Materiaal** is. U kunt ervoor kiezen om aan te geven dat deze schattingsregel voor een **bestaand** (catalogus)product of een **toe te voegen** product is. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
 | **Product** | **Snelle invoer** | De id van het product uit de productcatalogus. Dit veld is alleen ingeschakeld wanneer u **Bestaand product** selecteert in het veld **Product selecteren**. De id wordt gebruikt om de verkoopprijs op te halen uit de projectprijslijst van het contract. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
 | **Toe te voegen product** | **Snelle invoer** | Een tekstveld om de productnaam op te geven. Dit veld is alleen ingeschakeld wanneer u **Toevoegen** selecteert in het veld **Product selecteren**.| Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt. |
 | **- Rol** | **Snelle invoer** | De rol van de persoon die dit werk uitvoert of deze kosten maakt. | Deze waarde wordt standaard ingesteld op de gerelateerde contractregeldetails voor kosten die automatisch worden gemaakt.|

@@ -1,29 +1,29 @@
 ---
-title: Projectgebaseerde verkoopkansregels - lite
+title: Verkoopkansregels voor project
 description: Dit artikel bevat informatie over projectgebaseerde verkoopkansregels. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914258"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824949"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Projectgebaseerde verkoopkansregels - lite
+# <a name="project-opportunity-lines"></a>Verkoopkansregels voor project 
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Projectgebaseerde verkoopkansregels zijn alleen beschikbaar in projectgebaseerde verkoopkansen. Voor projectgebaseerde verkoopkansrecords is het veld **Type** ingesteld op **Werkgebaseerd**.
+Projectverkoopkansregels zijn alleen beschikbaar in projectgebaseerde verkoopkansen. Voor projectgebaseerde verkoopkansrecords is het veld **Type** ingesteld op **Werkgebaseerd**.
 
-Projectgebaseerde verkoopkansregels zijn de regelitems die met behulp van een project aan de klant worden geleverd. Een project kan echter niet worden gekoppeld aan een projectgebaseerde verkoopkansregel. Projecten kunnen worden gekoppeld aan regelitems uit de fase **Prijsopgave** en gaan naar de volgende fase omdat de verkoopkans zich doorgaans in een vroeg stadium van de levenscyclus van een deal bevindt. Het bepalen met hoeveel projecten het werk voor de klant wordt opgeleverd, is een beslissing die later in de verkoopfase wordt genomen. U kunt de verkoopkansfase gebruiken om de verschillende leveringscomponenten voor de klant te identificeren. De beslissingen over het werkelijke aantal projecten dat wordt gebruikt om deze componenten te leveren, kunnen vooruit worden geschoven totdat er meer informatie over het werk zelf bekend is.
+Projectverkoopkansregels zijn de regelitems die met behulp van een project aan de klant worden geleverd. Een project kan echter niet worden gekoppeld aan een projectgebaseerde verkoopkansregel. Projecten kunnen worden gekoppeld aan regelitems uit de fase **Prijsopgave** en gaan naar de volgende fase omdat de verkoopkans zich doorgaans in een vroeg stadium van de levenscyclus van een deal bevindt. Het bepalen met hoeveel projecten het werk voor de klant wordt opgeleverd, is een beslissing die later in de verkoopfase wordt genomen. U kunt de verkoopkansfase gebruiken om de verschillende leveringscomponenten voor de klant te identificeren. De beslissingen over het werkelijke aantal projecten dat wordt gebruikt om deze componenten te leveren, kunnen vooruit worden geschoven totdat er meer informatie over het werk zelf bekend is.
 
-Hieronder staan de velden op een projectgebaseerde verkoopkansregel:
+Hieronder staan de velden op een projectverkoopkansregel:
 
-| **Veld** | **Locatie** | **Beschrijving** | **Downstreamimpact** |
+| **Veld** | **Location** | **Omschrijving** | **Downstreamimpact** |
 | --- | --- | --- | --- |
 | Producttype | Tabblad Algemeen (verborgen) | Selecteer een van de volgende opties:</br>- Projectgebaseerde service (alleen beschikbaar wanneer Dynamics 365 Project Operations is geinstalleerd)</br>- Product (alleen beschikbaar als Project Operations en Dynamics 365 Sales zijn geïnstalleerd) | De waarde van dit veld is ingesteld op **Projectgebaseerde service** wanneer u een projectgebaseerde verkoopkansregel maakt vanuit het projectgebaseerde regelraster van de verkoopkans. <br> Als u deze waarde wijzigt of overschrijft, wordt de projectfunctionaliteit niet ingeschakeld voor uw projectgebaseerde regelitems. |
 | Kans | Tabblad Algemeen | Dit veld is alleen-lezen en verwijst naar de bovenliggende verkoopkansrecord waartoe dit regelitem behoort. | Er is geen downstreamimpact van dit veld. |

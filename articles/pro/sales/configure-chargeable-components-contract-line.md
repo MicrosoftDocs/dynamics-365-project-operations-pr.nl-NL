@@ -1,23 +1,23 @@
 ---
-title: Toerekenbare componenten van een projectgebaseerde contractregel configureren
+title: Toerekenbare componenten van een projectcontractregel configureren
 description: Dit artikel bevat informatie over het toevoegen van toerekenbare componenten aan contractregels in Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0e4118e8e56d45ef75f53d828e267a8a9c1c903a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 33296c93964cc88499e7a98d499b99463e59d62a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922952"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825558"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Toerekenbare componenten van een projectgebaseerde contractregel configureren
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Toerekenbare componenten van een projectcontractregel configureren
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering, Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
-Een projectgebaseerde contractregel heeft *opgenomen* onderdelen en *toerekenbare* onderdelen.
+Een projectcontractregel heeft *opgenomen* onderdelen en *toerekenbare* onderdelen.
 
 Opgenomen onderdelen zijn onderdelen waarop het volgende van toepassing is:
 
@@ -336,7 +336,7 @@ Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar</stro
 Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet-toerekenbaar</strong>
                 </p>
                 <p>
-Factureringstype voor een werkelijke waarde voor materiaal: <strong>Niet-toerekenbaar</strong>
+Factureringstype voor een werkelijke waarde voor materiaal: <strong> Niet-toerekenbaar</strong>
                 </p>
             </td>
         </tr>
@@ -376,7 +376,7 @@ Toerekenbaar </p>
 Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar</strong>
                 </p>
                 <p>
-Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet-toerekenbaar</strong>
+Factureringstype voor een werkelijke waarde voor onkosten: <strong> Niet-toerekenbaar</strong>
                 </p>
                 <p>
 Factureringstype op werkelijke materiaalwaarde: Toerekenbaar </p>
@@ -459,7 +459,7 @@ Kan niet worden ingesteld </p>
 Facturering voor een werkelijke waarde van tijd: <strong>Niet beschikbaar</strong>
                 </p>
                 <p>
-Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet-toerekenbaar</strong>
+Factureringstype voor een werkelijke waarde voor onkosten: <strong> Niet-toerekenbaar</strong>
                 </p>
                 <p>
 Factureringstype op werkelijke materiaalwaarde: Toerekenbaar </p>
@@ -499,7 +499,7 @@ Kan niet worden ingesteld </p>
                 <p>
 Facturering voor een werkelijke waarde van tijd: Toerekenbaar </p>
                 <p>
-Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet beschikbaar</strong>
+Factureringstype voor een werkelijke waarde voor onkosten:<strong> Niet beschikbaar</strong>
                 </p>
                 <p>
 Factureringstype op werkelijke materiaalwaarde: Toerekenbaar </p>
@@ -538,7 +538,7 @@ Kan niet worden ingesteld </p>
             </td>
             <td width="350" valign="top">
                 <p>
-Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar</strong>
+Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar </strong>
                 </p>
                 <p>
 Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet beschikbaar</strong>
@@ -621,13 +621,13 @@ Kan niet worden ingesteld </p>
             </td>
             <td width="350" valign="top">
                 <p>
-Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar</strong>
+Facturering voor een werkelijke waarde van tijd: <strong>Niet-toerekenbaar </strong>
                 </p>
                 <p>
-Factureringstype voor een werkelijke waarde voor onkosten: <strong>Niet-toerekenbaar</strong>
+Factureringstype voor een werkelijke waarde voor onkosten:<strong> Niet-toerekenbaar </strong>
                 </p>
                 <p>
-Factureringstype voor een werkelijke waarde voor materiaal: <strong>Niet beschikbaar</strong>
+Factureringstype voor een werkelijke waarde voor materiaal:<strong> Niet beschikbaar</strong>
                 </p>
             </td>
         </tr>

@@ -1,21 +1,21 @@
 ---
-title: Een schatting voor een projectgebaseerde prijsopgaveregel maken
-description: Dit artikel bevat informatie over het maken van een schatting op een projectgebaseerde prijsopgaveregel.
+title: Een schatting voor een projectprijsopgaveregel maken
+description: Dit artikel bevat informatie over het maken van een schatting op een projectprijsopgaveregel.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914350"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825981"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Een schatting voor een projectgebaseerde prijsopgaveregel maken
+# <a name="estimate-a-project-quote-line"></a>Een schatting voor een projectprijsopgaveregel maken
 
-_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
+_**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering, Project Operations voor scenario's op basis van resources/niet-voorradige artikelen_
 
 Een projectgebaseerde prijsopgaveregel bevat details die kunnen helpen bij het schatten van de kosten en potentiële inkomsten van het werk dat moet worden uitgevoerd is om de prijsopgaveregel te leveren.
 
@@ -24,7 +24,7 @@ Als u een projectgebaseerde prijsopgaveregel wilt schatten, selecteert u op de p
 - De schatting met behulp van prijsopgaveregeldetails handmatig en direct op de prijsopgaveregel maken. 
 - Een project en een projectplan maken en vervolgens het project en taken in het project aan de prijsopgaveregel koppelen. Het proces om de schattingen voor het projectplan in de prijsopgaveregel te importeren op basis van de door u verstrekte informatie wordt ingeschakeld.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Schattingen rechtstreeks op een projectgebaseerde prijsopgaveregel maken
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Schattingen rechtstreeks op een projectprijsopgaveregel maken
 
 Als u een schatting wilt maken op een projectgebaseerde prijsopgaveregel, selecteert u het tabblad **Details van prijsopgaveregel**. Het regelitem dat u op dit tabblad maakt, bevat een samenvatting van de waarde van de prijsopgave voor deze prijsopgaveregel. 
 
@@ -34,7 +34,7 @@ Selecteer om details van prijsopgaven te maken **Nieuw prijsopgaveregeldetail** 
 | --- | --- | --- | --- |
 | Beschrijving | Snelle invoer | Een beschrijving van de betreffende schatting. | Deze waarde wordt standaard ingesteld op de gerelateerde prijsopgaveregeldetails voor kosten die automatisch worden gemaakt. |
 | Transactieklasse | Snelle invoer | Deze vervolgkeuzelijst bevat de transactieklassen die zijn opgenomen op het tabblad **Algemeen** van de projectgebaseerde prijsopgaveregel.  | Deze waarde wordt standaard ingesteld op de gerelateerde prijsopgaveregeldetails voor kosten die automatisch worden gemaakt. |
-| Product selecteren | Snelle invoer | Is van toepassing wanneer de transactieklasse **Materiaal** is.​ U kunt ervoor kiezen om aan te geven dat deze schattingsregel voor een **bestaand** (catalogus)product of een **toe te voegen** product is. | Deze waarde wordt standaard ingesteld op de gerelateerde prijsopgaveregeldetails voor kosten die automatisch worden gemaakt. |
+| Product selecteren | Snelle invoer | Is van toepassing wanneer de transactieklasse **Materiaal** is. U kunt ervoor kiezen om aan te geven dat deze schattingsregel voor een **bestaand** (catalogus)product of een **toe te voegen** product is. | Deze waarde wordt standaard ingesteld op de gerelateerde prijsopgaveregeldetails voor kosten die automatisch worden gemaakt. |
 | Product | Snelle invoer | De id van het product uit de productcatalogus. Dit veld is alleen ingeschakeld wanneer u **Bestaand** selecteert in het veld **Product selecteren**. De id wordt gebruikt om de verkoopprijs op te halen uit de projectprijslijst op de offerte. | Deze waarde wordt standaard ingesteld op de gerelateerde prijsopgaveregeldetails voor kosten die automatisch worden gemaakt. |
 | Toe te voegen product | Snelle invoer | Een tekstvak om de productnaam toe te voegen. Dit veld is alleen ingeschakeld als u **Toevoegen** selecteert in het veld **Product selecteren**.| Deze waarde wordt standaard ingesteld op de gerelateerde prijsopgaveregeldetails voor kosten die automatisch worden gemaakt. |
 | - Rol | Snelle invoer | De rol van de persoon die dit werk gaat uitvoeren of deze kosten maakt. | Deze waarde wordt standaard ingesteld op de gerelateerde prijsopgaveregeldetails voor kosten die automatisch worden gemaakt. |
@@ -68,8 +68,7 @@ Valuta in de prijsopgaveregeldetails voor standaardkostenwaarden uit de projectp
 
 Winstberekeningen zetten het bedrag in de prijsopgaveregeldetails voor kosten en verkopen om in de basisvaluta van de omgeving om de totale geschatte marge in de prijsopgave te rapporteren.
 
-> [!OPMERKING
-> > Afrondingsfouten voor valuta en gewijzigde marges kunnen optreden als gevolg van het ontbreken van effectieve wisselkoersen op de datum. Gebruik deze berekeningen alleen voor projectcontracten, aangezien dit benaderingen zijn en geen feitelijke wettelijke of andere aangiftes zijn die een hogere afrondingsnauwkeurigheid en bewustzijn van ingangsdatums voor wisselkoersen vereisen.
+> [!OPMERKING: afrondingsfouten voor valuta en gewijzigde marges kunnen optreden als gevolg van het ontbreken van effectieve wisselkoersen op de datum. Gebruik deze berekeningen alleen voor projectcontracten, aangezien dit benaderingen zijn en geen feitelijke wettelijke of andere aangiftes zijn die een hogere afrondingsnauwkeurigheid en bewustzijn van ingangsdatums voor wisselkoersen vereisen.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

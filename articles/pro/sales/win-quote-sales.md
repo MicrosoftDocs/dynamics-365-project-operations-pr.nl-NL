@@ -1,5 +1,5 @@
 ---
-title: Een prijsopgave sluiten - lite
+title: Projectprijsopgaven sluiten
 description: Dit artikel biedt informatie over het afsluiten van een prijsopgave in Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916926"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826169"
 ---
-# <a name="close-a-quote---lite"></a>Een prijsopgave sluiten - lite
+# <a name="close-project-quotes"></a>Projectprijsopgaven sluiten
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
@@ -30,7 +30,7 @@ Als de prijsopgave is gekoppeld aan een verkoopkans, worden alle andere projectp
 
 Als er werkelijke waarden zijn voor tijd van een project terwijl dit nog aan een conceptprijsopgave is gekoppeld, worden alleen de kosten van de tijd of de onkosten geregistreerd. Nadat een prijsopgave is gesloten als Gewonnen, zal de toepassing de kosten herfactureren door de oudere werkelijke kosten om te keren en nieuwe werkelijke kosten opnieuw te creëren. De applicatie verwerkt deze werkelijke kosten op basis van de factureringsmethode van de bijbehorende projectcontractregel. Als de werkelijke kosten verwijzen naar een tijd- en materiaalcontractregel, worden overeenkomstige niet-gefactureerde werkelijke verkoopcijfers gemaakt voor het moment waarop de prijsopgave wordt gesloten en het projectcontract wordt gecreëerd. Als de werkelijke kosten verwijzen naar een contractregel met een vaste prijs, stopt de toepassing met het opnieuw verwerken van de werkelijke kosten die zijn gebaseerd op de regels voor gesplitste facturering voor de projectcontractklanten.
 
-## <a name="closing-a-quote-as-lost"></a>Een prijsopgave sluiten als verloren:
+## <a name="closing-a-quote-as-lost"></a>Een prijsopgave sluiten als verloren
 
 Wanneer u een projectprijsopgave sluit als Gemist, wordt de status ingesteld op Gesloten en de reden van status is Gemist. Als u de prijsopgave sluit, wordt de prijsopgave van het project alleen-lezen. Omdat een gesloten prijsopgave niet opnieuw kan worden geopend, zal een bevestigingsvenster uw wijzigingen bevestigen voordat u een prijsopgave sluit.
 

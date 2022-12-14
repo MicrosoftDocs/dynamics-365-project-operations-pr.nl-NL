@@ -1,17 +1,17 @@
 ---
-title: Belangrijke concepten voor prijsopgaven - lite
+title: Unieke concepten voor projectprijsopgaven
 description: Dit artikel biedt informatie over het gebruiken van projectprijsopgaven in Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916972"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825887"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Unieke concepten voor projectprijsopgaven
 
@@ -82,9 +82,13 @@ Factuurschema's zijn specifiek voor elke prijsopgaveregel en zijn ook optioneel.
 
 Prijsopgaven voor Project Operations zijn gebaseerd op de prijsopgaven van Dynamics 365 Sales. Er zijn echter enkele belangrijke verschillen in functionaliteit waarvan u op de hoogte moet zijn:
 
-- De acties **Herzien** en **Activeren** worden niet ondersteund.
+
 - Prijsopgaven voor Project Operations hebben twee verschillende soorten regels. De ene is voor projecten en de andere is voor producten.
 - Prijsopgaven voor Project Operations hebben hun eigen formulier- en UI-elementen, bedrijfsregels, bedrijfslogica in invoegtoepassingen en client-side scripts die ze uniek maken ten opzichte van verkoopprijsopgaven.
+- Met verkoopprijsopgaven kunt meerdere orders aan een enkele verkoopprijsopgave koppelen. In Project Operations kan slechts één projectcontract aan een projectprijsopgave worden gekoppeld.
+- Als een prijsopgave wordt geaccepteerd, kan de gerelateerde verkoopkans open blijven. Als u een order binnenhaalt met een projectprijsopgave, wordt de gerelateerde verkoopkans gesloten.
+- Een verkoopprijsopgave bevat niet alle velden en concepten die zijn opgenomen in een projectprijsopgave. De velden omvatten **Contracterende eenheid**, **Accountmanager** en **Naam van de contactpersoon voor de factuur**.  
+- **Type**: verkoopprijsopgaven en projectprijsopgaven kunnen ook worden geïdentificeerd aan de hand van het op een optieset gebaseerde veld **Type**. Voor een verkoopprijsopgave heeft dit veld de waarde **Artikelgebaseerd**. Voor een projectprijsopgave heeft deze de waarde **Werkgebaseerd**.
 
 Daarom wordt het niet aanbevolen om een verkoopprijsopgave en een Project Operations-prijsopgave door elkaar te gebruiken.
 

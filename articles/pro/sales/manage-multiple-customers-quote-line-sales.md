@@ -1,23 +1,23 @@
 ---
-title: Meerdere klanten in projectgebaseerde prijsopgaveregels beheren - lite
-description: In artikel wordt beschreven hoe meerdere klanten in projectgebaseerde prijsopgaveregels kunnen worden beheerd.
+title: Meerdere klanten in projectprijsopgaveregels
+description: In artikel wordt beschreven hoe meerdere klanten in projectprijsopgaveregels kunnen worden beheerd.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927782"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824432"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Meerdere klanten in projectgebaseerde prijsopgaveregels beheren - lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Meerdere klanten in projectprijsopgaveregels
 
 _**Van toepassing op:** Lite-implementatie - van deal tot pro-formafacturering_
 
-Projectgebaseerde prijsopgaveregels ondersteunen scenario's waarin elke prijsopgaveregel een lijst heeft met klanten die ervoor betalen. Deze lijst met klanten op de projectgebaseerde prijsopgaveregel kan hetzelfde zijn als de lijst met klanten in de prijsopgave. U kunt de lijst met klanten ook wijzigen. Wanneer een projectprijsopgave wordt geaccepteerd, wordt de klantenlijst op de projectgebaseerde prijsopgaveregel gekopieerd naar de corresponderende projectgebaseerde contractregel om het uiteindelijke projectcontract te creëren. Klanten in de projectgebaseerde prijsopgave worden gekopieerd naar het projectcontract.
+Projectprijsopgaveregels ondersteunen scenario's waarin elke prijsopgaveregel een lijst heeft met klanten die ervoor betalen. Deze lijst met klanten op de projectgebaseerde prijsopgaveregel kan hetzelfde zijn als de lijst met klanten in de prijsopgave. U kunt de lijst met klanten ook wijzigen. Wanneer een projectprijsopgave wordt geaccepteerd, wordt de klantenlijst op de projectgebaseerde prijsopgaveregel gekopieerd naar de corresponderende projectgebaseerde contractregel om het uiteindelijke projectcontract te creëren. Klanten in de projectgebaseerde prijsopgave worden gekopieerd naar het projectcontract.
 
 Wanneer u het uiteindelijke projectcontract factureert, krijgt de klantenlijst op de projectgebaseerde contractregel voorrang op de lijst op het projectcontract. De klantenlijst op het projectcontract wordt alleen gebruikt voor standaardwaarden op nieuwe projectcontractregels.
 
